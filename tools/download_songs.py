@@ -1,8 +1,17 @@
 import pafy 
 import googleapiclient.discovery
 import pandas as pd
-from moviepy.editor import *
 import os
+import json
+from moviepy.editor import *
+
+
+def read_config(*config_files):
+    data = {}
+    for file in config_files:
+        config = open(file)
+        data.update(json.load(config))
+    return data
 
 
 def read_excel_database(filename):
@@ -13,10 +22,11 @@ def read_excel_database(filename):
     return id, artist, title
 
 
-def scrape_link(phrase):
-    api_service_name = "youtube"
-    api_version = "v3"
-    api_key = "" #insert your api key
+def scrape_link(phrase, config):
+    service, version, key = config['api_service_name'], config['api_version'], config['api_key']
+    api_service_name = service
+    api_version = version
+    api_key = key
     youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=api_key)
     search_phrase = phrase
 
@@ -48,7 +58,7 @@ def save_index_name_and_link(filename, index, name, link, opt=""):
         
 def convert_to_mp3_and_change_name(filename, index):
     video = VideoFileClip(filename)
-    video.audio.write_audiofile(f"{index}.mp3")
+    video.audio.write_audiofile(f"../database/songs/{index}.mp3")
     
     
 def remove_all_mp4_files(directory):
@@ -58,16 +68,20 @@ def remove_all_mp4_files(directory):
     
     
 if __name__=="__main__":
-    ids, artists, titles = read_excel_database("./MoodyLyrics4Q.csv")
+    START_ID = 94
+    config = read_config("../config/secrets.json", "../config/youtube.json")
+    ids, artists, titles = read_excel_database("../database/MoodyLyrics4Q.csv")
     for id, artist, title in zip(ids, artists, titles):
-        # print(f"{id} {artist} {title}")
-        link = scrape_link(f'{artist}, {title}')
-        try:
-            filename = download_video(link)
-            save_index_name_and_link('downloaded.txt', id, title, link)
-            convert_to_mp3_and_change_name(filename, id)
-        except:
-            save_index_name_and_link('downloaded.txt', id, title, link, opt="failed")
+        link = scrape_link(f'{artist}, {title}', config)
+        if int(id[2:]) < START_ID:
+            continue
+        else:
+            try:
+                filename = download_video(link)
+                convert_to_mp3_and_change_name(filename, id)
+                save_index_name_and_link('../database/songs/downloaded.txt', id, title, link)
+            except:
+                save_index_name_and_link('../database/songs/downloaded.txt', id, title, link, opt="failed")
 
     remove_all_mp4_files("./")
     print("DONE")
