@@ -67,12 +67,11 @@ def remove_all_mp4_files(directory):
             os.remove(file)
     
     
-if __name__=="__main__":
-    START_ID = 94
+def main(start_id):
     config = read_config("../config/secrets.json", "../config/youtube.json")
     ids, artists, titles = read_excel_database("../database/MoodyLyrics4Q.csv")
     for id, artist, title in zip(ids, artists, titles):
-        if int(id[2:]) < START_ID:
+        if int(id[2:]) < start_id:
             continue
         else:
             link = scrape_link(f'{artist}, {title}', config)
@@ -84,5 +83,10 @@ if __name__=="__main__":
                 save_index_name_and_link('../database/songs/downloaded.txt', id, title, link, opt="failed")
 
     remove_all_mp4_files("./")
-    print("DONE")
+    print("DONE") 
+    
+    
+if __name__=="__main__":
+    START_ID = 94
+    main(START_ID)
     
