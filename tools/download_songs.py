@@ -72,10 +72,10 @@ if __name__=="__main__":
     config = read_config("../config/secrets.json", "../config/youtube.json")
     ids, artists, titles = read_excel_database("../database/MoodyLyrics4Q.csv")
     for id, artist, title in zip(ids, artists, titles):
-        link = scrape_link(f'{artist}, {title}', config)
         if int(id[2:]) < START_ID:
             continue
         else:
+            link = scrape_link(f'{artist}, {title}', config)
             try:
                 filename = download_video(link)
                 convert_to_mp3_and_change_name(filename, id)
