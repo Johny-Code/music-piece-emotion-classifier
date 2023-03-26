@@ -72,7 +72,8 @@ def main(start_id):
                 try:
                     song = downloaded_song.to_dict()
                 except:
-                    print("lyric or url are empty")
+                    song = {}
+                    print("downloaded_song is empty")
                     log_error(id, artist, title, 'empty')
                 save_lyric(id, artist, title, mood, song)
             else:
@@ -80,6 +81,6 @@ def main(start_id):
 
 
 if __name__ == '__main__':
-    START_ID = 0
+    START_ID = 628
     main(START_ID)
     
