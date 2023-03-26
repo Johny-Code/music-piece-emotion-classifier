@@ -48,7 +48,7 @@ def save_lyric(id, artist, title, mood, song):
         'song': song
     }
 
-    with open(os.path.join('..', 'database', 'lyrics_v1', f"{filename}.json"), 'w', errors='backslashreplace') as file:
+    with open(os.path.join('..', 'database', 'lyrics', f"{filename}.json"), 'w', errors='backslashreplace') as file:
         file.write(json.dumps(song, indent=4))
 
 
