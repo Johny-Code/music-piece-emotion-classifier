@@ -4,10 +4,13 @@ import pandas as pd
 
 from lyricsgenius import Genius 
 from requests.exceptions import HTTPError, Timeout
+from http import HTTPStatus
 
 from download_songs import read_config, read_excel_database
-from const import ILLEGAL_FILENAME_CHARAKTERS, STATUS_OK
 
+
+ILLEGAL_FILENAME_CHARAKTERS = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "[", "]", "{", "}", ";", 
+                               ":", "=", ".", "/", "<", ">", "?", "|", "`", "~", "-", "=", "+", "\""]
 
 def authorize_genius(config):
     try:
@@ -21,16 +24,16 @@ def authorize_genius(config):
 def download_lyric(genius, title, artist):
     try:
         downloaded_song = genius.search_song(title = title, artist = artist, get_full_info = True)
-        return downloaded_song, STATUS_OK
+        return downloaded_song, HTTPStatus.OK.value
     except HTTPError as e:
-        print(e.args[1])  # error message
+        print(e.args[1])
         return "", e.errno
     except Timeout as t:
         print("Request timed out")
         return "", t
 
 
-def replace_illega_chars(input_string):
+def replace_illegal_chars(input_string):
     for illegal_char in ILLEGAL_FILENAME_CHARAKTERS:
         input_string = input_string.replace(illegal_char, "-")
     return input_string
@@ -38,7 +41,7 @@ def replace_illega_chars(input_string):
 
 def save_lyric(id, artist, title, mood, song):
     filename =  f"{id}_{artist}_{title}"
-    filename = replace_illega_chars(filename)
+    filename = replace_illegal_chars(filename)
     
     song = {
         'id': id,
@@ -68,7 +71,7 @@ def main(start_id):
             continue
         else:
             downloaded_song, status_code = download_lyric(genius, title, artist)
-            if status_code == STATUS_OK:
+            if status_code == HTTPStatus.OK.value:
                 try:
                     song = downloaded_song.to_dict()
                 except:
@@ -81,6 +84,6 @@ def main(start_id):
 
 
 if __name__ == '__main__':
-    START_ID = 628
+    START_ID = 786
     main(START_ID)
     
