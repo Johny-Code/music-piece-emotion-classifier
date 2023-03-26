@@ -20,12 +20,8 @@ def authorize_genius(config):
 
 def download_lyric(genius, title, artist):
     try:
-        downloaded_song = genius.search_song(title = title, artist = artist, get_full_info = False)
-        try: 
-            lyric = downloaded_song.lyrics
-        except:
-            lyric = ""
-        return lyric, STATUS_OK
+        downloaded_song = genius.search_song(title = title, artist = artist, get_full_info = True)
+        return downloaded_song, STATUS_OK
     except HTTPError as e:
         print(e.args[1])  # error message
         return "", e.errno
@@ -40,7 +36,7 @@ def replace_illega_chars(input_string):
     return input_string
 
 
-def save_lyric(id, artist, title, mood, lyric):
+def save_lyric(id, artist, title, mood, song):
     filename =  f"{id}_{artist}_{title}"
     filename = replace_illega_chars(filename)
     
@@ -49,10 +45,10 @@ def save_lyric(id, artist, title, mood, lyric):
         'mood': mood,
         'artist': artist,
         'title': title,
-        'lyric': lyric
+        'song': song
     }
 
-    with open(os.path.join('..', 'database', 'lyrics', f"{filename}.json"), 'w', errors='backslashreplace') as file:
+    with open(os.path.join('..', 'database', 'lyrics_v1', f"{filename}.json"), 'w', errors='backslashreplace') as file:
         file.write(json.dumps(song, indent=4))
 
 
@@ -71,17 +67,19 @@ def main(start_id):
         if int(id[2:]) < start_id:
             continue
         else:
-            lyric, status_code = download_lyric(genius, title, artist)
+            downloaded_song, status_code = download_lyric(genius, title, artist)
             if status_code == STATUS_OK:
-                if lyric == "":
-                    print("lyric is empty")
+                try:
+                    song = downloaded_song.to_dict()
+                except:
+                    print("lyric or url are empty")
                     log_error(id, artist, title, 'empty')
-                save_lyric(id, artist, title, mood, lyric)
+                save_lyric(id, artist, title, mood, song)
             else:
                 log_error(id, artist, title, status_code)
 
 
 if __name__ == '__main__':
-    START_ID = 135
+    START_ID = 0
     main(START_ID)
     
