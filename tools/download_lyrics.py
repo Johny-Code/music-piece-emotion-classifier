@@ -39,7 +39,7 @@ def replace_illegal_chars(input_string):
     return input_string
 
 
-def save_lyric(id, artist, title, mood, song):
+def save_lyric(id, artist, title, mood, song_info):
     filename =  f"{id}_{artist}_{title}"
     filename = replace_illegal_chars(filename)
     
@@ -48,7 +48,7 @@ def save_lyric(id, artist, title, mood, song):
         'mood': mood,
         'artist': artist,
         'title': title,
-        'song': song
+        'song': song_info
     }
 
     with open(os.path.join('..', 'database', 'lyrics', f"{filename}.json"), 'w', errors='backslashreplace') as file:
@@ -73,12 +73,12 @@ def main(start_id):
             downloaded_song, status_code = download_lyric(genius, title, artist)
             if status_code == HTTPStatus.OK.value:
                 try:
-                    song = downloaded_song.to_dict()
+                    song_info = downloaded_song.to_dict()
                 except:
-                    song = {}
+                    song_info = {}
                     print("downloaded_song is empty")
                     log_error(id, artist, title, 'empty')
-                save_lyric(id, artist, title, mood, song)
+                save_lyric(id, artist, title, mood, song_info)
             else:
                 log_error(id, artist, title, status_code)
 
