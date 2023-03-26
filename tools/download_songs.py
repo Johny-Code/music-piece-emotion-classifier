@@ -15,11 +15,12 @@ def read_config(*config_files):
 
 
 def read_excel_database(filename):
-    df = pd.read_csv(filename)
+    df = pd.read_csv(filename, )
     id = df["index"]
     artist = df['artist']
     title = df['title']
-    return id, artist, title
+    mood = df['mood']
+    return id, artist, title, mood
 
 
 def scrape_link(phrase, config):
@@ -69,7 +70,7 @@ def remove_all_mp4_files(directory):
     
 def main(start_id):
     config = read_config("../config/secrets.json", "../config/youtube.json")
-    ids, artists, titles = read_excel_database("../database/MoodyLyrics4Q.csv")
+    ids, artists, titles, _ = read_excel_database("../database/MoodyLyrics4Q.csv")
     for id, artist, title in zip(ids, artists, titles):
         if int(id[2:]) < start_id:
             continue
