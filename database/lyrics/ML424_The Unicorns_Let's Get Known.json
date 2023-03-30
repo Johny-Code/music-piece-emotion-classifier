@@ -1,0 +1,57 @@
+{
+    "id": "ML424",
+    "mood": "happy",
+    "artist": "The Unicorns",
+    "title": "Let's Get Known",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/159908",
+        "artist_names": "The Unicorns",
+        "full_title": "Let's Get Known by\u00a0The\u00a0Unicorns",
+        "header_image_thumbnail_url": "https://images.genius.com/a386d25191ef96ab0d64a01facc66d28.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/a386d25191ef96ab0d64a01facc66d28.600x600x1.jpg",
+        "id": 159908,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 125524,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1629675515,
+        "path": "/The-unicorns-lets-get-known-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-unicorns-lets-get-known-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 10,
+            "day": 21
+        },
+        "release_date_for_display": "October 21, 2003",
+        "release_date_with_abbreviated_month_for_display": "Oct. 21, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a386d25191ef96ab0d64a01facc66d28.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a386d25191ef96ab0d64a01facc66d28.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Let\u2019s Get Known",
+        "title_with_featured": "Let's Get Known",
+        "updated_by_human_at": 1629675515,
+        "url": "https://genius.com/The-unicorns-lets-get-known-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/53347",
+            "header_image_url": "https://images.genius.com/568a3e85f52936d746c374d0d3985c8c.400x250x1.jpg",
+            "id": 53347,
+            "image_url": "https://images.genius.com/568a3e85f52936d746c374d0d3985c8c.400x250x1.jpg",
+            "index_character": "u",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Unicorns",
+            "slug": "The-unicorns",
+            "url": "https://genius.com/artists/The-unicorns"
+        },
+        "artist": "The Unicorns",
+        "lyrics": "Let\u2019s Get Known Lyrics[Skit: Unknown Interviewee + Advertiser]\nA lot of strange people involved in it; ya know, there is the people who are really, really heavily into the more satanic aspects of it, and the really kind of... violent aspects\u2014which I'm not gonna share with you two, um...\n\nIf you'd like to get more details on that, call 1-800\u2014\n\n[Verses]\nSay, let's get known\nIf we keep it up, we'll show the haters\nIt's gonna be soon not later\n\nHey! Let's get known!\nIf we work real hard, we can buy some matching clothes\nFor our live shows\nLook at the ants on the floor\nThey work real hard, lifting three times their mass\nAnd sometimes more\n\nSo what do you say?\nLet's get known\nLet's have two spotlights shining\nWith all our work shown\n\nWhat do you say? It's all on the lineYou might also likeEmbed"
+    }
+}

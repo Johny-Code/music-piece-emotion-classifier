@@ -1,0 +1,58 @@
+{
+    "id": "ML318",
+    "mood": "happy",
+    "artist": "My Morning Jacket",
+    "title": "Evil Urges",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/437593",
+        "artist_names": "My Morning Jacket",
+        "full_title": "Evil Urges by\u00a0My\u00a0Morning Jacket",
+        "header_image_thumbnail_url": "https://images.genius.com/cdc64374b3786f9751fd92d3e6b4b011.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/cdc64374b3786f9751fd92d3e6b4b011.600x600x1.jpg",
+        "id": 437593,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 647266,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1644274084,
+        "path": "/My-morning-jacket-evil-urges-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/My-morning-jacket-evil-urges-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 6,
+            "day": 10
+        },
+        "release_date_for_display": "June 10, 2008",
+        "release_date_with_abbreviated_month_for_display": "Jun. 10, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/cdc64374b3786f9751fd92d3e6b4b011.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/cdc64374b3786f9751fd92d3e6b4b011.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Evil Urges",
+        "title_with_featured": "Evil Urges",
+        "updated_by_human_at": 1644274084,
+        "url": "https://genius.com/My-morning-jacket-evil-urges-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/60652",
+            "header_image_url": "https://images.genius.com/4a35b49eab34413eaba345dd6819bec5.1000x641x1.jpg",
+            "id": 60652,
+            "image_url": "https://images.genius.com/c791c43e36dd633c8a05fbf2199717bd.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "My Morning Jacket",
+            "slug": "My-morning-jacket",
+            "url": "https://genius.com/artists/My-morning-jacket",
+            "iq": 100
+        },
+        "artist": "My Morning Jacket",
+        "lyrics": "Evil Urges Lyrics[Verse 1]\nWhat is what? Man, they got us so scared\nThinking we're so evil way down under there\nHoo, I made a nasty decision\nTo love whoever I want just a-whenever I can\n\n[Chorus]\nThings they say are evil urges, baby\nThey be part of the human way\nIt ain't evil, baby, if it ain't hurting anybody\nEvil urges, baby, they be part of the human way\nIt ain't evil, baby, if it ain't hurting anybody, anybody\n[Verse 2]\nIf it's all the same, we're tired of waiting, c'mon then\nAnd dedicate your love to any woman or man\nNo racial boundary lines, no social subdivisions\nIf you want it, you can\n\n[Bridge]\nWell, I'm not saying, I'm not saying that I want it someday\nI'm not saying, I'm not saying that I want it somehow\nI'm not saying, I'm not saying that I want it someday, somehow\nOoh, I'm ready it for now (I'm ready for it now)\nI'm ready it for now\nI'm ready it for now (I'm ready for it now)\nI'm ready it for it, ha\nI'm ready for it (I'm ready for it now)\nI'm ready for it, ha\nI'm ready for it now (I'm ready for it now)\nI'm ready for it now\n\n[Chorus]\nThings they say are evil urges, baby\nThey be part of the human way\nIt ain't evil, baby, if it ain't hurting anybody\nEvil urges maybe good and bad, all the same, but c'mon now\nIt ain't evil, baby, it it ain't hurting anybody, anybody\nEvil urges, baby, they be part of the human way\nIt ain't evil, baby, if it ain't hurting anybody, anybody\nAnybody, anybodyYou might also likeEmbed"
+    }
+}

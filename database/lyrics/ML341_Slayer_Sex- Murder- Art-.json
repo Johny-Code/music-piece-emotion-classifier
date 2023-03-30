@@ -1,0 +1,57 @@
+{
+    "id": "ML341",
+    "mood": "angry",
+    "artist": "Slayer",
+    "title": "Sex. Murder. Art.",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/702334",
+        "artist_names": "Slayer",
+        "full_title": "Sex. Murder. Art. by\u00a0Slayer",
+        "header_image_thumbnail_url": "https://images.genius.com/1bf17598ed9711b74adf95440407f941.300x301x1.jpg",
+        "header_image_url": "https://images.genius.com/1bf17598ed9711b74adf95440407f941.998x1000x1.jpg",
+        "id": 702334,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1425851,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1669604819,
+        "path": "/Slayer-sex-murder-art-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Slayer-sex-murder-art-sample",
+        "release_date_components": {
+            "year": 1994,
+            "month": 9,
+            "day": 27
+        },
+        "release_date_for_display": "September 27, 1994",
+        "release_date_with_abbreviated_month_for_display": "Sep. 27, 1994",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3e3a9931fe41ea96df4c6452dfb735f3.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3e3a9931fe41ea96df4c6452dfb735f3.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Sex. Murder. Art.",
+        "title_with_featured": "Sex. Murder. Art.",
+        "updated_by_human_at": 1671483336,
+        "url": "https://genius.com/Slayer-sex-murder-art-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/6596",
+            "header_image_url": "https://images.genius.com/bc11ff5236798b16df8d0ed38ad6386d.1000x341x1.png",
+            "id": 6596,
+            "image_url": "https://images.genius.com/861966ebfefbd4e0adc83bec199c30be.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Slayer",
+            "slug": "Slayer",
+            "url": "https://genius.com/artists/Slayer"
+        },
+        "artist": "Slayer",
+        "lyrics": "Sex. Murder. Art. Lyrics[Verse 1]\nCaught, now you're mine\nI am the master of your whipping time\nThe smile on my lips\nThe look of horror on your face\nSelf justification\nCan't rid the sexual fascination\nCan you deny\nMy face of pleasure the gleam in my eye\n\n[Chorus]\nYou're nothing\nAn object of animation\nA subjective mannequin\nBeaten into submission\nRaping again and again\n[Verse 2]\nShackled, my princess\nDangling in distress\nHere to discipline\nMy sole purpose never ends\nBleeding on your knees\nMy satisfaction is what I need\nThe urge to take my fist\nAnd violate every orifice\n\n[Chorus]\nYou're nothing\nAn object of animation\nA subjective mannequin\nBeaten into submission\nRaping again and again\n\n[Outro]\nSlaves to my torment\nScream to your heart's content\nTime and time again\nPleasure in inflicting pain\nPower so insane\nTrying to circumvent\nUnadulterated battery\nManipulated reality\nGod is dead - I am alive!You might also likeEmbed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML1907",
+    "mood": "relaxed",
+    "artist": "Love",
+    "title": "Orange Skies",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/182094",
+        "artist_names": "Love",
+        "full_title": "Orange Skies by\u00a0Love",
+        "header_image_thumbnail_url": "https://s3.amazonaws.com/rapgenius/love%20-%20da%20capo%201967%20front.jpg",
+        "header_image_url": "https://s3.amazonaws.com/rapgenius/love%20-%20da%20capo%201967%20front.jpg",
+        "id": 182094,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 98566,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": null,
+        "path": "/Love-orange-skies-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Love-orange-skies-sample",
+        "release_date_components": {
+            "year": 1966,
+            "month": 11,
+            "day": null
+        },
+        "release_date_for_display": "November 1966",
+        "release_date_with_abbreviated_month_for_display": "Nov. 1966",
+        "song_art_image_thumbnail_url": "https://s3.amazonaws.com/rapgenius/love%20-%20da%20capo%201967%20front.jpg",
+        "song_art_image_url": "https://s3.amazonaws.com/rapgenius/love%20-%20da%20capo%201967%20front.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Orange Skies",
+        "title_with_featured": "Orange Skies",
+        "updated_by_human_at": 1545686416,
+        "url": "https://genius.com/Love-orange-skies-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/13083",
+            "header_image_url": "https://images.genius.com/c09084736f3c36828450f3324e04d713.1000x559x1.jpg",
+            "id": 13083,
+            "image_url": "https://s3.amazonaws.com/rapgenius/loveband-e1302563908708.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Love",
+            "slug": "Love",
+            "url": "https://genius.com/artists/Love"
+        },
+        "artist": "Love",
+        "lyrics": "Orange Skies Lyrics[Chorus]\nOrange skies\nCarnivals and cotton candy and you\nAnd I love you too, you know I do\n\n[Verse 1]\nNightingale\nPrettier than anything in the world\nAnd I love you too\nYou know I do\n[Chorus 2]\nYou make me happy\nLaughing, glad, and full of glee\nAnd you don't have to try, girl\nFor you it comes so naturally\nRight here in my arms\n\n[Chorus]\n\n[Chorus 2]You might also likeEmbed"
+    }
+}

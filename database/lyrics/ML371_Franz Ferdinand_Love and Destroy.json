@@ -1,0 +1,57 @@
+{
+    "id": "ML371",
+    "mood": "happy",
+    "artist": "Franz Ferdinand",
+    "title": "Love and Destroy",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/524192",
+        "artist_names": "Franz Ferdinand",
+        "full_title": "Love and Destroy by\u00a0Franz\u00a0Ferdinand",
+        "header_image_thumbnail_url": "https://images.genius.com/fad99e86b73644e2442487699b9331ce.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/fad99e86b73644e2442487699b9331ce.1000x1000x1.jpg",
+        "id": 524192,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1189012,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1598452987,
+        "path": "/Franz-ferdinand-love-and-destroy-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Franz-ferdinand-love-and-destroy-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 8,
+            "day": 16
+        },
+        "release_date_for_display": "August 16, 2004",
+        "release_date_with_abbreviated_month_for_display": "Aug. 16, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/fad99e86b73644e2442487699b9331ce.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/fad99e86b73644e2442487699b9331ce.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false
+        },
+        "title": "Love and Destroy",
+        "title_with_featured": "Love and Destroy",
+        "updated_by_human_at": 1646921507,
+        "url": "https://genius.com/Franz-ferdinand-love-and-destroy-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/21216",
+            "header_image_url": "https://images.genius.com/3e8bf410d40ddae0d03e9ae42be259b0.1000x334x1.jpg",
+            "id": 21216,
+            "image_url": "https://images.genius.com/2a8b0595d0d65f6ef398c413dea32a95.344x344x1.jpg",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Franz Ferdinand",
+            "slug": "Franz-ferdinand",
+            "url": "https://genius.com/artists/Franz-ferdinand"
+        },
+        "artist": "Franz Ferdinand",
+        "lyrics": "Love and Destroy Lyrics[Verse 1]\nWell, I'm so free I could lacerate\nRip the robes right off my chest\nI fly high above the Muscovites' sky\nI'm gonna rip, rip, I'll never rest\n\n[Pre-Chorus]\nI'm gonna meet you at midnight\nI'm gonna meet you at midnight\nI'm not used to living alone\nI've gotta learn how to live or die\n[Verse 2]\nWell, I'm so free as I'm naked\nShining silver under the moon\nI fly high above the Muscovites' sky\nI'm gonna rip, rip, I'll never swoon\n\n[Pre-Chorus]\nI'm gonna meet you at midnight\nI'm gonna meet you at midnight\nI forget about living alone\nAs I learn how to live or to die\n\n[Chorus]\nMargarita, love and destroy\nMargarita, love and destroy\nMargarita, love and destroy\nMargarita, love and destroy\n\n[Verse 3]\nWell, I'm so free as I meet you\nWelcome in black, the queen of the ball\nIt's dark beneath the Muscovites' sky\nBut you give, you give me it all\n\n[Pre-Chorus]\nI'm here with you at midnight\nI'm here with you at midnight\nNow I know I'm never alone\nAs I learn, I learn how to die\nYou might also like[Bridge]\nMargarita, love and destroy\nMargarita, love and destroy\nMargarita, love and destroy\nMargarita, love and destroy\n\n[Chorus]\nMargarita, love and destroy\nMargarita, love and destroy\nMargarita, love and destroy\nMargarita, love and destroyEmbed"
+    }
+}

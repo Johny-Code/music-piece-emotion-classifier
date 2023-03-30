@@ -1,0 +1,71 @@
+{
+    "id": "ML1893",
+    "mood": "sad",
+    "artist": "Isobel Campbell & Mark Lanegan",
+    "title": "No Place To Fall",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1204783",
+        "artist_names": "Isobel Campbell & Mark Lanegan (Ft. Willy Mason)",
+        "full_title": "No Place to Fall by\u00a0Isobel\u00a0Campbell & Mark Lanegan (Ft.\u00a0Willy\u00a0Mason)",
+        "header_image_thumbnail_url": "https://images.genius.com/e74e8af6be7f4e86baf0361456b74c71.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e74e8af6be7f4e86baf0361456b74c71.1000x1000x1.jpg",
+        "id": 1204783,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429694203,
+        "path": "/Isobel-campbell-and-mark-lanegan-no-place-to-fall-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Isobel-campbell-and-mark-lanegan-no-place-to-fall-sample",
+        "release_date_components": {
+            "year": 2010,
+            "month": 8,
+            "day": 24
+        },
+        "release_date_for_display": "August 24, 2010",
+        "release_date_with_abbreviated_month_for_display": "Aug. 24, 2010",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e74e8af6be7f4e86baf0361456b74c71.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e74e8af6be7f4e86baf0361456b74c71.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "No Place to Fall",
+        "title_with_featured": "No Place to Fall (Ft.\u00a0Willy\u00a0Mason)",
+        "updated_by_human_at": 1596038476,
+        "url": "https://genius.com/Isobel-campbell-and-mark-lanegan-no-place-to-fall-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/34416",
+                "header_image_url": "https://images.genius.com/6e5d27e64187951860f08f021d86dfa6.1000x648x1.png",
+                "id": 34416,
+                "image_url": "https://images.genius.com/4f25a6792a8c6d93b5afe57515645851.300x300x1.jpg",
+                "index_character": "w",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "Willy Mason",
+                "slug": "Willy-mason",
+                "url": "https://genius.com/artists/Willy-mason"
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/364851",
+            "header_image_url": "https://images.genius.com/d0503d5d67e67dd0da7ac57c8c3c4fbd.1000x816x1.jpg",
+            "id": 364851,
+            "image_url": "https://images.genius.com/3ec60b5126f1b250f6e3cb1c9ebccf5e.859x859x1.jpg",
+            "index_character": "i",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Isobel Campbell & Mark Lanegan",
+            "slug": "Isobel-campbell-and-mark-lanegan",
+            "url": "https://genius.com/artists/Isobel-campbell-and-mark-lanegan"
+        },
+        "artist": "Isobel Campbell & Mark Lanegan",
+        "lyrics": "No Place to Fall LyricsIf I had no place to fall and I needed to\nCould I count on you to lay me down?\n\nI'll never tell you, no lies\nI don't believe it's wise\nYou got pretty eyes, won't you spin me 'round?\n\nI'm not much of a lover, it's true\nI'm here and I'm gone and I'm forever blue\nBut I'm sure wanting you\nThe sky falls silver and gold\nIt tries to hide the sun but it can't be done\n'Least not for long\n\nBut if we help each other grow\nWhile the light of day smiles down our way\nOh, we can't go wrong\n\nBut time, she is a fast old train\nShe's here and she's gone and she won't come again\nSo won't you take my hand?\n\nIf I had no place to fall and I needed to\nCould I count on you to lay me down?You might also likeEmbed"
+    }
+}

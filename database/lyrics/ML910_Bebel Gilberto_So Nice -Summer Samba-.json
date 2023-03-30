@@ -1,0 +1,53 @@
+{
+    "id": "ML910",
+    "mood": "relaxed",
+    "artist": "Bebel Gilberto",
+    "title": "So Nice (Summer Samba)",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/901061",
+        "artist_names": "Bebel Gilberto",
+        "full_title": "So Nice (Summer Samba) by\u00a0Bebel\u00a0Gilberto",
+        "header_image_thumbnail_url": "https://images.genius.com/e71d728ffd88b3ea63b08261252cc2b1.300x271x1.jpg",
+        "header_image_url": "https://images.genius.com/e71d728ffd88b3ea63b08261252cc2b1.1000x903x1.jpg",
+        "id": 901061,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429307610,
+        "path": "/Bebel-gilberto-so-nice-summer-samba-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Bebel-gilberto-so-nice-summer-samba-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/e71d728ffd88b3ea63b08261252cc2b1.300x271x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e71d728ffd88b3ea63b08261252cc2b1.1000x903x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "So Nice (Summer Samba)",
+        "title_with_featured": "So Nice (Summer Samba)",
+        "updated_by_human_at": 1481214707,
+        "url": "https://genius.com/Bebel-gilberto-so-nice-summer-samba-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/363992",
+            "header_image_url": "https://images.genius.com/4a2fb81111a124c3fac674831ff1e3c3.914x212x1.png",
+            "id": 363992,
+            "image_url": "https://images.genius.com/3479f07244fb6399f90ff04fb22e116d.537x537x1.png",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Bebel Gilberto",
+            "slug": "Bebel-gilberto",
+            "url": "https://genius.com/artists/Bebel-gilberto"
+        },
+        "artist": "Bebel Gilberto",
+        "lyrics": "So Nice (Summer Samba) LyricsSomeone to hold me tight\nThat would be very nice\nSomeone to love me right\nThat would be very nice\nSomeone to understand\nEach little dream in me\nSomeone to take my hand\nAnd be a team with me\n\nSo nice, life would be so nice\nIf one day I'd find\nSomeone who would take my hand\nAnd samba through life with me\nSomeone to cling to me\nStay with me right or wrong\nSomeone to sing to me\nSome little samba song\nSomeone to take my heart\nAnd give his heart to me\nSomeone who's ready to\nGive love a start with me\n\nOh yeah, that would be so nice\nI could see you and me, that would be niceYou might also likeEmbed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML1740",
+    "mood": "angry",
+    "artist": "Slayer",
+    "title": "Hate Worldwide",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/702936",
+        "artist_names": "Slayer",
+        "full_title": "Hate Worldwide by\u00a0Slayer",
+        "header_image_thumbnail_url": "https://images.genius.com/e958ee284f8486c632a3b5537f3e0187.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e958ee284f8486c632a3b5537f3e0187.300x300x1.jpg",
+        "id": 702936,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1425851,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1640927814,
+        "path": "/Slayer-hate-worldwide-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Slayer-hate-worldwide-sample",
+        "release_date_components": {
+            "year": 2009,
+            "month": 11,
+            "day": 3
+        },
+        "release_date_for_display": "November 3, 2009",
+        "release_date_with_abbreviated_month_for_display": "Nov. 3, 2009",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e958ee284f8486c632a3b5537f3e0187.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e958ee284f8486c632a3b5537f3e0187.300x300x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 5369
+        },
+        "title": "Hate Worldwide",
+        "title_with_featured": "Hate Worldwide",
+        "updated_by_human_at": 1661025687,
+        "url": "https://genius.com/Slayer-hate-worldwide-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/6596",
+            "header_image_url": "https://images.genius.com/bc11ff5236798b16df8d0ed38ad6386d.1000x341x1.png",
+            "id": 6596,
+            "image_url": "https://images.genius.com/861966ebfefbd4e0adc83bec199c30be.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Slayer",
+            "slug": "Slayer",
+            "url": "https://genius.com/artists/Slayer"
+        },
+        "artist": "Slayer",
+        "lyrics": "Hate Worldwide Lyrics[Verse 1]\nI stab you right between the eyes\nYou awaken from the lies\nI've said it ever since its inception\nThey're the masters of deception\nI'm a godless heretic\nNot a God-fearing lunatic\nThat's why it's become my obsession\nTo treat God like an infection\n\n[Chorus]\nMy scars: insane\nMy life: profane\nI deny, defy\nAnd spread a little hate worldwide\n[Lead \u2013 Hanneman]\n\n[Verse 2]\nLike a storm, I devastate\nReligious doubt, I instigate\nTake a listen to my confession\nThere's no filter on my aggression\nWith a pistol open wide\nTo keep the massacre alive\nI'll cause global devastation\nWith my moral imperfection\n\n[Chorus]\nMy scars: insane\nMy life: profane\nI deny, defy\nAnd spread a little hate worldwide\n\n[Lead \u2013 King]\n\n[Verse 3]\nReligious doubt, I instigate\nFrom what the Bible demonstrates\nDoes it document creation?\nOr just hopelessness of fiction?\nI'm a godless heretic\nNot a God-fearing lunatic\nThat's why it's become my obsession\nTo treat God like an infection\nYou might also like[Chorus]\nMy scars: insane\nMy life: profane\nI deny, defy\nAnd spread a little hate world...\n\n[Outro]\nWide-open, like a gushing, open wound\nThe walls of deceit will be crashing down soon\nI've left you defenseless, mentally and then\nNever fucking hear from you again\nNever fucking heard from againEmbed"
+    }
+}

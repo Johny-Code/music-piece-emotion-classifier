@@ -1,0 +1,57 @@
+{
+    "id": "ML1650",
+    "mood": "relaxed",
+    "artist": "No Doubt",
+    "title": "Rock Steady",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/347808",
+        "artist_names": "No Doubt",
+        "full_title": "Rock Steady by\u00a0No\u00a0Doubt",
+        "header_image_thumbnail_url": "https://images.genius.com/b540d348c9e3ac4b6d98bbbded9f1b4c.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b540d348c9e3ac4b6d98bbbded9f1b4c.1000x1000x1.jpg",
+        "id": 347808,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 86920,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1607904001,
+        "path": "/No-doubt-rock-steady-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/No-doubt-rock-steady-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 12,
+            "day": 11
+        },
+        "release_date_for_display": "December 11, 2001",
+        "release_date_with_abbreviated_month_for_display": "Dec. 11, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b540d348c9e3ac4b6d98bbbded9f1b4c.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b540d348c9e3ac4b6d98bbbded9f1b4c.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Rock Steady",
+        "title_with_featured": "Rock Steady",
+        "updated_by_human_at": 1616002616,
+        "url": "https://genius.com/No-doubt-rock-steady-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/24421",
+            "header_image_url": "https://images.genius.com/7e35f9033ca2ff3aa942f89fce2e249e.1000x250x1.png",
+            "id": 24421,
+            "image_url": "https://images.genius.com/ffc741cdea50d41ff556dd3b1adbccd1.807x807x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "No Doubt",
+            "slug": "No-doubt",
+            "url": "https://genius.com/artists/No-doubt"
+        },
+        "artist": "No Doubt",
+        "lyrics": "Rock Steady Lyrics[Intro]\nOur love is rock steady\n\n[Verse 1]\nLove is like a punishment\nHomegirl here to represent\nSo innocently you seem to come my way\nWhile Tinkerbell and Cupid play\nThey sit there and they laugh\nI sit here and I can\u2019t believe my eyes\nYou found me at last\nBut we\u2019re too human to see the way we\u2019ll agonize\n[Chorus]\nA real love survives\nA rock steady vibe\nA real love survives\nA rock steady vibe\n\n[Verse 2]\nSteady now stop rocking it\nIt\u2019s a delicate environment\nRetired but sleeping is our shanty love\nBe careful now, don\u2019t wake it up\n\n[Pre-Chorus]\nIt\u2019s never gonna last\nIt\u2019s never gonna make it back alive\nSo now can we relax?\nI really hope that we will actually survive\n\n[Chorus]\nA real love survives\nA rock steady vibe\nA real love survives\nA rock steady vibe\n\n[Pre-Chorus]\nIt\u2019s never gonna last\nIt\u2019s never gonna make it back alive\nSo now can we relax?\nI really hope that we will actually survive\nYou might also like[Chorus]\nA real love survives\nA rock steady vibe\nA real love survives\nA rock steady vibe\n\n[Outro]\nOur love is so rock steady2Embed"
+    }
+}

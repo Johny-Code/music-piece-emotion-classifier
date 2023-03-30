@@ -1,0 +1,58 @@
+{
+    "id": "ML865",
+    "mood": "angry",
+    "artist": "Slayer",
+    "title": "Fight Till Death",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/702271",
+        "artist_names": "Slayer",
+        "full_title": "Fight till Death by\u00a0Slayer",
+        "header_image_thumbnail_url": "https://images.genius.com/776ad82f19690707cdf5e823416322bf.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/776ad82f19690707cdf5e823416322bf.1000x1000x1.jpg",
+        "id": 702271,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1425851,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1666125262,
+        "path": "/Slayer-fight-till-death-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Slayer-fight-till-death-sample",
+        "release_date_components": {
+            "year": 1983,
+            "month": 12,
+            "day": 3
+        },
+        "release_date_for_display": "December 3, 1983",
+        "release_date_with_abbreviated_month_for_display": "Dec. 3, 1983",
+        "song_art_image_thumbnail_url": "https://images.genius.com/776ad82f19690707cdf5e823416322bf.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/776ad82f19690707cdf5e823416322bf.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 5051
+        },
+        "title": "Fight till Death",
+        "title_with_featured": "Fight till Death",
+        "updated_by_human_at": 1666125262,
+        "url": "https://genius.com/Slayer-fight-till-death-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/6596",
+            "header_image_url": "https://images.genius.com/bc11ff5236798b16df8d0ed38ad6386d.1000x341x1.png",
+            "id": 6596,
+            "image_url": "https://images.genius.com/861966ebfefbd4e0adc83bec199c30be.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Slayer",
+            "slug": "Slayer",
+            "url": "https://genius.com/artists/Slayer"
+        },
+        "artist": "Slayer",
+        "lyrics": "Fight till Death Lyrics[Verse 1]\nMetal and men clash once more to the end\nWarriors above, with the power to kill, descend\nMilitia of blood, troops of hate march to die\nSoldiers of Hell, veterans of death arise\n\n[Chorus]\nPrepare for attack\nYour body will burn\nEndless war\nThere's no return\nPrepare for attack\nDeath will arrive\nYour orders are clear\nNo way to hide\nFight till death\n[Verse 2]\nSenseless death of all mankind overtakes\nArmored assassins destroy, at will, your escape\nChildren of sorrow are trampled into the grave\nThere is no future, no fucking world to be saved\n\n[Chorus]\nPrepare for attack\nYour body will burn\nEndless war\nThere's no return\nPrepare for attack\nDeath will arrive\nYour orders are clear\nNo way to hide\nFight till death\n\n[Bridge]\nTo reign in Hell\n\n[Guitar Solo: Jeff Hanneman]\n\n[Verse 3]\nGods of steel unleash their destruction on man\nReign of death, what is the final command?\nScepters of hate are dropped upon this Earth\nClouds of terror destroy all hope of rebirth\nYou might also like[Chorus]\nPrepare for attack\nYour body will burn\nEndless war\nThere's no return\nPrepare for attack\nDeath will arrive\nYour orders are clear\nNo way to hide\nFight till death\n\n[Outro]\nFight till death\nFight till death\nFight till deathEmbed"
+    }
+}

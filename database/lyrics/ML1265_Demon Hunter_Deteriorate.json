@@ -1,0 +1,58 @@
+{
+    "id": "ML1265",
+    "mood": "sad",
+    "artist": "Demon Hunter",
+    "title": "Deteriorate",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/870722",
+        "artist_names": "Demon Hunter",
+        "full_title": "Deteriorate by\u00a0Demon\u00a0Hunter",
+        "header_image_thumbnail_url": "https://images.genius.com/9d19d2df70a5871255888a8d5183e61c.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/9d19d2df70a5871255888a8d5183e61c.1000x1000x1.jpg",
+        "id": 870722,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1472170425,
+        "path": "/Demon-hunter-deteriorate-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Demon-hunter-deteriorate-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 10,
+            "day": 25
+        },
+        "release_date_for_display": "October 25, 2005",
+        "release_date_with_abbreviated_month_for_display": "Oct. 25, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/9d19d2df70a5871255888a8d5183e61c.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/9d19d2df70a5871255888a8d5183e61c.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 5296
+        },
+        "title": "Deteriorate",
+        "title_with_featured": "Deteriorate",
+        "updated_by_human_at": 1670013879,
+        "url": "https://genius.com/Demon-hunter-deteriorate-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/94437",
+            "header_image_url": "https://images.genius.com/ff95bed5fb7de17d46aaeec5d4a07be1.1000x668x1.jpg",
+            "id": 94437,
+            "image_url": "https://images.genius.com/5aca6c7f124b39cf133df81a802a5114.1000x1000x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Demon Hunter",
+            "slug": "Demon-hunter",
+            "url": "https://genius.com/artists/Demon-hunter"
+        },
+        "artist": "Demon Hunter",
+        "lyrics": "Deteriorate Lyrics[Verse 1]\nTime has had its way with me\nMy broken, tired hands can't build a thing\nThe wires that have held me still\nEmbedded now in flesh, define my will\nThe idle of my days has won\nThe empty I have fed has made me numb\nDespite what you will find in me\nThe failures of my past still swell beneath\n\n[Pre-Chorus]\nI need a heart that carries on through the pain\nWhen the walls start collapsing again\nGive me a soul that never ceases to follow\nDespite the infection within\n[Chorus]\nOur careless feet leaving trails\nNever minding the fragile dirt we all land in\nOur careless feet leaving trails\nNever minding the fragile dirt we all land in\n\n[Verse 2]\nThis is where I find my fall\nThe cares that held me life don't work at all\nAnd every step away from here\nIs closer to the plague I hold so dear\n\n[Pre-Chorus]\nI need a heart that carries on through the pain\nWhen the walls start collapsing again\nGive me a soul that never ceases to follow\nDespite the infection within\n\n[Chorus]\nOur careless feet leaving trails\nNever minding the fragile dirt we all land in\nOur careless feet leaving trails\nNever minding the fragile dirt we all land in\n\n[Bridge]\nAwaiting my end\nBreathing in the day that finds me new\nRedemption begins\nBleeding out the flaws in place of you\nAwaiting my end\nBreathing in the day that finds me new\nRedemption begins\nRedemption begins\nYou might also like[Chorus/Outro]\nOur careless feet leaving trails\nNever minding the fragile dirt we all land in\nOur careless feet leaving trails\nNever minding the fragile dirt we all land in\nOur careless feet leaving trails\nNever minding the fragile dirt we all land in\nOur careless feet leaving trails\nNever minding the fragile dirt we all land in3Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML397",
+    "mood": "happy",
+    "artist": "Foo Fighters",
+    "title": "Cheer Up, Boys (Your Make Up Is Running)",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/211991",
+        "artist_names": "Foo Fighters",
+        "full_title": "Cheer Up, Boys (Your Make-Up Is Running) by\u00a0Foo\u00a0Fighters",
+        "header_image_thumbnail_url": "https://images.genius.com/2d2a6c4ccf5d53481b539d3971407ebe.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2d2a6c4ccf5d53481b539d3971407ebe.1000x1000x1.jpg",
+        "id": 211991,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 273323,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1635117678,
+        "path": "/Foo-fighters-cheer-up-boys-your-make-up-is-running-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Foo-fighters-cheer-up-boys-your-make-up-is-running-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 4,
+            "day": 7
+        },
+        "release_date_for_display": "April 7, 2008",
+        "release_date_with_abbreviated_month_for_display": "Apr. 7, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/df3601a24434afe04978582dc9edc204.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/df3601a24434afe04978582dc9edc204.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 5219
+        },
+        "title": "Cheer Up, Boys (Your Make-Up Is Running)",
+        "title_with_featured": "Cheer Up, Boys (Your Make-Up Is Running)",
+        "updated_by_human_at": 1635117678,
+        "url": "https://genius.com/Foo-fighters-cheer-up-boys-your-make-up-is-running-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/17237",
+            "header_image_url": "https://images.genius.com/84497e6ea704702a48489f3e414207b5.1000x208x1.jpg",
+            "id": 17237,
+            "image_url": "https://images.genius.com/17366eba809cf358cd3d607f5c0d50e1.1000x1000x1.jpg",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Foo Fighters",
+            "slug": "Foo-fighters",
+            "url": "https://genius.com/artists/Foo-fighters"
+        },
+        "artist": "Foo Fighters",
+        "lyrics": "Cheer Up, Boys (Your Make-Up Is Running) Lyrics[Verse 1]\nIt was meant to be, but all along it never meant a thing\nNever stopped to ask you why you didn't pass me by\nDid you see me when your life flashed before your eyes?\nWas it just that I wasn't hard enough, hard enough for you?\n\n[Pre-Chorus]\n(Stop, stop, stop...)\nStop using my\nConfusion\nWait, wait\n[Chorus]\nThere's a world out there (There's a world out there)\nDon't you deny me (Don't you deny me)\nGive me one last wish (Give me one last wish)\nThere's a world out there\n\n[Verse 2]\nElementary, I solved them all, all your mysteries\nSettle down and in good time, we can solve all mine\nTell me lies or tell me when, tell me off again\nI will let you know when I've had enough, had enough of you\n\n[Pre-Chorus]\n(Stop, stop, stop...)\nStop using my\nConfusion\nWait, wait\n\n[Chorus]\nThere's a world out there (There's a world out there)\nDon't you deny me (Don't you deny me)\nGive me one last wish (There's a world out there)\nThere's a world out there (Don't you deny me)\n\n[Bridge]\nI know you've got your reasons, hey, let's call it even\nTurn out all the lights and go to bed\nStill I get this feeling, no one will believe me\nWhen I let these ghosts outside my head\nYou might also like[Guitar Solo]\n\n[Chorus]\nThere's a world out there (There's a world out there)\nDon't you deny me (Don't you deny me)\nGive me one last wish (Give me one last wish)\nDon't you deny me (Don't you deny me)\nThere's a world out there (There's a world out there)\nDon't you deny me (Don't you deny me)\nGive me one last wish (There's a world out there)\nThere's a world out there (Don't you deny me)2Embed"
+    }
+}

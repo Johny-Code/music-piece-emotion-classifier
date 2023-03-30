@@ -1,0 +1,57 @@
+{
+    "id": "ML1151",
+    "mood": "relaxed",
+    "artist": "Trading Yesterday",
+    "title": "One Day",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/348459",
+        "artist_names": "The Age of Information",
+        "full_title": "One Day by\u00a0The\u00a0Age of Information",
+        "header_image_thumbnail_url": "https://images.genius.com/a019cbe24cf64c30dacf6beb2bbeec3e.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/a019cbe24cf64c30dacf6beb2bbeec3e.350x350x1.jpg",
+        "id": 348459,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 414624,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1435467850,
+        "path": "/The-age-of-information-one-day-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-age-of-information-one-day-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 5,
+            "day": 4
+        },
+        "release_date_for_display": "May 4, 2005",
+        "release_date_with_abbreviated_month_for_display": "May. 4, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a019cbe24cf64c30dacf6beb2bbeec3e.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a019cbe24cf64c30dacf6beb2bbeec3e.350x350x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 8,
+            "hot": false
+        },
+        "title": "One Day",
+        "title_with_featured": "One Day",
+        "updated_by_human_at": 1599892687,
+        "url": "https://genius.com/The-age-of-information-one-day-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/135026",
+            "header_image_url": "https://images.genius.com/751e9099fb37c4ce63fb218b51fd5c92.344x344x1.jpg",
+            "id": 135026,
+            "image_url": "https://images.genius.com/751e9099fb37c4ce63fb218b51fd5c92.344x344x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Age of Information",
+            "slug": "The-age-of-information",
+            "url": "https://genius.com/artists/The-age-of-information"
+        },
+        "artist": "The Age of Information",
+        "lyrics": "One Day LyricsIf I could change the currents of our lives\nTo make the river flow where it's run dry\nTo be a prodigal of father time\nThen I would see you tonight\n\nIf I could find the years that went away\nDestroying all the cruelty of fate\nI must believe that love could find a way\nTonight\n\nLonely finds me\nOne day you will come\nBut I'll wait for love's sake\nOne day to me, love\nIf I could see beyond the here and now\nIf you could hear me calling you somehow\nIf I could know that love is reaching out\nTo find you with me tonight\n\nThen hope could make these promises come true\nBeyond what I could say, what love can do\nWith every moment leading me to you tonight\n\nLonely finds me\nOne day you will come\nBut I'll wait for love's sake\nOne day to me, love\n\nI will stay forever here to wait for your love\n\nIf I could change the currents of our lives\nTo make the river flow where it's run dry\nTo be a prodigal of father time\nThen I would see you tonight\n\nLonely finds me\nOne day you will come\nBut I'll wait for love's sake\nOne day to me, love\nYou might also likeLonely finds me\nOne day you will come\nBut I'll wait for love's sake\nOne day to me, love\nOne day to me, love\nOne day to me, love\n\nI will stay forever here to wait for your loveEmbed"
+    }
+}

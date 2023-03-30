@@ -1,0 +1,58 @@
+{
+    "id": "ML192",
+    "mood": "happy",
+    "artist": "Miley Cyrus",
+    "title": "7 Things",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/186002",
+        "artist_names": "Miley Cyrus",
+        "full_title": "7 Things by\u00a0Miley\u00a0Cyrus",
+        "header_image_thumbnail_url": "https://images.genius.com/ef8c2673e006aa36324fcccf4f4c920c.300x300x1.png",
+        "header_image_url": "https://images.genius.com/ef8c2673e006aa36324fcccf4f4c920c.1000x1000x1.png",
+        "id": 186002,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 225672,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1670290288,
+        "path": "/Miley-cyrus-7-things-lyrics",
+        "pyongs_count": 9,
+        "relationships_index_url": "https://genius.com/Miley-cyrus-7-things-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 6,
+            "day": 17
+        },
+        "release_date_for_display": "June 17, 2008",
+        "release_date_with_abbreviated_month_for_display": "Jun. 17, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/fae90d9e0f0f5f78137f2491ddd21a36.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/fae90d9e0f0f5f78137f2491ddd21a36.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 124432
+        },
+        "title": "7 Things",
+        "title_with_featured": "7 Things",
+        "updated_by_human_at": 1666129350,
+        "url": "https://genius.com/Miley-cyrus-7-things-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/805",
+            "header_image_url": "https://images.genius.com/1332f3be0c7c87bdf674e206d736842e.1000x370x1.jpg",
+            "id": 805,
+            "image_url": "https://images.genius.com/9082e527369435d9a9f4b8f18092c795.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Miley Cyrus",
+            "slug": "Miley-cyrus",
+            "url": "https://genius.com/artists/Miley-cyrus"
+        },
+        "artist": "Miley Cyrus",
+        "lyrics": "7 Things Lyrics[Intro]\n(Sha, sha, sha)\n\n[Verse 1]\nI probably shouldn't say this, but at times, I get so scared\nWhen I think about the previous relationship we shared\nIt was awesome, but we lost it\nIt's not possible for me not to care\nAnd now we're standin' in the rain\nBut nothing's ever gonna change until you hear, my dear\n[Chorus]\nThe seven things I hate about you\nThe seven things I hate about you, oh, you\nYou're vain, your games, you're insecure\nYou love me, you like her\nYou make me laugh, you make me cry\nI don't know which side to buy\nYour friends, they're jerks\nWhen you act like them, just know it hurts\nI wanna be with the one I know\nAnd the seventh thing I hate the most that you do\nYou make me love you\n\n[Verse 2]\nIt's awkward and silent as I wait for you to say\nBut what I need to hear now, your sincere apology\nWhen you mean it, I'll believe it\nIf you text it, I'll delete it\nLet's be clear (Clear, clear)\nOh, I'm not comin' back\nYou're taking seven steps here\n\n[Chorus]\nThe seven things I hate about you\nYou're vain, your games, you're insecure\nYou love me, you like her\nYou make me laugh, you make me cry\nI don't know which side to buy\nYour friends, they're jerks\nWhen you act like them, just know it hurts\nI wanna be with the one I know\nAnd the seventh thing I hate the most that you do\nYou make me love you\nYou might also like[Bridge]\nAnd compared to all the great things\nThat would take too long to write\nI probably should mention the seven that I like\n\n[Chorus]\nThe seven things I like about you\nYour hair, your eyes, your old Levi's\nWhen we kiss, I'm hypnotized\nYou make me laugh, you make me cry\nBut I guess that's both I'll have to buy\nYour hand in mine\nWhen we're intertwined, everything's alright\nI wanna be with the one I know\nAnd the seventh thing I like the most that you do\nYou make me love you\n\n[Outro]\n(Sha, sha)\nYou do, oh\nOoh-ooh-ooh-ooh\nOoh-ooh-ooh\n(La, la, la, la)\nOoh-ooh-ooh-ooh\nOoh-ooh-oh9Embed"
+    }
+}

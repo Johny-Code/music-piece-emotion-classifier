@@ -1,0 +1,57 @@
+{
+    "id": "ML1362",
+    "mood": "angry",
+    "artist": "Siouxsie and the Banshees",
+    "title": "Regal Zone",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/846452",
+        "artist_names": "Siouxsie and the Banshees",
+        "full_title": "Regal Zone by\u00a0Siouxsie\u00a0and the Banshees",
+        "header_image_thumbnail_url": "https://images.genius.com/e7e2fa4a4f3b2992a6ec963fdad7bea2.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e7e2fa4a4f3b2992a6ec963fdad7bea2.1000x1000x1.jpg",
+        "id": 846452,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 554585,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1629798598,
+        "path": "/Siouxsie-and-the-banshees-regal-zone-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Siouxsie-and-the-banshees-regal-zone-sample",
+        "release_date_components": {
+            "year": 1979,
+            "month": 9,
+            "day": 7
+        },
+        "release_date_for_display": "September 7, 1979",
+        "release_date_with_abbreviated_month_for_display": "Sep. 7, 1979",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e7e2fa4a4f3b2992a6ec963fdad7bea2.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e7e2fa4a4f3b2992a6ec963fdad7bea2.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false
+        },
+        "title": "Regal Zone",
+        "title_with_featured": "Regal Zone",
+        "updated_by_human_at": 1629798602,
+        "url": "https://genius.com/Siouxsie-and-the-banshees-regal-zone-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/36594",
+            "header_image_url": "https://images.genius.com/d26d4768a1f51812c1ce581110ff8383.720x506x1.jpg",
+            "id": 36594,
+            "image_url": "https://images.genius.com/1b57068f6bc412007a833b02bd09bcd1.720x720x1.png",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Siouxsie and the Banshees",
+            "slug": "Siouxsie-and-the-banshees",
+            "url": "https://genius.com/artists/Siouxsie-and-the-banshees"
+        },
+        "artist": "Siouxsie and the Banshees",
+        "lyrics": "Regal Zone Lyrics[Verse 1]\nCoronets rest on a death's head mask\nNo one is safe while the curfew lasts\nBut crusted orbs glitter, sceptres gleam\nWhile helmets of blood fill the screen\n\n[Chorus]\nThey look away and they say\n\"For the good of the land\nFor the love of the man\"\nStanding alone, sitting alone\nOn the throne of the regal zone\n[Verse 2]\nOld limbs hang in the torture room\nWhile old kings hang in the portrait room\nTheir noble eyes gaze on the uneasy dance\nOf the squirming body on the marble plate\n\n[Chorus]\nThey look away and they say\n\"For the good of the land\nFor the love of the man\"\nStanding alone, sitting alone\nOn the throne of the regal zone\n\n[Outro]\nRegal zone, oh, alone\nStanding alone, sitting alone\nAlone, oh, oh, oh, regal zone\nAlone, oh, oh, oh, regal zone\nRegal zone\nRegal zone\nThey look away and they say\n\"For the good of the land\nFor the love of the man\"\nStanding alone, sitting alone\nAlone, oh, oh, oh, regal zone\nAlone, oh, oh, oh, regal zone\nAlone, oh, oh, oh, regal zone\nRegal zone, oh, oh, oh\nAlone, oh, oh, oh\nRegal zone, oh, oh, ohYou might also likeEmbed"
+    }
+}

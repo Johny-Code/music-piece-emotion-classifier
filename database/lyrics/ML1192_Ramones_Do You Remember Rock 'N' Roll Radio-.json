@@ -1,0 +1,58 @@
+{
+    "id": "ML1192",
+    "mood": "happy",
+    "artist": "Ramones",
+    "title": "Do You Remember Rock 'N' Roll Radio?",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/339819",
+        "artist_names": "Ramones",
+        "full_title": "Do You Remember Rock 'n' Roll Radio? by\u00a0Ramones",
+        "header_image_thumbnail_url": "https://images.genius.com/7d592336f01349592364c2832d0dfc80.296x302x1.jpg",
+        "header_image_url": "https://images.genius.com/7d592336f01349592364c2832d0dfc80.296x302x1.jpg",
+        "id": 339819,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 354385,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1582877924,
+        "path": "/Ramones-do-you-remember-rock-n-roll-radio-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Ramones-do-you-remember-rock-n-roll-radio-sample",
+        "release_date_components": {
+            "year": 1980,
+            "month": 5,
+            "day": 16
+        },
+        "release_date_for_display": "May 16, 1980",
+        "release_date_with_abbreviated_month_for_display": "May. 16, 1980",
+        "song_art_image_thumbnail_url": "https://images.genius.com/7d592336f01349592364c2832d0dfc80.296x302x1.jpg",
+        "song_art_image_url": "https://images.genius.com/7d592336f01349592364c2832d0dfc80.296x302x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 9230
+        },
+        "title": "Do You Remember Rock \u2018n\u2019 Roll Radio?",
+        "title_with_featured": "Do You Remember Rock 'n' Roll Radio?",
+        "updated_by_human_at": 1595448158,
+        "url": "https://genius.com/Ramones-do-you-remember-rock-n-roll-radio-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/765",
+            "header_image_url": "https://images.genius.com/e851097400f9ec4552419281f9388a04.1000x760x1.jpg",
+            "id": 765,
+            "image_url": "https://images.genius.com/fe4948c35b9817fe89250014c2a37716.1000x1000x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Ramones",
+            "slug": "Ramones",
+            "url": "https://genius.com/artists/Ramones"
+        },
+        "artist": "Ramones",
+        "lyrics": "Do You Remember Rock \u2018n\u2019 Roll Radio? Lyrics[Intro]\nThis is rock and roll radio, come on; let's rock and roll with the Ramones\nRock and rock and roll radio, let's go\nRock and rock and roll radio, let's go\nRock and rock and roll radio, let's go\nRock and rock and roll radio, let's go\n\n[Verse]\nDo you remember Hullabaloo\nUpbeat, Shindig and Ed Sullivan too?\nDo you remember rock and roll radio?\nDo you remember rock and roll radio?\nDo you remember Murray the K\nAlan Freed, and high energy?\nIt's the end, the end of the 70's\nIt's the end, the end of the century\nDo you remember lying in bed\nWith your covers pulled up over your head?\nRadio playing so no one can see\nWe need change, we need it fast\nBefore rock's just part of the past\nBecause lately it all sounds the same to me\nOh oh oh oh, oh oh\n[Outro]\nWill you remember Jerry Lee\nJohn Lennon, T. Rex and OI Moulty?\nIt's the end, the end of the 70's\nIt's the end, the end of the centuryYou might also likeEmbed"
+    }
+}

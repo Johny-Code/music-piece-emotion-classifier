@@ -1,0 +1,57 @@
+{
+    "id": "ML1143",
+    "mood": "angry",
+    "artist": "The Dillinger Escape Plan",
+    "title": "The Mullet Burden",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1379928",
+        "artist_names": "The Dillinger Escape Plan",
+        "full_title": "The Mullet Burden by\u00a0The\u00a0Dillinger Escape Plan",
+        "header_image_thumbnail_url": "https://images.genius.com/4f4aa8de7e1b307257d8483d8c1fc849.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/4f4aa8de7e1b307257d8483d8c1fc849.1000x1000x1.jpg",
+        "id": 1379928,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3308817,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1589779189,
+        "path": "/The-dillinger-escape-plan-the-mullet-burden-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-dillinger-escape-plan-the-mullet-burden-sample",
+        "release_date_components": {
+            "year": 1998,
+            "month": 10,
+            "day": 22
+        },
+        "release_date_for_display": "October 22, 1998",
+        "release_date_with_abbreviated_month_for_display": "Oct. 22, 1998",
+        "song_art_image_thumbnail_url": "https://images.genius.com/4f4aa8de7e1b307257d8483d8c1fc849.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/4f4aa8de7e1b307257d8483d8c1fc849.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "The Mullet Burden",
+        "title_with_featured": "The Mullet Burden",
+        "updated_by_human_at": 1643287916,
+        "url": "https://genius.com/The-dillinger-escape-plan-the-mullet-burden-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/53795",
+            "header_image_url": "https://images.genius.com/1030390d7c21060ea98dc2b48287b0ed.600x600x1.jpg",
+            "id": 53795,
+            "image_url": "https://images.genius.com/0cd58186efd4deefdf1d08764ec86b3a.400x400x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Dillinger Escape Plan",
+            "slug": "The-dillinger-escape-plan",
+            "url": "https://genius.com/artists/The-dillinger-escape-plan"
+        },
+        "artist": "The Dillinger Escape Plan",
+        "lyrics": "The Mullet Burden LyricsSuch worthless crust and crazed\nNow cring to slap the wrist, I sense you cracked and weak\n\nThe nonexistent won't care\nWhen you fail to wake, I sense you cracked and weak\n\nI wonder if you would\nI wonder if you could\n\nPlease just a small taste\nOf the offer unrefused\nBonded by a muddy crippled story\nAnd now I wonder if you really ever could\nI wonder if you could\nI wonder if you would\n\nYou're no good\n\nSelf-sodomize once more\nWhore, slut, et fragile and tight\nA reckless mangled conscience\n\nWith only the imbalance of evils\nWait for guidance, end it all nowYou might also likeEmbed"
+    }
+}

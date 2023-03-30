@@ -1,0 +1,57 @@
+{
+    "id": "ML839",
+    "mood": "sad",
+    "artist": "Ozma",
+    "title": "Continental Drift (Flight Of The Bootymademoiselle)",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1571411",
+        "artist_names": "Ozma",
+        "full_title": "Continental Drift (Flight of the Bootymademoiselle) by\u00a0Ozma",
+        "header_image_thumbnail_url": "https://images.genius.com/e001eecfc3f43097871564666f217e84.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e001eecfc3f43097871564666f217e84.1000x1000x1.jpg",
+        "id": 1571411,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 9723929,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1664184133,
+        "path": "/Ozma-continental-drift-flight-of-the-bootymademoiselle-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Ozma-continental-drift-flight-of-the-bootymademoiselle-sample",
+        "release_date_components": {
+            "year": 2002,
+            "month": 6,
+            "day": 25
+        },
+        "release_date_for_display": "June 25, 2002",
+        "release_date_with_abbreviated_month_for_display": "Jun. 25, 2002",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e001eecfc3f43097871564666f217e84.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e001eecfc3f43097871564666f217e84.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Continental Drift (Flight of the Bootymademoiselle)",
+        "title_with_featured": "Continental Drift (Flight of the Bootymademoiselle)",
+        "updated_by_human_at": 1664184134,
+        "url": "https://genius.com/Ozma-continental-drift-flight-of-the-bootymademoiselle-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/355757",
+            "header_image_url": "https://images.genius.com/85082a7024b0949ff2b999ce59ce7457.468x178x1.png",
+            "id": 355757,
+            "image_url": "https://images.genius.com/1b68607188b82a3ed72b5356c32ea238.720x480x1.jpg",
+            "index_character": "o",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Ozma",
+            "slug": "Ozma",
+            "url": "https://genius.com/artists/Ozma"
+        },
+        "artist": "Ozma",
+        "lyrics": "Continental Drift (Flight of the Bootymademoiselle) Lyrics[Verse 1]\nI'm bored, you're boarding the 504 out of town\nIt's late, so look straight\nDon't pull your eyes off the ground\n\n[Pre-Chorus 1]\nYou sit and wait across the gate\nThe minutes stretch themselves so long\nYou'll never be my destiny\nBecause my destination's wrong\n[Chorus]\nRight coast, left coast\nDrifting round and round\nI'm lost, always\nAnd I know I can't be found\n\n[Verse 2]\nWho made these customs I can't seem to get past?\nIt's no use, since you've been born into a higher class\n\n[Pre-Chorus 2]\nWhen I want you, and only you\nSomehow your baggage comes along\nIt never stops, it never stops\nUntil I'm back where I belong\n\n[Chorus]\nRight coast, wrong coast\nDrifting round and round\nI'm lost, always\nAnd I know I can't be found\n\n[Bridge]\nYou can't see me\nAcross this great divide\nI'm lost, always\nIf I'm not right by your side\nYou might also like[Outro]\nBack where I belong\nBack where I belong\nBack where I belong\nBack where I belong\nBack where I belong\nBack where I belong\nBack where I belong\nBack where I belong1Embed"
+    }
+}

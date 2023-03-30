@@ -1,0 +1,58 @@
+{
+    "id": "ML794",
+    "mood": "angry",
+    "artist": "Behemoth",
+    "title": "At the Left Hand Ov God",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/485456",
+        "artist_names": "Behemoth",
+        "full_title": "At the Left Hand ov God by\u00a0Behemoth",
+        "header_image_thumbnail_url": "https://images.genius.com/f44170adda12c1b33fc89b5a680643b9.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/f44170adda12c1b33fc89b5a680643b9.640x640x1.jpg",
+        "id": 485456,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 150594,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1576800901,
+        "path": "/Behemoth-at-the-left-hand-ov-god-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Behemoth-at-the-left-hand-ov-god-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 7,
+            "day": 17
+        },
+        "release_date_for_display": "July 17, 2007",
+        "release_date_with_abbreviated_month_for_display": "Jul. 17, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/f44170adda12c1b33fc89b5a680643b9.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f44170adda12c1b33fc89b5a680643b9.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 8923
+        },
+        "title": "At the Left Hand ov God",
+        "title_with_featured": "At the Left Hand ov God",
+        "updated_by_human_at": 1616999921,
+        "url": "https://genius.com/Behemoth-at-the-left-hand-ov-god-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/66000",
+            "header_image_url": "https://images.genius.com/34604b8bde0da36cdf49a5edb4cd3551.800x350x1.jpg",
+            "id": 66000,
+            "image_url": "https://images.genius.com/5f3234251b16d46f3e4b49a71166feaa.900x900x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Behemoth",
+            "slug": "Behemoth",
+            "url": "https://genius.com/artists/Behemoth"
+        },
+        "artist": "Behemoth",
+        "lyrics": "At the Left Hand ov God LyricsO, Serpent and Lion!\nI invoke Thee!\nInside the shrine called life\nBy the seven wonders\nBy myriad mortals\nThat gone\nAnd are to come\nOutside!\nOutside desert ov restriction\nIn act ov rebellion\nOn the sea ov motion\nStability ov matter\nBy serenity, strength and beauty\nBy the mighty chant ov every breath\nIn serpentine dance ov blood cells\nIn simplicity ov spells\nDivine names, meta-games\nI greet Thy presence\n\nOh Snake! Thou art God!\nCoiled underneath my throne\nWith Thee I reunite\nWith blood we make this covenant\nMyself I redefine\nLook in and above:\nThere is more than the flesh\nLook careful and Thou may see\nThe unextinguished flame\nThe nectar ov Thy rage\nI taste from the cup ov fornication\nAnd woman by my side\nAnd scarlet is her skin\nShe's eager to rise\nAnd so eager to please\n\nAnother day\nAnother eternity gone\nAnd on the stairway to salvation\nI walk alone among the falling stars\nLooking for company\nWhere art Thou?\nOh, lacerate ones!\nYou might also like[Bass Lead: Orion]\n[Lead: Nergal]\n[Lead: Seth]\n\nArise! my sweetest friend\nOr be forever fallen\nWe have finally arrived\nFrom prison ov this life\nTo Kali's womb\nDown to the earth\nAs angels ov almighty god-\nChaos!\n'Tis our last fall\nTo touch our mother whore\nThe harlot ov the saints\nThat spits on the rotten cross\nIncinerate the icon\nThe symbol ov all loss\nTo stand straight\nAt the left hand ov god\n\nSamael! be Thou my ally!\nJoin me among the bright hosts\nWondering neither way ov light\nNor darkness\nOv which seed\nSprouts dispassionately\nIn the summer ov my life\nOutro:\nIslamic Chanting:\nLa Ilaha Illa'llah4Embed"
+    }
+}

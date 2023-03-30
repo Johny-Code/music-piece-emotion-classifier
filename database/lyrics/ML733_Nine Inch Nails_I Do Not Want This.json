@@ -1,0 +1,58 @@
+{
+    "id": "ML733",
+    "mood": "angry",
+    "artist": "Nine Inch Nails",
+    "title": "I Do Not Want This",
+    "song": {
+        "_type": "song",
+        "annotation_count": 13,
+        "api_path": "/songs/143409",
+        "artist_names": "Nine Inch Nails",
+        "full_title": "I Do Not Want This by\u00a0Nine\u00a0Inch Nails",
+        "header_image_thumbnail_url": "https://images.genius.com/b498032667556bf162a434519a1c6e28.300x300x1.png",
+        "header_image_url": "https://images.genius.com/b498032667556bf162a434519a1c6e28.1000x1000x1.png",
+        "id": 143409,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 165486,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1650426922,
+        "path": "/Nine-inch-nails-i-do-not-want-this-lyrics",
+        "pyongs_count": 7,
+        "relationships_index_url": "https://genius.com/Nine-inch-nails-i-do-not-want-this-sample",
+        "release_date_components": {
+            "year": 1994,
+            "month": 3,
+            "day": 8
+        },
+        "release_date_for_display": "March 8, 1994",
+        "release_date_with_abbreviated_month_for_display": "Mar. 8, 1994",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b498032667556bf162a434519a1c6e28.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/b498032667556bf162a434519a1c6e28.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 52442
+        },
+        "title": "I Do Not Want This",
+        "title_with_featured": "I Do Not Want This",
+        "updated_by_human_at": 1650426921,
+        "url": "https://genius.com/Nine-inch-nails-i-do-not-want-this-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/12757",
+            "header_image_url": "https://images.genius.com/ed15f259e492aee3da23dcc94c6d0675.876x337x1.jpg",
+            "id": 12757,
+            "image_url": "https://images.genius.com/6fc1aeeff6601cf0f247180a57d10e49.1000x1000x1.png",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Nine Inch Nails",
+            "slug": "Nine-inch-nails",
+            "url": "https://genius.com/artists/Nine-inch-nails"
+        },
+        "artist": "Nine Inch Nails",
+        "lyrics": "I Do Not Want This Lyrics[Verse 1]\nI'm losing ground\nWell you know how this world can beat you down\nAnd I'm made of clay\nI fear I'm the only one who thinks this way\n\n[Interlude]\nI'm always falling down the same hill, bamboo puncturing this skin\nAnd nothing comes bleeding out of me just like a waterfall I'm drowning in\nTwo feet below the surface I can still make out your wavy face\nAnd if I could just reach you maybe I could leave this place\n[Chorus]\nI do not want this\nI do not want this\nI do not want this\nI do not want this\nDon't you tell me how I feel\nDon't you tell me how I feel\nDon't you tell me how I feel\nYou don't know just how I feel\n\n[Verse 2]\nI stay inside my bed\nI have lived so many lives all in my head\nDon't tell me that you care\nThere really isn't anything, now, is there?\n\n[Interlude]\nYou would know, wouldn't you?\nYou extend your hand to those who suffer\nTo those who know what it really feels like\nTo those who've had a taste, like that means something\nAnd oh so sick I am\nAnd maybe I don't have a choice\nAnd maybe that is all I have\nAnd maybe this is a cry for help\nYou might also like[Chorus]\nI do not want this\nI do not want this\nI do not want this\nI do not want this\nDon't you tell me how I feel\nDon't you tell me how I feel\nDon't you tell me how I feel\nYou don't know just how I feel\n\n[Outro]\nI want to know everything\nI want to be everywhere\nI want to fuck everyone in the world\nI want to do something that matters\nI want to know everything\nI want to be everywhere\nI want to fuck everyone in the world\nI want to do something that matters\nI want to know everything\nI want to be everywhere\nI want to fuck everyone in the world\nI want to do something that matters\nI want to know everything\nI want to be everywhere\nI want to fuck everyone in the world\nI want to do something that matters\nI want to know everything\nI want to be everywhere\nI want to fuck everyone in the world\nI want to do something that matters7Embed"
+    }
+}

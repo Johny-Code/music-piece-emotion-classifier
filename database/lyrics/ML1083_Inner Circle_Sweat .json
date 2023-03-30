@@ -1,0 +1,59 @@
+{
+    "id": "ML1083",
+    "mood": "happy",
+    "artist": "Inner Circle",
+    "title": "Sweat ",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/1007720",
+        "artist_names": "Inner Circle",
+        "full_title": "Sweat (A La La La La Long) by\u00a0Inner\u00a0Circle",
+        "header_image_thumbnail_url": "https://images.genius.com/42f0dfed3746d063773ba39e70eb9b07.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/42f0dfed3746d063773ba39e70eb9b07.1000x1000x1.jpg",
+        "id": 1007720,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2722324,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1667033767,
+        "path": "/Inner-circle-sweat-a-la-la-la-la-long-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Inner-circle-sweat-a-la-la-la-la-long-sample",
+        "release_date_components": {
+            "year": 1993,
+            "month": 4,
+            "day": 30
+        },
+        "release_date_for_display": "April 30, 1993",
+        "release_date_with_abbreviated_month_for_display": "Apr. 30, 1993",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5890899d16402e65e4c1a3bb3e34c67a.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5890899d16402e65e4c1a3bb3e34c67a.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 10,
+            "concurrents": 3,
+            "hot": false,
+            "pageviews": 67383
+        },
+        "title": "Sweat (A La La La La Long)",
+        "title_with_featured": "Sweat (A La La La La Long)",
+        "updated_by_human_at": 1667033767,
+        "url": "https://genius.com/Inner-circle-sweat-a-la-la-la-la-long-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/8249",
+            "header_image_url": "https://images.genius.com/0600f910d88b626a364228e2a53c0894.1000x563x1.jpg",
+            "id": 8249,
+            "image_url": "https://images.genius.com/d112b0c580f65930b9dc5fa91ed2b45c.654x654x1.jpg",
+            "index_character": "i",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Inner Circle",
+            "slug": "Inner-circle",
+            "url": "https://genius.com/artists/Inner-circle"
+        },
+        "artist": "Inner Circle",
+        "lyrics": "Sweat (A La La La La Long) Lyrics[Chorus]\nI've been watching you\nA La La La La Long\nA La La La La Long Long Li Long Long Long\nCome On!\nA La La La La Long\nA La La La La Long Long Li Long Long Long\n\n[Verse 1]\nStanding across the room I saw you smile\nI said I want to talk to you for a little while\nBut before I make my move my emotions start running wild\nMy tongue gets tied and that's no lie\nI'm looking in your eyes\nI'm looking in your big brown eyes\n(Ooh yeah)\n(and I've got this to say to you)\nGirl I want to make you sweat\nSweat 'til you can't sweat no more\nAnd if you cry out I'm gonna push it some more\nGirl I want to make you sweat\nSweat 'til you can't sweat no more\nAnd if you cry out I'm gonna push it\nPush it push it some more\n[Chorus]\nA La La La La Long\nA La La La La Long Long Li Long Long Long\nCome On!\nA La La La La Long\nA La La La La Long Long Li Long Long Long\n\n[Verse 2]\nSo I say to myself if she loves me or not\nBut the dread are known that love is here to get\nAnd with a little bit of this and a little bit of that\nThe lyrics goes on the attack\nMy tongue gets tied\nAnd that's no lie\nI'm looking in your eyes\nI'm looking in your big brown eyes\nOoh yeah\nOh girl\n(and I've got this to say to you)\nGirl I want to make you sweat\nSweat 'til you can't sweat no more\nAnd if you cry out I'm gonna push it some more\nGirl I want to make you sweat\nSweat 'til you can't sweat no more\nAnd if you cry out I'm gonna push it\nPush it push it some more\nYou might also like[Chorus]\nA La La La La Long\nA La La La La Long Long Li Long Long Long\nOh yeah\nA La La La La Long\nA La La La La Long Long Li Long Long Long\nOne more time\nA La La La La Long\nA La La La La Long Long Li Long Long Long\nSing it!\nA La La La La Long\nA La La La La Long Long Li Long Long Long eh\nYeah\n\n[Verse 3]\nEyes, I'm Looking in your big brown eyes\nOh yeah\n(and I've got this to say to you)\nGirl I want to make you sweat\nSweat 'til you can't sweat no more\nAnd if you cry out I'm gonna push it some more\nGirl I want to make you sweat\nSweat 'til you can't sweat no more\nAnd if you cry out I'm gonna push it\nPush it push it some more\n[Chorus]\nA La La La La Long\nA La La La La Long Long Li Long Long Long\nEh\nA La La La La Long\nA La La La La Long Long Li Long Long Long\nPush it push it some more\nA La La La La Long\nA La La La La Long Long Li Long Long Long\nAlright\nA La La La La Long\nA La La La La Long Long Li Long Long Long\nPush it push it some more2Embed"
+    }
+}

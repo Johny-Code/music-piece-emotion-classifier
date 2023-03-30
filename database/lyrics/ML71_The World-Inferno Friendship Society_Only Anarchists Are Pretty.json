@@ -1,0 +1,58 @@
+{
+    "id": "ML71",
+    "mood": "happy",
+    "artist": "The World/Inferno Friendship Society",
+    "title": "Only Anarchists Are Pretty",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1060627",
+        "artist_names": "The World/Inferno Friendship Society",
+        "full_title": "Only Anarchists Are Pretty by\u00a0The\u00a0World/Inferno Friendship Society",
+        "header_image_thumbnail_url": "https://images.genius.com/ab11acbf800eaa869696f05e5b1b8f18.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/ab11acbf800eaa869696f05e5b1b8f18.800x800x1.jpg",
+        "id": 1060627,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1468365064,
+        "path": "/The-world-inferno-friendship-society-only-anarchists-are-pretty-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-world-inferno-friendship-society-only-anarchists-are-pretty-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 7,
+            "day": 11
+        },
+        "release_date_for_display": "July 11, 2006",
+        "release_date_with_abbreviated_month_for_display": "Jul. 11, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ab11acbf800eaa869696f05e5b1b8f18.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ab11acbf800eaa869696f05e5b1b8f18.800x800x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 6218
+        },
+        "title": "Only Anarchists Are Pretty",
+        "title_with_featured": "Only Anarchists Are Pretty",
+        "updated_by_human_at": 1474762042,
+        "url": "https://genius.com/The-world-inferno-friendship-society-only-anarchists-are-pretty-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/353388",
+            "header_image_url": "https://images.genius.com/765556bc7e98199715d4be7c8922e76c.800x1000x1.jpg",
+            "id": 353388,
+            "image_url": "https://images.genius.com/5f1a0b56ba7d8ac6fae39365a2ac48de.800x800x1.jpg",
+            "index_character": "w",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The World/Inferno Friendship Society",
+            "slug": "The-world-inferno-friendship-society",
+            "url": "https://genius.com/artists/The-world-inferno-friendship-society"
+        },
+        "artist": "The World/Inferno Friendship Society",
+        "lyrics": "Only Anarchists Are Pretty LyricsIf we should be arrested before we sleep\nI'll see you outside in a few days or in a few weeks\nAnd if you should be shot trying to escape\nI'll know that for the lie that's written on its face (well, alright)\nAnd if we don't live to be old and faint\nIt will be because we got lazy and forgot to get away\n\nWhen we were young, you were the best thing goin'\nAnd I struggled mightily to keep my hands to myself\nWatching you strut down the street telling everyone to go to hell\nWith a flash of the ankle, snarl of the lip\nI see you in the street and gasp\n\nA lot of gossip and glances, I'd had enough\nI grasped you gently by your arm and said\n\"Hey, I got a crush\"\nYou caught both my eyes and you gave me a push\nYou said, \"Hey, you got one back\"\nAnd the room caved in\n\nWith a flash of the ankle, snarl of the lip\nI see you in the street and gasp\nCause Only Anarchists Are\nOnly Anarchists Are\nOnly Anarchists Are Pretty\n\nAfter a lot of gossip and glances\nYour boyfriend got upset\nHe punched me squarely in my snout and said\n\"Hey! You got a debt!\"\nI turned my eyes into slits and I gave him a kick\nI said, \"Hey! You want one back?\"\nAnd the room caved in\n\nWith a flash of the ankle\nSnarl of the lip I see you in the street and gasp\nYou might also likeCause Only Anarchists Are\nOnly Anarchists Are\nOnly Anarchists Are PrettyEmbed"
+    }
+}

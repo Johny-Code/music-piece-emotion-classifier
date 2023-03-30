@@ -1,0 +1,57 @@
+{
+    "id": "ML1719",
+    "mood": "sad",
+    "artist": "The Stills",
+    "title": "Everything I Build",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/7368035",
+        "artist_names": "ChewieCatt",
+        "full_title": "Caught a Vibe by\u00a0ChewieCatt",
+        "header_image_thumbnail_url": "https://images.genius.com/e65a759d704bb92f1eef7b5dfd064974.300x300x1.png",
+        "header_image_url": "https://images.genius.com/e65a759d704bb92f1eef7b5dfd064974.640x640x1.png",
+        "id": 7368035,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 10041052,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1636329210,
+        "path": "/Chewiecatt-caught-a-vibe-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Chewiecatt-caught-a-vibe-sample",
+        "release_date_components": {
+            "year": 2021,
+            "month": 9,
+            "day": 24
+        },
+        "release_date_for_display": "September 24, 2021",
+        "release_date_with_abbreviated_month_for_display": "Sep. 24, 2021",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e65a759d704bb92f1eef7b5dfd064974.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/e65a759d704bb92f1eef7b5dfd064974.640x640x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Caught a Vibe",
+        "title_with_featured": "Caught a Vibe",
+        "updated_by_human_at": 1636329325,
+        "url": "https://genius.com/Chewiecatt-caught-a-vibe-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2114549",
+            "header_image_url": "https://images.genius.com/f8c1384dd69485a806a56f73f062c891.900x900x1.jpg",
+            "id": 2114549,
+            "image_url": "https://images.genius.com/f8c1384dd69485a806a56f73f062c891.900x900x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "ChewieCatt",
+            "slug": "Chewiecatt",
+            "url": "https://genius.com/artists/Chewiecatt"
+        },
+        "artist": "ChewieCatt",
+        "lyrics": "Caught a Vibe Lyrics[Intro/Chorus]\nIs it time? Never wanna lie\nCaught a vibe erased from my mind\nI know I turned out fine\nBut I always doubt if I'm right\nI never told another soul\n'Till I met with you last night\nBut, ask me in a day or so\nAnd the memory is wiped\n\n[Verse 1]\nI guess I always knew I had a problem\nNever really understanding where the tides had turned\nThought I had the clues, but I can't solve 'em\nWas it always me or am I doing something wrong?\nWhat if all of this just falls apart?\nAnd everything I built lives in the dark?\nWill I still preach to be just who you are?\nIs it all in my head or heart?\n\n[Pre-Chorus]\nOh, I don't know\nOh, I don't know\n\n[Chorus]\nIs it time? Never wanna lie\nCaught a vibe erased from my mind\nI know I turned out fine\nBut I always doubt if I'm right\nI never told another soul\n'Till I met with you last night\nBut, ask me in a day or so\nAnd the memory is wiped\n\n[Verse 2]\nI guess I got good at pushing thoughts aside\nIgnore them and move on with my life\nBut when did the silence get so loud?\nThese old signs are coming off the shelf\n\nSomething must take on my mind\nWhen I wake up to when I sleep at night\nAre these my own thoughts or an illusion?\nI guess I've gotten used to this confusion\nYou might also like[Chorus]\nIs it time? Never wanna lie\nCaught a vibe erased from my mind\nI know I turned out fine\nBut I always doubt if I'm right\nI never told another soul\n'Till I met with you last night\nBut, ask me in a day or so\nAnd the memory is wiped\n\nIs it time? Never wanna lie\nCaught a vibe erased from my mind\nI know I turned out fine\nBut I always doubt if I'm right\nI never told another soul\n'Till I met with you last night\nBut, ask me in a day or so\nAnd the memory is wipedEmbed"
+    }
+}

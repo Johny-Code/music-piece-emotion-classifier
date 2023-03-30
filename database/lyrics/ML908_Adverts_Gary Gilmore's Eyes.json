@@ -1,0 +1,53 @@
+{
+    "id": "ML908",
+    "mood": "angry",
+    "artist": "Adverts",
+    "title": "Gary Gilmore's Eyes",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/94410",
+        "artist_names": "The Adverts",
+        "full_title": "Gary Gilmore's Eyes by\u00a0The\u00a0Adverts",
+        "header_image_thumbnail_url": "https://images.genius.com/4c86fcf354f52dbd127a0bdd99dcc55e.300x303x1.jpg",
+        "header_image_url": "https://images.genius.com/4c86fcf354f52dbd127a0bdd99dcc55e.948x956x1.jpg",
+        "id": 94410,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 27699,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1451596375,
+        "path": "/The-adverts-gary-gilmores-eyes-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-adverts-gary-gilmores-eyes-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/4c86fcf354f52dbd127a0bdd99dcc55e.300x303x1.jpg",
+        "song_art_image_url": "https://images.genius.com/4c86fcf354f52dbd127a0bdd99dcc55e.948x956x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false
+        },
+        "title": "Gary Gilmore\u2019s Eyes",
+        "title_with_featured": "Gary Gilmore's Eyes",
+        "updated_by_human_at": 1597707223,
+        "url": "https://genius.com/The-adverts-gary-gilmores-eyes-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/26927",
+            "header_image_url": "https://images.genius.com/30b1b893e16ac58efbc1d618c1bb1671.812x176x1.png",
+            "id": 26927,
+            "image_url": "https://images.genius.com/9b9419ce68c51d17dcbe841ce00b7e73.1000x1000x1.png",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Adverts",
+            "slug": "The-adverts",
+            "url": "https://genius.com/artists/The-adverts"
+        },
+        "artist": "The Adverts",
+        "lyrics": "Gary Gilmore\u2019s Eyes LyricsI'm lying in a hospital\nI'm pinned against the bed\nA stethoscope upon my heart\nA hand against my head\nThey're peeling off the bandages\nI'm wincing in the light\nThe nurse is looking anxious\nAnd she's quivering with fright\nLooking through Gary Gilmore's eyes x4\nThe doctors are avoiding me\nMy vision is confused\nI listen to my earphones\nAnd I catch the evening news\nA murderer's been killed\nAnd he donates his sight to science\nI'm locked into a private ward\nI realise that I must be\nLooking through Gary Gilmore's eyes x4\n\nI smash the light in anger\nPush my bed against the door\nI close my lids across the eyes\nAnd wish to see no more\nThe eye receives the messages\nAnd sends them to the brain\nNo guarantee the stimuli\nMust be perceived the same way\n\nLooking through Gary Gilmore\u00b4s eyes x4\n\nGary don\u00b4t need his eyes to see\nGary and his eyes have parted companyYou might also likeEmbed"
+    }
+}

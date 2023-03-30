@@ -1,0 +1,58 @@
+{
+    "id": "ML1641",
+    "mood": "happy",
+    "artist": "Hot Chocolate",
+    "title": "You Sexy Thing",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/152024",
+        "artist_names": "Hot Chocolate",
+        "full_title": "You Sexy Thing by\u00a0Hot\u00a0Chocolate",
+        "header_image_thumbnail_url": "https://images.genius.com/1b5495514b3432dae4d5140dbdb4f2c5.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1b5495514b3432dae4d5140dbdb4f2c5.1000x1000x1.jpg",
+        "id": 152024,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1553,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1666824561,
+        "path": "/Hot-chocolate-you-sexy-thing-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Hot-chocolate-you-sexy-thing-sample",
+        "release_date_components": {
+            "year": 1975,
+            "month": 10,
+            "day": null
+        },
+        "release_date_for_display": "October 1975",
+        "release_date_with_abbreviated_month_for_display": "Oct. 1975",
+        "song_art_image_thumbnail_url": "https://images.genius.com/205b4ff9c7687001cb7e12f0b75c8a19.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/205b4ff9c7687001cb7e12f0b75c8a19.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 49406
+        },
+        "title": "You Sexy Thing",
+        "title_with_featured": "You Sexy Thing",
+        "updated_by_human_at": 1673843810,
+        "url": "https://genius.com/Hot-chocolate-you-sexy-thing-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/50339",
+            "header_image_url": "https://images.genius.com/32111370628c2ac88bfd385eae3e507b.624x550x1.jpg",
+            "id": 50339,
+            "image_url": "https://images.genius.com/1976394aeb05a8aae4faef8c15a28ae1.550x550x1.jpg",
+            "index_character": "h",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Hot Chocolate",
+            "slug": "Hot-chocolate",
+            "url": "https://genius.com/artists/Hot-chocolate"
+        },
+        "artist": "Hot Chocolate",
+        "lyrics": "You Sexy Thing Lyrics[Chorus]\nI believe in miracles\nWhere you from\nYou sexy thing?\nI believe in miracles\nSince you came along\nYou sexy thing\n\n[Verse 1]\nMiracles right before my eyes\nYou sexy thing got me hypnotised\nDon't stop what ya' doing\nWhat ya' doing to me\nMy angel from above lying next to me\nHow did ya' know that I'd be the one\nBeen a long time coming only just begun\nDoing all the things that makes my heart sing\nKeep doing what you're doing you sexy thing\n[Pre-Chorus]\nHow did ya' know I needed you so badly\nHow did ya' know I gave my heart gladly\nYesterday I was one of a lonely people\nNow you're lying close to me\nMaking love to me\n\n[Chorus]\nI believe in miracles\nWhere you're from\nYou sexy thing\nYou sexy thing\nI believe in miracles\nSince you came along\nYou sexy thing\n\n[Verse 2]\nOnly yesterday I was on my own\nJust another day later my mind was blown\nYou sexy thing come into my life\nForever and a day it feels so right\nHow did ya' know that I'd be the one\nBeen a long time coming only just begun\nDoing all the things that makes my heart sing\nKeep doing what you're doing you sexy thing\nYou might also like[Pre-Chorus]\nHow did ya' know I needed you so badly\nHow did ya' know I gave my heart gladly\nYesterday I was one of a lonely people\nNow you're lying next to me\nMaking love to me\n\n[Chorus]\nI believe in miracles\nWhere you from\nYou sexy thing?\nYou sexy thing\nI believe in miracles\nSince you came along\nYou sexy thing\n\n[Outro]\nKiss me baby\nYou sexy thing\nYou sexy thing\n\nTouch me baby\nYou sexy thing\nYou sexy thing6Embed"
+    }
+}

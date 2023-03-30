@@ -1,0 +1,58 @@
+{
+    "id": "ML702",
+    "mood": "angry",
+    "artist": "Thrice",
+    "title": "Under A Killing Moon",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/267748",
+        "artist_names": "Thrice",
+        "full_title": "Under a Killing Moon by\u00a0Thrice",
+        "header_image_thumbnail_url": "https://images.genius.com/edf0b16aa44e68e0a2d0a24f18fc03ea.300x300x1.png",
+        "header_image_url": "https://images.genius.com/edf0b16aa44e68e0a2d0a24f18fc03ea.877x877x1.png",
+        "id": 267748,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 329638,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1632258674,
+        "path": "/Thrice-under-a-killing-moon-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Thrice-under-a-killing-moon-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 7,
+            "day": 1
+        },
+        "release_date_for_display": "July 1, 2003",
+        "release_date_with_abbreviated_month_for_display": "Jul. 1, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/102841696c777625ff3554676ad34e46.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/102841696c777625ff3554676ad34e46.813x813x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 6993
+        },
+        "title": "Under a Killing Moon",
+        "title_with_featured": "Under a Killing Moon",
+        "updated_by_human_at": 1674241931,
+        "url": "https://genius.com/Thrice-under-a-killing-moon-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/17343",
+            "header_image_url": "https://images.genius.com/8628c437a49e29d91f3a082237235599.1000x667x1.jpg",
+            "id": 17343,
+            "image_url": "https://images.genius.com/16454d5ab9a89e3234360e55567a9ec6.1000x1000x1.jpg",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Thrice",
+            "slug": "Thrice",
+            "url": "https://genius.com/artists/Thrice"
+        },
+        "artist": "Thrice",
+        "lyrics": "Under a Killing Moon Lyrics[Verse 1]\nThe air my lungs first loved carves craters from my eyes\nThey said \"Breathe deeply, son or be the next to die\"\nBeneath the falling night and Heaven's shutting gate\n\"Pray keep your tongue held tight or suffer the same fate\"\n\n[Chorus]\n\"The blood on our black gloves\nIt is none of your concern\nIf you want to call our bluff\nGet in line and wait your turn\nAnd watch the witches burn\"\n[Verse 2]\n\"Don't flinch when innocents are dancing with the flame\nIf they wanted to live, they'd learn to play the game\nYou can still walk away, if you just hold your tongue\nIf you'd just walk away, you'd live to see the sun\"\n\n[Bridge]\nBut under this killing moon\nUnder this burning sky\nThe fire's shining groom\nI hold my breath and close my eyes\n\n[Chorus]\n\"The blood on our black gloves\nIt is none of your concern\nIf you want to call our bluff\nGet in line and wait your turn\nThe blood on our black gloves\nIt is none of your concern\nIf you want to call our bluff\nGet in line and wait your turn\nAnd watch the witches burn\n\n[Outro]\nBurn!\nWe'll watch the witches burn\nBurn! Burn! Burn!\nWe'll watch the witches burn\"You might also like2Embed"
+    }
+}

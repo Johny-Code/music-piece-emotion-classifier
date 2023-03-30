@@ -1,0 +1,58 @@
+{
+    "id": "ML1097",
+    "mood": "happy",
+    "artist": "They Might Be Giants",
+    "title": "Birdhouse In Your Soul",
+    "song": {
+        "_type": "song",
+        "annotation_count": 19,
+        "api_path": "/songs/142057",
+        "artist_names": "They Might Be Giants",
+        "full_title": "Birdhouse in Your Soul by\u00a0They\u00a0Might Be Giants",
+        "header_image_thumbnail_url": "https://images.genius.com/cd9914bf7113e0a8a07a540c296227ab.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/cd9914bf7113e0a8a07a540c296227ab.1000x1000x1.jpg",
+        "id": 142057,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 103613,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1669201832,
+        "path": "/They-might-be-giants-birdhouse-in-your-soul-lyrics",
+        "pyongs_count": 17,
+        "relationships_index_url": "https://genius.com/They-might-be-giants-birdhouse-in-your-soul-sample",
+        "release_date_components": {
+            "year": 1989,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1989",
+        "release_date_with_abbreviated_month_for_display": "1989",
+        "song_art_image_thumbnail_url": "https://images.genius.com/0c0f0f1dba6c7b5202e7529d42328339.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/0c0f0f1dba6c7b5202e7529d42328339.300x300x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 98133
+        },
+        "title": "Birdhouse in Your Soul",
+        "title_with_featured": "Birdhouse in Your Soul",
+        "updated_by_human_at": 1669201832,
+        "url": "https://genius.com/They-might-be-giants-birdhouse-in-your-soul-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/35519",
+            "header_image_url": "https://images.genius.com/d4e9b5f09bb8d3ede65192e52a462af6.1000x563x1.jpg",
+            "id": 35519,
+            "image_url": "https://images.genius.com/f0cac9472475d2bcf43e0f1768d3fd38.300x300x1.png",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "They Might Be Giants",
+            "slug": "They-might-be-giants",
+            "url": "https://genius.com/artists/They-might-be-giants"
+        },
+        "artist": "They Might Be Giants",
+        "lyrics": "Birdhouse in Your Soul Lyrics[Bridge]\nI'm your only friend\nI'm not your only friend\nBut I'm a little glowing friend\nBut really I'm not actually your friend\nBut I am\n\n[Chorus]\nBlue canary in the outlet by the light switch\nWho watches over you\nMake a little birdhouse in your soul\nNot to put too fine a point on it\nSay I'm the only bee in your bonnet\nMake a little birdhouse in your soul\n[Verse 1]\nI have a secret to tell\nFrom my electrical well\nIt's a simple message and I'm\nLeaving out the whistles and bells\nSo the room must listen to me\nFilibuster vigilantly\nMy name is blue canary\nOne note spelled l-i-t-e\nMy story's infinite\nLike the Longines Symphonette\nIt doesn't rest\n\n[Chorus]\nBlue canary in the outlet by the light switch\nWho watches over you\nMake a little birdhouse in your soul\nNot to put too fine a point on it\nSay I'm the only bee in your bonnet\nMake a little birdhouse in your soul\n\n[Bridge]\nI'm your only friend\nI'm not your only friend\nBut I'm a little glowing friend\nBut really I'm not actually your friend\nBut I am\nYou might also like[Verse 2]\nThere's a picture opposite me\nOf my primitive ancestry\nWhich stood on rocky shores\nAnd kept the beaches shipwreck-free\nThough I respect that a lot\nI'd be fired if that were my job\nAfter killing Jason off\nAnd countless screaming Argonauts\nBlue bird of friendliness\nLike guardian angels it's\nAlways near\n\n[Chorus 2]\nBlue canary in the outlet by the light switch\nWho watches over you\nMake a little birdhouse in your soul\nNot to put too fine a point on it\nSay I'm the only bee in your bonnet\nMake a little birdhouse in your soul\nWhile you're at it\nKeep the nightlight on inside\nThe birdhouse in your soul\nNot to put too fine a point on it\nSay I'm the only bee in your bonnet\nMake a little birdhouse in your soul\nWhile you're at it\nKeep the nightlight on inside\nThe birdhouse in your soul\n(Blue canary in the outlet by the light switch\nWho watches over you\nMake a little birdhouse in your soul)\nMake a little birdhouse in your soul\nWhile you're at it\nKeep the nightlight on inside\nThe birdhouse in your soul\nNot to put too fine a point on it\nSay I'm the only bee in your bonnet\nMake a little birdhouse in your soul17Embed"
+    }
+}

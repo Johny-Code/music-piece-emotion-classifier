@@ -1,0 +1,53 @@
+{
+    "id": "ML1026",
+    "mood": "relaxed",
+    "artist": "Bonnie Somerville",
+    "title": "Winding Road",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/152871",
+        "artist_names": "Bonnie Somerville",
+        "full_title": "Winding Road by\u00a0Bonnie\u00a0Somerville",
+        "header_image_thumbnail_url": "https://images.genius.com/512eb873cb9ae74ac7c2e8be813d98bc.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/512eb873cb9ae74ac7c2e8be813d98bc.600x600x1.jpg",
+        "id": 152871,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 131,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1606512750,
+        "path": "/Bonnie-somerville-winding-road-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Bonnie-somerville-winding-road-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/512eb873cb9ae74ac7c2e8be813d98bc.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/512eb873cb9ae74ac7c2e8be813d98bc.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Winding Road",
+        "title_with_featured": "Winding Road",
+        "updated_by_human_at": 1606512750,
+        "url": "https://genius.com/Bonnie-somerville-winding-road-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/50827",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "id": 50827,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Bonnie Somerville",
+            "slug": "Bonnie-somerville",
+            "url": "https://genius.com/artists/Bonnie-somerville"
+        },
+        "artist": "Bonnie Somerville",
+        "lyrics": "Winding Road Lyrics[Verse 1]\nWell, the rain keeps on coming down\nIt feels like a flood in my head\nAnd that road keeps on calling me\nScreaming to everything lying ahead\n\n[Chorus]\nAnd it's a winding road\nI've been walking for a long time\nI still don't know\nWhere it goes\nAnd it's a long way home\nI've been searching for a long time\nI still have hope\nI'm gonna find my way home\n[Verse 2]\nAnd I can see a little house\nOn top of the hill\nAnd I can smell the ocean\nThe salt in the air\nAnd I can see you\nYou're standing there\nAnd you're washing your car\nAnd I can see California sun in your hair\n\n[Chorus]\n\n[Bridge]\nAll these dreams took me so far\nAnd I felt I just couldn't go on\nAnd I want to hang\nOut the window of your car\nAnd see just how good this baby can run\n\n[Chorus 2]\nCause it's a winding road\nI've been walking for a long time\nAnd I still don't know\nWhere it goes\nAnd it's a long way home\nI've been searching for a long time\nStill have hope\nWe're gonna find our way home\nYou might also like[Chorus 3]\nIt's a winding road\nStill have hope\nOne day we'll find our way home\nIt's a long way home\nI've been searching for a long time\nStill have hope\nWe're gonna find our way home\n\n[Outro]\nIt's a long way home\nIt's a long way homeEmbed"
+    }
+}

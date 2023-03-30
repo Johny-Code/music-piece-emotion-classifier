@@ -1,0 +1,58 @@
+{
+    "id": "ML1552",
+    "mood": "happy",
+    "artist": "Free",
+    "title": "All Right Now",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/131476",
+        "artist_names": "Free",
+        "full_title": "All Right Now by\u00a0Free",
+        "header_image_thumbnail_url": "https://images.genius.com/302b150b8e064bc3e586bf280d23d7af.300x300x1.png",
+        "header_image_url": "https://images.genius.com/302b150b8e064bc3e586bf280d23d7af.301x301x1.png",
+        "id": 131476,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1553,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1603757041,
+        "path": "/Free-all-right-now-lyrics",
+        "pyongs_count": 10,
+        "relationships_index_url": "https://genius.com/Free-all-right-now-sample",
+        "release_date_components": {
+            "year": 1970,
+            "month": 5,
+            "day": null
+        },
+        "release_date_for_display": "May 1970",
+        "release_date_with_abbreviated_month_for_display": "May. 1970",
+        "song_art_image_thumbnail_url": "https://images.genius.com/302b150b8e064bc3e586bf280d23d7af.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/302b150b8e064bc3e586bf280d23d7af.301x301x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 36518
+        },
+        "title": "All Right Now",
+        "title_with_featured": "All Right Now",
+        "updated_by_human_at": 1673800484,
+        "url": "https://genius.com/Free-all-right-now-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/42462",
+            "header_image_url": "https://images.genius.com/ed6e4cbefe6b1394d12c339f4d5f4b58.736x396x1.png",
+            "id": 42462,
+            "image_url": "https://images.genius.com/5308497e65b7f86c422d070a551312d8.735x735x1.png",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Free",
+            "slug": "Free",
+            "url": "https://genius.com/artists/Free"
+        },
+        "artist": "Free",
+        "lyrics": "All Right Now LyricsOh, whoa, whoa\nOw\nMm!\n\nThere she stood in the street\nSmiling from her head to her feet\nI said-ah, hey, what is this?\nNow baby, maybe, maybe she's in need of a kiss\n\nI said-ah, \"Hey, what's your name baby?\nMaybe we can see things the same\nNow don't you wait or hesitate\nLet's move before they raise the parking rate.\"\nOw!\nAll right now\nBaby, it's-ah all right now\nMm!\nAll right now\nBaby, it's-ah all right now\nWhoa, ooh\n\nLet me tell you all about it now\nMm!\n\nI took her home to my place\nWatching every move on her face\nShe said, \"Look, what's your game, baby?\nAre you tryin' to put me in shame?\"\n\nI said, \"Slow, don't go so fast\nDon't you think that love can last?\"\nShe said, \"Love, Lord above\nHuh, now you're trying to trick me in love\"\nOw!\n\nAll right now\nBaby, it's-ah all right now\nAll right now\nBaby, it's-ah all right now\nYou might also likeYeah, it's all right now\nYeah!\n\nHoo!\nOh yeah, ow!\nLet me tell you all about it, now\nOw!\nYeah\n\nTook her home, yeah, to my place\nWatching every move on her face\nShe said, \"Look, uh, what's your game?\nAre you trying to put me in shame?\"\n\n\"Baby,\" I said, \"Slow, slow, don't go so fast, huh\nDon't you think that love can last?\"\nShe said, \"Love, Lord above\nNow he's trying to trick me in love\"\nYeah!\n\nAll right now\nBaby, it's-ah all right now, yeah\nAll right now\nBaby, it's-ah all right now\n\nAll right now\nIt's all right, it's all right, it's all right\nAll right now\nAll right now\nIt's all right, it's all right, it's all right10Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML928",
+    "mood": "sad",
+    "artist": "My Dying Bride",
+    "title": "My Wine in Silence",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/1560312",
+        "artist_names": "My Dying Bride",
+        "full_title": "My Wine in Silence by\u00a0My\u00a0Dying Bride",
+        "header_image_thumbnail_url": "https://images.genius.com/8c3290d0f9d111f620d2f5ea4adebc87.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/8c3290d0f9d111f620d2f5ea4adebc87.300x300x1.jpg",
+        "id": 1560312,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 290822,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1642963497,
+        "path": "/My-dying-bride-my-wine-in-silence-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/My-dying-bride-my-wine-in-silence-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 2,
+            "day": 23
+        },
+        "release_date_for_display": "February 23, 2004",
+        "release_date_with_abbreviated_month_for_display": "Feb. 23, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8c3290d0f9d111f620d2f5ea4adebc87.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8c3290d0f9d111f620d2f5ea4adebc87.300x300x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "My Wine in Silence",
+        "title_with_featured": "My Wine in Silence",
+        "updated_by_human_at": 1642963497,
+        "url": "https://genius.com/My-dying-bride-my-wine-in-silence-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/353360",
+            "header_image_url": "https://images.genius.com/f61e6432c375c7d321dc3354fe59423d.951x951x1.jpg",
+            "id": 353360,
+            "image_url": "https://images.genius.com/f61e6432c375c7d321dc3354fe59423d.951x951x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "My Dying Bride",
+            "slug": "My-dying-bride",
+            "url": "https://genius.com/artists/My-dying-bride"
+        },
+        "artist": "My Dying Bride",
+        "lyrics": "My Wine in Silence LyricsWhere are you now, my love?\nMy sweet one\n\nWhere have you gone, oh my love?\nI'm so alone\n\nI only think of you\nAnd it drives me down\nI only dream of you\n\nCome here my lover\nI'll keep you\nI will change you\nCome here my slave\nYou will live forever\nScreaming\nCrying\nMy lover\nWith you\nI'm done\nAt last\nI'll come to you, take my hand\nHold me again, please take my hand\n\nWho are you?\nWhat were you?\nMy beauty\nI can't tell\nHow I feel\nHow I felt\nYou have paid\nFor your un-kindness\nWith you\nI'm done\nAt last\n\nPlease hold me now, my love\nWhere are you now, oh my sweet love?You might also like1Embed"
+    }
+}

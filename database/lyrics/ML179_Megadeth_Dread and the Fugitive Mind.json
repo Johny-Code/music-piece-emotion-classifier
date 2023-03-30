@@ -1,0 +1,58 @@
+{
+    "id": "ML179",
+    "mood": "angry",
+    "artist": "Megadeth",
+    "title": "Dread and the Fugitive Mind",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/112332",
+        "artist_names": "Megadeth",
+        "full_title": "Dread and the Fugitive Mind by\u00a0Megadeth",
+        "header_image_thumbnail_url": "https://images.genius.com/5405310e56eb8bb21789e859efdaba8d.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5405310e56eb8bb21789e859efdaba8d.1000x1000x1.jpg",
+        "id": 112332,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 22533,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1627535359,
+        "path": "/Megadeth-dread-and-the-fugitive-mind-lyrics",
+        "pyongs_count": 5,
+        "relationships_index_url": "https://genius.com/Megadeth-dread-and-the-fugitive-mind-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 5,
+            "day": 15
+        },
+        "release_date_for_display": "May 15, 2001",
+        "release_date_with_abbreviated_month_for_display": "May. 15, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5405310e56eb8bb21789e859efdaba8d.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5405310e56eb8bb21789e859efdaba8d.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 13302
+        },
+        "title": "Dread and the Fugitive Mind",
+        "title_with_featured": "Dread and the Fugitive Mind",
+        "updated_by_human_at": 1643976497,
+        "url": "https://genius.com/Megadeth-dread-and-the-fugitive-mind-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/19444",
+            "header_image_url": "https://images.genius.com/ed7f0a9b8b87c0d2325b050eeebcc068.1000x530x1.png",
+            "id": 19444,
+            "image_url": "https://images.genius.com/9bdc3d3ea88da0c065c94aee4f13d943.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Megadeth",
+            "slug": "Megadeth",
+            "url": "https://genius.com/artists/Megadeth"
+        },
+        "artist": "Megadeth",
+        "lyrics": "Dread and the Fugitive Mind Lyrics[Verse 1]\nLet me introduce myself\nI'm a social disease\nI've come for your wealth\nLeave you on your knees\nNo time for feeling sorry\nI got here on my own\nI won't ask for mercy\nI choose to walk alone\n\n[Pre-Chorus]\nWhat's yours is mine\nWhat's mine is mine too\nIf you shake my hand\nBetter count your fingers\n[Chorus]\nWhat if I do get caught?\nWhat if there is no judgement?\nIf I'm right, I lose nothing\nIf you're right, I lose it all\nI ought to get caught\nBecause I'm doing something wicked\nI'm guilty, haunted by my fears\nAnd the only consequences are dread and the fugitive mind\n\n[Verse 2]\nYou built walls to protect you\nSo no-one will infect you\nPursued by those out there\nThat vanish in thin air\nCome a long way to find\nWhat you really left behind\nYou don't know when the end is\nBut it's coming fast\n\n[Pre-Chorus]\nWhat's yours is mine\nWhat's mine is mine too\nIf you shake my hand\nBetter count your fingers\nYou might also like[Chorus]\nWhat if I do get caught?\nWhat if there is no judgement?\nIf I'm right, I lose nothing\nIf you're right, I lose it all\nI ought to get caught\nBecause I'm doing something wicked\nI'm guilty, haunted by my fears\nAnd the only consequences are dread and the fugitive mind\n\n[Instrumental Outro]5Embed"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "id": "ML623",
+    "mood": "relaxed",
+    "artist": "Astrud Gilberto",
+    "title": "The Girl From Ipanema",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1202737",
+        "artist_names": "Astrud Gilberto",
+        "full_title": "The Girl From Ipanema by\u00a0Astrud\u00a0Gilberto",
+        "header_image_thumbnail_url": "https://images.genius.com/526b5e1b1bb347c330e4524e8b411bc9.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/526b5e1b1bb347c330e4524e8b411bc9.500x500x1.jpg",
+        "id": 1202737,
+        "instrumental": false,
+        "language": "pt",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1487139717,
+        "path": "/Astrud-gilberto-the-girl-from-ipanema-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Astrud-gilberto-the-girl-from-ipanema-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/526b5e1b1bb347c330e4524e8b411bc9.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/526b5e1b1bb347c330e4524e8b411bc9.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "The Girl From Ipanema",
+        "title_with_featured": "The Girl From Ipanema",
+        "updated_by_human_at": 1487139756,
+        "url": "https://genius.com/Astrud-gilberto-the-girl-from-ipanema-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/343506",
+            "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/dccdvOtPRN2VKfa2Q9sC_gilberto-astrud-54176c7abe9f1.jpg",
+            "id": 343506,
+            "image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/dccdvOtPRN2VKfa2Q9sC_gilberto-astrud-54176c7abe9f1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Astrud Gilberto",
+            "slug": "Astrud-gilberto",
+            "url": "https://genius.com/artists/Astrud-gilberto"
+        },
+        "artist": "Astrud Gilberto",
+        "lyrics": "The Girl From Ipanema LyricsOlha que coisa mais linda\nMais cheia de gra\u00e7a\n\u00c9 ela a menina que vem e que passa\nNum doce balan\u00e7o a caminho do mar\nMo\u00e7a do corpo dourado do c\u00e9u de Ipanema\nO seu balan\u00e7ado \u00e9 mais que um poema\n\u00c9 a coisa mais linda que eu j\u00e1 vi passar\n\nAh, but I watch him so sadly\nHow can I tell him I love him\nYes, I would give my heart gladly\nBut each day when he walks to the sea\nHe looks straight ahead not at me\nAh, se ela soubesse\nQue, quando ela passa\nO mundo inteirinho se enche de gra\u00e7a\nE fica mais lindo, but she doesn't see\nBut she doesn't see\n\nAh, but I watch him so sadly\nHow can I tell him I love him\nYes, I would give my heart gladly\nBut each day when he walks to the sea\nHe looks straight ahead not at me\n\nAh, se ela soubesse\nQue, quando ela passa\nO mundo inteirinho se enche de gra\u00e7a\nE fica mais lindo, but she doesn't see\nBut she doesn't see\n\nBut she doesn't see\nHe doesn't see\nBut she doesn't see\nHe doesn't see\nBut she doesn't see\nBut she doesn't see\nNo She doesn't see You might also likeEmbed"
+    }
+}

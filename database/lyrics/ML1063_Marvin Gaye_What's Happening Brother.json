@@ -1,0 +1,58 @@
+{
+    "id": "ML1063",
+    "mood": "relaxed",
+    "artist": "Marvin Gaye",
+    "title": "What's Happening Brother",
+    "song": {
+        "_type": "song",
+        "annotation_count": 11,
+        "api_path": "/songs/116194",
+        "artist_names": "Marvin Gaye",
+        "full_title": "What's Happening Brother by\u00a0Marvin\u00a0Gaye",
+        "header_image_thumbnail_url": "https://images.genius.com/e42ac520b8841c13fb0a46a7b66c6219.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e42ac520b8841c13fb0a46a7b66c6219.1000x1000x1.jpg",
+        "id": 116194,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 117694,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1679109369,
+        "path": "/Marvin-gaye-whats-happening-brother-lyrics",
+        "pyongs_count": 5,
+        "relationships_index_url": "https://genius.com/Marvin-gaye-whats-happening-brother-sample",
+        "release_date_components": {
+            "year": 1971,
+            "month": 5,
+            "day": 21
+        },
+        "release_date_for_display": "May 21, 1971",
+        "release_date_with_abbreviated_month_for_display": "May. 21, 1971",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e42ac520b8841c13fb0a46a7b66c6219.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e42ac520b8841c13fb0a46a7b66c6219.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 41523
+        },
+        "title": "What\u2019s Happening Brother",
+        "title_with_featured": "What's Happening Brother",
+        "updated_by_human_at": 1679098836,
+        "url": "https://genius.com/Marvin-gaye-whats-happening-brother-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/944",
+            "header_image_url": "https://images.genius.com/446e5592dc5e3c295cf1b0e6088dc084.1000x692x1.jpg",
+            "id": 944,
+            "image_url": "https://images.genius.com/ee7f453224dcc21cb8b8cf57475530dc.217x217x1.png",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Marvin Gaye",
+            "slug": "Marvin-gaye",
+            "url": "https://genius.com/artists/Marvin-gaye"
+        },
+        "artist": "Marvin Gaye",
+        "lyrics": "What\u2019s Happening Brother Lyrics[Verse 1]\nHey baby, what you know good?\nI'm just getting back, but you knew I would\nWar is hell, when will it end?\nWhen will people start getting together again?\nAre things really getting better, like the newspaper said?\nWhat else is new my friend, besides what I read?\n\n[Verse 2]\nCan't find no work, can't find no job, my friend\nMoney is tighter than it's ever been\nSay man, I just don't understand what's going on across this land?\nAh, what's happening brother?\nYeah, what's happening? What's happening my man?\n[Verse 3]\nAre they still getting down where we used to go and dance?\nWill our ball club win the pennant, do you think they have a chance?\nAnd tell me friend, how in the world have you been?\nTell me what's out and I want to know what's in\n\n[Verse 4]\nWhat's the deal man\nWhat's happening? What's happening brother?\nWhat's happening brother?\nAh, what's happening brother?\nWhat's happening my man?\nWhoo, ah, ah, what's happening brother?\nSay man, whoo, what's happening brother?\n\n[Outro]\nWhat's been shaking up and down the line?\nI want to know, because I'm slightly behind the timesYou might also like5Embed"
+    }
+}

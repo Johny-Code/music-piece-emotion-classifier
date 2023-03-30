@@ -1,0 +1,58 @@
+{
+    "id": "ML842",
+    "mood": "angry",
+    "artist": "Anthrax",
+    "title": "Indians",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/600426",
+        "artist_names": "Anthrax",
+        "full_title": "Indians by\u00a0Anthrax",
+        "header_image_thumbnail_url": "https://images.genius.com/283943531ef4f72fd9bd1dc7e0feb639.300x293x1.jpg",
+        "header_image_url": "https://images.genius.com/283943531ef4f72fd9bd1dc7e0feb639.600x585x1.jpg",
+        "id": 600426,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1279279,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1677013142,
+        "path": "/Anthrax-indians-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Anthrax-indians-sample",
+        "release_date_components": {
+            "year": 1987,
+            "month": 3,
+            "day": 22
+        },
+        "release_date_for_display": "March 22, 1987",
+        "release_date_with_abbreviated_month_for_display": "Mar. 22, 1987",
+        "song_art_image_thumbnail_url": "https://images.genius.com/283943531ef4f72fd9bd1dc7e0feb639.300x293x1.jpg",
+        "song_art_image_url": "https://images.genius.com/283943531ef4f72fd9bd1dc7e0feb639.600x585x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 30477
+        },
+        "title": "Indians",
+        "title_with_featured": "Indians",
+        "updated_by_human_at": 1677013142,
+        "url": "https://genius.com/Anthrax-indians-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/11082",
+            "header_image_url": "https://images.genius.com/d499722d26aeff596f7997baaadfc9c5.1000x493x1.png",
+            "id": 11082,
+            "image_url": "https://images.genius.com/ce339ce31aac8b551ff64f181be882b0.1000x1000x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Anthrax",
+            "slug": "Anthrax",
+            "url": "https://genius.com/artists/Anthrax"
+        },
+        "artist": "Anthrax",
+        "lyrics": "Indians Lyrics[Verse 1]\nWe all see in black and white\nWhen it comes to someone else's fight\nNo one ever gets involved\nApathy can never solve\n\n[Pre-Chorus]\nForced out, brave and mighty\nStolen land, they can't fight it\nHold on to pride and tradition\nEven though they know how much their lives are really missing\nWe're dissing them\nOn reservations\nA hopeless situation\n[Verse 2]\nRespect is something that you earn\nOur Indian brothers' getting burned\nOriginal American\nTurned into a second class citizen\n\n[Pre-Chorus]\nForced out, brave and mighty\nStolen land, they can't fight it\nHold on to pride and tradition\nEven though they know how much their lives are really missing\nWe're dissing them\nOn reservations\nA hopeless situation\n\n[Chorus]\nCry for the Indians, oh\nDie for the Indians\nCry for the Indians\nOh, cry, cry, cry for the Indians\n\n[Verse 3]\nLove the land and fellow man\nPeace is what we strive to have\nSome folks have none of this\nHatred and prejudice\nYou might also like[Pre-Chorus]\nForced out, brave and mighty\nStolen land, they can't fight it\nHold on to pride and tradition\nEven though they know how much their lives are really missing\nWe're dissing them\nOn reservations\nA hopeless situation\n\n[Chorus]\nCry for the Indians\nDie for the Indians\nCry for the Indians\nCry, cry, cry for the Indians\n\n[Bridge]\nWar dance\nTerritory it's just the body of the nation\nThe people that inhabit it make its configuration\nPrejudice, something we all can do without\nA flag of many colors is what this land's all about\n\n[Guitar Solo]\n\n[Verse 1]\nWe all see in black and white\nWhen it comes to someone else's fight\nNo one ever gets involved, no one\nApathy can never solve\n[Pre-Chorus]\nForced out, brave and mighty\nStolen land, they can't fight it\nHold on to pride and tradition\nEven though they know how much their lives are really missing\nWe're dissing them\nOn reservations\nA hopeless situation\n\n[Chorus]\nCry for the Indians\nDie for the Indians\nCry for the Indians\nCry, cry, cry for the Indians4Embed"
+    }
+}

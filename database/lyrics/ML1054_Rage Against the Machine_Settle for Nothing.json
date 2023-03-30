@@ -1,0 +1,58 @@
+{
+    "id": "ML1054",
+    "mood": "angry",
+    "artist": "Rage Against the Machine",
+    "title": "Settle for Nothing",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/39704",
+        "artist_names": "Rage Against the Machine",
+        "full_title": "Settle for Nothing by\u00a0Rage\u00a0Against the Machine",
+        "header_image_thumbnail_url": "https://images.genius.com/535ab7d63d3a9a6f99ab27718b61cd49.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/535ab7d63d3a9a6f99ab27718b61cd49.1000x1000x1.jpg",
+        "id": 39704,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 50,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1667910826,
+        "path": "/Rage-against-the-machine-settle-for-nothing-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Rage-against-the-machine-settle-for-nothing-sample",
+        "release_date_components": {
+            "year": 1992,
+            "month": 11,
+            "day": 3
+        },
+        "release_date_for_display": "November 3, 1992",
+        "release_date_with_abbreviated_month_for_display": "Nov. 3, 1992",
+        "song_art_image_thumbnail_url": "https://images.genius.com/535ab7d63d3a9a6f99ab27718b61cd49.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/535ab7d63d3a9a6f99ab27718b61cd49.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 87590
+        },
+        "title": "Settle for Nothing",
+        "title_with_featured": "Settle for Nothing",
+        "updated_by_human_at": 1677196278,
+        "url": "https://genius.com/Rage-against-the-machine-settle-for-nothing-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1499",
+            "header_image_url": "https://images.genius.com/894d5c14133517ce6354f719cc88af54.1000x302x1.png",
+            "id": 1499,
+            "image_url": "https://images.genius.com/2158957823960c84c7890b8fa5e6d479.1000x1000x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Rage Against the Machine",
+            "slug": "Rage-against-the-machine",
+            "url": "https://genius.com/artists/Rage-against-the-machine"
+        },
+        "artist": "Rage Against the Machine",
+        "lyrics": "TranslationsPortugu\u00easSettle for Nothing Lyrics[Verse]\nA jail cell is freedom from the pain in my home\nHatred passed on, passed on, and passed on\nA world of violent rage but it's one that I can recognize\nHaving never seen the color of my father's eyes\nYes, I dwell in hell, but it's a hell that I can grip\nI tried to grip my family but I slipped\nTo escape from the pain in an existence mundane\nI got a nine, a sign, a set, and now I got a name\n\n[Chorus]\nRead my writing on the wall\nNo one's here to catch me when I fall\nDeath is on my side\nSuicide\n[Verse]\nA jail cell is freedom from the pain in my home\nHatred passed on, passed on, and passed on\nA world of violent rage but it's one that I can recognize\nHaving never seen the color of my father's eyes\nYes, I dwell in hell, but it's a hell that I can grip\nI tried to grip my family but I slipped\nTo escape from the pain in an existence mundane\nI got a nine, a sign, a set, and now I got a name\n\n[Chorus]\nRead my writing on the wall\nNo one's here to catch me when I fall\nCaught between my culture and the system\nGenocide\nRead my writing on the wall\nNo one's here to catch me when I fall\nIf ignorance is bliss\nThen knock the smile off my face, yeah!\n\n[Guitar Solo]\n\n[Outro]\nIf we don't take action now\nWe'll settle for nothing later\nWe'll settle for nothing now\nAnd we'll settle for nothing later\nIf we don't take action now\nWe'll settle for nothing later\nWe'll settle for nothing now\nAnd we'll settle for nothing later\nIf we don't take action now\nWe'll settle for nothing later\nWe'll settle for nothing now\nAnd we'll settle for nothing later\nIf we don't take action now\nWe'll settle for nothing later\nWe'll settle for nothing now\nAnd we'll settle for nothing laterYou might also like6Embed"
+    }
+}

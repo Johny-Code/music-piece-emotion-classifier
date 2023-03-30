@@ -1,0 +1,57 @@
+{
+    "id": "ML1745",
+    "mood": "relaxed",
+    "artist": "Jack Johnson",
+    "title": "Adrift",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/320908",
+        "artist_names": "Jack Johnson",
+        "full_title": "Adrift by\u00a0Jack\u00a0Johnson",
+        "header_image_thumbnail_url": "https://images.genius.com/3076319a2ada12da18a43797c7bd2f21.300x300x1.png",
+        "header_image_url": "https://images.genius.com/3076319a2ada12da18a43797c7bd2f21.500x500x1.png",
+        "id": 320908,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 256152,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1605450818,
+        "path": "/Jack-johnson-adrift-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Jack-johnson-adrift-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 2,
+            "day": 5
+        },
+        "release_date_for_display": "February 5, 2008",
+        "release_date_with_abbreviated_month_for_display": "Feb. 5, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3076319a2ada12da18a43797c7bd2f21.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/3076319a2ada12da18a43797c7bd2f21.500x500x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Adrift",
+        "title_with_featured": "Adrift",
+        "updated_by_human_at": 1676945026,
+        "url": "https://genius.com/Jack-johnson-adrift-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/3833",
+            "header_image_url": "https://images.genius.com/d7573ef9f9edcbefbbbf844e5f7e336e.640x640x1.jpg",
+            "id": 3833,
+            "image_url": "https://images.genius.com/d7573ef9f9edcbefbbbf844e5f7e336e.640x640x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Jack Johnson",
+            "slug": "Jack-johnson",
+            "url": "https://genius.com/artists/Jack-johnson"
+        },
+        "artist": "Jack Johnson",
+        "lyrics": "Adrift Lyrics[Verse 1]\nYour voice is adrift\nI can't expect it to sing to me\nAs if I was the only one\n\n[Chorus]\nI'll follow you\nThe leaf that's following the sun\nWhen will my weight be too much for you?\nWhen will these ideas really be my own?\nBecause this moment keeps on moving\nWe were never meant to hold on\n[Verse 2]\nThis was a scene worth waking up for\nWhen I woke up\nYou planted me in my own pot\nDon't know why\nBut somehow it just feels so wrong\n\nWhen you're sad, I will be lonely\nBut when you rise again I'll have become the sun\nI will shine down upon you\nAs if you were the only one\n\nYour voice is your own, I can't protect it\nYou'll have to sing\nA verse no one has ever known\nDon't be afraid\n'Cause no one ever sings alone\n\n[Chorus]\nYour weight will never be too much for me\nYour ideas have always been your own\nAnd this moment keeps on moving\nWe were never meant to hold onYou might also likeEmbed"
+    }
+}

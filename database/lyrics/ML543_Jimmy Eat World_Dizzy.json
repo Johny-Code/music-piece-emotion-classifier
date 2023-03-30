@@ -1,0 +1,58 @@
+{
+    "id": "ML543",
+    "mood": "sad",
+    "artist": "Jimmy Eat World",
+    "title": "Dizzy",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/207590",
+        "artist_names": "Jimmy Eat World",
+        "full_title": "Dizzy by\u00a0Jimmy\u00a0Eat World",
+        "header_image_thumbnail_url": "https://s3.amazonaws.com/rapgenius/1266881482_a7d18e1f1b_o.jpg",
+        "header_image_url": "https://s3.amazonaws.com/rapgenius/1266881482_a7d18e1f1b_o.jpg",
+        "id": 207590,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 225680,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1651307959,
+        "path": "/Jimmy-eat-world-dizzy-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Jimmy-eat-world-dizzy-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 10,
+            "day": 16
+        },
+        "release_date_for_display": "October 16, 2007",
+        "release_date_with_abbreviated_month_for_display": "Oct. 16, 2007",
+        "song_art_image_thumbnail_url": "https://s3.amazonaws.com/rapgenius/1266881482_a7d18e1f1b_o.jpg",
+        "song_art_image_url": "https://s3.amazonaws.com/rapgenius/1266881482_a7d18e1f1b_o.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 7065
+        },
+        "title": "Dizzy",
+        "title_with_featured": "Dizzy",
+        "updated_by_human_at": 1651307959,
+        "url": "https://genius.com/Jimmy-eat-world-dizzy-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/17341",
+            "header_image_url": "https://images.genius.com/71090c448ee310c2878a1f691b8e3ce8.533x533x1.jpg",
+            "id": 17341,
+            "image_url": "https://images.genius.com/71090c448ee310c2878a1f691b8e3ce8.533x533x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Jimmy Eat World",
+            "slug": "Jimmy-eat-world",
+            "url": "https://genius.com/artists/Jimmy-eat-world"
+        },
+        "artist": "Jimmy Eat World",
+        "lyrics": "Dizzy Lyrics[Verse 1]\nYou close your eyes and kiss your hand then you blow it\nBut it isn't meant for me, and I notice\nIf the choice was ours alone\nThen why'd we both choose letting go?\nDoes it end like this?\n\n[Verse 2]\nTime never had a chance to heal your heart\nJust a number always counting down to a new start\nIf you always knew the truth\nThen the world would spin around you\nAre you dizzy yet?\n[Chorus]\nRespectfully, so honestly I'm calling out\nDo you hear the conversation we talk about?\nBack away to the safety of a quiet house\nIf there's half a chance in this moment\nWhen your eyes meet mine, we show it off\n\n[Verse 3]\nAll talk and not a lot to think, we were living dreams\nAnd shame never crept close to our naked feet\nIf there's something left to lose\nThen don't let me wear out my shoes\nI'm still walking\n\n[Verse 4]\nI tried, but it rang and rang, I called all night\nOn a payphone, remember those from another life?\nIf everything I meant to you\nYou can lick and seal then fold in two\nThen I've been so blind\n\n[Chorus]\n\n[Verse 5]\nOh, oh take it all back, take the first, the last and only\nOh, oh take it all back, take it all back\nEverything you showed me\nOh, oh this must be how it feels when the feeling goes\nYou might also like[Verse 6]\nI told you as I hovered, I never felt this way\nYou said I have the shot that stops my clock\nBaby it's OK\nYou said you'd never have regrets\nJesus, is there someone yet\nWho got their wish; did you get yours, babe?\n\n[Chorus]Embed"
+    }
+}

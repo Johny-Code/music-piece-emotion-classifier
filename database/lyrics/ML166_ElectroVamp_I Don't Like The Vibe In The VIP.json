@@ -1,0 +1,53 @@
+{
+    "id": "ML166",
+    "mood": "happy",
+    "artist": "ElectroVamp",
+    "title": "I Don't Like The Vibe In The VIP",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1461466",
+        "artist_names": "Electrovamp",
+        "full_title": "I Don't Like The Vibe In The VIP by\u00a0Electrovamp",
+        "header_image_thumbnail_url": "https://assets.genius.com/images/default_cover_image.png?1679675825",
+        "header_image_url": "https://assets.genius.com/images/default_cover_image.png?1679675825",
+        "id": 1461466,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429855225,
+        "path": "/Electrovamp-i-dont-like-the-vibe-in-the-vip-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Electrovamp-i-dont-like-the-vibe-in-the-vip-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://assets.genius.com/images/default_cover_image.png?1679675825",
+        "song_art_image_url": "https://assets.genius.com/images/default_cover_image.png?1679675825",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "I Don\u2019t Like The Vibe In The VIP",
+        "title_with_featured": "I Don't Like The Vibe In The VIP",
+        "updated_by_human_at": 1443118438,
+        "url": "https://genius.com/Electrovamp-i-dont-like-the-vibe-in-the-vip-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/379423",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "id": 379423,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Electrovamp",
+            "slug": "Electrovamp",
+            "url": "https://genius.com/artists/Electrovamp"
+        },
+        "artist": "Electrovamp",
+        "lyrics": "I Don\u2019t Like The Vibe In The VIP LyricsI don't like the vibe in the vip\nOoooh ooooh\nI don't like the vibe in the vip\nOoooh ooooh\n\nIf you like my lipstick, kiss it\nBlink and you will miss it\nCause I'm fit to loving it\nRisk it for a biscuit\nYou're smooth boy\nA dude boy\nGuess how I like it rude boy\nThe music it\nIt does it\nI think I'm gonna lose it\nThink I'm gonna lose it\nThink I'm gonna lose it\nCause baby you are the greatest\nYeah yeah\nThe moves you've got are the latest\nYeah yeah\nI'll be your schoolgirl dream\nI'll shake my peaches and cream\nI'll make you scream like you ain't done it in ages\nOoooh ooooh\n\nLets go in the corner and coochy coochy\nHave a little fumble and smoochy smoochy\nHave another shot and get naughty naughty\nBut we better watch out we don't get caughty caughty\n\nI don't like the vibe in the vip\nOoooh ooooh\nI don't like the vibe in the vip\nOoooh ooooh\nI don't like the vibe in the vip\nOoooh ooooh\nLets buy one and get one free\nLets buy one and get one free\nLets buy one and get one free\n\nCause baby you are the greatest\nYeah yeah\nThe moves you've got are the latest\nYeah yeah\nI'll be your schoolgirl dream\nI'll shake my peaches and cream\nI'll make you scream like you ain't done it in ages\nYou might also likeCause baby you are the greatest\nYeah yeah\nThe moves you've got are the latest\nYeah yeah\nI'll be your schoolgirl dream\nI'll shake my peaches and cream\nI'll make you scream like you ain't done it in ages\nI'll make you scream like you ain't done it in ages\nI'll make you scream like you ain't done it in ages\nI'll make you scream like you ain't done it in ages\n\nI'll\nMake\nYou\nScream\nLike\nYou\nAin't\nDone\nIt\nIn\nAges\n\nCause baby you are the greatest\nYeah yeah\nThe moves you've got are the latest\nYeah yeah\nI'll be your schoolgirl dream\nI'll shake my peaches and cream\nI'll make you scream like you ain't done it in ages\nCause baby you are the greatest\nYeah yeah\nThe moves you've got are the latest\nYeah yeah\nI'll be your schoolgirl dream\nI'll shake my peaches and cream\nI'll make you scream like you ain't done it in ages\nI'll make you scream like you ain't done it in ages\nI'll make you scream like you ain't done it in ages\nI'll make you scream like you ain't done it in ages\nOoooh oooohEmbed"
+    }
+}

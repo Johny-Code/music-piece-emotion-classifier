@@ -1,0 +1,58 @@
+{
+    "id": "ML1568",
+    "mood": "relaxed",
+    "artist": "My Morning Jacket",
+    "title": "Xmas Curtain",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/683942",
+        "artist_names": "My Morning Jacket",
+        "full_title": "Xmas Curtain by\u00a0My\u00a0Morning Jacket",
+        "header_image_thumbnail_url": "https://images.genius.com/42f399c58948575691b6f067d1b39d28.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/42f399c58948575691b6f067d1b39d28.500x500x1.jpg",
+        "id": 683942,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1425023,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1505423505,
+        "path": "/My-morning-jacket-xmas-curtain-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/My-morning-jacket-xmas-curtain-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 4,
+            "day": 6
+        },
+        "release_date_for_display": "April 6, 2001",
+        "release_date_with_abbreviated_month_for_display": "Apr. 6, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/42f399c58948575691b6f067d1b39d28.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/42f399c58948575691b6f067d1b39d28.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Xmas Curtain",
+        "title_with_featured": "Xmas Curtain",
+        "updated_by_human_at": 1631730689,
+        "url": "https://genius.com/My-morning-jacket-xmas-curtain-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/60652",
+            "header_image_url": "https://images.genius.com/4a35b49eab34413eaba345dd6819bec5.1000x641x1.jpg",
+            "id": 60652,
+            "image_url": "https://images.genius.com/c791c43e36dd633c8a05fbf2199717bd.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "My Morning Jacket",
+            "slug": "My-morning-jacket",
+            "url": "https://genius.com/artists/My-morning-jacket",
+            "iq": 100
+        },
+        "artist": "My Morning Jacket",
+        "lyrics": "Xmas Curtain Lyrics[Verse 1]\nHey\nThe Christmas curtain falls on lawbreakers who pave the way\nFor thoughtless folks like me and J who'd pay\nBut can't afford the finer things in life\nSo we heist them all\nWe're criminals that never break the law\n\n[Verse 2]\nSo\nTo all you frowns, go down to town square and get some action\nFrom the Christmas girl that lives inside your womb\nShe's always there, I think that I'm certain\nYou pay to get behind her Christmas curtain\nYou're the criminal that never breaks the lawYou might also likeEmbed"
+    }
+}

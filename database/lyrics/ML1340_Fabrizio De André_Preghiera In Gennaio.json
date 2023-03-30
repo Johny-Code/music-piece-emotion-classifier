@@ -1,0 +1,58 @@
+{
+    "id": "ML1340",
+    "mood": "sad",
+    "artist": "Fabrizio De Andr\u00e9",
+    "title": "Preghiera In Gennaio",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/765867",
+        "artist_names": "Fabrizio De Andr\u00e9",
+        "full_title": "Preghiera In Gennaio by\u00a0Fabrizio\u00a0De Andr\u00e9",
+        "header_image_thumbnail_url": "https://images.genius.com/605cc6db44e9a018add2f10549540fa0.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/605cc6db44e9a018add2f10549540fa0.500x500x1.jpg",
+        "id": 765867,
+        "instrumental": false,
+        "language": "it",
+        "lyrics_owner_id": 1837201,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1657953981,
+        "path": "/Fabrizio-de-andre-preghiera-in-gennaio-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Fabrizio-de-andre-preghiera-in-gennaio-sample",
+        "release_date_components": {
+            "year": 1967,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1967",
+        "release_date_with_abbreviated_month_for_display": "1967",
+        "song_art_image_thumbnail_url": "https://images.genius.com/605cc6db44e9a018add2f10549540fa0.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/605cc6db44e9a018add2f10549540fa0.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false,
+            "pageviews": 7236
+        },
+        "title": "Preghiera In Gennaio",
+        "title_with_featured": "Preghiera In Gennaio",
+        "updated_by_human_at": 1657953981,
+        "url": "https://genius.com/Fabrizio-de-andre-preghiera-in-gennaio-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/142900",
+            "header_image_url": "https://images.genius.com/3b2c561f279dc7eadc9229d49137c6b4.619x320x1.jpg",
+            "id": 142900,
+            "image_url": "https://images.genius.com/3aa8ffac33181297f06edecf5701f33d.878x878x1.jpg",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Fabrizio De Andr\u00e9",
+            "slug": "Fabrizio-de-andre",
+            "url": "https://genius.com/artists/Fabrizio-de-andre"
+        },
+        "artist": "Fabrizio De Andr\u00e9",
+        "lyrics": "Preghiera In Gennaio Lyrics[Testo di \"Preghiera In Gennaio\"]\n\nLascia che sia fiorito\nSignore, il suo sentiero\nQuando a te la sua anima\nE al mondo la sua pelle\nDovr\u00e0 riconsegnare\nQuando verr\u00e0 al tuo cielo\nL\u00e0 dove in pieno giorno\nRisplendono le stelle\nQuando attraverser\u00e0\nL'ultimo vecchio ponte\nAi suicidi dir\u00e0\nBaciandoli alla fronte\nVenite in paradiso\nL\u00e0 dove vado anch'io\nPerch\u00e9 non c'\u00e8 l'inferno\nNel mondo del buon Dio\n\nFate che giunga a Voi\nCon le sue ossa stanche\nSeguito da migliaia\nDi quelle facce bianche\nFate che a Voi ritorni\nFra i morti per oltraggio\nChe al cielo ed alla terra\nMostrarono il coraggio\n\nSignori benpensanti\nSpero non vi dispiaccia\nSe in cielo, in mezzo ai santi\nDio, fra le sue braccia\nSoffocher\u00e0 il singhiozzo\nDi quelle labbra smorte\nChe all'odio e all'ignoranza\nPreferirono la morte\nYou might also likeDio di misericordia\nIl tuo bel paradiso\nLo hai fatto soprattutto\nPer chi non ha sorriso\nPer quelli che han vissuto\nCon la coscienza pura\nL'inferno esiste solo\nPer chi ne ha paura\nMeglio di lui nessuno\nMai ti potr\u00e0 indicare\nGli errori di noi tutti\nChe puoi e vuoi salvare\nAscolta la sua voce\nChe ormai canta nel vento\nDio di misericordia\nVedrai, sarai contento\nDio di misericordia\nVedrai, sarai contento2Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML708",
+    "mood": "sad",
+    "artist": "Kanye West",
+    "title": "Coldest Winter",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/3405",
+        "artist_names": "Kanye West",
+        "full_title": "Coldest Winter by\u00a0Kanye\u00a0West",
+        "header_image_thumbnail_url": "https://images.genius.com/a769512d2736d6039c4592f688f1193e.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/a769512d2736d6039c4592f688f1193e.1000x1000x1.jpg",
+        "id": 3405,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1297,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1666997825,
+        "path": "/Kanye-west-coldest-winter-lyrics",
+        "pyongs_count": 70,
+        "relationships_index_url": "https://genius.com/Kanye-west-coldest-winter-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 11,
+            "day": 24
+        },
+        "release_date_for_display": "November 24, 2008",
+        "release_date_with_abbreviated_month_for_display": "Nov. 24, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a769512d2736d6039c4592f688f1193e.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a769512d2736d6039c4592f688f1193e.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 305911
+        },
+        "title": "Coldest Winter",
+        "title_with_featured": "Coldest Winter",
+        "updated_by_human_at": 1666997825,
+        "url": "https://genius.com/Kanye-west-coldest-winter-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/72",
+            "header_image_url": "https://images.genius.com/40ecf8460b42287ba6ef0f62272fccd1.1000x667x1.png",
+            "id": 72,
+            "image_url": "https://images.genius.com/910eaf4ec62b6f6a898f67ba713ca86c.425x425x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Kanye West",
+            "slug": "Kanye-west",
+            "url": "https://genius.com/artists/Kanye-west"
+        },
+        "artist": "Kanye West",
+        "lyrics": "TranslationsT\u00fcrk\u00e7eSvenskaEspa\u00f1olPortugu\u00easDeutschColdest Winter Lyrics[Verse 1]\nOn lonely nights, I start to fade\nOn lonely nights, I start to fade\nHer love's a thousand miles away\nHer love's a thousand miles away\n\n[Chorus]\nMemories made in the coldest winter\nGoodbye, my friend, will I ever love again?\nMemories made in the coldest winter\n[Verse 2]\nIt's 4 AM and I can't sleep\nIt's 4 AM and I can't sleep\nHer love is all that I can see\nHer love is all that I can see\n\n[Chorus]\nMemories made in the coldest winter\nGoodbye, my friend, will I ever love again?\nMemories made in the coldest winter, winter, winter, uh\nGoodbye, my friend, will I ever love again?\nGoodbye, my friend, will I ever love again?\nGoodbye, my friend, will I ever love again?\n\n[Verse 3]\nIf spring can take the snow away\nIf spring can take the snow away\nCan it melt away all our mistakes?\nCan it melt away all our mistakes?\n\n[Chorus]\nMemories made in the coldest winter\nGoodbye, my friend, I won't ever love again\nNever again\n[Produced by Kanye West, No I.D., and Jeff Bhasker]You might also like70Embed"
+    }
+}

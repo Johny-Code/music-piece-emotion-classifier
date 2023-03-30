@@ -1,0 +1,58 @@
+{
+    "id": "ML111",
+    "mood": "angry",
+    "artist": "Mudvayne",
+    "title": "Dig",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/243466",
+        "artist_names": "Mudvayne",
+        "full_title": "Dig by\u00a0Mudvayne",
+        "header_image_thumbnail_url": "https://images.genius.com/1fa835e1be3682f0cc76512e0c20d33e.300x300x1.png",
+        "header_image_url": "https://images.genius.com/1fa835e1be3682f0cc76512e0c20d33e.813x813x1.png",
+        "id": 243466,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 308849,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1671715672,
+        "path": "/Mudvayne-dig-lyrics",
+        "pyongs_count": 11,
+        "relationships_index_url": "https://genius.com/Mudvayne-dig-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2000",
+        "release_date_with_abbreviated_month_for_display": "2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/981b90f7652471997df73e8dd813580c.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/981b90f7652471997df73e8dd813580c.813x813x1.png",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 85048
+        },
+        "title": "Dig",
+        "title_with_featured": "Dig",
+        "updated_by_human_at": 1671715672,
+        "url": "https://genius.com/Mudvayne-dig-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/67442",
+            "header_image_url": "https://images.genius.com/5196b6053c288bdb6ce9f8141f9b23fc.750x420x1.jpg",
+            "id": 67442,
+            "image_url": "https://images.genius.com/cb3e293ddfe42bfd644f0242832e3bdd.999x999x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Mudvayne",
+            "slug": "Mudvayne",
+            "url": "https://genius.com/artists/Mudvayne"
+        },
+        "artist": "Mudvayne",
+        "lyrics": "Dig Lyrics[Intro]\n(No!)\n\n[Chorus]\nDig, bury me underneath\nEverything that I am rearranging\nDig, bury me underneath\nEverything that I was slowly changing\n\n[Verse 1]\nI would love to beat the face\nOf any motherfucker that's thinkin' they can change me\nWhite knuckles grip pushing through for the gold\nIf you're wantin' a piece of me I broke the mother fuckin' mold\nI'm drowning in your wake\nShit rubbed in my face\nTeething on concrete\nGums bleeding\n[Chorus]\nDig, bury me underneath\nEverything that I am rearranging\nDig, bury me underneath\nEverything that I was slowly changing\n\n[Verse 2]\nI struggle in violated space\nSell out motherfuckers in the biz that try to fuck me\nHang from their T's rated P.G. insight\nI ain't sellin' my soul when there's nothing to buy\nI'm livid in my space\nPissing in my face\nFuck you while you try\nTo fuck me\n\n[Chorus]\nDig, bury me underneath\nEverything that I am rearranging\nDig, bury me underneath\nEverything that I was\n\n[Bridge]\nYou ain't fuckin' changing me\nDig, dig, dig, dig\nC'mon, motherfucker, dig\nC'mon, motherfucker, dig\nC'mon, motherfucker, dig\nYou might also likeLet me help you tie the rope around your neck\nLet me help to talk you the wrong way off the ledge\nLet me help you hold the Glock against your head\nLet me help you tie the rope around your neck\nLet me help to talk you the wrong way off the ledge\nLet me help you hold the Glock against your head\nLet me help to chain the weights onto your legs\nGet on the plank, fuck\n\n[Chorus]\nDig, bury me underneath\nEverything that I am rearranging\nDig, bury me underneath\nEverything that I was slowly changing\n\n[Outro]\nWish you were committing suicide\nSuckin' on a motherfuckin' tailpipe\nDead man walking on a tight rope\nLimbless in the middle of a channel\nBomb's away11Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML1279",
+    "mood": "angry",
+    "artist": "At The Drive-In",
+    "title": "Chanbara",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/654279",
+        "artist_names": "At the Drive-In",
+        "full_title": "Chanbara by\u00a0At\u00a0the Drive-In",
+        "header_image_thumbnail_url": "https://images.genius.com/17d724e1e2dfd42e3095cf83c5ad78cf.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/17d724e1e2dfd42e3095cf83c5ad78cf.600x600x1.jpg",
+        "id": 654279,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 728842,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1666585998,
+        "path": "/At-the-drive-in-chanbara-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/At-the-drive-in-chanbara-sample",
+        "release_date_components": {
+            "year": 1998,
+            "month": 8,
+            "day": 18
+        },
+        "release_date_for_display": "August 18, 1998",
+        "release_date_with_abbreviated_month_for_display": "Aug. 18, 1998",
+        "song_art_image_thumbnail_url": "https://images.genius.com/17d724e1e2dfd42e3095cf83c5ad78cf.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/17d724e1e2dfd42e3095cf83c5ad78cf.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 5145
+        },
+        "title": "Chanbara",
+        "title_with_featured": "Chanbara",
+        "updated_by_human_at": 1666585998,
+        "url": "https://genius.com/At-the-drive-in-chanbara-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/55555",
+            "header_image_url": "https://images.genius.com/8e27c5589283532f8265b78b44f84f34.719x442x1.png",
+            "id": 55555,
+            "image_url": "https://images.genius.com/d8b4dcaacf223c2666c2a834df92eacd.543x543x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "At the Drive-In",
+            "slug": "At-the-drive-in",
+            "url": "https://genius.com/artists/At-the-drive-in"
+        },
+        "artist": "At the Drive-In",
+        "lyrics": "Chanbara Lyrics[Verse 1]\nValmara, Valmara, Valmara flechettes\nKiss me with the lisp of your shrapnel caress\nLost this arm, lost this leg, lost a diving board\nA belly flopped proposal of let's be friends\n\n[Chorus]\nTour de force, tour de force de facto\nAyachuco, Ayachuco, Ayachuco\n\n[Verse 2]\nProsthetic, prosthetic, prosthetic blemish\nNecro is the Velcro on the charred appendage\nCauterize solder gun in the melting of seeds\nOh, dear god, what a tangled web we weave\n[Chorus]\nTour de force, tour de force de facto\nAyachuco, Ayachuco, Ayachuco\n\n[Refrain]\nAll we are are failed attempts\nPropelled by stilt-leg presidents\nIncarcerate the mason fence\nLike flechettes\n\n[Bridge]\nFlechettes, flechettes\nI'm not biting the lead, my pencil's broken again\nWe will fill in the blanks so you can cheat off your...\nFlechettes, flechettes\nI'm not biting the lead, my pencil's broken again\nWe will fill in the blanks so I can cheat off your...\n\n[Chorus]\nTour de force, tour de force de facto\nAyachuco, Ayachuco\n\n[Break]\nUh-huh, uh-huh, uh-huh-uh-huh\nUh-uh, uh-huh, uh-huh, uh-uh-uh\nUh-huh, uh-uh, uh-huh uh, uh\nYou might also like[Chorus]\nTour de force, tour de force de facto\nAyachuco, Ayachuco, Ayachuco\n\n[Refrain]\nAll we are are failed attempts\nPropelled by stilt-leg presidents\nIncarcerate the mason fence\nLike flechettes1Embed"
+    }
+}

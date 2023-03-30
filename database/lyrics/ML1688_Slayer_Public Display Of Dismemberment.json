@@ -1,0 +1,57 @@
+{
+    "id": "ML1688",
+    "mood": "angry",
+    "artist": "Slayer",
+    "title": "Public Display Of Dismemberment",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/702937",
+        "artist_names": "Slayer",
+        "full_title": "Public Display of Dismemberment by\u00a0Slayer",
+        "header_image_thumbnail_url": "https://images.genius.com/e958ee284f8486c632a3b5537f3e0187.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e958ee284f8486c632a3b5537f3e0187.300x300x1.jpg",
+        "id": 702937,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1425851,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1631574199,
+        "path": "/Slayer-public-display-of-dismemberment-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Slayer-public-display-of-dismemberment-sample",
+        "release_date_components": {
+            "year": 2009,
+            "month": 11,
+            "day": 3
+        },
+        "release_date_for_display": "November 3, 2009",
+        "release_date_with_abbreviated_month_for_display": "Nov. 3, 2009",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e958ee284f8486c632a3b5537f3e0187.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e958ee284f8486c632a3b5537f3e0187.300x300x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false
+        },
+        "title": "Public Display of Dismemberment",
+        "title_with_featured": "Public Display of Dismemberment",
+        "updated_by_human_at": 1661025765,
+        "url": "https://genius.com/Slayer-public-display-of-dismemberment-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/6596",
+            "header_image_url": "https://images.genius.com/bc11ff5236798b16df8d0ed38ad6386d.1000x341x1.png",
+            "id": 6596,
+            "image_url": "https://images.genius.com/861966ebfefbd4e0adc83bec199c30be.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Slayer",
+            "slug": "Slayer",
+            "url": "https://genius.com/artists/Slayer"
+        },
+        "artist": "Slayer",
+        "lyrics": "Public Display of Dismemberment Lyrics[Verse 1]\nAnarchy, disarray\u2014this is the world today\nJustice is a lie for the followers to get by\nNo peace, only guns\u2014can't trust anyone\nLive or die, it's an eye for an eye\n\n[Chorus]\nUnrest, martial law, society decays\nAnd it's safe to say there is no other way\nWith lawless arrogance and savage dissidents\nPublic display of dismemberment\n[Verse 2]\nBlameless innocent, lies of the decadent\nBrazen hypocrites answering to idiots\nNew tax, market crash\u2014high life never lasts\nNo quick fix for broken politics\n\n[Chorus]\nUnrest, martial law, society decays\nAnd it's safe to say there is no other way\nWith lawless arrogance and savage dissidents\nPublic display of dismemberment\n\n[Lead \u2013 Hanneman]\n\n[Bridge]\nAftermath of tolerance, judgment is defined\nIndividual pain is a strong incentive\nInfiltrate with fear, keeping penance ever near\nPunish with indecency and mutilate for all to see\n\n[Lead \u2013 King]\n\n[Verse 3]\nDisarray, no quick fix for broken politics\nAnarchy, live or die, it's an eye for an eye\nYou might also like[Chorus]\nUnrest, martial law, society decays\nAnd it's safe to say there is no other way\nWith lawless arrogance and savage dissidents\nPublic display of dismemberment1Embed"
+    }
+}

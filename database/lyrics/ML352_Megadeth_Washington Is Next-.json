@@ -1,0 +1,58 @@
+{
+    "id": "ML352",
+    "mood": "angry",
+    "artist": "Megadeth",
+    "title": "Washington Is Next!",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/116154",
+        "artist_names": "Megadeth",
+        "full_title": "Washington Is Next! by\u00a0Megadeth",
+        "header_image_thumbnail_url": "https://images.genius.com/17cfab9bf98583341be33d846afbf0ed.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/17cfab9bf98583341be33d846afbf0ed.1000x1000x1.jpg",
+        "id": 116154,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 22533,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1666437361,
+        "path": "/Megadeth-washington-is-next-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Megadeth-washington-is-next-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 5,
+            "day": 15
+        },
+        "release_date_for_display": "May 15, 2007",
+        "release_date_with_abbreviated_month_for_display": "May. 15, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/17cfab9bf98583341be33d846afbf0ed.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/17cfab9bf98583341be33d846afbf0ed.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 15573
+        },
+        "title": "Washington Is Next!",
+        "title_with_featured": "Washington Is Next!",
+        "updated_by_human_at": 1666428524,
+        "url": "https://genius.com/Megadeth-washington-is-next-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/19444",
+            "header_image_url": "https://images.genius.com/ed7f0a9b8b87c0d2325b050eeebcc068.1000x530x1.png",
+            "id": 19444,
+            "image_url": "https://images.genius.com/9bdc3d3ea88da0c065c94aee4f13d943.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Megadeth",
+            "slug": "Megadeth",
+            "url": "https://genius.com/artists/Megadeth"
+        },
+        "artist": "Megadeth",
+        "lyrics": "Washington Is Next! Lyrics[Verse 1]\nThe quiet war has begun with silent weapons\nAnd the new slavery is to keep the people\nPoor and stupid, \"Novus Ordo Seclorum\"\n\n[Verse 2]\nHow can there be any logic in biological war?\nWe all know this is wrong\nBut the New World Order's beating down the door\nOh something needs to be done\n[Pre-Chorus 1]\nThere was a king, an evil king\nWho dreamt the wickedest of dreams\nAn ancient mystery, no prophet could interpret\nOf seven years of famine\nThe wolf is at my door as predicted years ago\nThat that was, that is, that is no more\n\n[Chorus 1]\nThe word predicts the future and tells the truth about the past\nOf how the world leaders will hail the new Pharaoh\nThe eighth false king to the throne\nWashington is next\n\n[Verse 3]\nDisengage their minds, sabotage their health\nPromote sex and war and violence in the kindergartens\nBlame the parents and teachers\nIt's their fault, \"Annuit Coeptis\"\n\n[Verse 4]\nAttack the church dynamic, attack the family\nKeep the public undisciplined 'til nothing left is sacred\nAnd the \"have-not's\" get hooked\nAnd have to go to the \"have's\" just to cop a fix\nYou might also like[Pre-Chorus 2]\nI am the king, an evil king\nWho dreams the wickedest of dreams\nAn ancient mystery, nobody could interpret\nOf seven empires falling\nThe wolf is at my door as predicted years ago\nThat that was, that is, that is no more\n\n[Chorus 2]\nThe word predicts my future and tells the truth about my past\nOf how the world's leaders are waiting to usher in\nThe eighth world power of modern Rome\nWashington is next\n\n[Instrumental Break]\n\n[Pre-Chorus 1]\nThere was a king, an evil king\nWho dreamt the wickedest of dreams\nAn ancient mystery, no prophet could interpret\nOf seven empires falling\nThe wolf is at my door as predicted years ago\nThat that was, that is, that is no more\n\n[Bridge]\nI am a king, and I dream the wildest dreams\nAnd nobody could interpret\nSeven empires falling, the wolf is at my door\nOh, that that was, that is, that is no more\n[Outro]\nThere's something at my door, some ancient mystery\nThe future tells the truth about my past\nAnd I'm the eighth false king to the throne\nI've got you in my crosshairs, now, ain't that a bitch?\nWashington, you're next3Embed"
+    }
+}

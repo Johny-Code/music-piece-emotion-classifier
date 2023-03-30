@@ -1,0 +1,58 @@
+{
+    "id": "ML1146",
+    "mood": "happy",
+    "artist": "Lipps, Inc.",
+    "title": "Funkytown",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/325730",
+        "artist_names": "Lipps, Inc.",
+        "full_title": "Funkytown by\u00a0Lipps,\u00a0Inc.",
+        "header_image_thumbnail_url": "https://images.genius.com/58a991ccce1c06ae48b254692d7958bd.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/58a991ccce1c06ae48b254692d7958bd.800x800x1.jpg",
+        "id": 325730,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1553,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1671204022,
+        "path": "/Lipps-inc-funkytown-lyrics",
+        "pyongs_count": 7,
+        "relationships_index_url": "https://genius.com/Lipps-inc-funkytown-sample",
+        "release_date_components": {
+            "year": 1979,
+            "month": 11,
+            "day": null
+        },
+        "release_date_for_display": "November 1979",
+        "release_date_with_abbreviated_month_for_display": "Nov. 1979",
+        "song_art_image_thumbnail_url": "https://images.genius.com/58a991ccce1c06ae48b254692d7958bd.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/58a991ccce1c06ae48b254692d7958bd.800x800x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 136919
+        },
+        "title": "Funkytown",
+        "title_with_featured": "Funkytown",
+        "updated_by_human_at": 1671204022,
+        "url": "https://genius.com/Lipps-inc-funkytown-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/18507",
+            "header_image_url": "https://images.genius.com/0ad6f083636d76b91848932d253c54fa.1000x693x1.jpg",
+            "id": 18507,
+            "image_url": "https://images.genius.com/0ad6f083636d76b91848932d253c54fa.1000x693x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Lipps, Inc.",
+            "slug": "Lipps-inc",
+            "url": "https://genius.com/artists/Lipps-inc"
+        },
+        "artist": "Lipps, Inc.",
+        "lyrics": "Funkytown Lyrics[Intro]\n\n[Verse]\nGotta make a move to a town that's right for me\nTown to keep me movin', keep me groovin' with some energy\n\n[Pre-Chorus]\nWell, I talk about it, talk about it\nTalk about it, talk about it\nTalk about, talk about\nTalk about movin'\nGotta move on\nGotta move on\nGotta move on\n[Drum Solo]\n\n[Chorus]\nA-won't you take me to Funkytown?\nWon't you take me to Funkytown?\nWon't you take me to Funkytown?\nWon't you take me to Funkytown?\n\n[Instrumental Bridge 1]\n\n[Chorus]\nWon't you take me to Funkytown?\nWon't you take me to Funkytown?\nWon't you take me to Funkytown?\nWon't you take me to Funkytown?\n\n[Instrumental Bridge 2]\n\n[Verse]\nGotta make a move to a town that's right for me\nTown to keep me movin', keep me groovin' with some energy\n\n[Pre-Chorus]\nWell, I talk about it, talk about it\nTalk about it, talk about it\nTalk about, talk about\nTalk about movin'\nGotta move on\nGotta move on\nGotta move on\nYou might also like[Instrumental Bridge 3]\n\n[Chorus]\nA-won't you take me to Funkytown?\nWon't you take me to Funkytown?\nWon't you take me to Funkytown?\nWon't you take me to Funkytown?\n\n[Instrumental Bridge 4]\n\n[Chorus]\nWon't you take me to Funkytown?\nWon't you take me to Funkytown?\nWon't you take me to Funkytown?\nWon't you take me to Funkytown, yeah?\nWon't you take me down to Funkytown?\nWon't you take me down to Funkytown?\nWon't you take me down to Funkytown?\nWon't you take me down to Funkytown?\n(Won't you take me to) Funkytown?\n(Won't you take me to) Funkytown?\n(Won't you take me to) Funkytown?\n(Won't you take me to) Funkytown?\nTake me, won't you take me?\nTake me, won't you take me?\nTake me, (won't you take me) won't you take me?\nTake me, (won't you take me) won't you take me?\nI wanna go (won't you take me) to Funkytown\nI wanna go (won't you take me) to Funkytown\nI wanna go (won't you take me) to Funkytown\nI wanna go (won't you take me) to Funkytown7Embed"
+    }
+}

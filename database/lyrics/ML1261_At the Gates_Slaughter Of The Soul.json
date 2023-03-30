@@ -1,0 +1,58 @@
+{
+    "id": "ML1261",
+    "mood": "angry",
+    "artist": "At the Gates",
+    "title": "Slaughter Of The Soul",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/690553",
+        "artist_names": "At the Gates",
+        "full_title": "Slaughter of the Soul by\u00a0At\u00a0the Gates",
+        "header_image_thumbnail_url": "https://images.genius.com/35019b84a4b49e1e661e7654f448ddcf.300x300x1.png",
+        "header_image_url": "https://images.genius.com/35019b84a4b49e1e661e7654f448ddcf.600x600x1.png",
+        "id": 690553,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1112222,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1626459608,
+        "path": "/At-the-gates-slaughter-of-the-soul-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/At-the-gates-slaughter-of-the-soul-sample",
+        "release_date_components": {
+            "year": 1995,
+            "month": 11,
+            "day": 14
+        },
+        "release_date_for_display": "November 14, 1995",
+        "release_date_with_abbreviated_month_for_display": "Nov. 14, 1995",
+        "song_art_image_thumbnail_url": "https://images.genius.com/35019b84a4b49e1e661e7654f448ddcf.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/35019b84a4b49e1e661e7654f448ddcf.600x600x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 16301
+        },
+        "title": "Slaughter of the Soul",
+        "title_with_featured": "Slaughter of the Soul",
+        "updated_by_human_at": 1626459608,
+        "url": "https://genius.com/At-the-gates-slaughter-of-the-soul-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/308658",
+            "header_image_url": "https://images.genius.com/3defb3c6cf3db99023ef44ac85c15d96.1000x272x1.jpg",
+            "id": 308658,
+            "image_url": "https://images.genius.com/a9c6a9f176428abb549512ed2374ab3f.1000x1000x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "At the Gates",
+            "slug": "At-the-gates",
+            "url": "https://genius.com/artists/At-the-gates"
+        },
+        "artist": "At the Gates",
+        "lyrics": "Slaughter of the Soul Lyrics[Verse 1]\nNever again\nOn your force-fed illusions to choke\nYou feed off my pain\nFeed off my life\n\n[Bridge]\nThere won't be another dawn\nWe will reap as we have sown\n\n[Verse 2]\nAlways the same\nMy tired eyes have seen enough\nOf all your lies\nMy hate is blind\n[Bridge]\nThere won't be another dawn\nWe will reap as we have sown\n\nReap as we have sown\n\nDo it!\n\n[Chorus]\nSlaughter of the soul\nSuicidal final art\nChildren, born of sin\nTear your soul apart\n\n[Verse 3]\nNever again\nMy tired eyes have seen enough\nOf all your lies\nMy hate is blind\n\n[Bridge]\nThere won't be another dawn\nWe will reap as we have sown\n\nReap as we have sown\nYou might also like[Chorus]\nSlaughter of the soul\nSuicidal final art\nChildren, born of sin\nTear your soul apart\n\n[Unsung Outro]\nMen must attempt to develop in themselves and their children\nLiberation from the sense of self\nMen must be free from boundaries, patterns and consistencies\nIn order to be free to think, feel and create in new ways1Embed"
+    }
+}

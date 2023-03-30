@@ -1,0 +1,58 @@
+{
+    "id": "ML1828",
+    "mood": "happy",
+    "artist": "Cake",
+    "title": "Wheels",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/379077",
+        "artist_names": "CAKE",
+        "full_title": "Wheels by\u00a0CAKE",
+        "header_image_thumbnail_url": "https://images.genius.com/b605e6940620b230b128b104ff1c4f31.300x300x1.png",
+        "header_image_url": "https://images.genius.com/b605e6940620b230b128b104ff1c4f31.1000x1000x1.png",
+        "id": 379077,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 11702,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1671150253,
+        "path": "/Cake-wheels-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Cake-wheels-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 10,
+            "day": 5
+        },
+        "release_date_for_display": "October 5, 2004",
+        "release_date_with_abbreviated_month_for_display": "Oct. 5, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b605e6940620b230b128b104ff1c4f31.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/b605e6940620b230b128b104ff1c4f31.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false,
+            "pageviews": 9743
+        },
+        "title": "Wheels",
+        "title_with_featured": "Wheels",
+        "updated_by_human_at": 1671150252,
+        "url": "https://genius.com/Cake-wheels-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/38835",
+            "header_image_url": "https://images.genius.com/45d38eb64a9dc1cb9a76b89c9e42717f.529x231x1.jpg",
+            "id": 38835,
+            "image_url": "https://images.genius.com/189592d784a24ab713518d8221ff16f7.286x286x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "CAKE",
+            "slug": "Cake",
+            "url": "https://genius.com/artists/Cake"
+        },
+        "artist": "CAKE",
+        "lyrics": "Wheels Lyrics[Verse 1]\nIn a wooden boat in the shipping lanes\nWith the freighters towering over me\nI can hear the jets flying overhead\nMaking lines across the darkening sky\nAnd when the sun is going down I can take a taxi into town\nAnd the waiter at the restaurant sets a table just for one\n\n[Chorus]\nWheels keep on spinning round spinning round spinning round\nWheels keep on spinning round spinning round and round\n(Okay)\n[Verse 2]\nSo I had a plane to take me to a place so far away from you\nEventually we began to see that we could be completely free\nAnd I could get away from you\nAnd you could get away from me\nAnd we could live each separately in our cities in the sun\n\n[Chorus]\nWheels keep on spinning round spinning round spinning round\nWheels keep on spinning round spinning round and round\n(Okay, alright)\n\n[Verse 3]\nIn a seedy karaoke bar\nBy the banks of the mighty Bosphorus\nIs a Japanese man in a business suit singing 'Smoke Gets in Your Eyes'\nAnd the muscular cyborg German dudes dance with sexy French Canadians\nWhile the overweight Americans wear their patriotic jumpsuits\n\n[Chorus]\nWheels keep on spinning round spinning round spinning round\nWheels keep on spinning round spinning round and round\nAlright\nThis one, right\n\n[Bridge]\n(Spinning round)\nWheels keep on spinning round spinning round spinning round\n(Spinning round)\nWheels keep on spinning round spinning round and round\nYou might also like[Outro]\n(I don't know)\nWhy you say you are not in love with me\n(I don't know)\nWhy you say you are not in love with me\n(I don't know)\nWhy you say you [music stops] are not in love with meEmbed"
+    }
+}

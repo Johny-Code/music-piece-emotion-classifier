@@ -1,0 +1,58 @@
+{
+    "id": "ML974",
+    "mood": "relaxed",
+    "artist": "Corinne Bailey Rae",
+    "title": "Butterfly",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/3447075",
+        "artist_names": "Corinne Bailey Rae",
+        "full_title": "Butterfly by\u00a0Corinne\u00a0Bailey Rae",
+        "header_image_thumbnail_url": "https://images.genius.com/89458867855ffb08b7c27cec1d1fa609.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/89458867855ffb08b7c27cec1d1fa609.1000x1000x1.jpg",
+        "id": 3447075,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3821140,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1666644934,
+        "path": "/Corinne-bailey-rae-butterfly-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Corinne-bailey-rae-butterfly-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 2,
+            "day": 24
+        },
+        "release_date_for_display": "February 24, 2006",
+        "release_date_with_abbreviated_month_for_display": "Feb. 24, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/89458867855ffb08b7c27cec1d1fa609.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/89458867855ffb08b7c27cec1d1fa609.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Butterfly",
+        "title_with_featured": "Butterfly",
+        "updated_by_human_at": 1666644934,
+        "url": "https://genius.com/Corinne-bailey-rae-butterfly-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/20226",
+            "header_image_url": "https://s3.amazonaws.com/rapgenius/corinne-bailey-rae-09.jpg",
+            "id": 20226,
+            "image_url": "https://s3.amazonaws.com/rapgenius/corinne-bailey-rae-09.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Corinne Bailey Rae",
+            "slug": "Corinne-bailey-rae",
+            "url": "https://genius.com/artists/Corinne-bailey-rae",
+            "iq": 1127
+        },
+        "artist": "Corinne Bailey Rae",
+        "lyrics": "Butterfly LyricsIn my mother's house\nThere's a photograph\nOf a day gone past\nAlways makes me laugh\nThere's a little girl\nWary of the world\nShe got much to learn\nGet her fingers burnt\nAn affinity\nBetween you and me\nWas a family\nSaid that I'd be fine\nGave me all your time\nAnd I left your side\nLike a butterfly\nShower me with your love\nColour of everyday\nYou make the milk-gold Sun\nShine on me, yeah\nLift me up so high\nWatch me fly away\nAnd you give me life\nLike a butterfly\n\nIn my mother's house\nThere was happiness\nI wrapped my myself in it\nWas my chrysalis\nAs my life unfolds\nSee a pattern through\nOf you protecting me\nAnd I protecting you\nWhat was that you'd say?\n\"Make your own mistakes\nAnd when you're grown\nMake sure that you remain the same\"\nNow I realise\nWhat was on your mind\nWhen I left your side\nLike a butterfly\nYou might also likeShower me with your love\nColour everyday\nYou make the milk-gold Sun\nShine on me, yeah\nLift me up so high\nWatch me fly away\nAnd you give me life\nLike a butterfly\n\nShower me with your love\nColour of everyday\nYou make the milk-gold Sun\nShine on me, yeah\nLift me up so high\nWatch me fly away\nAnd you give me life\nLike a butterflyEmbed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML1669",
+    "mood": "angry",
+    "artist": "Bj\u00f6rk",
+    "title": "Army Of Me",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/342479",
+        "artist_names": "Bj\u00f6rk",
+        "full_title": "Army of Me by\u00a0Bj\u00f6rk",
+        "header_image_thumbnail_url": "https://images.genius.com/fb510901f288f82cbc8bcdd9832cefe6.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/fb510901f288f82cbc8bcdd9832cefe6.1000x1000x1.jpg",
+        "id": 342479,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 396947,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1667937798,
+        "path": "/Bjork-army-of-me-lyrics",
+        "pyongs_count": 40,
+        "relationships_index_url": "https://genius.com/Bjork-army-of-me-sample",
+        "release_date_components": {
+            "year": 1995,
+            "month": 4,
+            "day": 21
+        },
+        "release_date_for_display": "April 21, 1995",
+        "release_date_with_abbreviated_month_for_display": "Apr. 21, 1995",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ff54ba290ac1116a872240628537bf38.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/ff54ba290ac1116a872240628537bf38.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 76794
+        },
+        "title": "Army of Me",
+        "title_with_featured": "Army of Me",
+        "updated_by_human_at": 1678481965,
+        "url": "https://genius.com/Bjork-army-of-me-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/34778",
+            "header_image_url": "https://images.genius.com/83855542ae1ea1c768ad2c8465c57d6e.1000x594x1.jpg",
+            "id": 34778,
+            "image_url": "https://images.genius.com/945b18efd74111e34aef8be21743a1df.1000x1000x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Bj\u00f6rk",
+            "slug": "Bjork",
+            "url": "https://genius.com/artists/Bjork"
+        },
+        "artist": "Bj\u00f6rk",
+        "lyrics": "Army of Me Lyrics[Verse 1]\nStand up\nYou've got to manage\nI won't sympathize\nAnymore\n\n[Chorus]\nAnd if you complain once more\nYou'll meet an army of me\nAnd if you complain once more\nYou'll meet an army of me\n[Verse 2]\nYou're alright\nThere's nothing wrong\nSelf-sufficience, please!\nAnd get to work\n\n[Chorus]\nAnd if you complain once more\nYou'll meet an army of me\nAnd if you complain once more\nYou'll meet an army of me, army of me\n\n[Verse 3]\nYou're on your own now\nWe won't save you\nYour rescue squad\nIs too exhausted\n\n[Chorus]\nAnd if you complain once more\nYou'll meet an army of me\nAnd if you complain once more\nYou'll meet an army of me\n\n[Chorus]\nAnd if you complain once more\nYou'll meet an army of me\nAnd if you complain once more\nYou'll meet an army of me, army of meYou might also like40Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML372",
+    "mood": "sad",
+    "artist": "Vanessa Carlton",
+    "title": "Rinse",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/1606032",
+        "artist_names": "Vanessa Carlton",
+        "full_title": "Rinse by\u00a0Vanessa\u00a0Carlton",
+        "header_image_thumbnail_url": "https://images.genius.com/4d7b9571dd27cab2f5c2ab7304e14ca8.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/4d7b9571dd27cab2f5c2ab7304e14ca8.1000x1000x1.jpg",
+        "id": 1606032,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3499648,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1528562033,
+        "path": "/Vanessa-carlton-rinse-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Vanessa-carlton-rinse-sample",
+        "release_date_components": {
+            "year": 2002,
+            "month": 4,
+            "day": 30
+        },
+        "release_date_for_display": "April 30, 2002",
+        "release_date_with_abbreviated_month_for_display": "Apr. 30, 2002",
+        "song_art_image_thumbnail_url": "https://images.genius.com/4d7b9571dd27cab2f5c2ab7304e14ca8.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/4d7b9571dd27cab2f5c2ab7304e14ca8.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false
+        },
+        "title": "Rinse",
+        "title_with_featured": "Rinse",
+        "updated_by_human_at": 1629074152,
+        "url": "https://genius.com/Vanessa-carlton-rinse-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/32552",
+            "header_image_url": "https://images.genius.com/9454aa5cafa6c5b2e877b0912548ec01.1000x667x1.jpg",
+            "id": 32552,
+            "image_url": "https://images.genius.com/2c3ef88b1bd4481b9c27795e2cb00c19.1000x1000x1.jpg",
+            "index_character": "v",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Vanessa Carlton",
+            "slug": "Vanessa-carlton",
+            "url": "https://genius.com/artists/Vanessa-carlton"
+        },
+        "artist": "Vanessa Carlton",
+        "lyrics": "Rinse Lyrics[Verse 1]\nShe'd do anything to sparkle in his eyes\nShe would suffer, she would fight and compromise\nShe's been wishin' up the stars that shine so bright\nFor answers to questions that will haunt her tonight\n\n[Chorus]\nShe must rinse\nThis all away\nShe can't hold him this way\nShe must rinse\nThis all away\nShe can't love him\nThis way\n[Verse 2]\nHow she'd be soothed, how she'd be saved, if he could see\nShe needs to be held in his arms to be freed\nBut everything happens for reasons that she will never understand\nTill she knows that the heart of a woman will never\nBe found in the arms of a man\n\n[Chorus]\nShe must rinse\nThis all away\nShe can't hold anybody this way\nShe must rinse\nThis all away\nShe can't love him\n\n[Verse 3]\nAnd as she runs away, she fears she won't be followed\nWhat could be worse than leaving something behind\nAnd as the depth of oceans slowly become shallow\nIts loneliness she finds\nIf only he was mine\nShe'd do anything to sparkle in his eyes\nShe would suffer, she would fight and compromise\nShe's been wishin' up the stars that shine so bright\nFor answers to questions that will haunt her tonight\nYou might also like[Chorus]\nShe must rinse him\nShe must rinse him\nShe can't rinse him\nShe can't rinse him\nShe can't, she won't, she must rinse him\nShe can't, she won't, she must rinse him\nShe must rinse\nThis all away\nShe can't hold him this way\nShe must rinse\nThis all away\nShe can't love him\nThis wayEmbed"
+    }
+}

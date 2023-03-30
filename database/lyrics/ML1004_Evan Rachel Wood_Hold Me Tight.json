@@ -1,0 +1,71 @@
+{
+    "id": "ML1004",
+    "mood": "happy",
+    "artist": "Evan Rachel Wood",
+    "title": "Hold Me Tight",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1606343",
+        "artist_names": "Evan Rachel Wood (Ft. Lisa Hogg)",
+        "full_title": "Hold Me Tight by\u00a0Evan\u00a0Rachel Wood (Ft.\u00a0Lisa\u00a0Hogg)",
+        "header_image_thumbnail_url": "https://images.genius.com/688d349485737956aef7e38e857e1da4.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/688d349485737956aef7e38e857e1da4.720x720x1.jpg",
+        "id": 1606343,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3845828,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1587061156,
+        "path": "/Evan-rachel-wood-hold-me-tight-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Evan-rachel-wood-hold-me-tight-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 10,
+            "day": 15
+        },
+        "release_date_for_display": "October 15, 2007",
+        "release_date_with_abbreviated_month_for_display": "Oct. 15, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/688d349485737956aef7e38e857e1da4.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/688d349485737956aef7e38e857e1da4.720x720x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Hold Me Tight",
+        "title_with_featured": "Hold Me Tight (Ft.\u00a0Lisa\u00a0Hogg)",
+        "updated_by_human_at": 1587061156,
+        "url": "https://genius.com/Evan-rachel-wood-hold-me-tight-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/2037008",
+                "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+                "id": 2037008,
+                "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+                "index_character": "l",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "Lisa Hogg",
+                "slug": "Lisa-hogg",
+                "url": "https://genius.com/artists/Lisa-hogg"
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/112087",
+            "header_image_url": "https://images.genius.com/1a897694b3dd94df86918e66c0fde0c0.1000x1000x1.jpg",
+            "id": 112087,
+            "image_url": "https://images.genius.com/1a897694b3dd94df86918e66c0fde0c0.1000x1000x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Evan Rachel Wood",
+            "slug": "Evan-rachel-wood",
+            "url": "https://genius.com/artists/Evan-rachel-wood"
+        },
+        "artist": "Evan Rachel Wood",
+        "lyrics": "Hold Me Tight Lyrics[LUCY]\nIt feels so right now\nHold me tight\nTell me I'm the only one\nAnd then I might\nNever be the lonely one so\nHold me tight tonight, tonight\nIt's you, you, you, you\n\n[MOLLY]\nHold me tight\nLet me go on loving you\nTonight, tonight\nMaking love to only you so\n[LUCY]\nHold me tight tonight, tonight, tonight\nIt's you\n\n[MOLLY]\nYou, you, you\n\n[LUCY]\nYou don't know\nWhat it means to hold you tight\n\n[MOLLY]\nBeing here alone tonight with you\n\n[LUCY]\nIt feels so right now\nHold me tight\nTell me I'm the only one\nAnd then I might\nNever be the lonely one so\nHold me tight tonight, tonight\n\n[MOLLY]\nIt's you, you, you, you\n\n[LUCY]\nYou don't know\nWhat it means to hold you tight\nBeing here alone tonight with you\nIt feels so right now\nHold me tight\nLet me go on loving you\nTonight, tonight\nYou might also like[MOLLY]\nMaking love to only you, so\n\n[LUCY and MOLLY]\nHold me tight tonight, tonight\nIt's you, you, you, youEmbed"
+    }
+}

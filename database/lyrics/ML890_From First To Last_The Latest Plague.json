@@ -1,0 +1,57 @@
+{
+    "id": "ML890",
+    "mood": "angry",
+    "artist": "From First To Last",
+    "title": "The Latest Plague",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/1595357",
+        "artist_names": "From First to Last",
+        "full_title": "The Latest Plague by\u00a0From\u00a0First to Last",
+        "header_image_thumbnail_url": "https://images.genius.com/4c4c918561d3741d1cebcbbea0610432.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/4c4c918561d3741d1cebcbbea0610432.600x600x1.jpg",
+        "id": 1595357,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 318069,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1655433129,
+        "path": "/From-first-to-last-the-latest-plague-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/From-first-to-last-the-latest-plague-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 1,
+            "day": 1
+        },
+        "release_date_for_display": "January 1, 2006",
+        "release_date_with_abbreviated_month_for_display": "Jan. 1, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/4c4c918561d3741d1cebcbbea0610432.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/4c4c918561d3741d1cebcbbea0610432.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false
+        },
+        "title": "The Latest Plague",
+        "title_with_featured": "The Latest Plague",
+        "updated_by_human_at": 1674325367,
+        "url": "https://genius.com/From-first-to-last-the-latest-plague-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/58750",
+            "header_image_url": "https://images.genius.com/f4baaea20f7aba8f66f2de7c41aa3119.1000x363x1.jpg",
+            "id": 58750,
+            "image_url": "https://images.genius.com/c0ec6c373f1a32286205d1e817b86b81.1000x1000x1.jpg",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "From First to Last",
+            "slug": "From-first-to-last",
+            "url": "https://genius.com/artists/From-first-to-last"
+        },
+        "artist": "From First to Last",
+        "lyrics": "The Latest Plague Lyrics[Verse 1]\nWhat would you say, if this blemished face\nThis blemished face with a crooked nose\nHad a chance to say whatever he wanted\nFrom his blemished world of the unknown?\nWould you give a fuck if all that you heard\nWere nouns and verbs like shallow heartache?\nThe sound of victory!\nBlowing up your world\n\n[Chorus]\nFake faces everywhere I see\nFake people looking back at me\nSit down, don't tell me\nDon't tell me where I don't belong\nFake faces everywhere I see\nFake people looking back at me\nSit down, don't tell me\nDon't tell me where I don't belong\n[Verse 2]\nOh... I heard a\nSick sad voice, it was\nHonesty, I turned to her and said\n\u201cWe need to be medicated\nAnd you're the prescription\nFor a forced out vision\nIf you're with me, send the\nCritics to hell with the sounds of our voices\u201d\n\n[Chorus]\nFake faces everywhere I see\nFake people looking back at me\nSit down, don't tell me\nDon't tell me where I don't belong\nFake faces everywhere I see\nFake people looking back at me\nSit down, don't tell me\nWhere I don't belong\n\n[Bridge]\nAll you better-thans that fed us shit\nYou'll be\nKnocked on the floor, so\nDon't you place your bets just yet\nAll you treasure sleepers feed on shit\nYou'll be\nKnocked on the floor, so\nDon't you place!\nYou might also like[Chorus]\nFake faces everywhere I see\nFake people looking back at me\nSit down, don't tell me\nDon't tell me where I don't belong\nFake faces everywhere I see\nFake people looking back at me\nSit down, don't tell me\nWhere I don't belongEmbed"
+    }
+}

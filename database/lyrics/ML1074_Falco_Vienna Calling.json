@@ -1,0 +1,58 @@
+{
+    "id": "ML1074",
+    "mood": "happy",
+    "artist": "Falco",
+    "title": "Vienna Calling",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/353451",
+        "artist_names": "Falco",
+        "full_title": "Vienna Calling by\u00a0Falco",
+        "header_image_thumbnail_url": "https://images.genius.com/32169e17b1483e6b5c7de3bd3833bb16.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/32169e17b1483e6b5c7de3bd3833bb16.1000x1000x1.jpg",
+        "id": 353451,
+        "instrumental": false,
+        "language": "de",
+        "lyrics_owner_id": 253441,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1650056094,
+        "path": "/Falco-vienna-calling-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Falco-vienna-calling-sample",
+        "release_date_components": {
+            "year": 1985,
+            "month": 9,
+            "day": 11
+        },
+        "release_date_for_display": "September 11, 1985",
+        "release_date_with_abbreviated_month_for_display": "Sep. 11, 1985",
+        "song_art_image_thumbnail_url": "https://images.genius.com/32169e17b1483e6b5c7de3bd3833bb16.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/32169e17b1483e6b5c7de3bd3833bb16.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 7,
+            "hot": false,
+            "pageviews": 25017
+        },
+        "title": "Vienna Calling",
+        "title_with_featured": "Vienna Calling",
+        "updated_by_human_at": 1650056094,
+        "url": "https://genius.com/Falco-vienna-calling-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/21831",
+            "header_image_url": "https://s3.amazonaws.com/rapgenius/ic_falco.jpg",
+            "id": 21831,
+            "image_url": "https://s3.amazonaws.com/rapgenius/ic_falco.jpg",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Falco",
+            "slug": "Falco",
+            "url": "https://genius.com/artists/Falco"
+        },
+        "artist": "Falco",
+        "lyrics": "Vienna Calling Lyrics[Intro]\n(Hello, Vienna calling, hello?\nHello, Vienna calling) Cha! (Hello?)\n(He-He-He-He-He-He-He-Hello? Vienna calling)\nCha, cah!\nHello (Ah-ah-ah-ah-ohoh)\nVienna calling (Calling, calling) (Na-na-na-na-na-na)\nHello (Ah-ah-ah-ah-ohoh)\nVienna calling (Calling, calling, calling, calling)\nTalking about\n[Strophe 1]\nStella sitzt in Rio \u2013 Stella liegt in Tokyo\nM\u00e4nner fragen sie nach Feuer, nach dem andern sowieso (Hello, hello)\nSugar Chris dich sehr vermisst \u2013 dein Bein und dein Gesicht\nDu kannst auf mich verzichten \u2013 nur auf Luxus nicht\nWomit spielen kleine M\u00e4dchen heute, hier und dort und da\nOb in Tucson, Arizona; Toronto, Canada?\n\n[Vorrefrain]\nWien, nur Wien du kennst mich up, kennst mich down\nDu kennst mich\nNur Wien, nur Wien, du nur allein\nWohin sind deine Frauen?\n\n[Refrain]\nOh-oh-oh, operator (So alone am I)\nOh-oh-oh, operator (Need you to come tonight)\nHello (Ow!) Uh-oh-oh\nVienna calling (Calling, calling) (Na-na-na-na-na-na)\nHello (Ah-ah-ah-ah-ohoh)\nVienna calling (Calling, calling) (Na-na-na-na-na-na)\nTwo, one, zero \u2013 der Alarm ist rot\nWien in Not \u2013 cha, cha, cha\nVienna calling (Calling, calling, ah-ah-ah-ah-ohoh)\nVienna calling (Calling, calling, ah-ah-ah-ah-ohoh)\nYou might also like[Strophe 2]\nUnd pl\u00f6tzlich hei\u00dft Maria Marilyn\nUnd Eva hei\u00dft Yvonne\nEin junger Bogart h\u00e4ngt dir an den Lippen, Kleines, und sagt \"Komm!\" (Hello)\nDie Lockenpracht wird abgemacht\nDie T\u00e4nzer sind gestoppt\nEs ist 4 Uhr 45, nun wird Position geprobt\nWomit spielen kleine M\u00e4dchen heute, hier und dort und da\nOb in Tucson, Arizona; Toronto, Canada\n\n[Vorrefrain]\nWien, nur Wien du kennst mich up, kennst mich down\nDu kennst mich\nNur Wien, nur Wien, du nur allein\nWohin sind deine Frauen\n\n[Refrain]\nOh-oh-oh, operator (So alone am I)\nOh-oh-oh, operator (I need you tonight)\nHello (Ah-ah-ah-ah-ohoh)\nVienna calling (Calling, calling) (Na-na-na-na-na-na)\nHello (Ah-ah-ah-ah-ohoh)\nVienna calling (Calling, calling) (Na-na-na-na-na-na)\nTwo, one, zero \u2013 der Alarm ist rot\nWien in Not \u2013 cha, cha, cha\nVienna calling (Calling, calling, ah-ah-ah-ah-ohoh)\nVienna calling (Calling, calling, ah-ah-ah-ah-ohoh)\n[Bridge]\nHello? Vienna Calling (How!)\nHe-He-He-He-Hello? (Ouh!)\n(Vienna ca-ca-calling?)\nWien in Not, so in Not, hah!\n(Hey, hey, hey, hey, hey, hey, hey, hey\nHey, hey, hey, hey, hey, hey, hey, hey-hey)\n\n[Outro]\nTwo, one, zero \u2013 der Alarm ist rot\nWien in Not\nVienna calling (Cha, cha, cha, cha-cha)\nVienna calling (cha, cha, cha, cha-cha)\nHello, Vienna calling (Wien in Not) (Na-na-na-na-na-na)\nHello, Vienna calling (Wien in Not) (Na-na-na-na-na-na)\nHello, Vienna calling (Wien in Not) (Na-na-na-na-na-na)\n(Vienna calling, Wien in Not ..)3Embed"
+    }
+}

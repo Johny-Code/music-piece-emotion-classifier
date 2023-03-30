@@ -1,0 +1,71 @@
+{
+    "id": "ML304",
+    "mood": "sad",
+    "artist": "Lucinda Williams",
+    "title": "Greenville",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/877787",
+        "artist_names": "Lucinda Williams (Ft. Emmylou Harris)",
+        "full_title": "Greenville by\u00a0Lucinda\u00a0Williams (Ft.\u00a0Emmylou\u00a0Harris)",
+        "header_image_thumbnail_url": "https://images.genius.com/634feb9870ddec496e07341dc2526f5d.300x299x1.jpg",
+        "header_image_url": "https://images.genius.com/634feb9870ddec496e07341dc2526f5d.400x399x1.jpg",
+        "id": 877787,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1973584,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1592714808,
+        "path": "/Lucinda-williams-greenville-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Lucinda-williams-greenville-sample",
+        "release_date_components": {
+            "year": 1998,
+            "month": 6,
+            "day": 30
+        },
+        "release_date_for_display": "June 30, 1998",
+        "release_date_with_abbreviated_month_for_display": "Jun. 30, 1998",
+        "song_art_image_thumbnail_url": "https://images.genius.com/634feb9870ddec496e07341dc2526f5d.300x299x1.jpg",
+        "song_art_image_url": "https://images.genius.com/634feb9870ddec496e07341dc2526f5d.400x399x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Greenville",
+        "title_with_featured": "Greenville (Ft.\u00a0Emmylou\u00a0Harris)",
+        "updated_by_human_at": 1592714808,
+        "url": "https://genius.com/Lucinda-williams-greenville-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/39198",
+                "header_image_url": "https://images.genius.com/bda631ba8416fe025cb2f1e30c464ce1.1000x523x1.jpg",
+                "id": 39198,
+                "image_url": "https://images.genius.com/f00a688f0ae3146416bbaa7a58669487.445x631x1.jpg",
+                "index_character": "e",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "Emmylou Harris",
+                "slug": "Emmylou-harris",
+                "url": "https://genius.com/artists/Emmylou-harris"
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/226120",
+            "header_image_url": "https://images.genius.com/04c0a66743076c9ab313c7c9ed78c014.547x547x1.png",
+            "id": 226120,
+            "image_url": "https://images.genius.com/04c0a66743076c9ab313c7c9ed78c014.547x547x1.png",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Lucinda Williams",
+            "slug": "Lucinda-williams",
+            "url": "https://genius.com/artists/Lucinda-williams"
+        },
+        "artist": "Lucinda Williams",
+        "lyrics": "Greenville Lyrics[Verse 1]\nDon't wanna see you again or hold your hand\n'Cause you don't really love me, you're not my man\nYou're not my man, oh you're not my man\nGo back to Greenville, just go on back to Greenville\n\n[Verse 2]\nYou scream and shout and you make a scene\nWhen you open your mouth you never say what you mean\nSay what you mean, oh say what you mean\nGo back to Greenville, just go on back to Greenville\n[Verse 3]\nYou drink hard liquor, you come on strong\nYou lose your temper, someone looks at you wrong\nLooks at you wrong, oh looks at you wrong\nGo back to Greenville, just go on back to Greenville\n\n[Verse 4]\nOut all night playin' in a band\nLooking for a fight with a guitar in your hand\nA guitar in your hand, oh a guitar in your hand\nGo back to Greenville, just go on back to Greenville\n\n[Verse 5]\nEmpty bottles and broken glass\nBusted down doors and borrowed cash\nBorrowed cash, oh the borrowed cash\nGo back to Greenville, just go on back to Greenville\n\n[Verse 6]\nLookin' for someone to save you\nLookin' for someone to rave about you\nTo rave about you, oh to rave about you\nGo back to Greenville, just go on back to GreenvilleYou might also likeEmbed"
+    }
+}

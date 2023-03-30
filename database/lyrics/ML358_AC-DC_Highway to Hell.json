@@ -1,0 +1,58 @@
+{
+    "id": "ML358",
+    "mood": "angry",
+    "artist": "AC/DC",
+    "title": "Highway to Hell",
+    "song": {
+        "_type": "song",
+        "annotation_count": 12,
+        "api_path": "/songs/82653",
+        "artist_names": "AC/DC",
+        "full_title": "Highway to Hell by\u00a0AC/DC",
+        "header_image_thumbnail_url": "https://images.genius.com/3b492283dedb352bf4dea98a8f03dd3e.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3b492283dedb352bf4dea98a8f03dd3e.1000x1000x1.jpg",
+        "id": 82653,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 123102,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1644492831,
+        "path": "/Ac-dc-highway-to-hell-lyrics",
+        "pyongs_count": 51,
+        "relationships_index_url": "https://genius.com/Ac-dc-highway-to-hell-sample",
+        "release_date_components": {
+            "year": 1979,
+            "month": 7,
+            "day": 27
+        },
+        "release_date_for_display": "July 27, 1979",
+        "release_date_with_abbreviated_month_for_display": "Jul. 27, 1979",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3b492283dedb352bf4dea98a8f03dd3e.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3b492283dedb352bf4dea98a8f03dd3e.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 382054
+        },
+        "title": "Highway to Hell",
+        "title_with_featured": "Highway to Hell",
+        "updated_by_human_at": 1658668275,
+        "url": "https://genius.com/Ac-dc-highway-to-hell-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/20268",
+            "header_image_url": "https://images.genius.com/abc9e559fbb4a6d6ef9e638e23bec856.500x329x36.gif",
+            "id": 20268,
+            "image_url": "https://images.genius.com/0a52d9aa22947ee598b08b7773c7db51.1000x1000x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "AC/DC",
+            "slug": "Ac-dc",
+            "url": "https://genius.com/artists/Ac-dc"
+        },
+        "artist": "AC/DC",
+        "lyrics": "Highway to Hell Lyrics[Instrumental Intro]\n\n[Verse 1]\nLiving easy, lovin' free\nSeason ticket on a one way ride\nAsking nothing, leave me be\nTaking everythin' in my stride\nDon't need reason, don't need rhyme\nAin't nothing I\u2019d rather do\nGoin' down, party time\nMy friends are gonna be there too, yeah\n[Chorus]\nI'm on the highway to hell\nOn the highway to hell\nHighway to hell\nI'm on the highway to hell\n\n[Verse 2]\nNo stop signs, speed limit\nNobody's gonna slow me down\nLike a wheel, gonna spin it\nNobody's gonna mess me around\nHey Satan, payin' my dues\nPlaying in a rocking band\nHey mama, look at me\nI'm on the way to the promised land\nWoo!\n\n[Chorus]\nI'm on the highway to hell\nHighway to hell\nI'm on the highway to hell\nHighway to hell\n\n[Bridge]\nDon't stop me\nHeh, heh!\nYou might also like[Guitar Solo]\n\n[Chorus]\nI'm on the highway to hell\nOn the highway to hell\nHighway to hell\nI'm on the highway to hell\n(Highway to hell) I'm on the highway to hell\n(Highway to hell) Highway to hell\n(Highway to hell) Highway to hell\n(Highway to hell)\n\n[Outro]\nAnd I'm going down\nAll the way\nI'm on the highway to hell51Embed"
+    }
+}

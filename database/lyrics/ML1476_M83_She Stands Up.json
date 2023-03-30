@@ -1,0 +1,57 @@
+{
+    "id": "ML1476",
+    "mood": "relaxed",
+    "artist": "M83",
+    "title": "She Stands Up",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1632730",
+        "artist_names": "M83",
+        "full_title": "She Stands Up by\u00a0M83",
+        "header_image_thumbnail_url": "https://images.genius.com/5ef6712457219f03c89fd468ce7a3383.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5ef6712457219f03c89fd468ce7a3383.600x600x1.jpg",
+        "id": 1632730,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1757421,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1520142297,
+        "path": "/M83-she-stands-up-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/M83-she-stands-up-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 4,
+            "day": 18
+        },
+        "release_date_for_display": "April 18, 2001",
+        "release_date_with_abbreviated_month_for_display": "Apr. 18, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5ef6712457219f03c89fd468ce7a3383.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5ef6712457219f03c89fd468ce7a3383.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "She Stands Up",
+        "title_with_featured": "She Stands Up",
+        "updated_by_human_at": 1520142359,
+        "url": "https://genius.com/M83-she-stands-up-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/16002",
+            "header_image_url": "https://images.genius.com/bacd035a5f2868c7f326898083273a2b.1000x667x1.jpg",
+            "id": 16002,
+            "image_url": "https://images.genius.com/e79d8b1eb4bacc8a459177cb859b13a3.495x495x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "M83",
+            "slug": "M83",
+            "url": "https://genius.com/artists/M83"
+        },
+        "artist": "M83",
+        "lyrics": "She Stands Up Lyrics[Instrumental]\n\n[Sample]\nDo you think he still loves her?\nHow would I know about that, Hunter?\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\nI think he does...\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\nDo you think he still loves her?\nHow would I know about that, Hunter?\nI think he does...\n\n[Backtracked]\nDo you think he still loves her?\nHow would I know about that, Hunter?\nI think he does...\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\nI think he does...\n\n[Normal]\nDo you think he still loves her?\nHow would I know about that, Hunter?\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\nI think he does...\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\nYou might also likeDo you think he still loves her?\nHow would I know about that, Hunter?\nI think he does...\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\nI think he does...\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\nI think he does...\n\n[Backtracked]\nDo you think he still loves her?\nHow would I know about that, Hunter?\nI think he does...\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\nDo you think he still loves her?\nHow would I know about that, Hunter?\nI think he does...\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\nI think he does...\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\n\n[Instrumental]\n\n[Sample]\nDo you think he still loves her?\nHow would I know about that, Hunter?\n\nDo you think he still loves her?\nHow would I know about that, Hunter?\nI think he does...\n\n[Instrumental]Embed"
+    }
+}

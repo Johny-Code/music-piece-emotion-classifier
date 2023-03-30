@@ -1,0 +1,60 @@
+{
+    "id": "ML648",
+    "mood": "happy",
+    "artist": "Dolly Parton",
+    "title": "9 To 5",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/76064",
+        "artist_names": "Dolly Parton",
+        "full_title": "9 to 5 by\u00a0Dolly\u00a0Parton",
+        "header_image_thumbnail_url": "https://images.genius.com/20b410fb117c2b5ac59a8ee68a845332.300x169x1.jpg",
+        "header_image_url": "https://images.genius.com/20b410fb117c2b5ac59a8ee68a845332.480x270x1.jpg",
+        "id": 76064,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 78291,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1678970707,
+        "path": "/Dolly-parton-9-to-5-lyrics",
+        "pyongs_count": 12,
+        "relationships_index_url": "https://genius.com/Dolly-parton-9-to-5-sample",
+        "release_date_components": {
+            "year": 1980,
+            "month": 11,
+            "day": 10
+        },
+        "release_date_for_display": "November 10, 1980",
+        "release_date_with_abbreviated_month_for_display": "Nov. 10, 1980",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ee15b33a244dd230fc99a7465ece47eb.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ee15b33a244dd230fc99a7465ece47eb.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 7,
+            "concurrents": 2,
+            "hot": false,
+            "pageviews": 612681
+        },
+        "title": "9 to 5",
+        "title_with_featured": "9 to 5",
+        "updated_by_human_at": 1678970707,
+        "url": "https://genius.com/Dolly-parton-9-to-5-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/20955",
+            "header_image_url": "https://images.genius.com/3e30a87894174fc812e796a81732cb72.1000x286x1.png",
+            "id": 20955,
+            "image_url": "https://images.genius.com/394694000da0b7bea45a09dd6550e75d.1000x1000x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Dolly Parton",
+            "slug": "Dolly-parton",
+            "url": "https://genius.com/artists/Dolly-parton",
+            "iq": 100
+        },
+        "artist": "Dolly Parton",
+        "lyrics": "9 to 5 Lyrics[Verse 1]\nTumble out of bed and I stumble to the kitchen\nPour myself a cup of ambition\nAnd yawn and stretch and try to come to life\nJump in the shower and the blood starts pumpin'\nOut on the street, the traffic starts jumpin'\nWith folks like me on the job from 9 to 5\n\n[Chorus]\nWorkin' 9 to 5, what a way to make a livin'\nBarely gettin' by, it's all takin' and no givin'\nThey just use your mind and they never give you credit\nIt's enough to drive you crazy if you let it\n9 to 5, for service and devotion\nYou would think that I would deserve a fair promotion\nWant to move ahead but the boss won't seem to let me\nI swear sometimes that man is out to get me\nMmmmm...\n[Verse 2]\nThey let you dream just to watch 'em shatter\nYou're just a step on the boss man's ladder\nBut you've got dreams he'll never take away\nIn the same boat with a lot of your friends\nWaitin' for the day your ship'll come in\nAnd the tide's gonna turn an' it's all gonna roll your way\n\n[Chorus]\nWorking 9 to 5, what a way to make a livin'\nBarely gettin' by, it's all takin' and no givin'\nThey just use your mind and you never get the credit\nIt's enough to drive you crazy if you let it\n9 to 5, yeah, they got you where they want you\nThere's a better life and you think about it don't you\nIt's a rich man's game no matter what they call it\nAnd you spend your life puttin' money in his wallet\n9 to 5, what a way to make a livin'\nBarely gettin' by, it's all takin' and no givin'\nThey just use your mind and they never give you credit\nIt's enough to drive you crazy if you let it\n9 to 5, yeah, they got you where they want you\nThere's a better life and you think about it don't you\nIt's a rich man's game no matter what they call it\nAnd you spend your life puttin' money in his walletYou might also like12Embed"
+    }
+}

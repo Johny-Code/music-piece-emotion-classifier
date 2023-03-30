@@ -1,0 +1,58 @@
+{
+    "id": "ML1020",
+    "mood": "happy",
+    "artist": "\"Weird Al\" Yankovic",
+    "title": "Eat It",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/778136",
+        "artist_names": "\"Weird Al\" Yankovic",
+        "full_title": "Eat It by\u00a0\"Weird\u00a0Al\" Yankovic",
+        "header_image_thumbnail_url": "https://images.genius.com/21b61e840f681c8b1b0ccc9f1abd38fd.300x267x1.jpg",
+        "header_image_url": "https://images.genius.com/21b61e840f681c8b1b0ccc9f1abd38fd.334x297x1.jpg",
+        "id": 778136,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 13517274,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675656683,
+        "path": "/Weird-al-yankovic-eat-it-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Weird-al-yankovic-eat-it-sample",
+        "release_date_components": {
+            "year": 1984,
+            "month": 2,
+            "day": 28
+        },
+        "release_date_for_display": "February 28, 1984",
+        "release_date_with_abbreviated_month_for_display": "Feb. 28, 1984",
+        "song_art_image_thumbnail_url": "https://images.genius.com/21b61e840f681c8b1b0ccc9f1abd38fd.300x267x1.jpg",
+        "song_art_image_url": "https://images.genius.com/21b61e840f681c8b1b0ccc9f1abd38fd.334x297x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 35091
+        },
+        "title": "Eat It",
+        "title_with_featured": "Eat It",
+        "updated_by_human_at": 1675656683,
+        "url": "https://genius.com/Weird-al-yankovic-eat-it-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/899",
+            "header_image_url": "https://images.genius.com/f49f3174729ee32fcd17017a68b4acd4.1000x665x1.webp",
+            "id": 899,
+            "image_url": "https://images.genius.com/f0f694679171179c6c7cc0ede1204f12.1000x1000x1.jpg",
+            "index_character": "w",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "\u201cWeird Al\u201d Yankovic",
+            "slug": "Weird-al-yankovic",
+            "url": "https://genius.com/artists/Weird-al-yankovic"
+        },
+        "artist": "\u201cWeird Al\u201d Yankovic",
+        "lyrics": "Eat It Lyrics[Verse 1]\nHow come you're always such a fussy young man?\nDon't want no Captain Crunch, don't want no Raisin Bran\nWell, don't you know that other kids are starving in Japan?\nSo eat it, just eat it (Brr)\nDon't wanna argue, I don't wanna debate\nDon't wanna hear about what kinds of foods you hate (Woo)\nYou won't get no dessert 'til you clean off your plate\nSo eat it, don't you tell me you're full\n\n[Chorus]\nJust eat it (Eat it), eat it (Eat it)\nGet yourself an egg and beat it\nHave some more chicken, have some more pie\nIt doesn't matter if it's boiled or fried\nJust eat it (Eat it), just eat it (Eat it)\nJust eat it (Eat it), just eat it (Eat it, woo)\n[Verse 2]\nYour table manners are a cryin' shame\nYou're playin' with your food, this ain't some kind of game\nNow if you starve to death you'll just have yourself to blame\nSo eat it, just eat it (Brr)\nYou better listen, better do what you're told (Woo)\nYou haven't even touched your tuna casserole (Ooh)\nYou better chow down, or it's gonna get cold\nSo eat it, I don't care if you're full\n\n[Chorus]\nJust eat it (Eat it), eat it (Eat it)\nOpen up your mouth and feed it\nHave some more yogurt, have some more Spam\nIt doesn't matter if it's fresh or canned\nJust eat it (Eat it), eat it (Eat it)\nDon't you make me repeat it\nHave a banana, have a whole bunch\nIt doesn't matter what you had for lunch\nJust eat it, eat it, eat it, eat it\nEat it, eat it, eat it, eat it\n\n[Guitar Solo]\n\n[Chorus]\nEat it (Eat it), eat it (Eat it)\nIf it's getting cold, reheat it\nHave a big dinner, have a light snack\nIf you don't like it, you can't send it back\nJust eat it (Ooh-hoo, eat it), eat it (Eat it)\nGet yourself an egg and beat it (Oh, Lord)\nHave some more chicken (Ooh-hoo), have some more pie (Ooh-hoo-hoo)\nIt doesn't matter if it's boiled or fried\nYou might also like[Outro]\nJust eat it (Eat it), eat it (Eat it)\nDon't you make me repeat it (Oh, no)\nHave a banana, have a whole bunch (Ooh-hoo-hoo)\nIt doesn't matter what you had for lunch6Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML1741",
+    "mood": "angry",
+    "artist": "Megadeth",
+    "title": "Foreclosure of a Dream",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/107961",
+        "artist_names": "Megadeth",
+        "full_title": "Foreclosure of a Dream by\u00a0Megadeth",
+        "header_image_thumbnail_url": "https://images.genius.com/b54ecc314ed5138bdc905ad8f38dab95.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b54ecc314ed5138bdc905ad8f38dab95.1000x1000x1.jpg",
+        "id": 107961,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 22533,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1665756243,
+        "path": "/Megadeth-foreclosure-of-a-dream-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Megadeth-foreclosure-of-a-dream-sample",
+        "release_date_components": {
+            "year": 1992,
+            "month": 7,
+            "day": 14
+        },
+        "release_date_for_display": "July 14, 1992",
+        "release_date_with_abbreviated_month_for_display": "Jul. 14, 1992",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b27273aca8b69cd554132fc5ee43e6b1.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b27273aca8b69cd554132fc5ee43e6b1.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 17735
+        },
+        "title": "Foreclosure of a Dream",
+        "title_with_featured": "Foreclosure of a Dream",
+        "updated_by_human_at": 1665756243,
+        "url": "https://genius.com/Megadeth-foreclosure-of-a-dream-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/19444",
+            "header_image_url": "https://images.genius.com/ed7f0a9b8b87c0d2325b050eeebcc068.1000x530x1.png",
+            "id": 19444,
+            "image_url": "https://images.genius.com/9bdc3d3ea88da0c065c94aee4f13d943.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Megadeth",
+            "slug": "Megadeth",
+            "url": "https://genius.com/artists/Megadeth"
+        },
+        "artist": "Megadeth",
+        "lyrics": "Foreclosure of a Dream Lyrics[Verse 1]\nRise so high, yet so far to fall\nA plan of dignity and balance for all\nPolitical breakthrough, euphoria's high\nMore borrowed money, more borrowed time\nBacked in a corner, caught up in the race\nMeans to an end ended in disgrace\nPerspective is lost in the spirit of the chase\n\n[Chorus]\nForeclosure of a dream\nThose visions never seen\nUntil all is lost, personal holocaust\nForeclosure of a dream\n[Verse 2]\nBarren land that once filled a need\nAre worthless now, dead without a deed\nSlipping away from an iron grip\nNature's scales are forced to tip\nThe heartland cries, loss of all pride\nTo leave ain't believin', so try and be tried\nInsufficient funds, insanity, and suicide\n\n[Chorus]\nForeclosure of a dream\nThose visions never seen\nUntil all is lost, personal holocaust\nForeclosure of a dream\n\n[Guitar Solo: Dave Mustaine]\n\n[Interlude]\n\"The Congress will push me to raise taxes, and I'll say no, read my lips... read my lips... read my lips... read my lips... read my lips.\"\n\n[Verse 3]\nNow with new hope, some will be proud\nThis is no hoax, no one pushed out\nReceive a reprieve and be a pioneer\nBreak new ground of a new frontier\nNew ideas will surely get by\nNo deed, no dividend\nSome may ask \"Why?\"\nYou'll find the solution\nThe answer's in the sky\nYou might also like[Guitar Solo: Marty Friedman]\n\n[Verse 1]\nRise so high, yet so far to fall\nA plan of dignity and balance for all\nPolitical breakthrough, euphoria's high\nMore borrowed money, more borrowed time\n\n[Chorus]\nForeclosure of a dream\nThose visions never seen\nUntil all is lost, personal holocaust\nForeclosure of a dream\nForeclosure of a dream\nThose visions never seen\nUntil all is lost, personal holocaust\nForeclosure of a dream\n\n[Outro]\nHolocaust...1Embed"
+    }
+}

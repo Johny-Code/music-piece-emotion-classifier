@@ -1,0 +1,73 @@
+{
+    "id": "ML1509",
+    "mood": "happy",
+    "artist": "Queens Of The Stone Age",
+    "title": "Feel Good Hit Of The Summer",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/99656",
+        "artist_names": "Queens of the Stone Age (Ft. Rob Halford)",
+        "full_title": "Feel Good Hit of the Summer by\u00a0Queens\u00a0of the Stone Age (Ft.\u00a0Rob\u00a0Halford)",
+        "header_image_thumbnail_url": "https://images.genius.com/0fe9029ab2384a9c8fb40786895695c4.300x300x1.png",
+        "header_image_url": "https://images.genius.com/0fe9029ab2384a9c8fb40786895695c4.1000x1000x1.png",
+        "id": 99656,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 721779,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1656319337,
+        "path": "/Queens-of-the-stone-age-feel-good-hit-of-the-summer-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Queens-of-the-stone-age-feel-good-hit-of-the-summer-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": 11,
+            "day": 27
+        },
+        "release_date_for_display": "November 27, 2000",
+        "release_date_with_abbreviated_month_for_display": "Nov. 27, 2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/0a8dc4e6fd2077430b7656ffd78e66e5.300x306x1.jpg",
+        "song_art_image_url": "https://images.genius.com/0a8dc4e6fd2077430b7656ffd78e66e5.600x611x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 59359
+        },
+        "title": "Feel Good Hit of the Summer",
+        "title_with_featured": "Feel Good Hit of the Summer (Ft.\u00a0Rob\u00a0Halford)",
+        "updated_by_human_at": 1656319337,
+        "url": "https://genius.com/Queens-of-the-stone-age-feel-good-hit-of-the-summer-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/162143",
+                "header_image_url": "https://images.genius.com/60b18c5e41efe722ff22878d3a9422bc.1000x666x1.jpg",
+                "id": 162143,
+                "image_url": "https://images.genius.com/4ba3beacc5b7bc4f5754250a89ce31a0.675x675x1.jpg",
+                "index_character": "r",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "Rob Halford",
+                "slug": "Rob-halford",
+                "url": "https://genius.com/artists/Rob-halford"
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/25320",
+            "header_image_url": "https://images.genius.com/c0d7493ad1d7dae2c3cfa1b6a0318119.350x196x44.gif",
+            "id": 25320,
+            "image_url": "https://images.genius.com/5e79d98a1f7f8466c82007e4eefda670.612x612x1.jpg",
+            "index_character": "q",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Queens of the Stone Age",
+            "slug": "Queens-of-the-stone-age",
+            "url": "https://genius.com/artists/Queens-of-the-stone-age",
+            "iq": 115
+        },
+        "artist": "Queens of the Stone Age",
+        "lyrics": "Feel Good Hit of the Summer Lyrics[Verse 1: Josh Homme]\nNicotine, Valium, Vicodin, marijuana, ecstasy and alcohol\nNicotine, Valium, Vicodin, marijuana, ecstasy and alcohol\nNicotine, Valium, Vicodin, marijuana, ecstasy and alcohol\nOh, Nicotine, Valium, Vicodin, marijuana, ecstasy and alcohol\n\n[Chorus: Josh Homme]\nCocaine, cocaine\nCocaine, oh\nCocaine\n[Guitar Solo]\n\n[Break]\nOh\n\n[Verse 2: Josh Homme & Rob Halford]\nNicotine, Valium, Vicodin, marijuana, ecstasy and alcohol\nNicotine, Valium, Vicodin, marijuana, ecstasy and alcohol\nOh, Nicotine, Valium, Vicodin, marijuana, ecstasy and alcohol\nNicotine, Valium, Vicodin, marijuana, ecstasy and alcohol\nNicotine, Valium, Vicodin, marijuana, ecstasy and alcohol\nNicotine, Valium, Vicodin, marijuana, ecstasy and alcohol\n\n[Chorus: Josh Homme & Rob Halford]\nCocaine\nCocaine\nCocaine\n\n[Outro: Josh Homme & Rob Halford, Josh Homme]\nNicotine, Valium, Vicodin, marijuana, ecstasy and alcohol (Cocaine!)\nNicotine, Valium, Vicodin, marijuana, ecstasy and alcohol (Cocaine!)\nNicotine, Valium, Vicodin, marijuana, ecstasy and alcohol (Cocaine!)\nOh, Nicotine, Valium, Vicodin, marijuana, ecstasy and alcohol (Cocaine!)\nNicotine, Valium, Vicodin, marijuana, ecstasy and alcohol (Cocaine!)\nOh, Nicotine, Valium, Vicodin, marijuana, cocaineYou might also like3Embed"
+    }
+}

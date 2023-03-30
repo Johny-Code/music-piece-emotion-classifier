@@ -1,0 +1,58 @@
+{
+    "id": "ML1734",
+    "mood": "angry",
+    "artist": "Lamb of God",
+    "title": "What I've Become",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/1511657",
+        "artist_names": "Lamb of God",
+        "full_title": "What I've Become by\u00a0Lamb\u00a0of God",
+        "header_image_thumbnail_url": "https://images.genius.com/5118b3083c93e49b6dc4c532955aa7a6.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5118b3083c93e49b6dc4c532955aa7a6.895x895x1.jpg",
+        "id": 1511657,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 8539260,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1659998285,
+        "path": "/Lamb-of-god-what-ive-become-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Lamb-of-god-what-ive-become-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 8,
+            "day": 31
+        },
+        "release_date_for_display": "August 31, 2004",
+        "release_date_with_abbreviated_month_for_display": "Aug. 31, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5118b3083c93e49b6dc4c532955aa7a6.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5118b3083c93e49b6dc4c532955aa7a6.895x895x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 5673
+        },
+        "title": "What I\u2019ve Become",
+        "title_with_featured": "What I've Become",
+        "updated_by_human_at": 1673187235,
+        "url": "https://genius.com/Lamb-of-god-what-ive-become-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/38929",
+            "header_image_url": "https://images.genius.com/73f2ab9b6f8a5179fca14a5ef52ce0f0.640x640x1.jpg",
+            "id": 38929,
+            "image_url": "https://images.genius.com/5e863c5533db0b6332ae06d7e0ded3a0.640x640x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Lamb of God",
+            "slug": "Lamb-of-god",
+            "url": "https://genius.com/artists/Lamb-of-god"
+        },
+        "artist": "Lamb of God",
+        "lyrics": "What I\u2019ve Become Lyrics[Verse 1]\nBlank stares of broken men\nSo withered from the poisons\nThey can't remember when\nThere were once honest reasons\nIt's all a lie\nIt died a hundred thousands miles ago\n\n[Refrain]\nPretending I'm still here\n[Chorus]\nJustify\nWhat I've become\nSanctify\nWhat I've become\n\n[Verse 2]\nAmazing disgrace, how sweet the sound\nThat saved a wretch like me\nBetter lost if this is found\nBest blinded, never to see\nThe race to save face\nNothing now is what we meant it to be\n\n[Refrain]\nPretending I'm still here\n\n[Guitar Solo]\n\n[Pre-Chorus]\nIt's a system now\nIntertwined\nTake your place in the line to be ground\nBy the gears of the masterpiece, betrayal!\n\n[Chorus]\nJustify\nWhat I've become\nSanctify\nWhat I've become\nYou might also like[Outro]\nSuffered consequence\nIt's been so long since\nAny piece of this\nMade any kind of sense\nYou anoint the king\nI'll burn everything\nDown to ashes\nYou giveth, I taketh away\nYou giveth, I taketh away!\nIt's a system now\nIntertwined\nTake your place in the line to be ground\nBy the gears of the masterpiece\nBetrayal1Embed"
+    }
+}

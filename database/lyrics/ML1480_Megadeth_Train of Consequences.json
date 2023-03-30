@@ -1,0 +1,58 @@
+{
+    "id": "ML1480",
+    "mood": "angry",
+    "artist": "Megadeth",
+    "title": "Train of Consequences",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/109915",
+        "artist_names": "Megadeth",
+        "full_title": "Train of Consequences by\u00a0Megadeth",
+        "header_image_thumbnail_url": "https://images.genius.com/3e5617d6fe7ecf0e993acf6a9d190362.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3e5617d6fe7ecf0e993acf6a9d190362.1000x1000x1.jpg",
+        "id": 109915,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 22533,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1668283086,
+        "path": "/Megadeth-train-of-consequences-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Megadeth-train-of-consequences-sample",
+        "release_date_components": {
+            "year": 1994,
+            "month": 11,
+            "day": 1
+        },
+        "release_date_for_display": "November 1, 1994",
+        "release_date_with_abbreviated_month_for_display": "Nov. 1, 1994",
+        "song_art_image_thumbnail_url": "https://images.genius.com/248fd482234938f9b995a67ab2bd7de1.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/248fd482234938f9b995a67ab2bd7de1.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 13852
+        },
+        "title": "Train of Consequences",
+        "title_with_featured": "Train of Consequences",
+        "updated_by_human_at": 1668989721,
+        "url": "https://genius.com/Megadeth-train-of-consequences-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/19444",
+            "header_image_url": "https://images.genius.com/ed7f0a9b8b87c0d2325b050eeebcc068.1000x530x1.png",
+            "id": 19444,
+            "image_url": "https://images.genius.com/9bdc3d3ea88da0c065c94aee4f13d943.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Megadeth",
+            "slug": "Megadeth",
+            "url": "https://genius.com/artists/Megadeth"
+        },
+        "artist": "Megadeth",
+        "lyrics": "Train of Consequences Lyrics[Verse 1]\nI'm doing you a favor\nAs I'm taking all your money\nI guess I should feel sorry\nBut I don't even trust me\nThere's bad news creeping up\nAnd you feel a sudden chill\n\"How do you do? My name is Trouble.\"\nI'm coming in for the kill\n\n[Pre-Chorus]\nIn for the kill\nOoh, and you know I will\n[Chorus]\nSet the ball a-rolling\nI'll be clicking off the miles\nOn the train of consequences\nMy boxcar life of style\nMy thinking is derailed\nI'm tied up to the tracks\nThe train of consequences\nThere ain't no turning back, oh\n\n[Verse 2]\nNo horse ever ran as fast\nAs the money that you bet\nI'm blowing on my cards\nAnd I play them to my chest\nLife's fabric is corrupt\nShot through with corroded thread\nAs for me, I hocked my brains\nPacked my bags and headed west, ah\n\n[Pre-Chorus]\nI hocked my brains\nHeaded west\n\n[Chorus]\nOh, set the ball a-rolling\nI'll be clicking off the miles\nOn the train of consequences\nMy boxcar life of style\nMy thinking is derailed\nI'm tied up to the tracks\nThe train of consequences\nThere ain't no turning back\nYou might also like[Instrumental Break]\n[Guitar Solo: Marty Friedman]\n\n[Chorus]\nOh, set the ball a-rolling\nI'll be clicking off the miles\nOn the train of consequences\nMy boxcar life of style\nMy thinking is derailed\nI'm tied up to the tracks\nThe train of consequences\nThere ain't no turning back\nSet the ball a-rolling\nI'll be clicking off the miles\nOn the train of consequences\nMy boxcar life of style\nMy thinking is derailed\nI'm tied up to the tracks\nThe train of consequences\nThere ain't no turning back\n\n[Guitar Solo: Dave Mustaine]\n(Hahahahahaha)2Embed"
+    }
+}

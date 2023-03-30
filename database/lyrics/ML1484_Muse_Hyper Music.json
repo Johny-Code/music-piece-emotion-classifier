@@ -1,0 +1,58 @@
+{
+    "id": "ML1484",
+    "mood": "angry",
+    "artist": "Muse",
+    "title": "Hyper Music",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/87134",
+        "artist_names": "Muse",
+        "full_title": "Hyper Music by\u00a0Muse",
+        "header_image_thumbnail_url": "https://images.genius.com/a524829427db63f46b4d4ea24fdd03b3.300x300x1.png",
+        "header_image_url": "https://images.genius.com/a524829427db63f46b4d4ea24fdd03b3.1000x1000x1.png",
+        "id": 87134,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5307,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1660954736,
+        "path": "/Muse-hyper-music-lyrics",
+        "pyongs_count": 5,
+        "relationships_index_url": "https://genius.com/Muse-hyper-music-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 11,
+            "day": 19
+        },
+        "release_date_for_display": "November 19, 2001",
+        "release_date_with_abbreviated_month_for_display": "Nov. 19, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a524829427db63f46b4d4ea24fdd03b3.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/a524829427db63f46b4d4ea24fdd03b3.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false,
+            "pageviews": 28282
+        },
+        "title": "Hyper Music",
+        "title_with_featured": "Hyper Music",
+        "updated_by_human_at": 1660954736,
+        "url": "https://genius.com/Muse-hyper-music-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/13088",
+            "header_image_url": "https://images.genius.com/04fe4eba65165aaedae053788f61bda6.1000x306x1.jpg",
+            "id": 13088,
+            "image_url": "https://images.genius.com/63ba7824704fa1912b44ab406f17020e.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Muse",
+            "slug": "Muse",
+            "url": "https://genius.com/artists/Muse"
+        },
+        "artist": "Muse",
+        "lyrics": "Hyper Music Lyrics[Instrumental Intro]\n\n[Verse 1]\nYour golden lies feed my role\nIn this forgotten space race under my control\n\n[Pre-Chorus 1]\nWho's returned from the dead?\nWho remains?\n(Just to spit it in your face!)\n[Chorus 1]\nYou know that I don't want you\nAnd I never did\nI don't want you\nAnd I never will\n\n[Verse 2]\nYou wanted more than I was worth\nAnd you think I was scared, yeah, and you needed proof\n\n[Pre-Chorus 2]\nWho really cares anymore?\nWho restrains?\n(Just to spit it in your face!)\n\n[Chorus 2]\nYou know that I don't love you\nAnd I never did\nI don't want you\nAnd I never willYou might also like5Embed"
+    }
+}

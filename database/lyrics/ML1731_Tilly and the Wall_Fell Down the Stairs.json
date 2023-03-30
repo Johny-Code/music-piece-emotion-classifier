@@ -1,0 +1,57 @@
+{
+    "id": "ML1731",
+    "mood": "happy",
+    "artist": "Tilly and the Wall",
+    "title": "Fell Down the Stairs",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1759768",
+        "artist_names": "Tilly And The Wall",
+        "full_title": "Fell Down The Stairs by\u00a0Tilly\u00a0And The Wall",
+        "header_image_thumbnail_url": "https://images.genius.com/fc350c4ce1363566d9e97dc5b715f99b.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/fc350c4ce1363566d9e97dc5b715f99b.600x600x1.jpg",
+        "id": 1759768,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3324857,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1574109652,
+        "path": "/Tilly-and-the-wall-fell-down-the-stairs-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Tilly-and-the-wall-fell-down-the-stairs-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2006",
+        "release_date_with_abbreviated_month_for_display": "2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/fc350c4ce1363566d9e97dc5b715f99b.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/fc350c4ce1363566d9e97dc5b715f99b.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Fell Down The Stairs",
+        "title_with_featured": "Fell Down The Stairs",
+        "updated_by_human_at": 1612236247,
+        "url": "https://genius.com/Tilly-and-the-wall-fell-down-the-stairs-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/359996",
+            "header_image_url": "https://images.genius.com/516ebfe94c65efa845b5af1429aab0b0.1000x1000x1.jpg",
+            "id": 359996,
+            "image_url": "https://images.genius.com/b1dcb4421080a3add82972a410961c3f.1000x1000x1.jpg",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Tilly And The Wall",
+            "slug": "Tilly-and-the-wall",
+            "url": "https://genius.com/artists/Tilly-and-the-wall"
+        },
+        "artist": "Tilly And The Wall",
+        "lyrics": "Fell Down The Stairs LyricsYou fell down the stairs into my arms\nAnd swiftly ran the other way\nAnd I heard the steady swell of applause\nThe two drunk kids, trying to figure out which way was home\nThey got lost as they were taking off each other's clothes\nThey realized there was a hole in the boat\nAnd with no lifesaver you try your best to float\n\nAnd eventually the sky did return\nAnd I was there outside in green\nAnd I watched the world being reborn 'til 1 AM\nSo I thought I'd let you know\nIt was beautiful, slow dancing to tunes of Billie Holiday\nThe city looked wonderful that way\nAnd love, just like blood will always stain\nAnd if I could reverse it\nI don't think that it'd be worth it\nBecause I know in my heart\nI would never let you tumble to the ground\n\nNo, I'd never let you fall\nNo, I'd never let you fall\nNo, I'd never let you fallYou might also likeEmbed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML1971",
+    "mood": "happy",
+    "artist": "Happy Mondays",
+    "title": "Kinky Afro",
+    "song": {
+        "_type": "song",
+        "annotation_count": 17,
+        "api_path": "/songs/134790",
+        "artist_names": "Happy Mondays",
+        "full_title": "Kinky Afro by\u00a0Happy\u00a0Mondays",
+        "header_image_thumbnail_url": "https://images.genius.com/3ff3069166ce9ffb2d04cdedfa0bbd74.300x292x1.jpg",
+        "header_image_url": "https://images.genius.com/3ff3069166ce9ffb2d04cdedfa0bbd74.300x292x1.jpg",
+        "id": 134790,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 204736,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1598051054,
+        "path": "/Happy-mondays-kinky-afro-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Happy-mondays-kinky-afro-sample",
+        "release_date_components": {
+            "year": 1990,
+            "month": 10,
+            "day": 8
+        },
+        "release_date_for_display": "October 8, 1990",
+        "release_date_with_abbreviated_month_for_display": "Oct. 8, 1990",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3ff3069166ce9ffb2d04cdedfa0bbd74.300x292x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3ff3069166ce9ffb2d04cdedfa0bbd74.300x292x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 37583
+        },
+        "title": "Kinky Afro",
+        "title_with_featured": "Kinky Afro",
+        "updated_by_human_at": 1660905581,
+        "url": "https://genius.com/Happy-mondays-kinky-afro-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/44040",
+            "header_image_url": "https://images.genius.com/a17644debae79704087a3f2e685472d7.344x168x1.jpg",
+            "id": 44040,
+            "image_url": "https://images.genius.com/dbf6c1a0bbbaf5aa9f9880eacc1a6327.817x817x1.jpg",
+            "index_character": "h",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Happy Mondays",
+            "slug": "Happy-mondays",
+            "url": "https://genius.com/artists/Happy-mondays"
+        },
+        "artist": "Happy Mondays",
+        "lyrics": "Kinky Afro Lyrics[Intro]\nYou go spooky in a band\n\n[Verse 1]\nSon, I'm 30\nI only went with your mother 'cause she's dirty\nAnd I don't have a decent bone in me\nWhat you get is just what you see yeah\nI see it so, I take it freely\nAnd all the bad piss ugly things I feed me\nI never help or give to the needy\nCome on and see me\n[Chorus]\nYippee-ippee-ey-ey-ay-yey-yey\nI had to crucify some brother today\nAnd I don't dig what you gotta say\nSo come on and say it\nCome on and tell me twice\n\n[Verse 2]\nI said dad you're a shabby\nYou run around and groove like a baggy\nYou're only here just out of habit\nAll that's mine you might as well have it\nYou take ten feet back and then stab it\nSpray it on and tag it\nSo sack on me\nI can't stand the needy\nGet around here if you're asking you're feeling\n\n[Chorus]\nYippee-ippee-ey-ey-ay-yey-yey\nI had to crucify somebody today\nAnd I don't dig what you gotta say\nSo come on and say it\nCome on and tell me twice\n\n[Verse 3]\nSo sack all the needy\nI can't stand to leave it\nYou come around here and you put both your feet in\nYou might also like[Chorus]\nYippee-ippee-ey-ey-ay-yey-yey\nI had to crucify somebody today\nAnd I don't dig what you gotta say\nSo go on and say it\nYippee-ippee-ey-ey-ay-yey-yey\nI had to crucify some brother today\nAnd I don't hear what you gotta say\nSo come on and say it\nCome on and tell me twice4Embed"
+    }
+}

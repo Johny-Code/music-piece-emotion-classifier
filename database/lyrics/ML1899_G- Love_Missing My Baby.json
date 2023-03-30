@@ -1,0 +1,53 @@
+{
+    "id": "ML1899",
+    "mood": "relaxed",
+    "artist": "G. Love",
+    "title": "Missing My Baby",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/883337",
+        "artist_names": "G. Love (USA)",
+        "full_title": "Missing My Baby by\u00a0G.\u00a0Love (USA)",
+        "header_image_thumbnail_url": "https://images.genius.com/8d383781e366deaffcc1eb72e0649180.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/8d383781e366deaffcc1eb72e0649180.800x800x1.jpg",
+        "id": 883337,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429298379,
+        "path": "/G-love-usa-missing-my-baby-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/G-love-usa-missing-my-baby-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/8d383781e366deaffcc1eb72e0649180.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8d383781e366deaffcc1eb72e0649180.800x800x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Missing My Baby",
+        "title_with_featured": "Missing My Baby",
+        "updated_by_human_at": 1608094368,
+        "url": "https://genius.com/G-love-usa-missing-my-baby-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2522057",
+            "header_image_url": "https://images.genius.com/23e9768ad826e1269730979cc775fc21.400x400x1.jpg",
+            "id": 2522057,
+            "image_url": "https://images.genius.com/23e9768ad826e1269730979cc775fc21.400x400x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "G. Love (USA)",
+            "slug": "G-love-usa",
+            "url": "https://genius.com/artists/G-love-usa"
+        },
+        "artist": "G. Love (USA)",
+        "lyrics": "Missing My Baby LyricsWhen that moon comes shinin' through them clouds\nDon't you know that I'm missin' my baby, Yeah, Yeah\nI know I've been gone a long long time and\nYou sure do miss your man and baby I can understand\nYou being mad cause I've been gone so long\nI've gonna tell you baby, hold on, baby hold on\n\nListen girl..if you wanna find\nAnother man while I'm gone\nI'm gonna tell you now, hold on, baby hold on\nMy love as always comin' on strong\nYou won't have to wait to long\nCause I'm on my way back home\nDon't you know that I'm missin my baby, yeah, yeahhh\nMissin' my baby, ohhhhhh\nJust missin my baby, yeah, yeahh\nListen now..\n\nYou know you make me feel higher\nWhen you call me on the telephone wire\nAnd you say my name\nPlease, don't play these foolish games\nUmm, cause I'm standing down here by the payphone\nIn the poorin' rain and Im' runnin' out of change\n\nAnd I'm missin' my baby, yeah yeah\nI mean to tell you, I'm missin' my baby\nTake me baby..\n\nRefrain\n\n(Insert real tasty keyboard solo)\n\nI'm comin back to you baby\nHere I come, baby, here I come now\n\nRefrainYou might also likeEmbed"
+    }
+}

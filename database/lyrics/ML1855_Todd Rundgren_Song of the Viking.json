@@ -1,0 +1,57 @@
+{
+    "id": "ML1855",
+    "mood": "happy",
+    "artist": "Todd Rundgren",
+    "title": "Song of the Viking",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1192216",
+        "artist_names": "Todd Rundgren",
+        "full_title": "Song of the Viking by\u00a0Todd\u00a0Rundgren",
+        "header_image_thumbnail_url": "https://images.genius.com/b609775ab39ec2d540618d1562b782d5.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b609775ab39ec2d540618d1562b782d5.1000x1000x1.jpg",
+        "id": 1192216,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5593635,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1532143331,
+        "path": "/Todd-rundgren-song-of-the-viking-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Todd-rundgren-song-of-the-viking-sample",
+        "release_date_components": {
+            "year": 1972,
+            "month": 2,
+            "day": null
+        },
+        "release_date_for_display": "February 1972",
+        "release_date_with_abbreviated_month_for_display": "Feb. 1972",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b609775ab39ec2d540618d1562b782d5.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b609775ab39ec2d540618d1562b782d5.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Song of the Viking",
+        "title_with_featured": "Song of the Viking",
+        "updated_by_human_at": 1532143331,
+        "url": "https://genius.com/Todd-rundgren-song-of-the-viking-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/39345",
+            "header_image_url": "https://images.genius.com/9ae02f62d21594d509570122cc0b4f84.770x437x1.jpg",
+            "id": 39345,
+            "image_url": "https://images.genius.com/92eeec4e82df8bd27e04a153066c8d6d.675x675x1.jpg",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Todd Rundgren",
+            "slug": "Todd-rundgren",
+            "url": "https://genius.com/artists/Todd-rundgren"
+        },
+        "artist": "Todd Rundgren",
+        "lyrics": "Song of the Viking LyricsI am a Viking of some note\nKnut's my name and here I float\nOut on the sea in a great big boat\nAnd I'm the one who beats the drum in time\n\nTo stroke the oars that drive our galleons on\nAnd while we rowed we had our song\nAnd we had our god and it may seem odd\nBut at least there was a cause\n\nCaught a wind and we upped the sail\nLost two ships when it turned to a gale\nDown went a third when she rammed on a whale\nThough we despaired we could not fail\nAnd through it all we never faltered\nLate at night I lay on deck\nWondering why I risk my neck\nPicture myself in a sinking wreck\nAnd down I'm going not knowing why\nI just can't quite recall the reason why\n\nIt's such a drag to carry on\nBut there was a cause, but there was a cause\nStill there was a reason, reason\nIf you like I'll be your Viking\n\nSit you down to a Nordic meal\nGive you strength that you might wield\nThe Viking sword and the Viking shield\nAnd off we'll sail in mighty ships of yore\nPerhaps we shouldn't let our hands get sore\n\nWe need someone to pull the oars\nAnd to do the chores\nSo we need a cause\nWe need a reason, reason whyYou might also likeEmbed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML1380",
+    "mood": "relaxed",
+    "artist": "Jenny Owen Youngs",
+    "title": "Keys Out Lights On",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1070037",
+        "artist_names": "Jenny Owen Youngs",
+        "full_title": "Keys Out Lights On by\u00a0Jenny\u00a0Owen Youngs",
+        "header_image_thumbnail_url": "https://images.genius.com/23b68432ab44c5f0c0e22aefa53d8b3f.300x296x1.jpg",
+        "header_image_url": "https://images.genius.com/23b68432ab44c5f0c0e22aefa53d8b3f.600x591x1.jpg",
+        "id": 1070037,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429620130,
+        "path": "/Jenny-owen-youngs-keys-out-lights-on-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Jenny-owen-youngs-keys-out-lights-on-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2005",
+        "release_date_with_abbreviated_month_for_display": "2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/23b68432ab44c5f0c0e22aefa53d8b3f.300x296x1.jpg",
+        "song_art_image_url": "https://images.genius.com/23b68432ab44c5f0c0e22aefa53d8b3f.600x591x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Keys Out Lights On",
+        "title_with_featured": "Keys Out Lights On",
+        "updated_by_human_at": 1573307427,
+        "url": "https://genius.com/Jenny-owen-youngs-keys-out-lights-on-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/41602",
+            "header_image_url": "https://images.genius.com/708dac22c4d0e1145b758923a1e39fb0.1000x665x1.png",
+            "id": 41602,
+            "image_url": "https://images.genius.com/c59079d4729b0a713416e77bc35e1759.1000x1000x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Jenny Owen Youngs",
+            "slug": "Jenny-owen-youngs",
+            "url": "https://genius.com/artists/Jenny-owen-youngs"
+        },
+        "artist": "Jenny Owen Youngs",
+        "lyrics": "Keys Out Lights On LyricsI kick you like a dog that never gets fed\nKick you like a dog that never gets fed\nI trust you with my words like you're my friend\n\nI've got so much\nStowed away down there\nI've got so much\nStowed away down there\n\nYou were all for what I had like it's worth something\nAll for what I had like it's worth something\nYou lean into me 'cause you know that you can\nKeys out, lights on\nNo one waiting\nKeys out, lights on\nNo one waiting\n\nNow I give you my lies, all smudged with ink\nGive you my lies all smuged with ink\nYou see right through because I am nothing\n\nNo more questions\nI surrender\nNo more questions\nI surrenderYou might also likeEmbed"
+    }
+}

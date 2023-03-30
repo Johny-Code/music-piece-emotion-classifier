@@ -1,0 +1,57 @@
+{
+    "id": "ML340",
+    "mood": "happy",
+    "artist": "Busted",
+    "title": "Fun Fun Fun",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/760665",
+        "artist_names": "Busted",
+        "full_title": "Fun Fun Fun by\u00a0Busted",
+        "header_image_thumbnail_url": "https://images.genius.com/85a07ec53663e669b37ebce77c9c2e65.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/85a07ec53663e669b37ebce77c9c2e65.600x600x1.jpg",
+        "id": 760665,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429188163,
+        "path": "/Busted-fun-fun-fun-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Busted-fun-fun-fun-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 1,
+            "day": 13
+        },
+        "release_date_for_display": "January 13, 2003",
+        "release_date_with_abbreviated_month_for_display": "Jan. 13, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/85a07ec53663e669b37ebce77c9c2e65.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/85a07ec53663e669b37ebce77c9c2e65.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Fun Fun Fun",
+        "title_with_featured": "Fun Fun Fun",
+        "updated_by_human_at": 1475184409,
+        "url": "https://genius.com/Busted-fun-fun-fun-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/158503",
+            "header_image_url": "https://images.genius.com/472026f87c9168c0f7b0b5777081481c.1000x1000x1.jpg",
+            "id": 158503,
+            "image_url": "https://images.genius.com/94c45f80e9e14d432175523fb69f5128.900x900x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Busted",
+            "slug": "Busted",
+            "url": "https://genius.com/artists/Busted"
+        },
+        "artist": "Busted",
+        "lyrics": "Fun Fun Fun LyricsWell, she got her daddy's car\nAnd she cruised through the hamburger stand, now\nSeems she forgot all about the library\nLike she told her old man, now\nAnd with the radio blastin'\nGoes cruisin' just as fast as she can, now\nAnd she'll have fun, fun, fun\n'Til her daddy takes the T-Bird away\n\nWell, lynda sux really\n'Cause she walks, looks, and drives like an ace, now\nShe makes the Indy 500\nLook like the Roman Chariot Race, now\nA lot of guys try to catch her\nBut she leads 'em on a wild goose chase, now\nAnd she'll have fun, fun, fun\n'Til her daddy takes the T-Bird away\nWell, you knew all along\nThat your dad was gettin' wise to you, now\nAnd since he took your set of keys\nYou've been thinkin' that your fun is all through, now\nBut you can come along with me\n'Cause we've got a lot of things to do, now\nAnd we'll have fun, fun, fun\nNow that daddy took the T-Bird away\nAnd we'll have fun, fun, fun\nNow that daddy took the T-Bird awayYou might also likeEmbed"
+    }
+}

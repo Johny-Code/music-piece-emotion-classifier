@@ -1,0 +1,58 @@
+{
+    "id": "ML1524",
+    "mood": "angry",
+    "artist": "Blink 182",
+    "title": "Adam's Song",
+    "song": {
+        "_type": "song",
+        "annotation_count": 17,
+        "api_path": "/songs/73324",
+        "artist_names": "\u200b\u200bblink-182",
+        "full_title": "Adam's Song by\u00a0\u200b\u200bblink-182",
+        "header_image_thumbnail_url": "https://images.genius.com/539780f4700f50759ea1434b2f13b377.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/539780f4700f50759ea1434b2f13b377.1000x1000x1.jpg",
+        "id": 73324,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 11524,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1656336491,
+        "path": "/Blink-182-adams-song-lyrics",
+        "pyongs_count": 100,
+        "relationships_index_url": "https://genius.com/Blink-182-adams-song-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 6,
+            "day": 1
+        },
+        "release_date_for_display": "June 1, 1999",
+        "release_date_with_abbreviated_month_for_display": "Jun. 1, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ac37e0b4d69a01ecb374613d5fa9d4f1.300x294x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ac37e0b4d69a01ecb374613d5fa9d4f1.1000x979x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 509080
+        },
+        "title": "Adam\u2019s Song",
+        "title_with_featured": "Adam's Song",
+        "updated_by_human_at": 1665675265,
+        "url": "https://genius.com/Blink-182-adams-song-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/13373",
+            "header_image_url": "https://images.genius.com/fd6717e00817baa6560e755f5815d682.666x1000x1.jpg",
+            "id": 13373,
+            "image_url": "https://images.genius.com/862e771ca4c0623957c33ea5a4b1b0e8.1000x1000x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "\u200b\u200bblink-182",
+            "slug": "Blink-182",
+            "url": "https://genius.com/artists/Blink-182"
+        },
+        "artist": "\u200b\u200bblink-182",
+        "lyrics": "Adam\u2019s Song Lyrics[Verse 1]\nI never thought I'd die alone\nI laughed the loudest, who'd have known?\nI trace the cord back to the wall\nNo wonder, it was never plugged in at all\nI took my time, I hurried up\nThe choice was mine, I didn't think enough\nI'm too depressed to go on\nYou'll be sorry when I'm gone\n\n[Chorus]\nI never conquered, rarely came\nSixteen just held such better days\nDays when I still felt alive\nWe couldn't wait to get outside\nThe world was wide, too late to try\nThe tour was over, we'd survived\nI couldn't wait 'til I got home\nTo pass the time in my room alone\n[Verse 2]\nI never thought I'd die alone\nAnother six months, I'll be unknown\nGive all my things to all my friends\nYou'll never step foot in my room again\nYou'll close it off, board it up\nRemember the time that I spilled the cup\nOf apple juice in the hall\nPlease tell Mom this is not her fault\n\n[Chorus]\nI never conquered, rarely came\nSixteen just held such better days\nDays when I still felt alive\nWe couldn't wait to get outside\nThe world was wide, too late to try\nThe tour was over, we'd survived\nI couldn't wait 'til I got home\nTo pass the time in my room alone\n\n[Instrumental Bridge]\n\n[Chorus]\nI never conquered, rarely came\nTomorrow holds such better days\nDays when I can still feel alive\nWhen I can't wait to get outside\nThe world is wide, the time goes by\nThe tour is over, I've survived\nAnd I can't wait 'til I get home\nTo pass the time in my room aloneYou might also like100Embed"
+    }
+}

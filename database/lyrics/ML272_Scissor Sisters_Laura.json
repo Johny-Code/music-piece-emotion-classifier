@@ -1,0 +1,58 @@
+{
+    "id": "ML272",
+    "mood": "happy",
+    "artist": "Scissor Sisters",
+    "title": "Laura",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/119060",
+        "artist_names": "Scissor Sisters",
+        "full_title": "Laura by\u00a0Scissor\u00a0Sisters",
+        "header_image_thumbnail_url": "https://images.genius.com/60428443a936ed97a0d2a80c7f1178e6.300x262x1.jpg",
+        "header_image_url": "https://images.genius.com/60428443a936ed97a0d2a80c7f1178e6.344x300x1.jpg",
+        "id": 119060,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 26826,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1551796991,
+        "path": "/Scissor-sisters-laura-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Scissor-sisters-laura-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 2,
+            "day": 2
+        },
+        "release_date_for_display": "February 2, 2004",
+        "release_date_with_abbreviated_month_for_display": "Feb. 2, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/60428443a936ed97a0d2a80c7f1178e6.300x262x1.jpg",
+        "song_art_image_url": "https://images.genius.com/60428443a936ed97a0d2a80c7f1178e6.344x300x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 16568
+        },
+        "title": "Laura",
+        "title_with_featured": "Laura",
+        "updated_by_human_at": 1551796991,
+        "url": "https://genius.com/Scissor-sisters-laura-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/25104",
+            "header_image_url": "https://images.genius.com/9ac1f9e84087c25bd474ea5e5a514435.768x208x1.jpg",
+            "id": 25104,
+            "image_url": "https://images.genius.com/f5e3ebc238faeb50a781f9deae99f1e3.770x770x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Scissor Sisters",
+            "slug": "Scissor-sisters",
+            "url": "https://genius.com/artists/Scissor-sisters"
+        },
+        "artist": "Scissor Sisters",
+        "lyrics": "Laura Lyrics[Verse 1]\nLaura, can't you give me some time?\nI got to give myself one more chance\nTo be the man that I know I am\nTo be the man that I know I am\nWon't you just tell Cincinnati?\nI'm gonna need your love\nDon't you give me your love\nDon't you give me your\n\n[Chorus]\nSh'mon\nSh'mon\nWhere is your love?\nDon't you give me your love\nDon't you give me your\nSh'mon\nSh'mon\nWhere is your love?\nDon't you give me your love\nDon't you give me your\n[Verse 2]\nFreida, can't you spare me a dime?\nI got to give myself one more chance\nTo ring the band that I know I'm in\nTo ring the band that I know I'm in\nWon't you just tell Babydaddy?\nI'm gonna need his love\nWhy don't you give me he love?\nWhy don't you give me he\n\n[Chorus]\nSh'mon\nSh'mon\nWhere is your love\nDon't you give me your love\nDon't you give me your\nSh'mon\nSh'mon\nWhere is your love?\nDon't you give me your love\nDon't you give me your\n\n[Verse 3]\nThis'll be the last time\nI ever do your hair\n(Tired of this shit, swear I'm gonna quit\nCan't seem to make enough dough, but my cuttin's on a roll)\nOne face among the many\nI never thought you cared\n(Seen enough stuff, thought I got rough\nNow I know it ain't so, I gotta live on my own)\nThis'll be the last time\nI ever do your hair\n(Tired of this shit, swear I'm gonna quit\nCan't seem to make enough dough, but my cuttin's on a roll)\nOne face among the many\nI never thought you cared\n(Seen enough stuff, thought I got rough\nNow I know it ain't so, I gotta live on my own)You might also likeEmbed"
+    }
+}

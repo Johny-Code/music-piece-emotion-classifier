@@ -1,0 +1,59 @@
+{
+    "id": "ML1172",
+    "mood": "happy",
+    "artist": "Duran Duran",
+    "title": "Hungry Like The Wolf",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/81676",
+        "artist_names": "Duran Duran",
+        "full_title": "Hungry Like the Wolf by\u00a0Duran\u00a0Duran",
+        "header_image_thumbnail_url": "https://images.genius.com/454df4c5976ebaa3ed512e592f5ac421.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/454df4c5976ebaa3ed512e592f5ac421.1000x1000x1.jpg",
+        "id": 81676,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1850,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1670875868,
+        "path": "/Duran-duran-hungry-like-the-wolf-lyrics",
+        "pyongs_count": 14,
+        "relationships_index_url": "https://genius.com/Duran-duran-hungry-like-the-wolf-sample",
+        "release_date_components": {
+            "year": 1982,
+            "month": 5,
+            "day": 10
+        },
+        "release_date_for_display": "May 10, 1982",
+        "release_date_with_abbreviated_month_for_display": "May. 10, 1982",
+        "song_art_image_thumbnail_url": "https://images.genius.com/40c87d9be32b3e239a170258e2bfb2a0.300x304x1.jpg",
+        "song_art_image_url": "https://images.genius.com/40c87d9be32b3e239a170258e2bfb2a0.593x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 105583
+        },
+        "title": "Hungry Like the Wolf",
+        "title_with_featured": "Hungry Like the Wolf",
+        "updated_by_human_at": 1679777232,
+        "url": "https://genius.com/Duran-duran-hungry-like-the-wolf-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/22720",
+            "header_image_url": "https://images.genius.com/a044b9aaaa600a432dbbed7302950925.1000x985x1.jpg",
+            "id": 22720,
+            "image_url": "https://images.genius.com/95697394e4f58c9aa507e408f51008db.1000x1000x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Duran Duran",
+            "slug": "Duran-duran",
+            "url": "https://genius.com/artists/Duran-duran",
+            "iq": 4678
+        },
+        "artist": "Duran Duran",
+        "lyrics": "Hungry Like the Wolf Lyrics[Intro]\nHa-ha!\n\n[Verse 1]\nDarken the city, night is a wire\nSteam in the subway, earth is afire\nDo do do do do do do dodo dododo dodo\nWoman you want me, give me a sign\nAnd catch my breathing even closer behind\nDo do do do do do do dodo dododo dodo\n[Chorus]\nIn touch with the ground\nI'm on the hunt, I'm after you\nSmell like I sound, I'm lost in a crowd\nAnd I'm hungry like the wolf\nStraddle the line, in discord and rhyme\nI'm on the hunt, I'm after you\nMouth is alive, with juices like wine\nAnd I'm hungry like the wolf\n\n[Verse 2]\nStalked in the forest, too close to hide\nI'll be upon you by the moonlight side\nDo do do do do do do dodo dododo dodo\nHigh blood drumming on your skin, it's so tight\nYou feel my heat, I'm just a moment behind\nDo do do do do do do dodo dododo dodo\n\n[Chorus 2]\nIn touch with the ground\nI'm on the hunt, I'm after you\nScent and a sound, I'm lost and I'm found\nAnd I'm hungry like the wolf\nStrut on a line, it's discord and rhyme\nI howl and I whine I'm after you\nMouth is alive, all running inside\nAnd I'm hungry like the wolf\nYou might also like[Bridge]\nHungry like the wolf\nHungry like the wolf\nHungry like the wolf\n\n[Chorus 3]\nBurning the ground, I break from the crowd\nI'm on the hunt, I'm after you\nI smell like I sound, I'm lost and I'm found\nAnd I'm hungry like the wolf\nStrut on a line, it's discord and rhyme\nI'm on the hunt I'm after you\nMouth is alive, with juices like wine\nAnd I'm hungry like the wolf\n\n[Chorus 4]\nBurning the ground, I break from the crowd\nI'm on the hunt, I'm after you\nScent and a sound, I'm lost and I'm found\nAnd I'm hungry like the wolf\nStrut on a line, it's discord and rhyme\nI howl and I whine I'm after you\nMouth is alive, all running inside14Embed"
+    }
+}

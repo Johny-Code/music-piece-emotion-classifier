@@ -1,0 +1,58 @@
+{
+    "id": "ML1130",
+    "mood": "sad",
+    "artist": "Lit",
+    "title": "Miserable",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/1714912",
+        "artist_names": "Lit",
+        "full_title": "Miserable by\u00a0Lit",
+        "header_image_thumbnail_url": "https://images.genius.com/c4ad34a82e4512a679ec5fbd6820b7a4.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/c4ad34a82e4512a679ec5fbd6820b7a4.1000x1000x1.jpg",
+        "id": 1714912,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 8809706,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675637374,
+        "path": "/Lit-miserable-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Lit-miserable-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 2,
+            "day": 23
+        },
+        "release_date_for_display": "February 23, 1999",
+        "release_date_with_abbreviated_month_for_display": "Feb. 23, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5795f130ea92dbca40baa598ac8809f2.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5795f130ea92dbca40baa598ac8809f2.300x300x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 18247
+        },
+        "title": "Miserable",
+        "title_with_featured": "Miserable",
+        "updated_by_human_at": 1642736829,
+        "url": "https://genius.com/Lit-miserable-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/335348",
+            "header_image_url": "https://images.genius.com/65166401ff1b04735bc791e0e1eabf99.1000x1000x1.jpg",
+            "id": 335348,
+            "image_url": "https://images.genius.com/65166401ff1b04735bc791e0e1eabf99.1000x1000x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Lit",
+            "slug": "Lit",
+            "url": "https://genius.com/artists/Lit"
+        },
+        "artist": "Lit",
+        "lyrics": "Miserable Lyrics[Intro]\nYou make me come\nYou make me complete\nYou make me completely miserable\n\n[Verse 1]\nStuck to a chair, watching this story about me\nEverything goes by so fast, making my head spin\nUsed up all of my friends, but who needs them when you mean everything?\n\n[Chorus]\nWell I love the things that we should fear\nAnd I'm not afraid of being here\nWith so much the same, it makes me helpless alone\n[Verse 2]\nNothing to share, why should I care if you're near me?\nI give up all of my plans, but who needs them when you mean everything?\n\n[Chorus]\nI love the things that we should fear\nAnd I'm not afraid of being here\nWith so much the same, it makes me helpless alone\n\n[Bridge]\n(Yeah, yeah) You make me come\n(Yeah, yeah) You make me complete\n(Yeah, yeah) You make me completely miserable\n\n[E-Bow Solo]\n\n[Chorus]\nI love the thing that we should fear\nAnd I'm not afraid of being here\nWith so much the same, it makes me helpless alone\n\n[Outro]\nYou make me come\nYou make me complete\nYou make me completely miserable\n(Yeah, yeah) You make me come\n(Yeah, yeah) You make me complete\n(Yeah, yeah) You make me come\n(Yeah, yeah) You make me complete\n(Yeah, yeah) You make me completely miserableYou might also likeEmbed"
+    }
+}

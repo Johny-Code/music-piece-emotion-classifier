@@ -1,0 +1,57 @@
+{
+    "id": "ML1537",
+    "mood": "happy",
+    "artist": "Howard Jones",
+    "title": "Life In One Day",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/782079",
+        "artist_names": "Howard Jones",
+        "full_title": "Life in One Day by\u00a0Howard\u00a0Jones",
+        "header_image_thumbnail_url": "https://images.genius.com/58919d4ea1997db930c04e8979f599ec.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/58919d4ea1997db930c04e8979f599ec.600x600x1.jpg",
+        "id": 782079,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1668781529,
+        "path": "/Howard-jones-life-in-one-day-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Howard-jones-life-in-one-day-sample",
+        "release_date_components": {
+            "year": 1985,
+            "month": 6,
+            "day": 29
+        },
+        "release_date_for_display": "June 29, 1985",
+        "release_date_with_abbreviated_month_for_display": "Jun. 29, 1985",
+        "song_art_image_thumbnail_url": "https://images.genius.com/58919d4ea1997db930c04e8979f599ec.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/58919d4ea1997db930c04e8979f599ec.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Life in One Day",
+        "title_with_featured": "Life in One Day",
+        "updated_by_human_at": 1668781529,
+        "url": "https://genius.com/Howard-jones-life-in-one-day-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/188641",
+            "header_image_url": "https://images.genius.com/1f147d0cae30f8002403c2ff8a4b1e83.960x540x1.jpg",
+            "id": 188641,
+            "image_url": "https://images.genius.com/62b51fd52140c9ae2fcbdf6ff4bfccbf.380x380x1.jpg",
+            "index_character": "h",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Howard Jones",
+            "slug": "Howard-jones",
+            "url": "https://genius.com/artists/Howard-jones"
+        },
+        "artist": "Howard Jones",
+        "lyrics": "Life in One Day LyricsThe old man said to me\nSaid don't always take life so seriously\nPlay the flute\nAnd dance and sing your song\n\nTry and enjoy the here and now\nThe future will take care of itself somehow\nThe grass is never greener over there\nTime will wear away the stone\nGets the hereditary bone\nChorus\nDon't try to live your life in one day\nDon't go speed your time away\nDon't try to live your life in one day\nDon't go speed your time away\n\nThe old man said to me\nSaid you can't change the world single-handedly\nRaise a glass enjoy the scenery\nPretend the water is champagne\nAnd fill my glass again and again\nWhile the wolves are gathering round your door\nTime will wear away the stone\nGets the hereditary bone\n\nThe old man said to me\nSaid don't always take life so seriously\nPlay the flute\nAnd dance and sing your song\n\nTry and enjoy the here and now\nThe future will take care of itself somehow\nThe grass is never greener over there\nTime will wear away the stone\nGets the hereditary bone\nYou might also likeI tried to live my life in one day\nDon't go speed your time away\n\nI bit off more than I can chew\nOnly so much you can do\n\nWolves are gathering round my door\nAsk them in and invite some more\n\nI tried to live my life in one day\nDon't go speed your time awayEmbed"
+    }
+}

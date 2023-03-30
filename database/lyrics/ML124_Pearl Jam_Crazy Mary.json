@@ -1,0 +1,58 @@
+{
+    "id": "ML124",
+    "mood": "sad",
+    "artist": "Pearl Jam",
+    "title": "Crazy Mary",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1034294",
+        "artist_names": "Pearl Jam",
+        "full_title": "Crazy Mary by\u00a0Pearl\u00a0Jam",
+        "header_image_thumbnail_url": "https://images.genius.com/d6c2b8c861bf9d3ab4fedef648fce1be.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/d6c2b8c861bf9d3ab4fedef648fce1be.600x600x1.jpg",
+        "id": 1034294,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6187467,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1658301989,
+        "path": "/Pearl-jam-crazy-mary-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Pearl-jam-crazy-mary-sample",
+        "release_date_components": {
+            "year": 1993,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1993",
+        "release_date_with_abbreviated_month_for_display": "1993",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d6c2b8c861bf9d3ab4fedef648fce1be.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d6c2b8c861bf9d3ab4fedef648fce1be.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 13126
+        },
+        "title": "Crazy Mary",
+        "title_with_featured": "Crazy Mary",
+        "updated_by_human_at": 1658301990,
+        "url": "https://genius.com/Pearl-jam-crazy-mary-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/22696",
+            "header_image_url": "https://images.genius.com/095785805b8bd5ceac944d55369a1de4.570x244x1.jpg",
+            "id": 22696,
+            "image_url": "https://images.genius.com/b94c2aad8a8e1ccc49f293c0e028489c.1000x1000x1.jpg",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Pearl Jam",
+            "slug": "Pearl-jam",
+            "url": "https://genius.com/artists/Pearl-jam"
+        },
+        "artist": "Pearl Jam",
+        "lyrics": "Crazy Mary Lyrics[Verse 1]\nShe lived on the curve in the road\nIn an old tar paper shack\nOn the south side of the town\nOn the wrong side of the tracks\nSometimes on the way into town\nWe'd say, \"Mama can we stop and give her a ride?\"\nSometimes we did\nBut her hands flew from her side\nWild eyed crazy Mary\n[Verse 2]\nDown the long dirt road\nPast the Parson's place\nThat old blue car\nWe used to race\nLittle country store with a sign tacked to the side\nSaid 'NO L-O-I-T-E-R-I-N-G ALLOWED.'\nUnderneath that sign always congregated quite a crowd\n\n[Chorus]\nTake a bottle drink it down, pass it around\nTake a bottle drink it down, drink it... pass it around, pass it a...\nA-take a bottle drink it down, pass it... pass it a... pass it around\n\n[Verse 3]\nOne night thunder cracked\nMercy backed outside my windowsill\nDreamed I was flying\nHigh above the trees, over the hills\nLooked down into the house of Mary\nBare bulb hung, newspaper covered walls\nAnd Mary rising up above it all\nOh... oh... oh...\n\n[Verse 4]\nNext morning on the way into town\nSaw some skid marks and followed them around\nOver the curve\nThrough the fields\nInto the house of Mary\nYou might also like[Pre-Chorus]\nThat what you fear the most could meet you halfway\nThat what you fear the most could meet you halfway\n\n[Chorus]\nTake a bottle drink it down, pass it around\nTake a bottle drink it down, pass it... pass it around, pass it a...\nTake a bottle drink it down, pass it... pass it a... pass it around\nOh, pass it a... pass it arround, pass it a... pass it a... pass it a...\nOh yeah1Embed"
+    }
+}

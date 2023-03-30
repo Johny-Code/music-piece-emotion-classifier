@@ -1,0 +1,57 @@
+{
+    "id": "ML504",
+    "mood": "relaxed",
+    "artist": "Martin Page",
+    "title": "In The House Of Stone And Light",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/2222816",
+        "artist_names": "Martin Page",
+        "full_title": "In The House Of Stone And Light by\u00a0Martin\u00a0Page",
+        "header_image_thumbnail_url": "https://images.genius.com/2c102290d4493c500d9d3e6856ddb2f5.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2c102290d4493c500d9d3e6856ddb2f5.500x500x1.jpg",
+        "id": 2222816,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1619729804,
+        "path": "/Martin-page-in-the-house-of-stone-and-light-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Martin-page-in-the-house-of-stone-and-light-sample",
+        "release_date_components": {
+            "year": 1994,
+            "month": 7,
+            "day": 26
+        },
+        "release_date_for_display": "July 26, 1994",
+        "release_date_with_abbreviated_month_for_display": "Jul. 26, 1994",
+        "song_art_image_thumbnail_url": "https://images.genius.com/2c102290d4493c500d9d3e6856ddb2f5.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2c102290d4493c500d9d3e6856ddb2f5.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false
+        },
+        "title": "In The House Of Stone And Light",
+        "title_with_featured": "In The House Of Stone And Light",
+        "updated_by_human_at": 1630506511,
+        "url": "https://genius.com/Martin-page-in-the-house-of-stone-and-light-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/360654",
+            "header_image_url": "https://images.genius.com/5d541c0091f453d37c7e310e50cfddc9.955x955x1.jpg",
+            "id": 360654,
+            "image_url": "https://images.genius.com/5d541c0091f453d37c7e310e50cfddc9.955x955x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Martin Page",
+            "slug": "Martin-page",
+            "url": "https://genius.com/artists/Martin-page"
+        },
+        "artist": "Martin Page",
+        "lyrics": "In The House Of Stone And Light LyricsO Mount Kailas\nUncover me\nCome my restoration\nWash my body clean\nI've been walking\nAlong a crooked path\nWhere the walls have fallen\nAnd broken me in half\n\nI'm telling you\nI will not rest till I lay down my head\nI'm gonna go\nIn the house of stone and light\nI shall not cry for the blind man I leave behind\nWhen I got\nIn the house of stone and light\nIn the house of stone and light\nHoly lady\nShow me my soul\nTell me of that place\nWhere I must surely go\nOld man waiting\nAt the gates for me\nGive me the wisdom\nGive me the key\n\nI'm telling you\nI will not rest till I lay down my head\nIn the house of stone and light\nI make my way O gonna be such a beautiful day\nIn the house of stone and light\nIn the house of stone and light\n\nLet me in beneath my skin\nIn the house of stone and light\n\nIt's been too long\nMy spirit's been at war\nHavasupai Shaman\nLet me be reborn\n\nAll I will embrace the sun upon my face\nCome the day I awake the child inside\nIn the house of stone and light\nAnd when I go I will op-op-open my eyes\nIn the house of stone and light\nI will see you\nIn the house of stone and light\nYou might also likeI'm looking in beneath my skin\nIn The House of Stone And LightEmbed"
+    }
+}

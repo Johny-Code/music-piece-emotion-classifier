@@ -1,0 +1,53 @@
+{
+    "id": "ML1534",
+    "mood": "angry",
+    "artist": "Panzer AG",
+    "title": "Filth God",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1250459",
+        "artist_names": "Panzer AG",
+        "full_title": "Filth God by\u00a0Panzer\u00a0AG",
+        "header_image_thumbnail_url": "https://images.genius.com/29e18970cece2b44834411b01dde80d0.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/29e18970cece2b44834411b01dde80d0.1000x1000x1.jpg",
+        "id": 1250459,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429721499,
+        "path": "/Panzer-ag-filth-god-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Panzer-ag-filth-god-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/29e18970cece2b44834411b01dde80d0.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/29e18970cece2b44834411b01dde80d0.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Filth God",
+        "title_with_featured": "Filth God",
+        "updated_by_human_at": 1473289303,
+        "url": "https://genius.com/Panzer-ag-filth-god-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/369183",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "id": 369183,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Panzer AG",
+            "slug": "Panzer-ag",
+            "url": "https://genius.com/artists/Panzer-ag"
+        },
+        "artist": "Panzer AG",
+        "lyrics": "Filth God LyricsHow can you call yourself a god?\nDon't even bother to interfere\nCreated in your fucking image\nWhat kind of creep does that make you anyway?\nThere is no Hell\nWe are already here\nAnd why do I fear death\nIf I'm already dead?\n\nWhy should I be able to hate?\nWhy all this envy?\nShould I be able to kill for this land?\nIs this what you are?\nAnd what is evil?\nIf this is the light\nThen what is darkness?\nJust a brick in a game\n\nAnswer me\nWhat do you want from me?You might also likeEmbed"
+    }
+}

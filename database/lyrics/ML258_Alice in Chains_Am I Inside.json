@@ -1,0 +1,58 @@
+{
+    "id": "ML258",
+    "mood": "sad",
+    "artist": "Alice in Chains",
+    "title": "Am I Inside",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/391295",
+        "artist_names": "Alice in Chains",
+        "full_title": "Am I Inside by\u00a0Alice\u00a0in Chains",
+        "header_image_thumbnail_url": "https://images.genius.com/19bdb4858d0229b1575e9d9166d5d371.300x300x1.png",
+        "header_image_url": "https://images.genius.com/19bdb4858d0229b1575e9d9166d5d371.600x600x1.png",
+        "id": 391295,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 396158,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675581500,
+        "path": "/Alice-in-chains-am-i-inside-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Alice-in-chains-am-i-inside-sample",
+        "release_date_components": {
+            "year": 1992,
+            "month": 2,
+            "day": 4
+        },
+        "release_date_for_display": "February 4, 1992",
+        "release_date_with_abbreviated_month_for_display": "Feb. 4, 1992",
+        "song_art_image_thumbnail_url": "https://images.genius.com/19bdb4858d0229b1575e9d9166d5d371.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/19bdb4858d0229b1575e9d9166d5d371.600x600x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 14264
+        },
+        "title": "Am I Inside",
+        "title_with_featured": "Am I Inside",
+        "updated_by_human_at": 1675581500,
+        "url": "https://genius.com/Alice-in-chains-am-i-inside-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/32179",
+            "header_image_url": "https://images.genius.com/6db2f8a49892418b67cf311d200425cd.1000x165x1.jpg",
+            "id": 32179,
+            "image_url": "https://images.genius.com/40bcb40f347bf31d53aa335a5020da70.960x960x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Alice in Chains",
+            "slug": "Alice-in-chains",
+            "url": "https://genius.com/artists/Alice-in-chains"
+        },
+        "artist": "Alice in Chains",
+        "lyrics": "Am I Inside Lyrics[Verse 1]\nLoneliness it shadows me\nQuicker than darkness\nCrawls to the surface of my skin\nVisibly surrounded by it\n\n[Pre-Chorus]\nBlack is all I feel\nSo this is how it feels to be free\n\n[Verse 2]\nSurrounded by empty souls\nArtificial courage used\nAnd because so, once was mine\nI walk this maze alone\n[Pre-Chorus]\nBlack is all I feel\nSo this is how it feels to be free\n\n[Chorus]\nMiles beside himself\nMiles below himself\nMiles behind himself\nAm I inside myself?\n\n[Verse 3]\nChaos and hate shadow me\nPain it fills me up\nOnly one thing makes me feel\nMissing better half of me\n\n[Pre-Chorus]\nBlack is all I feel\nSo this is how it feels to be free\n\n[Chorus]\nMiles beside himself\nMiles below himself\nMiles behind himself\nAm I inside myself?You might also like6Embed"
+    }
+}

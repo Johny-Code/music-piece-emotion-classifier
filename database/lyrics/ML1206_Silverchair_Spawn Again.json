@@ -1,0 +1,57 @@
+{
+    "id": "ML1206",
+    "mood": "angry",
+    "artist": "Silverchair",
+    "title": "Spawn Again",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1203844",
+        "artist_names": "Silverchair",
+        "full_title": "Spawn Again by\u00a0Silverchair",
+        "header_image_thumbnail_url": "https://images.genius.com/25abd7f4ea28f271b15f3ed06ba76d83.300x300x1.png",
+        "header_image_url": "https://images.genius.com/25abd7f4ea28f271b15f3ed06ba76d83.600x600x1.png",
+        "id": 1203844,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 8118888,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1641865412,
+        "path": "/Silverchair-spawn-again-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Silverchair-spawn-again-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 3,
+            "day": 8
+        },
+        "release_date_for_display": "March 8, 1999",
+        "release_date_with_abbreviated_month_for_display": "Mar. 8, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/25abd7f4ea28f271b15f3ed06ba76d83.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/25abd7f4ea28f271b15f3ed06ba76d83.600x600x1.png",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Spawn Again",
+        "title_with_featured": "Spawn Again",
+        "updated_by_human_at": 1641865412,
+        "url": "https://genius.com/Silverchair-spawn-again-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/38582",
+            "header_image_url": "https://images.genius.com/ab99694dfbd35e0ae2033e5b1ea84960.995x1000x1.jpg",
+            "id": 38582,
+            "image_url": "https://images.genius.com/e865b2bc7496b73ebd27f9d6e0fdf0f9.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Silverchair",
+            "slug": "Silverchair",
+            "url": "https://genius.com/artists/Silverchair"
+        },
+        "artist": "Silverchair",
+        "lyrics": "Spawn Again Lyrics[Verse 1]\nDeath becomes clearer through bloodshot eyes\nAs a death from old age becomes nearer\nWhy can't the livestock be free\nWhen trading soldiers for steak\n\n[Pre-Chorus]\nLearn to evolve with the new transition\nTo act upon a hypocritical vision\nDiscard the old and in with the new\nDiscard the old and in with the fashion\n[Chorus]\nLearn to evolve with the new transition\nTo act upon a hypocritical vision\nLearn to evolve, learn to\nLearn to evolve\n\n[Verse 2]\nWho is the bad guy\nFor iron, require mince\nThese are the facts\nSo eat what you murder\nThis is animal liberation\nEight billion killed for human pleasure\n\n[Verse 3]\nBring on the ape farm\nDemolish the monkeys\nDrink up, drink up\nLook down on junkies\nA new hypocritical look and ambition\nThe time has come\nTo make the decision, you\nDrink up, drink up, look down\nI'll hold it back, I'll hold it back\n\n[Refrain Chorus]\nDiscard the old, in with the fashion\nYou might also like[Refrain Verse 1]\nDeath becomes clearer through bloodshot eyes\nDeath becomes clearer through bloodshot eyes1Embed"
+    }
+}

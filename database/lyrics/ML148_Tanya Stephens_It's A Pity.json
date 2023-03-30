@@ -1,0 +1,58 @@
+{
+    "id": "ML148",
+    "mood": "happy",
+    "artist": "Tanya Stephens",
+    "title": "It's A Pity",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/400868",
+        "artist_names": "Tanya Stephens",
+        "full_title": "It's a Pity by\u00a0Tanya\u00a0Stephens",
+        "header_image_thumbnail_url": "https://images.genius.com/75d59b593352c0f0ed5aad55825109df.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/75d59b593352c0f0ed5aad55825109df.1000x1000x1.jpg",
+        "id": 400868,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 340028,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1619478058,
+        "path": "/Tanya-stephens-its-a-pity-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Tanya-stephens-its-a-pity-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 1,
+            "day": 1
+        },
+        "release_date_for_display": "January 1, 2004",
+        "release_date_with_abbreviated_month_for_display": "Jan. 1, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/75d59b593352c0f0ed5aad55825109df.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/75d59b593352c0f0ed5aad55825109df.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 32159
+        },
+        "title": "It\u2019s a Pity",
+        "title_with_featured": "It's a Pity",
+        "updated_by_human_at": 1667896876,
+        "url": "https://genius.com/Tanya-stephens-its-a-pity-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/20984",
+            "header_image_url": "https://images.genius.com/97ca48f731aac9c009b0f0aef47c8ac2.498x498x1.jpg",
+            "id": 20984,
+            "image_url": "https://images.genius.com/97ca48f731aac9c009b0f0aef47c8ac2.498x498x1.jpg",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Tanya Stephens",
+            "slug": "Tanya-stephens",
+            "url": "https://genius.com/artists/Tanya-stephens"
+        },
+        "artist": "Tanya Stephens",
+        "lyrics": "It\u2019s a Pity LyricsI said, if we never get a chance to be together\nGo with Jah, Tanya love yuh, wha me seh?\n\nIt's a pity, you already have a wife\nAnd me done have a man inna mi life\nRude boy, it is a pity\nI say, it is a pity, you already have yuh wife\nAnd me have a one man inna mi life\nRude boy, it is a pity\n\nI woulda like one of these mornings to wake up and find\nYour face on a pillow lying right next to mine\nI woulda cut out the partying and the smoking and the rum\nAnd buss a extra wine and make we seal up a son\nWell, every time mi fantasize, me see your lips, me see your eyes\nYour trigger finger do something a lef the rude girl hypnotized\nFor you it's just a thing, just another little fling\nBut for me this is Heaven and the angel them a sing\n\nIt's a pity, you already have a wife\nAnd me done have a man inna mi life\nRude boy, it's such a pity, yo\n\nI say, it is such a pity, you already have a wife\nAnd me have a one man inna mi life\nRude boy, it is a pity\n\nFi buck you up inna public and can't even touch\nIt really fuck me up because me check fi you so much\nThe respect weh mi have fi your woman, fi your kids\nBelieve me rude boy mi criss, a nuh matey this\nWho knows? Maybe one day the world will be evolved enough\nWe'll share you in a civilized manner between the two of us\nBut until then I woulda love see you again\nMe know we have fi play it by the stupid rules of men\n\nI said, if we never get a chance to be together\nGo with Jah, Tanya loves ya, wha me seh?\nYou might also likeSo meet me round the corner, avoid Mitzy and Lorna\nYou know them a two of the biggest informer\nI'm not starving for sex now, nah bawl out next now\nBut the way how yuh flex really piqued my interest yo\n\nAyou weh people see a no the you wah me loving\nAnd the you weh deh with me go much deeper than skin\nI don't know exactly what it is you're feeling\nBut I wish this was a permanent thing, yo\n\nIt's such a pity, you already have yuh wife\nAnd me done have a man inna mi life\nRude boy, it is a pity\n\nI say, it is such a pity, you already have yuh wife\nAnd me done a one man inna mi life\nRude boy, it is a pity\n\nMe know seh you belong to she\nYou know seh me belong to him\nMe wouldn't want you dis your queen\nMe woulda never dis mi king\n\nBut when yuh play di bum riddim\nAnd when me feel your bass a swing\nYou lef me inna turmoil, you have me head a spin\nIt really mek me sad fi haffi waste so much water\nI think the two o' we can mek a beautiful daughter\nBut it would be selfish to an innocent little youth\nFi bring her come and cannot tell her the truth\nTell her the truth\n\nI said, go with Jah, I will always love you\nI said, if we never get a chance to be together\nGo with Jah, remember Tanya loves ya3Embed"
+    }
+}

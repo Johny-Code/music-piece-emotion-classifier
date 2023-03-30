@@ -1,0 +1,59 @@
+{
+    "id": "ML1428",
+    "mood": "sad",
+    "artist": "Evanescence",
+    "title": "Haunted",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/218554",
+        "artist_names": "Evanescence",
+        "full_title": "Haunted by\u00a0Evanescence",
+        "header_image_thumbnail_url": "https://images.genius.com/56b4a0e983e3ea816e4a46d8d3220631.300x300x1.png",
+        "header_image_url": "https://images.genius.com/56b4a0e983e3ea816e4a46d8d3220631.1000x1000x1.png",
+        "id": 218554,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 22533,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1673881950,
+        "path": "/Evanescence-haunted-lyrics",
+        "pyongs_count": 9,
+        "relationships_index_url": "https://genius.com/Evanescence-haunted-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 3,
+            "day": 4
+        },
+        "release_date_for_display": "March 4, 2003",
+        "release_date_with_abbreviated_month_for_display": "Mar. 4, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/56b4a0e983e3ea816e4a46d8d3220631.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/56b4a0e983e3ea816e4a46d8d3220631.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 33826
+        },
+        "title": "Haunted",
+        "title_with_featured": "Haunted",
+        "updated_by_human_at": 1673881950,
+        "url": "https://genius.com/Evanescence-haunted-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/17912",
+            "header_image_url": "https://images.genius.com/c85a543f2cc90a7098bffa40f194d2ca.1000x178x1.jpg",
+            "id": 17912,
+            "image_url": "https://images.genius.com/c0acd6b116e181aada253e219dc3ccb2.999x999x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Evanescence",
+            "slug": "Evanescence",
+            "url": "https://genius.com/artists/Evanescence",
+            "iq": 106
+        },
+        "artist": "Evanescence",
+        "lyrics": "Haunted Lyrics[Verse 1]\nLong lost words whisper slowly to me\nStill can't find what keeps me here\n(Oh, oh-oh, oh-oh)\nWhen all this time I've been so hollow inside\nI know you're still there\n\n[Chorus]\nWatching me, wanting me\nI can feel you pull me down\nFearing you, loving you\nI won't let you pull me down\n[Verse 2]\nHunting you, I can smell you alive\n(Oh, oh-oh, oh-oh)\nYour heart pounding in my head\n\n[Chorus]\nWatching me, wanting me\nI can feel you pull me down\nSaving me, raping me\nWatching me\n\n[Instrumental Bridge]\n\n[Chorus]\nWatching me, wanting me (Oh-oh-oh, oh-oh-oh)\nI can feel you pull me down (Feel you pull me down)\nFearing you, loving you (Oh-oh-oh, oh-oh-oh)\nI won't let you pull me downYou might also like9Embed"
+    }
+}

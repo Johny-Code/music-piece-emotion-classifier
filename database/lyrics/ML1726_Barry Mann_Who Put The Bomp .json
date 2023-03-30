@@ -1,0 +1,58 @@
+{
+    "id": "ML1726",
+    "mood": "happy",
+    "artist": "Barry Mann",
+    "title": "Who Put The Bomp ",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/155088",
+        "artist_names": "Barry Mann",
+        "full_title": "Who Put the Bomp (in the Bomp, Bomp, Bomp) by\u00a0Barry\u00a0Mann",
+        "header_image_thumbnail_url": "https://images.genius.com/5a98d8b9d79978a4f6b813e853ac55a7.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5a98d8b9d79978a4f6b813e853ac55a7.500x500x1.jpg",
+        "id": 155088,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 16,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1660335766,
+        "path": "/Barry-mann-who-put-the-bomp-in-the-bomp-bomp-bomp-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Barry-mann-who-put-the-bomp-in-the-bomp-bomp-bomp-sample",
+        "release_date_components": {
+            "year": 1961,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1961",
+        "release_date_with_abbreviated_month_for_display": "1961",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5a98d8b9d79978a4f6b813e853ac55a7.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5a98d8b9d79978a4f6b813e853ac55a7.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false,
+            "pageviews": 13480
+        },
+        "title": "Who Put the Bomp (in the Bomp, Bomp, Bomp)",
+        "title_with_featured": "Who Put the Bomp (in the Bomp, Bomp, Bomp)",
+        "updated_by_human_at": 1660335766,
+        "url": "https://genius.com/Barry-mann-who-put-the-bomp-in-the-bomp-bomp-bomp-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/51798",
+            "header_image_url": "https://images.genius.com/61455a05807942878caed28be79d83eb.197x255x1.jpg",
+            "id": 51798,
+            "image_url": "https://images.genius.com/a73ea6cb52c4fba84d0d79c080845ea3.1000x1000x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Barry Mann",
+            "slug": "Barry-mann",
+            "url": "https://genius.com/artists/Barry-mann"
+        },
+        "artist": "Barry Mann",
+        "lyrics": "Who Put the Bomp (in the Bomp, Bomp, Bomp) LyricsI'd like to thank the guy\nWho wrote the song\nThat made my baby\nFall in love with me\n\nWho put the bomp\nIn the bomp bah bomp bah bomp?\nWho put the ram\nIn the rama lama ding dong?\nWho put the bop\nIn the bop shoo bop shoo bop?\nWho put the dip\nIn the dip da dip da dip?\nWho was that man?\nI'd like to shake his hand\nHe made my baby\nFall in love with me (yeah!!)\nWhen my baby heard\n\"Bomp bah bah bomp \"\n\"Bah bomp bah bomp bah bomp bomp\"\nEvery word went right into her heart\nAnd when she heard them singin'\n\"Rama lama lama lama\"\n\"Rama ding dong\"\nShe said we'd never have to part\nSo\n\nWho put the bomp\nIn the bomp bah bomp bah bomp?\nWho put the ram\nIn the rama lama ding dong?\nWho put the bop\nIn the bop shoo bop shoo bop?\nWho put the dip\nIn the dip da dip da dip?\nWho was that man?\nI'd like to shake his hand\nHe made my baby\nFall in love with me (yeah!!)\n\nEach time that we're alone\nBoogity boogity boogity\nBoogity boogity boogity shoo\nSets my baby's heart all aglow\nAnd everytime we dance to\nDip da dip da dip\nDip da dip da dip\nShe always says she loves me so\nSo\nYou might also likeWho put the bomp\nIn the bomp bah bomp bah bomp?\nWho put the ram\nIn the rama lama ding dong?\nWho put the bop\nIn the bop shoo bop shoo bop?\nWho put the dip\nIn the dip da dip da dip?\nWho was that man?\nI'd like to shake his hand\nHe made my baby\nFall in love with me (yeah!!)\n\nDarling, bomp bah bah bomp, bah bomp bah bomp bomp\nAnd my honey, rama lama ding dong forever\nAnd when I say, dip da dip da dip da dip\nYou know I mean it from the bottom of my boogity boogity boogity shoop6Embed"
+    }
+}

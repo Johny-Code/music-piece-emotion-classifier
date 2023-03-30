@@ -1,0 +1,58 @@
+{
+    "id": "ML1343",
+    "mood": "happy",
+    "artist": "Rick James",
+    "title": "Super Freak",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/97070",
+        "artist_names": "Rick James",
+        "full_title": "Super Freak by\u00a0Rick\u00a0James",
+        "header_image_thumbnail_url": "https://images.genius.com/36ab252cb9561f74d4caa8064de6bfce.300x304x1.jpg",
+        "header_image_url": "https://images.genius.com/36ab252cb9561f74d4caa8064de6bfce.690x700x1.jpg",
+        "id": 97070,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 22533,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1672907167,
+        "path": "/Rick-james-super-freak-lyrics",
+        "pyongs_count": 11,
+        "relationships_index_url": "https://genius.com/Rick-james-super-freak-sample",
+        "release_date_components": {
+            "year": 1981,
+            "month": 4,
+            "day": 7
+        },
+        "release_date_for_display": "April 7, 1981",
+        "release_date_with_abbreviated_month_for_display": "Apr. 7, 1981",
+        "song_art_image_thumbnail_url": "https://images.genius.com/36ab252cb9561f74d4caa8064de6bfce.300x304x1.jpg",
+        "song_art_image_url": "https://images.genius.com/36ab252cb9561f74d4caa8064de6bfce.690x700x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 119443
+        },
+        "title": "Super Freak",
+        "title_with_featured": "Super Freak",
+        "updated_by_human_at": 1672907167,
+        "url": "https://genius.com/Rick-james-super-freak-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1648",
+            "header_image_url": "https://images.genius.com/dfc57b13f3fdcbb6640364a9bf3c08db.506x506x1.jpg",
+            "id": 1648,
+            "image_url": "https://images.genius.com/dfc57b13f3fdcbb6640364a9bf3c08db.506x506x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Rick James",
+            "slug": "Rick-james",
+            "url": "https://genius.com/artists/Rick-james"
+        },
+        "artist": "Rick James",
+        "lyrics": "Super Freak Lyrics[Verse 1]\nShe's a very kinky girl\nThe kind you don't take home to mother\nShe will never let your spirits down\nOnce you get her off the street, ow, girl\nShe likes the boys in the band\nShe says that I'm her all-time favorite\nWhen I make my move to her room, it's the right time\nShe's never hard to please, oh no\n\n[Pre-Chorus]\nThat girl is pretty wild now\nThe girl's a super freak\nThe kind of girl you read about\nIn new-wave magazines\nThat girl is pretty kinky\nThe girl's a super freak\nI really love to taste her\nEvery time we meet\nShe's alright, she's alright\nThat girl's alright with me, yeah\nHey, hey, hey, hey!\n[Chorus]\nShe's a super freak, super freak\nShe's super-freaky, yow\nEverybody sing\nSuper freak, super freak\n\n[Verse 2]\nShe's a very special girl\nThe kind of girl you want to know\nFrom her head down to her toenails\nDown to her feet, yeah\nAnd she'll wait for me at backstage with her girlfriends\nIn a limousine\nLong and black and shining bright\nThree's not a crowd to her, she says (M\u00e9nage \u00e0 trois, oui la la)\n\"Room 714, I'll be waiting\"\nWhen I get there she's got incense, wine and candles\nIt's such a freaky scene\n\n[Pre-Chorus]\nThat girl is pretty kinky\nThe girl's a super freak\nThe kind of girl you read about\nIn new-wave magazines\nThat girl is pretty wild now\nThe girl's a super freak\nI really like to taste her\nEvery time we meet\nShe's alright, she's alright\nThat girl's alright with me, yeah\nHey, hey, hey, hey\nYou might also like[Chorus]\nShe's a super freak, super freak\nShe's super-freaky, yow\n\n[Bridge]\nTemptations, sing!\nOh-oh-oh-oh-oh-oh-oh\nSuper freak, super freak\nThat girl's a super freak\nOh-oh-oh-oh-oh-oh-oh\n\n[Outro]\nShe's a very kinky girl\nThe kind you don't take home to mother\nShe will never let your spirits down\nOnce you get her off the street\nBlow, Danny!\nOh girl\nOh girl11Embed"
+    }
+}

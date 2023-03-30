@@ -1,0 +1,59 @@
+{
+    "id": "ML894",
+    "mood": "angry",
+    "artist": "Rage Against The Machine",
+    "title": "Killing in the Name",
+    "song": {
+        "_type": "song",
+        "annotation_count": 11,
+        "api_path": "/songs/4569",
+        "artist_names": "Rage Against the Machine",
+        "full_title": "Killing in the Name by\u00a0Rage\u00a0Against the Machine",
+        "header_image_thumbnail_url": "https://images.genius.com/54e45f1cd50a9c48e6356477c9865213.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/54e45f1cd50a9c48e6356477c9865213.1000x999x1.jpg",
+        "id": 4569,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6198,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1674284934,
+        "path": "/Rage-against-the-machine-killing-in-the-name-lyrics",
+        "pyongs_count": 103,
+        "relationships_index_url": "https://genius.com/Rage-against-the-machine-killing-in-the-name-sample",
+        "release_date_components": {
+            "year": 1992,
+            "month": 11,
+            "day": 3
+        },
+        "release_date_for_display": "November 3, 1992",
+        "release_date_with_abbreviated_month_for_display": "Nov. 3, 1992",
+        "song_art_image_thumbnail_url": "https://images.genius.com/f58a0a556c161a8a110e93045a0decaa.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/f58a0a556c161a8a110e93045a0decaa.400x400x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "concurrents": 6,
+            "hot": false,
+            "pageviews": 2676405
+        },
+        "title": "Killing in the Name",
+        "title_with_featured": "Killing in the Name",
+        "updated_by_human_at": 1674284934,
+        "url": "https://genius.com/Rage-against-the-machine-killing-in-the-name-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1499",
+            "header_image_url": "https://images.genius.com/894d5c14133517ce6354f719cc88af54.1000x302x1.png",
+            "id": 1499,
+            "image_url": "https://images.genius.com/2158957823960c84c7890b8fa5e6d479.1000x1000x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Rage Against the Machine",
+            "slug": "Rage-against-the-machine",
+            "url": "https://genius.com/artists/Rage-against-the-machine"
+        },
+        "artist": "Rage Against the Machine",
+        "lyrics": "TranslationsPortugu\u00easNederlandsKilling in the Name Lyrics[Intro]\nKilling in the name of\n\n[Verse]\nSome of those that work forces\nAre the same that burn crosses\nSome of those that work forces\nAre the same that burn crosses\nSome of those that work forces\nAre the same that burn crosses\nSome of those that work forces\nAre the same that burn crosses\nUh!\n[Refrain]\nKilling in the name of\nKilling in the name of\n[Pre-Chorus]\nNow you do what they told ya\nNow you do what they told ya\nNow you do what they told ya\nNow you do what they told ya\nAnd now you do what they told ya\nAnd now you do what they told ya\nAnd now you do what they told ya\nAnd now you do what they told ya\nAnd now you do what they told ya\nAnd now you do what they told ya\nBut now you do what they told ya!\nWell, now you do what they told ya\n\n[Chorus]\nThose who died are justified\nFor wearing the badge, they're the chosen whites\nYou justify those that died\nBy wearing the badge, they're the chosen whites\nThose who died are justified\nFor wearing the badge, they're the chosen whites\nYou justify those that died\nBy wearing the badge, they're the chosen whites\nYou might also like[Verse]\nSome of those that work forces\nAre the same that burn crosses\nSome of those that work forces\nAre the same that burn crosses\nSome of those that work forces\nAre the same that burn crosses\nSome of those that work forces\nAre the same that burn crosses\nUh!\n\n[Refrain]\nKilling in the name of\nKilling in the name of\n\n[Pre-Chorus]\nNow you do what they told ya\nNow you do what they told ya\nNow you do what they told ya\nNow you do what they told ya\nAnd now you do what they told ya\n(Now you're under control) And now you do what they told ya\n(Now you're under control) And now you do what they told ya\n(Now you're under control) And now you do what they told ya\n(Now you're under control) And now you do what they told ya\n(Now you're under control) And now you do what they told ya\n(Now you're under control) And now you do what they told ya\n(Now you're under control) And now you do what they told ya\n[Chorus]\nThose who died are justified\nFor wearing the badge, they're the chosen whites\nYou justify those that died\nBy wearing the badge, they're the chosen whites\nThose who died are justified\nFor wearing the badge, they're the chosen whites\nYou justify those that died\nBy wearing the badge, they're the chosen whites\nCome on!\n[Guitar Solo]\nUgh!\nYeah!\nCome on!\nUgh!\n\n[Outro]\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nMotherfucker!\nUgh!103Embed"
+    }
+}

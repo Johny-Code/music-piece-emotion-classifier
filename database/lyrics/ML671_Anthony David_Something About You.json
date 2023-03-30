@@ -1,0 +1,58 @@
+{
+    "id": "ML671",
+    "mood": "relaxed",
+    "artist": "Anthony David",
+    "title": "Something About You",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/826104",
+        "artist_names": "Anthony David",
+        "full_title": "Something About You by\u00a0Anthony\u00a0David",
+        "header_image_thumbnail_url": "https://images.genius.com/5c909861d1e3beb09f4e1eddb2b140a2.300x300x1.png",
+        "header_image_url": "https://images.genius.com/5c909861d1e3beb09f4e1eddb2b140a2.819x819x1.png",
+        "id": 826104,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1820877,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1639264305,
+        "path": "/Anthony-david-something-about-you-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Anthony-david-something-about-you-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 9,
+            "day": 26
+        },
+        "release_date_for_display": "September 26, 2006",
+        "release_date_with_abbreviated_month_for_display": "Sep. 26, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/fcafe7e4aeceb4d37cfa53df0e66ef37.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/fcafe7e4aeceb4d37cfa53df0e66ef37.400x400x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Something About You",
+        "title_with_featured": "Something About You",
+        "updated_by_human_at": 1639264305,
+        "url": "https://genius.com/Anthony-david-something-about-you-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/8364",
+            "header_image_url": "https://s3.amazonaws.com/rapgenius/avatars/medium/da73db4e64dbed1fe8bed27eeb0744d5.png",
+            "id": 8364,
+            "image_url": "https://s3.amazonaws.com/rapgenius/avatars/medium/da73db4e64dbed1fe8bed27eeb0744d5.png",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Anthony David",
+            "slug": "Anthony-david",
+            "url": "https://genius.com/artists/Anthony-david",
+            "iq": 105
+        },
+        "artist": "Anthony David",
+        "lyrics": "Something About You Lyrics[Verse 1]\nHow, how can it be that a love\nCarved out of carin', fashioned by fate\nCould suffer so hard\nFrom the games played once too often?\nBut makin' mistakes\nIs a part of life's imperfections\nBorn of the years\nIt's so wrong to be human after all\n\n[Pre-Chorus]\nDrawn into the stream (Oh)\nOf undefined illusion (Oh, oh, yeah)\nThose diamond dreams (Oh)\nThey can't disguise the truth (No, no)\n[Chorus]\nThere is somethin' about you\nBaby so right\nI couldn't be without you\nBaby tonight\n\n[Verse 2]\nIf ever our love was concealed\nNo one could say that you didn't feel\nA million things\nAnd a perfect dream of life\nGone, fragile but free\nWe remain tender together\nIf not so in love\nIt's not so wrong\nWe're only human after all\n\n[Pre-Chorus]\nThese changin' years (Changin' years)\nThey add to your confusion (They add, to your confusion)\nOh and you need to hear (Oh)\nThe time that told the truth (The time, you know I told the truth)\n\n[Chorus]\nThere is somethin' about you\nBaby so right\nI couldn't be without you\nBaby tonight\nAnd there is somethin' about you\nBaby so right\nI couldn't be without you\nBaby tonight\nYou might also like[Guitar Solo]\n\n[Chorus]\nOh, and there is somethin' about you\nBaby tonight\nI don't wanna be without your love\nTonight\n\n[Outro]\nIt's what makes the world go round and\nIt's what makes the rivers flow and\nIt's what makes the sparrows sing and\nIt's what makes the flowers grow and\nIt's what gives our babies breath and\nIt's what gives the sun its shine and\nIt's what makes me feels this way and\nIt's what gonna make you mine andEmbed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML109",
+    "mood": "sad",
+    "artist": "Okkervil River",
+    "title": "So Come Back, I Am Waiting",
+    "song": {
+        "_type": "song",
+        "annotation_count": 19,
+        "api_path": "/songs/189448",
+        "artist_names": "Okkervil River",
+        "full_title": "So Come Back, I Am Waiting by\u00a0Okkervil\u00a0River",
+        "header_image_thumbnail_url": "https://s3.amazonaws.com/rapgenius/Jag80hires.jpg",
+        "header_image_url": "https://s3.amazonaws.com/rapgenius/Jag80hires.jpg",
+        "id": 189448,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 225672,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1598853944,
+        "path": "/Okkervil-river-so-come-back-i-am-waiting-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Okkervil-river-so-come-back-i-am-waiting-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2005",
+        "release_date_with_abbreviated_month_for_display": "2005",
+        "song_art_image_thumbnail_url": "https://s3.amazonaws.com/rapgenius/Jag80hires.jpg",
+        "song_art_image_url": "https://s3.amazonaws.com/rapgenius/Jag80hires.jpg",
+        "stats": {
+            "unreviewed_annotations": 12,
+            "hot": false,
+            "pageviews": 9485
+        },
+        "title": "So Come Back, I Am Waiting",
+        "title_with_featured": "So Come Back, I Am Waiting",
+        "updated_by_human_at": 1598853945,
+        "url": "https://genius.com/Okkervil-river-so-come-back-i-am-waiting-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/60635",
+            "header_image_url": "https://s3.amazonaws.com/rapgenius/or.jpg",
+            "id": 60635,
+            "image_url": "https://s3.amazonaws.com/rapgenius/or.jpg",
+            "index_character": "o",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Okkervil River",
+            "slug": "Okkervil-river",
+            "url": "https://genius.com/artists/Okkervil-river"
+        },
+        "artist": "Okkervil River",
+        "lyrics": "So Come Back, I Am Waiting Lyrics[Verse 1]\nA black sheep boy revolves\nOver canyons and waterfalls\nA black sheep boy dissolves\nIn syringe or in shower stall\nHe says \"there's plenty of time to make you mine tonight\"\nHe says \"there's plenty of time to make you mine\"\nHe says \"there's plenty of ways to know you're not dying\nAll right\nHell, there's plenty of light still left in your eyes\nIn your eyes\"\n[Verse 2]\nA black sheep boy grows horns, breathing smoke through his microphone\nThe airwaves stretch and they groan\nBleeding, birthing his black diapason\nHe says \"there's plenty of things to wear when you come to me\nEvery color of sleeve to be rolled\nThere are millions of rolling eyes that still cling to me\nEvery language of king is concerned\nSo why\nDid you bawl\nFrom the spell of some old holy song\nSome liar laughed as he composed\nSome liar I loved to control\n\n[Verse 3]\nA black sheep boy dissolves\nIn hot cream\nIn sweet moans\nIn each dead bed and empty home\nIn each seething bacterium\nKilling softly and serial\nHe lifts his head, handsome, horned, magisterial\nHe's the smell of the moonlight wisteria\nHe's the thrill of the abecedarian\n(See the muddy hoof prints where he carried you?)\nYou might also like[Verse 4]\nAnd there's plenty of ways to claim his crimes tonight\nAnd there's plenty of things to do on his dime\nAnd there's plenty of ways to wear his hide tonight\nYou've got yours, I've got mine\nYou've got yours, I've got mine\n\n[Verse 5]\nSo why\nDid you flee?\nDon't you know you can't leave his control\nOnly call all his wild works your own?\nSo come back and we'll take them all on\nSo come back to your life on the lam\nSo come back to your old black sheep man\nHe says \"I am waiting on hoof and on hand\nI am waiting, all hated and damned\nI am waiting, I snort and I stamp\nI am waiting\nYou know that I am\nCalmly waiting to make you my lamb\"Embed"
+    }
+}

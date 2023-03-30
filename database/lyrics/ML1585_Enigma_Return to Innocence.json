@@ -1,0 +1,58 @@
+{
+    "id": "ML1585",
+    "mood": "relaxed",
+    "artist": "Enigma",
+    "title": "Return to Innocence",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/621565",
+        "artist_names": "Enigma",
+        "full_title": "Return to Innocence by\u00a0Enigma",
+        "header_image_thumbnail_url": "https://images.rapgenius.com/b35d35c379ed8871ceaa533916b6dec5.300x300x1.jpg",
+        "header_image_url": "https://images.rapgenius.com/b35d35c379ed8871ceaa533916b6dec5.500x500x1.jpg",
+        "id": 621565,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1106295,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1653919808,
+        "path": "/Enigma-return-to-innocence-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Enigma-return-to-innocence-sample",
+        "release_date_components": {
+            "year": 1994,
+            "month": 1,
+            "day": 4
+        },
+        "release_date_for_display": "January 4, 1994",
+        "release_date_with_abbreviated_month_for_display": "Jan. 4, 1994",
+        "song_art_image_thumbnail_url": "https://images.genius.com/82c3f5b34e17dcee3acad8c9b73f7517.300x297x1.jpg",
+        "song_art_image_url": "https://images.genius.com/82c3f5b34e17dcee3acad8c9b73f7517.600x594x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 25892
+        },
+        "title": "Return to Innocence",
+        "title_with_featured": "Return to Innocence",
+        "updated_by_human_at": 1653919808,
+        "url": "https://genius.com/Enigma-return-to-innocence-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/47617",
+            "header_image_url": "https://images.genius.com/5812a224b777d0c2f63f620c8c90a8fc.1000x1000x1.jpg",
+            "id": 47617,
+            "image_url": "https://images.genius.com/4b5472082f220eb9c2ca6b22f4d12f45.1000x1000x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Enigma",
+            "slug": "Enigma",
+            "url": "https://genius.com/artists/Enigma"
+        },
+        "artist": "Enigma",
+        "lyrics": "Return to Innocence Lyrics[Vocal Sample: Difang and Igay Duana]\n\n[Verse 1: Angel X]\nLove, love, devotion, devotion\nFeeling, feeling, emotion, emotion\nDon't be afraid to be weak\nDon't be too proud to be strong\nJust look into your heart, my friend\nThat will be the return to yourself\nThe return to innocence\n[Vocal Sample: Difang and Igay Duana]\n\n[Hook: Angel X]\nThe return to innocence\n\n[Verse 2: Angel X]\nIf you want, then start to laugh\nIf you must, then start to cry\nBe yourself, don't hide\nJust believe in destiny\nDon't care what people say\nJust follow your own way\nDon't give up and use the chance\nTo return to innocence\n\n[Vocal Sample: Difang and Igay Duana]\n\n[Spoken Interlude: Sandra]\nThat's not the beginning of the end\nThat's the return to yourself\nThe return to innocence\n\n[Vocal Sample: Difang and Igay Duana]\n\n[Spoken Outro: Sandra]\nThat's the return to innocenceYou might also like3Embed"
+    }
+}

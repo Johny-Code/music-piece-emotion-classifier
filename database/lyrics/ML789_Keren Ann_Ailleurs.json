@@ -1,0 +1,57 @@
+{
+    "id": "ML789",
+    "mood": "relaxed",
+    "artist": "Keren Ann",
+    "title": "Ailleurs",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/834468",
+        "artist_names": "Keren Ann",
+        "full_title": "Ailleurs by\u00a0Keren\u00a0Ann",
+        "header_image_thumbnail_url": "https://images.genius.com/1ae80269beaa3967d6c072b59a43c0b6.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1ae80269beaa3967d6c072b59a43c0b6.600x600x1.jpg",
+        "id": 834468,
+        "instrumental": false,
+        "language": "fr",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429278072,
+        "path": "/Keren-ann-ailleurs-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Keren-ann-ailleurs-sample",
+        "release_date_components": {
+            "year": 2002,
+            "month": 4,
+            "day": 22
+        },
+        "release_date_for_display": "April 22, 2002",
+        "release_date_with_abbreviated_month_for_display": "Apr. 22, 2002",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1ae80269beaa3967d6c072b59a43c0b6.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/1ae80269beaa3967d6c072b59a43c0b6.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Ailleurs",
+        "title_with_featured": "Ailleurs",
+        "updated_by_human_at": 1607167337,
+        "url": "https://genius.com/Keren-ann-ailleurs-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/340112",
+            "header_image_url": "https://images.genius.com/a29680f643989a5a50f0ba8cdc34e072.775x262x1.png",
+            "id": 340112,
+            "image_url": "https://images.genius.com/9006376677ad8b3cfbdba4ad17eb20b9.200x200x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Keren Ann",
+            "slug": "Keren-ann",
+            "url": "https://genius.com/artists/Keren-ann"
+        },
+        "artist": "Keren Ann",
+        "lyrics": "Ailleurs LyricsAilleurs lyrics\n\nJ'ai du faire demi-tour\nLonger la rivi\u0438re sans retour\nJ'ai du faire de mon mieux\nTu ne m'as jamais prise au s\u0439rieux\n\nPourtant jamais au grand jamais\nNul ne t'aimait comme moi jamais\nJe sais j'ai fait la vie, la vraie\nMais la vraie vie \u0430 mon avis est ...\nAilleurs o\u0449 vivent les sir\u0438nes\nAilleurs o\u0449 le courant nous m\u0438ne\nAilleurs aux portes de l'Eden\nAilleurs au paradie ou m\u043ame\nAilleurs ...\nTout reprendre \u0430 z\u0439ro\nLonger les m\u0439duses en radeau\nR\u0439\u0439crire notre histoire\nRefaire le grand jeu des grand soirs\nPourtant jamais au grand jamais\nNul ne t'aimait comme moi jamais\nJe sais j'ai fait la vie, la vraie\nMais la vraie vie \u0430 mon avis est ...\nAilleurs o\u0449 vivent les sir\u0438nes\nAilleurs o\u0449 le courant nous m\u0438ne\nAilleurs aux portes de l'Eden\nAilleurs au paradie ou m\u043ame\nAilleurs ...\nPourtant jamais au grand jamais\nNul ne t'aimait comme moi jamais\nJe sais j'ai fait la vie, la vraie\nMais la vraie vie \u0430 mon avis est ...\nAilleurs o\u0449 vivent les sir\u0438nes\nAilleurs o\u0449 le courant nous m\u0438ne\nAilleurs aux portes de l'Eden\nAilleurs au paradie ou m\u043ame\nAilleurs ...You might also likeEmbed"
+    }
+}

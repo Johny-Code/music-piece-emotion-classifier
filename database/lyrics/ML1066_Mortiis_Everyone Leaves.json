@@ -1,0 +1,53 @@
+{
+    "id": "ML1066",
+    "mood": "sad",
+    "artist": "Mortiis",
+    "title": "Everyone Leaves",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1346355",
+        "artist_names": "Mortiis",
+        "full_title": "Everyone Leaves by\u00a0Mortiis",
+        "header_image_thumbnail_url": "https://images.genius.com/f9a364cf53f562f56b21291ea2d79967.300x290x1.jpg",
+        "header_image_url": "https://images.genius.com/f9a364cf53f562f56b21291ea2d79967.518x500x1.jpg",
+        "id": 1346355,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429774801,
+        "path": "/Mortiis-everyone-leaves-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Mortiis-everyone-leaves-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/f9a364cf53f562f56b21291ea2d79967.300x290x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f9a364cf53f562f56b21291ea2d79967.518x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Everyone Leaves",
+        "title_with_featured": "Everyone Leaves",
+        "updated_by_human_at": 1480527021,
+        "url": "https://genius.com/Mortiis-everyone-leaves-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/360336",
+            "header_image_url": "https://images.genius.com/648b2638d36285637187bc503c636114.371x185x1.jpg",
+            "id": 360336,
+            "image_url": "https://images.genius.com/3dd896be86dde2efe34a0bb0f85248ab.499x499x1.png",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Mortiis",
+            "slug": "Mortiis",
+            "url": "https://genius.com/artists/Mortiis"
+        },
+        "artist": "Mortiis",
+        "lyrics": "Everyone Leaves LyricsI'm going back, thinking about all the changes\nI'm going back to all those wasted years\nI see the rise and fall of the world I lived in\nThis time it doesn't seem real at all\nBut I took the fall and on came all the changes\nAll I had could not be saved - it was far too late\n\nEveryone leaves. In the end\nEverything dies. In the end\nIt doesn't matter how hard you hold on\nI'm going back to the times you went away\nI thought you thought that I was the monster\nI see the rise and fall of the world that I made\nI always wanted to take you with me\nAnd then I saw some people for the people that I thought they were\nIn your painful absence\n\nEveryone leaves. In the end\nEverything dies. In the end\nIt doesn't matter how hard you hold on\n\nHow hard can you?\nDo you want to hold on?\n\nHow hard can you?\nThey all leave in the end\n\nHow hard can you?\nWe all die in the endYou might also like1Embed"
+    }
+}

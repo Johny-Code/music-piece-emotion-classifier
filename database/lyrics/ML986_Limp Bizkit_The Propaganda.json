@@ -1,0 +1,57 @@
+{
+    "id": "ML986",
+    "mood": "angry",
+    "artist": "Limp Bizkit",
+    "title": "The Propaganda",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1189771",
+        "artist_names": "Limp Bizkit",
+        "full_title": "The Propaganda by\u00a0Limp\u00a0Bizkit",
+        "header_image_thumbnail_url": "https://images.genius.com/e8b52105dc9dbe13f90f9caabb5eee68.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e8b52105dc9dbe13f90f9caabb5eee68.640x640x1.jpg",
+        "id": 1189771,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2552657,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1618370115,
+        "path": "/Limp-bizkit-the-propaganda-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Limp-bizkit-the-propaganda-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 5,
+            "day": 2
+        },
+        "release_date_for_display": "May 2, 2005",
+        "release_date_with_abbreviated_month_for_display": "May. 2, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e8b52105dc9dbe13f90f9caabb5eee68.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e8b52105dc9dbe13f90f9caabb5eee68.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "The Propaganda",
+        "title_with_featured": "The Propaganda",
+        "updated_by_human_at": 1629380660,
+        "url": "https://genius.com/Limp-bizkit-the-propaganda-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/8346",
+            "header_image_url": "https://images.genius.com/e98faffbcb0bdc9677260d9b81819ea6.1000x1000x1.jpg",
+            "id": 8346,
+            "image_url": "https://images.genius.com/d940ad8c6d9405aaca9423ccfa5acf73.408x408x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Limp Bizkit",
+            "slug": "Limp-bizkit",
+            "url": "https://genius.com/artists/Limp-bizkit"
+        },
+        "artist": "Limp Bizkit",
+        "lyrics": "The Propaganda Lyrics[Intro]\nUh, yeah\nTell 'em how to sell it\nIt's propaganda\n\n[Verse 1]\nDon't tell me how to keep my composure\nIt ain't over till I get me some closure\nWanted dead or alive is my profile\nHostile is the frame for my state of grace\nSeverely a mental disorder\nWhere reality is highly distorted\nPsychosis, weaken the mind\nIncline to small doses as we approach this\nEver endless quest for a vengeance\nWhile those who expose and pretend this\nLife is just a big bowl of cherries\nA bunch of fairies screaming to be scary\n[Chorus]\nIt's propaganda\nSell it to the innocent\nOh yeah, they're buying it\nJust tell them to rebel again\n\n[Verse 2]\nI'm a maniac, hard one to handle\nYou better come packing more than a scandal\nFucked over for the times I've been grateful\nFucked over led to times I've been hateful\nMain attraction, fuck you in your pussy mouth\nCum again, friend, now we got some action\nOn and on is the name that they gave me\nAnd your misery came here to save me\n\n[Chorus]\nIt's propaganda\nSell it to the innocent\nOh yeah, they're buying it\nJust tell them to rebel again\nIt's propaganda\nSell it to the innocent\nFuck yeah, they're buying it\nJust tell them to rebel again\nYou might also like[Post-Chorus]\n(Mommy!)\nFuck it!\n\n[Bridge]\nWho is phony and fading slowly?\nYou don't owe me, but I made you\nWho is phony and fading slowly?\nYou don't owe me, but I made you\nWho is phony and fading slowly?\nYou don't owe me, but I made you\nWho is phony and fading slowly?\nYou don't owe me, but I made you\nWho is phony and fading slowly?\nYou don't owe me, but I made you\nWho is phony and fading slowly?\nYou don't owe me, but I made you\n\n[Guitar Solo]\nI made you\nI made you\n\n[Outro]\nWho is phony and fading slowly?\nYou don't owe me, but I made you\nWho is phony and fading slowly?\nYou don't owe me, but I made you\nI made you\nI made you\nI made you\nYeah, I made you3Embed"
+    }
+}

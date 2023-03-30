@@ -1,0 +1,57 @@
+{
+    "id": "ML86",
+    "mood": "sad",
+    "artist": "Symphony X",
+    "title": "The Divine Wings Of Tragedy",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/1414798",
+        "artist_names": "Symphony X",
+        "full_title": "The Divine Wings of Tragedy by\u00a0Symphony\u00a0X",
+        "header_image_thumbnail_url": "https://images.genius.com/ddf437dd0ee53602af808d1589c86df3.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/ddf437dd0ee53602af808d1589c86df3.500x500x1.jpg",
+        "id": 1414798,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 10156304,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1657678532,
+        "path": "/Symphony-x-the-divine-wings-of-tragedy-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Symphony-x-the-divine-wings-of-tragedy-sample",
+        "release_date_components": {
+            "year": 1996,
+            "month": 11,
+            "day": 13
+        },
+        "release_date_for_display": "November 13, 1996",
+        "release_date_with_abbreviated_month_for_display": "Nov. 13, 1996",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ddf437dd0ee53602af808d1589c86df3.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ddf437dd0ee53602af808d1589c86df3.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 8,
+            "hot": false
+        },
+        "title": "The Divine Wings of Tragedy",
+        "title_with_featured": "The Divine Wings of Tragedy",
+        "updated_by_human_at": 1661596563,
+        "url": "https://genius.com/Symphony-x-the-divine-wings-of-tragedy-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/326088",
+            "header_image_url": "https://images.genius.com/6bcf7442a66460e850a450701032867d.1000x625x1.jpg",
+            "id": 326088,
+            "image_url": "https://images.genius.com/5067528fd7a65993f8b48128cd0f0ffb.706x706x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Symphony X",
+            "slug": "Symphony-x",
+            "url": "https://genius.com/artists/Symphony-x"
+        },
+        "artist": "Symphony X",
+        "lyrics": "The Divine Wings of Tragedy Lyrics[Part I - At the Four Corners of the Earth]\n\nOn the edge of paradise\nTears of woe fall, cold as ice\nHear my cry\nRenounce, have you, thy name\nEternal is my pain\n\nEternal is the pain that leads me to the thrones of temptation\nEternal is the pain that leads me to the thrones of temptation\nEternal is my pain that leads me to the thrones of temptation\nII. IN THE ROOM OF THRONES\n\n(instrumental)\n\n[Part III - A Gathering of Angels]\n\nThere was a time\nWhen nine choirs sang the endless melody of light\nMusic of the spheres\n\nThere was a place\nWhere mortals embraced thunder and majesty\nTheir fate lay in our hands\n\nFeel my wings slowly fading (ooh)\nForever lost in time (ooh)\nI cry (ooh)\n\n[Part IV - The Wrath Divine]\n\nThe burning conflict I'm feeling\nIt summons me to descend into the other side\nAnd just beyond the stars blazing\nA beam light from a red, velvet moon illuminates me\n\nI will devise\nFrom perfect skies, a dark and vengeful day\nFaith and mercy gone astray\nYou might also likeWith strength of infinite measure\nThe mighty sword divides order from chaos in the kingdom below\nAnd from the mansions of glory\nThis empty soul cries out one final plea \u2013 the end has begun\n\nOur worlds collide\nNow in disguise you'll feel the Wrath Divine\nTears of woe fall from the sky\n\n[Part V - The Prophet's Cry]\n\nThe prophet cries\nVast battalions rage on in the sky\nRising from the north \u2013 the bringer of war\nEve of destruction\nSummon all who have power over fire\nImpending doom from shore to shore\n\nStanding on the edge of paradise\nI sacrifice my truth and loyalty\nSeven deadly sins consume you all, a dance with death\nI taste the victory\n\nRising from the north \u2013 the warrior prince (Eternal is the pain that leads me to temptation)\nJudgment without compassion eyes of fear\nLike the River Styx, the gates of hell (Eternal is the pain that leads me to temptation)\n\"Abandon hope all ye who enter here\"\nThe prophets cry\nAs armies fall from the edge of the sky\nThe Prince of truth, now the bringer of war\n\nThe day of wrath\nBanish all kings from the face of the land\nDominion for strength is my name\n\nVI. BRINGER OF THE APOCALYPSE\n\n(instrumental)\n\nI. Eve of Sacrifice\nII. Armies in the Sky\nIII. Dies Irae\n\n[Part VII - Paradise Regained]\n\nLooking out on a blue sky\nI can see a new world arising\nLike a prisoner unbound\nI feel the power and the majesty again\n\nLooking up to the heavens\nI can see what I've left behind\nBeneath the stars, moon and warm sun\nAnd all I know is my paradise has begunEmbed"
+    }
+}

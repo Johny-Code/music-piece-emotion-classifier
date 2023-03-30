@@ -1,0 +1,57 @@
+{
+    "id": "ML171",
+    "mood": "relaxed",
+    "artist": "Natalie Merchant",
+    "title": "Just Can't Last",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/747531",
+        "artist_names": "Natalie Merchant",
+        "full_title": "Just Can't Last by\u00a0Natalie\u00a0Merchant",
+        "header_image_thumbnail_url": "https://images.genius.com/46cd05f85284ea7f1ca04f21b2535e98.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/46cd05f85284ea7f1ca04f21b2535e98.600x600x1.jpg",
+        "id": 747531,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 354381,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1488738005,
+        "path": "/Natalie-merchant-just-cant-last-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Natalie-merchant-just-cant-last-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 11,
+            "day": 13
+        },
+        "release_date_for_display": "November 13, 2001",
+        "release_date_with_abbreviated_month_for_display": "Nov. 13, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/46cd05f85284ea7f1ca04f21b2535e98.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/46cd05f85284ea7f1ca04f21b2535e98.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Just Can\u2019t Last",
+        "title_with_featured": "Just Can't Last",
+        "updated_by_human_at": 1488738022,
+        "url": "https://genius.com/Natalie-merchant-just-cant-last-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/36234",
+            "header_image_url": "https://images.genius.com/e578c235f0fe8fe09c6769c89100d17f.1000x407x1.jpg",
+            "id": 36234,
+            "image_url": "https://images.genius.com/9702d153975a479a80624c66e1194145.1000x1000x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Natalie Merchant",
+            "slug": "Natalie-merchant",
+            "url": "https://genius.com/artists/Natalie-merchant"
+        },
+        "artist": "Natalie Merchant",
+        "lyrics": "Just Can\u2019t Last Lyrics[Verse 1]\nI swear I know your face\nI wish I knew your name\nI wish I could take you by the hand\nIf I could name it\nIf I could just explain it\nIf I could only help you\nHelp you understand\nI can see that you're hurting\nWeighed down like a beast of burden\nAbout to break your back\nGod only knows that you're human\nSo what are they trying to do then\nBelieve me, they don't understand\n[Chorus]\nThat you have the weight of the world today\nIt's on your back\nA heavy load like that is gonna hold you back\nIt's gonna drag you down\nYou know it just can't last, just can't\nYou know it just can't last\n\n[Verse 2]\nThey thought they could use you\nPush you down and abuse you\nAnd what's so sad is you've decided to hide\nAll your feelings\nGot more pain than you can deal with\nBut ask yourself how can this last\n\n[Chorus]You might also likeEmbed"
+    }
+}

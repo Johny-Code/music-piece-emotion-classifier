@@ -1,0 +1,57 @@
+{
+    "id": "ML1709",
+    "mood": "sad",
+    "artist": "The Byrds",
+    "title": "He Was A Friend Of Mine",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1124948",
+        "artist_names": "The Byrds",
+        "full_title": "He Was a Friend of Mine by\u00a0The\u00a0Byrds",
+        "header_image_thumbnail_url": "https://images.genius.com/01846077f2da351b0ea04e037e93c860.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/01846077f2da351b0ea04e037e93c860.1000x1000x1.jpg",
+        "id": 1124948,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5789479,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1517256298,
+        "path": "/The-byrds-he-was-a-friend-of-mine-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-byrds-he-was-a-friend-of-mine-sample",
+        "release_date_components": {
+            "year": 1965,
+            "month": 12,
+            "day": 6
+        },
+        "release_date_for_display": "December 6, 1965",
+        "release_date_with_abbreviated_month_for_display": "Dec. 6, 1965",
+        "song_art_image_thumbnail_url": "https://images.genius.com/01846077f2da351b0ea04e037e93c860.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/01846077f2da351b0ea04e037e93c860.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "He Was a Friend of Mine",
+        "title_with_featured": "He Was a Friend of Mine",
+        "updated_by_human_at": 1521397219,
+        "url": "https://genius.com/The-byrds-he-was-a-friend-of-mine-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/45703",
+            "header_image_url": "https://images.genius.com/10d5aee3881a1490430b830ca9671fed.707x379x1.jpg",
+            "id": 45703,
+            "image_url": "https://images.genius.com/d4dff35e336f21bd202bb5e7ce7c9dff.597x597x1.png",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Byrds",
+            "slug": "The-byrds",
+            "url": "https://genius.com/artists/The-byrds"
+        },
+        "artist": "The Byrds",
+        "lyrics": "He Was a Friend of Mine LyricsHe was a friend of mine\nHe was a friend of mine\nHis killing had no purpose\nNo reason, or rhyme\nHe was a friend of mine\n\nHe was in Dallas town\nHe was in Dallas town\nForm a sixth floor window\nA gunner shot him down\nHe died in Dallas town\nHe never knew my name\nHe never knew my name\nThough I never met him\nI knew him just the same\nOh, he was a friend of mine\n\nLeader of a nation\nFor such a precious time\nOh, he was a friend of mineYou might also likeEmbed"
+    }
+}

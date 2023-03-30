@@ -1,0 +1,88 @@
+{
+    "id": "ML291",
+    "mood": "relaxed",
+    "artist": "Common",
+    "title": "Faithful ",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/14347",
+        "artist_names": "Common (Ft. Bilal & John Legend)",
+        "full_title": "Faithful by\u00a0Common (Ft.\u00a0Bilal & John\u00a0Legend)",
+        "header_image_thumbnail_url": "https://images.genius.com/04b3f68394b65fc8d6216a7179230a49.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/04b3f68394b65fc8d6216a7179230a49.1000x1000x1.jpg",
+        "id": 14347,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 50,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675286291,
+        "path": "/Common-faithful-lyrics",
+        "pyongs_count": 23,
+        "relationships_index_url": "https://genius.com/Common-faithful-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 10,
+            "day": 8
+        },
+        "release_date_for_display": "October 8, 2005",
+        "release_date_with_abbreviated_month_for_display": "Oct. 8, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/04b3f68394b65fc8d6216a7179230a49.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/04b3f68394b65fc8d6216a7179230a49.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 90350
+        },
+        "title": "Faithful",
+        "title_with_featured": "Faithful (Ft.\u00a0Bilal & John\u00a0Legend)",
+        "updated_by_human_at": 1677736392,
+        "url": "https://genius.com/Common-faithful-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/365",
+                "header_image_url": "https://images.genius.com/e4fb9e971aed4ab80ff93648824ff18a.1000x333x1.jpg",
+                "id": 365,
+                "image_url": "https://images.genius.com/3c017d712deb4753ac74c263407d58a6.398x398x1.jpg",
+                "index_character": "j",
+                "is_meme_verified": true,
+                "is_verified": true,
+                "name": "John Legend",
+                "slug": "John-legend",
+                "url": "https://genius.com/artists/John-legend",
+                "iq": 3705
+            },
+            {
+                "_type": "artist",
+                "api_path": "/artists/177",
+                "header_image_url": "https://s3.amazonaws.com/rapgenius/bilal-artist.jpg",
+                "id": 177,
+                "image_url": "https://s3.amazonaws.com/rapgenius/bilal-artist.jpg",
+                "index_character": "b",
+                "is_meme_verified": true,
+                "is_verified": true,
+                "name": "Bilal",
+                "slug": "Bilal",
+                "url": "https://genius.com/artists/Bilal",
+                "iq": 1561
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/223",
+            "header_image_url": "https://images.genius.com/5eb3b5fd0cc65fbab5466d22c19278f1.1000x661x1.jpg",
+            "id": 223,
+            "image_url": "https://images.genius.com/334bd07941665eb5b381fb51bced319d.1000x1000x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Common",
+            "slug": "Common",
+            "url": "https://genius.com/artists/Common",
+            "iq": 11001
+        },
+        "artist": "Common",
+        "lyrics": "Faithful Lyrics[Chorus: Sample & (Common)]\nFaithful to the end (we got to be)\nFaithful to the end (I want to be)\nFaithful to the end (yes, it's for the people)\nI'd like to be her very best friend\n(God moves, yeah)\n\n[Verse 1: Common]\nI was rollin' around, in my mind it occurred\nWhat if God was a her?\nWould I treat her the same? Would I still be runnin' game on her?\nIn what type of ways would I want her?\nWould I want her for her mind or her heavenly body?\nCouldn't be out gettin' bogus with someone so godly\nIf I was wit' her would I still be wantin' my ex?\nThe lies, the greed, the weed, the sex\nWouldn't be ashamed to give her part of my check\nWearin' her cross, I mean the heart on my neck\nHer, I would reflect on the streets of the Chi'\nRide wit' her, 'cause I know for me she'd die\nThrough good and bad call on her like I'm chirpin' her\nCouldn't be jealous 'cause other brothers worship her\nWalk this earth for her, glory, I'm grateful\nTo be in her presence I try to stay faithful\n[Chorus: Sample]\nFaithful to the end\nFaithful to the end\nFaithful to the end\nI'd like to be her very best friend\n\n[Verse 2: Common]\nHe worked with her, she was his lady's best friend\nEven if they don't try some ladies test men\nAnd this was a test that was bigger than him\nSome believe its the nature that is given to men\nHe had a good gig, a wife, a kid, a decent home\nOne reason or another couldn't find peace at home\nShe asked, \"Why do men always have to stray?\"\nHe said, \"I'm bad, not as bad as Eric Benet\"\n\"I used to take 'em out to eat but they wasn't really eatin'\nMighta got a little head but I wasn't really cheatin'\"\nIt's hard when your lady don't believe what you say\nAnd what you did in the past you gotta live with today\nShe asked if they could spend the night together\nHe thought, and said, \"I'm tryin' to get my life together\"\nWent home to his lady, these were his confessions\n\"Baby you a blessin' and my best friend\"\n\n[Chorus: Sample]\nFaithful to the end\nFaithful to the end\nFaithful to the end\nI'd like to be her very best friend\nYou might also like[Outro: Bilal & John Legend]\nFaithful to the end\nFaithful to the end\nI'm gonna be, I'm gonna be, I'm gonna be so faithful\nI'm gonna be, I'm gonna be so faithful\nSo, so, so\nSo, so, so\nSo faithful\nSo, so, so\nSo, so, so\nThat's what I'm gonna do\nFaithful to the end\nThat's what I'm gonna do\nFaithful to the end\nThat's what I'm gonna do\nFaithful to the end\nYeah, yeah, yeah, yeah23Embed"
+    }
+}

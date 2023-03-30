@@ -1,0 +1,57 @@
+{
+    "id": "ML229",
+    "mood": "happy",
+    "artist": "Camper Van Beethoven",
+    "title": "Good Guys & Bad Guys",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1289258",
+        "artist_names": "Camper Van Beethoven",
+        "full_title": "Good Guys and Bad Guys by\u00a0Camper\u00a0Van Beethoven",
+        "header_image_thumbnail_url": "https://images.genius.com/a76a258ddf9fbf1dee3a842a82f8edc1.300x300x1.png",
+        "header_image_url": "https://images.genius.com/a76a258ddf9fbf1dee3a842a82f8edc1.964x965x1.png",
+        "id": 1289258,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1637208020,
+        "path": "/Camper-van-beethoven-good-guys-and-bad-guys-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Camper-van-beethoven-good-guys-and-bad-guys-sample",
+        "release_date_components": {
+            "year": 1986,
+            "month": 8,
+            "day": 1
+        },
+        "release_date_for_display": "August 1, 1986",
+        "release_date_with_abbreviated_month_for_display": "Aug. 1, 1986",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a76a258ddf9fbf1dee3a842a82f8edc1.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/a76a258ddf9fbf1dee3a842a82f8edc1.964x965x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Good Guys and Bad Guys",
+        "title_with_featured": "Good Guys and Bad Guys",
+        "updated_by_human_at": 1637208020,
+        "url": "https://genius.com/Camper-van-beethoven-good-guys-and-bad-guys-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/334492",
+            "header_image_url": "https://images.genius.com/78eb910bfa7b55d97d477b731583e67e.600x623x1.jpg",
+            "id": 334492,
+            "image_url": "https://images.genius.com/78eb910bfa7b55d97d477b731583e67e.600x623x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Camper Van Beethoven",
+            "slug": "Camper-van-beethoven",
+            "url": "https://genius.com/artists/Camper-van-beethoven"
+        },
+        "artist": "Camper Van Beethoven",
+        "lyrics": "Good Guys and Bad Guys LyricsWell there are good guys and there are bad guys\nAnd there are crooks and criminals\nThere are doctors and there are lawyers\nAnd there are folks like you and me\n\nSo let's get high while the radio's on\nJust relax and sing a song\nDrive your car up on the lawn\nLet me play your guitar\n\nWell, this here verse is for the people in russia\nThough it is a long long ways away\nThey couldn't hear this song in russia\nBut couldn't understand the words anyway\nSo let's get high while the radio's on\nJust relax and sing a song\nDrive your car up on the lawn\nLet me play your guitar\n\nSo just be glad you live in america\nJust relax and be yourself\nCuz if you didn't live here in america\nYou'd probably live somewhere else\n\nSo let's get high while the radio's on\nJust relax and sing a song\nDrive your car up on the lawn\nLet me play your guitarYou might also likeEmbed"
+    }
+}

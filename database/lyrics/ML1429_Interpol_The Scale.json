@@ -1,0 +1,59 @@
+{
+    "id": "ML1429",
+    "mood": "sad",
+    "artist": "Interpol",
+    "title": "The Scale",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/646776",
+        "artist_names": "Interpol",
+        "full_title": "The Scale by\u00a0Interpol",
+        "header_image_thumbnail_url": "https://images.genius.com/a1a8d32abf57cb1affd6d4b620cb8a39.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/a1a8d32abf57cb1affd6d4b620cb8a39.1000x1000x1.jpg",
+        "id": 646776,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1165217,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1533407366,
+        "path": "/Interpol-the-scale-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Interpol-the-scale-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 7,
+            "day": 10
+        },
+        "release_date_for_display": "July 10, 2007",
+        "release_date_with_abbreviated_month_for_display": "Jul. 10, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a1a8d32abf57cb1affd6d4b620cb8a39.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a1a8d32abf57cb1affd6d4b620cb8a39.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 16453
+        },
+        "title": "The Scale",
+        "title_with_featured": "The Scale",
+        "updated_by_human_at": 1620406474,
+        "url": "https://genius.com/Interpol-the-scale-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/21128",
+            "header_image_url": "https://images.genius.com/ce728cd488d8a95aac6599c43fba99bc.1000x635x1.jpg",
+            "id": 21128,
+            "image_url": "https://images.genius.com/a8b7c56064fe148663aa5c5cf2a0fbc9.960x960x1.jpg",
+            "index_character": "i",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Interpol",
+            "slug": "Interpol",
+            "url": "https://genius.com/artists/Interpol",
+            "iq": 633
+        },
+        "artist": "Interpol",
+        "lyrics": "The Scale LyricsI have a sequin for an eye\nPick a rose and hide my face\nThis is a bandit's life, it comes and goes\nAnd them's the breaks\n\nUnder a molten sky, beyond the road\nWe lie in wait\nYou think they know us now?\nWait 'til the stars come out\n\nYou see that?\nI made you\nAnd now, I take you back\nIt's too late\nBut today, I can define the lack\nI made you\nAnd now, I take you back\nSon, you sleep in clouds of fire\nThat's all and that's right\nMy son, you sleep in clouds of fire\nThat's all and that's right\n\nI can still feel it when you lie\nPick a rose just to hide my face\nWell, if there's something I should know\nI seek no science where there is no shade\n\nUnder a molten sky, let the days collide\nWell, I made you and now I take you back\n\nSon, you sleep in clouds of fire\nThat's all and that's right\nMy son, you sleep in clouds of fire\nThat's all and that's rightYou might also like1Embed"
+    }
+}

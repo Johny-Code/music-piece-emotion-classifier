@@ -1,0 +1,58 @@
+{
+    "id": "ML1961",
+    "mood": "happy",
+    "artist": "Cake",
+    "title": "Short Skirt/Long Jacket",
+    "song": {
+        "_type": "song",
+        "annotation_count": 17,
+        "api_path": "/songs/390787",
+        "artist_names": "CAKE",
+        "full_title": "Short Skirt/Long Jacket by\u00a0CAKE",
+        "header_image_thumbnail_url": "https://images.genius.com/7af3c85f29e781a3aa4c117574b52a71.300x263x1.jpg",
+        "header_image_url": "https://images.genius.com/7af3c85f29e781a3aa4c117574b52a71.400x350x1.jpg",
+        "id": 390787,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 556361,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1665033251,
+        "path": "/Cake-short-skirt-long-jacket-lyrics",
+        "pyongs_count": 15,
+        "relationships_index_url": "https://genius.com/Cake-short-skirt-long-jacket-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 8,
+            "day": 14
+        },
+        "release_date_for_display": "August 14, 2001",
+        "release_date_with_abbreviated_month_for_display": "Aug. 14, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/7af3c85f29e781a3aa4c117574b52a71.300x263x1.jpg",
+        "song_art_image_url": "https://images.genius.com/7af3c85f29e781a3aa4c117574b52a71.400x350x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 8,
+            "hot": false,
+            "pageviews": 162183
+        },
+        "title": "Short Skirt/Long Jacket",
+        "title_with_featured": "Short Skirt/Long Jacket",
+        "updated_by_human_at": 1665033251,
+        "url": "https://genius.com/Cake-short-skirt-long-jacket-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/38835",
+            "header_image_url": "https://images.genius.com/45d38eb64a9dc1cb9a76b89c9e42717f.529x231x1.jpg",
+            "id": 38835,
+            "image_url": "https://images.genius.com/189592d784a24ab713518d8221ff16f7.286x286x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "CAKE",
+            "slug": "Cake",
+            "url": "https://genius.com/artists/Cake"
+        },
+        "artist": "CAKE",
+        "lyrics": "Short Skirt/Long Jacket Lyrics[Verse 1]\nI want a girl with a mind like a diamond\nI want a girl who knows what's best\nI want a girl with shoes that cut\nAnd eyes that burn like cigarettes\nI want a girl with the right allocations\nWho's fast and thorough and sharp as a tack\nShe's playing with her jewelry, she's putting up her hair\nShe's touring the facility and picking up slack\n\n[Chorus]\nI want a girl with a short skirt and a long jacket\n[Verse 2]\nI want a girl who gets up early (Gets up early)\nI want a girl who stays up late (Stays up late)\nI want a girl with uninterrupted prosperity (Uninterrupted)\nWho uses a machete to cut through red tape\nWith fingernails that shine like justice\nAnd a voice that is dark like tinted glass\nShe is fast, thorough, and sharp as a tack\nShe is touring the facility and picking up slack\n\n[Chorus]\nI want a girl with a short skirt and a long, long jacket\n\n[Verse 3]\nI want a girl with a smooth liquidation (Smooth liquidation)\nI want a girl with good dividends (Good dividends)\nAt Citibank we will meet accidentally (Meet accidentally)\nWe'll start to talk when she borrows my pen\nShe wants a car with a cupholder armrest\nShe wants a car that will get her there\nShe's changing her name from Kitty to Karen\nShe's trading her MG for a white Chrysler Le Baron\n\n[Chorus]\nI want a girl with a short skirt and a long jacketYou might also like15Embed"
+    }
+}

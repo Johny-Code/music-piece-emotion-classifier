@@ -1,0 +1,59 @@
+{
+    "id": "ML39",
+    "mood": "angry",
+    "artist": "Hollywood Undead",
+    "title": "Young",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/57807",
+        "artist_names": "Hollywood Undead",
+        "full_title": "Young by\u00a0Hollywood\u00a0Undead",
+        "header_image_thumbnail_url": "https://images.genius.com/f6be3e4ef1116c67dbaa6eea9a4aa99a.300x300x1.png",
+        "header_image_url": "https://images.genius.com/f6be3e4ef1116c67dbaa6eea9a4aa99a.1000x1000x1.png",
+        "id": 57807,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 36556,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1656547220,
+        "path": "/Hollywood-undead-young-lyrics",
+        "pyongs_count": 21,
+        "relationships_index_url": "https://genius.com/Hollywood-undead-young-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 9,
+            "day": 2
+        },
+        "release_date_for_display": "September 2, 2008",
+        "release_date_with_abbreviated_month_for_display": "Sep. 2, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/73b9a5f6dfb8c3521a9d0482064cdb74.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/73b9a5f6dfb8c3521a9d0482064cdb74.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 7,
+            "hot": false,
+            "pageviews": 38045
+        },
+        "title": "Young",
+        "title_with_featured": "Young",
+        "updated_by_human_at": 1656547220,
+        "url": "https://genius.com/Hollywood-undead-young-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2071",
+            "header_image_url": "https://images.genius.com/b54c97f3ec71efb0acc8ad18668794fd.1000x1000x1.png",
+            "id": 2071,
+            "image_url": "https://images.genius.com/b54c97f3ec71efb0acc8ad18668794fd.1000x1000x1.png",
+            "index_character": "h",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Hollywood Undead",
+            "slug": "Hollywood-undead",
+            "url": "https://genius.com/artists/Hollywood-undead",
+            "iq": 360
+        },
+        "artist": "Hollywood Undead",
+        "lyrics": "Young Lyrics[Chorus: Deuce]\nWe are young, but we have heart\nBorn in this world as it all falls apart\nWe are strong, but we don't belong\nBorn in this world as it all falls apart\n\n[Verse 1: Johnny 3 Tears]\nI see the children in the rain like the parade before the pain\nI see the love, I see the hate, I see this world that we can make\nI see the life, I see the sky, I'd give it all to see you fly\nYes, we wave this flag of hatred, but you're the ones who made it\nI watch the beauty of all our lives, passing right before my eyes\nI hear the hate in all your words, all the words to make us hurt\nWe get so sick, we're so sick, we never wanted all this\nMedication for the kids with no reason to live\n[Pre-Chorus: Johnny 3 Tears]\nSo we march to the drums of the damned as we come\nWatch it burn in the sun, we are numb\n\n[Chorus: Deuce]\nWe are young, but we have heart\nBorn in this world as it all falls apart\nWe are strong, but we don't belong\nBorn in this world as it all falls apart\n\n[Verse 2: Johnny 3 Tears & J-Dog]\nAs we walk among these shadows in these streets, these fields of battle\nTake it up, we wear the mantle, raise your hands with burning candles\nHear us whisper in the dark; in the rain, you see the spark\nFeel the beating of our hearts, fleeting hope as we depart\nAll together, walk alone against all we've ever known\nAll we've ever really wanted was a place to call our home\nBut you take all we are, the innocence of our hearts\nMade to kneel before the altar as you tear us apart\n\n[Pre-Chorus: Johnny 3 Tears & Deuce ]\nSo we march to the drums of the damned as we come\nWatch it burn in the sun, we are numb\n\n[Chorus: Deuce]\nWe are young, but we have heart\nBorn in this world as it all falls apart\nWe are strong, but we don't belong\nBorn in this world as it all falls apart\nYou might also like[Bridge: Johnny 3 Tears & Deuce with Charlie Scene & Da Kurlzz]\nWe will fight (We will fight)\nOr we will fall (we will fall)\nTill the angels save us all\nWe will fight (We will fight)\nOr we will fall (we will fall)\nTill the angels save us all\nWe will fight (We will fight)\nOr we will fall (We will fall)\nTill the angels save us all\nWe will fight (We will fight)\nOr we will fall (We will fall)\nTill the angels save us all\n\n[Chorus: Deuce]\nWe are young, but we have heart\nBorn in this world as it all falls apart\nWe are strong, but we don't belong\nBorn in this world as it all falls apart\nWe are young, but we have heart\nBorn in this world as it all falls apart\nWe are strong, but we don't belong\nBorn in this world as it all falls apart21Embed"
+    }
+}

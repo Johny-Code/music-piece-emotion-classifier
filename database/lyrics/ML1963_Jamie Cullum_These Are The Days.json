@@ -1,0 +1,57 @@
+{
+    "id": "ML1963",
+    "mood": "relaxed",
+    "artist": "Jamie Cullum",
+    "title": "These Are The Days",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1427579",
+        "artist_names": "Jamie Cullum",
+        "full_title": "These Are The Days by\u00a0Jamie\u00a0Cullum",
+        "header_image_thumbnail_url": "https://images.genius.com/3f0386abbe17d1d87eedc179feeadd60.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3f0386abbe17d1d87eedc179feeadd60.455x455x1.jpg",
+        "id": 1427579,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3448394,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1520751143,
+        "path": "/Jamie-cullum-these-are-the-days-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Jamie-cullum-these-are-the-days-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 10,
+            "day": 20
+        },
+        "release_date_for_display": "October 20, 2003",
+        "release_date_with_abbreviated_month_for_display": "Oct. 20, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e224d8b0051e06e5187a6ec2ea2172d0.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e224d8b0051e06e5187a6ec2ea2172d0.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "These Are The Days",
+        "title_with_featured": "These Are The Days",
+        "updated_by_human_at": 1520751143,
+        "url": "https://genius.com/Jamie-cullum-these-are-the-days-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/87885",
+            "header_image_url": "https://images.genius.com/bf03bc3485c78d3aa057df06aed5bb0c.1000x667x1.jpg",
+            "id": 87885,
+            "image_url": "https://images.genius.com/e12faa7fe70ef3ee698f8d7e36d32890.400x400x1.png",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Jamie Cullum",
+            "slug": "Jamie-cullum",
+            "url": "https://genius.com/artists/Jamie-cullum"
+        },
+        "artist": "Jamie Cullum",
+        "lyrics": "These Are The Days Lyrics[Verse 1/Hook]\nThese are the days that I've been missing;\nGive me the taste\nGive me the joy of summer wine\nThese are the days that bring new meaning;\nI feel the stillness of the sun\nAnd I feel fine\n\n[Verse 2]\nSometimes when the nights are closing early\nI remember you and I start to smile\nEven though now you don't want to know me\nI get on by\nAnd I go the extra mile\n[Verse 3/Hook]\nThese are the times of love and meaning;\nIce of the heart melted away and found the light\nThese are the days of endless dreaming;\nTroubles of life are floating away like a bird in flight\nThese are the days\nThese are the days\nThese are the days\n\n[Verse 4]\nI thought you said our love would last forever\nBelievin' that the tears would end for good\nI told them that we'd get though any weather\nMaybe that didn't work out, but we did the best we could\n\n[Hook/Outro]\nThese are the days that I've been missing;\nGive me the taste\nGive me the joy of summer wine\nThese are the days that bring new meaning;\nI feel the stillness of the sun\nAnd I feel fineYou might also likeEmbed"
+    }
+}

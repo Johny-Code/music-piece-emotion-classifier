@@ -1,0 +1,57 @@
+{
+    "id": "ML1536",
+    "mood": "relaxed",
+    "artist": "Boyzone",
+    "title": "Baby Can I Hold You",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1059174",
+        "artist_names": "Boyzone",
+        "full_title": "Baby Can I Hold You by\u00a0Boyzone",
+        "header_image_thumbnail_url": "https://images.genius.com/02812a42b1bd654b03e85bc56c3ebbe0.300x262x1.jpg",
+        "header_image_url": "https://images.genius.com/02812a42b1bd654b03e85bc56c3ebbe0.338x295x1.jpg",
+        "id": 1059174,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6685173,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1632630445,
+        "path": "/Boyzone-baby-can-i-hold-you-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Boyzone-baby-can-i-hold-you-sample",
+        "release_date_components": {
+            "year": 1997,
+            "month": 11,
+            "day": 24
+        },
+        "release_date_for_display": "November 24, 1997",
+        "release_date_with_abbreviated_month_for_display": "Nov. 24, 1997",
+        "song_art_image_thumbnail_url": "https://images.genius.com/02812a42b1bd654b03e85bc56c3ebbe0.300x262x1.jpg",
+        "song_art_image_url": "https://images.genius.com/02812a42b1bd654b03e85bc56c3ebbe0.338x295x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Baby Can I Hold You",
+        "title_with_featured": "Baby Can I Hold You",
+        "updated_by_human_at": 1632630445,
+        "url": "https://genius.com/Boyzone-baby-can-i-hold-you-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/344536",
+            "header_image_url": "https://images.genius.com/2c86a76006add7fca6ff4ac09f08d6c3.1000x1000x1.jpg",
+            "id": 344536,
+            "image_url": "https://images.genius.com/2c86a76006add7fca6ff4ac09f08d6c3.1000x1000x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Boyzone",
+            "slug": "Boyzone",
+            "url": "https://genius.com/artists/Boyzone"
+        },
+        "artist": "Boyzone",
+        "lyrics": "Baby Can I Hold You Lyrics[Verse 1]\n\"Sorry\", is all that you can't say\nYears gone by and still\nWords don't come easily\nLike \"sorry\" (like \"sorry\", like \"sorry\")\n\n[Verse 2]\n\"Forgive me\", is all that you can't say\nYears gone by and still\nWords don't come easily\nLike \"forgive me\" (\"forgive me\") Forgive me\n[Chorus]\nBut you can say, baby\nBaby, can I hold you tonight?\nBaby, if I told you the right words\nOooh, at the right time\nYou'll be mine\n\n[Verse 3]\n\"I love you\", is all that you can't say\nYears gone by and still\nWords don't come easily\n(Words don't come easily)\nLike \"I love you\", \"I love you\"\n\n[Chorus]\nBut you can say, baby\nBaby, can I hold you tonight?\nBaby, if I told you the right words\nOooh, at the right time\nYou'll be mine\n\n[Outro]\n(Baby, can I hold you)\nBaby, can I hold you tonight?\nBaby, if I told you the right words\nOooh, at the right time\nYou'll be mine\n(Baby, if I told you)\n(Baby, can I hold you) You'll be mine\n(Baby, if I told you)\n(Baby, can I hold you) You'll be mine\n(Baby, if I told you)\nBaby, can I hold youYou might also likeEmbed"
+    }
+}

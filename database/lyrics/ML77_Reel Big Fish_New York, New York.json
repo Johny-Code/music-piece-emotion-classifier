@@ -1,0 +1,53 @@
+{
+    "id": "ML77",
+    "mood": "happy",
+    "artist": "Reel Big Fish",
+    "title": "New York, New York",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/849426",
+        "artist_names": "Reel Big Fish",
+        "full_title": "New York, New York by\u00a0Reel\u00a0Big Fish",
+        "header_image_thumbnail_url": "https://images.genius.com/41f62727fdfa4a186c365daf16ae4a88.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/41f62727fdfa4a186c365daf16ae4a88.1000x1000x1.jpg",
+        "id": 849426,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429282871,
+        "path": "/Reel-big-fish-new-york-new-york-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Reel-big-fish-new-york-new-york-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/41f62727fdfa4a186c365daf16ae4a88.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/41f62727fdfa4a186c365daf16ae4a88.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "New York, New York",
+        "title_with_featured": "New York, New York",
+        "updated_by_human_at": 1637370842,
+        "url": "https://genius.com/Reel-big-fish-new-york-new-york-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/51920",
+            "header_image_url": "https://images.genius.com/a38c067ed61a403807ed9838475b79d7.1000x667x1.jpg",
+            "id": 51920,
+            "image_url": "https://images.genius.com/9703be8e25405182223a746c39660532.224x224x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Reel Big Fish",
+            "slug": "Reel-big-fish",
+            "url": "https://genius.com/artists/Reel-big-fish"
+        },
+        "artist": "Reel Big Fish",
+        "lyrics": "New York, New York LyricsStart spreadin' the news\nI'm leaving today\nI want to be a part of it\nNew York, New York\nThese vagabond shoes\nAre longing to stray\nRight through the very heart of it\nNew York, New York\n\nI want to wake up in a city\nThat doesn't sleep\nAnd find I'm king of the hill\nTop of the heap\nThese little town blues\nAre melting away\nI'll make a brand new start of it\nIn old New York\nIf I can make it there\nI'll make it anywhere\nIt's up to you\nNew York, New York\n\nNew York, New York\nI want to wake up\nIn a city that never sleeps\nAnd find I'm A number 1\nTop of the list\nKing of the hill\nA number 1\n\nThese little town blues\nAre melting away\nI'm gonna make a brand new start of it\nIn old New York\n\nAnd if I can make it there\nI'm gonna make it anywhere\nIt's up to you, New York, New York!\nYou might also likeNew York!Embed"
+    }
+}

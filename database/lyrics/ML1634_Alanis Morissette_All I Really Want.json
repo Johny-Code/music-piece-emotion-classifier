@@ -1,0 +1,58 @@
+{
+    "id": "ML1634",
+    "mood": "angry",
+    "artist": "Alanis Morissette",
+    "title": "All I Really Want",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/398401",
+        "artist_names": "Alanis Morissette",
+        "full_title": "All I Really Want by\u00a0Alanis\u00a0Morissette",
+        "header_image_thumbnail_url": "https://images.genius.com/5a9a584420830a7bcb3e374d694eacd2.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5a9a584420830a7bcb3e374d694eacd2.770x770x1.jpg",
+        "id": 398401,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 714915,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1629000969,
+        "path": "/Alanis-morissette-all-i-really-want-lyrics",
+        "pyongs_count": 8,
+        "relationships_index_url": "https://genius.com/Alanis-morissette-all-i-really-want-sample",
+        "release_date_components": {
+            "year": 1995,
+            "month": 12,
+            "day": 1
+        },
+        "release_date_for_display": "December 1, 1995",
+        "release_date_with_abbreviated_month_for_display": "Dec. 1, 1995",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5a9a584420830a7bcb3e374d694eacd2.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5a9a584420830a7bcb3e374d694eacd2.770x770x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false,
+            "pageviews": 58089
+        },
+        "title": "All I Really Want",
+        "title_with_featured": "All I Really Want",
+        "updated_by_human_at": 1666011175,
+        "url": "https://genius.com/Alanis-morissette-all-i-really-want-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/34995",
+            "header_image_url": "https://images.genius.com/92d4825617660330f5c039ecfae4aef4.1000x411x1.jpg",
+            "id": 34995,
+            "image_url": "https://images.genius.com/a84560e30da8b389c0bd4ffb9c13f1b8.480x480x1.png",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Alanis Morissette",
+            "slug": "Alanis-morissette",
+            "url": "https://genius.com/artists/Alanis-morissette"
+        },
+        "artist": "Alanis Morissette",
+        "lyrics": "All I Really Want Lyrics[Verse 1]\nDo I stress you out?\nMy sweater is on backwards and inside out\nAnd you say, \"How appropriate!\"\nI don't wanna dissect everything today\nI don't mean to pick you apart, you see\nBut I can't help it\n\n[Pre-Chorus]\nAnd there I go jumping before the gunshot has gone off\nSlap me with the splintered ruler\nAnd it would knock me to the floor if I wasn't there already\nIf only I could hunt the hunter\n[Chorus]\nAnd all I really want is some patience\nA way to calm the angry voice\nAnd all I really want is deliverance\nAh, aao, aao, aao, aa, aah\n\n[Verse 2]\nDo I wear you out?\nYou must wonder why I'm relentless and all strung out\nI'm consumed by the chill of solitary\nI'm like Estella\nI like to reel it in and then spit it out\nI'm frustrated by your apathy\n\n[Pre-Chorus]\nAnd I am frightened by the corrupted ways of this land\nIf only I could meet the maker\nAnd I am fascinated by the spiritual man\nI'm humbled by his humble nature, yeah\n\n[Chorus]\nAnd what I wouldn't give to find a soulmate\nSomeone else to catch this drift\nAnd what I wouldn't give to meet a kindred\nAh, aao, aao, aao, aa, aah\nYou might also like[Bridge]\nEnough about me, let's talk about you for a minute\nEnough about you, let's talk about life for a while\nThe conflicts, the craziness and the sound of pretenses falling\nAll around, all around\n\n[Verse 3]\nWhy are you so petrified of silence?\nHere, can you handle this?\nDid you think about your bills, your ex, your deadlines\nOr when you think you're gonna die?\nOr did you long for the next distraction?\n\n[Pre-Chorus]\nAnd all I need now is intellectual intercourse\nA soul to dig the hole much deeper\nAnd I have no concept of time other than it is flying\nIf only I could kill the killer\n\n[Chorus]\nAnd all I really want is some peace, man\nA place to find a common ground\nAnd all I really want is a wavelength\nAh, aao, aao, aao, aa, aah\nAnd all I really want is some comfort\nA way to get my hands untied\nAnd all I really want is some justice\nAh, aao, aao, aao, aa, aah\n[Outro]\nIt's all I really want, some patience\nA way to calm me down\nAnd all I really want is deliverance\nA place to find a common ground\nAnd all I really want is some justice8Embed"
+    }
+}

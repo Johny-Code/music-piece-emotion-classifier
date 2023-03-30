@@ -1,0 +1,85 @@
+{
+    "id": "ML4",
+    "mood": "happy",
+    "artist": "Bing Crosby",
+    "title": "Swinging On A Star",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1416788",
+        "artist_names": "Bing Crosby (Ft. John Scott Trotter & His Orchestra & Williams Brothers Quartet)",
+        "full_title": "Swinging On a Star by\u00a0Bing\u00a0Crosby (Ft.\u00a0John\u00a0Scott Trotter & His Orchestra & Williams\u00a0Brothers Quartet)",
+        "header_image_thumbnail_url": "https://images.genius.com/a90c367d08537373b4a5aeb00b11fb06.300x298x1.jpg",
+        "header_image_url": "https://images.genius.com/a90c367d08537373b4a5aeb00b11fb06.1000x993x1.jpg",
+        "id": 1416788,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2457824,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1632967170,
+        "path": "/Bing-crosby-swinging-on-a-star-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Bing-crosby-swinging-on-a-star-sample",
+        "release_date_components": {
+            "year": 1944,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1944",
+        "release_date_with_abbreviated_month_for_display": "1944",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a90c367d08537373b4a5aeb00b11fb06.300x298x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a90c367d08537373b4a5aeb00b11fb06.1000x993x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 74393
+        },
+        "title": "Swinging On a Star",
+        "title_with_featured": "Swinging On a Star (Ft.\u00a0John\u00a0Scott Trotter & His Orchestra & Williams\u00a0Brothers Quartet)",
+        "updated_by_human_at": 1667697955,
+        "url": "https://genius.com/Bing-crosby-swinging-on-a-star-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/3047336",
+                "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+                "id": 3047336,
+                "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+                "index_character": "w",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "Williams Brothers Quartet",
+                "slug": "Williams-brothers-quartet",
+                "url": "https://genius.com/artists/Williams-brothers-quartet"
+            },
+            {
+                "_type": "artist",
+                "api_path": "/artists/2263471",
+                "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+                "id": 2263471,
+                "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+                "index_character": "j",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "John Scott Trotter & His Orchestra",
+                "slug": "John-scott-trotter-and-his-orchestra",
+                "url": "https://genius.com/artists/John-scott-trotter-and-his-orchestra"
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/30989",
+            "header_image_url": "https://images.genius.com/813ca5eb1229e559a7c61fef553222af.594x594x1.jpg",
+            "id": 30989,
+            "image_url": "https://images.genius.com/813ca5eb1229e559a7c61fef553222af.594x594x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Bing Crosby",
+            "slug": "Bing-crosby",
+            "url": "https://genius.com/artists/Bing-crosby"
+        },
+        "artist": "Bing Crosby",
+        "lyrics": "Swinging On a Star Lyrics[Chorus: Bing Crosby & Chorus]\nWould you like to swing on a star\nCarry moonbeams home in a jar\nAnd be better off than you are (Ooo)\nOr would you rather be a mule?\n\n[Verse 1: Bing Crosby & Chorus]\nA mule is an animal with long funny ears\nHe kicks up at anything he hears\nHis back is brawny but his brain is weak\nHe's just plain stupid with a stubborn streak\nAnd by the way, if you hate to go to school\nYou may grow up to be a mule\n[Chorus 2: Bing Crosby & Chorus]\nOr would you like to swing on a star\nCarry moonbeams home in a jar\nAnd be better off than you are, doo doo\nOr would you rather be a pig?\n\n[Verse 2: Bing Crosby & Chorus]\nA pig is an animal with dirt on his face\nHis shoes are a terrible disgrace\nHe has no manners when he eats his food\nHe's fat and lazy and extremely rude\nBut if you don't care a feather or a fig\nYou may grow up to be a pig\n\n[Chorus 3: Bing Crosby & Chorus]\nOr would you like to swing on a star\nCarry moonbeams home in a jar\nAnd be better off than you are\nOr would you rather be a fish?\n\n[Verse 3: Bing Crosby & Chorus]\nA fish won't do anything, but swim in a brook\nHe can't write his name or read a book\nTo fool the people is his only thought\nAnd though he's slippery, he still gets caught\nBut then if that sort of life is what you wish\nYou may grow up to be a fish\nYou might also likeA new kind of jumped up slippery fish\n\n[Outro: Bing Crosby & Chorus]\nAnd all the monkeys aren't in the zoo\nEveryday you'll meet quite a few\nSo you see it's all up to you (Ooo)\nYou can be better than you are (Ooo)\nYou could be swingin' on a star\n\nDoo doo doo doo doo\nDoo doo doo doo doo, doo dooEmbed"
+    }
+}

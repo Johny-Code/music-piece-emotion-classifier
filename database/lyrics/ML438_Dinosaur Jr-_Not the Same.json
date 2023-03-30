@@ -1,0 +1,57 @@
+{
+    "id": "ML438",
+    "mood": "sad",
+    "artist": "Dinosaur Jr.",
+    "title": "Not the Same",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/188984",
+        "artist_names": "Dinosaur Jr.",
+        "full_title": "Not the Same by\u00a0Dinosaur\u00a0Jr.",
+        "header_image_thumbnail_url": "https://s3.amazonaws.com/rapgenius/Dinosaur_Jr._Where_You_Been.jpg",
+        "header_image_url": "https://s3.amazonaws.com/rapgenius/Dinosaur_Jr._Where_You_Been.jpg",
+        "id": 188984,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 250962,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1586014373,
+        "path": "/Dinosaur-jr-not-the-same-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Dinosaur-jr-not-the-same-sample",
+        "release_date_components": {
+            "year": 1993,
+            "month": 2,
+            "day": 9
+        },
+        "release_date_for_display": "February 9, 1993",
+        "release_date_with_abbreviated_month_for_display": "Feb. 9, 1993",
+        "song_art_image_thumbnail_url": "https://s3.amazonaws.com/rapgenius/Dinosaur_Jr._Where_You_Been.jpg",
+        "song_art_image_url": "https://s3.amazonaws.com/rapgenius/Dinosaur_Jr._Where_You_Been.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Not the Same",
+        "title_with_featured": "Not the Same",
+        "updated_by_human_at": 1586014373,
+        "url": "https://genius.com/Dinosaur-jr-not-the-same-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/5114",
+            "header_image_url": "https://images.genius.com/0fcdd23178de7941cc1dda44c38c3b0e.1000x667x1.jpg",
+            "id": 5114,
+            "image_url": "https://images.genius.com/08a3c8cfd510d35612b8180787ca5045.1000x1000x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Dinosaur Jr.",
+            "slug": "Dinosaur-jr",
+            "url": "https://genius.com/artists/Dinosaur-jr"
+        },
+        "artist": "Dinosaur Jr.",
+        "lyrics": "Not the Same Lyrics[Verse 1]\nOn this day where you're so messed it's clear\nCannot explain the world you roam\nAnyone who has been\nAs I walk with you, it chills me so\nTo hear you say it has come to this\nAnd that it is okay\n\n[Verse 2]\nIn a dream, I always talk to you\nYou seem fine again, my sweet\nFeels alright to me\nIs it right for you?\nFlipping out I try to call to you\nDo you call to me?\nTell me what to do\nAnd I know it is not the same, there is no blame - still I bother you\nAnd you say it is not your deal, it is mine to feel - follow along with you\n\n[Verse 3]\nCome alive I know you will sing to me\nI would not sing to you\nIt is not a thing I do\nHas it been a different feel for you?\nThe whole time this was going on\nOr is it something new?\nAnd I know it is not the same, there is no blame - still I am bothering you\nAnd you say It is not your deal, it is mine to feel - you would not pull me through\nAnyway, you are not the same, it is the blame - follow along with you\n\n[Verse 4]\nIt is a lingering that comes through me\nDoes it come to you?\nAre we really through?\nAny guy would do this thing for me\nIt is not much to ask\nWhy cannot you?\nI am not going to say I have had my way\nYou sure saw to that\nBut what else can I do?\nYou promised so much that I would never touch\nI believed in you\nFor the last timeYou might also likeEmbed"
+    }
+}

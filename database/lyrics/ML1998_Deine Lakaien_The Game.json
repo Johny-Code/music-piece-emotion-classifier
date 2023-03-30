@@ -1,0 +1,53 @@
+{
+    "id": "ML1998",
+    "mood": "sad",
+    "artist": "Deine Lakaien",
+    "title": "The Game",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/999438",
+        "artist_names": "Deine Lakaien",
+        "full_title": "The Game by\u00a0Deine\u00a0Lakaien",
+        "header_image_thumbnail_url": "https://images.genius.com/746e78e659d76ec8ab8b31edd4439489.300x296x1.jpg",
+        "header_image_url": "https://images.genius.com/746e78e659d76ec8ab8b31edd4439489.506x500x1.jpg",
+        "id": 999438,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429581489,
+        "path": "/Deine-lakaien-the-game-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Deine-lakaien-the-game-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/746e78e659d76ec8ab8b31edd4439489.300x296x1.jpg",
+        "song_art_image_url": "https://images.genius.com/746e78e659d76ec8ab8b31edd4439489.506x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "The Game",
+        "title_with_featured": "The Game",
+        "updated_by_human_at": 1481230967,
+        "url": "https://genius.com/Deine-lakaien-the-game-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/353234",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "id": 353234,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Deine Lakaien",
+            "slug": "Deine-lakaien",
+            "url": "https://genius.com/artists/Deine-lakaien"
+        },
+        "artist": "Deine Lakaien",
+        "lyrics": "The Game LyricsGrey eyes flicker\nCold is the weed\nWorn out shoes\nAir full of grief\nIt is you now\nStuck within\nSoul is burning\nNo chance to win\n\nWhat have you done to the game\nWas it a victory, a shame\nWhere have you gone\nBefore morning dew\nThe game will not end\nWithout you\nEars of lost minds\nLuke and torn\nDresses rotten\nAnd broken stores\nAnd the meaning\nIt's sold too soon\nCan the blister\nSubstitute the moon\n\nWhat have you done to the game\nWas it a victory, a shame\nWhere have you gone\nBefore morning dew\nThe game will not end\nWithout you\n\nAnd the hot sun\nPaints the door\nYour philanthropist\nSighed once more\nWind was blowing\nAir through pipes\nHoles in bodies\nMortal crimes\n\nWhat have you done to the game\nWas it a victory, a shame\nWhere have you gone\nBefore morning dew\nThe game will not end\nWithout youYou might also likeEmbed"
+    }
+}

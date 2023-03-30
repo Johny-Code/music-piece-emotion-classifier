@@ -1,0 +1,57 @@
+{
+    "id": "ML1994",
+    "mood": "angry",
+    "artist": "Misfits",
+    "title": "Violent World",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1634335",
+        "artist_names": "Misfits",
+        "full_title": "Violent World by\u00a0Misfits",
+        "header_image_thumbnail_url": "https://images.genius.com/0e5349035e0f6318d9270530dee4bb30.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/0e5349035e0f6318d9270530dee4bb30.1000x1000x1.jpg",
+        "id": 1634335,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 8809706,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1672829283,
+        "path": "/Misfits-violent-world-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Misfits-violent-world-sample",
+        "release_date_components": {
+            "year": 1982,
+            "month": 3,
+            "day": null
+        },
+        "release_date_for_display": "March 1982",
+        "release_date_with_abbreviated_month_for_display": "Mar. 1982",
+        "song_art_image_thumbnail_url": "https://images.genius.com/0e5349035e0f6318d9270530dee4bb30.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/0e5349035e0f6318d9270530dee4bb30.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Violent World",
+        "title_with_featured": "Violent World",
+        "updated_by_human_at": 1672829283,
+        "url": "https://genius.com/Misfits-violent-world-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/711",
+            "header_image_url": "https://images.genius.com/26119c6abbf05d5afb1e7ce76944a11d.1000x563x1.jpg",
+            "id": 711,
+            "image_url": "https://images.genius.com/9f555c9bda5d822a8923c3af77ac46fc.400x400x1.png",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Misfits",
+            "slug": "Misfits",
+            "url": "https://genius.com/artists/Misfits"
+        },
+        "artist": "Misfits",
+        "lyrics": "Violent World Lyrics[Intro]\nHey!\n\n[Verse 1]\nPregnant mothers in Mexico\nGive birth to still-born monster babies\nHideous deformed two-headed monsters\nVivisected for your magazine essay\n\n[Chorus]\nCome on, come on\nCome on to the violent world with me\nCome on, come on\nCome on to the violent world with me\n[Verse 2]\nNazi demons, Nazi youth\nWolverines in dark brown suits\nYeah, they shove it in an oven and it starts to cook\nBlame it all on Nazi youth\n\n[Chorus]\nBut come on, come on\nCome on to the violent world with me\nCome on, come on\nCome on to the violent world with me\n\n[Verse 3]\nAny opportunity comes\nCan't afford to rot, so you move on\nAny opportunity comes\nCan't afford the Nazi movement\n\n[Bridge]\nCome on\nCome on\nCome on\n\n[Outro]\nViolent world\nViolent world\nViolent world\nViolent world\nViolent world\nViolent world\nViolent worldYou might also likeEmbed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML1252",
+    "mood": "sad",
+    "artist": "Judas Priest",
+    "title": "Angel",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/683632",
+        "artist_names": "Judas Priest",
+        "full_title": "Angel by\u00a0Judas\u00a0Priest",
+        "header_image_thumbnail_url": "https://images.genius.com/2ab00276469cd392bf5cc50346c3edbe.300x137x1.png",
+        "header_image_url": "https://images.genius.com/2ab00276469cd392bf5cc50346c3edbe.1000x458x1.png",
+        "id": 683632,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1425023,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1637234155,
+        "path": "/Judas-priest-angel-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Judas-priest-angel-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 3,
+            "day": 1
+        },
+        "release_date_for_display": "March 1, 2005",
+        "release_date_with_abbreviated_month_for_display": "Mar. 1, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/9d87e5afc3b1ec2d6c047bd5f2250cbc.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/9d87e5afc3b1ec2d6c047bd5f2250cbc.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 13894
+        },
+        "title": "Angel",
+        "title_with_featured": "Angel",
+        "updated_by_human_at": 1637234155,
+        "url": "https://genius.com/Judas-priest-angel-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/17236",
+            "header_image_url": "https://images.genius.com/47671fa3334ba2e1e328cb4617586b8f.1000x500x1.jpg",
+            "id": 17236,
+            "image_url": "https://images.genius.com/73afa8be496db02bd26310405f47e003.1000x1000x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Judas Priest",
+            "slug": "Judas-priest",
+            "url": "https://genius.com/artists/Judas-priest"
+        },
+        "artist": "Judas Priest",
+        "lyrics": "Angel Lyrics[Verse 1]\nAngel, put sad wings around me now\nProtect me from this world of sin\nSo that we can rise again\n\n[Verse 2]\nOh angel, we can find our way somehow\nEscaping from the world we're in\nTo a place where we began\n\n[Verse 3]\nAnd I know we'll find, a better place and peace of mind\nJust tell me that it's all you want, for you and me\nAngel won't you set me free\n[Verse 4]\nAngel remember how we'd chase the sun\nThen reaching for the stars at night\nAs our lives had just begun\n\n[Verse 5]\nWhen I close my eyes, I hear your velvet wings and cry\nI'm waiting here with open arms, oh, can't you see\nAngel shine your light on me\n\n[Bridge]\nAngel we'll meet once more, I'll pray\nWhen all my sins are washed away\nHold me inside your wings and stay\nOh, angel take me far away\n\n[Outro]\nPut sad wings around me now\nAngel take me far away\nPut sad wings around me now\nSo that we can rise again\nPut sad wings around me now\nAngel take me far away\nPut sad wings around me now\nSo that we can rise againYou might also like6Embed"
+    }
+}

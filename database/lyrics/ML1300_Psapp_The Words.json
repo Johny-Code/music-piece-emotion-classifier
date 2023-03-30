@@ -1,0 +1,53 @@
+{
+    "id": "ML1300",
+    "mood": "happy",
+    "artist": "Psapp",
+    "title": "The Words",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/955953",
+        "artist_names": "Psapp",
+        "full_title": "The Words by\u00a0Psapp",
+        "header_image_thumbnail_url": "https://images.genius.com/7c73321c7618c1df6c682c3119613414.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/7c73321c7618c1df6c682c3119613414.640x640x1.jpg",
+        "id": 955953,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429548323,
+        "path": "/Psapp-the-words-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Psapp-the-words-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/7c73321c7618c1df6c682c3119613414.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/7c73321c7618c1df6c682c3119613414.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "The Words",
+        "title_with_featured": "The Words",
+        "updated_by_human_at": 1479311863,
+        "url": "https://genius.com/Psapp-the-words-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/361944",
+            "header_image_url": "https://images.genius.com/c301f12cce36b4adf24ec536492ed546.300x300x1.jpg",
+            "id": 361944,
+            "image_url": "https://images.genius.com/c301f12cce36b4adf24ec536492ed546.300x300x1.jpg",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Psapp",
+            "slug": "Psapp",
+            "url": "https://genius.com/artists/Psapp"
+        },
+        "artist": "Psapp",
+        "lyrics": "The Words LyricsOh\nDo you remember\nAll the seconds\nYou are awake\nYes\nWe take a lantern\nAnd we go back\nTo your place\nOh\nI won't abandon\nMy foolish notion\nIt's too much fun\nThough\nYou say it's all right\nYou do not ask me what I've done\nAre we\nTo make an effort\nHow might I weave it (???)\nAnd count each one\nI know\n'Cos I can do it\nAnd when I've done it\nI will have won\nWhy\nCan't I abandon\nI need a random (???)\nThe wrong idea\nI need\nTo make an edit\nI need to change how I appear\n\nI don't doubt\nI know you know me\nIt's about\nThe words that throw me\n\nStammer a line\nBurn out of change\nThere's ink on your hands\nAnd a tear on your page\nHalf-found intentions are met with a frown\nThe simplest plans can drag you down\nYou might also likeI don't doubt\nI know you know me\nIt's about\nThe words that throw me\nI don't doubt\nI know you know me\nIt's about\nThe words that throw me\n\nTell me\nWhy does it matter\nIf there's no pattern\nTo what we do\nI know\nThat only logic\nWhen there's magic\nBetween me and you\nAll\nOf a sudden\nNow you are hidden\nFrom my view\nHow\nDo I get you back\nAnd make an old love\nNew\nI don't doubt\nI know you know me\nIt's about\nThe words that throw me\nI don't doubt\nI know you know me\nIt's about\nThe words that throw meEmbed"
+    }
+}

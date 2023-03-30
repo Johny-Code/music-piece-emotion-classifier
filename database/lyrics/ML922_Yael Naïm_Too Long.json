@@ -1,0 +1,57 @@
+{
+    "id": "ML922",
+    "mood": "relaxed",
+    "artist": "Yael Na\u00efm",
+    "title": "Too Long",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/871763",
+        "artist_names": "Yael Naim",
+        "full_title": "Too Long by\u00a0Yael\u00a0Naim",
+        "header_image_thumbnail_url": "https://images.genius.com/3322729d2690192ef161b3dd1e171c21.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3322729d2690192ef161b3dd1e171c21.1000x1000x1.jpg",
+        "id": 871763,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429293391,
+        "path": "/Yael-naim-too-long-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Yael-naim-too-long-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 10,
+            "day": 22
+        },
+        "release_date_for_display": "October 22, 2007",
+        "release_date_with_abbreviated_month_for_display": "Oct. 22, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3322729d2690192ef161b3dd1e171c21.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3322729d2690192ef161b3dd1e171c21.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Too Long",
+        "title_with_featured": "Too Long",
+        "updated_by_human_at": 1477768360,
+        "url": "https://genius.com/Yael-naim-too-long-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1404",
+            "header_image_url": "https://images.genius.com/9d63b93ded21866edd44c65f3835dc36.770x433x1.jpg",
+            "id": 1404,
+            "image_url": "https://images.genius.com/136db5c2126873ade42b00bfd343d40d.877x877x1.jpg",
+            "index_character": "y",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Yael Naim",
+            "slug": "Yael-naim",
+            "url": "https://genius.com/artists/Yael-naim"
+        },
+        "artist": "Yael Naim",
+        "lyrics": "Too Long LyricsI waited for so long outside myself\nYou see I was pretending to be someone else\nI was longing to see who I wanted to be\nAnd I've been waiting on my own\nI've been waiting for too long\nNot strong enough to be with you\nAnd I've been making up my world\nI've been painting it with gold\nNot strong enough to see you, oh\nI irrigate illusions then let them grow\nHow can I pacify myself and let go?\nAnd I ran wild to see who I turned out to be\nI've been waiting on my own\nI've been waiting for too long\nNot strong enough to be with you\nAnd I've been making up my world\nI've been painting it with gold\nNot strong enough to see you\nAnd I've been waiting on my own\nI've been waiting for too long\nNot strong enough to be with you\nAnd I've been making up my world\nI've been painting it with gold\nNot strong enough to see you\nI've been waiting on my own\n[Foreign Content]\n[Foreign Content]\nBut it was too cold in my world, my world\nAnd I've been waiting on my own\nI've been waiting for too long\nNot strong enough to be with you\nAnd I've been making up my world\nI've been painting it with gold\nNot strong enough to see you\nSee you, oh no\n(Strong enough I'm not strong enough to see you)\nSee you\n(Strong enough I'm not strong enough to see you)\n(Strong enough I'm not strong enough to see you)You might also likeEmbed"
+    }
+}

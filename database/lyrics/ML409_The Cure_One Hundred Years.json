@@ -1,0 +1,58 @@
+{
+    "id": "ML409",
+    "mood": "sad",
+    "artist": "The Cure",
+    "title": "One Hundred Years",
+    "song": {
+        "_type": "song",
+        "annotation_count": 17,
+        "api_path": "/songs/389048",
+        "artist_names": "The Cure",
+        "full_title": "One Hundred Years by\u00a0The\u00a0Cure",
+        "header_image_thumbnail_url": "https://images.genius.com/a48f71ed94845e33bfa59da2e6936f11.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/a48f71ed94845e33bfa59da2e6936f11.600x600x1.jpg",
+        "id": 389048,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 396158,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1646082699,
+        "path": "/The-cure-one-hundred-years-lyrics",
+        "pyongs_count": 11,
+        "relationships_index_url": "https://genius.com/The-cure-one-hundred-years-sample",
+        "release_date_components": {
+            "year": 1982,
+            "month": 5,
+            "day": 4
+        },
+        "release_date_for_display": "May 4, 1982",
+        "release_date_with_abbreviated_month_for_display": "May. 4, 1982",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a48f71ed94845e33bfa59da2e6936f11.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a48f71ed94845e33bfa59da2e6936f11.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 57454
+        },
+        "title": "One Hundred Years",
+        "title_with_featured": "One Hundred Years",
+        "updated_by_human_at": 1669191988,
+        "url": "https://genius.com/The-cure-one-hundred-years-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/15758",
+            "header_image_url": "https://images.genius.com/cd329cd267a717821150770e9f47e920.1000x600x1.jpg",
+            "id": 15758,
+            "image_url": "https://images.genius.com/a0eeac26e313b49cc558102ed0a5622b.640x640x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Cure",
+            "slug": "The-cure",
+            "url": "https://genius.com/artists/The-cure"
+        },
+        "artist": "The Cure",
+        "lyrics": "One Hundred Years Lyrics[Verse 1]\nIt doesn't matter if we all die\nAmbition in the back of a black car\nIn a high building there is so much to do\nGoing home time, a story on the radio\n\n[Verse 2]\nSomething small falls out of your mouth and we laugh\nA prayer for something better\nA prayer for something better\nPlease love me\nMeet my mother, but the fear takes hold\nCreeping up the stairs in the dark\nWaiting for the death blow\nWaiting for the death blow\nWaiting for the death blow\n[Verse 3]\nStroking your hair as the patriots are shot\nFighting for freedom on the television\nSharing the world with slaughtered pigs\nHave we got everything?\nShe struggles to get away\nThe pain and the creeping feeling, a little black haired girl\nWaiting for Saturday, the death of her father pushing her\nPushing her white face into the mirror\nAching inside me and turn me 'round\nJust like the old days\nJust like the old days\nJust like the old days\nJust like the old days\n\n[Verse 4]\nCaressing an old man and painting a lifeless face\nJust a piece of new meat in a clean room\nThe soldiers close in under a yellow moon\nAll shadows and deliverance under a black flag\nA hundred years of blood, crimson\nThe ribbon tightens round my throat\nI open my mouth and my head bursts open\nA sound like a tiger thrashing in the water\nThrashing in the water\nOver and over, we die one after the other\nOver and over, we die one after the other\nOne after the other\nOne after the other\nOne after the other\nOne after the other\nYou might also like[Outro]\nIt feels like a hundred years\nA hundred years\nA hundred years\nA hundred years\nA hundred years11Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML1598",
+    "mood": "relaxed",
+    "artist": "Lisa Hannigan",
+    "title": "Pistachio",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1014210",
+        "artist_names": "Lisa Hannigan",
+        "full_title": "Pistachio by\u00a0Lisa\u00a0Hannigan",
+        "header_image_thumbnail_url": "https://images.genius.com/72ee0b753f056baa410c17a6ad9fea70.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/72ee0b753f056baa410c17a6ad9fea70.588x588x1.jpg",
+        "id": 1014210,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1449131518,
+        "path": "/Lisa-hannigan-pistachio-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Lisa-hannigan-pistachio-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 1,
+            "day": 1
+        },
+        "release_date_for_display": "January 1, 2007",
+        "release_date_with_abbreviated_month_for_display": "Jan. 1, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/72ee0b753f056baa410c17a6ad9fea70.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/72ee0b753f056baa410c17a6ad9fea70.588x588x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Pistachio",
+        "title_with_featured": "Pistachio",
+        "updated_by_human_at": 1529003139,
+        "url": "https://genius.com/Lisa-hannigan-pistachio-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/91584",
+            "header_image_url": "https://images.genius.com/6e9a7e94519fb736b72c64bf2202ee15.297x191x1.jpg",
+            "id": 91584,
+            "image_url": "https://images.genius.com/6e9a7e94519fb736b72c64bf2202ee15.297x191x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Lisa Hannigan",
+            "slug": "Lisa-hannigan",
+            "url": "https://genius.com/artists/Lisa-hannigan"
+        },
+        "artist": "Lisa Hannigan",
+        "lyrics": "Pistachio LyricsSit down and fire away\nI know it's tricky when you're feeling low\nWhen you feel like your flavour has gone the way\nOf a pre-shelled pistachio\nI know you're weighed down\nAnd fed up with your heavy boots\nLaced with melancholy notions all your own\n\nI do \u2014 like sugar \u2014 tend toward the brittle and sticky when spun\nAnd I know my demeanour can go the way\nOf a photo left out in the sun\nAnd I try to keep myself in lilies and flax seeds\nOh what a folly, fooling just yourself\nSit down and smoke away\nI wouldn't knock it till you're in them shoes\nI watch as our subtlety blows away\nAs a blush it gives way to a bruise\nBut seemly we'd freely make the trade off\nA dry rot to take the weight off\nAnd swap the boots for red shoesYou might also like1Embed"
+    }
+}

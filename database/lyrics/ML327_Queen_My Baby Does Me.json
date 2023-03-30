@@ -1,0 +1,57 @@
+{
+    "id": "ML327",
+    "mood": "happy",
+    "artist": "Queen",
+    "title": "My Baby Does Me",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/309766",
+        "artist_names": "Queen",
+        "full_title": "My Baby Does Me by\u00a0Queen",
+        "header_image_thumbnail_url": "https://images.genius.com/288ce453ef69540450799c15ca17bc2e.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/288ce453ef69540450799c15ca17bc2e.1000x1000x1.jpg",
+        "id": 309766,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2733626,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1600207771,
+        "path": "/Queen-my-baby-does-me-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Queen-my-baby-does-me-sample",
+        "release_date_components": {
+            "year": 1989,
+            "month": 5,
+            "day": 22
+        },
+        "release_date_for_display": "May 22, 1989",
+        "release_date_with_abbreviated_month_for_display": "May. 22, 1989",
+        "song_art_image_thumbnail_url": "https://images.genius.com/288ce453ef69540450799c15ca17bc2e.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/288ce453ef69540450799c15ca17bc2e.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "My Baby Does Me",
+        "title_with_featured": "My Baby Does Me",
+        "updated_by_human_at": 1669730664,
+        "url": "https://genius.com/Queen-my-baby-does-me-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/563",
+            "header_image_url": "https://images.genius.com/c16f3f7965058979962777c05c36d25d.999x425x1.jpg",
+            "id": 563,
+            "image_url": "https://images.genius.com/97bcb5755cb9780d76b37726a0ce4bef.1000x1000x1.jpg",
+            "index_character": "q",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Queen",
+            "slug": "Queen",
+            "url": "https://genius.com/artists/Queen"
+        },
+        "artist": "Queen",
+        "lyrics": "My Baby Does Me Lyrics[Intro]\nTurn it up a bit, please\n\n[Verse 1]\nMy baby, baby does\nMy baby does me good\nMy baby does\nMy baby does me\nMy baby does me good\n\n[Verse 2]\nMy lady understands\nUnderstands me right\nShe understands me\nShe understands me\nUnderstands me right\n[Bridge]\nMy baby cares, she really cares\nShe knows what's really right for me\nDoes me good then she hurts me so\nShe winds me up then lets me go\nTurns me on and then tells me no\nShe's just a pussy cat\nMy baby loves me\nMy baby loves me\nMy baby cuffs me\nOne day she tells me\nThat she cares\nAnother day she tells me\nShe don't love me\n\n[Outro]\nShe really, really does me, ooh\nNow people do you believe this?\nDo you? Ooh, ah\nOoh-ooh-ooh\nUh, she really, really\nReally, really, really, really\nAh, does me, heyYou might also like1Embed"
+    }
+}

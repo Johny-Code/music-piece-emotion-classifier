@@ -1,0 +1,58 @@
+{
+    "id": "ML1698",
+    "mood": "sad",
+    "artist": "Leonard Cohen",
+    "title": "The Old Revolution",
+    "song": {
+        "_type": "song",
+        "annotation_count": 12,
+        "api_path": "/songs/195619",
+        "artist_names": "Leonard Cohen",
+        "full_title": "The Old Revolution by\u00a0Leonard\u00a0Cohen",
+        "header_image_thumbnail_url": "https://images.genius.com/ddcdd9e90e81b0e8418832d469eef766.300x296x1.png",
+        "header_image_url": "https://images.genius.com/ddcdd9e90e81b0e8418832d469eef766.1000x988x1.png",
+        "id": 195619,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 221757,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1678112521,
+        "path": "/Leonard-cohen-the-old-revolution-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Leonard-cohen-the-old-revolution-sample",
+        "release_date_components": {
+            "year": 1969,
+            "month": 4,
+            "day": 7
+        },
+        "release_date_for_display": "April 7, 1969",
+        "release_date_with_abbreviated_month_for_display": "Apr. 7, 1969",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ddcdd9e90e81b0e8418832d469eef766.300x296x1.png",
+        "song_art_image_url": "https://images.genius.com/ddcdd9e90e81b0e8418832d469eef766.1000x988x1.png",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 8711
+        },
+        "title": "The Old Revolution",
+        "title_with_featured": "The Old Revolution",
+        "updated_by_human_at": 1678112521,
+        "url": "https://genius.com/Leonard-cohen-the-old-revolution-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/629",
+            "header_image_url": "https://images.genius.com/357bcf113a1333d408d549f19bb67cee.465x310x1.jpg",
+            "id": 629,
+            "image_url": "https://images.genius.com/b869713aee75710e783a8358c7aefa9d.883x883x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Leonard Cohen",
+            "slug": "Leonard-cohen",
+            "url": "https://genius.com/artists/Leonard-cohen"
+        },
+        "artist": "Leonard Cohen",
+        "lyrics": "TranslationsEspa\u00f1olThe Old Revolution Lyrics[Verse 1]\nI finally broke into the prison\nI found my place in the chain\nEven damnation is poisoned with rainbows\nAll the brave young men, they're waiting now to see a signal\nWhich some killer will be lighting for pay\nInto this furnace I ask you now to venture\nYou whom I cannot betray\n\n[Verse 2]\nI fought in the old revolution\nOn the side of the ghost and the king\nOf course I was very young and I thought that we were winning\nI can't pretend I still feel very much like singing\nAs they carry the bodies away\nInto this furnace I ask you now to venture\nYou whom I cannot betray\n[Verse 3]\nLately you've started to stutter\nAs though you had nothing to say\nTo all of my architects let me be traitor\nNow let me say I myself gave the order\nTo sleep and to search and to destroy\nInto this furnace I ask you now to venture\nYou whom I cannot betray\n\n[Verse 4]\nYes, you who are broken by power\nYou who are absent all day\nYou who are kings for the sake of your children's story\nThe hand of your beggar is burdened down with money\nThe hand of your lover is clay\nInto this furnace I ask you now to venture\nYou whom I cannot betrayYou might also like2Embed"
+    }
+}

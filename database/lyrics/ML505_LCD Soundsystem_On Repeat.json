@@ -1,0 +1,57 @@
+{
+    "id": "ML505",
+    "mood": "happy",
+    "artist": "LCD Soundsystem",
+    "title": "On Repeat",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/112603",
+        "artist_names": "LCD Soundsystem",
+        "full_title": "On Repeat by\u00a0LCD\u00a0Soundsystem",
+        "header_image_thumbnail_url": "https://images.genius.com/8f13f16022d98db66ce1fbdea4695867.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/8f13f16022d98db66ce1fbdea4695867.800x800x1.jpg",
+        "id": 112603,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 116340,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1592665961,
+        "path": "/Lcd-soundsystem-on-repeat-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Lcd-soundsystem-on-repeat-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 1,
+            "day": 24
+        },
+        "release_date_for_display": "January 24, 2005",
+        "release_date_with_abbreviated_month_for_display": "Jan. 24, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8f13f16022d98db66ce1fbdea4695867.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8f13f16022d98db66ce1fbdea4695867.800x800x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "On Repeat",
+        "title_with_featured": "On Repeat",
+        "updated_by_human_at": 1592665961,
+        "url": "https://genius.com/Lcd-soundsystem-on-repeat-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1169",
+            "header_image_url": "https://images.genius.com/f10c95549020ee8af247e901cc26de67.1000x750x1.jpg",
+            "id": 1169,
+            "image_url": "https://images.genius.com/212caa8fb10c6d3b420c02dfeee45960.783x783x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "LCD Soundsystem",
+            "slug": "Lcd-soundsystem",
+            "url": "https://genius.com/artists/Lcd-soundsystem"
+        },
+        "artist": "LCD Soundsystem",
+        "lyrics": "On Repeat LyricsA beat's on repeat, beating on me\nFrom every car in the street\nIt's a constant repeat, on repeat\nOf your paranoid heartbreaking beats\nOn repeat\nIt's a five song repeat beating on me\nYour favorite band helps you sleep\nAnd here comes the new stylish creep\nFrom every car in the street\nOn repeat\nOn repeat\nOn repeat\nDon't tell nobody what, what you really want because\nThey can tell everybody else what you really want\nThen you're fucked, so act like it's for yourself or it's all yours\nAnd they go and tell everybody else that you're really great\nWe are just people\n\nYou're enfranchised and entranced\nYou're enfranchised and entrenched\nBut know that it's yours!\nReal life's a compromise\nBut your beats are half-assed, streak is beating on me\nWell, I'm drinking, the weak is helping me sleep\nI wish I could complain more about the rich but then\nAll their children would run the streets\nAnd come to every show, no one wants that\nI wish I could complain more about the rich but then\nAll their children would flee the schools\nAnd come to every show, drugged and unwashed\nI wish I could complain more about the rich but then\nAll their children would line the streets\nAnd come to every show unwashed and drugged and\n\nBeats are on repeat, beating on me\nOn your radio\nOn your radio\nOn your radio\nOn your radio\nOn your radio\nOn your radio\nYou might also likeBeats are on repeat, beating on me\nBeats on repeat, beating on meEmbed"
+    }
+}

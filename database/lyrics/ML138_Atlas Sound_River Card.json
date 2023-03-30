@@ -1,0 +1,53 @@
+{
+    "id": "ML138",
+    "mood": "relaxed",
+    "artist": "Atlas Sound",
+    "title": "River Card",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/816554",
+        "artist_names": "Atlas Sound",
+        "full_title": "River Card by\u00a0Atlas\u00a0Sound",
+        "header_image_thumbnail_url": "https://images.genius.com/030b2c4fe528862990e418ff141cc288.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/030b2c4fe528862990e418ff141cc288.800x800x1.jpg",
+        "id": 816554,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1522563459,
+        "path": "/Atlas-sound-river-card-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Atlas-sound-river-card-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/030b2c4fe528862990e418ff141cc288.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/030b2c4fe528862990e418ff141cc288.800x800x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "River Card",
+        "title_with_featured": "River Card",
+        "updated_by_human_at": 1522563459,
+        "url": "https://genius.com/Atlas-sound-river-card-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/12529",
+            "header_image_url": "https://images.genius.com/4013f753f3f3814d1e1dbecd74b86081.400x239x1.jpg",
+            "id": 12529,
+            "image_url": "https://images.genius.com/c7c8a295715fbcbdf118e2edf68653d4.1000x1000x1.png",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Atlas Sound",
+            "slug": "Atlas-sound",
+            "url": "https://genius.com/artists/Atlas-sound"
+        },
+        "artist": "Atlas Sound",
+        "lyrics": "River Card LyricsI turned them all away\nI turned it all away\nWhen i leave there's nothing left to say\n\nI won't answer my phone\nYou call it all you want\nRiver runs and takes the boats away\n\nI thought i'd never see\nRiver so clear and mean\nHow many others have you drowned?\nRiver's bottom dark and blue\nWhy do i love you so?\nRiver so clear and blue\nI'm so in love with you, but you'll drown me\nYou'll drown me\n\nRiver so clear and blue\nWhat it takes to ignore you\nHow many boys have you drowned?\n\nChokes me until i'm dead\nThere are places in my head\nThat i could never conquer\n\nRiver so clear and blue\nI am in love with you\nRiver's bottom dark and blue\nWhy do i love you?\nYou'll drown me\nYou'll drown meYou might also like1Embed"
+    }
+}

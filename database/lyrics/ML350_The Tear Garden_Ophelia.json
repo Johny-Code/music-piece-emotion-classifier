@@ -1,0 +1,53 @@
+{
+    "id": "ML350",
+    "mood": "sad",
+    "artist": "The Tear Garden",
+    "title": "Ophelia",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1470278",
+        "artist_names": "The Tear Garden",
+        "full_title": "Ophelia by\u00a0The\u00a0Tear Garden",
+        "header_image_thumbnail_url": "https://images.genius.com/db2533405365d03ce4432a1e6b5338f9.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/db2533405365d03ce4432a1e6b5338f9.700x700x1.jpg",
+        "id": 1470278,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429859141,
+        "path": "/The-tear-garden-ophelia-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-tear-garden-ophelia-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/db2533405365d03ce4432a1e6b5338f9.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/db2533405365d03ce4432a1e6b5338f9.700x700x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Ophelia",
+        "title_with_featured": "Ophelia",
+        "updated_by_human_at": 1658515226,
+        "url": "https://genius.com/The-tear-garden-ophelia-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/354497",
+            "header_image_url": "https://images.genius.com/75ad5bb22cd2a4f0269d678f33115e56.529x529x1.jpg",
+            "id": 354497,
+            "image_url": "https://images.genius.com/75ad5bb22cd2a4f0269d678f33115e56.529x529x1.jpg",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Tear Garden",
+            "slug": "The-tear-garden",
+            "url": "https://genius.com/artists/The-tear-garden"
+        },
+        "artist": "The Tear Garden",
+        "lyrics": "Ophelia LyricsCrawling through the minefield\nWe never saw the signs\nThe lightning flashes thunder claps\nOh is it just a dream Ophelia\nSaw the dark clouds rolling\nScavengers revolving as we\nMade love on a log in the fog\nIs it just a dream Ophelia\nThere was just a hint of searchlight\nIt illuminates a pair of lonely souls locked together\nIs it just our dream Ophelia\nTrying hard to hide\nTo melt away but rolling for a\nGallery of eyes\nWatching waiting\nIs it just our dream Ophelia\nAnd love is blind\nIt cracks its stick across our fingers\nMakes us bleed It makes us sick\nIs it just our dream Ophelia\nWater's boiling but the need is strong\nAnd we have to swim\nLet's find an island find a log\nThat maybe we'll call home\nOur home Ophelia\nDo you think that we can make it on our own\nOur dream OpheliaYou might also likeEmbed"
+    }
+}

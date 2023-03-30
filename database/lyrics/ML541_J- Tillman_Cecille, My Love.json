@@ -1,0 +1,57 @@
+{
+    "id": "ML541",
+    "mood": "relaxed",
+    "artist": "J. Tillman",
+    "title": "Cecille, My Love",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/4306730",
+        "artist_names": "J. Tillman",
+        "full_title": "Cecille, My Love by\u00a0J.\u00a0Tillman",
+        "header_image_thumbnail_url": "https://images.genius.com/a18dc59fb87de720373cd59725bdeb25.300x295x1.jpg",
+        "header_image_url": "https://images.genius.com/a18dc59fb87de720373cd59725bdeb25.600x590x1.jpg",
+        "id": 4306730,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1583937,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1625413707,
+        "path": "/J-tillman-cecille-my-love-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/J-tillman-cecille-my-love-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2004",
+        "release_date_with_abbreviated_month_for_display": "2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a18dc59fb87de720373cd59725bdeb25.300x295x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a18dc59fb87de720373cd59725bdeb25.600x590x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Cecille, My Love",
+        "title_with_featured": "Cecille, My Love",
+        "updated_by_human_at": 1625413707,
+        "url": "https://genius.com/J-tillman-cecille-my-love-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1894454",
+            "header_image_url": "https://images.genius.com/bfb3fc31c8b75d189d3a3f9da1af1147.1000x250x1.jpg",
+            "id": 1894454,
+            "image_url": "https://images.genius.com/c1eee5b1b331021828cf4a9bbc842f96.380x380x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "J. Tillman",
+            "slug": "J-tillman",
+            "url": "https://genius.com/artists/J-tillman"
+        },
+        "artist": "J. Tillman",
+        "lyrics": "Cecille, My Love LyricsOh, Cecille my love\nHow can it be\nThat one so small\nShould carry me\nWhen I am weak?\n\nOh, Cecille my love\nThe river holds the gun\nI used to kill the one\nWho held us apart\nFor so long\nYour father's house\nI have burned down\nI saved the letters you wrote\nBut could not send\nI saved the one you wrote me\nOf your death\n\nThere\u2019s a place\nOn the hill\nWhere you and I shall dwell\nIt's by the sea\nThe grave I made\nSo we can rest in peace\n\nOh, Cecille my love\nThe river has washed up\nThe only way I see you soon\nFather, forgive me for what I doYou might also likeEmbed"
+    }
+}

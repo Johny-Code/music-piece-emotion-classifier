@@ -1,0 +1,58 @@
+{
+    "id": "ML122",
+    "mood": "happy",
+    "artist": "Caf\u00e9 Tacuba",
+    "title": "Las Flores",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1364598",
+        "artist_names": "Caf\u00e9 Tacvba",
+        "full_title": "Las Flores by\u00a0Caf\u00e9\u00a0Tacvba",
+        "header_image_thumbnail_url": "https://images.genius.com/3cd3aad1ebc6a4ebbb97e243a78801c4.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3cd3aad1ebc6a4ebbb97e243a78801c4.600x600x1.jpg",
+        "id": 1364598,
+        "instrumental": false,
+        "language": "es",
+        "lyrics_owner_id": 10501250,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1630513505,
+        "path": "/Cafe-tacvba-las-flores-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Cafe-tacvba-las-flores-sample",
+        "release_date_components": {
+            "year": 1994,
+            "month": 7,
+            "day": 22
+        },
+        "release_date_for_display": "July 22, 1994",
+        "release_date_with_abbreviated_month_for_display": "Jul. 22, 1994",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3cd3aad1ebc6a4ebbb97e243a78801c4.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3cd3aad1ebc6a4ebbb97e243a78801c4.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 6965
+        },
+        "title": "Las Flores",
+        "title_with_featured": "Las Flores",
+        "updated_by_human_at": 1630513505,
+        "url": "https://genius.com/Cafe-tacvba-las-flores-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/361468",
+            "header_image_url": "https://images.genius.com/b29c551a8fe7df56427fa2d016b9de5e.1000x355x1.jpg",
+            "id": 361468,
+            "image_url": "https://images.genius.com/004d4e0e8a8d73f8aabea89167437449.570x570x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Caf\u00e9 Tacvba",
+            "slug": "Cafe-tacvba",
+            "url": "https://genius.com/artists/Cafe-tacvba"
+        },
+        "artist": "Caf\u00e9 Tacvba",
+        "lyrics": "Las Flores Lyrics[Letra de \"Las Flores\"]\n\n[Verso 1]\nAy\nVen y dime todas esas cosas\nInv\u00edtame a sentarme junto a ti\nEscuchar\u00e9 todos tus sue\u00f1os\nEn mi o\u00eddo\n\nY d\u00e9jame estrechar tus manos\nY regalarte unas pocas de ilusiones\nAy, ven y cu\u00e9ntame una historia\nQue me haga sentir bien\nYo te escuchar\u00e9\nCon todo el silencio del planeta\nY mirar\u00e9 tus ojos\nComo si fueran los \u00faltimos de este pa\u00eds\n\n[Verso 2]\nAy\nD\u00e9jame ver c\u00f3mo es que floreces\nCon cinco p\u00e9talos te absorber\u00e9\nCinco sentidos que te roban\nSolo un poco de tu ser\n\nY seis meses para vivirte\nDebajo de una misma luna\nY otros nueve pasar\u00e1n\nPara sentir que nuevas flores nacer\u00e1n\n\nY que cada estrella\nFuese una flor\nY as\u00ed regalarte\nTodo un racimo de estrellas\n\n[Puente]\nNo dejes que amanezca\nNo dejes que la noche caiga\nNo dejes que el sol salga\nSolo d\u00e9jame estar junto a ti\nYou might also like[Outro]\nHuh, huh\nHuh, huh\nHuh, huh\nHuh, huh1Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML461",
+    "mood": "angry",
+    "artist": "Dead Kennedys",
+    "title": "Your Emotions",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/386263",
+        "artist_names": "Dead Kennedys",
+        "full_title": "Your Emotions by\u00a0Dead\u00a0Kennedys",
+        "header_image_thumbnail_url": "https://images.genius.com/8fac0d98cfedb6a2c283965a0005f5db.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/8fac0d98cfedb6a2c283965a0005f5db.1000x1000x1.jpg",
+        "id": 386263,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 250643,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1666205013,
+        "path": "/Dead-kennedys-your-emotions-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Dead-kennedys-your-emotions-sample",
+        "release_date_components": {
+            "year": 1980,
+            "month": 9,
+            "day": 2
+        },
+        "release_date_for_display": "September 2, 1980",
+        "release_date_with_abbreviated_month_for_display": "Sep. 2, 1980",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8fac0d98cfedb6a2c283965a0005f5db.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8fac0d98cfedb6a2c283965a0005f5db.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 10579
+        },
+        "title": "Your Emotions",
+        "title_with_featured": "Your Emotions",
+        "updated_by_human_at": 1666205013,
+        "url": "https://genius.com/Dead-kennedys-your-emotions-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/19853",
+            "header_image_url": "https://images.genius.com/41c71a26cd2e2d9f904b8944171c3cb5.1000x508x1.jpg",
+            "id": 19853,
+            "image_url": "https://images.genius.com/cc5ef4b1982a7351ba7e0aff1578b7fe.300x300x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Dead Kennedys",
+            "slug": "Dead-kennedys",
+            "url": "https://genius.com/artists/Dead-kennedys"
+        },
+        "artist": "Dead Kennedys",
+        "lyrics": "Your Emotions Lyrics[Verse 1]\nYour mommy told you this and your daddy told you that\nAlways think like this and never do that\nYou learned so many feelings, but what is there to that?\nWhich are really yours, or are you just a copycat?\n\n[Verse 2]\nYour school told you this and your church told you that\nMemorize this and don't you dare look at that\nThey're all so concerned to make their thoughts into yours\nJust a tape recorder, mimicking of the bores\n[Chorus]\nYou're so boring, boring, boring\nAlways tape machine recording\nYou're so boring, boring, boring\nI've heard all this before\n\n[Verse 2]\nPlanless and mindless, scraps from anywhere\nBunch of used parts from garbage pails everywhere\nFrankenstein became a monster just like you\nYour scars only show when someone talks to you\n\n[Chorus]\nYou're so boring, boring, boring\nAlways tape machine recording\nYou're so boring, boring, boring\nI've heard all this before\nI've heard all this before\nI've heard all this before\n\n[Outro]\nYour emotions make you a monster\nYour emotions make you a monster\nYour emotions make you a monster\nYour emotions make you a monsterYou might also like1Embed"
+    }
+}

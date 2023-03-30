@@ -1,0 +1,57 @@
+{
+    "id": "ML58",
+    "mood": "angry",
+    "artist": "Cradle of Filth",
+    "title": "Dirge Inferno",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1393890",
+        "artist_names": "Cradle of Filth",
+        "full_title": "Dirge Inferno by\u00a0Cradle\u00a0of Filth",
+        "header_image_thumbnail_url": "https://images.genius.com/b2aac60a35e09e2037f8f294d8c57477.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b2aac60a35e09e2037f8f294d8c57477.600x600x1.jpg",
+        "id": 1393890,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429815382,
+        "path": "/Cradle-of-filth-dirge-inferno-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Cradle-of-filth-dirge-inferno-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 10,
+            "day": 17
+        },
+        "release_date_for_display": "October 17, 2006",
+        "release_date_with_abbreviated_month_for_display": "Oct. 17, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b2aac60a35e09e2037f8f294d8c57477.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b2aac60a35e09e2037f8f294d8c57477.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Dirge Inferno",
+        "title_with_featured": "Dirge Inferno",
+        "updated_by_human_at": 1666221098,
+        "url": "https://genius.com/Cradle-of-filth-dirge-inferno-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/74196",
+            "header_image_url": "https://s3.amazonaws.com/rapgenius/cof1.jpg",
+            "id": 74196,
+            "image_url": "https://s3.amazonaws.com/rapgenius/cof1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Cradle of Filth",
+            "slug": "Cradle-of-filth",
+            "url": "https://genius.com/artists/Cradle-of-filth"
+        },
+        "artist": "Cradle of Filth",
+        "lyrics": "Dirge Inferno LyricsCarrion my name\nFor those who choose to mouth the curse\nA tragic serenade\nWith Judas in my stride\nThe Gothic halls of shame\nWhere statues coldly hold no worse\nThan the murders I reclaim\nFrom a dark, forsaken time\n\nKissing heaven, spent\nHe wipes lips free of his hectic discharge\nWishing to repent\nFor the brute that ravaged free\nIn slight hands beauty weeps\nConquest's deep methodical screwing\nHurt repeatedly\nLike the world wound at his feet\nDirge Inferno\n\nAs it is written, damn it\nSo let it be wrung\nFrom throats of those in overthrow\nThe past at last has come\n\nA savage bit without respite\nPervades the freezing air\nThis winter chill, grist for his mill\nIf tears of joy will blear elsewhere\nAnd church bells drown in the cracks of doom\nThe storms above us hew\nAs lightning runs like bifurcate tongues\nDeflowering two by two\n\nHissing, malcontent\nHe storms the skies on electric discharge\nPissing in contempt\nOn the effigies of the weak\nKilling all resolve\nThe great beast simmers, his scarlet women\nSpit their vitriol\nOn the terrified face of peace\n\nDirge Inferno\nYou might also likeAs it is written, damn it\nSo let it be wrung\nFrom throats of those in overthrow\nOur past at last has come\n\nA hellbound heart, the rose and thorn\nHave locked to hasten blood\nThe moon disrobes, to harden droves\nOf legions pouring\nThese rivers press, his breath adorns\nSenates and enemy seats\nWhilst his power takes as ingratitude\nThe writhing of the weak\n\n\"Wormwood my name\nThe poisoned star that fell to earth\nAnd blistered free of shame\nIn the pits of self-rebirth\nNow those caves become a farret\nOverseeing endless barracks\nAs the waters turn to claret\nAnd the Vatican satins burn1Embed"
+    }
+}

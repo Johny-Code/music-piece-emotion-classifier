@@ -1,0 +1,57 @@
+{
+    "id": "ML668",
+    "mood": "angry",
+    "artist": "Gossip",
+    "title": "Eyes Open",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1283918",
+        "artist_names": "Gossip",
+        "full_title": "Eyes Open by\u00a0Gossip",
+        "header_image_thumbnail_url": "https://images.genius.com/87c7e8d7173df49678fd49462c6e26f8.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/87c7e8d7173df49678fd49462c6e26f8.640x640x1.jpg",
+        "id": 1283918,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429742885,
+        "path": "/Gossip-eyes-open-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Gossip-eyes-open-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 1,
+            "day": 24
+        },
+        "release_date_for_display": "January 24, 2006",
+        "release_date_with_abbreviated_month_for_display": "Jan. 24, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/87c7e8d7173df49678fd49462c6e26f8.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/87c7e8d7173df49678fd49462c6e26f8.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Eyes Open",
+        "title_with_featured": "Eyes Open",
+        "updated_by_human_at": 1649427799,
+        "url": "https://genius.com/Gossip-eyes-open-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/117934",
+            "header_image_url": "https://images.genius.com/a93d643953303d2e447d4bcb6e72c50f.900x900x1.jpg",
+            "id": 117934,
+            "image_url": "https://images.genius.com/4ff79ed7f6259d118ab9d3bed065bab0.689x689x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Gossip",
+            "slug": "Gossip",
+            "url": "https://genius.com/artists/Gossip"
+        },
+        "artist": "Gossip",
+        "lyrics": "Eyes Open LyricsWell I keep my eyes open\nI worry for nothing\nAnd all the sweet things I don't say\nAre gonna get me in trouble some day\n\nAnd the harder that I try, I know\nThe harder I push you away\nAnd I'll, I'll admit that I'm scared\n\nSo I keep one eye open\nAnd I keep my lights onYou might also likeEmbed"
+    }
+}

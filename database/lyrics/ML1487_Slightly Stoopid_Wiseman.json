@@ -1,0 +1,58 @@
+{
+    "id": "ML1487",
+    "mood": "relaxed",
+    "artist": "Slightly Stoopid",
+    "title": "Wiseman",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/634915",
+        "artist_names": "Slightly Stoopid",
+        "full_title": "Wiseman by\u00a0Slightly\u00a0Stoopid",
+        "header_image_thumbnail_url": "https://images.genius.com/a17c8e8db1ba3717b67a6500f29938ca.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/a17c8e8db1ba3717b67a6500f29938ca.1000x1000x1.jpg",
+        "id": 634915,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1368849,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1507305318,
+        "path": "/Slightly-stoopid-wiseman-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Slightly-stoopid-wiseman-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 3,
+            "day": 18
+        },
+        "release_date_for_display": "March 18, 2003",
+        "release_date_with_abbreviated_month_for_display": "Mar. 18, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a17c8e8db1ba3717b67a6500f29938ca.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a17c8e8db1ba3717b67a6500f29938ca.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 22518
+        },
+        "title": "Wiseman",
+        "title_with_featured": "Wiseman",
+        "updated_by_human_at": 1594829646,
+        "url": "https://genius.com/Slightly-stoopid-wiseman-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/28882",
+            "header_image_url": "https://images.genius.com/ac9c3817cecfa255608305309f9ae657.1000x584x1.jpg",
+            "id": 28882,
+            "image_url": "https://images.genius.com/968629da18aca4cfae7180d568c93f9d.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Slightly Stoopid",
+            "slug": "Slightly-stoopid",
+            "url": "https://genius.com/artists/Slightly-stoopid"
+        },
+        "artist": "Slightly Stoopid",
+        "lyrics": "Wiseman Lyrics[Chorus]\nFor the man who feel him a fool\nFor, he be the wise man\nNot for the man who don't feel him a fool\nHe control his destiny\nYet them's too cool for themselves\nFor themself\nFor themself\n\n[Bridge]\n'S all I need\nIs something to keep me moving on\n[Verse 1]\nIn a world\nFull of violent rage\nAnd everybody seems so strange to me\n\n[Chorus]\nFor the man who feel him a fool\nFor, he be the wise man\nNot for the man who don't feel him a fool\nHe control his destiny\nYet them's too cool for themselves\nFor themself\nFor themself\nSo (too cool)\n\n[Verse 2]\nThe weapon of destruction\nSwallows people's suffering (They don't need)\nIn all the confusion\nYou ain't winning if you're losing\nThey don't need\n\n[Chorus]\nFor the man who feel him a fool\nFor, he be the wise man\nNot for the man who don't feel him a fool\nHe control his destiny\nYet them's too cool for themselves\nFor themself\nFor themself\nSo\nYou might also like[Verse 3]\nEven if my heart was gold, yeah\nNot even if my soul had wings and I were fly, yeah\nNever stoppin' no people\nYou'll never stop em from crying, no, no\nNever stop em from killing\nYou'll never stop em from trying, no, no\n\n[Chorus]3Embed"
+    }
+}

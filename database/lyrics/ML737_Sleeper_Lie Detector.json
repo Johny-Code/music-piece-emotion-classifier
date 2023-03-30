@@ -1,0 +1,53 @@
+{
+    "id": "ML737",
+    "mood": "happy",
+    "artist": "Sleeper",
+    "title": "Lie Detector",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1528955",
+        "artist_names": "Sleeper",
+        "full_title": "Lie Detector by\u00a0Sleeper",
+        "header_image_thumbnail_url": "https://images.genius.com/e76dd634eaa54b244fdff26d0b4d040d.300x300x1.png",
+        "header_image_url": "https://images.genius.com/e76dd634eaa54b244fdff26d0b4d040d.600x600x1.png",
+        "id": 1528955,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429894706,
+        "path": "/Sleeper-lie-detector-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Sleeper-lie-detector-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/e76dd634eaa54b244fdff26d0b4d040d.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/e76dd634eaa54b244fdff26d0b4d040d.600x600x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Lie Detector",
+        "title_with_featured": "Lie Detector",
+        "updated_by_human_at": 1480522439,
+        "url": "https://genius.com/Sleeper-lie-detector-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/368246",
+            "header_image_url": "https://images.genius.com/8a3248ec9facf86fa6302d03d0e20cc4.413x413x1.jpg",
+            "id": 368246,
+            "image_url": "https://images.genius.com/8a3248ec9facf86fa6302d03d0e20cc4.413x413x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Sleeper",
+            "slug": "Sleeper",
+            "url": "https://genius.com/artists/Sleeper"
+        },
+        "artist": "Sleeper",
+        "lyrics": "Lie Detector LyricsShe's a movie star arrangement\nGot a touch of Bergman to her face\nShe wears suits and buys him flowers\nSmokes his cigarettes and bakes him cakes\n\nHe says uh oh i love you\nBut i'm not sure i trust you\nYou seem strange to me\n\nShe's got green eyes and she's lovely\nReminds me of the 'it' girl with her lips\nGot an automatic license\nReads all Dostoievsky's household tips\nHe says uh oh i love you\nBut i'm not sure i trust you\nYou seem strange to me\n\nHow come everyone suspects her\nAttach her to a lie detector\nWatch a thousand housewives fizz and burn\nAnd every time she answers yes\nThe needles on his polygraph test\nJust go round in circles like his brain\n\nShe's got long hair but she's ugly\nGot a touch of Einstein to her brain\nShe wears fat clothes but she's cunning\nPeople say she's easy all the same\n\nHe says uh oh i love you\nBut i'm not sure i trust you\nYou seem strange to me\n\nIt took a thousand cliches just to scold her\nTook a man from Stepford and a tape recorder\nGot his ego broken, so crestfallen\nYou made a start, you made us laugh\nStop it. you're a grown man baby\nIt's just that your head's no goodYou might also likeEmbed"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "id": "ML572",
+    "mood": "happy",
+    "artist": "Britney Spears",
+    "title": "Oops!...I Did It Again",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/3988",
+        "artist_names": "Britney Spears",
+        "full_title": "Oops!... I Did It Again by\u00a0Britney\u00a0Spears",
+        "header_image_thumbnail_url": "https://images.genius.com/11cd08a56ebdf9aaa077e88d03872729.300x300x1.png",
+        "header_image_url": "https://images.genius.com/11cd08a56ebdf9aaa077e88d03872729.300x300x1.png",
+        "id": 3988,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 7,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1662983956,
+        "path": "/Britney-spears-oops-i-did-it-again-lyrics",
+        "pyongs_count": 25,
+        "relationships_index_url": "https://genius.com/Britney-spears-oops-i-did-it-again-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": 3,
+            "day": 27
+        },
+        "release_date_for_display": "March 27, 2000",
+        "release_date_with_abbreviated_month_for_display": "Mar. 27, 2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/11cd08a56ebdf9aaa077e88d03872729.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/11cd08a56ebdf9aaa077e88d03872729.300x300x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "concurrents": 2,
+            "hot": false,
+            "pageviews": 328494
+        },
+        "title": "Oops!... I Did It Again",
+        "title_with_featured": "Oops!... I Did It Again",
+        "updated_by_human_at": 1662983956,
+        "url": "https://genius.com/Britney-spears-oops-i-did-it-again-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1052",
+            "header_image_url": "https://images.genius.com/b5068f9bdadbb8c05fe2f2f6c9c6be70.1000x333x1.jpg",
+            "id": 1052,
+            "image_url": "https://images.genius.com/46f4e22f4dd38d21ca5e5edb9cd82331.900x900x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Britney Spears",
+            "slug": "Britney-spears",
+            "url": "https://genius.com/artists/Britney-spears"
+        },
+        "artist": "Britney Spears",
+        "lyrics": "Oops!... I Did It Again Lyrics[Intro]\nMmm, yeah\nYeah, yeah, yeah, yeah, yeah, yeah\nYeah, yeah, yeah, yeah, yeah, yeah\n\n[Verse 1]\nI think I did it again\nI made you believe we're more than just friends\nOh, baby, it might seem like a crush\nBut it doesn't mean that I'm serious\n[Pre-Chorus]\n'Cause to lose all my senses\nThat is just so typically me\nOoh, baby, baby\n\n[Chorus]\nOops, I did it again\nI played with your heart\nGot lost in the game\nOh, baby, baby\nOops, you think I'm in love\nThat I'm sent from above\nI'm not that innocent\n\n[Verse 2]\nYou see, my problem is this\nI'm dreaming away\nWishing that heroes, they truly exist\nI cry watching the days\nCan't you see I'm a fool in so many ways?\n\n[Pre-Chorus]\nBut to lose all my senses\nThat is just so typically me\nOh, baby, oh\nYou might also like[Chorus]\nOops, I did it again\nI played with your heart\nGot lost in the game\nOh, baby, baby\nOops, you think I'm in love\nThat I'm sent from above\nI'm not that innocent\n\n[Post-Chorus]\nYeah, yeah, yeah, yeah, yeah, yeah\nYeah, yeah, yeah, yeah, yeah, yeah\n\n[Interlude]\n\"All aboard!\"\n\"Britney! Before you go, there's something I want you to have.\"\n\"Oh, it's beautiful! But wait a minute, isn't this...?\"\n\"Yeah, yes, it is.\"\n\"But I thought the old lady dropped it into the ocean in the end.\"\n\"Well, baby, I went down and got it for ya.\"\n\"Aw, you shouldn't have!\"\n\n[Bridge]\nOops, I did it again to your heart\nGot lost in this game, oh, baby (Baby)\nOops, you (Oops, you)\nThink that I'm sent from above\nI'm not that innocent\n[Chorus]\nOops, I did it again\nI played with your heart\nGot lost in the game (Yeah, yeah)\nOh, baby, baby\nOops, you think I'm in love\nThat I'm sent from above (Yeah yeah)\nI'm not that innocent (Not that innocent, babe)\nOops, I (Oops, I) did it again (Did it again to your heart)\nI played with your heart (Got lost)\nGot lost in the game (In this game, oh, baby)\nOh, baby, baby\nOops, you (Oops, you) think I'm in love (Think that I'm sent)\nThat I'm sent from above\nI'm not that innocent25Embed"
+    }
+}

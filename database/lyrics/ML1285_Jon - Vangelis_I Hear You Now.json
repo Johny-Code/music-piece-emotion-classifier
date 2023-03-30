@@ -1,0 +1,57 @@
+{
+    "id": "ML1285",
+    "mood": "relaxed",
+    "artist": "Jon & Vangelis",
+    "title": "I Hear You Now",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/821942",
+        "artist_names": "Jon & Vangelis",
+        "full_title": "I Hear You Now by\u00a0Jon\u00a0& Vangelis",
+        "header_image_thumbnail_url": "https://images.genius.com/23202096042d87fdb3d81eb78bb8e428.300x300x1.png",
+        "header_image_url": "https://images.genius.com/23202096042d87fdb3d81eb78bb8e428.1000x1000x1.png",
+        "id": 821942,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1545270181,
+        "path": "/Jon-and-vangelis-i-hear-you-now-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Jon-and-vangelis-i-hear-you-now-sample",
+        "release_date_components": {
+            "year": 1980,
+            "month": 1,
+            "day": 5
+        },
+        "release_date_for_display": "January 5, 1980",
+        "release_date_with_abbreviated_month_for_display": "Jan. 5, 1980",
+        "song_art_image_thumbnail_url": "https://images.genius.com/23202096042d87fdb3d81eb78bb8e428.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/23202096042d87fdb3d81eb78bb8e428.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "I Hear You Now",
+        "title_with_featured": "I Hear You Now",
+        "updated_by_human_at": 1618731688,
+        "url": "https://genius.com/Jon-and-vangelis-i-hear-you-now-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/344570",
+            "header_image_url": "https://images.genius.com/1660284d9aa72aef49420c43a7ef7b7a.425x268x1.jpg",
+            "id": 344570,
+            "image_url": "https://images.genius.com/2b2d739c353a3d41ba2dbb54f31a8a1e.1000x1000x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Jon & Vangelis",
+            "slug": "Jon-and-vangelis",
+            "url": "https://genius.com/artists/Jon-and-vangelis"
+        },
+        "artist": "Jon & Vangelis",
+        "lyrics": "I Hear You Now LyricsAfter the first embrace from you\nMy senses knew the look of love was in your eyes\nAnd after we first make love\nOur senses tingle to the touch oh how we hypnotize\nOh, to get the feeling on and on\nOh, just to get the feeling\n\nHolding you closer in my arms\nWe drift to heaven bringing in the morning light\nAnd after all is said and done\nThere's only us we can make it right\nSo, our love will carry on and on\nNow, our love will be free, be free\nAnd when we play, love don't delay, I hear you now\nFor what was then, is what is now, anyhow\n\nAs I became a guest of love's tune, hear again\nWe'll carry on together like today\n\nAfter the first embrace from you I...\nAfter the first embrace from you I want you tooYou might also likeEmbed"
+    }
+}

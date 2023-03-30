@@ -1,0 +1,57 @@
+{
+    "id": "ML1877",
+    "mood": "sad",
+    "artist": "Silbermond",
+    "title": "Symphonie",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/590909",
+        "artist_names": "Silbermond",
+        "full_title": "Symphonie by\u00a0Silbermond",
+        "header_image_thumbnail_url": "https://images.genius.com/ddcedc998b8b32cbca725fe4fb1d00f4.300x264x1.jpg",
+        "header_image_url": "https://images.genius.com/ddcedc998b8b32cbca725fe4fb1d00f4.342x301x1.jpg",
+        "id": 590909,
+        "instrumental": false,
+        "language": "de",
+        "lyrics_owner_id": 6542217,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1602545921,
+        "path": "/Silbermond-symphonie-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Silbermond-symphonie-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 9,
+            "day": 27
+        },
+        "release_date_for_display": "September 27, 2004",
+        "release_date_with_abbreviated_month_for_display": "Sep. 27, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ddcedc998b8b32cbca725fe4fb1d00f4.300x264x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ddcedc998b8b32cbca725fe4fb1d00f4.342x301x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 8,
+            "hot": false
+        },
+        "title": "Symphonie",
+        "title_with_featured": "Symphonie",
+        "updated_by_human_at": 1645609345,
+        "url": "https://genius.com/Silbermond-symphonie-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/12447",
+            "header_image_url": "https://images.genius.com/1ab4e4e42dfef744a87c31dcb11d044b.1000x563x1.jpg",
+            "id": 12447,
+            "image_url": "https://images.genius.com/3360e7b177dc3790b8435ad4d6600267.900x900x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Silbermond",
+            "slug": "Silbermond",
+            "url": "https://genius.com/artists/Silbermond"
+        },
+        "artist": "Silbermond",
+        "lyrics": "Symphonie Lyrics[Songtext zu \u201eSymphonie\u201c]\n\n[Strophe 1]\nSag mir was ist blo\u00df um uns geschehn\nDu scheinst mir auf einmal v\u00f6llig fremd zu sein\nWarum geht's mir nich mehr gut\nWenn ich in deinen Armen liege\nIst es egal geworden was mit uns passiert\nWo willst du hin ich kann dich kaum noch sehn\nUnsre Eitelkeit stellt sich uns in den Weg\nWollten wir nich alles wagen haben wir uns vielleicht verraten\nIch hab geglaubt wir k\u00f6nnten echt alles ertragen\n[Pre-Refrain]\nSymphonie\nUnd jetzt wird es still um uns\nDenn wir stehn hier im Regen haben nichts mehr zu geben\nUnd es ist besser wenn du gehst\n\n[Refrain]\nDenn es ist Zeit\nSich ein zu gestehn dass es nicht geht\nEs gibt nichts mehr zu reden denn wenn es regnet\nIst es besser aufzugeben\n\n[Strophe 2]\nUnd es verdichtet sich die Stille \u00fcber uns\nIch versteh nich ein Wort mehr aus deinem Mund\nHaben wir zu viel versucht warum konnten wir's nicht ahnen\nEs wird nicht leicht sein das alles einzusehn\n\n[Pre-Refrain]\n\n[Refrain]\n\n[Strophe 3]\nIrgendwo sind wir gescheitert\nUnd so wie's ist so geht's nich weiter\nDas Ende ist schon lang geschrieben\nUnd das war unsre\nYou might also like[Pre-Refrain]\n\n[Refrain]Embed"
+    }
+}

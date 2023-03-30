@@ -1,0 +1,59 @@
+{
+    "id": "ML651",
+    "mood": "angry",
+    "artist": "Rihanna",
+    "title": "Breakin' Dishes",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/99373",
+        "artist_names": "Rihanna",
+        "full_title": "Breakin' Dishes by\u00a0Rihanna",
+        "header_image_thumbnail_url": "https://images.genius.com/0cc57cf19c0185de45271fe8db27387b.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/0cc57cf19c0185de45271fe8db27387b.1000x1000x1.jpg",
+        "id": 99373,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 160659,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1678084070,
+        "path": "/Rihanna-breakin-dishes-lyrics",
+        "pyongs_count": 5,
+        "relationships_index_url": "https://genius.com/Rihanna-breakin-dishes-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 5,
+            "day": 31
+        },
+        "release_date_for_display": "May 31, 2007",
+        "release_date_with_abbreviated_month_for_display": "May. 31, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/0cc57cf19c0185de45271fe8db27387b.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/0cc57cf19c0185de45271fe8db27387b.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 8,
+            "hot": false,
+            "pageviews": 25309
+        },
+        "title": "Breakin\u2019 Dishes",
+        "title_with_featured": "Breakin' Dishes",
+        "updated_by_human_at": 1678084071,
+        "url": "https://genius.com/Rihanna-breakin-dishes-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/89",
+            "header_image_url": "https://images.genius.com/7fbc0f95ca9d7d24853328749c8affd1.1000x333x1.jpg",
+            "id": 89,
+            "image_url": "https://images.genius.com/171508341b8ce58320f1c6434fa78de8.399x399x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Rihanna",
+            "slug": "Rihanna",
+            "url": "https://genius.com/artists/Rihanna",
+            "iq": 2260
+        },
+        "artist": "Rihanna",
+        "lyrics": "Breakin\u2019 Dishes Lyrics[Intro]\nOw-ow (Ow-ow)\nOw-ow (Ow-ow)\nOw-ow (Ow-ow-ow)\nI don't know who you think I am\nI don't know who you think I am\nI don't know who you think I am\nI don't know who you think I am\n(Am am am am am am am am, ow)\n\n[Verse 1]\nHe been gone (Gone) since 3:30 (3:30)\nBeen coming home lately at 3:30 (3:30)\nI'm super cool, I've been a fool\nBut now I'm hot, and baby, you gon' get it\nNow I ain't trippin', ah, I ain't twisted, ah\nI ain't demented, ha, well, just a lil' bit (Ha)\nI'm kickin' asses, I'm taking names\nI'm on flame, don't come home, babe\n[Chorus]\nI'm breakin' dishes up in here, all night (Uh-huh)\nI ain't gon' stop until I see police lights (Uh-huh)\nI'ma fight a man tonight, I'ma fight a man tonight\nI'ma fight a man, a man, a man\nA man, a man, a man, oh\n\n[Verse 2]\nI'm still waitin', come through the door\nI'm killin' time, you know, bleachin' your clothes\nI'm roastin' marshmallows on the fire\nAnd what I'm burnin' is your attire\nI'm getting restless, I'm getting tested\nAnd I can't believe he's always out every night and never checks in\nIs he cheatin'? Man, I don't know\nI'm lookin' 'round for something else to throw\n\n[Chorus]\nI'm breakin' dishes up in here, all night (Uh-huh)\nI ain't gon' stop until I see police lights (Uh-huh)\nI'ma fight a man tonight, I'ma fight a man tonight\nI'ma fight a man, a man, a man\nA man, a man, a man, oh\n\n[Bridge]\n(Ah) I don't know who you think I am (I am, I am, I am, I am)\n(I don't know who you think I am)\nBut I really don't give a damn right now (Ah)\nIf you don't come, I'ma huff and puff and blow this, blow this, oh\nBlow this, blow this, I'ma blow this, blow this, oh\nBlow this, blow this, I'ma blow this, blow this, oh\nBlow this house, house down\nDishes, breakin' dishes, breakin' dishes\nYou might also like[Chorus]\nI'm breakin' dishes up in here, all night (Uh-huh)\nI ain't gon' stop until I see police lights (Uh-huh)\nI'ma fight a man tonight, I'ma fight a man tonight\nI'ma fight a man, a man, a man\nA man, a man, a man\nFight a man, a man, a man\nA man, a man, a man, oh\n\n[Outro]\nBreakin', breakin', breakin', breakin' (Dishes, dishes, dishes)\nBreakin', breakin', breakin', breakin' (Dishes, dishes, dishes)\nBreakin', breakin', breakin', breakin' (Dishes, dishes, dishes)\nBreakin', breakin', breakin', breakin' (Dishes, dishes, dishes)5Embed"
+    }
+}

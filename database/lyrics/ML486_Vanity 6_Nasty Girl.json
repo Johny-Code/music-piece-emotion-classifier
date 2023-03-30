@@ -1,0 +1,58 @@
+{
+    "id": "ML486",
+    "mood": "happy",
+    "artist": "Vanity 6",
+    "title": "Nasty Girl",
+    "song": {
+        "_type": "song",
+        "annotation_count": 11,
+        "api_path": "/songs/1827742",
+        "artist_names": "Vanity 6",
+        "full_title": "Nasty Girl by\u00a0Vanity\u00a06",
+        "header_image_thumbnail_url": "https://images.genius.com/da1bb847b32aa5fc1c915d981ae5cac2.300x169x1.jpg",
+        "header_image_url": "https://images.genius.com/da1bb847b32aa5fc1c915d981ae5cac2.1000x563x1.jpg",
+        "id": 1827742,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1973584,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1566440127,
+        "path": "/Vanity-6-nasty-girl-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Vanity-6-nasty-girl-sample",
+        "release_date_components": {
+            "year": 1982,
+            "month": 8,
+            "day": 11
+        },
+        "release_date_for_display": "August 11, 1982",
+        "release_date_with_abbreviated_month_for_display": "Aug. 11, 1982",
+        "song_art_image_thumbnail_url": "https://images.genius.com/aedd4897f4fd5a7dd6e47125b1571884.300x299x1.jpg",
+        "song_art_image_url": "https://images.genius.com/aedd4897f4fd5a7dd6e47125b1571884.600x598x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 46838
+        },
+        "title": "Nasty Girl",
+        "title_with_featured": "Nasty Girl",
+        "updated_by_human_at": 1623146277,
+        "url": "https://genius.com/Vanity-6-nasty-girl-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/404161",
+            "header_image_url": "https://images.genius.com/871c9155425f6605e0ff96fde7ad0d8f.1000x633x1.jpg",
+            "id": 404161,
+            "image_url": "https://images.genius.com/350e36489780bc218ad15e009aa99f24.1000x1000x1.jpg",
+            "index_character": "v",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Vanity 6",
+            "slug": "Vanity-6",
+            "url": "https://genius.com/artists/Vanity-6"
+        },
+        "artist": "Vanity 6",
+        "lyrics": "Nasty Girl Lyrics[Verse 1]\nThat's right, pleased to meet you\nI still won't tell you my name\nDon't you believe in mystery\nDon't you want to play my game\nI'm lookin' for a man to love me\nLike I've never been loved before\nI'm lookin' for a man that'll do it anywhere\nEven on a limousine floor 'cause\n\n[Chorus]\nTonight i'm livin' in a fantasy\nMy own little nasty world\nTonight, don't you wanna come with me\nDo you think i'm a nasty girl\nTonight, I'm livin' in a fantasy\nMy own little nasty world\nTonight, don't you want to come with me\nDo you think I'm a nasty girl\n[Verse 2]\nI guess I'm just used to sailors\nI think they got water on the brain\nI think they got more water upstairs\nThan they got sugar on a candy cane\nThat's right, it's been a long time\nSince I had a man that did it real good\nIf you ain't scared, take it out\nI'll do it like a real live nasty girl should\n\n[Chorus]\nTonight I'm livin in a fantasy world\nMy own little nasty world\nTonight, don't you want to come with me\nDo you think I'm a nasty girl\nTonight I'm livin' in a fantasy\nMy own little nasty world\nTonight, don't you want to come with me\nDo you think i'm a nasty girl\nTonight I'm livin in a fantasy world\nMy own little nasty world\nTonight, don't you want to come with me\nDo you think I'm a nasty girl\nTonight I'm livin' in a fantasy\nMy own little nasty world\nTonight, don't you want to come with me\nDo you think i'm a nasty girl\nYou might also like[Bridge]\nPlease, please\nPlease, please\nNasty girl (nasty girl)\nDo you think I'm a nasty girl\nNasty girl (nasty girl)\nDo you think I'm a nasty girl\nNasty girl (nasty girl)\nDo you think I'm a nasty girl\nNasty girl (nasty girl)\nDo you think I'm a nasty girl\nOh (do you think I'm a nasty girl)\nOh (nasty girl)\nNasty girl (nasty girl)\nDo you think I'm a nasty girl\nOh\n\n[Spoken Interlude]\nI don't like this groove\nTry and give me something I can croon to\nCatch my drift?\nThat'll work\n\n[Instrumental Break]\n\n[Spoken Interlude]\nThat's right, I can't control it\nI need seven inches or more\nTonight, I can no longer hold it\nGet it up, get it up, I can't wait anymore\n[Outro]\nUh, it's time to jam\nDance nasty girls, dance\nEverybody, uh, it's time to jam\nNasty girls, dance, dance, dance (Yeah)\nEverybody, uh, it's time to jam\nNasty girls, dance, dance, dance\nUh, it's time to jam\nNasty girls, dance, dance, dance\nUh, it's time to jam\nNasty girls, dance, dance, dance\nUh, it's time to jam\nNasty girls, dance, dance, dance\nUh, it's time to jam\nNasty girls, dance, dance, dance\nUh, it's time to jam\nNasty girls, dance, dance, dance\n\n(Are you gonna come)\n(Are you gonna come)\n(Are you gonna come)\n(Are you gonna come)\n(Ooh, ooh, ooh)\n\nUh\nIs that it\nMmm, wake me up when you're done\nI guess you'll be the only one having fun2Embed"
+    }
+}

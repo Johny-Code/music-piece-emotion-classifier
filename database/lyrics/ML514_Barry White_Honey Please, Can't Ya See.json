@@ -1,0 +1,57 @@
+{
+    "id": "ML514",
+    "mood": "happy",
+    "artist": "Barry White",
+    "title": "Honey Please, Can't Ya See",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/837648",
+        "artist_names": "Barry White",
+        "full_title": "Honey Please, Can't Ya See by\u00a0Barry\u00a0White",
+        "header_image_thumbnail_url": "https://images.genius.com/0b440f8e46d177d85698aaf90a23ef6a.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/0b440f8e46d177d85698aaf90a23ef6a.1000x1000x1.jpg",
+        "id": 837648,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 4619460,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1667549192,
+        "path": "/Barry-white-honey-please-cant-ya-see-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Barry-white-honey-please-cant-ya-see-sample",
+        "release_date_components": {
+            "year": 1973,
+            "month": 10,
+            "day": 2
+        },
+        "release_date_for_display": "October 2, 1973",
+        "release_date_with_abbreviated_month_for_display": "Oct. 2, 1973",
+        "song_art_image_thumbnail_url": "https://images.genius.com/0b440f8e46d177d85698aaf90a23ef6a.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/0b440f8e46d177d85698aaf90a23ef6a.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Honey Please, Can\u2019t Ya See",
+        "title_with_featured": "Honey Please, Can't Ya See",
+        "updated_by_human_at": 1667549192,
+        "url": "https://genius.com/Barry-white-honey-please-cant-ya-see-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/3719",
+            "header_image_url": "https://images.genius.com/8137bd2e4bcb1d843dc287fb887c221c.1000x962x1.jpg",
+            "id": 3719,
+            "image_url": "https://images.genius.com/1e97de0c57d484cdbd654d1e8cc3fa13.825x825x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Barry White",
+            "slug": "Barry-white",
+            "url": "https://genius.com/artists/Barry-white"
+        },
+        "artist": "Barry White",
+        "lyrics": "Honey Please, Can\u2019t Ya See Lyrics[Verse 1]\nWhoo\nSomebody loves me too\nI guess I always knew\nI'd find someone like you\nSo doggone sweet and true\nMy\nMy, oh me, oh my\nYou're the reason why\nI'll love you till the day I die\nMy, oh my\n[Chorus]\nHoney please, can't ya see you saved me?\nCan't ya see you gave me?\nCan't ya see you made me, yeah\nHoney please, can't ya see (You saved me)\nHoney, can't ya see (You made me)\n(Can't ya see you gave me)\nWhat you gave to me, yeah, yeah, yeah\nHoney please, can't ya see you saved me?\nCan't ya see you made me?\nCan't ya see you gave me?\nHoney please, can't ya see you saved me?\nCan't ya see you made me?\nCan't ya see?\nOh, honey please\nYeah yeah yeah yeah\n\n[Verse 2]\nIn (ahh)\nAll this time I've been\nLost in the world without end\nTill the day you came into my life\nAnd you made it right\nOh, girl\nOh\nYou might also like[Outro]\n(Can't ya see you made me?)\n(Can't ya see you gave me?)\n(Honey please, can't ya see you saved me?) Yeah, aww, yeah yeah\n(Can't ya see you made me?) Aww, yeah yeah yeah\n(Can't ya see you gave me?) My my baby, my baby\n(Honey please, can't ya see you saved me?)\n(Can't ya see you made me?)\n(Can't ya see you gave me?)\n(Honey please, can't ya see you saved me?)\n(Can't ya see you made me?)\n(Can't ya see you gave me?)\n(Honey please, can't ya see you saved me?)\n(Can't ya see you made me?)\n(Can't ya see you gave me?)\n(Honey please, can't ya see you saved me?)\n(Can't ya see you made me?)\n(Can't ya see you gave me?)\n(Honey please, can't ya see you saved me?)\n(Can't ya see you made me?)\n(Can't ya see you gave me?)Embed"
+    }
+}

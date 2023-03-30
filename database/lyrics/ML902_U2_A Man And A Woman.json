@@ -1,0 +1,57 @@
+{
+    "id": "ML902",
+    "mood": "happy",
+    "artist": "U2",
+    "title": "A Man And A Woman",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/138828",
+        "artist_names": "U2",
+        "full_title": "A Man and a Woman by\u00a0U2",
+        "header_image_thumbnail_url": "https://images.genius.com/3abaf49122ac48ce14dbe60090a01f02.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3abaf49122ac48ce14dbe60090a01f02.1000x1000x1.jpg",
+        "id": 138828,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 33067,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1679439611,
+        "path": "/U2-a-man-and-a-woman-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/U2-a-man-and-a-woman-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 11,
+            "day": 22
+        },
+        "release_date_for_display": "November 22, 2004",
+        "release_date_with_abbreviated_month_for_display": "Nov. 22, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3abaf49122ac48ce14dbe60090a01f02.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3abaf49122ac48ce14dbe60090a01f02.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false
+        },
+        "title": "A Man and a Woman",
+        "title_with_featured": "A Man and a Woman",
+        "updated_by_human_at": 1679439624,
+        "url": "https://genius.com/U2-a-man-and-a-woman-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/23895",
+            "header_image_url": "https://images.genius.com/ee67b5a6bc567af7c680ee086c2e0c8d.620x349x1.jpg",
+            "id": 23895,
+            "image_url": "https://images.genius.com/0565db2dbe447e1e79c41d785d3e6b26.819x819x1.jpg",
+            "index_character": "u",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "U2",
+            "slug": "U2",
+            "url": "https://genius.com/artists/U2"
+        },
+        "artist": "U2",
+        "lyrics": "A Man and a Woman Lyrics[Verse 1]\nLittle sister\nDon't you worry about a thing today\nTake the heat from the sun\nAnd little sister\nI know that everything is not okay\nBut you're like honey on my tongue\n\n[Pre-Chorus]\nTrue love never can be rent\nBut only true love can keep beauty innocent\n[Chorus]\nAnd I could never take a chance\nOf losing love to find romance\nIn the mysterious distance\nBetween a man and a woman\nNo, I could never take a chance\n'Cause I could never understand\nThe mysterious distance\nBetween a man and a woman\n\n[Verse 2]\nYou can run from love\nAnd if it's really love it will find you\nCatch you by the heel\nBut you can't be numb for love\nThe only pain is to feel nothing at all\nHow can I hurt when I'm holding you?\n\n[Chorus]\nAnd I could never take a chance\nOf losing love to find romance\nIn the mysterious distance\nBetween a man and a woman\nAnd you're the one, there's no one else\nIt makes me want to lose myself\nIn the mysterious distance\nBetween a man and a woman\nYou might also like[Bridge]\nBrown-eyed girl across the street\nOn rue Saint Divine\nI thought this is the one for me\nBut she was already mine\nYou were already mine...\n\n[Verse 3]\nLittle sister\nI've been sleeping in the street again\nLike a stray dog\nAnd little sister\nI've been trying to feel complete again\nBut you're gone and so is God\n\n[Pre-Chorus]\nThe soul needs beauty for a soulmate\nWhen the soul wants, the soul waits\n\n[Chorus]\nAnd I could never take a chance\nOf losing love to find romance\nIn the mysterious distance\nBetween a man and a woman\nFor love and faith and sex and fear\nAnd all the things that keep us here\nIn the mysterious distance\nBetween a man and a woman\n[Outro]\n(You'll see)\n(You'll see)\nHow can I hurt when I'm holding you?2Embed"
+    }
+}

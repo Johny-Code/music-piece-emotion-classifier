@@ -1,0 +1,58 @@
+{
+    "id": "ML923",
+    "mood": "relaxed",
+    "artist": "Chairlift",
+    "title": "Ceiling Wax",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1497667",
+        "artist_names": "Chairlift",
+        "full_title": "Ceiling Wax by\u00a0Chairlift",
+        "header_image_thumbnail_url": "https://images.genius.com/176be6010f3b9e9d33d09c3dc5b53d46.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/176be6010f3b9e9d33d09c3dc5b53d46.1000x1000x1.jpg",
+        "id": 1497667,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1575681042,
+        "path": "/Chairlift-ceiling-wax-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Chairlift-ceiling-wax-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 7,
+            "day": 22
+        },
+        "release_date_for_display": "July 22, 2008",
+        "release_date_with_abbreviated_month_for_display": "Jul. 22, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/176be6010f3b9e9d33d09c3dc5b53d46.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/176be6010f3b9e9d33d09c3dc5b53d46.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Ceiling Wax",
+        "title_with_featured": "Ceiling Wax",
+        "updated_by_human_at": 1591220611,
+        "url": "https://genius.com/Chairlift-ceiling-wax-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1749",
+            "header_image_url": "https://images.genius.com/894ff518817e0de94af6ee29b83f6609.1000x1000x1.jpg",
+            "id": 1749,
+            "image_url": "https://images.genius.com/894ff518817e0de94af6ee29b83f6609.1000x1000x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Chairlift",
+            "slug": "Chairlift",
+            "url": "https://genius.com/artists/Chairlift",
+            "iq": 2287
+        },
+        "artist": "Chairlift",
+        "lyrics": "Ceiling Wax LyricsWhen I'll walk out of this road\nYou'll never see me again\nFor I will never return\nFrom that scary place\n\nMy time is come\nMy day is done\nMy time is come\nMy day is doneYou might also likeEmbed"
+    }
+}

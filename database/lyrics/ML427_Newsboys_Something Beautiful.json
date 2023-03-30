@@ -1,0 +1,57 @@
+{
+    "id": "ML427",
+    "mood": "happy",
+    "artist": "Newsboys",
+    "title": "Something Beautiful",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/949644",
+        "artist_names": "Newsboys",
+        "full_title": "Something Beautiful by\u00a0Newsboys",
+        "header_image_thumbnail_url": "https://images.genius.com/912788a60c942444534e531aa5954801.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/912788a60c942444534e531aa5954801.1000x1000x1.jpg",
+        "id": 949644,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6931832,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1569836984,
+        "path": "/Newsboys-something-beautiful-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Newsboys-something-beautiful-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2006",
+        "release_date_with_abbreviated_month_for_display": "2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/912788a60c942444534e531aa5954801.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/912788a60c942444534e531aa5954801.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Something Beautiful",
+        "title_with_featured": "Something Beautiful",
+        "updated_by_human_at": 1569836984,
+        "url": "https://genius.com/Newsboys-something-beautiful-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/61480",
+            "header_image_url": "https://images.genius.com/f018d24e1e60dd677a41c2ec8d7bf153.1000x667x1.jpg",
+            "id": 61480,
+            "image_url": "https://images.genius.com/f018d24e1e60dd677a41c2ec8d7bf153.1000x667x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Newsboys",
+            "slug": "Newsboys",
+            "url": "https://genius.com/artists/Newsboys"
+        },
+        "artist": "Newsboys",
+        "lyrics": "Something Beautiful Lyrics[Verse 1]\nI wanna start it over\nI wanna start again\nI want a new beginning\nOne without an end\nI feel it inside\nCalling out to me\n\n[Chorus]\nIt's a voice that whispers my name\nIt's a kiss without any shame\nSomething beautiful, yeah, yeah\nLike a song that stirs in my head\nSinging love will take us where\nSomething's beautiful\n[Verse 2]\nI've heard it in the silence\nSeen it on a face\nI've felt it in the long hour\nLike a sweet embrace\nI know this is true\nIt's calling out to me\n\n[Chorus]\nIt's a voice that whispers my name\nIt's a kiss without any shame\nSomething beautiful, yeah, yeah\nLike a song that stirs in my head\nSinging love will take us where\nSomething's beautiful\n\n[Bridge]\nIt's the child on her wedding day\nIt's the daddy that gives her away\nSomething beautiful, yeah, yeah\nWhen we laugh so hard we cry\nOh the love between you and I\nSomething beautiful\n\n[Chorus]\nIt's a voice that whispers my name\nIt's a kiss without any shame\nSomething beautiful, yeah, yeah\nLike a song that stirs in my head\nSinging love will take us where\nSomething's beautiful\nYou might also like[Chorus]\nIt's the child on her wedding day\nIt's the daddy that gives her away\nSomething beautiful\nWhen we laugh so hard we cry\nIt's the love between You and I\nSomething beautiful\n\n[Outro]\nSomething beautifulEmbed"
+    }
+}

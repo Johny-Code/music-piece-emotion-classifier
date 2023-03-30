@@ -1,0 +1,59 @@
+{
+    "id": "ML1898",
+    "mood": "happy",
+    "artist": "Dierks Bentley",
+    "title": "What Was I Thinkin'",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/445173",
+        "artist_names": "Dierks Bentley",
+        "full_title": "What Was I Thinkin' by\u00a0Dierks\u00a0Bentley",
+        "header_image_thumbnail_url": "https://images.genius.com/0cb09c505a1e9c79a219bbaf05147b71.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/0cb09c505a1e9c79a219bbaf05147b71.1000x1000x1.jpg",
+        "id": 445173,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 7352366,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1606199366,
+        "path": "/Dierks-bentley-what-was-i-thinkin-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Dierks-bentley-what-was-i-thinkin-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 8,
+            "day": 19
+        },
+        "release_date_for_display": "August 19, 2003",
+        "release_date_with_abbreviated_month_for_display": "Aug. 19, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/559385609a6ca8d064f467044cbf2bd8.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/559385609a6ca8d064f467044cbf2bd8.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 17994
+        },
+        "title": "What Was I Thinkin\u2019",
+        "title_with_featured": "What Was I Thinkin'",
+        "updated_by_human_at": 1633826341,
+        "url": "https://genius.com/Dierks-bentley-what-was-i-thinkin-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/58622",
+            "header_image_url": "https://images.genius.com/5a472596eb0915ceca9f32ae0cdc4914.400x400x1.jpg",
+            "id": 58622,
+            "image_url": "https://images.genius.com/5a472596eb0915ceca9f32ae0cdc4914.400x400x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Dierks Bentley",
+            "slug": "Dierks-bentley",
+            "url": "https://genius.com/artists/Dierks-bentley",
+            "iq": 100
+        },
+        "artist": "Dierks Bentley",
+        "lyrics": "What Was I Thinkin\u2019 Lyrics[Verse 1]\nBecky was a beauty from south Alabama\nHer daddy had a heart like a nine-pound hammer\nThink he even did a little time in the slammer\nWhat was I thinking?\nShe snuck out one night and met me by the front gate\nHer daddy came out waving that twelve gauge\nWe tore out the drive he peppered my tailgate\nWhat was I thinking?\n\n[Pre-Chorus]\nOh, I knew there'd be hell to pay\nBut that crossed my mind a little too late\nCause I was\n[Chorus]\nThinking about a little white tank top sitting right\nThere in the middle by me\nI was thinking about a long kiss man just got to get\nGoing where the night might lead\nI know what I was feeling\nBut what was I thinking... what was I thinking\n\n[Verse 2]\nBy the county line the cops were nipping on our heels\nPulled off the road and kicked it in four-wheel\nShut off the lights and tore through the corn field\nWhat was I thinking?\nOut the other side she was hollering faster\nTook a dirt road and had the radio blasting\nHit the honky tonk for a little close dancing\nWhat was I thinking?\n\n[Pre-Chorus]\nOh, I knew there'd be hell to pay\nBut that crossed my mind a little too late\nCause I was\n\n[Chorus]\nThinking about a little white tank top sitting right\nThere in the middle by me\nI was thinking about a long kiss man just got to get\nGoing where the night might lead\nI know what I was feeling\nBut what was I thinking... what was I thinking\nYou might also like[Verse 3]\nWhen a mountain of a man with a \"born to kill\" tattoo\nTried to cut in I knocked out his front tooth\nWe ran outside hood-sliding like Bo Duke\nWhat was I thinking?\nI finally got her home at a half past too late\nHer daddy's in a lawn chair sitting on the driveway\nPut it in park as he started my way\nWhat was I thinking, oh what was I thinking, oh what was I thinking\nThen she gave a come-and-get-me grin\nAnd like a bullet we were gone again... cause I was\n\n[Chorus]\nThinking about a little white tank top sitting right\nThere in the middle by me\nI was thinking about a long kiss man just got to get\nGoing where the night might lead\nI know what I was feeling\nBut what was I thinking... what was I thinking2Embed"
+    }
+}

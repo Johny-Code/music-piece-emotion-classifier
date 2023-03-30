@@ -1,0 +1,58 @@
+{
+    "id": "ML481",
+    "mood": "angry",
+    "artist": "Violent Femmes",
+    "title": "Kiss Off",
+    "song": {
+        "_type": "song",
+        "annotation_count": 14,
+        "api_path": "/songs/340102",
+        "artist_names": "Violent Femmes",
+        "full_title": "Kiss Off by\u00a0Violent\u00a0Femmes",
+        "header_image_thumbnail_url": "https://images.genius.com/9a935e9fc4eeecbe370b2a3527eb97ba.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/9a935e9fc4eeecbe370b2a3527eb97ba.1000x1000x1.jpg",
+        "id": 340102,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 113589,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1670732064,
+        "path": "/Violent-femmes-kiss-off-lyrics",
+        "pyongs_count": 11,
+        "relationships_index_url": "https://genius.com/Violent-femmes-kiss-off-sample",
+        "release_date_components": {
+            "year": 1983,
+            "month": 4,
+            "day": 13
+        },
+        "release_date_for_display": "April 13, 1983",
+        "release_date_with_abbreviated_month_for_display": "Apr. 13, 1983",
+        "song_art_image_thumbnail_url": "https://images.genius.com/9a935e9fc4eeecbe370b2a3527eb97ba.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/9a935e9fc4eeecbe370b2a3527eb97ba.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 51008
+        },
+        "title": "Kiss Off",
+        "title_with_featured": "Kiss Off",
+        "updated_by_human_at": 1670732064,
+        "url": "https://genius.com/Violent-femmes-kiss-off-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/27225",
+            "header_image_url": "https://images.genius.com/a81c0eb2ae6553f9694949927592fe69.900x537x1.jpg",
+            "id": 27225,
+            "image_url": "https://images.genius.com/e017681981322a33629f8f78542c02f8.958x958x1.jpg",
+            "index_character": "v",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Violent Femmes",
+            "slug": "Violent-femmes",
+            "url": "https://genius.com/artists/Violent-femmes"
+        },
+        "artist": "Violent Femmes",
+        "lyrics": "Kiss Off Lyrics[Verse 1]\nI need someone, a person to talk to\nSomeone who'd care to love\nCould it be you?\nCould it be you?\nSituation gets rough, then I start to panic\nIt's not enough, it's just a habit\nHey, kid, you're sick\nWell, darling, this is it\n\n[Chorus]\nYou can all just kiss off into the air\nBehind my back, I can see them stare\nThey'll hurt me bad, but I won't mind\nThey'll hurt me bad, they do it all the time (Yeah, yeah)\nYeah, they do it all the time (Yeah, yeah)\nThey do it all the time (Do it all the time)\nThey do it all the time (Do it all the time)\nThey do it all the time, do it all the time\n[Verse 2]\nI hope you know that this will go down on your permanent record\nOh, yeah?\nWell, don't get so distressed\nDid I happen to mention that I'm impressed?\n\n[Bridge]\nI take one, one, one 'cause you left me\nAnd two, two, two for my family\nAnd three, three, three for my heartache\nAnd four, four, four for my headaches\nAnd five, five, five for my lonely\nAnd six, six, six for my sorrow\nAnd seven, seven, n-n-n-n-no tomorrow\nAnd eight, eight, I forget what eight was for\nBut nine, nine, nine for a lost god\nAnd ten, ten, ten, ten for everything, everything, everything, everything\n\n[Chorus]\nWell, you can all just kiss off into the air\nBehind my back, I can see them stare\nThey'll hurt me bad, but I won't mind\nThey'll hurt me bad, they do it all the time (Yeah, yeah)\nYeah, they do it all the time (Yeah, yeah)\nYeah, they do it all the time (Do it all the time)\nDo it all the time (Do it all the time)\nDo it all the time, time, time, time, time, t-time, time\n(Do it all the time)\nTime, time, time, time, time, time, time, time, time, time, time, time\nDo it all the timeYou might also like11Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML679",
+    "mood": "sad",
+    "artist": "Love Is All",
+    "title": "Make Out Fall Out Make Up",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/790145",
+        "artist_names": "Love Is All",
+        "full_title": "Make Out. Fall Out. Make Up. by\u00a0Love\u00a0Is All",
+        "header_image_thumbnail_url": "https://images.genius.com/8aca343e4269b0ae904b1ec613d9dce3.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/8aca343e4269b0ae904b1ec613d9dce3.600x600x1.jpg",
+        "id": 790145,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429197069,
+        "path": "/Love-is-all-make-out-fall-out-make-up-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Love-is-all-make-out-fall-out-make-up-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 7,
+            "day": 3
+        },
+        "release_date_for_display": "July 3, 2006",
+        "release_date_with_abbreviated_month_for_display": "Jul. 3, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8aca343e4269b0ae904b1ec613d9dce3.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8aca343e4269b0ae904b1ec613d9dce3.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Make Out. Fall Out. Make Up.",
+        "title_with_featured": "Make Out. Fall Out. Make Up.",
+        "updated_by_human_at": 1657562148,
+        "url": "https://genius.com/Love-is-all-make-out-fall-out-make-up-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/349290",
+            "header_image_url": "https://images.genius.com/dd042b66c8752c91a351099bed7d48df.600x450x1.jpg",
+            "id": 349290,
+            "image_url": "https://images.genius.com/9543752140f1f83de5f99446db4f0423.209x209x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Love Is All",
+            "slug": "Love-is-all",
+            "url": "https://genius.com/artists/Love-is-all"
+        },
+        "artist": "Love Is All",
+        "lyrics": "Make Out. Fall Out. Make Up. LyricsRecords and clothes on the floor\nRemind me of the night before\nA pounding pain in my head\nI think I'll spend all day in bed\n\nA thousand cigarettes went nuts\nThe stranger's hand in mine went white\nSmudged lipstick, feeling sick\nMake out, fall out, make up\n\nMake out, fall out, make up, fall out\nDancing in the living room\nWith light supplied by the moon\nThings I've said but shouldn't\nTricks I've tried but couldn't\n\nSorry if the music's too loud\nNow the air is thicker than the cloud\nDid I really call you\nI was looking for someone I knew\n\nMake out, fall out, make up, fall out\nFall out (fades) Make up fall out!You might also likeEmbed"
+    }
+}

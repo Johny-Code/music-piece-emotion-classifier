@@ -1,0 +1,58 @@
+{
+    "id": "ML1228",
+    "mood": "angry",
+    "artist": "Suicide",
+    "title": "Frankie Teardrop",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1695405",
+        "artist_names": "Suicide",
+        "full_title": "Frankie Teardrop by\u00a0Suicide",
+        "header_image_thumbnail_url": "https://images.genius.com/cbc4b5cfce0514b46978e3d81feccff0.300x300x1.png",
+        "header_image_url": "https://images.genius.com/cbc4b5cfce0514b46978e3d81feccff0.1000x1000x1.png",
+        "id": 1695405,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 7901068,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1643514334,
+        "path": "/Suicide-frankie-teardrop-lyrics",
+        "pyongs_count": 12,
+        "relationships_index_url": "https://genius.com/Suicide-frankie-teardrop-sample",
+        "release_date_components": {
+            "year": 1977,
+            "month": 12,
+            "day": 28
+        },
+        "release_date_for_display": "December 28, 1977",
+        "release_date_with_abbreviated_month_for_display": "Dec. 28, 1977",
+        "song_art_image_thumbnail_url": "https://images.genius.com/cbc4b5cfce0514b46978e3d81feccff0.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/cbc4b5cfce0514b46978e3d81feccff0.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 28628
+        },
+        "title": "Frankie Teardrop",
+        "title_with_featured": "Frankie Teardrop",
+        "updated_by_human_at": 1648462090,
+        "url": "https://genius.com/Suicide-frankie-teardrop-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/155884",
+            "header_image_url": "https://images.genius.com/8cbfbd32d584ad3cd2fb8d0c2a86e9ec.618x157x1.jpg",
+            "id": 155884,
+            "image_url": "https://images.genius.com/203a6ae8545d1a9ea69cd701d1ddf611.983x983x1.png",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Suicide",
+            "slug": "Suicide",
+            "url": "https://genius.com/artists/Suicide"
+        },
+        "artist": "Suicide",
+        "lyrics": "Frankie Teardrop LyricsFrankie Teardrop\nTwenty year old Frankie\nHe's married, he's got a kid\nAnd he's working in a factory\nHe's working from seven to five\nHe's just trying to survive\n\nWell, let's hear it for Frankie\nFrankie, Frankie\n\nBut Frankie can't make it\n'Cause things are just too hard\nFrankie can't make enough money\nFrankie can't buy enough food\nAnd Frankie's getting evicted\nWell, let's hear it for Frankie\nOh, Frankie, Frankie\nOh, Frankie, Frankie\n\nFrankie's so desperate\nHe's gonna kill his wife and kid\nFrankie's gonna kill his kid, hmm\nFrankie picked up a gun, hmm\nPointed at the six month old kid in the crib\nOh, Frankie\nAh\n\nFrankie looked at his wife\nShot her\nAh\nAh\nUgh, ugh\n\"Oh, what have I done?\"\n\nLet's hear it for Frankie\nFrankie Teardrop, hmm\n\nFrankie put the gun to his head, mmh\nUh, uh ah, hmm\nAh\nMmh, Frankie's dead\nYou might also likeAh, ah, mmh, ah\nOoh, Frankie, ah\n\nAh, ah, ah\nFrankie's lying in hell\nAh, ah\n\nAh, ah\nAh\nCome on, get up\nWe're all Frankies\nWe're all lying in hell\nCome on, get up, come on\nAh, ah, ah12Embed"
+    }
+}

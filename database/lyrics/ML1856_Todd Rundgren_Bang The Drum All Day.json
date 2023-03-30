@@ -1,0 +1,58 @@
+{
+    "id": "ML1856",
+    "mood": "happy",
+    "artist": "Todd Rundgren",
+    "title": "Bang The Drum All Day",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/1160448",
+        "artist_names": "Todd Rundgren",
+        "full_title": "Bang the Drum All Day by\u00a0Todd\u00a0Rundgren",
+        "header_image_thumbnail_url": "https://images.genius.com/2a9b2a57ed7cdb4bcc2eb01ba280b7d6.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2a9b2a57ed7cdb4bcc2eb01ba280b7d6.1000x1000x1.jpg",
+        "id": 1160448,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5593635,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1657885496,
+        "path": "/Todd-rundgren-bang-the-drum-all-day-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Todd-rundgren-bang-the-drum-all-day-sample",
+        "release_date_components": {
+            "year": 1982,
+            "month": 12,
+            "day": 30
+        },
+        "release_date_for_display": "December 30, 1982",
+        "release_date_with_abbreviated_month_for_display": "Dec. 30, 1982",
+        "song_art_image_thumbnail_url": "https://images.genius.com/2a9b2a57ed7cdb4bcc2eb01ba280b7d6.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2a9b2a57ed7cdb4bcc2eb01ba280b7d6.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 9106
+        },
+        "title": "Bang the Drum All Day",
+        "title_with_featured": "Bang the Drum All Day",
+        "updated_by_human_at": 1666801394,
+        "url": "https://genius.com/Todd-rundgren-bang-the-drum-all-day-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/39345",
+            "header_image_url": "https://images.genius.com/9ae02f62d21594d509570122cc0b4f84.770x437x1.jpg",
+            "id": 39345,
+            "image_url": "https://images.genius.com/92eeec4e82df8bd27e04a153066c8d6d.675x675x1.jpg",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Todd Rundgren",
+            "slug": "Todd-rundgren",
+            "url": "https://genius.com/artists/Todd-rundgren"
+        },
+        "artist": "Todd Rundgren",
+        "lyrics": "Bang the Drum All Day Lyrics[Intro]\nAlright! Everybody now!\n\n[Chorus]\nI don't want to work\nI want to bang on the drum all day\nI don't want to play\nI just want to bang on the drum all day\n\n[Verse 1]\nEver since I was a tiny boy\nI don't want no candy\nI don't need no toy\nI took a stick and an old coffee can\nI bang on that thing 'til I got\nBlisters on my hand because\n[Chorus]\nI don't want to work\nI want to bang on the drum all day\n(Yes, I do)\nI don't want to play\nI just want to bang on the drum all day\n(That's right)\n\n[Verse 2]\nWhen I get older, they think I'm a fool\nThe teacher told me I should stay after school\nShe caught me pounding on the desk with my hands\nBut my licks were so hot, I made the teacher wanna dance\nAnd that's why\n\n[Chorus]\nI don't want to work\nI want to bang on the drum all day\n(Hey, why not?)\nI don't want to play\nI just want to bang on the drum all day\n(I'm gonna bang now)\n\n[Instrumental Interlude]\n\n[Chorus]\nI don't want to work\nI want to bang on the drum all day\n(I can bang that sucker)\nI don't want to play\nI just want to bang on the drum all day\n(Listen to this)\nYou might also like[Verse 3]\nEvery day when I get home from work\nI feel so frustrated, the boss is a jerk\nAnd I get my sticks and go out to the shed\nAnd I pound on that drum like it was the boss' head\nBecause\n\n[Chorus]\nI don't want to work\nI want to bang on the drum all day\n(Bang! Bang!)\nI don't want to play\nI just want to bang on the drum all day\n(I can bang that drum)\n\n[Outro]\nI don't want to work\n(Hey! Hey! Hey! Hey!)\nI want to bang on the drum all day\n(Hey! Hey! Hey! Hey! Hey! Hey! Hey! Hey! Hey!)\nI don't want to play\nI just want to bang on the drum all day\n(This is why I bang the drum)\n\nI don't want to work\nI want to bang on the drum all day\n(Hey, you wanna take a bang at it?)\nI don't want to play\nI just want to bang on the drum all day\n(Hey! Hey! Hey! Hey! Hey! Hey! Hey!)\nI don't want to work\n(Hey! Hey! Hey! Hey!)\nI want to bang on the drum all day\n(Hey! Bang!)\nI don't want to play\nI just want to bang on the drum all day\n(I can do this all day)\n\nI don't want to work...1Embed"
+    }
+}

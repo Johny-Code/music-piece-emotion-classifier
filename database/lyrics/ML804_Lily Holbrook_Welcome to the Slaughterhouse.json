@@ -1,0 +1,57 @@
+{
+    "id": "ML804",
+    "mood": "sad",
+    "artist": "Lily Holbrook",
+    "title": "Welcome to the Slaughterhouse",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/936263",
+        "artist_names": "Lily Holbrook",
+        "full_title": "Welcome to the Slaughterhouse by\u00a0Lily\u00a0Holbrook",
+        "header_image_thumbnail_url": "https://images.genius.com/06c0e0dd4d8b6dbb6aedf8297d8aa6b8.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/06c0e0dd4d8b6dbb6aedf8297d8aa6b8.355x355x1.jpg",
+        "id": 936263,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3027333,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1497582853,
+        "path": "/Lily-holbrook-welcome-to-the-slaughterhouse-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Lily-holbrook-welcome-to-the-slaughterhouse-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 3,
+            "day": 1
+        },
+        "release_date_for_display": "March 1, 2005",
+        "release_date_with_abbreviated_month_for_display": "Mar. 1, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/06c0e0dd4d8b6dbb6aedf8297d8aa6b8.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/06c0e0dd4d8b6dbb6aedf8297d8aa6b8.355x355x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Welcome to the Slaughterhouse",
+        "title_with_featured": "Welcome to the Slaughterhouse",
+        "updated_by_human_at": 1497582853,
+        "url": "https://genius.com/Lily-holbrook-welcome-to-the-slaughterhouse-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/370005",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "id": 370005,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Lily Holbrook",
+            "slug": "Lily-holbrook",
+            "url": "https://genius.com/artists/Lily-holbrook"
+        },
+        "artist": "Lily Holbrook",
+        "lyrics": "Welcome to the Slaughterhouse LyricsLocked inside this cage\nWhere all your world's a stage\nAnd in this silent rage\nCan you turn the page into something new\nThe fantasies of burdened beasts\nBut kings and queens won't even dream of peace\n\nIf I could let these thoughts drown\nThen someday she might lose her crown\nIn time these chains that hold me down would set me free\nNo more screams or shouts\nYou're quiet as a mouse\nAnd in this slaughterhouse\nIs there no way out of here\nThey feed the fears and hide the griefs of burdened beasts\nCause kings and queens won't even dream of peace\n\nIf I could let these thoughts drown\nAnd someday he might lose his crown\nIn time these chains that hold me down would set me free\nWould set me free\n\nDon't look back and don't look down\nYou'll fall into that wishing well\nYou're frozen under someone's spell\nThat keeps you running in and out of luck\n\nIf I could let these thoughts drown\nAnd someday she might lose her crown\nIn time these chains that hold me down would set me free\n\nIf I could let these thoughts drown\nAnd someday he might lose his crown\nIn time these chains that hold me down would set me free\nWould set me freeYou might also likeEmbed"
+    }
+}

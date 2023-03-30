@@ -1,0 +1,59 @@
+{
+    "id": "ML586",
+    "mood": "relaxed",
+    "artist": "Beach House",
+    "title": "Childhood",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/157521",
+        "artist_names": "Beach House",
+        "full_title": "Childhood by\u00a0Beach\u00a0House",
+        "header_image_thumbnail_url": "https://images.genius.com/94de5ad0c24bc3d91816512afd266992.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/94de5ad0c24bc3d91816512afd266992.1000x1000x1.jpg",
+        "id": 157521,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 183152,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675195363,
+        "path": "/Beach-house-childhood-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Beach-house-childhood-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 10,
+            "day": 3
+        },
+        "release_date_for_display": "October 3, 2006",
+        "release_date_with_abbreviated_month_for_display": "Oct. 3, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/94de5ad0c24bc3d91816512afd266992.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/94de5ad0c24bc3d91816512afd266992.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 7,
+            "hot": false,
+            "pageviews": 8695
+        },
+        "title": "Childhood",
+        "title_with_featured": "Childhood",
+        "updated_by_human_at": 1675195363,
+        "url": "https://genius.com/Beach-house-childhood-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/18671",
+            "header_image_url": "https://images.genius.com/d86d92953935e6d4c441aecfcfe29910.1000x329x1.png",
+            "id": 18671,
+            "image_url": "https://images.genius.com/38b86730c1fa1952f997d6483c26706b.882x882x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Beach House",
+            "slug": "Beach-house",
+            "url": "https://genius.com/artists/Beach-house",
+            "iq": 121
+        },
+        "artist": "Beach House",
+        "lyrics": "Childhood LyricsThe beginning of the end\nThought the harvest was my friend\nThe nature of that place\nSends a sweet smell around my head\nOh well\n\nThe hardest thing of all\nThe harboring of our lust\nHiding all the time\nWe were cast out of everywhere\nBut enough..\nLast time\nThe last time I remember\nThe last time I remember\nIt was gone\nHow I want you to know\nHow far west we will go\nHand in hand, let it low\nAll our days in the slow\n\nAll my toys are dead\n\nUnraveled at the stairs\nOpened but who cares?\nWhy?You might also like1Embed"
+    }
+}

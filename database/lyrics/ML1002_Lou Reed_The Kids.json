@@ -1,0 +1,58 @@
+{
+    "id": "ML1002",
+    "mood": "sad",
+    "artist": "Lou Reed",
+    "title": "The Kids",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/1332406",
+        "artist_names": "Lou Reed",
+        "full_title": "The Kids by\u00a0Lou\u00a0Reed",
+        "header_image_thumbnail_url": "https://images.genius.com/5d409355c109e68c779798ccf0e1dc2f.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5d409355c109e68c779798ccf0e1dc2f.1000x1000x1.jpg",
+        "id": 1332406,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5593635,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1669099832,
+        "path": "/Lou-reed-the-kids-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Lou-reed-the-kids-sample",
+        "release_date_components": {
+            "year": 1973,
+            "month": 7,
+            "day": null
+        },
+        "release_date_for_display": "July 1973",
+        "release_date_with_abbreviated_month_for_display": "Jul. 1973",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5d409355c109e68c779798ccf0e1dc2f.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5d409355c109e68c779798ccf0e1dc2f.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 12636
+        },
+        "title": "The Kids",
+        "title_with_featured": "The Kids",
+        "updated_by_human_at": 1669099833,
+        "url": "https://genius.com/Lou-reed-the-kids-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/13277",
+            "header_image_url": "https://images.genius.com/62d10ecbf09c1d1fa8c82da87d5f9e98.650x430x1.jpg",
+            "id": 13277,
+            "image_url": "https://images.genius.com/0a0483c5ccf248d1ff1835dcb0e1f148.400x400x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Lou Reed",
+            "slug": "Lou-reed",
+            "url": "https://genius.com/artists/Lou-reed"
+        },
+        "artist": "Lou Reed",
+        "lyrics": "The Kids Lyrics[Verse 1]\nThey're taking her children away\nBecause they said she was not a good mother\nThey're taking her children away\nBecause she was making it with sisters and brothers\nAnd everyone else, all of the others\nLike cheap officers who would\nStand there and flirt in front of me\n\n[Verse 2]\nThey're taking her children away\nBecause they said she was not a good mother\nThey're taking her children away\nBecause of the things that they heard she had done\nThe black air force sergeant was not the first one\nAnd all of the drugs she took\nEvery one, every one\n[Bridge]\nAnd I am the water boy\nThe real game's not over here\nBut my heart is overflowin' anyway\nI'm just a tired man\nNo words to say\nBut since she lost her daughter\nIt's her eyes that fill with water\nAnd I am much happier this way\n\n[Verse 3]\nThey're taking her children away\nBecause they said she was not a good mother\nThey're taking her children away\n'Cause number one was the girlfriend from Paris\nThe things that they did, ah, they didn't have to ask us\nAnd then the Welshman from India\nWho came here to stay\n\n[Verse 4]\nThey're taking her children away\nBecause they said she was not a good mother\nThey're taking her children away\nBecause of the things she did in the streets\nIn the alleys and bars, no she couldn't be beat\nThat miserable rotten slut couldn't turn\nAnyone away\nYou might also like[Bridge]\nI am the water boy\nThe real game's not over here\nBut my heart is overflowin' anyway\nI'm just a tired man\nNo words to say\nBut since she lost her daughter\nIt's her eyes that fill with water\nAnd I am much happier this way1Embed"
+    }
+}

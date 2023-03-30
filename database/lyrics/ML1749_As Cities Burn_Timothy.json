@@ -1,0 +1,57 @@
+{
+    "id": "ML1749",
+    "mood": "sad",
+    "artist": "As Cities Burn",
+    "title": "Timothy",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/816560",
+        "artist_names": "As Cities Burn",
+        "full_title": "Timothy by\u00a0As\u00a0Cities Burn",
+        "header_image_thumbnail_url": "https://images.genius.com/d310ea5188fc038bd5fcb61ea89f8e4a.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/d310ea5188fc038bd5fcb61ea89f8e4a.600x600x1.jpg",
+        "id": 816560,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2150158,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1553780349,
+        "path": "/As-cities-burn-timothy-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/As-cities-burn-timothy-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 8,
+            "day": 14
+        },
+        "release_date_for_display": "August 14, 2007",
+        "release_date_with_abbreviated_month_for_display": "Aug. 14, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d310ea5188fc038bd5fcb61ea89f8e4a.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d310ea5188fc038bd5fcb61ea89f8e4a.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Timothy",
+        "title_with_featured": "Timothy",
+        "updated_by_human_at": 1553780349,
+        "url": "https://genius.com/As-cities-burn-timothy-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/351042",
+            "header_image_url": "https://images.genius.com/74789457840539d81677010785954aa0.450x252x1.png",
+            "id": 351042,
+            "image_url": "https://images.genius.com/198b45c9f2aae9b479802c2709227d29.959x959x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "As Cities Burn",
+            "slug": "As-cities-burn",
+            "url": "https://genius.com/artists/As-cities-burn"
+        },
+        "artist": "As Cities Burn",
+        "lyrics": "Timothy LyricsIt's not the cold making my legs shake\nIt's Timmy's ghost taking his place in our hearts forever\n\n'Cause it's not the sound keeping me from sleep\nIt's what Jesus said, said about hell underneath\nI think I'd rather believe in some imaginary place\nMade up to make children behave\nSo our souls are safe to wander off\nWherever they might please\nYour soul is safe wherever you might be\nCome now, sleep\nCome, now sleep\n\nTell me I'm only dreaming\nTell me he's just sleeping\nAnd when morning comes\nWe'll both wake up to see the sun\nAnd love that's enough to keep our friends alive\n\nPhone call\nI pull my car to the side of the road\nNo, it's not the cold making my legs shake\nIt's someone I love being taken away\nA ghost taking his place in our hearts\n\nWhere inside he moves from room to room\nBut sometimes he climbs our spines\nTo remind our grieving heads\nThat in this way he hasn't left\n\nTell me I'm only dreaming\nTell me he's just sleeping\nAnd when morning comes\nWe'll both wake up to see the sun\nAnd love that's enough to keep our friends alive\nYou might also likeTake me back to where I was before I was born\nIt's like sweet and dreamless sleep\nIt sounds like heaven to meEmbed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML1772",
+    "mood": "relaxed",
+    "artist": "The Most Serene Republic",
+    "title": "Proposition 61",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1396188",
+        "artist_names": "The Most Serene Republic",
+        "full_title": "Proposition 61 by\u00a0The\u00a0Most Serene Republic",
+        "header_image_thumbnail_url": "https://images.genius.com/18eeb7e78f6a217008178689326b99f0.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/18eeb7e78f6a217008178689326b99f0.300x300x1.jpg",
+        "id": 1396188,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1650399976,
+        "path": "/The-most-serene-republic-proposition-61-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-most-serene-republic-proposition-61-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 11,
+            "day": 2
+        },
+        "release_date_for_display": "November 2, 2004",
+        "release_date_with_abbreviated_month_for_display": "Nov. 2, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/18eeb7e78f6a217008178689326b99f0.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/18eeb7e78f6a217008178689326b99f0.300x300x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Proposition 61",
+        "title_with_featured": "Proposition 61",
+        "updated_by_human_at": 1654782218,
+        "url": "https://genius.com/The-most-serene-republic-proposition-61-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/359258",
+            "header_image_url": "https://images.genius.com/6d6031880f3077fc2ce3f5dc3f31731d.333x333x1.jpg",
+            "id": 359258,
+            "image_url": "https://images.genius.com/6d6031880f3077fc2ce3f5dc3f31731d.333x333x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Most Serene Republic",
+            "slug": "The-most-serene-republic",
+            "url": "https://genius.com/artists/The-most-serene-republic"
+        },
+        "artist": "The Most Serene Republic",
+        "lyrics": "Proposition 61 LyricsWhat we need is a good jump kick, jump kick\nTo the head to get our ambitions in gear\nFor example, Jude at the party was taking her clothes off\nBelow the constellations\n\nOutside the people, they pranced becoming lord of the dance\nAnother typical social plights\nWe greeted them with conversation and delight\nSince Jude was mad at her dream for landing nowhere near the marker\n\nTo a boat on a island where nobody?s been\nExcept your best memories and your favorite friends\nThere ain't no self fished for dinner\nThis is a place, is a place, is a place, is a place\nIs a place that's soft down in a chair\nWe?ll talk till the break, till the break, till the break\nTill the sun comes up like the signal flare\n\nJude trailed off the trail, got her tail caught in a fail-proof safe\nDidn't really fail for a night in jail with pale hail of everywhere\nThe nightingale did escape the whale\nCouldn't we survive, they are fed alive, we all cried\nBecause she went and jumped overboard\n\nShe took a sad song, made it sadder\nShe took a sad song, made it sadder\nShe took a sad song, made it sadder\nShe took a sad song, made it sadder\n\nShe took a sad song, made it sadder\nShe took a sad song, made it sadder\nShe took a sad song, made it sadder\nShe took a sad song, made it sadder\n\nShe took a sad song, made it sadder\nShe took a sad song, made it sadderYou might also likeEmbed"
+    }
+}

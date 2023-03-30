@@ -1,0 +1,58 @@
+{
+    "id": "ML1924",
+    "mood": "angry",
+    "artist": "Titus Andronicus",
+    "title": "Arms Against Atrophy",
+    "song": {
+        "_type": "song",
+        "annotation_count": 17,
+        "api_path": "/songs/126575",
+        "artist_names": "Titus Andronicus",
+        "full_title": "Arms Against Atrophy by\u00a0Titus\u00a0Andronicus",
+        "header_image_thumbnail_url": "https://images.rapgenius.com/994a8a49ea7d7233f0ce83143ecd6c95.300x182x1.jpg",
+        "header_image_url": "https://images.rapgenius.com/994a8a49ea7d7233f0ce83143ecd6c95.1000x608x1.jpg",
+        "id": 126575,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 68632,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1457255245,
+        "path": "/Titus-andronicus-arms-against-atrophy-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Titus-andronicus-arms-against-atrophy-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 4,
+            "day": 14
+        },
+        "release_date_for_display": "April 14, 2008",
+        "release_date_with_abbreviated_month_for_display": "Apr. 14, 2008",
+        "song_art_image_thumbnail_url": "https://images.rapgenius.com/994a8a49ea7d7233f0ce83143ecd6c95.300x182x1.jpg",
+        "song_art_image_url": "https://images.rapgenius.com/994a8a49ea7d7233f0ce83143ecd6c95.1000x608x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 11,
+            "hot": false
+        },
+        "title": "Arms Against Atrophy",
+        "title_with_featured": "Arms Against Atrophy",
+        "updated_by_human_at": 1631917150,
+        "url": "https://genius.com/Titus-andronicus-arms-against-atrophy-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/22157",
+            "header_image_url": "https://s3.amazonaws.com/rapgenius/1345690619_titus.jpg",
+            "id": 22157,
+            "image_url": "https://s3.amazonaws.com/rapgenius/1345690619_titus.jpg",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Titus Andronicus",
+            "slug": "Titus-andronicus",
+            "url": "https://genius.com/artists/Titus-andronicus",
+            "iq": 15990
+        },
+        "artist": "Titus Andronicus",
+        "lyrics": "Arms Against Atrophy LyricsA band trip dance - what could be the harm\nBut a six week vacation from the use of my right arm\nIt was just the two hits I remember nothing more\nOnly Alex hitting the switch and me hitting the floor\nWe're taking this lying down\nThe one thing I can stand up for is resting supine on the ground\nMr. McDermott, won't you help me to my feet\nBecause the drumline's going wild in the San Francisco streets\nThe long walk home, is an hour and a half\nBut it quickly turns to three or four with stops at every underpass\nBut by June 22nd, I have done the math\nThat's a hundred and five liters I'll consume of Dr. Path\nSome girls will tell their secrets to anyone\nThe word \"love\" gets thrown around a lot near graduation\nSo please don't whisper sweet nothings in my ear\nWhen the sound of shredding vocal chords is what I want to hear\nBecause we're going to San Francisco and I forget to wear some flowers in my hair\nShe's got a secret surname that nobody knows with the most gorgeous hyphen\nYou wouldn't believe the way it glows\nAnd I'm the only one who gets to see it way up close\nSo the rest of you can stick it up your nose\nLast night, I had the strangest dream that I have ever known\nMy mother, in a fit of rage, chases me from our home\nMy mother, the murderer holds me down in the road\nShe's got the nail clippers at my throat\nEven though things lately may have been real horror-show\nI'm wishing I was back in-utero\nI'd like to go back to the way that things were before, but apparently\nI'm looking at physical therapy\nIt won't be exactly how it used to be\nIt ain't hard to see that it's not that way\nNot that way anymore\nJesus Christ is suffering upon his cross tonight\nI just sit outside waiting for frost to bite\n\"It's always this way,\" she says on her way out the door\nWait and see\nThe rest is yet to reveal itself to meYou might also likeEmbed"
+    }
+}

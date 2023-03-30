@@ -1,0 +1,58 @@
+{
+    "id": "ML472",
+    "mood": "relaxed",
+    "artist": "Bob Dylan",
+    "title": "Gotta Serve Somebody",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/105217",
+        "artist_names": "Bob Dylan",
+        "full_title": "Gotta Serve Somebody by\u00a0Bob\u00a0Dylan",
+        "header_image_thumbnail_url": "https://images.genius.com/ae02f9c1c1401e687a50e2d4742fb287.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/ae02f9c1c1401e687a50e2d4742fb287.1000x1000x1.jpg",
+        "id": 105217,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 16,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1643496813,
+        "path": "/Bob-dylan-gotta-serve-somebody-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Bob-dylan-gotta-serve-somebody-sample",
+        "release_date_components": {
+            "year": 1979,
+            "month": 8,
+            "day": 20
+        },
+        "release_date_for_display": "August 20, 1979",
+        "release_date_with_abbreviated_month_for_display": "Aug. 20, 1979",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ae02f9c1c1401e687a50e2d4742fb287.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ae02f9c1c1401e687a50e2d4742fb287.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 19607
+        },
+        "title": "Gotta Serve Somebody",
+        "title_with_featured": "Gotta Serve Somebody",
+        "updated_by_human_at": 1650878327,
+        "url": "https://genius.com/Bob-dylan-gotta-serve-somebody-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/181",
+            "header_image_url": "https://images.genius.com/e87fb11dd7f33cc7fd1a8915ad36f7c9.1000x667x1.png",
+            "id": 181,
+            "image_url": "https://images.genius.com/571780cc8959528e8166e5894ab13d6f.1000x1000x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Bob Dylan",
+            "slug": "Bob-dylan",
+            "url": "https://genius.com/artists/Bob-dylan"
+        },
+        "artist": "Bob Dylan",
+        "lyrics": "Gotta Serve Somebody Lyrics[Verse 1]\nYou may be an ambassador to England or France\nYou may like to gamble, you might like to dance\nYou may be the heavyweight champion of the world\nYou may be a socialite with a long string of pearls\n\n[Chorus]\nBut you\u2019re going to have to serve somebody, yes indeed\nYou\u2019re going to have to serve somebody\nWell, it may be the devil or it may be the Lord\nBut you\u2019re going to have to serve somebody\n[Verse 2]\nYou might be a rock \u2019n\u2019 roll addict prancing on the stage\nYou might have drugs at your command, women in a cage\nYou may be a business man or some high-degree thief\nThey may call you Doctor or they may call you Chief\n\n[Chorus]\nBut you\u2019re going to have to serve somebody, yes indeed\nYou\u2019re going to have to serve somebody\nWell, it may be the devil or it may be the Lord\nBut you\u2019re going to have to serve somebody\n\n[Verse 3]\nYou may be a state trooper, you might be a young Turk\nYou may be the head of some big TV network\nYou may be rich or poor, you may be blind or lame\nYou may be living in another country under another name\n\n[Chorus]\nBut you\u2019re going to have to serve somebody, yes indeed\nYou\u2019re going to have to serve somebody\nWell, it may be the devil or it may be the Lord\nBut you\u2019re going to have to serve somebody\n\n[Verse 4]\nYou may be a construction worker working on a home\nYou may be living in a mansion or you might live in a dome\nYou might own guns and you might even own tanks\nYou might be somebody\u2019s landlord, you might even own banks\nYou might also like[Chorus]\nBut you\u2019re going to have to serve somebody, yes indeed\nYou\u2019re going to have to serve somebody\nWell, it may be the devil or it may be the Lord\nBut you\u2019re going to have to serve somebody\n\n[Verse 5]\nYou may be a preacher with your spiritual pride\nYou may be a city councilman taking bribes on the side\nYou may be working in a barbershop\nYou may know how to cut hair\nYou may be somebody\u2019s mistress, may be somebody\u2019s heir\n\n[Chorus]\nBut you\u2019re going to have to serve somebody, yes indeed\nYou\u2019re going to have to serve somebody\nWell, it may be the devil or it may be the Lord\nBut you\u2019re going to have to serve somebody\n\n[Verse 6]\nMight like to wear cotton, might like to wear silk\nMight like to drink whiskey, might like to drink milk\nYou might like to eat caviar, you might like to eat bread\nYou may be sleeping on the floor, sleeping in a king-sized bed\n\n[Chorus]\nBut you\u2019re going to have to serve somebody, yes indeed\nYou\u2019re going to have to serve somebody\nWell, it may be the devil or it may be the Lord\nBut you\u2019re going to have to serve somebody\n[Verse 7]\nYou may call me Terry, you may call me Timmy\nYou may call me Bobby, you may call me Zimmy\nYou may call me R.J., you may call me Ray\nYou may call me anything but no matter what you say\n\n[Chorus]\nYou're still gonna have to serve somebody, yes indeed\nYou\u2019re going to have to serve somebody\nWell, it may be the devil or it may be the Lord\nBut you\u2019re going to have to serve somebodyEmbed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML1411",
+    "mood": "angry",
+    "artist": "Kelly Clarkson",
+    "title": "Don't Let Me Stop You",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/198569",
+        "artist_names": "Kelly Clarkson",
+        "full_title": "Don't Let Me Stop You by\u00a0Kelly\u00a0Clarkson",
+        "header_image_thumbnail_url": "https://images.genius.com/2888d7e6486c3a92aa1a83ec2b9d8d9d.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2888d7e6486c3a92aa1a83ec2b9d8d9d.1000x1000x1.jpg",
+        "id": 198569,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 225680,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1655967456,
+        "path": "/Kelly-clarkson-dont-let-me-stop-you-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Kelly-clarkson-dont-let-me-stop-you-sample",
+        "release_date_components": {
+            "year": 2009,
+            "month": 3,
+            "day": 6
+        },
+        "release_date_for_display": "March 6, 2009",
+        "release_date_with_abbreviated_month_for_display": "Mar. 6, 2009",
+        "song_art_image_thumbnail_url": "https://images.genius.com/2888d7e6486c3a92aa1a83ec2b9d8d9d.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2888d7e6486c3a92aa1a83ec2b9d8d9d.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Don\u2019t Let Me Stop You",
+        "title_with_featured": "Don't Let Me Stop You",
+        "updated_by_human_at": 1655967458,
+        "url": "https://genius.com/Kelly-clarkson-dont-let-me-stop-you-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/11714",
+            "header_image_url": "https://images.genius.com/ddbd3890a847e5f4b3570a5b3e45e6d7.1000x1000x1.jpg",
+            "id": 11714,
+            "image_url": "https://images.genius.com/834572a72544c830b28d694cdeedd5df.1000x1000x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Kelly Clarkson",
+            "slug": "Kelly-clarkson",
+            "url": "https://genius.com/artists/Kelly-clarkson"
+        },
+        "artist": "Kelly Clarkson",
+        "lyrics": "Don\u2019t Let Me Stop You Lyrics[Verse 1]\nI used to be a little bit shy\nI kept my deepest feelings inside\nSpeaking up to you about my emotions has always been hard\nBut this just can't wait\nTonight I feel a little bit brave\nSo I won't let one more day pass without you\nExplaining what we are\n\n[Pre-Chorus]\nThis is gonna sound kind of silly\nBut I couldn't help but notice\nThe last time you kissed me\nYou kept both eyes open\nBaby, can you tell me, what does that mean?\nIf you're looking over your shoulder\nThen you don't needa be with me\nAnd I don't need to hold on\n[Chorus]\nDon't let me stop you\nFrom doing what you wanna do\nYou don't wanna stick, trust me, it's cool\nTake no chance, get over you\nNo, no, don't let me stop you\nIf you wanna leave, baby, you can leave\nJust don't pretend that you're into me\nIf it ain't true, no\nDon't let me stop you\n\n[Verse 2]\nA lot of things I can take\nGot a high threshold for pain\nBut let's get one thing straight\nI'm not down to share you with anyone\nIf that's not what you're looking for\nNice knowing you, but there's the door\n'Cause I know that I could find someone\nWho'll give me what I want\n\n[Pre-Chorus]\nThis is gonna sound kind of silly\nIf you're looking over your shoulder\nThen you don't need to be with me\nAnd I don't need to hold on\nYou might also like[Chorus]\nDon't let me stop you\nFrom doing what you wanna do\nYou don't wanna stick, trust me, it's cool\nTake no chance, get over you\nNo, no, don't let me stop you\nIf you wanna leave, baby, you can leave\nJust don't pretend that you're into me\nIf it ain't true, no\nDon't let me stop you\n\n[Bridge]\nEven if I end up broken-hearted\nI won't lie, I don't wanna hear goodbye\nBut either way, I'll be alright\n\n[Chorus]\nDon't let me stop you\nFrom doing what you wanna do\nYou don't wanna stick, trust me, it's cool\nTake no chance, get over you\nNo, no, don't let me stop you\nIf you wanna leave, baby, you can leave\nJust don't pretend that you're into me\nIf it ain't true, no\nDon't let me stop you\nDon't let me stop you\nFrom doing what you wanna do\nYou don't wanna stick, trust me, it's cool\nTake no chance, get over you (I'm over you)\nNo, no, don't let me stop you\nIf you wanna leave, baby, you can leave (Don't let me stop you)\nJust don't pretend that you're into me (Don't let me)\nIf it ain't true (Don't let me), no\nDon't let me stop you1Embed"
+    }
+}

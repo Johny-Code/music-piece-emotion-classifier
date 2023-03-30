@@ -1,0 +1,58 @@
+{
+    "id": "ML1181",
+    "mood": "relaxed",
+    "artist": "The Emotions",
+    "title": "Flowers",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1407229",
+        "artist_names": "The Emotions",
+        "full_title": "Flowers by\u00a0The\u00a0Emotions",
+        "header_image_thumbnail_url": "https://images.genius.com/508b3838c73508b5bda2993c74ce11c8.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/508b3838c73508b5bda2993c74ce11c8.1000x1000x1.jpg",
+        "id": 1407229,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1820877,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1673976045,
+        "path": "/The-emotions-flowers-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/The-emotions-flowers-sample",
+        "release_date_components": {
+            "year": 1976,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1976",
+        "release_date_with_abbreviated_month_for_display": "1976",
+        "song_art_image_thumbnail_url": "https://images.genius.com/508b3838c73508b5bda2993c74ce11c8.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/508b3838c73508b5bda2993c74ce11c8.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 10989
+        },
+        "title": "Flowers",
+        "title_with_featured": "Flowers",
+        "updated_by_human_at": 1677045574,
+        "url": "https://genius.com/The-emotions-flowers-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/149605",
+            "header_image_url": "https://images.genius.com/b5f34985184d79847f082c555dbf3fc4.324x286x1.jpg",
+            "id": 149605,
+            "image_url": "https://images.genius.com/bd67b7b989b5254bea989d394eb67d45.803x803x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Emotions",
+            "slug": "The-emotions",
+            "url": "https://genius.com/artists/The-emotions"
+        },
+        "artist": "The Emotions",
+        "lyrics": "Flowers Lyrics[Intro]\n(We) We (Hold the key) hold the key\n(To the world's) The world's (Destiny) destiny\n\n[Verse 1]\nHave you the feelin' to shine your light\nUsin' the power, shinin' bright\nYears we've been searchin', want to be (Oh, woah, oh, oh, oh)\nAll the good things, good things, we're able to see\nYour heart's a fire, create for you, mmm-mmm-mmm-mmm\nLove and desire, hearts of true\nMmm, mmm-mmm, ooh-hoo-ooh-ooh-ooh\n[Chorus]\n(Think it over) Yeah (Ooh)\n(Life ain't a four leaf clover) Oh, no it ain't (Ooh)\n(Think it over) Brother (Ooh)\n(Life ain't a four leaf clover, ooh) Ooh, ooh\n\n[Verse 2]\nLove is a flower, from that a bud\nTo spread its sunshine and make us love\nBeautiful colors shinin' though (Bless you, brother)\nBless you, brother (God is watchin' you) God is watchin' you, woo\n\n[Chorus]\n(Think it over) Oh-ho, ho (Ooh)\n(Life ain't a four leaf clover) No-no-no-no, no-no-no (Ooh)\n(Think it over, ooh) You better\n(Life ain't a four leaf clover) Mmm-hmm-hmm, hmm (Ooh)\n\n[Verse 3]\nLove is a flower, let it shine on through (Oh, woah, oh, oh, oh)\nOh, you know where it's comin' from, God is watchin' you, oh yes, He is\nOh, listen, this is the time (Oh, woah, oh, oh, oh)\nLet that flower bloom all over you, you, you-you, ooh-hoo\n\n[Outro]\nWe hold the key\n(To the world's) Brothers, come together in love (Destiny)\nYou see, it's like a flower sent from above\n(We) Let that flower bloom (Hold the key) All over you and me\n(To the world's) All over the world (Destiny)\nDo you know what I mean? Woo\n(Ooh, ooh, ooh, ooh) Ooh, woo, woo-ooh, woo-ooh\n(Ooh, ooh, ooh, ooh) Woo-ooh, woo\n(Ha, ha, ha) Woo, hoo, woah\nOoh, ooh, ooh, oohYou might also like1Embed"
+    }
+}

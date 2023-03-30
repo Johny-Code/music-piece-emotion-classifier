@@ -1,0 +1,57 @@
+{
+    "id": "ML300",
+    "mood": "relaxed",
+    "artist": "Lene Marlin",
+    "title": "Disguise",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1254482",
+        "artist_names": "Lene Marlin",
+        "full_title": "Disguise by\u00a0Lene\u00a0Marlin",
+        "header_image_thumbnail_url": "https://images.genius.com/742abe78dd0e0b4afdb8281d37ad3b52.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/742abe78dd0e0b4afdb8281d37ad3b52.1000x1000x1.jpg",
+        "id": 1254482,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3098103,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1566330025,
+        "path": "/Lene-marlin-disguise-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Lene-marlin-disguise-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 9,
+            "day": 22
+        },
+        "release_date_for_display": "September 22, 2003",
+        "release_date_with_abbreviated_month_for_display": "Sep. 22, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/742abe78dd0e0b4afdb8281d37ad3b52.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/742abe78dd0e0b4afdb8281d37ad3b52.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Disguise",
+        "title_with_featured": "Disguise",
+        "updated_by_human_at": 1630417663,
+        "url": "https://genius.com/Lene-marlin-disguise-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/365345",
+            "header_image_url": "https://images.genius.com/5e949ae5eacb0b70a7c37306e62084e2.348x348x1.jpg",
+            "id": 365345,
+            "image_url": "https://images.genius.com/5e949ae5eacb0b70a7c37306e62084e2.348x348x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Lene Marlin",
+            "slug": "Lene-marlin",
+            "url": "https://genius.com/artists/Lene-marlin"
+        },
+        "artist": "Lene Marlin",
+        "lyrics": "Disguise LyricsHave you ever felt some kind of emptiness inside?\nYou will never measure up to those people you\nYou must be strong, can't show them that you're weak\nHave you ever told someone something\nThat's far from the truth?\nLet them know that you're okay\nJust to make them stop\nAll the wondering, questions they may have\n\nI'm okay, I really am now\nJust needed some time, to figure things out\nNot telling lies, I'll be honest with you\nStill we don't know what's yet to come\nHave you ever seen your face\nIn a mirror? There's a smile\nBut inside you're just a mess\nYou feel far from good\nNeed to hide, 'cause they'd never understand\nHave you ever had this wish of being somewhere else?\nTo let go of your disguise, all your worries too\nAnd from that moment, then you see things clear\n\nI'm okay, I really am now\nJust needed some time to figure things out\nNot telling lies, I'll be honest with you\nStill we don't know what's yet to come\n\nAre you waiting for the day\nWhen your pain will disappear?\nWhen you know that it's not true?\nWhat they say about you\nYou could not care less about the things\nSurrounding you\nIgnoring all the voices from the walls\n\nI'm okay, I really am now\nJust needed some time to figure things out\nNot telling lies, I'll be honest with you\nStill we don't know what's yet to come\nYou might also likeI'm okay, I really am now\nJust needed some time to figure things out\nNot telling lies, I'll be honest with you\nStill we don't know what's yet to come\n\nStill we don't know what's yet to come\nStill we don't know what's yet to comeEmbed"
+    }
+}

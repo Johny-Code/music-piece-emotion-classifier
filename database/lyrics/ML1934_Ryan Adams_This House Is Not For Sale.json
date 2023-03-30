@@ -1,0 +1,57 @@
+{
+    "id": "ML1934",
+    "mood": "relaxed",
+    "artist": "Ryan Adams",
+    "title": "This House Is Not For Sale",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/954821",
+        "artist_names": "Ryan Adams",
+        "full_title": "This House Is Not for Sale by\u00a0Ryan\u00a0Adams",
+        "header_image_thumbnail_url": "https://images.genius.com/2d0db6c02a24614f7263fba37798dd85.300x306x1.jpg",
+        "header_image_url": "https://images.genius.com/2d0db6c02a24614f7263fba37798dd85.465x475x1.jpg",
+        "id": 954821,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6752037,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1561313715,
+        "path": "/Ryan-adams-this-house-is-not-for-sale-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Ryan-adams-this-house-is-not-for-sale-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 11,
+            "day": 4
+        },
+        "release_date_for_display": "November 4, 2003",
+        "release_date_with_abbreviated_month_for_display": "Nov. 4, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/2d0db6c02a24614f7263fba37798dd85.300x306x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2d0db6c02a24614f7263fba37798dd85.465x475x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "This House Is Not for Sale",
+        "title_with_featured": "This House Is Not for Sale",
+        "updated_by_human_at": 1599566866,
+        "url": "https://genius.com/Ryan-adams-this-house-is-not-for-sale-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/39052",
+            "header_image_url": "https://images.genius.com/61c0f3af7bd5e9cff4376fb379a9ef14.500x334x1.jpg",
+            "id": 39052,
+            "image_url": "https://images.genius.com/96e147c1dd2a8b4b2d34ddb5991bf129.630x630x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Ryan Adams",
+            "slug": "Ryan-adams",
+            "url": "https://genius.com/artists/Ryan-adams"
+        },
+        "artist": "Ryan Adams",
+        "lyrics": "This House Is Not for Sale Lyrics[Verse 1]\nTell 'em that the house is not for sale\nWe're still livin' here, how come nobody can tell?\nThey're taking all the furniture, movin' our things\nCome on little honey, put your head on my knee\nTell 'em that the house is not for sale\n\n[Chorus]\nAnd calm down, calm down, calm down\nCalm down, calm down, calm down\n[Verse 2]\nDo you remember when we even bought this thing?\nI danced you across the wooden floor and\nThen you signed the lease\nWhat happened in the car that night?\nWhat happened in the car that night?\nTell 'em that the house is not for sale\n\n[Chorus]\nCalm down, calm down, calm down\nCalm down, calm down, calm down\nCalm down\n\n[Verse 3]\nTell 'em that the house is not for sale\nWe could grab a couple sheets, yeah and give 'em quite a scare\nI remember lyin' on the bedroom floor\nYou were holding me honey, kissing my soul\nTell 'em that the house is not for sale\n\n[Chorus]\nAnd calm down, calm down, calm down\nCalm down, calm down, calm down\nCalm down\nCalm downYou might also likeEmbed"
+    }
+}

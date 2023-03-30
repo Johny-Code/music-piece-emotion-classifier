@@ -1,0 +1,58 @@
+{
+    "id": "ML551",
+    "mood": "sad",
+    "artist": "The Avett Brothers",
+    "title": "If It's The Beaches",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/174156",
+        "artist_names": "The Avett Brothers",
+        "full_title": "If It's The Beaches by\u00a0The\u00a0Avett Brothers",
+        "header_image_thumbnail_url": "https://images.genius.com/829f2399a007a4db45718bf5a0ad00d9.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/829f2399a007a4db45718bf5a0ad00d9.640x640x1.jpg",
+        "id": 174156,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 235321,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1515710654,
+        "path": "/The-avett-brothers-if-its-the-beaches-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/The-avett-brothers-if-its-the-beaches-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 9,
+            "day": 19
+        },
+        "release_date_for_display": "September 19, 2006",
+        "release_date_with_abbreviated_month_for_display": "Sep. 19, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/829f2399a007a4db45718bf5a0ad00d9.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/829f2399a007a4db45718bf5a0ad00d9.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false,
+            "pageviews": 13649
+        },
+        "title": "If It\u2019s The Beaches",
+        "title_with_featured": "If It's The Beaches",
+        "updated_by_human_at": 1552682063,
+        "url": "https://genius.com/The-avett-brothers-if-its-the-beaches-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/17688",
+            "header_image_url": "https://images.genius.com/e0ebcb443875b1cf43f35fd22985e1f7.1000x527x1.jpg",
+            "id": 17688,
+            "image_url": "https://images.genius.com/3a1034b4a82b623e7cd1bbead1fe9140.225x225x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Avett Brothers",
+            "slug": "The-avett-brothers",
+            "url": "https://genius.com/artists/The-avett-brothers"
+        },
+        "artist": "The Avett Brothers",
+        "lyrics": "If It\u2019s The Beaches LyricsDon't say it's over\nCause that's the worst news I\nCould hear I swear that I will\nDo my best to be here\nJust the way you like it\nEven though its hard to hide\nPush my feelings all aside\nI will rearrange my plans and\nChange for you\nIf I could go back\nThat's the first thing I would do\nI swear that I would\nDo my best to follow through\nCome up with a master plan\nA homerun hit, a winning stand\nA guarantee and not a promise\nThat I'll never let your love\nSlip from my hands\nIf it's the beaches\nIf it's the beaches' sands you want\nThen you will have them\nIf it's the mountains' bending rivers\nThen you will have them\nIf it's the wish to run away\nThen I will grant it\nTake whatever you think of\nWhile I go gas up the truck\nPack the old love letters up\nWe will read them when\nWe forget why we left hereYou might also like2Embed"
+    }
+}

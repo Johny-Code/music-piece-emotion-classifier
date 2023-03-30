@@ -1,0 +1,59 @@
+{
+    "id": "ML1060",
+    "mood": "happy",
+    "artist": "The Tokens",
+    "title": "The Lion Sleeps Tonight",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/307620",
+        "artist_names": "The Tokens",
+        "full_title": "The Lion Sleeps Tonight by\u00a0The\u00a0Tokens",
+        "header_image_thumbnail_url": "https://images.genius.com/77789e90369b7fe60f995a01f730b5ce.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/77789e90369b7fe60f995a01f730b5ce.1000x1000x1.jpg",
+        "id": 307620,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 140605,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1673178142,
+        "path": "/The-tokens-the-lion-sleeps-tonight-lyrics",
+        "pyongs_count": 15,
+        "relationships_index_url": "https://genius.com/The-tokens-the-lion-sleeps-tonight-sample",
+        "release_date_components": {
+            "year": 1961,
+            "month": 11,
+            "day": 17
+        },
+        "release_date_for_display": "November 17, 1961",
+        "release_date_with_abbreviated_month_for_display": "Nov. 17, 1961",
+        "song_art_image_thumbnail_url": "https://images.genius.com/6234336f285819aae6f80cc2d96d7015.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/6234336f285819aae6f80cc2d96d7015.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "concurrents": 2,
+            "hot": false,
+            "pageviews": 291953
+        },
+        "title": "The Lion Sleeps Tonight",
+        "title_with_featured": "The Lion Sleeps Tonight",
+        "updated_by_human_at": 1673178142,
+        "url": "https://genius.com/The-tokens-the-lion-sleeps-tonight-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/114344",
+            "header_image_url": "https://images.genius.com/c4d06fe083c49ece06694d628433741c.745x745x1.jpg",
+            "id": 114344,
+            "image_url": "https://images.genius.com/c4d06fe083c49ece06694d628433741c.745x745x1.jpg",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Tokens",
+            "slug": "The-tokens",
+            "url": "https://genius.com/artists/The-tokens"
+        },
+        "artist": "The Tokens",
+        "lyrics": "The Lion Sleeps Tonight Lyrics[Intro]\nWeeheeheehee, dee heeheeheehee, weeoh aweem away\nWeeheeheehee, dee heeheeheehee, weeoh aweem away\n\n[Chorus]\nA-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh\nA-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh\nA-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh\nA-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh\n\n[Verse 1]\nIn the jungle, the mighty jungle\nThe lion sleeps tonight\nIn the jungle, the quiet jungle\nThe lion sleeps tonight \u2013 ho, ho!\n[Chorus]\nWeeheeheehee, dee heeheeheehee, weeoh aweem away\n(A-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh)\n(A-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh)\nWeeheeheehee, dee heeheeheehee weeoh aweem away\n(A-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh)\n(A-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh)\n\n[Verse 2]\nNear the village, the peaceful village\nThe lion sleeps tonight\nNear the village, the quiet village\nThe lion sleeps tonight  \u2013 ho, ho!\n\n[Chorus]\nWeeheeheehee, dee heeheeheehee, weeoh aweem away\n(A-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh)\n(A-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh)\nRrrrrr, lalalaba, weeoh aweem away\n(A-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh)\n(A-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh)\n\n[Verse 3]\nHush, my darling, don't fear, my darling\nThe lion sleeps tonight\nHush, my darling, don't fear, my darling\nThe lion sleeps tonight  \u2013 ho, ho!\nYou might also like[Chorus]\nWhoa, whoa, whoa; whoa, whoa, whoa; whoa, whoa, aweem away\n(A-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh)\n(A-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh)\nWeeheeheehee, dee heeheeheehee, weeoh aweem away\n(A-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh)\n(A-weema-weh, a-weema-weh, a-weema-weh, a-weema-weh)\n\n[Outro]\nWeeheeheehee, dee heeheeheehee, weeoh aweem away\nWeeheeheehee, dee heeheeheehee, weeoh aweem away\nWeeheeheehee, dee heeheeheehee, weeoh aweem away15Embed"
+    }
+}

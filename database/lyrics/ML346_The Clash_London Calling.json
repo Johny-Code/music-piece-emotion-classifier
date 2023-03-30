@@ -1,0 +1,58 @@
+{
+    "id": "ML346",
+    "mood": "angry",
+    "artist": "The Clash",
+    "title": "London Calling",
+    "song": {
+        "_type": "song",
+        "annotation_count": 17,
+        "api_path": "/songs/94383",
+        "artist_names": "The Clash",
+        "full_title": "London Calling by\u00a0The\u00a0Clash",
+        "header_image_thumbnail_url": "https://images.genius.com/b65d3b196d272c074728ec5c4c9b9b7b.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b65d3b196d272c074728ec5c4c9b9b7b.803x803x1.jpg",
+        "id": 94383,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 116340,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1679538503,
+        "path": "/The-clash-london-calling-lyrics",
+        "pyongs_count": 36,
+        "relationships_index_url": "https://genius.com/The-clash-london-calling-sample",
+        "release_date_components": {
+            "year": 1979,
+            "month": 12,
+            "day": 7
+        },
+        "release_date_for_display": "December 7, 1979",
+        "release_date_with_abbreviated_month_for_display": "Dec. 7, 1979",
+        "song_art_image_thumbnail_url": "https://images.genius.com/131ee4cd87febf4800d316343256fbde.300x299x1.jpg",
+        "song_art_image_url": "https://images.genius.com/131ee4cd87febf4800d316343256fbde.600x598x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 251607
+        },
+        "title": "London Calling",
+        "title_with_featured": "London Calling",
+        "updated_by_human_at": 1679538503,
+        "url": "https://genius.com/The-clash-london-calling-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/648",
+            "header_image_url": "https://images.genius.com/6cd9cb3e75708676d0c48b586c7df0c6.820x305x1.jpg",
+            "id": 648,
+            "image_url": "https://images.genius.com/f22e1da19e62023f606ff53fbd445585.1000x1000x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Clash",
+            "slug": "The-clash",
+            "url": "https://genius.com/artists/The-clash"
+        },
+        "artist": "The Clash",
+        "lyrics": "London Calling Lyrics[Verse 1]\nLondon calling to the faraway towns\nNow war is declared and battle come down\nLondon calling to the underworld\nCome outta the cupboard, ya boys and girls\nLondon calling, now don't look to us\nPhony Beatlemania has bitten the dust\nLondon calling, see we ain't got no swing\n'Cept for the ring of that truncheon thing\n\n[Chorus]\nThe ice age is coming, the sun's zoomin' in\nMeltdown expected, the wheat is growin' thin\nEngines stop running, but I have no fear\n'Cause London is drownin', I, live by the river\n[Verse 2]\n(London calling) to the imitation zone\nForget it, brother, you can go it alone\nLondon calling to the zombies of death\nQuit holdin' out and draw another breath\nLondon calling and I don't want to shout\nBut while we were talking I saw you noddin' out\nLondon calling, see we ain't got no Hyde\n'Cept for that one with the yellowy eyes\n\n[Chorus]\nThe ice age is coming, the sun's zoomin' in\nEngines stop running, the wheat is growin' thin\nA nuclear error, but I have no fear\n'Cause London is drowning, I, I live by the river\n\n[Instrumental Interlude]\n\n[Chorus]\nThe ice age is coming, the sun's zoomin' in\nEngines stop running, the wheat is growin' thin\nA nuclear error, but I have no fear\n'Cause London is drowning, I, I live by the river\n\n[Bridge]\nNow get this\nYou might also like[Verse 3]\n(London calling), yes, I was there, too\nAnd ya know what they said? Well, some of it was true\n(London calling) at the top of the dial\nAnd after all this, won't you give me a smile?\n(London calling)\n\n[Outro]\nI never felt so much alike, alike, alike36Embed"
+    }
+}

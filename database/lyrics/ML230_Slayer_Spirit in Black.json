@@ -1,0 +1,58 @@
+{
+    "id": "ML230",
+    "mood": "angry",
+    "artist": "Slayer",
+    "title": "Spirit in Black",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/712265",
+        "artist_names": "Slayer",
+        "full_title": "Spirit in Black by\u00a0Slayer",
+        "header_image_thumbnail_url": "https://images.genius.com/951917e4d82b37d1fe3026a812bcdbcd.300x278x1.jpg",
+        "header_image_url": "https://images.genius.com/951917e4d82b37d1fe3026a812bcdbcd.332x308x1.jpg",
+        "id": 712265,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1425851,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1667684368,
+        "path": "/Slayer-spirit-in-black-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Slayer-spirit-in-black-sample",
+        "release_date_components": {
+            "year": 1990,
+            "month": 10,
+            "day": 9
+        },
+        "release_date_for_display": "October 9, 1990",
+        "release_date_with_abbreviated_month_for_display": "Oct. 9, 1990",
+        "song_art_image_thumbnail_url": "https://images.genius.com/951917e4d82b37d1fe3026a812bcdbcd.300x278x1.jpg",
+        "song_art_image_url": "https://images.genius.com/951917e4d82b37d1fe3026a812bcdbcd.332x308x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 9063
+        },
+        "title": "Spirit in Black",
+        "title_with_featured": "Spirit in Black",
+        "updated_by_human_at": 1668022294,
+        "url": "https://genius.com/Slayer-spirit-in-black-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/6596",
+            "header_image_url": "https://images.genius.com/bc11ff5236798b16df8d0ed38ad6386d.1000x341x1.png",
+            "id": 6596,
+            "image_url": "https://images.genius.com/861966ebfefbd4e0adc83bec199c30be.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Slayer",
+            "slug": "Slayer",
+            "url": "https://genius.com/artists/Slayer"
+        },
+        "artist": "Slayer",
+        "lyrics": "Spirit in Black Lyrics[Verse 1]\nWelcome to my world\nInvolve yourself within my dream\nExperience a life\nJust like your mind thought not to be\nTake a look through time\nAt past or present worlds to be\nI rule this inferno\nEnthroned for eternity\n\n[Chorus]\nCoils of the serpent unwind\nBuried beneath, you will find\nDeep in the halls of the damned\nSpirit in black till the end\n[Verse 2]\nSpirits damned to rot\nAmidst the brimstone-fire wall\nEyes of the dead\nWatching from their living hall\nBroken-glass reflections\nShow your flesh eaten away\nBeyond the gates, I'll take you\nWhere the blood forever rains\n\n[Chorus]\nCoils of the serpent unwind\nBuried beneath, you will find\nDeep in the halls of the damned\nSpirit in black till the end\n\n[Guitar Solo: Jeff Hanneman]\n\n[Chorus]\nCoils of the serpent unwind\nBuried beneath, you will find\nDeep in the halls of the damned\nSpirit in black till the end\n\n[Verse 3]\nAfterlife confessions\nTell me who you used to be\nLooking on in wonder\nAs I show you it was me\nBurning from within\nYou know one spark is all it takes\nHear the piercing cries of all\nWho found that hell awaits\nYou might also like[Verse 4]\nLiving nightmare, can't you see?\nYou really have no choice\nFaded memories haunt you\nListen closely to my voice\nFeed me all your hatred\nEmpty all your thoughts to me\nI can fill your emptiness\nWith immortality\n\n[Guitar Solo: Kerry King]\n\n[Verse 1]\nWelcome to my world\nInvolve yourself within my dream\nExperience a life\nJust like your mind thought not to be\nTake a look through time\nAt past or present worlds to be\nI rule this inferno\nEnthroned for eternityEmbed"
+    }
+}

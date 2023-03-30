@@ -1,0 +1,57 @@
+{
+    "id": "ML920",
+    "mood": "relaxed",
+    "artist": "Al Green",
+    "title": "Let's Get Married",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/142028",
+        "artist_names": "Al Green",
+        "full_title": "Let's Get Married by\u00a0Al\u00a0Green",
+        "header_image_thumbnail_url": "https://images.genius.com/29c60ce8d6567f44fb8378b99a81da0d.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/29c60ce8d6567f44fb8378b99a81da0d.1000x1000x1.jpg",
+        "id": 142028,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 61411,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1638014201,
+        "path": "/Al-green-lets-get-married-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Al-green-lets-get-married-sample",
+        "release_date_components": {
+            "year": 1973,
+            "month": 12,
+            "day": 6
+        },
+        "release_date_for_display": "December 6, 1973",
+        "release_date_with_abbreviated_month_for_display": "Dec. 6, 1973",
+        "song_art_image_thumbnail_url": "https://images.genius.com/29c60ce8d6567f44fb8378b99a81da0d.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/29c60ce8d6567f44fb8378b99a81da0d.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Let\u2019s Get Married",
+        "title_with_featured": "Let's Get Married",
+        "updated_by_human_at": 1638014201,
+        "url": "https://genius.com/Al-green-lets-get-married-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1610",
+            "header_image_url": "https://images.genius.com/2f9bcf3ab7bf6e2e8966ffcbc280ea0d.1000x750x1.jpg",
+            "id": 1610,
+            "image_url": "https://s3.amazonaws.com/rapgenius/algreen_wide-1859c7e02eb9c661302371127ea16d32559b63ea-s6-c10.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Al Green",
+            "slug": "Al-green",
+            "url": "https://genius.com/artists/Al-green"
+        },
+        "artist": "Al Green",
+        "lyrics": "Let\u2019s Get Married Lyrics[Verse 1]\nSitting here\nWasting my time for you\nAnd I'm not too crazy about the idea\nOf having nothing to do, oh no\n\n[Pre-Chorus]\nNow it's time for a change\nThe idea might sound strange, oh\nThere's no time to waste\n[Chorus]\nLet's get married today (Let's get married)\nGonna get married (Let's get married)\nMarried today (Let's get married)\nI love you anyway, oh my (Let's get married)\n\n[Verse 2]\nThere must be something wrong\nOr something here\nThat I don't understand\nOh, you don't believe me\nYou say you love me\nWhy don't you give me your hand?\nOh baby\n\n[Pre-Chorus]\nLet me tell you one thing\nI'm tired of playing around\nA girl in every town\nI want to settle down\nAnd stop foolin' around\n\n[Chorus]\n(Let's get married)\nI've got to stop foolin' around\n(Let's get married)\nStop foolin' around\n(Let's get married)\nYou don't believe me but I want to stop\nFoolin' around\n(Let's get married)\nLet me say it\nYou might also like[Bridge]\nI didn't mean to say all the things I said, oh no\nThe way I felt in my heart\nIt came out that way\nLet me tell you one thing\nDon't want to say anything to drive you away\n\n[Chorus]\nLet's get married today (Let's get married)\nHey (If you love me, let's get married)\nAlright\nWanna get married (Let's get married)\nLet's get married today\n\n[Breakdown]\nMight as well\nMight as well\n'Cause take you in my arms and hold you\nTake you in arms and squeeze you\nTake you in my arms and love you every night\nJust make everything alright, alright\nI wanna soothe you baby, want to soothe you baby, want to soothe you baby, want to soothe you baby\nI want to love you baby, want to love you baby, want to understand you baby\n\nI'll tell you, will you talk to me?\nI'll tell you you can talk to me\nTry to understand your lovin' ways\nTry to just let me, let me, let me\nSoothe you baby, let me soothe you baby, I can soothe you baby, I can, I can wipe all your tears away\nWipe all your tears away\nGirl, wipe all your tears away\nWipe all your tears away\nWipe all your tears away\nHey hey, hey hey\nYou can know me\nYou don't believe me\nOw, ow, ow, ow\nOw, ow, ow, ow\n\nLet's get married today\nI found out I didn't, I don't love nobody anyway\nI really really love you baby\nI really really love you baby\nI tell the truth about it\nI love you baby\nI can feel the groove comin' on now\nHey hey\nHey baby\nYou don't know me\nLet's get married today\nI love you anyway2Embed"
+    }
+}

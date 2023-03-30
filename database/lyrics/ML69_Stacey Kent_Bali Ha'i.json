@@ -1,0 +1,57 @@
+{
+    "id": "ML69",
+    "mood": "relaxed",
+    "artist": "Stacey Kent",
+    "title": "Bali Ha'i",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1308231",
+        "artist_names": "Stacey Kent",
+        "full_title": "Bali Ha'i by\u00a0Stacey\u00a0Kent",
+        "header_image_thumbnail_url": "https://images.genius.com/fa8840eda13ecd532b357325e68224e1.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/fa8840eda13ecd532b357325e68224e1.1000x1000x1.jpg",
+        "id": 1308231,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429757098,
+        "path": "/Stacey-kent-bali-hai-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Stacey-kent-bali-hai-sample",
+        "release_date_components": {
+            "year": 2002,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2002",
+        "release_date_with_abbreviated_month_for_display": "2002",
+        "song_art_image_thumbnail_url": "https://images.genius.com/fa8840eda13ecd532b357325e68224e1.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/fa8840eda13ecd532b357325e68224e1.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Bali Ha\u2019i",
+        "title_with_featured": "Bali Ha'i",
+        "updated_by_human_at": 1673199925,
+        "url": "https://genius.com/Stacey-kent-bali-hai-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/344485",
+            "header_image_url": "https://images.genius.com/df9e5aad7413495dfba5d2fe3b0ed809.667x667x1.jpg",
+            "id": 344485,
+            "image_url": "https://images.genius.com/df9e5aad7413495dfba5d2fe3b0ed809.667x667x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Stacey Kent",
+            "slug": "Stacey-kent",
+            "url": "https://genius.com/artists/Stacey-kent"
+        },
+        "artist": "Stacey Kent",
+        "lyrics": "Bali Ha\u2019i LyricsBali Ha'i may call you\nAny night and any day\nIn your heart you'll hear it call you\n\"Come away, come away\"\n\nBali Ha'i will whisper\nOn the wind of the sea\n\"Here am I your special island\"\n\"Come to me, come to me\"\n\nYour own special hopes\nYour own special dreams\nBloom on the hillside\nAnd shine in the streams\nIf you try you'll find me\nWhere the sky meets the sea\nHere am I your special island\nCome to me, come to me\n\nYour own special hopes\nYour own special dreams\nBloom on the hillside\nAnd shine in the streams\n\nIf you try you'll find me\nWhere the sky meets the sea\nHere am I your special island\nCome to me, come to me\nBali Hai, Bali Hai, Bali HaiYou might also likeEmbed"
+    }
+}

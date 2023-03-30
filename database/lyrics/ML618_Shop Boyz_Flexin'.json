@@ -1,0 +1,57 @@
+{
+    "id": "ML618",
+    "mood": "happy",
+    "artist": "Shop Boyz",
+    "title": "Flexin'",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/853479",
+        "artist_names": "Shop Boyz",
+        "full_title": "Flexin' by\u00a0Shop\u00a0Boyz",
+        "header_image_thumbnail_url": "https://images.genius.com/5950b41dceee7970e5b53310fda36968.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5950b41dceee7970e5b53310fda36968.1000x1000x1.jpg",
+        "id": 853479,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429284217,
+        "path": "/Shop-boyz-flexin-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Shop-boyz-flexin-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 6,
+            "day": 19
+        },
+        "release_date_for_display": "June 19, 2007",
+        "release_date_with_abbreviated_month_for_display": "Jun. 19, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5950b41dceee7970e5b53310fda36968.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5950b41dceee7970e5b53310fda36968.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Flexin\u2019",
+        "title_with_featured": "Flexin'",
+        "updated_by_human_at": 1650792306,
+        "url": "https://genius.com/Shop-boyz-flexin-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/863",
+            "header_image_url": "https://images.genius.com/4143f53088220fb1bf0728e3e7c955ba.280x280x1.jpg",
+            "id": 863,
+            "image_url": "https://images.genius.com/8d73a98ca6554c8249f065e9b978c22d.280x280x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Shop Boyz",
+            "slug": "Shop-boyz",
+            "url": "https://genius.com/artists/Shop-boyz"
+        },
+        "artist": "Shop Boyz",
+        "lyrics": "Flexin\u2019 LyricsBig wheels on rims, I'm flexin\nNew chain around my neck, I'm flexin\nGot dough you can check, I'm flexin matter of fact I'm big boy flexin. [x2]\n\nBig car, big shoes and a big booty bitch. (oh)\nOne hand on my wheel just to see my jewelry glitz. (uh-huh)\nAll my fingas and wrist. (yeah)\nNever would've thought I would live like this\nDrive toyota and a honda and no other in the streets. (ahh)\nLike D4L, betcha can't do it like me\nI'm a stunna\nThey will tell you how it is, this is shop boys summer. (yeah)\n[Chorus:]\nBig wheels on rims, I'm flexin\nNew chain around my neck, I'm flexin\nGot dough you can check, I'm flexin matter of fact I'm big boy flexin. [x2]\n\nBig rims my tires is flat. (yeah)\nNew benz outside and black. (yeah)\nKillas like I admire that. (ok)\nNew orange cutless like a fire-hat. (c'mon, yeah)\nI stunt I deserve a plant. (ok)\nGimme a track, I murda that. (yeah)\nTake your girl then work her back\nWhen it comes to the flix then I don't slack. (uh-uhh)\nCellphones same price as rent. (yeah)\nGet stupid, then it's on my bed\nI'm off the chain, you tied to the fence\nMy angel feels like this turbulance. (whoo)\nI'm bout to freeze I need a coat. (yeah)\nYour ice is a measly joke. (yeah)\nI pray, yeah I need to boast\nI'm big flexin from coast to coast. (whoa)\n\n[Chorus:]\nBig wheels on rims, I'm flexin\nNew chain around my neck, I'm flexin\nGot dough you can check, I'm flexin matter of fact I'm big boy flexin. [x2]\nYou might also likeI'm a money go getta, keep money. (keep money)\n$50 thousand around my neck like Johnny. (like Johnny)\nMy car sit way in the sky. (sky)\nFuture mission, man I think its gonna fly. (fly)\nSpent bout $450 on the shoes\nMy parents say I don't mean to be rude. (nah)\nI think I need protection. (yeah)\nGettin money I'm big boy flexin\n\n[Chorus:]\nBig wheels on rims, I'm flexin\nNew chain around my neck, I'm flexin\nGot dough you can check, I'm flexin matter of fact I'm big boy flexin. [x4]Embed"
+    }
+}

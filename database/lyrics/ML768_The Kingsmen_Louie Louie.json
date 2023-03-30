@@ -1,0 +1,58 @@
+{
+    "id": "ML768",
+    "mood": "happy",
+    "artist": "The Kingsmen",
+    "title": "Louie Louie",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/136957",
+        "artist_names": "The Kingsmen",
+        "full_title": "Louie Louie by\u00a0The\u00a0Kingsmen",
+        "header_image_thumbnail_url": "https://images.genius.com/4f743ee6b02942d626f24976066c8898.220x213x1.jpg",
+        "header_image_url": "https://images.genius.com/4f743ee6b02942d626f24976066c8898.220x213x1.jpg",
+        "id": 136957,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 149810,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1665099775,
+        "path": "/The-kingsmen-louie-louie-lyrics",
+        "pyongs_count": 9,
+        "relationships_index_url": "https://genius.com/The-kingsmen-louie-louie-sample",
+        "release_date_components": {
+            "year": 1963,
+            "month": 5,
+            "day": 1
+        },
+        "release_date_for_display": "May 1, 1963",
+        "release_date_with_abbreviated_month_for_display": "May. 1, 1963",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8c8bd330a763c981f4f3319ddc68aa43.220x219x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8c8bd330a763c981f4f3319ddc68aa43.220x219x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 120832
+        },
+        "title": "Louie Louie",
+        "title_with_featured": "Louie Louie",
+        "updated_by_human_at": 1665099842,
+        "url": "https://genius.com/The-kingsmen-louie-louie-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/44952",
+            "header_image_url": "https://images.genius.com/411f85df1a0a77f7146259322a98e198.192x192x1.jpg",
+            "id": 44952,
+            "image_url": "https://images.genius.com/411f85df1a0a77f7146259322a98e198.192x192x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Kingsmen",
+            "slug": "The-kingsmen",
+            "url": "https://genius.com/artists/The-kingsmen"
+        },
+        "artist": "The Kingsmen",
+        "lyrics": "Louie Louie Lyrics[Intro chords]\nLouie Louie, oh no, you take me where ya gotta go\nYeah, yeah, yeah, yeah, yeah, baby\nLouie Louie, oh baby, take me where ya gotta go\n\nA fine little girl, she waits for me\nMe catch the ship across the sea\nMe sailed that ship all alone\nMe never think I'll make it home\nLouie Louie, oh no no no, we gotta go\nOh no\nSaid Louie Louie, oh baby, me gotta go\n\nFuck!\n\nThree nights and days I sailed the sea\nMe think of girl constantly\nOn that ship, I dream she there\nI smell the rose in her hair\n\nLouie Louie, oh no, me gotta go\nYeah, yeah, yeah, yeah, yeah, baby\nLouie Louie, oh baby, said we gotta go\nOkay, let's give it to 'em right now\n\nMe see\n\nMe see Jamaica, the moon above\nIt won't be long me see me love\nMe take her in my arms and then\nI tell her I'll never leave again\nLouie Louie, oh no, we gotta go\nYeah, yeah, yeah, yeah, yeah, baby\nLouie Louie, oh baby, said we gotta go\nI said we gotta go now\nLet's hustle on out of here\nLet's goYou might also like9Embed"
+    }
+}

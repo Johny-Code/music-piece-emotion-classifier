@@ -1,0 +1,58 @@
+{
+    "id": "ML1938",
+    "mood": "relaxed",
+    "artist": "Nicole Atkins",
+    "title": "Together We're Both Alone",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1312499",
+        "artist_names": "Nicole Atkins",
+        "full_title": "Together We're Both Alone by\u00a0Nicole\u00a0Atkins",
+        "header_image_thumbnail_url": "https://images.genius.com/53bef2f3433ac19bdcf41fd0e2549f5c.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/53bef2f3433ac19bdcf41fd0e2549f5c.600x600x1.jpg",
+        "id": 1312499,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1168310,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1597793383,
+        "path": "/Nicole-atkins-together-were-both-alone-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Nicole-atkins-together-were-both-alone-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2007",
+        "release_date_with_abbreviated_month_for_display": "2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/53bef2f3433ac19bdcf41fd0e2549f5c.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/53bef2f3433ac19bdcf41fd0e2549f5c.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Together We\u2019re Both Alone",
+        "title_with_featured": "Together We're Both Alone",
+        "updated_by_human_at": 1597793383,
+        "url": "https://genius.com/Nicole-atkins-together-were-both-alone-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/133633",
+            "header_image_url": "https://images.genius.com/33bcb60695d6b92440f6a5fc5306d366.1000x562x1.jpg",
+            "id": 133633,
+            "image_url": "https://images.genius.com/64dc57aeb6f886eee4486e3239580df3.394x394x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Nicole Atkins",
+            "slug": "Nicole-atkins",
+            "url": "https://genius.com/artists/Nicole-atkins",
+            "iq": 601
+        },
+        "artist": "Nicole Atkins",
+        "lyrics": "Together We\u2019re Both Alone LyricsI am raising a flag, I am just too tired now to fight\nIt's white and it's waving, can't we save this for another night?\nI used to be afraid, but now I crave the quiet\nTogether we are both alone, but I don't mind\nI'll dream of something to try and make us alright\nTo make us alright\n\nBaby, put your arms down\nThey're machines that can't be fixed no more\n'Cause when the alarm sounds\nI'll be right here waiting at your door\nWe'll sit up on the bed for a while\nTogether we are both alone, but we don't mind\nWe'll dream of something to try and make us alright\nTo make us alright, it's alright, it's alright\nTo make us alright, it's alright, it's alright\nBut the dawn is trouble\nWhen I close my eyes, you never go away\nI've tried everything, still you won't change\nIs it better if you go?\n\nBut the ending doesn't matter\nOne hundred days and then the suffering stops\nRunning faster through this\nHope to save your heart before it drops\nAnd you can never say I didn't try\nTogether we are both alone, but I don't mind\nI dreamt of everything, I tried to make us alright\n\nIt's all right, it's all right, it's all right, it's all right\nIt's all right, it's all right, it's all right, it's all right\nIt's all right, it's all right, it's all right, it's all right\nIt's all right, it's all right, it's all right, it's all right\nTogether we are both alone, but I don't mind\nTogether we are both alone, but I don't mind\nTogether we are both alone, but I don't mind\nTogether we are both alone, but I don't mindYou might also likeEmbed"
+    }
+}

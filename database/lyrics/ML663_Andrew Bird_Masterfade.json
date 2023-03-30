@@ -1,0 +1,59 @@
+{
+    "id": "ML663",
+    "mood": "relaxed",
+    "artist": "Andrew Bird",
+    "title": "Masterfade",
+    "song": {
+        "_type": "song",
+        "annotation_count": 23,
+        "api_path": "/songs/85792",
+        "artist_names": "Andrew Bird",
+        "full_title": "Masterfade by\u00a0Andrew\u00a0Bird",
+        "header_image_thumbnail_url": "https://images.genius.com/edb88c6809db81115f9b7190974a7bd8.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/edb88c6809db81115f9b7190974a7bd8.500x500x1.jpg",
+        "id": 85792,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 130350,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1635780946,
+        "path": "/Andrew-bird-masterfade-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Andrew-bird-masterfade-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 2,
+            "day": 8
+        },
+        "release_date_for_display": "February 8, 2005",
+        "release_date_with_abbreviated_month_for_display": "Feb. 8, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/edb88c6809db81115f9b7190974a7bd8.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/edb88c6809db81115f9b7190974a7bd8.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 21,
+            "hot": false,
+            "pageviews": 5038
+        },
+        "title": "Masterfade",
+        "title_with_featured": "Masterfade",
+        "updated_by_human_at": 1635780946,
+        "url": "https://genius.com/Andrew-bird-masterfade-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/24076",
+            "header_image_url": "https://s3.amazonaws.com/rapgenius/2011_09_18_EMCF591.jpg",
+            "id": 24076,
+            "image_url": "https://s3.amazonaws.com/rapgenius/2011_09_18_EMCF591.jpg",
+            "index_character": "a",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Andrew Bird",
+            "slug": "Andrew-bird",
+            "url": "https://genius.com/artists/Andrew-bird",
+            "iq": 1975
+        },
+        "artist": "Andrew Bird",
+        "lyrics": "Masterfade LyricsWell, you sure didn't look like you were having any fun\nWith that heavy-metal gaze they'll have to measure in tons\nAnd when you look up at the sky\nAll you see are zeros\nAnd all you see are zeros and ones\nYou took my hand and led me down to watch a kewpie doll parade\nAnd we let the kittens lick our hair and drank our chalky lemonade\nIt's not that I just didn't care, I must admit I was afraid\nAnd I'm awfully glad my finger's resting gently on the masterfade\nThe masterfade, I could have played along\nThe masterfade, I could have played Mah Jongg\nBut it just takes too long\nAnd I just can't remember which way the east wind blows\nDoes it matter? If we're all matter\nWhat's the matter?\nDoes it matter if we're all matter when we're done\nWhen the sky is full of zeros and ones?\nI saw you standing all alone in the electrostatic rain\nI thought at last I'd found a situation you can't explain\nWith GPS, you know it's all just a matter of degrees\nYour happiness won't find you underneath that canopy of trees\nAnd if the green grass is six and the soybeans are seven\nThe June bugs are eight, the weeds and thistles are eleven\nThe ones just hold their place, the zeros make a smiley face\nWhen they come floating down from the heavens\nYou took my hand and led me down to watch a papillon parade\nAnd we let the kittens lick our hair and drank our chalky lemonade\nYou squeezed my hand and told me softly that I shouldn't be afraid\n'Cause all the while your finger's resting gently on the masterfade\nThe masterfade, I could have played along\nThe masterfade, I could have played Mah Jongg\nBut it just takes too long\nAnd who the hell can remember which way the east wind blows\nWhen you're lying on the ground staring up at that inverted compass\nI mean, Christ, who knows?You might also like2Embed"
+    }
+}

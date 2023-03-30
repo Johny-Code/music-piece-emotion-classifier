@@ -1,0 +1,57 @@
+{
+    "id": "ML1684",
+    "mood": "relaxed",
+    "artist": "Junior Boys",
+    "title": "Caught in a Wave",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1316829",
+        "artist_names": "Junior Boys",
+        "full_title": "Caught In A Wave by\u00a0Junior\u00a0Boys",
+        "header_image_thumbnail_url": "https://images.genius.com/b9f7d2edf5ceecb370a59577a2be29fc.300x299x1.jpg",
+        "header_image_url": "https://images.genius.com/b9f7d2edf5ceecb370a59577a2be29fc.600x597x1.jpg",
+        "id": 1316829,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429761582,
+        "path": "/Junior-boys-caught-in-a-wave-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Junior-boys-caught-in-a-wave-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 9,
+            "day": 7
+        },
+        "release_date_for_display": "September 7, 2006",
+        "release_date_with_abbreviated_month_for_display": "Sep. 7, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b9f7d2edf5ceecb370a59577a2be29fc.300x299x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b9f7d2edf5ceecb370a59577a2be29fc.600x597x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Caught In A Wave",
+        "title_with_featured": "Caught In A Wave",
+        "updated_by_human_at": 1503278061,
+        "url": "https://genius.com/Junior-boys-caught-in-a-wave-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/353590",
+            "header_image_url": "https://images.genius.com/0e704d491b8b1d757c37bb7fc81a7ce0.288x368x1.jpg",
+            "id": 353590,
+            "image_url": "https://images.genius.com/0e704d491b8b1d757c37bb7fc81a7ce0.288x368x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Junior Boys",
+            "slug": "Junior-boys",
+            "url": "https://genius.com/artists/Junior-boys"
+        },
+        "artist": "Junior Boys",
+        "lyrics": "Caught In A Wave LyricsIt's over\nAnd over\nThis wave\nI'm in\n\nSo slowly\nRoll over\nAnd flipped\nThe EarthYou might also likeEmbed"
+    }
+}

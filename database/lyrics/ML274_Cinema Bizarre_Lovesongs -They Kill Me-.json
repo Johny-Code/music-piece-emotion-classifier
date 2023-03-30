@@ -1,0 +1,57 @@
+{
+    "id": "ML274",
+    "mood": "sad",
+    "artist": "Cinema Bizarre",
+    "title": "Lovesongs (They Kill Me)",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/748191",
+        "artist_names": "Cinema Bizarre",
+        "full_title": "Lovesongs (They Kill Me) by\u00a0Cinema\u00a0Bizarre",
+        "header_image_thumbnail_url": "https://i.genius.com/44101e16ee3f3aca02f89357a245e9fe2f631063?url=http%3A%2F%2Fwww.naitimp3.ru%2Fimg%2Fartist%2F_%2F63671.jpg",
+        "header_image_url": "https://i.genius.com/44101e16ee3f3aca02f89357a245e9fe2f631063?url=http%3A%2F%2Fwww.naitimp3.ru%2Fimg%2Fartist%2F_%2F63671.jpg",
+        "id": 748191,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1654971,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1428884831,
+        "path": "/Cinema-bizarre-lovesongs-they-kill-me-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Cinema-bizarre-lovesongs-they-kill-me-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 8,
+            "day": 28
+        },
+        "release_date_for_display": "August 28, 2007",
+        "release_date_with_abbreviated_month_for_display": "Aug. 28, 2007",
+        "song_art_image_thumbnail_url": "https://i.genius.com/44101e16ee3f3aca02f89357a245e9fe2f631063?url=http%3A%2F%2Fwww.naitimp3.ru%2Fimg%2Fartist%2F_%2F63671.jpg",
+        "song_art_image_url": "https://i.genius.com/44101e16ee3f3aca02f89357a245e9fe2f631063?url=http%3A%2F%2Fwww.naitimp3.ru%2Fimg%2Fartist%2F_%2F63671.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Lovesongs (They Kill Me)",
+        "title_with_featured": "Lovesongs (They Kill Me)",
+        "updated_by_human_at": 1629929261,
+        "url": "https://genius.com/Cinema-bizarre-lovesongs-they-kill-me-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/346506",
+            "header_image_url": "https://images.genius.com/14c9d4f6078a79c9d21dfa93a97fa7b3.300x300x1.jpg",
+            "id": 346506,
+            "image_url": "https://images.genius.com/53bc3a9ebf8b6018e1b1f1bafebb1ff7.499x499x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Cinema Bizarre",
+            "slug": "Cinema-bizarre",
+            "url": "https://genius.com/artists/Cinema-bizarre"
+        },
+        "artist": "Cinema Bizarre",
+        "lyrics": "Lovesongs (They Kill Me) LyricsThe curtain's closed\nNo way home\nThe nectar of life run dry\nThese tainted words\nMade to hurt\nCut in me with its' knife\n\nEating my mind\nAnd with each bite\nI'm begging Please Lord, no\nThis place is a mess\nThe one has gone\n\nLovesongs, they kill me\nThey kill me... Now\nLovesongs are killing me\nAre killing me... Right now\n\nTrained to attack\nBull eye shot in black\nI never thought they'd get me\nThese pictures in my head...\nLying in my bed...\nThese whips make me bleed\n\nThis place is a mess\nMy one has gone\n\nLovesongs, they kill me\nThey kill me... Now\nLovesongs are killing me\nAre killing me... Right now\n\nI can't hear the sceneries\nOf constant tragedies\nOf what I meant to feel no more\nCause I'm already dead\nAnd I just cannot bear\nTo hear another word no more\nYou might also likeLovesongs, they kill me\nThey kill me... Now\nLovesongs are killing me\nAre killing me... Right nowEmbed"
+    }
+}

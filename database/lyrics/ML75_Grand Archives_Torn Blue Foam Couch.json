@@ -1,0 +1,53 @@
+{
+    "id": "ML75",
+    "mood": "relaxed",
+    "artist": "Grand Archives",
+    "title": "Torn Blue Foam Couch",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1689772",
+        "artist_names": "Grand Archives",
+        "full_title": "Torn Blue Foam Couch by\u00a0Grand\u00a0Archives",
+        "header_image_thumbnail_url": "https://images.genius.com/2c4bfb607d8f1b3b9e8994d7acd77f57.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2c4bfb607d8f1b3b9e8994d7acd77f57.959x959x1.jpg",
+        "id": 1689772,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429904052,
+        "path": "/Grand-archives-torn-blue-foam-couch-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Grand-archives-torn-blue-foam-couch-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/2c4bfb607d8f1b3b9e8994d7acd77f57.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2c4bfb607d8f1b3b9e8994d7acd77f57.959x959x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Torn Blue Foam Couch",
+        "title_with_featured": "Torn Blue Foam Couch",
+        "updated_by_human_at": 1481770609,
+        "url": "https://genius.com/Grand-archives-torn-blue-foam-couch-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/362202",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "id": 362202,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Grand Archives",
+            "slug": "Grand-archives",
+            "url": "https://genius.com/artists/Grand-archives"
+        },
+        "artist": "Grand Archives",
+        "lyrics": "Torn Blue Foam Couch LyricsHold on the further waves are high\nSleepless every night\nLie down shading your eyes from everyone\n\nHey darlin' don't you look fine\nSo blue all the time\nWhen you're terrified\n\nOver and over the lines\nYou memorized in time\nNow you're so tired\nAnd the telephone's too far away\nPhone lives have taken all your time\nTaken all this time\nFor the rest of our lives we're terrified\n\nThe photographs they've taken make you look blind\nYour costumes made of twine\nNow you're forgetting all of your lines again\n\nBut hey darlin'\nDon't you look fine\nYour two front teeth shaved\nLike ice and sharp as razors\n\nHey darlin' don't you look fine\nThe dull look in your eyes\nYou're terrified\n\nHolding the hands of our crimes\nDarlin' don't you look fine\nAs brave as we were those days\n\nDoing the best we knew how\nOn a torn blue foam couch\nAs brave as we were those days\n\nHolding the hands of our crimes\nDarlin' don't you look fine\nAs brave as we were those daysYou might also likeEmbed"
+    }
+}

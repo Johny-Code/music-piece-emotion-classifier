@@ -1,0 +1,58 @@
+{
+    "id": "ML1737",
+    "mood": "sad",
+    "artist": "My Bloody Valentine",
+    "title": "No More Sorry",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/243437",
+        "artist_names": "\u200bmy bloody valentine",
+        "full_title": "No More Sorry by\u00a0\u200bmy\u00a0bloody valentine",
+        "header_image_thumbnail_url": "https://images.genius.com/4ad629b41be4a9edac86efbc1c0e177c.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/4ad629b41be4a9edac86efbc1c0e177c.1000x1000x1.jpg",
+        "id": 243437,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 208752,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1628785482,
+        "path": "/My-bloody-valentine-no-more-sorry-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/My-bloody-valentine-no-more-sorry-sample",
+        "release_date_components": {
+            "year": 1988,
+            "month": 11,
+            "day": 21
+        },
+        "release_date_for_display": "November 21, 1988",
+        "release_date_with_abbreviated_month_for_display": "Nov. 21, 1988",
+        "song_art_image_thumbnail_url": "https://images.genius.com/4ad629b41be4a9edac86efbc1c0e177c.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/4ad629b41be4a9edac86efbc1c0e177c.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 13839
+        },
+        "title": "No More Sorry",
+        "title_with_featured": "No More Sorry",
+        "updated_by_human_at": 1669591369,
+        "url": "https://genius.com/My-bloody-valentine-no-more-sorry-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/24533",
+            "header_image_url": "https://images.genius.com/825f4e11dc95a9b5db99879250d9e227.1000x333x1.jpg",
+            "id": 24533,
+            "image_url": "https://images.genius.com/252b15f7befea12c282edc6751a682cb.640x640x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "\u200bmy bloody valentine",
+            "slug": "My-bloody-valentine",
+            "url": "https://genius.com/artists/My-bloody-valentine"
+        },
+        "artist": "\u200bmy bloody valentine",
+        "lyrics": "No More Sorry Lyrics[Verse 1]\nWhat happened now\nAnd again\nAnd then again\nAnd again\nLeft me black and blue\n\n[Chorus 1]\nNo more sorry\n\n[Verse 2]\nFlesh and bone\nNot alone\nYou're not alone\nWaiting by the telephone\nWhatever you do\n[Chorus 2]\nDon't call daddy\n\n[Verse 3]\nIn my hair\nEverywhere\nEverywhere\nAnd everywhere\nFingerprints of you\n\n[Chorus 3]\nFilthy, dirty\n\n[Verse 4]\nWash and mend\nAnd wash and mend\nSome kind of friend\nYour septic heart, your deadly hand\nLeft me black and blue\n\n[Chorus 1]\nNo more sorryYou might also likeEmbed"
+    }
+}

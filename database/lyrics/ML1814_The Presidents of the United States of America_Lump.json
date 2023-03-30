@@ -1,0 +1,58 @@
+{
+    "id": "ML1814",
+    "mood": "happy",
+    "artist": "The Presidents of the United States of America",
+    "title": "Lump",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/490181",
+        "artist_names": "The Presidents of the United States of America",
+        "full_title": "Lump by\u00a0The\u00a0Presidents of the United States of America",
+        "header_image_thumbnail_url": "https://images.genius.com/e6e5167bc20c2513ac3bab612beb130a.200x195x1.jpg",
+        "header_image_url": "https://images.genius.com/e6e5167bc20c2513ac3bab612beb130a.200x195x1.jpg",
+        "id": 490181,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 269182,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1633303252,
+        "path": "/The-presidents-of-the-united-states-of-america-lump-lyrics",
+        "pyongs_count": 5,
+        "relationships_index_url": "https://genius.com/The-presidents-of-the-united-states-of-america-lump-sample",
+        "release_date_components": {
+            "year": 1995,
+            "month": 8,
+            "day": 8
+        },
+        "release_date_for_display": "August 8, 1995",
+        "release_date_with_abbreviated_month_for_display": "Aug. 8, 1995",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e6e5167bc20c2513ac3bab612beb130a.200x195x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e6e5167bc20c2513ac3bab612beb130a.200x195x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 76931
+        },
+        "title": "Lump",
+        "title_with_featured": "Lump",
+        "updated_by_human_at": 1633303252,
+        "url": "https://genius.com/The-presidents-of-the-united-states-of-america-lump-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/24626",
+            "header_image_url": "https://images.genius.com/75d9d844a951f25f11fdb100ca08bea8.301x300x1.jpg",
+            "id": 24626,
+            "image_url": "https://images.genius.com/290197535c59471220c5f0427607cdf1.362x362x1.jpg",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Presidents of the United States of America",
+            "slug": "The-presidents-of-the-united-states-of-america",
+            "url": "https://genius.com/artists/The-presidents-of-the-united-states-of-america"
+        },
+        "artist": "The Presidents of the United States of America",
+        "lyrics": "Lump Lyrics[Verse 1]\nLump sat alone in a boggy marsh\nTotally emotionless except for her heart\nMud flowed up into lump's pajamas\nShe totally confused all the passing piranhas\n\n[Chorus]\nShe's lump, she's lump\nShe's in my head\nShe's lump, she's lump, she's lump\nShe might be dead\n[Verse 2]\nLump lingered last in line for brains\nAnd the one she got was sorta rotten and insane\nSmall things so sad that birds could land\nIs lump fast asleep or rockin' out with the band?\n\n[Chorus]\nShe's lump, she's lump\nShe's in my head\nShe's lump, she's lump, she's lump\nShe might be dead\n\n[Interlude]\nBa baw\nBa ba banana\nBa baw\nBa ba banana\nBa baw\nBa ba banana\nBa baw\n\n[Verse 3]\nLump was limp and lonely and needed a shove\nLump slipped on a kiss and tumbled into love\nShe spent her twenties between the sheets\nLife limped along at sub-sonic speeds\nYou might also like[Chorus]\nShe's lump, she's lump\nShe's in my head\nShe's lump, she's lump, she's lump\nShe might be dead\n\nWoo!\n\n[Outro]\nIs this lump outta my head?\nI think so\nIs this lump outta my head?\nI think so\nIs this lump outta my head?\nI think so\nIs this lump outta my head?5Embed"
+    }
+}

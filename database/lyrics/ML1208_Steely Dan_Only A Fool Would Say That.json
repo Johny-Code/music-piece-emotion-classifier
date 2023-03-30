@@ -1,0 +1,58 @@
+{
+    "id": "ML1208",
+    "mood": "relaxed",
+    "artist": "Steely Dan",
+    "title": "Only A Fool Would Say That",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/231600",
+        "artist_names": "Steely Dan",
+        "full_title": "Only a Fool Would Say That by\u00a0Steely\u00a0Dan",
+        "header_image_thumbnail_url": "https://images.genius.com/d324f5cc4a16c309e75b5bc4200c6079.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/d324f5cc4a16c309e75b5bc4200c6079.1000x1000x1.jpg",
+        "id": 231600,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 109757,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1673338894,
+        "path": "/Steely-dan-only-a-fool-would-say-that-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Steely-dan-only-a-fool-would-say-that-sample",
+        "release_date_components": {
+            "year": 1972,
+            "month": 11,
+            "day": 1
+        },
+        "release_date_for_display": "November 1, 1972",
+        "release_date_with_abbreviated_month_for_display": "Nov. 1, 1972",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d324f5cc4a16c309e75b5bc4200c6079.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d324f5cc4a16c309e75b5bc4200c6079.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 34689
+        },
+        "title": "Only a Fool Would Say That",
+        "title_with_featured": "Only a Fool Would Say That",
+        "updated_by_human_at": 1673338894,
+        "url": "https://genius.com/Steely-dan-only-a-fool-would-say-that-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/25769",
+            "header_image_url": "https://images.genius.com/763c2ee601488967edcff23d068300eb.500x330x1.gif",
+            "id": 25769,
+            "image_url": "https://s3.amazonaws.com/rapgenius/Steely%20Dan%20thedan.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Steely Dan",
+            "slug": "Steely-dan",
+            "url": "https://genius.com/artists/Steely-dan"
+        },
+        "artist": "Steely Dan",
+        "lyrics": "Only a Fool Would Say That Lyrics[Verse 1]\nA world become one of salads and sun\nOnly a fool would say that\nA boy with a plan, a natural man\nWearing a white Stetson hat\n\n[Pre-Chorus]\nUnhand that gun begone\nThere's no one to fire upon\nIf he's holding it high\nHe's telling a lie\n[Chorus]\nI heard it was you\nTalking 'bout a world where all is free\nIt just couldn't be\nAnd only a fool would say that\n\n[Verse 2]\nThe man in the street dragging his feet\nDon't wanna hear the bad news\nImagine your face there in his place\nStanding inside his brown shoes\n\n[Pre-Chorus]\nYou do his nine to five\nDrag yourself home half alive\nAnd there on the screen\nA man with a dream\n\n[Chorus]\nI heard it was you\nTalking 'bout a world where all is free\nIt just couldn't be\nAnd only a fool would say that\n\n[Bridge]\nAnybody on the street\nHas murder in his eyes\nYou feel no pain\nAnd you're younger than you realize\nOnly a fool would say that\nOnly a fool\nYou might also like[Chorus]\nI heard it was you\nTalking 'bout a world where all is free\nIt just couldn't be\nAnd only a fool would say that\n\n[Outro]\nOnly a fool would say that\nOnly a fool would say that2Embed"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "id": "ML1762",
+    "mood": "relaxed",
+    "artist": "Eliane Elias",
+    "title": "Chega De Saudade",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1274958",
+        "artist_names": "Eliane Elias",
+        "full_title": "Chega de Saudade by\u00a0Eliane\u00a0Elias",
+        "header_image_thumbnail_url": "https://images.genius.com/c1ff4bf76936fb345ac1beab36186e36.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/c1ff4bf76936fb345ac1beab36186e36.1000x1000x1.jpg",
+        "id": 1274958,
+        "instrumental": false,
+        "language": "pt",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429737084,
+        "path": "/Eliane-elias-chega-de-saudade-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Eliane-elias-chega-de-saudade-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/c1ff4bf76936fb345ac1beab36186e36.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/c1ff4bf76936fb345ac1beab36186e36.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Chega de Saudade",
+        "title_with_featured": "Chega de Saudade",
+        "updated_by_human_at": 1481829999,
+        "url": "https://genius.com/Eliane-elias-chega-de-saudade-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/371117",
+            "header_image_url": "https://images.genius.com/af9a79ebad7c3d9b5d4e21ab3dd8a21e.1000x549x1.jpg",
+            "id": 371117,
+            "image_url": "https://images.genius.com/c3b5446af28f7e2ff54a457839add3e2.562x562x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Eliane Elias",
+            "slug": "Eliane-elias",
+            "url": "https://genius.com/artists/Eliane-elias"
+        },
+        "artist": "Eliane Elias",
+        "lyrics": "Chega de Saudade LyricsVai, minha tristeza\nE diz a ela que sem ela n\u00e3o pode ser\nDiz lhe numa prece que ela regresse\nPorque eu n\u00e3o posso mais sofrer\nChega de saudade, a realidade\n\u00c9 que sem ela n\u00e3o h\u00e1 paz, n\u00e3o h\u00e1 beleza\n\u00c9 s\u00f3 tristeza, e a melancolia\nQue n\u00e3o sai de mim, n\u00e3o sai de mim, n\u00e3o sai\nMas se ela voltar, se ela voltar\nQue coisa linda, que coisa louca\nPois h\u00e1 menos peixinhos a nadar no mar\nDo que os beijinhos que eu darei na sua boca\nDentro dos meus bra\u00e7os os abra\u00e7os\nH\u00e3o de ser milh\u00f5es de abra\u00e7os apertado assim\nColado assim, calado assim\nAbra\u00e7os e beijinhos e carinhos sem ter fim\nQue \u00e9 pra acabar com esse neg\u00f3cio\nDe viver longe de mim\nN\u00e3o quero mais esse neg\u00f3cio\nDe voc\u00ea viver assim\nVamos deixar desse neg\u00f3cio\nDe voc\u00ea viver sem mimYou might also likeEmbed"
+    }
+}

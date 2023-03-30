@@ -1,0 +1,53 @@
+{
+    "id": "ML8",
+    "mood": "sad",
+    "artist": "Emerson Hart",
+    "title": "If You're Gonna Leave",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1320293",
+        "artist_names": "Emerson Hart",
+        "full_title": "If You're Gonna Leave by\u00a0Emerson\u00a0Hart",
+        "header_image_thumbnail_url": "https://images.genius.com/8bcb94c5f30f634522332c1fe6383fb9.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/8bcb94c5f30f634522332c1fe6383fb9.600x600x1.jpg",
+        "id": 1320293,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1473876203,
+        "path": "/Emerson-hart-if-youre-gonna-leave-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Emerson-hart-if-youre-gonna-leave-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/8bcb94c5f30f634522332c1fe6383fb9.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8bcb94c5f30f634522332c1fe6383fb9.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "If You\u2019re Gonna Leave",
+        "title_with_featured": "If You're Gonna Leave",
+        "updated_by_human_at": 1481220173,
+        "url": "https://genius.com/Emerson-hart-if-youre-gonna-leave-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/372647",
+            "header_image_url": "https://images.genius.com/e4a82e28f2609259530bcd2f76b45833.447x447x1.png",
+            "id": 372647,
+            "image_url": "https://images.genius.com/e4a82e28f2609259530bcd2f76b45833.447x447x1.png",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Emerson Hart",
+            "slug": "Emerson-hart",
+            "url": "https://genius.com/artists/Emerson-hart"
+        },
+        "artist": "Emerson Hart",
+        "lyrics": "If You\u2019re Gonna Leave LyricsMaybe I'm the joker\nMaybe I'm the fool in your eyes\nMaybe I'm the weak one\nMaybe I'm a lie in disguise\nMaybe I'm angry\n'Cause I'm the one who's always wrong\nBut maybe I'm not the one who's so strong\n\nDid you think about it?\nDid you pull it in and pour it out?\nCould you live without me?\nDid you ever really have a doubt?\nBut do you understand it, baby?\nWhen you say, \u201cIt's over\u201d, it's done\nMaybe I'm not the one\nSo if you're gonna leave\nYeah, you better get goin'\n\u2018Cause I ain't wastin' no more time\nOn what you did and what you didn't do\nIf you\u2019re gonna leave\nYeah, you better start runnin'\n\u2018Cause I ain't wastin' no more time\nOn what might've been\n\nWe can stand on reason\nWe can fight about all the things\nThis isn't forever\nThis is more than a wedding ring\nBut do you understand it, baby?\nWhen you say, \u201cIt's over\u201d, it's done\nMaybe I'm not the one\n\nSo if you're gonna leave\nYeah, you better get goin'\n\u2018Cause I ain't wastin' no more time\nOn what I did and what I didn't do\nIf you're gonna leave\nYeah, you better start runnin'\n\u2018Cause I ain't wastin' no more time\n\nO-oh, did it happen again?\nWith the things that you wanted\nFor being a friend\nHow did it happen again?\nJust look onward, baby\n\u2018Cause someday you might need a friend\n(Friend)\nYou might also likeSo if you're gonna leave\nYeah, you better get goin'\n\u2018Cause I ain't wastin' no more time\nOn what we did and what we didn't do\nIf you\u2019re gonna leave\nYeah, you better start runnin'\n\u2018Cause I ain't wastin' no more time\n\nNo, I ain't wastin' no more time\nOn what might've beenEmbed"
+    }
+}

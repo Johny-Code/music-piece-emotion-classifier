@@ -1,0 +1,58 @@
+{
+    "id": "ML515",
+    "mood": "angry",
+    "artist": "Megadeth",
+    "title": "Use the Man",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/110579",
+        "artist_names": "Megadeth",
+        "full_title": "Use the Man by\u00a0Megadeth",
+        "header_image_thumbnail_url": "https://images.genius.com/c6a1d6e549a6a9d3a01cf3edaab70ca9.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/c6a1d6e549a6a9d3a01cf3edaab70ca9.1000x1000x1.jpg",
+        "id": 110579,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 22533,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1677708782,
+        "path": "/Megadeth-use-the-man-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Megadeth-use-the-man-sample",
+        "release_date_components": {
+            "year": 1997,
+            "month": 6,
+            "day": 17
+        },
+        "release_date_for_display": "June 17, 1997",
+        "release_date_with_abbreviated_month_for_display": "Jun. 17, 1997",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d145368957d9c6bafb643090a6282318.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d145368957d9c6bafb643090a6282318.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 8596
+        },
+        "title": "Use the Man",
+        "title_with_featured": "Use the Man",
+        "updated_by_human_at": 1677775682,
+        "url": "https://genius.com/Megadeth-use-the-man-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/19444",
+            "header_image_url": "https://images.genius.com/ed7f0a9b8b87c0d2325b050eeebcc068.1000x530x1.png",
+            "id": 19444,
+            "image_url": "https://images.genius.com/9bdc3d3ea88da0c065c94aee4f13d943.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Megadeth",
+            "slug": "Megadeth",
+            "url": "https://genius.com/artists/Megadeth"
+        },
+        "artist": "Megadeth",
+        "lyrics": "Use the Man Lyrics[Intro]\nI saw her today, I saw her face\nWas the face I loved and I knew\nI had to run away\nAnd get down on my knees and pray-ay\nThat they'd go away\nBut still they begin...\nNeedles and pins\nNeedles and pins\nNeedles and pins...\n[Verse 1]\nI heard somebody fixed today\nThere was no last goodbyes to say\nHis will to live ran out\nI heard somebody turned to dust\nLooking back at what he left\nA list of plans and photographs\nSongs that never will be sung\nThese are the things he won't get done\nThe things he won't get done...\n\n[Chorus]\nI've seen the man use the needle\nSeen the needle use the man\nI've seen them crawl from the cradle\nTo the gutter on their hands\nThey fight a war but it's fatal\nIt's so hard to understand\nI've seen the man use the needle\nSeen the needle use the man\n\n[Verse 2]\nJust one shot to say goodbye\nOne last taste to mourn and cry\nScores and shoots, the lights go dim\nJust one shot to do him in\nHe hangs his head and wonders why\nWhy the monkey only lies, lies, lies...\nBut pay the pauper, he did choose\nHe hung his head inside the noose\nHe hung his head inside the noose, oh...\nYou might also like[Chorus]\nI've seen the man use the needle\nSeen the needle use the man\nI've seen them crawl from the cradle\nTo the coffin on their hands\nThey fight a war but it's fatal\nIt's so hard to understand\nI've seen the man use the needle\nSeen the needle use the man\nCryptic writing on the wall\nThe beginning of the end\nI've seen myself use the needle\nSeen the needle in my hand\n\n[Guitar Solo]\n\n[Outro]\nI've seen the man use the needle\nSeen the needle use the man\nI've seen them crawl from the cradle\nTo the coffin on their hands\nThey fight a war but it's fatal\nIt's so hard to understand\nI've seen myself use the needle\nSeen the needle in my hand\nIn my hand, in my hand\nIn my hand!2Embed"
+    }
+}

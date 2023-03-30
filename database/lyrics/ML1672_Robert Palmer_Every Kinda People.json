@@ -1,0 +1,57 @@
+{
+    "id": "ML1672",
+    "mood": "relaxed",
+    "artist": "Robert Palmer",
+    "title": "Every Kinda People",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/1129761",
+        "artist_names": "Robert Palmer",
+        "full_title": "Every Kinda People by\u00a0Robert\u00a0Palmer",
+        "header_image_thumbnail_url": "https://images.genius.com/deae6f5f40dcbd79ddae14fbd54fdb01.300x299x1.jpg",
+        "header_image_url": "https://images.genius.com/deae6f5f40dcbd79ddae14fbd54fdb01.600x597x1.jpg",
+        "id": 1129761,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1466591016,
+        "path": "/Robert-palmer-every-kinda-people-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Robert-palmer-every-kinda-people-sample",
+        "release_date_components": {
+            "year": 1978,
+            "month": 3,
+            "day": null
+        },
+        "release_date_for_display": "March 1978",
+        "release_date_with_abbreviated_month_for_display": "Mar. 1978",
+        "song_art_image_thumbnail_url": "https://images.genius.com/83d7c27ee1434e0d21d20a2d5cf94278.300x302x1.jpg",
+        "song_art_image_url": "https://images.genius.com/83d7c27ee1434e0d21d20a2d5cf94278.353x355x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Every Kinda People",
+        "title_with_featured": "Every Kinda People",
+        "updated_by_human_at": 1677817683,
+        "url": "https://genius.com/Robert-palmer-every-kinda-people-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/204915",
+            "header_image_url": "https://images.genius.com/b3a846e3e36dc302a958008a8d7bcc60.419x419x1.jpg",
+            "id": 204915,
+            "image_url": "https://images.genius.com/b3a846e3e36dc302a958008a8d7bcc60.419x419x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Robert Palmer",
+            "slug": "Robert-palmer",
+            "url": "https://genius.com/artists/Robert-palmer"
+        },
+        "artist": "Robert Palmer",
+        "lyrics": "Every Kinda People LyricsSaid the fight to make ends meet\nKeeps a man upon his feet\nHolding down his job\nTrying to show he can't be bought\n\nOoh, it takes every kinda people\nTo make what life's about, yeah\nEvery kinda people\nTo make the world go 'round\n\nSomeone's looking for a lead\nIn his duty to a king or to a creed\nProtecting what he feels is right\nFights against wrong with his life\nThere is no profit in deceit\nHonest men know that\nRevenge does not taste sweet\nWhether yellow, black or white\nEach and every man's the same inside\n\nOoh, it takes every kinda people\nTo make what life's about, yeah\nIt takes every kinda people\nTo make the world go 'round\n\nDoo, doo, doo, doo, doo, doo\nDoo, doo, doo, doo, doo, doo\n\nYou know that love's the only goal\nThat could bring a peace to any soul\nHey, and every man's the same\nHe wants the sunshine in his name\n\nOoh, it takes every kinda people\nTo make what life's about, yeah\nIt takes every kinda people\nTo make the world go 'round\n\nMmm, every kinda people\nTo make what life's about\nIt takes every kinda people\nTo make the world go 'roundYou might also likeEmbed"
+    }
+}

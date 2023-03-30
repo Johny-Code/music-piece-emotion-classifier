@@ -1,0 +1,53 @@
+{
+    "id": "ML1102",
+    "mood": "relaxed",
+    "artist": "Tunng",
+    "title": "Man in the box",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1975170",
+        "artist_names": "Tunng",
+        "full_title": "Man In The Box by\u00a0Tunng",
+        "header_image_thumbnail_url": "https://images.genius.com/0fd9be98877e1d077aa9801af740635e.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/0fd9be98877e1d077aa9801af740635e.1000x1000x1.jpg",
+        "id": 1975170,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1432931079,
+        "path": "/Tunng-man-in-the-box-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Tunng-man-in-the-box-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/0fd9be98877e1d077aa9801af740635e.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/0fd9be98877e1d077aa9801af740635e.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Man In The Box",
+        "title_with_featured": "Man In The Box",
+        "updated_by_human_at": 1476923697,
+        "url": "https://genius.com/Tunng-man-in-the-box-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/229021",
+            "header_image_url": "https://images.genius.com/1a8cfc1fe69c23113bac0aeb3db69b05.1000x811x1.jpg",
+            "id": 229021,
+            "image_url": "https://images.genius.com/c816b62c43db19e0b7638c529e99e9c9.620x620x1.jpg",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Tunng",
+            "slug": "Tunng",
+            "url": "https://genius.com/artists/Tunng"
+        },
+        "artist": "Tunng",
+        "lyrics": "Man In The Box LyricsDistance..of.. the barrel\nThe joining.. of.. the tin man\nDrinking.. the man.. in the box\nToiling..don't go.. with conspiracy\n\nNa Nah Na Na Na Naah\nNa Nah Na Na Na Naah, na na na x3\n\nWoooooh\nGo.. up the top floor\nWaiting..waiting to be comforted\nNa Nah Na Na Na Naah, na na na x6You might also likeEmbed"
+    }
+}

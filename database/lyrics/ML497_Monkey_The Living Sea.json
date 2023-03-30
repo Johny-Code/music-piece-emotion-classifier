@@ -1,0 +1,53 @@
+{
+    "id": "ML497",
+    "mood": "relaxed",
+    "artist": "Monkey",
+    "title": "The Living Sea",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/2479594",
+        "artist_names": "Darling Pet Munkee",
+        "full_title": "Sea-Monkeys by\u00a0Darling\u00a0Pet Munkee",
+        "header_image_thumbnail_url": "https://assets.genius.com/images/default_cover_image.png?1679675825",
+        "header_image_url": "https://assets.genius.com/images/default_cover_image.png?1679675825",
+        "id": 2479594,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3306279,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1464176921,
+        "path": "/Darling-pet-munkee-sea-monkeys-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Darling-pet-munkee-sea-monkeys-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://assets.genius.com/images/default_cover_image.png?1679675825",
+        "song_art_image_url": "https://assets.genius.com/images/default_cover_image.png?1679675825",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Sea-Monkeys",
+        "title_with_featured": "Sea-Monkeys",
+        "updated_by_human_at": 1464176921,
+        "url": "https://genius.com/Darling-pet-munkee-sea-monkeys-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/673464",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "id": 673464,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Darling Pet Munkee",
+            "slug": "Darling-pet-munkee",
+            "url": "https://genius.com/artists/Darling-pet-munkee"
+        },
+        "artist": "Darling Pet Munkee",
+        "lyrics": "Sea-Monkeys LyricsMonkeys come in powdered form\nJust add water and the monkey's born\nMonkeys living in the sea\nMonkeys doing tricks for me\n\nSea-Monkeys are coming for you (better watch out)\nThey're watching everything you do (better watch out)\nSea-Monkeys are coming for you (better watch out)\nYou better run!\n\nMonkeys swimming all around\nMonkeys wearing tiny crowns\nBuilding up their castle too\nMonkeys overthrowing you!\nSea-Monkeys are coming for you (better watch out)\nThey're watching everything you do (better watch out)\nSea-Monkeys are coming for you (better watch out)\nYou better run!You might also likeEmbed"
+    }
+}

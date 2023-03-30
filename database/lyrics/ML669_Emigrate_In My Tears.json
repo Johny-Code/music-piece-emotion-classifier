@@ -1,0 +1,57 @@
+{
+    "id": "ML669",
+    "mood": "sad",
+    "artist": "Emigrate",
+    "title": "In My Tears",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1048791",
+        "artist_names": "Emigrate",
+        "full_title": "In My Tears by\u00a0Emigrate",
+        "header_image_thumbnail_url": "https://images.genius.com/11de2f11ffe6bff09d4de2d0f7670a11.300x301x1.jpg",
+        "header_image_url": "https://images.genius.com/11de2f11ffe6bff09d4de2d0f7670a11.486x487x1.jpg",
+        "id": 1048791,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429604003,
+        "path": "/Emigrate-in-my-tears-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Emigrate-in-my-tears-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 8,
+            "day": 31
+        },
+        "release_date_for_display": "August 31, 2007",
+        "release_date_with_abbreviated_month_for_display": "Aug. 31, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/11de2f11ffe6bff09d4de2d0f7670a11.300x301x1.jpg",
+        "song_art_image_url": "https://images.genius.com/11de2f11ffe6bff09d4de2d0f7670a11.486x487x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "In My Tears",
+        "title_with_featured": "In My Tears",
+        "updated_by_human_at": 1636710535,
+        "url": "https://genius.com/Emigrate-in-my-tears-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/217712",
+            "header_image_url": "https://images.genius.com/b2746c0917c6e39fd7eee0475fddc4f6.1000x429x1.jpg",
+            "id": 217712,
+            "image_url": "https://images.genius.com/da5f2ee861945ae10c97840a43e4441f.911x911x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Emigrate",
+            "slug": "Emigrate",
+            "url": "https://genius.com/artists/Emigrate"
+        },
+        "artist": "Emigrate",
+        "lyrics": "In My Tears LyricsMy sickness slips inside you\nDrowning in my poison\nDesperately I hide too from heaven\nNow we'll be together\nI can make you better\nSiphon your pain in me, so I bleed\n\nFeed your dreams to fishes\nLie about your wishes\nEat away at your time, seconds are mine\nSometimes it seems we're toxic\nWake me up and shock it\nMy low self-esteem can make me scream\nIn my tears\nDon't let me drown\nMy fears\nDon't make a sound\nMy tears\nDon't break me down\nIn my tears\nDon't let me drown\n\n(Solo)\n\nIt's only my psychosis\nFeeling thorns of roses\nFill the void inside me so you see\nFeed me tranquilizers\nCalm the storm inside us\nIt's so perverse to say that I'm blind\n\nIn my tears\nDon't let me drown\nMy fears\nDon't make a sound\nMy tears\nDon't break me down\nIn my tears\n(Tears)\nYou might also likeIn my tears\nDon't let me drown\nMy fears\nDon't make a sound\nMy tears\nDon't break me down (Break me)\nDon't break me down (Break me)\nDon't let me drownEmbed"
+    }
+}

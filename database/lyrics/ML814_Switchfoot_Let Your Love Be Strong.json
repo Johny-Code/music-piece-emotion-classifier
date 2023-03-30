@@ -1,0 +1,57 @@
+{
+    "id": "ML814",
+    "mood": "sad",
+    "artist": "Switchfoot",
+    "title": "Let Your Love Be Strong",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1009982",
+        "artist_names": "Switchfoot",
+        "full_title": "Let Your Love Be Strong by\u00a0Switchfoot",
+        "header_image_thumbnail_url": "https://images.genius.com/4a64ff6909ab20991c98b176a50fdf40.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/4a64ff6909ab20991c98b176a50fdf40.1000x1000x1.jpg",
+        "id": 1009982,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1603328,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1585528426,
+        "path": "/Switchfoot-let-your-love-be-strong-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Switchfoot-let-your-love-be-strong-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 12,
+            "day": 26
+        },
+        "release_date_for_display": "December 26, 2006",
+        "release_date_with_abbreviated_month_for_display": "Dec. 26, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/4a64ff6909ab20991c98b176a50fdf40.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/4a64ff6909ab20991c98b176a50fdf40.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Let Your Love Be Strong",
+        "title_with_featured": "Let Your Love Be Strong",
+        "updated_by_human_at": 1615660628,
+        "url": "https://genius.com/Switchfoot-let-your-love-be-strong-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/27207",
+            "header_image_url": "https://images.genius.com/23132fe0a7c280aba435fbbba69e6e04.1000x666x1.webp",
+            "id": 27207,
+            "image_url": "https://images.genius.com/eb52a30ab2669272509d7a2eace9b58e.958x958x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Switchfoot",
+            "slug": "Switchfoot",
+            "url": "https://genius.com/artists/Switchfoot"
+        },
+        "artist": "Switchfoot",
+        "lyrics": "Let Your Love Be Strong Lyrics[Verse 1]\nIn this world of news, I've found nothing new\nI've found nothing pure\nMaybe I'm just idealistic to assume that truth\nCould be fact and form\nThat love could be a verb\nMaybe I'm just a little misinformed\nAs the dead moon rises and the freeways sigh\nLet the trains watch over the tides and the mist\nSpinning circles in our skies tonight\nLet the trucks roll in from Los Angeles\nMaybe our stars are unanimously tired\n[Chorus]\nLet your love be strong and I don't care what goes down\nLet your love be strong enough to weather through the thundercloud\nFury and thunder clap like stealing the fire from your eyes\nAll of my world hanging on your love\n\n[Verse 2]\nLet the wars begin, let my strength wear thin\nLet my fingers crack, let my world fall apart\nTrain the monkeys on my back to fight\nLet it start tonight\nWhen my world explodes\nWhen my stars touch the ground\nFalling down like broken satellites\n\n[Chorus]\nLet your love be strong, and I don't care what goes down\nLet your love be strong enough to weather through the thunder cloud\nFury and thunder clap like stealing the fire from your skies\nAll that I am hanging on\nAll of my world resting on your loveYou might also likeEmbed"
+    }
+}

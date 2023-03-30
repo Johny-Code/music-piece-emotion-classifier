@@ -1,0 +1,53 @@
+{
+    "id": "ML1377",
+    "mood": "happy",
+    "artist": "Good Shoes",
+    "title": "The Photos On My Wall",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1700246",
+        "artist_names": "Good Shoes",
+        "full_title": "The Photos on My Wall by\u00a0Good\u00a0Shoes",
+        "header_image_thumbnail_url": "https://images.genius.com/f34ca552c74c12e886ee12ee634e2e03.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/f34ca552c74c12e886ee12ee634e2e03.1000x1000x1.jpg",
+        "id": 1700246,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 143850,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1641255451,
+        "path": "/Good-shoes-the-photos-on-my-wall-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Good-shoes-the-photos-on-my-wall-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/f34ca552c74c12e886ee12ee634e2e03.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f34ca552c74c12e886ee12ee634e2e03.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "The Photos on My Wall",
+        "title_with_featured": "The Photos on My Wall",
+        "updated_by_human_at": 1641255451,
+        "url": "https://genius.com/Good-shoes-the-photos-on-my-wall-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/358291",
+            "header_image_url": "https://images.genius.com/217cf36f2c18ad770f5fc190059da650.1000x1000x1.jpg",
+            "id": 358291,
+            "image_url": "https://images.genius.com/217cf36f2c18ad770f5fc190059da650.1000x1000x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Good Shoes",
+            "slug": "Good-shoes",
+            "url": "https://genius.com/artists/Good-shoes"
+        },
+        "artist": "Good Shoes",
+        "lyrics": "The Photos on My Wall LyricsThe photos on my wall\nThe glow of the off switch\nIt's so good to hear your voice\nAs a stolen guitar falls\n\nI don't think before I speak\nI, I, I, I break you're heart\n\nJust waiting for your turn to speak\nEveryone's got an opinion\nI stare and nod my head\nAnd leave straight when it finishes\nAnd I think I could do better\nSo, so, so, so arrogant\n\nYou read and it makes no sense\nDon't understand a single word he says\nMy head hurts from being on the phone\nAnd my ears are ringing from the night before\n\nI don't think before I speak\nI, I, I, I break you're heart\nI think I could do better\nSo, so, so, so arrogantYou might also like1Embed"
+    }
+}

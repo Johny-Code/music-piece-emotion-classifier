@@ -1,0 +1,58 @@
+{
+    "id": "ML1009",
+    "mood": "angry",
+    "artist": "At The Drive In",
+    "title": "Quarantined",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/338848",
+        "artist_names": "At the Drive-In",
+        "full_title": "Quarantined by\u00a0At\u00a0the Drive-In",
+        "header_image_thumbnail_url": "https://images.genius.com/17bb0573b1a6a59bddcc3be8a9d71023.300x300x1.png",
+        "header_image_url": "https://images.genius.com/17bb0573b1a6a59bddcc3be8a9d71023.1000x1000x1.png",
+        "id": 338848,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 113589,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1668649705,
+        "path": "/At-the-drive-in-quarantined-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/At-the-drive-in-quarantined-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": 9,
+            "day": 12
+        },
+        "release_date_for_display": "September 12, 2000",
+        "release_date_with_abbreviated_month_for_display": "Sep. 12, 2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/17bb0573b1a6a59bddcc3be8a9d71023.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/17bb0573b1a6a59bddcc3be8a9d71023.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 14699
+        },
+        "title": "Quarantined",
+        "title_with_featured": "Quarantined",
+        "updated_by_human_at": 1668649705,
+        "url": "https://genius.com/At-the-drive-in-quarantined-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/55555",
+            "header_image_url": "https://images.genius.com/8e27c5589283532f8265b78b44f84f34.719x442x1.png",
+            "id": 55555,
+            "image_url": "https://images.genius.com/d8b4dcaacf223c2666c2a834df92eacd.543x543x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "At the Drive-In",
+            "slug": "At-the-drive-in",
+            "url": "https://genius.com/artists/At-the-drive-in"
+        },
+        "artist": "At the Drive-In",
+        "lyrics": "Quarantined Lyrics[Verse 1: Cedric Bixler-Zavala]\nAutonomous machete for hands\nWarden and judge hide behind masks\nWet raindrop lull small rationing\nExhumed the rhetoric\nOf break the weak in single file\nSanction this outbreak, a virus conspires\nPush becomes shove, days become months\nI seem to have forgotten the warmth of the sun\n\n[Chorus: Cedric Bixler-Zavala, Jim Ward]\nFeeding frenzy, it's contagious\nHave trigger, will travel\nHave trigger, will travel\nFeeding frenzy, it's contagious\nHave trigger, will travel\nHave trigger, will travel\nSingle spark starts spectral fires\nHave trigger, will travel\nHave trigger, will travel\nFeeding frenzy, it's contagious\n[Verse 2: Cedric Bixler-Zavala]\nShackled the grapple and the sentinels found\nBinoculars watch cardboard towns\nStrung up in webs the net was flung\nOver the auditorium\nSlave trade the weak, no call to arms\nSanction this outbreak, a virus conspires\nPush becomes shove, days become months\nI seem to have forgotten the warmth of the sun\n\n[Chorus: Cedric Bixler-Zavala, Jim Ward]\nFeeding frenzy, it's contagious\nHave trigger, will travel\nHave trigger, will travel\nA single spark can start a spectral fire\nHave trigger, will travel\nHave trigger, will travel\nFeeding frenzy, it's contagious\nHave trigger, will travel\nHave trigger, will travel\nA single spark can start a spectral fire\n\n[Outro: Cedric Bixler-Zavala, Jim Ward]\nA single spark can start a spectral fire\nHave trigger, will travel\nA single spark can start a spectral fire\nHave trigger, will travel\nA single spark can start a spectral fire\nHave trigger, will travel\nA single spark can start a spectral fireYou might also likeEmbed"
+    }
+}

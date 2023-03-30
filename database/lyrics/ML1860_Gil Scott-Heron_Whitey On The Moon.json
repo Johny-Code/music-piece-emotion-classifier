@@ -1,0 +1,59 @@
+{
+    "id": "ML1860",
+    "mood": "angry",
+    "artist": "Gil Scott-Heron",
+    "title": "Whitey On The Moon",
+    "song": {
+        "_type": "song",
+        "annotation_count": 14,
+        "api_path": "/songs/77978",
+        "artist_names": "Gil Scott-Heron",
+        "full_title": "Whitey on the Moon by\u00a0Gil\u00a0Scott-Heron",
+        "header_image_thumbnail_url": "https://images.genius.com/599aafd3389de2f98d931303a09d3050.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/599aafd3389de2f98d931303a09d3050.1000x1000x1.jpg",
+        "id": 77978,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 112618,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1625650858,
+        "path": "/Gil-scott-heron-whitey-on-the-moon-annotated",
+        "pyongs_count": 8,
+        "relationships_index_url": "https://genius.com/Gil-scott-heron-whitey-on-the-moon-sample",
+        "release_date_components": {
+            "year": 1970,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1970",
+        "release_date_with_abbreviated_month_for_display": "1970",
+        "song_art_image_thumbnail_url": "https://images.genius.com/599aafd3389de2f98d931303a09d3050.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/599aafd3389de2f98d931303a09d3050.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 63655
+        },
+        "title": "Whitey on the Moon",
+        "title_with_featured": "Whitey on the Moon",
+        "updated_by_human_at": 1625650858,
+        "url": "https://genius.com/Gil-scott-heron-whitey-on-the-moon-annotated",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/953",
+            "header_image_url": "https://images.genius.com/cb098ab82747bd5c3ae2cc7304f18604.640x345x1.jpg",
+            "id": 953,
+            "image_url": "https://images.genius.com/26ae0e0e6d565d1fdc07b8670939f9a6.622x622x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Gil Scott-Heron",
+            "slug": "Gil-scott-heron",
+            "url": "https://genius.com/artists/Gil-scott-heron",
+            "iq": 101
+        },
+        "artist": "Gil Scott-Heron",
+        "lyrics": "Whitey on the Moon LyricsWe have a poem here, it's called \"Whitey On The Moon\"\nIt was inspired by some whiteys on the moon\nSo I wanna give credit where credit is due\nA rat done bit my sister Nell\nWith whitey on the moon\nHer face and arms began to swell\nAnd whitey's on the moon\nI can't pay no doctor bills\nBut whitey's on the moon\nTen years from now I'll be payin' still\nWhile whitey's on the moon\nThe man just upped my rent last night\nCause whitey's on the moon\nNo hot water, no toilets, no lights\nBut whitey's on the moon\nI wonder why he's upping me?\nCause whitey's on the moon?\nWell I was already giving him fifty a week\nWith whitey on the moon\nTaxes taking my whole damn check\nJunkies making me a nervous wreck\nThe price of food is going up\nAnd as if all that shit wasn't enough:\nA rat done bit my sister Nell\nWith whitey on the moon\nHer face and arm began to swell\nAnd whitey's on the moon\nWas all that money I made last year\nFor whitey on the moon?\nHow come I ain't got no money here?\nHmm! Whitey's on the moon\nY'know I just 'bout had my fill\nOf whitey on the moon\nI think I'll send these doctor bills\nAirmail special\nTo whitey on the moon8Embed"
+    }
+}

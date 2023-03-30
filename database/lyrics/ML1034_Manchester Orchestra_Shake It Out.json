@@ -1,0 +1,59 @@
+{
+    "id": "ML1034",
+    "mood": "angry",
+    "artist": "Manchester Orchestra",
+    "title": "Shake It Out",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/1446507",
+        "artist_names": "Manchester Orchestra",
+        "full_title": "Shake It Out by\u00a0Manchester\u00a0Orchestra",
+        "header_image_thumbnail_url": "https://images.genius.com/0659886d88dae3fb552ab56f7b234dd8.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/0659886d88dae3fb552ab56f7b234dd8.1000x1000x1.jpg",
+        "id": 1446507,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1939756,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1668020450,
+        "path": "/Manchester-orchestra-shake-it-out-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Manchester-orchestra-shake-it-out-sample",
+        "release_date_components": {
+            "year": 2009,
+            "month": 4,
+            "day": 21
+        },
+        "release_date_for_display": "April 21, 2009",
+        "release_date_with_abbreviated_month_for_display": "Apr. 21, 2009",
+        "song_art_image_thumbnail_url": "https://images.genius.com/0659886d88dae3fb552ab56f7b234dd8.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/0659886d88dae3fb552ab56f7b234dd8.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 14266
+        },
+        "title": "Shake It Out",
+        "title_with_featured": "Shake It Out",
+        "updated_by_human_at": 1668020450,
+        "url": "https://genius.com/Manchester-orchestra-shake-it-out-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/61516",
+            "header_image_url": "https://images.genius.com/247dcb6181baea8b4770f4c75314faff.1000x667x1.jpg",
+            "id": 61516,
+            "image_url": "https://images.genius.com/838cc6a8e339d7d78d91f96d1af517f7.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Manchester Orchestra",
+            "slug": "Manchester-orchestra",
+            "url": "https://genius.com/artists/Manchester-orchestra",
+            "iq": 659
+        },
+        "artist": "Manchester Orchestra",
+        "lyrics": "Shake It Out Lyrics[Verse 1]\nShake it out, shake it out\nGod, I need another and another\nAnd another and another, I can feel it now\nI felt the Lord in my father's house\nAnd I can see, I can see\nStanding, we were seventeen, make it clean\nAre you the living ghost of what I need?\nAre you gonna get the best of me?\nWe will see\n[Pre-Chorus]\n'Cause I'm done being done\nWith the funerals, at least for now\nAre you tired of being alone?\nAre you tired of being alone?\n\n[Verse 2]\nShake it out, shake it out\nTired of another and another\nWasn't really what I wanted\nSo we bled it out\nOver the floor of my neighbor's house\nAnd I could see, I could see\nGod, I've never seen a thing so complete\nI am the living ghost of what you need\nI am everything eternally, God, just speak\n\n[Pre-Chorus]\n'Cause I'm done being done\nWith the funerals, at least for now\nAre you tired of being alone?\nAre you tired of being alone?\nSo speak to me\n\n[Chorus]\nOh god, you gotta shake it out, shake it out\nYou gotta take it out, take it down\nI gotta come around, I need it now more than I ever have\nOh god, you gotta shake it out, shake it out\nYou gotta break it down, break it out\nYou've gotta come around, I feel it now more than I ever have\nYou might also like[Bridge]\nI felt the Lord begin\nTo peel off all my skin\nAnd I felt the weight within\nReveal a bigger mess\nThat you can't fix\n\n[Verse 3]\nI swear, I swear I'll go\nLead me into my home\nDon't stop, don't ever go\nI swear you'll never know\nYou'll never know\n\n[Chorus]\nOh god, you gotta shake it out, shake it out\nYou gotta break it down, break it out2Embed"
+    }
+}

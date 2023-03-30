@@ -1,0 +1,58 @@
+{
+    "id": "ML1266",
+    "mood": "happy",
+    "artist": "Jennifer Lopez",
+    "title": "Jenny From the Block",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/773391",
+        "artist_names": "Jennifer Lopez",
+        "full_title": "Jenny from the Block by\u00a0Jennifer\u00a0Lopez",
+        "header_image_thumbnail_url": "https://images.genius.com/7934520d3fc6cb2b667b54e462774a79.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/7934520d3fc6cb2b667b54e462774a79.1000x1000x1.jpg",
+        "id": 773391,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 126836,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1673660346,
+        "path": "/Jennifer-lopez-jenny-from-the-block-lyrics",
+        "pyongs_count": 206,
+        "relationships_index_url": "https://genius.com/Jennifer-lopez-jenny-from-the-block-sample",
+        "release_date_components": {
+            "year": 2002,
+            "month": 9,
+            "day": 26
+        },
+        "release_date_for_display": "September 26, 2002",
+        "release_date_with_abbreviated_month_for_display": "Sep. 26, 2002",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8f1c488e5ab3122547ed0c8c9748cbb7.300x301x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8f1c488e5ab3122547ed0c8c9748cbb7.998x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 141961
+        },
+        "title": "Jenny from the Block",
+        "title_with_featured": "Jenny from the Block",
+        "updated_by_human_at": 1673660346,
+        "url": "https://genius.com/Jennifer-lopez-jenny-from-the-block-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2487",
+            "header_image_url": "https://images.genius.com/b3c653a0857ae04c509922626c088bf1.1000x333x1.jpg",
+            "id": 2487,
+            "image_url": "https://images.genius.com/4ad05ac3e0d538e22b9371cd81385460.623x623x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Jennifer Lopez",
+            "slug": "Jennifer-lopez",
+            "url": "https://genius.com/artists/Jennifer-lopez"
+        },
+        "artist": "Jennifer Lopez",
+        "lyrics": "Jenny from the Block Lyrics[Intro: Sample]\nChildren grow and women producing\nMen go working, some go stealing\nEveryone's got to make a living\nBX, uh (South side Bronx)\n(South side Bronx)\n\n[Chorus]\nDon't be fooled by the rocks that I got\nI'm still, I'm still Jenny from the block\nUsed to have a little, now I have a lot\nNo matter where I go I know where I came from (From the Bronx)\nDon't be fooled by the rocks that I got\nI'm still, I'm still Jenny from the block\nUsed to have a little, now I have a lot\nNo matter where I go I know where I came from (South side Bronx, from the Bronx)\n[Verse 1]\nFrom In Living Color to movie scripts\nTo On the 6 to J. Lo to this\nHeadline clips\nI stay grounded as the amounts roll in\nI'm real I thought I told ya (I'm real)\nI'm real even on Oprah (I'm real)\nThat's just me\nNothing phony, don't hate on me\nWhat you get is what you see, oh (South side Bronx)\n\n[Chorus]\nDon't be fooled by the rocks that I got\nI'm still, I'm still Jenny from the block\nUsed to have a little, now I have a lot\nNo matter where I go I know where I came from (From the Bronx)\nDon't be fooled by the rocks that I got\nI'm still, I'm still Jenny from the block\nUsed to have a little, now I have a lot\nNo matter where I go I know where I came from (South side Bronx, from the Bronx)\n\n[Verse 2]\nI'm down to earth like this\nRocking this business\nI've grown up so much\nI'm in control and loving it\nRumors got me laughing, kid\nI love my life and my public\nPut God first and can't forget to stay real (Real)\nTo me it's like breathing, yeah (South side Bronx)\nYou might also like[Chorus]\nDon't be fooled by the rocks that I got\nI'm still, I'm still Jenny from the block\nUsed to have a little, now I have a lot\nNo matter where I go I know where I came from (From the Bronx)\nDon't be fooled by the rocks that I got\nI'm still, I'm still Jenny from the block\nUsed to have a little, now I have a lot\nNo matter where I go I know where I came from\n\n[Bridge: Sample]\nSouth Bronx, oh, the South side Bronx\nF-F-F-Flip it\nBoricua\nNow that's what happened\nSouth Bronx, the South side Bronx\nAh\nF-F-F-Flip it\nNow that's what happened\nSouth Bronx, the South side Bronx\nBoricua's in the house\nF-F-F-Flip it\nNow that's what happened\nHey\nSouth Bronx, the South side Bronx\nEveryone's got to make a living\nAlright, now bring it back\n[Chorus]\nDon't be fooled by the rocks that I got\nI'm still, I'm still Jenny from the block\nUsed to have a little, now I have a lot\nNo matter where I go I know where I came from (From the Bronx)\nDon't be fooled by the rocks that I got\nI'm still, I'm still Jenny from the block\nUsed to have a little, now I have a lot (South side Bronx)\nNo matter where I go I know where I came from (South side Bronx, from the Bronx)\nDon't be fooled by the rocks that I got\nI'm still, I'm still Jenny from the block\nUsed to have a little, now I have a lot (South side Bronx)\nNo matter where I go I know where I came from (South side Bronx, from the Bronx)\nDont be fooled by the rocks that I got\nI'm still, I'm still Jenny from the block\nUsed to have a little, now I have a lot (South side Bronx)\nNo matter where I go I know where I came from (South side Bronx, from the Bronx)206Embed"
+    }
+}

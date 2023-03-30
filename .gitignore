@@ -4,7 +4,6 @@ genius_secrets.json
 
 # Songs
 database/songs/*
-database/lyrics/*
 
 # Distribution / packaging
 .Python

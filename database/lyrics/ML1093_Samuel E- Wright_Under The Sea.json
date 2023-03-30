@@ -1,0 +1,72 @@
+{
+    "id": "ML1093",
+    "mood": "happy",
+    "artist": "Samuel E. Wright",
+    "title": "Under The Sea",
+    "song": {
+        "_type": "song",
+        "annotation_count": 13,
+        "api_path": "/songs/201935",
+        "artist_names": "Walt Disney Records (Ft. Samuel E. Wright)",
+        "full_title": "Under the Sea by\u00a0Walt\u00a0Disney Records (Ft.\u00a0Samuel\u00a0E. Wright)",
+        "header_image_thumbnail_url": "https://images.genius.com/480c80831f739ab0d1d3c7a378e1c84c.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/480c80831f739ab0d1d3c7a378e1c84c.1000x1000x1.jpg",
+        "id": 201935,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 11917,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675929010,
+        "path": "/Walt-disney-records-under-the-sea-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Walt-disney-records-under-the-sea-sample",
+        "release_date_components": {
+            "year": 1989,
+            "month": 10,
+            "day": 19
+        },
+        "release_date_for_display": "October 19, 1989",
+        "release_date_with_abbreviated_month_for_display": "Oct. 19, 1989",
+        "song_art_image_thumbnail_url": "https://images.genius.com/480c80831f739ab0d1d3c7a378e1c84c.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/480c80831f739ab0d1d3c7a378e1c84c.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 437355
+        },
+        "title": "Under the Sea",
+        "title_with_featured": "Under the Sea (Ft.\u00a0Samuel\u00a0E. Wright)",
+        "updated_by_human_at": 1675929010,
+        "url": "https://genius.com/Walt-disney-records-under-the-sea-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/158333",
+                "header_image_url": "https://images.genius.com/a923a7b1d0fbc407c77302f4a53f01b9.394x274x1.png",
+                "id": 158333,
+                "image_url": "https://images.genius.com/a923a7b1d0fbc407c77302f4a53f01b9.394x274x1.png",
+                "index_character": "s",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "Samuel E. Wright",
+                "slug": "Samuel-e-wright",
+                "url": "https://genius.com/artists/Samuel-e-wright"
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/32992",
+            "header_image_url": "https://images.genius.com/c414ea29563cb002e5a067947fc17aab.1000x284x1.png",
+            "id": 32992,
+            "image_url": "https://images.genius.com/9b4c7574a4388683c9d6a23cc090f28d.1000x1000x1.jpg",
+            "index_character": "w",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Walt Disney Records",
+            "slug": "Walt-disney-records",
+            "url": "https://genius.com/artists/Walt-disney-records"
+        },
+        "artist": "Walt Disney Records",
+        "lyrics": "Under the Sea Lyrics[Intro: Sebastian]\nAriel, listen to me\nThe human world, it's a mess\nLife under the sea is better than anything they've got up there\n\n[Verse 1: Sebastian]\nThe seaweed is always greener\nIn somebody else's lake\nYou dream about going up there\nBut that is a big mistake\nJust look at the world around you\nRight here on the ocean floor\nSuch wonderful things surround you\nWhat more is you lookin' for?\n[Chorus: Sebastian]\nUnder the sea, under the sea\nDarling, it's better down where it's wetter\nTake it from me\nUp on the shore, they work all day\nOut in the sun they slave away\nWhile we devotin', full time to floatin'\nUnder the sea (Ah-ha-ha)\n\n[Verse 2: Sebastian & Crab, Sebastian, Fish]\nDown here all the fish is happy\nAs off through the waves they roll\nThe fish on the land ain't happy\nThey sad cause they in their bowl\nBut fish in the bowl is lucky\nThey in for a worser fate\nOne day when the boss get hungry\nGuess who's gon' be on the plate?\nUh-oh!\n\n[Chorus: Sebastian, Snails]\nUnder the sea, under the sea\nNobody beat us\nFry us and eat us in fricassee\nWe what the land folks loves to cook\nUnder the sea we off the hook\nWe got no troubles, life is the bubbles\nUnder the sea (Under the sea)\nUnder the sea (Under the sea)\nSince life is sweet here\nWe got the beat here naturally (Naturally-y-y-y)\nEven the sturgeon an' the ray\nThey get the urge 'n' start to play\nWe got the spirit, you got to hear it\nUnder the sea\nYou might also like[Bridge: Sebastian, Fluke]\nThe newt play the flute\nThe carp play the harp\nThe plaice play the bass\nAnd they soundin' sharp\nThe bass play the brass\nThe chub play the tub\nThe fluke is the duke of soul (Yeah)\nThe ray he can play\nThe lings on the strings\nThe trout rockin' out\nThe blackfish she sings\nThe smelt and the sprat, they know where it's at\nAn' oh that blowfish blow\n(Wah, ah-ha, yeah)\n\n[Chorus: Sebastian, Sea Creatures, Sebastian & Sea Creatures]\nYeah, under the sea (Under the sea)\nUnder the sea (Under the sea)\nWhen the sardine begin the beguine\nIt's music to me (Music is to me)\nWhat do they got? A lot of sand\nWe got a hot, crustacean band\nEach little clam here, know how to jam here\nUnder the sea\nEach little slug here, cuttin' a rug here\nUnder the sea\n[Post-Chorus: Sebastian]\nEach little snail here\nKnow how to wail here\nThat's why it's hotter\nUnder the water\nYa we in luck here\nDown in the muck here\nUnder the sea4Embed"
+    }
+}

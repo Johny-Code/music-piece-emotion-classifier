@@ -1,0 +1,57 @@
+{
+    "id": "ML1702",
+    "mood": "relaxed",
+    "artist": "Rickie Lee Jones",
+    "title": "Easy Money",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1028571",
+        "artist_names": "Rickie Lee Jones",
+        "full_title": "Easy Money by\u00a0Rickie\u00a0Lee Jones",
+        "header_image_thumbnail_url": "https://images.genius.com/2d0d34a47d9fddc70d889dca949e2dda.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2d0d34a47d9fddc70d889dca949e2dda.301x301x1.jpg",
+        "id": 1028571,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429595502,
+        "path": "/Rickie-lee-jones-easy-money-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Rickie-lee-jones-easy-money-sample",
+        "release_date_components": {
+            "year": 1979,
+            "month": 3,
+            "day": 23
+        },
+        "release_date_for_display": "March 23, 1979",
+        "release_date_with_abbreviated_month_for_display": "Mar. 23, 1979",
+        "song_art_image_thumbnail_url": "https://images.genius.com/2d0d34a47d9fddc70d889dca949e2dda.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2d0d34a47d9fddc70d889dca949e2dda.301x301x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Easy Money",
+        "title_with_featured": "Easy Money",
+        "updated_by_human_at": 1506235763,
+        "url": "https://genius.com/Rickie-lee-jones-easy-money-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/188384",
+            "header_image_url": "https://images.genius.com/b1c42a751bcb1c457285a309fe63bbe2.770x770x1.jpg",
+            "id": 188384,
+            "image_url": "https://images.genius.com/b1c42a751bcb1c457285a309fe63bbe2.770x770x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Rickie Lee Jones",
+            "slug": "Rickie-lee-jones",
+            "url": "https://genius.com/artists/Rickie-lee-jones"
+        },
+        "artist": "Rickie Lee Jones",
+        "lyrics": "Easy Money LyricsThere was a Joe\nLeanin' on the back door\nA couple Jills with their eyes on a couple bills\nTheir eyes was statin'\nThey was waitin'\nTo get their hands on some easy money\n\nThey flipped a dime\nOne said \" well, I'll take heads this time\"\nOne stepped up\nOne stepped back\nOne loosened her shoulder strap\nShe couldn't speak\nHer knees got weak\nShe could almost taste that easy money\nThere was this old black cat\nSittin' in a old black cadillac\nThe Joe smelled sweet\nShe curled up at her boyfriend's feet\nShe said \"I got a plan\nListen, Sam, how'd ya like to make some easy money ? \"\nHe say, \"yes! oh yes!\nJus' tell me what you want me to do \"\nShe said, \"Baby, you can trust me\nBaby, but you must be hidin' in my room\nAt a quarter to two\"\nWell, the cat told the boy\n\"Come up to the room and play with my toy\"\nBut the Jill set the bait\nAnd she wasn't gonna sit around and wait\nBut this guy was wise to all the lies\nAnd he flies out the door\nWith the easy money\n\nBecause there ain't no man\nWho got the money in his hand\nWho got any of that bread\nBein' slow in the head\nThe easier it looks\nThe hotter it hooks\nThere ain't no such thing as easy money\nWe say, \"yes! oh yes!\"\nSaturday night\nThere was a terrible, terrible fight\nBetween two dames who was losin' the same game\nIt wasn't clear\nBut I hear somebody was lookin' for some easy moneyYou might also likeEmbed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML1229",
+    "mood": "happy",
+    "artist": "The Contours",
+    "title": "Do You Love Me",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/600644",
+        "artist_names": "The Contours",
+        "full_title": "Do You Love Me by\u00a0The\u00a0Contours",
+        "header_image_thumbnail_url": "https://images.genius.com/32dc76a77edad8284b628f69d2248631.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/32dc76a77edad8284b628f69d2248631.1000x1000x1.jpg",
+        "id": 600644,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 585437,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1672653706,
+        "path": "/The-contours-do-you-love-me-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/The-contours-do-you-love-me-sample",
+        "release_date_components": {
+            "year": 1962,
+            "month": 6,
+            "day": 29
+        },
+        "release_date_for_display": "June 29, 1962",
+        "release_date_with_abbreviated_month_for_display": "Jun. 29, 1962",
+        "song_art_image_thumbnail_url": "https://images.genius.com/32dc76a77edad8284b628f69d2248631.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/32dc76a77edad8284b628f69d2248631.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 39254
+        },
+        "title": "Do You Love Me",
+        "title_with_featured": "Do You Love Me",
+        "updated_by_human_at": 1672653706,
+        "url": "https://genius.com/The-contours-do-you-love-me-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/277851",
+            "header_image_url": "https://images.genius.com/491a61fa96179d3b674594eba92d3ff2.382x283x1.jpg",
+            "id": 277851,
+            "image_url": "https://images.genius.com/491a61fa96179d3b674594eba92d3ff2.382x283x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Contours",
+            "slug": "The-contours",
+            "url": "https://genius.com/artists/The-contours"
+        },
+        "artist": "The Contours",
+        "lyrics": "Do You Love Me Lyrics[Intro]\nYou broke my heart\n'Cause I couldn't dance\nYou didn't even want me around\nAnd now I'm back\nTo let you know\nI can really shake 'em down\n\n[Chorus]\nDo you love me?\n(I can really move)\nDo you love me?\n(I'm in the groove)\nAh, do you love me?\n(Do you love me?)\nNow that I can dance\n(Dance)\n[Verse 1]\nWatch me now, hey\n(Work, work)\nAh, work it out baby\n(Work, work)\nWell, you're drivin' me crazy\n(Work, work)\nWith a little bit of soul now\n(Work)\n\n[Pre-Chorus]\nI can mash-potato\n(I can mash-potato)\nAnd I can do the twist\n(I can do the twist)\nNow, tell me baby\n(Tell me baby)\nDo you like it like this?\n(Do you like it like this?)\nTell me\n(Tell me)\nTell me\n\n[Chorus]\nDo you love me?\n(Do you love me?)\nNow, do you love me?\n(Do you love me?)\nNow, do you love me?\n(Do you love me?)\nNow that I can dance\n(Dance)\nDance\nYou might also like[Verse 2]\nWatch me now, oh\n(Work, work)\nAh, shake it up, shake it\n(Work, work)\nAh, shake 'em, shake 'em down\n(Work, work)\nAh, little bit of soul now\n(Work)\n\n[Verse 3]\n(Work, work)\nAh, shake it, shake it, baby\n(Work, work)\nAh, you're driving me crazy\n(Work, work)\nAh, don't get lazy\n(Work)\n\n[Pre-Chorus]\nI can mash-potato\n(I can mash-potato)\nAnd I can do the twist\n(I can do the twist)\nWell, now, tell me baby\n(Tell me baby)\nDo you like it like this?\n(Do you like it like this)\nTell me\n(Tell me)\nTell me\n[Chorus]\nDo you love me?\n(Do you love me?)\nNow, do you love me?\n(Do you love me?)\nNow, do you love me?\n(Do you love me?)\nNow that I can dance\n\n[False Ending]\n\n[Outro]\nHey!\n(Work, work)\nAh, I'm working hard baby\n(Work, work)\nWell, you're driving me crazy\n(Work, work)\nAnd don't you get lazy\n(Work)\n(Work, work)\nAh, hey hey baby\n(Work, work)\nWell, you're driving me crazy\n(Work, work)\nAnd don't you get lazy\n(Work)4Embed"
+    }
+}

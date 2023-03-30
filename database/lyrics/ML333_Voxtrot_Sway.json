@@ -1,0 +1,53 @@
+{
+    "id": "ML333",
+    "mood": "sad",
+    "artist": "Voxtrot",
+    "title": "Sway",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/446809",
+        "artist_names": "Voxtrot",
+        "full_title": "Sway by\u00a0Voxtrot",
+        "header_image_thumbnail_url": "https://images.genius.com/43f4caec8ea9b75778e22be0848dbd26.300x273x1.jpg",
+        "header_image_url": "https://images.genius.com/43f4caec8ea9b75778e22be0848dbd26.500x455x1.jpg",
+        "id": 446809,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 954557,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1666630924,
+        "path": "/Voxtrot-sway-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Voxtrot-sway-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/43f4caec8ea9b75778e22be0848dbd26.300x273x1.jpg",
+        "song_art_image_url": "https://images.genius.com/43f4caec8ea9b75778e22be0848dbd26.500x455x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false
+        },
+        "title": "Sway",
+        "title_with_featured": "Sway",
+        "updated_by_human_at": 1666630924,
+        "url": "https://genius.com/Voxtrot-sway-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/129399",
+            "header_image_url": "https://images.genius.com/2470236b5b55885a4475a95c8e32023e.1000x1000x1.png",
+            "id": 129399,
+            "image_url": "https://images.genius.com/086451256c7cd3232932c52d4c1c9ec8.1000x700x1.jpg",
+            "index_character": "v",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Voxtrot",
+            "slug": "Voxtrot",
+            "url": "https://genius.com/artists/Voxtrot"
+        },
+        "artist": "Voxtrot",
+        "lyrics": "Sway Lyrics[Verse 1]\nI can take a road\nTakes a little longer\nWalk before the house where we had our games\nSuffering life, play, making, we discovered fire\n\nPeople like you made me so much stronger\nPeople like you made me question blame\nHuddled in strength like birds on a sloping wire\n\n[Bridge]\nHearing your voice makes me so uneasy\nHearing your voice makes me question fame\nMoney is deaf to the sound of a lover's cry\n[Verse 2]\nThe language of loss made me so much older\nThe language of loss made me lose my grip\nThe language of loss made me silent as a newborn child\n\n'cause everything moves in a shifting cycle\nThe unison soars and the pressure dips\nMaking our way steadfast in the skyward mile\n\n[PreChorus]\nAnd baby I know I will see you someday\nBuilding your house on the very street\nYou severed your mother's life from your father's land\n\nFinish your home we can join them this way\nWe talked about peace and a little dream\nMarriage and love and divorce we don't understand\n\n[Chorus]\nAnd you know I have to sway my leaves and branches slowly\nOut in the sun, like the silent shout of youth\n\nAnd we ask why do we take these leaps and chances\nBecause we have no choice but to wither into truth\n\n[Bridge 2]\nAnd I dreamed you were there\nAll the vital signs were standing\nWhen I dreamed you were with me\nWith the summer at my back\nYou might also likeAnd I dreamed you were there\nSo complete and undemanding\nWe know the love that gives\nIs what the living always lack\n\n[Chorus]Embed"
+    }
+}

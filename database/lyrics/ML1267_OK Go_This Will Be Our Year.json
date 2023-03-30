@@ -1,0 +1,53 @@
+{
+    "id": "ML1267",
+    "mood": "happy",
+    "artist": "OK Go",
+    "title": "This Will Be Our Year",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/2135927",
+        "artist_names": "OK Go",
+        "full_title": "This Will Be Our Year by\u00a0OK\u00a0Go",
+        "header_image_thumbnail_url": "https://images.genius.com/90f197cd9219b783b463f875c0177926.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/90f197cd9219b783b463f875c0177926.500x500x1.jpg",
+        "id": 2135927,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1757421,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1434385920,
+        "path": "/Ok-go-this-will-be-our-year-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Ok-go-this-will-be-our-year-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/90f197cd9219b783b463f875c0177926.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/90f197cd9219b783b463f875c0177926.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "This Will Be Our Year",
+        "title_with_featured": "This Will Be Our Year",
+        "updated_by_human_at": 1660670137,
+        "url": "https://genius.com/Ok-go-this-will-be-our-year-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/21036",
+            "header_image_url": "https://images.genius.com/0215dbc57af527299b266f3415bc7c86.1000x668x1.jpg",
+            "id": 21036,
+            "image_url": "https://images.genius.com/3a543f19f1ab7c4e6ca5874b773d98f6.1000x1000x1.jpg",
+            "index_character": "o",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "OK Go",
+            "slug": "Ok-go",
+            "url": "https://genius.com/artists/Ok-go"
+        },
+        "artist": "OK Go",
+        "lyrics": "This Will Be Our Year Lyrics[Verse 1]\nThe warmth of your love\nIs like the warmth of the sun\nAnd this will be our year\nTook a long time to come\n\n[Chorus]\nDon't let go of my hand\nNow darkness has gone\nAnd this will be our year\nTook a long time to come\nAnd I won't forget\nThe way you held me up when I was down\nAnd I won't forget the way you said\n\"Darling I love you\"\nYou gave me faith to go on\n\nNow we're there and we've only just begun\nThis will be our year\nTook a long time to come\n\n[Verse 2]\nThe warmth of your smile\nSmile for me, little one\nAnd this will be our year\nTook a long time to come\n\n[Chorus]\nYou don't have to worry\nAll your worried days are gone\nThis will be our year\nTook a long time to come\n\nAnd I won't forget\nThe way you held me up when I was down\nAnd I won't forget the way you said\n\"Darling, I love you\"\nYou gave me faith to go on\nYou might also likeNow we're there and we've only just begun\nAnd this will be our year\nTook a long time to come\n\n[Outro]\nYeah, we only just begun\nYeah, this will be our year\nTook a long time to comeEmbed"
+    }
+}

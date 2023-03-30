@@ -1,0 +1,57 @@
+{
+    "id": "ML1979",
+    "mood": "relaxed",
+    "artist": "Robert Plant",
+    "title": "Satan Your Kingdom Must Come Down",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1002523",
+        "artist_names": "Robert Plant",
+        "full_title": "Satan Your Kingdom Must Come Down by\u00a0Robert\u00a0Plant",
+        "header_image_thumbnail_url": "https://images.genius.com/2ca575c360a1eefef0bedaab58b7d86f.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2ca575c360a1eefef0bedaab58b7d86f.500x500x1.jpg",
+        "id": 1002523,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1680083,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1595883552,
+        "path": "/Robert-plant-satan-your-kingdom-must-come-down-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Robert-plant-satan-your-kingdom-must-come-down-sample",
+        "release_date_components": {
+            "year": 2010,
+            "month": 9,
+            "day": 13
+        },
+        "release_date_for_display": "September 13, 2010",
+        "release_date_with_abbreviated_month_for_display": "Sep. 13, 2010",
+        "song_art_image_thumbnail_url": "https://images.genius.com/2ca575c360a1eefef0bedaab58b7d86f.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2ca575c360a1eefef0bedaab58b7d86f.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Satan Your Kingdom Must Come Down",
+        "title_with_featured": "Satan Your Kingdom Must Come Down",
+        "updated_by_human_at": 1643776139,
+        "url": "https://genius.com/Robert-plant-satan-your-kingdom-must-come-down-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/12999",
+            "header_image_url": "https://images.genius.com/249c760953879d161388ba4351ea838a.1000x713x1.jpg",
+            "id": 12999,
+            "image_url": "https://images.genius.com/2ed4ca0fbe33e7971652500670887de6.1000x1000x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Robert Plant",
+            "slug": "Robert-plant",
+            "url": "https://genius.com/artists/Robert-plant"
+        },
+        "artist": "Robert Plant",
+        "lyrics": "Satan Your Kingdom Must Come Down LyricsSatan, your kingdom must come down\nSatan, your kingdom must come down\nI heard the voice of Jesus say\nSatan, your kingdom must come down\n\nI'm gonna pray till they tear your kingdom down\nPray till they tear your kingdom down\nI heard the voice of Jesus say\nSatan, your kingdom must come down\n\nSatan, your kingdom must come down\nSatan, your kingdom must come down\nI heard the voice of Jesus Christ\nSatan, your kingdom must come downYou might also likeEmbed"
+    }
+}

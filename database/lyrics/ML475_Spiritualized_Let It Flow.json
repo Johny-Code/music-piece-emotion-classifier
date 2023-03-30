@@ -1,0 +1,57 @@
+{
+    "id": "ML475",
+    "mood": "relaxed",
+    "artist": "Spiritualized",
+    "title": "Let It Flow",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1049884",
+        "artist_names": "Spiritualized",
+        "full_title": "Let It Flow by\u00a0Spiritualized",
+        "header_image_thumbnail_url": "https://images.genius.com/1113953977174693e33c34160ade0778.168x94x1.jpg",
+        "header_image_url": "https://images.genius.com/1113953977174693e33c34160ade0778.168x94x1.jpg",
+        "id": 1049884,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5190312,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1679638535,
+        "path": "/Spiritualized-let-it-flow-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Spiritualized-let-it-flow-sample",
+        "release_date_components": {
+            "year": 1995,
+            "month": 1,
+            "day": 16
+        },
+        "release_date_for_display": "January 16, 1995",
+        "release_date_with_abbreviated_month_for_display": "Jan. 16, 1995",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a820aea02e8a4ec06d1a884e9488c480.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a820aea02e8a4ec06d1a884e9488c480.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Let It Flow",
+        "title_with_featured": "Let It Flow",
+        "updated_by_human_at": 1679630390,
+        "url": "https://genius.com/Spiritualized-let-it-flow-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/19463",
+            "header_image_url": "https://images.genius.com/e16940e1ed8131770827f4c360a39cec.411x500x1.jpg",
+            "id": 19463,
+            "image_url": "https://images.genius.com/125f16781d5f1aa89e163f6850409493.411x411x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Spiritualized",
+            "slug": "Spiritualized",
+            "url": "https://genius.com/artists/Spiritualized"
+        },
+        "artist": "Spiritualized",
+        "lyrics": "Let It Flow Lyrics[Verse 1]\nHere it comes and then it goes\nAnd that feeling takes me home\nAnd I don't know where I'm goin'\nLet it flow\n\n[Verse 2]\nAll I wanted was a taste\nJust enough to waste the day\nJust enough to make me sick\nLet it flow\n[Verse 3]\nAnd it takes up all my time\nAnd it lays me back a while\nMakes me feel like I'm a child\nLet it flow\n\n[Break]\nLet it flow\n\n[Bridge]\nHere it comes an then it goes\nAnd it hits me, takes me home\nI don't know where I'm goin'\nAnd I don't know where I've been\nBut I'd do it all again\nAll I wanted was a taste\nEnough to waste a day\nJust enough to make me sick\nI can't get too much of itYou might also likeEmbed"
+    }
+}

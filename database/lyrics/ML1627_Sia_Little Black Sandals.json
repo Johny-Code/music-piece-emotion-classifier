@@ -1,0 +1,59 @@
+{
+    "id": "ML1627",
+    "mood": "relaxed",
+    "artist": "Sia",
+    "title": "Little Black Sandals",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/538257",
+        "artist_names": "Sia",
+        "full_title": "Little Black Sandals by\u00a0Sia",
+        "header_image_thumbnail_url": "https://images.genius.com/8bf24929d4b05e129b04ce9a9ca88f2a.300x272x1.jpg",
+        "header_image_url": "https://images.genius.com/8bf24929d4b05e129b04ce9a9ca88f2a.1000x907x1.jpg",
+        "id": 538257,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 937039,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1536050343,
+        "path": "/Sia-little-black-sandals-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Sia-little-black-sandals-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 1,
+            "day": 8
+        },
+        "release_date_for_display": "January 8, 2008",
+        "release_date_with_abbreviated_month_for_display": "Jan. 8, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8bf24929d4b05e129b04ce9a9ca88f2a.300x272x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8bf24929d4b05e129b04ce9a9ca88f2a.1000x907x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 10802
+        },
+        "title": "Little Black Sandals",
+        "title_with_featured": "Little Black Sandals",
+        "updated_by_human_at": 1632425416,
+        "url": "https://genius.com/Sia-little-black-sandals-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/16775",
+            "header_image_url": "https://images.genius.com/570d01b6da3e0d9f5abc5ddaebdd6825.1000x989x1.jpg",
+            "id": 16775,
+            "image_url": "https://images.genius.com/aba931aaf48b7728f3f4869b13eb9741.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Sia",
+            "slug": "Sia",
+            "url": "https://genius.com/artists/Sia",
+            "iq": 8687
+        },
+        "artist": "Sia",
+        "lyrics": "Little Black Sandals Lyrics[Verse 1]\nI'm being dragged down, down by the hand\nThe hand of a golden giant man\nHe's crushing my knuckles and splitting my skin\nHe says he'll let go, if only I'd ask it of him\nHe says, \"Girl, it's your call\nYou wanna fly? You wanna fall?\"\nSo I shout, \"Oh, I wanna get away from you\nAs fast as I can\"\nI tell my feet to move it\nI hope they have a plan\n[Chorus]\nThese little black sandals\nAre walking me away\nThese little black sandals\nAre heading the right way\nThese little black sandals\nAre walking me away\nThese little black sandals\nSaved my life today\n\n[Verse 2]\nSo now I'm free, free\nFrom the big bad giant\nWho was stalking me\nThank you feet, for guiding me, yeah\nI'm glad somehow I got brains down there, at least\n\n[Chorus]\nThese little black sandals\nAre walking me away\nThese little black sandals\nAre heading the right way\nThese little black sandals\nAre walking me away\nThese little black sandals\nSaved my life today\nYou might also like[Bridge]\nSometimes I'm tempted, sometimes I am\nI would be lying if I said I didn't miss that giant man\nOh, he was the line between pleasure and pain\nBut me and the feet have some years to reclaim\n\n[Chorus]\nThese little black sandals\nAre walking me away\nThese little black sandals\nAre heading the right way\nThese little black sandals\nAre walking me away\nThese little black sandals\nSaved my life today\nThese little black sandals\nAre walking me away\nThese little black sandals\nAre heading the right way\nThese little black sandals\nAre walking me away\nThese little black sandals\nSaved my life today\n\n[Outro]\nThese little black sandals\nAre walking me away\nThese little black sandals\nAre heading the right way\nThese little black sandals\nAre walking me away\nThese little black sandals\nSaved my life today1Embed"
+    }
+}

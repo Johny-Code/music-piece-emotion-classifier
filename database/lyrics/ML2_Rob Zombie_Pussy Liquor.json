@@ -1,0 +1,58 @@
+{
+    "id": "ML2",
+    "mood": "angry",
+    "artist": "Rob Zombie",
+    "title": "Pussy Liquor",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/916780",
+        "artist_names": "Rob Zombie",
+        "full_title": "Pussy Liquor by\u00a0Rob\u00a0Zombie",
+        "header_image_thumbnail_url": "https://images.genius.com/fcc95a55db532f25b8b98007f6ded392.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/fcc95a55db532f25b8b98007f6ded392.1000x1000x1.jpg",
+        "id": 916780,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1633897956,
+        "path": "/Rob-zombie-pussy-liquor-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Rob-zombie-pussy-liquor-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 4,
+            "day": 1
+        },
+        "release_date_for_display": "April 1, 2003",
+        "release_date_with_abbreviated_month_for_display": "Apr. 1, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/fcc95a55db532f25b8b98007f6ded392.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/fcc95a55db532f25b8b98007f6ded392.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 13200
+        },
+        "title": "Pussy Liquor",
+        "title_with_featured": "Pussy Liquor",
+        "updated_by_human_at": 1633897956,
+        "url": "https://genius.com/Rob-zombie-pussy-liquor-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/68661",
+            "header_image_url": "https://images.genius.com/2d41371192b16eb73d71e55dd60809b6.819x819x1.jpg",
+            "id": 68661,
+            "image_url": "https://images.genius.com/2d41371192b16eb73d71e55dd60809b6.819x819x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Rob Zombie",
+            "slug": "Rob-zombie",
+            "url": "https://genius.com/artists/Rob-zombie"
+        },
+        "artist": "Rob Zombie",
+        "lyrics": "Pussy Liquor LyricsBaby :\nGimme a B\nGimme a A\nGimme a B\nGimme a Y\n\nWhat's that spell?\nWhat's that spell?\nWhat's that spell?\n\nCheerleader: Baby\nEarl had a baby\nBaby was her name\nHe knew she was crazy\nTiny was the same\nDown behind the shed\nSlaughtering the hog\nSlice it on the belly\nFeed it to the dog\n\nOne, two, three, who should I kill?\nEvery motherfucker running up the hill\nOne, two, three, what should I do?\nGet fucked up and fuck up you\n\nPussy liquor\nMake ya sicker\nPussy liquor\nDo it quicker\n\nBaby: Yeah, I like to get fucked up, fucked up\nGoober: Yeah, I like to get fucked up too\nBaby: Yeah, I bet you do\nBaby: Yeah, I like to get fucked up, fucked up\nGoober: Yeah, I like to get fucked up too\nBaby: Yeah, I bet you do\nYou might also likeEarl had a baby\nOtis was his name\nWhite as a ghost, totally insane\nOtis loves the girls\nYoung and clean\nDrowning in a bucket of gasoline\n\nOne, two, three, who should I kill?\nEvery motherfucker running up the hill\nOne, two, three, what should I do?\nGet fucked up and fuck up you\n\nPussy liquor\nMake ya sicker\nPussy liquor\nDo it quicker\n\nBaby: Yeah, I like to get fucked up, fucked up\nGoober: Yeah, I like to get fucked up too\nBaby: Yeah, I bet you do\nBaby: Yeah, I like to get fucked up, fucked up\nGoober: Yeah, I like to get fucked up too\nBaby: Yeah, I bet you do\n\nDon't you know something\nThey won't tell\nTime on my mind\nSend them to a hell\nBurnin' in the house\nSpirits are alive\nA tongue lashing mama\nHelp 'em to survive\nOne, two, three, who should I kill?\nEvery motherfucker running up the hill\nOne, two, three, what should I do?\nGet fucked up and fuck up you\n\nPussy liquor\nMake ya sicker\nPussy liquor\nDo it quicker\n\nBaby: Yeah, I like to get fucked up, fucked up\nGoober: Yeah, I like to get a blow job too\nBaby: Yeah, I bet you do2Embed"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "id": "ML1967",
+    "mood": "happy",
+    "artist": "Groove Coverage",
+    "title": "She",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1132418",
+        "artist_names": "Groove Coverage",
+        "full_title": "She by\u00a0Groove\u00a0Coverage",
+        "header_image_thumbnail_url": "https://images.genius.com/96d17c912e6d45fe99eed4a4b27a2695.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/96d17c912e6d45fe99eed4a4b27a2695.600x600x1.jpg",
+        "id": 1132418,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429658569,
+        "path": "/Groove-coverage-she-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Groove-coverage-she-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/96d17c912e6d45fe99eed4a4b27a2695.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/96d17c912e6d45fe99eed4a4b27a2695.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "She",
+        "title_with_featured": "She",
+        "updated_by_human_at": 1600052623,
+        "url": "https://genius.com/Groove-coverage-she-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/356395",
+            "header_image_url": "https://images.genius.com/b37ffa9092e36cc9d9840cac6c1cf21e.1000x667x1.jpg",
+            "id": 356395,
+            "image_url": "https://images.genius.com/3500309f14a9345f9c4d326bb2cc84e9.1000x1000x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Groove Coverage",
+            "slug": "Groove-coverage",
+            "url": "https://genius.com/artists/Groove-coverage"
+        },
+        "artist": "Groove Coverage",
+        "lyrics": "She LyricsShe hangs out every day near by the beach\nHaving a Heineken falling asleep\nShe looks so sexy when she's walking to sand\nNobody ever put a ring on her hand\n\nSwim to the oceanshore fishing the sea\nShe is the story, the story is she\nShe sings to the moon and the stars in the sky\nShining from high above you shouldn't ask why\n\nShe is the one that you'll never forget\nShe is the heaven sent angel you met\nOh she must be the reason why god made a girl\nShe is so pretty all over the world\nShe puts the rythm, the beat in the drum\nShe comes in the morning, in the evening she's gone\nEvery little hour, every second you live\nTrust in eternity, that's what she gives\n\nShe looks like Marilyn, walks like Susanne\nShe talks like Monica and Mary-Ann\nShe wins in everything that she might do\nAnd she will respect you, forever just you\n\nShe is the one that you'll never forget\nShe is the heaven sent angel you met\nOh she must be the reason why god made a girl\nShe is so pretty all over the world\n\nShe is so pretty all over the world\nShe is so pretty\nShe is like you and me, like them, like we\nShe's in you and me\n\nShe is the one that you'll never forget\nShe is the heaven sent angel you met\nOh she must be the reason why god made a girl\nShe is so pretty all over the world\n[repeat]You might also likeEmbed"
+    }
+}

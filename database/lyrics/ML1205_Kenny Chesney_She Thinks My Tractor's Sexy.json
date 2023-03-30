@@ -1,0 +1,58 @@
+{
+    "id": "ML1205",
+    "mood": "happy",
+    "artist": "Kenny Chesney",
+    "title": "She Thinks My Tractor's Sexy",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/195489",
+        "artist_names": "Kenny Chesney",
+        "full_title": "She Thinks My Tractor's Sexy by\u00a0Kenny\u00a0Chesney",
+        "header_image_thumbnail_url": "https://images.genius.com/24e7ee1c45632e0f8942012708b12eee.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/24e7ee1c45632e0f8942012708b12eee.1000x1000x1.jpg",
+        "id": 195489,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 256722,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1632772109,
+        "path": "/Kenny-chesney-she-thinks-my-tractors-sexy-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Kenny-chesney-she-thinks-my-tractors-sexy-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 10,
+            "day": 4
+        },
+        "release_date_for_display": "October 4, 1999",
+        "release_date_with_abbreviated_month_for_display": "Oct. 4, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8920c51c8dcc1f664d2e75936dc5984f.300x301x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8920c51c8dcc1f664d2e75936dc5984f.998x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 11518
+        },
+        "title": "She Thinks My Tractor\u2019s Sexy",
+        "title_with_featured": "She Thinks My Tractor's Sexy",
+        "updated_by_human_at": 1635049998,
+        "url": "https://genius.com/Kenny-chesney-she-thinks-my-tractors-sexy-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/13443",
+            "header_image_url": "https://images.genius.com/34b302dd754c8d2c4cb01be6973aaaae.775x515x1.jpg",
+            "id": 13443,
+            "image_url": "https://images.genius.com/6d637e3b1569b2907e0d552668d40496.1000x1000x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Kenny Chesney",
+            "slug": "Kenny-chesney",
+            "url": "https://genius.com/artists/Kenny-chesney"
+        },
+        "artist": "Kenny Chesney",
+        "lyrics": "She Thinks My Tractor\u2019s Sexy Lyrics[Verse 1]\nPlowing these fields in the hot summer sun\nOver by the gate lordy here she comes\nWith a basket full of chicken and a big cold jug of sweet tea\nI make a little room and she climbs on up\nOpen up a throttle and stir a little dust\nJust look at her face she ain\u2019t a fooling me\n\n[Chorus]\nShe thinks my tractor's sexy\nIt really turns her on\nShe's always staring at me\nWhile I'm chugging along\nShe likes the way it's pulling while we're tilling up the land\nShe's even kind of crazy 'bout my farmer's tan\nShe's the only one who really understands what gets me\nShe thinks my tractor's sexy\n[Verse 2]\nWe ride back and forth 'til we run out of light\nTake it to the barn put it up for the night\nClimb up in the loft sit and talk with the radio on\nShe said she's got a dream and I asked what it is\nShe wants a little farm and a yard full of kids\nOne more teeny weenie ride before take her home\n\n[Chorus]\nShe thinks my tractor's sexy\nIt really turns her on\nShe's always staring at me\nWhile I'm chugging along\nShe likes the way it's pulling while we're tilling up the land\nShe's even kind of crazy 'bout my farmer's tan\nShe's the only one who really understands what gets me\nShe thinks my tractor's sexy\n\n[Bridge]\nWell, she ain\u2019t into cars or pickup trucks\nBut if it runs like a Deere, man, her eyes light up\n\n[Chorus]\nShe thinks my tractor's\nShe thinks my tractor's sexy\nIt really turns her on\nShe's always staring at me\nWhile I'm chugging along\nShe likes the way it's pulling while we're tilling up the land\nShe's even kind of crazy 'bout my farmer's tan\nShe's the only one who really understands what gets me\nShe thinks my tractor's sexy\nShe thinks my tractor's sexy\nShe thinks my tractor's sexyYou might also like1Embed"
+    }
+}

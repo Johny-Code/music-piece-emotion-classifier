@@ -1,0 +1,58 @@
+{
+    "id": "ML1473",
+    "mood": "happy",
+    "artist": "Clap Your Hands Say Yeah",
+    "title": "Upon This Tidal Wave of Young Blood",
+    "song": {
+        "_type": "song",
+        "annotation_count": 11,
+        "api_path": "/songs/439024",
+        "artist_names": "Clap Your Hands Say Yeah",
+        "full_title": "Upon This Tidal Wave of Young Blood by\u00a0Clap\u00a0Your Hands Say Yeah",
+        "header_image_thumbnail_url": "https://images.genius.com/5093829f616ec76ff4f6bf68f66663f4.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5093829f616ec76ff4f6bf68f66663f4.1000x1000x1.jpg",
+        "id": 439024,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 913537,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1613568079,
+        "path": "/Clap-your-hands-say-yeah-upon-this-tidal-wave-of-young-blood-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Clap-your-hands-say-yeah-upon-this-tidal-wave-of-young-blood-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 9,
+            "day": 13
+        },
+        "release_date_for_display": "September 13, 2005",
+        "release_date_with_abbreviated_month_for_display": "Sep. 13, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5093829f616ec76ff4f6bf68f66663f4.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5093829f616ec76ff4f6bf68f66663f4.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 6285
+        },
+        "title": "Upon This Tidal Wave of Young Blood",
+        "title_with_featured": "Upon This Tidal Wave of Young Blood",
+        "updated_by_human_at": 1613568079,
+        "url": "https://genius.com/Clap-your-hands-say-yeah-upon-this-tidal-wave-of-young-blood-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/104458",
+            "header_image_url": "https://images.genius.com/bd5534cb93f5af996888526cbd9672c5.760x320x1.jpg",
+            "id": 104458,
+            "image_url": "https://images.genius.com/545127cc6208188a1703c43eca0d086a.653x653x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Clap Your Hands Say Yeah",
+            "slug": "Clap-your-hands-say-yeah",
+            "url": "https://genius.com/artists/Clap-your-hands-say-yeah"
+        },
+        "artist": "Clap Your Hands Say Yeah",
+        "lyrics": "Upon This Tidal Wave of Young Blood LyricsNow that everybody's here\nCould we please have your attention?\nThere is nothing left to fear\nNo now that bigfoot is captured\nBut are the children really right\nAlright alright\n\nThere is danger in the night\nThere are things we can't control but\nWill we give ourselves a fright\nWhen we become less than human?\nThere are people who say why oh why oh why?\nNow there are other ways to die\nOh why oh why?\nBut upon this tidal wave\nOh god oh god\nBut upon this tidal wave\nOh god oh god\nYoung Blood (x8)\nWe are men who stay alive\nWho send your children away now\nWe are calling from a tower\nExpressing what must be\nEveryone's opinion\n\"They are going out to bars\nAnd they are getting into cars\nI have seen them with my own eyes.\"\n\"AMERICA PLEASE HELP THEM!\"\n\nThey are child stars...\nWith their sex, and their drugs, and their rock, and rock, and rock and rock and roll, hey!You might also likeEmbed"
+    }
+}

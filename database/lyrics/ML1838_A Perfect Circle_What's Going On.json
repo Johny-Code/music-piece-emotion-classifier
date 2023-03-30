@@ -1,0 +1,57 @@
+{
+    "id": "ML1838",
+    "mood": "relaxed",
+    "artist": "A Perfect Circle",
+    "title": "What's Going On",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/510674",
+        "artist_names": "A Perfect Circle",
+        "full_title": "What's Going On by\u00a0A\u00a0Perfect Circle",
+        "header_image_thumbnail_url": "https://images.genius.com/15404106b3a0978bc1d97e26ae5acc06.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/15404106b3a0978bc1d97e26ae5acc06.1000x1000x1.jpg",
+        "id": 510674,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 413510,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1521170173,
+        "path": "/A-perfect-circle-whats-going-on-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/A-perfect-circle-whats-going-on-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 11,
+            "day": 1
+        },
+        "release_date_for_display": "November 1, 2004",
+        "release_date_with_abbreviated_month_for_display": "Nov. 1, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/15404106b3a0978bc1d97e26ae5acc06.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/15404106b3a0978bc1d97e26ae5acc06.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "What\u2019s Going On",
+        "title_with_featured": "What's Going On",
+        "updated_by_human_at": 1660387041,
+        "url": "https://genius.com/A-perfect-circle-whats-going-on-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/59876",
+            "header_image_url": "https://images.genius.com/5b9eae374ba8621656ea6906afab6049.360x360x1.jpg",
+            "id": 59876,
+            "image_url": "https://images.genius.com/5b95f05c5468fec6dd794b1c2c3dc5b5.1000x1000x1.png",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "A Perfect Circle",
+            "slug": "A-perfect-circle",
+            "url": "https://genius.com/artists/A-perfect-circle"
+        },
+        "artist": "A Perfect Circle",
+        "lyrics": "What\u2019s Going On Lyrics[Verse 1]\nMother, mother\nThere's too many of you crying\nBrother, brother\nThere's far too many of you dying\nYou know we've got to find a way\nTo bring some loving here today\n\n[Verse 2]\nFather, father\nWe don't need to escalate\nYou see, war is not the answer\nFor only love can conquer hate\nYou know we've got to find a way\nTo bring some loving here today\n[Pre-Chorus]\nPicket lines and picket signs\nDon't punish me with brutality\nTalk to me, so you can see\n\n[Chorus]\nOh, what's going on\nWhat's going on\nYeah, what's going on\nAh, what's going on\n\n[Verse 3]\nFather, father, everybody thinks we're wrong\nBut who are they to judge us?\nSimply because our hair is long\nYou know we've got to find a way\nTo bring understanding here today, Oh\n\n[Pre-Chorus]\nPicket lines and picket signs\nDon't punish me with brutality\nTalk to me, so you can see\n\n[Chorus]\nWhat's going on\nWhat's going on\nWhat's going on\nWhat's going onYou might also likeEmbed"
+    }
+}

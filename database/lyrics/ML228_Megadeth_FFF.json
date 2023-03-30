@@ -1,0 +1,57 @@
+{
+    "id": "ML228",
+    "mood": "angry",
+    "artist": "Megadeth",
+    "title": "FFF",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/110589",
+        "artist_names": "Megadeth",
+        "full_title": "FFF by\u00a0Megadeth",
+        "header_image_thumbnail_url": "https://images.genius.com/c6a1d6e549a6a9d3a01cf3edaab70ca9.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/c6a1d6e549a6a9d3a01cf3edaab70ca9.1000x1000x1.jpg",
+        "id": 110589,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 22533,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1677776299,
+        "path": "/Megadeth-fff-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Megadeth-fff-sample",
+        "release_date_components": {
+            "year": 1997,
+            "month": 6,
+            "day": 17
+        },
+        "release_date_for_display": "June 17, 1997",
+        "release_date_with_abbreviated_month_for_display": "Jun. 17, 1997",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d145368957d9c6bafb643090a6282318.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d145368957d9c6bafb643090a6282318.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "FFF",
+        "title_with_featured": "FFF",
+        "updated_by_human_at": 1677776299,
+        "url": "https://genius.com/Megadeth-fff-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/19444",
+            "header_image_url": "https://images.genius.com/ed7f0a9b8b87c0d2325b050eeebcc068.1000x530x1.png",
+            "id": 19444,
+            "image_url": "https://images.genius.com/9bdc3d3ea88da0c065c94aee4f13d943.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Megadeth",
+            "slug": "Megadeth",
+            "url": "https://genius.com/artists/Megadeth"
+        },
+        "artist": "Megadeth",
+        "lyrics": "FFF Lyrics[Verse 1]\nLooking for a cure within the human race\nEliminate the poor, how much longer will it take\nBurning up the tents of the rank and file\nExterminate their lives, crack a demon smile\n\n[Pre-Chorus]\nCrushing down, caving in our will to live\nGetting rid of man's mistakes\nTo take a lost life, lock it up, break it down\nHow much more can we take?\n[Chorus]\nFight for freedom, fight authority\nFight for anything, my country 'tis of me\n\n[Verse 2]\nCry for absolution, it's not the end for me\nA last minute pardon, one final reprieve\nResist the war machine, don't get in it's path\nFight to die a free man and reap the aftermath\n\n[Pre-Chorus]\nCrushing down, caving in our will to live\nGetting rid of man's mistakes\nTo take a lost life, lock it up, break it down\nDon't know how much more I can take\n\n[Chorus]\nFight for freedom, fight authority\nFight for anything, my country 'tis of me\n\n[Guitar Solo: Marty Friedman]\n\n[Outro]\nFight, fight, fight, fight, fight\nFight for freedom, fight authority\nFight for anything, it's my country\nFight for freedom, fight authority\nFight for anything, my country 'tis of meYou might also likeEmbed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML1564",
+    "mood": "angry",
+    "artist": "PJ Harvey",
+    "title": "Snake",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/464143",
+        "artist_names": "PJ Harvey",
+        "full_title": "Snake by\u00a0PJ\u00a0Harvey",
+        "header_image_thumbnail_url": "https://images.genius.com/974aaf25fdd3ab77769bac159bec260c.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/974aaf25fdd3ab77769bac159bec260c.1000x1000x1.jpg",
+        "id": 464143,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 397025,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1630893795,
+        "path": "/Pj-harvey-snake-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Pj-harvey-snake-sample",
+        "release_date_components": {
+            "year": 1993,
+            "month": 5,
+            "day": 4
+        },
+        "release_date_for_display": "May 4, 1993",
+        "release_date_with_abbreviated_month_for_display": "May. 4, 1993",
+        "song_art_image_thumbnail_url": "https://images.genius.com/974aaf25fdd3ab77769bac159bec260c.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/974aaf25fdd3ab77769bac159bec260c.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 6571
+        },
+        "title": "Snake",
+        "title_with_featured": "Snake",
+        "updated_by_human_at": 1630893796,
+        "url": "https://genius.com/Pj-harvey-snake-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/33879",
+            "header_image_url": "https://images.genius.com/444df3b4dc3568b6a6e6ed63be9ec5c1.1000x201x1.jpg",
+            "id": 33879,
+            "image_url": "https://images.genius.com/bbd4a3831ad1eafa83b763aea5903f3b.1000x1000x1.jpg",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "PJ Harvey",
+            "slug": "Pj-harvey",
+            "url": "https://genius.com/artists/Pj-harvey"
+        },
+        "artist": "PJ Harvey",
+        "lyrics": "Snake Lyrics[Verse 1]\nYou snake, you crawled between my legs\nSaid, \"Want it all? It's yours, you bet\nI'll make you queen of everything\nNo need for God, no need for Him\nJust take my hand, you be my bride\nJust take that fruit, put it inside\"\nYou snake, you dog, you fake, you liar\nI've burnt my hands, I'm in the fire\n\n[Interlude]\nOh\nOh\n[Verse 2]\nYou salty dog, you filthy liar\nMy heart it aches, I'm in the fire\nYou snake, I ate a true belief\nPut rotten fruit inside of me\nOh, Adam, please! You must believe\nThat snake put it in front of me\nThat snake put it in front of me\nIn front of meYou might also like2Embed"
+    }
+}

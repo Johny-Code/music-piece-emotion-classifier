@@ -1,0 +1,58 @@
+{
+    "id": "ML48",
+    "mood": "sad",
+    "artist": "Helena Bonham Carter & Johnny Depp",
+    "title": "Poor Thing",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/2273566",
+        "artist_names": "Johnny Depp & Helena Bonham Carter",
+        "full_title": "Poor Thing by\u00a0Johnny\u00a0Depp & Helena Bonham Carter",
+        "header_image_thumbnail_url": "https://images.genius.com/bc8a3fd2444e0b7aa3ddb3838696cfcd.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/bc8a3fd2444e0b7aa3ddb3838696cfcd.720x720x1.jpg",
+        "id": 2273566,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 62206,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1633696114,
+        "path": "/Johnny-depp-and-helena-bonham-carter-poor-thing-annotated",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Johnny-depp-and-helena-bonham-carter-poor-thing-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 12,
+            "day": 18
+        },
+        "release_date_for_display": "December 18, 2007",
+        "release_date_with_abbreviated_month_for_display": "Dec. 18, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/bc8a3fd2444e0b7aa3ddb3838696cfcd.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/bc8a3fd2444e0b7aa3ddb3838696cfcd.720x720x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 7436
+        },
+        "title": "Poor Thing",
+        "title_with_featured": "Poor Thing",
+        "updated_by_human_at": 1652617791,
+        "url": "https://genius.com/Johnny-depp-and-helena-bonham-carter-poor-thing-annotated",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2765252",
+            "header_image_url": "https://images.genius.com/ba2ca73b02e3b29a630e4520bc275851.443x443x1.jpg",
+            "id": 2765252,
+            "image_url": "https://images.genius.com/ba2ca73b02e3b29a630e4520bc275851.443x443x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Johnny Depp & Helena Bonham Carter",
+            "slug": "Johnny-depp-and-helena-bonham-carter",
+            "url": "https://genius.com/artists/Johnny-depp-and-helena-bonham-carter"
+        },
+        "artist": "Johnny Depp & Helena Bonham Carter",
+        "lyrics": "Poor Thing Lyrics[SWEENEY TODD]\nYou've a room over the shop here?\nTimes is so hard, why don't you rent it out?\n\n[MRS. LOVETT]\nPeople think it's haunted.\n\n[TODD]\nHaunted?\n\n[MRS. LOVETT]\nYeah.\nAnd who's to say they're wrong?\nYou see, years ago...something happened up there.\nSomething not very nice.\n(sung)\nThere was a barber and his wife\nAnd he was beautiful\nA proper artist with a knife\nBut they transported him for life\nAnd he was beautiful\n\n(spoken)\nBarker, his name was.\nBenjamin Barker.\n\n[TODD]\nWhat was his crime?\n\n[MRS. LOVETT]\nFoolishness\n\n(sung)\nHe had this wife, you see\nPretty little thing, silly little nit\nHad her chance for the moon on a string\nPoor thing\nPoor thing\n\nThere was this judge, you see\nWanted her like mad\nEvery day he sent her a flower\nBut did she come down from her tower?\nSat up there and sobbed by the hour\nPoor fool\nBut there was worse yet to come, poor thing\nWell, Beadle calls on her all polite\nPoor thing, poor thing\nThe Judge, he tells her, is all contrite\nHe blames himself for her dreadful plight\nShe must come straight to his house tonight\nPoor thing, poor thing\n\nOf course, when she goes there\nPoor thing, poor thing\nThey're having this ball all in masks\nThere's no one she knows there\nPoor dear, poor thing\nShe wanders tormented and drinks, poor thing\nThe Judge has repented, she thinks, poor thing\n\"Oh, where is Judge Turpin?\", she asks\n\nHe was there all right, only not so contrite\n\nShe wasn't no match for such craft, you see\nAnd everyone thought it so droll\nThey figured she had to be daft, you see\nSo all of them stood there and laughed, you see\nPoor soul\nPoor thing\n\n[TODD]\nNo!\nWould no one, have mercy on her?\n[MRS. LOVETT, spoken]\nSo, it is you.\nBenjamin Barker?\n\n[TODD]\nNo, not Barker.\nThat man is dead.\nIt's Todd now. Sweeney Todd.\nAnd he will have his revenge.Embed"
+    }
+}

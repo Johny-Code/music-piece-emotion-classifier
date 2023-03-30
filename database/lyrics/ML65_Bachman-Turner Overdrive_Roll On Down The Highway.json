@@ -1,0 +1,57 @@
+{
+    "id": "ML65",
+    "mood": "happy",
+    "artist": "Bachman-Turner Overdrive",
+    "title": "Roll On Down The Highway",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/831715",
+        "artist_names": "Bachman\u2013Turner Overdrive",
+        "full_title": "Roll On Down the Highway by\u00a0Bachman\u2013Turner\u00a0Overdrive",
+        "header_image_thumbnail_url": "https://images.genius.com/3fd5ec9c1da029f1167eb141e45d478d.300x299x1.jpg",
+        "header_image_url": "https://images.genius.com/3fd5ec9c1da029f1167eb141e45d478d.500x498x1.jpg",
+        "id": 831715,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 10899714,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1660757352,
+        "path": "/Bachmanturner-overdrive-roll-on-down-the-highway-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Bachmanturner-overdrive-roll-on-down-the-highway-sample",
+        "release_date_components": {
+            "year": 1974,
+            "month": 9,
+            "day": null
+        },
+        "release_date_for_display": "September 1974",
+        "release_date_with_abbreviated_month_for_display": "Sep. 1974",
+        "song_art_image_thumbnail_url": "https://images.genius.com/442d1f556603f64acd7e9ec2522e9f71.300x298x1.jpg",
+        "song_art_image_url": "https://images.genius.com/442d1f556603f64acd7e9ec2522e9f71.300x298x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Roll On Down the Highway",
+        "title_with_featured": "Roll On Down the Highway",
+        "updated_by_human_at": 1660757352,
+        "url": "https://genius.com/Bachmanturner-overdrive-roll-on-down-the-highway-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/55262",
+            "header_image_url": "https://images.genius.com/b603d31bd6771d7f6a417fadab6ec194.800x500x1.jpg",
+            "id": 55262,
+            "image_url": "https://images.genius.com/13de5092c7bbd2b2c86d23dda134faf9.404x404x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Bachman\u2013Turner Overdrive",
+            "slug": "Bachmanturner-overdrive",
+            "url": "https://genius.com/artists/Bachmanturner-overdrive"
+        },
+        "artist": "Bachman\u2013Turner Overdrive",
+        "lyrics": "Roll On Down the Highway Lyrics[Verse 1]\nWe rented a truck and a semi to go\nTravel down the long and winding road\nLook on the map I think we've been here before\nClose all the doors let's roll once more\nCop on the corner, look he's startin' to write\nI don't need no ticket so I screamed out of sight\nDrove so fast that my eyes can't see\nLook in the mirror is he still followin' me?\n\n[Chorus]\nLet it roll down the highway\nLet it roll down the highway\nRoll, roll\n[Verse 2]\nLook at the sign, we're in the wrong place\nMove out boys, let's get ready to race\n454 coming over the hill\nThe man on patrol, is gonna give us a bill\nThe time's real short, you know the distance is long\nI'd rather have a jet but it's not in the song\nClimb back in the cab, cross your fingers for luck\nWe gotta keep movin' if we're gonna make a buck\n\n[Chorus]\nLet it roll down the highway\nLet it roll down the highway\nRoll\n\n[Guitar Solo]\n\n[Outro]\nLet it roll\nLet it roll\nLet it roll\nLet it roll\nLet it roll down the highway\nLet it roll down the highway\nRoll, roll\nLet it roll down the highway\nLet it roll down the highway\nRoll, roll, roll\nYou might also likeLet it roll down the highway\nLet it roll down the highway\nRoll, roll, roll1Embed"
+    }
+}

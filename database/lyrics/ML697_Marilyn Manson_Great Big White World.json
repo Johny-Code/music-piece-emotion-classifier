@@ -1,0 +1,59 @@
+{
+    "id": "ML697",
+    "mood": "sad",
+    "artist": "Marilyn Manson",
+    "title": "Great Big White World",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/395207",
+        "artist_names": "Marilyn Manson",
+        "full_title": "Great Big White World by\u00a0Marilyn\u00a0Manson",
+        "header_image_thumbnail_url": "https://images.genius.com/b00a7f52a1dd0358945584d4a9293197.300x300x1.png",
+        "header_image_url": "https://images.genius.com/b00a7f52a1dd0358945584d4a9293197.905x905x1.png",
+        "id": 395207,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 235275,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1634468953,
+        "path": "/Marilyn-manson-great-big-white-world-lyrics",
+        "pyongs_count": 11,
+        "relationships_index_url": "https://genius.com/Marilyn-manson-great-big-white-world-sample",
+        "release_date_components": {
+            "year": 1998,
+            "month": 9,
+            "day": 15
+        },
+        "release_date_for_display": "September 15, 1998",
+        "release_date_with_abbreviated_month_for_display": "Sep. 15, 1998",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b00a7f52a1dd0358945584d4a9293197.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/b00a7f52a1dd0358945584d4a9293197.905x905x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 31378
+        },
+        "title": "Great Big White World",
+        "title_with_featured": "Great Big White World",
+        "updated_by_human_at": 1648237285,
+        "url": "https://genius.com/Marilyn-manson-great-big-white-world-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2065",
+            "header_image_url": "https://images.genius.com/5a0db97e404d399703cc63eb9b803415.1000x333x1.jpg",
+            "id": 2065,
+            "image_url": "https://images.genius.com/11eb5a9520882f2f0891cd7d4cd462d0.900x900x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Marilyn Manson",
+            "slug": "Marilyn-manson",
+            "url": "https://genius.com/artists/Marilyn-manson",
+            "iq": 869
+        },
+        "artist": "Marilyn Manson",
+        "lyrics": "Translations\u0420\u0443\u0441\u0441\u043a\u0438\u0439Great Big White World Lyrics[Verse 1]\nIn space, the stars are no nearer\nJust glitters like a morgue\nAnd I dreamed I was a spaceman\nBurned like a moth in a flame\nAnd our world was so fucking gone\nI'm not attached to your world\nNothing heals, nothing grows\nI'm not attached to your world\nNothing heals, nothing grows\n[Pre-Chorus]\n'Cause it's a great big white world\nAnd we are drained of our colors\nWe used to love ourselves\nWe used to love one another\n\n[Chorus]\nAll my stitches itch, my prescription's low\nI wish you were queen, just for today\nIn a world so white, what else could I say?\n\n[Verse 2]\nAnd hell was so cold\nAll the vases are so broken\nAnd the roses tear our hands open\nMother Mary, miscarry\nBut we pray just like insects\nAnd the world is so ugly now\n\n[Pre-Chorus]\n'Cause it's a great big white world\nAnd we are drained of our colors\nWe used to love ourselves\nWe used to love one another\n\n[Chorus]\nAll my stitches itch, my prescription's low\nI wish you were queen, just for today\nAll my stitches itch, my prescription's low\nI wish you were queen, just for today\nIn a world so white, what else could I say?\nYou might also like[Bridge]\n'Cause it's a great big white world\nAnd we are drained of our colors\nWe used to love ourselves\nWe used to love one another\n\n[Chorus]\nAll my stitches itch, my prescription's low\nI wish you were queen, just for today\nAll my stitches itch, my prescription's low\nI wish you were queen, just for today\nIn a world so white, what else could I say?11Embed"
+    }
+}

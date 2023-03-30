@@ -1,0 +1,57 @@
+{
+    "id": "ML188",
+    "mood": "happy",
+    "artist": "Scissor Sisters",
+    "title": "Lights",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1445683",
+        "artist_names": "Scissor Sisters",
+        "full_title": "Lights by\u00a0Scissor\u00a0Sisters",
+        "header_image_thumbnail_url": "https://images.genius.com/65c2d8587b99369b3ed359c0c43d3b3f.300x260x1.jpg",
+        "header_image_url": "https://images.genius.com/65c2d8587b99369b3ed359c0c43d3b3f.300x260x1.jpg",
+        "id": 1445683,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 4730243,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675379133,
+        "path": "/Scissor-sisters-lights-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Scissor-sisters-lights-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 9,
+            "day": 15
+        },
+        "release_date_for_display": "September 15, 2006",
+        "release_date_with_abbreviated_month_for_display": "Sep. 15, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/65c2d8587b99369b3ed359c0c43d3b3f.300x260x1.jpg",
+        "song_art_image_url": "https://images.genius.com/65c2d8587b99369b3ed359c0c43d3b3f.300x260x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Lights",
+        "title_with_featured": "Lights",
+        "updated_by_human_at": 1675379146,
+        "url": "https://genius.com/Scissor-sisters-lights-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/25104",
+            "header_image_url": "https://images.genius.com/9ac1f9e84087c25bd474ea5e5a514435.768x208x1.jpg",
+            "id": 25104,
+            "image_url": "https://images.genius.com/f5e3ebc238faeb50a781f9deae99f1e3.770x770x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Scissor Sisters",
+            "slug": "Scissor-sisters",
+            "url": "https://genius.com/artists/Scissor-sisters"
+        },
+        "artist": "Scissor Sisters",
+        "lyrics": "Lights Lyrics[Verse 1]\nNo pussyfootin' or that look of surprise\nCan't hide the holes in your eyes or cover up that bitter smile\nAll the birds can see that you're heading south\nThat mirror deep in your mouth reflects you running on for miles\n\n[Chorus]\nWhen you cut the lights out think of me\nWhen you cut the lights out think of all the things you can't see\nBut are they real?\nThat face will be revealed\nRevealed\nRevealed\n[Verse 2]\nNobody's callin' that payphone in your mind\nI wonder just what they find but that line's busy all the time\nI ain't got nothing but your seed on my face\nYou'll put them babies to waste without your finger in the pie\n\n[Chorus]\nWhen you cut the lights out think of me\nWhen you cut the lights out think of all the things you can't see\nBut are they real?\nThat face will be revealed\nRevealed\nRevealed\n\n[Bridge]\nMy mama told me one thing I'll remember till I die\nThe one you want the most will be the one that you defy\nThe times they're gonna love you\nLike stitches in the scar\nYou can never run from trouble\n'Cause there ain't no place that far\n\n[Chorus]\nWhen you cut the lights out think of me (Think of me)\nWhen you cut the lights out think of all the things you can't see\nBut are they real?\nThat face will be revealed\nRevealed\nRevealedYou might also likeEmbed"
+    }
+}

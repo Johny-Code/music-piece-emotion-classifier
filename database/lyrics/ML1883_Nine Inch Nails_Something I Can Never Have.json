@@ -1,0 +1,58 @@
+{
+    "id": "ML1883",
+    "mood": "sad",
+    "artist": "Nine Inch Nails",
+    "title": "Something I Can Never Have",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/174672",
+        "artist_names": "Nine Inch Nails",
+        "full_title": "Something I Can Never Have by\u00a0Nine\u00a0Inch Nails",
+        "header_image_thumbnail_url": "https://images.genius.com/e5dd5f8804b837bd26e7d740ff171aaf.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e5dd5f8804b837bd26e7d740ff171aaf.1000x1000x1.jpg",
+        "id": 174672,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 69470,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1673662159,
+        "path": "/Nine-inch-nails-something-i-can-never-have-lyrics",
+        "pyongs_count": 15,
+        "relationships_index_url": "https://genius.com/Nine-inch-nails-something-i-can-never-have-sample",
+        "release_date_components": {
+            "year": 1989,
+            "month": 10,
+            "day": 20
+        },
+        "release_date_for_display": "October 20, 1989",
+        "release_date_with_abbreviated_month_for_display": "Oct. 20, 1989",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e5dd5f8804b837bd26e7d740ff171aaf.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e5dd5f8804b837bd26e7d740ff171aaf.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 48753
+        },
+        "title": "Something I Can Never Have",
+        "title_with_featured": "Something I Can Never Have",
+        "updated_by_human_at": 1673662159,
+        "url": "https://genius.com/Nine-inch-nails-something-i-can-never-have-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/12757",
+            "header_image_url": "https://images.genius.com/ed15f259e492aee3da23dcc94c6d0675.876x337x1.jpg",
+            "id": 12757,
+            "image_url": "https://images.genius.com/6fc1aeeff6601cf0f247180a57d10e49.1000x1000x1.png",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Nine Inch Nails",
+            "slug": "Nine-inch-nails",
+            "url": "https://genius.com/artists/Nine-inch-nails"
+        },
+        "artist": "Nine Inch Nails",
+        "lyrics": "Something I Can Never Have Lyrics[Verse 1]\nI still recall the taste of your tears\nEchoing your voice just like the ringing in my ears\nMy favorite dreams of you still wash ashore\nScraping through my head 'til I don't want to sleep anymore\n\n[Chorus]\nYou make this all go away\nYou make this all go away\nI'm down to just one thing\nAnd I'm starting to scare myself\nYou make this all go away\nYou make this all go away\nI just want something\nI just want something I can never have\n[Verse 2]\nYou always were the one to show me how\nBack then I couldn't do the things that I can do now\nThis thing is slowly taking me apart\nGrey would be the color if I had a heart\nCome on, tell me!\n\n[Chorus]\nYou make this all go away\nYou make this all go away\nI'm down to just one thing\nAnd I'm starting to scare myself\nYou make this all go away\nYou make this all go away\nI just want something\nI just want something I can never have\n\n[Verse 3]\nIn this place it seems like such a shame\nThough it all looks different now, I know it's still the same\nEverywhere I look you're all I see\nJust a fading fucking reminder of who I used to be\nCome on, tell me!\n\n[Chorus]\nYou make this all go away\nYou make this all go away\nI'm down to just one thing\nAnd I'm starting to scare myself\nYou make this all go away\nYou make it all go away\nI just want something\nI just want something I can never have\nI just want something I can never haveYou might also like15Embed"
+    }
+}

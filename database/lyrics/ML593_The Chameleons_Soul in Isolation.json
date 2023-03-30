@@ -1,0 +1,57 @@
+{
+    "id": "ML593",
+    "mood": "sad",
+    "artist": "The Chameleons",
+    "title": "Soul in Isolation",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1098624",
+        "artist_names": "The Chameleons",
+        "full_title": "Soul in Isolation by\u00a0The\u00a0Chameleons",
+        "header_image_thumbnail_url": "https://images.genius.com/7aae7231901c4b27eca722171d6fd084.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/7aae7231901c4b27eca722171d6fd084.905x905x1.jpg",
+        "id": 1098624,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 4248607,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1617920008,
+        "path": "/The-chameleons-soul-in-isolation-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-chameleons-soul-in-isolation-sample",
+        "release_date_components": {
+            "year": 1986,
+            "month": 9,
+            "day": 1
+        },
+        "release_date_for_display": "September 1, 1986",
+        "release_date_with_abbreviated_month_for_display": "Sep. 1, 1986",
+        "song_art_image_thumbnail_url": "https://images.genius.com/7aae7231901c4b27eca722171d6fd084.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/7aae7231901c4b27eca722171d6fd084.905x905x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Soul in Isolation",
+        "title_with_featured": "Soul in Isolation",
+        "updated_by_human_at": 1617920257,
+        "url": "https://genius.com/The-chameleons-soul-in-isolation-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/110038",
+            "header_image_url": "https://images.genius.com/c5f77da3e743f1e048d5ebeba1f631b3.696x696x1.jpg",
+            "id": 110038,
+            "image_url": "https://images.genius.com/c5f77da3e743f1e048d5ebeba1f631b3.696x696x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Chameleons",
+            "slug": "The-chameleons",
+            "url": "https://genius.com/artists/The-chameleons"
+        },
+        "artist": "The Chameleons",
+        "lyrics": "Soul in Isolation Lyrics[Verse 1]\nSoul in isolation\nI can hear you breathing down the hall\nSoul in isolation\nI can hear you whisper through the walls\nAnd if I had a mind to now\nI could call to you\nOr I could simply shut you out\nNo more would you cry, cry, cry\n\n[Verse 2]\nI give you my time to kill\nBut you'll never never break my will\nOr I could sink a sleeping pill\nAnd in the morning could be sleeping still\nBut most of you are much too ill\nOh, way beyond a surgeon's skill\nIn bondage to a dollar bill\nWhat more can you buy, buy, buy-uy-uy\n[Chorus]\nOh, when you think on it, when you think of it\nWe're all souls in isolation\nAlive in here, I'm alive in here\nI'm alive in here\nOh, when you think on it, when you think of it\n\n[Bridge]\nCome here!\nA word in your ear\nA word in your ear\nA word in your ear\nBack to the trees\nBack to the trees\nBack to the trees\n\n[Verse 3]\nBig bad giant standing tall\nCrushing all the creatures great and small\nI'd like to see this giant fall\nWhen will it come?\nWhen will it come?\nWords that rattle 'round my head\nStruck by lightning, someone said\nDiamond bullet through the head\nRight in the brain\nAre they right in the brain?\nAre they right in the brain?\nAre they right in the brain?\nYou might also like[Verse 4]\nWill I see the jailer's face?\nDid my mother lead me to this place?\nOr will I live to see his face?\nWill another come to take my place in total isolation?\nSurrounded by fears\nToo many clowns, too many tears\nIsolation, surrounded by crowds\nIn another world, head in the clouds\nI'm alive in here, I scream\nBut you still can't hear\nI'm alive in here\nI'm alive, turn on the light\nTurn on the light\n\n[Chorus]\nOh, when you think on it, when you think on it\nWe're all souls in isolation\nAlive in here, I'm alive in here\nI'm alive in here\nOh, when you think on it, when you think on it\nWe're all souls in isolation\nAlive in here, I'm alive in here\nI'm alive in here\nOh, when you think on it, when you think on it\nWe're all souls in isolation\n[Outro]\nWe're always searching for something\nSearching\nDear, dear, dead days\nI'm longing for you\nSweetest virgin\nNow deflowered...\nNow deflowered...Embed"
+    }
+}

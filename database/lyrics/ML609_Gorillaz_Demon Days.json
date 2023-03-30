@@ -1,0 +1,58 @@
+{
+    "id": "ML609",
+    "mood": "relaxed",
+    "artist": "Gorillaz",
+    "title": "Demon Days",
+    "song": {
+        "_type": "song",
+        "annotation_count": 13,
+        "api_path": "/songs/213276",
+        "artist_names": "Gorillaz",
+        "full_title": "Demon Days by\u00a0Gorillaz",
+        "header_image_thumbnail_url": "https://images.genius.com/9e397a72939e26c604ef888be418e2ee.300x300x1.png",
+        "header_image_url": "https://images.genius.com/9e397a72939e26c604ef888be418e2ee.1000x1000x1.png",
+        "id": 213276,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 222334,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675799932,
+        "path": "/Gorillaz-demon-days-lyrics",
+        "pyongs_count": 29,
+        "relationships_index_url": "https://genius.com/Gorillaz-demon-days-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 5,
+            "day": 11
+        },
+        "release_date_for_display": "May 11, 2005",
+        "release_date_with_abbreviated_month_for_display": "May. 11, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8b886852011cc6cd04d13e3e460339f7.300x295x1.png",
+        "song_art_image_url": "https://images.genius.com/8b886852011cc6cd04d13e3e460339f7.574x565x1.png",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 113250
+        },
+        "title": "Demon Days",
+        "title_with_featured": "Demon Days",
+        "updated_by_human_at": 1675799932,
+        "url": "https://genius.com/Gorillaz-demon-days-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/860",
+            "header_image_url": "https://images.genius.com/37183f148e14391012d387d322474319.1000x562x1.jpg",
+            "id": 860,
+            "image_url": "https://images.genius.com/dcf209467ed03269eca45f9586a27d52.1000x1000x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Gorillaz",
+            "slug": "Gorillaz",
+            "url": "https://genius.com/artists/Gorillaz"
+        },
+        "artist": "Gorillaz",
+        "lyrics": "TranslationsNederlandsDemon Days Lyrics[Intro: 2D]\nIn demon days, it's cold inside\nYou don't get nobody, people sigh\nIt's so bad, lasting far, but love yourself\nHiding in a hole in there\nAll the glasses are far too big\nBring it back, got to hold it back\nTo let you do that, yet you don't want me back\nBefore it fall down, falling down, falling down\nFalling down to go far from the sun\n[Chorus: The London Community Gospel Choir]\nIn these demon days, we're so cold inside\nIt's so hard for a good soul to survive\nYou can't even trust the air you breathe\n'Cause Mother Earth want us all to leave\nWhen lies become reality\nYou numb yourself with drugs and TV\nPick yourself up, it's a brand new day\nSo turn yourself 'round\nDon't burn yourself, turn yourself\nTurn yourself around to the sun\nIn these demon days, we're so cold inside\nIt's so hard for a good soul to survive\nYou can't even trust the air you breathe\n'Cause Mother Earth wants us all to leave\nWhen lies become reality\nYou numb yourself with drugs and TV\nPick yourself up, it's a brand new day\nSo turn yourself 'round\nDon't burn yourself, turn yourself\nTurn yourself around into the sun\n\n[Outro: The London Community Gospel Choir]\nTo the sun, to the sun\nTo the sun, to the sun\nTo the sun, to the sun\nTo the sun, to the sun\nTo the sun, to the sun\nTo the sun, to the sun\nTo the sun, to the sun\nTo the sun, to the sun\nTo the sun, to the sun\nTo the sun, to the sun\nTo the sun, to the sun\nTo the sun, to the sun\nTo the sun, to the sunYou might also like29Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML1859",
+    "mood": "happy",
+    "artist": "Calvin Harris",
+    "title": "Merrymaking At My Place",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/132732",
+        "artist_names": "Calvin Harris",
+        "full_title": "Merrymaking at My Place by\u00a0Calvin\u00a0Harris",
+        "header_image_thumbnail_url": "https://images.genius.com/b150803d234f219c58412f657e548c50.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b150803d234f219c58412f657e548c50.1000x1000x1.jpg",
+        "id": 132732,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 10380,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1605843995,
+        "path": "/Calvin-harris-merrymaking-at-my-place-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Calvin-harris-merrymaking-at-my-place-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 6,
+            "day": 15
+        },
+        "release_date_for_display": "June 15, 2007",
+        "release_date_with_abbreviated_month_for_display": "Jun. 15, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5ef571f54d7d05c8cce06bae241e5f83.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5ef571f54d7d05c8cce06bae241e5f83.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Merrymaking at My Place",
+        "title_with_featured": "Merrymaking at My Place",
+        "updated_by_human_at": 1638156608,
+        "url": "https://genius.com/Calvin-harris-merrymaking-at-my-place-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2069",
+            "header_image_url": "https://images.genius.com/7dd591bc0e15efdb391751cfd33170e5.820x312x1.png",
+            "id": 2069,
+            "image_url": "https://images.genius.com/c32731ae04dbce52403e287040b2ae10.1000x1000x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Calvin Harris",
+            "slug": "Calvin-harris",
+            "url": "https://genius.com/artists/Calvin-harris",
+            "iq": 160
+        },
+        "artist": "Calvin Harris",
+        "lyrics": "Merrymaking at My Place Lyrics[Intro]\nOh, oh, oh\nOh, oh, oh\nOh, oh, oh\n\n[Chorus]\nMerrymaking, drug taking\nAt my place, baby, at my place\nMerrymaking\n\n[Verse 1]\nCome in to my house\nYou're invited into my house\nEntering the back of my house\nWelcoming you into my house\nCome in to my house\nYou're invited into my house\nEntering the back of my house\nWelcoming you into my house\nI've invited loads to my house\nLoads of people come to my house\nThey take stuff inside of my house\nAnd smoke stuff outside of my house\n[Chorus]\nMerrymaking, drug taking\nAt my place, baby, at my place\nMerrymaking\n\n[Verse 2]\nWell, I've seen it before\nLots of people at my front door\nLots of people in my front door\nTrying to get into my house\nWell, I've seen it before\nLots of people in my front door\nLots of people at my front door\nTrying to get into my house\n\n[Chorus]\nMerrymaking, drug taking\nAt my place, baby, at my place\nMerrymaking, drug taking\nAt my place, baby, at my place\nMerrymaking\n\n[Verse 3]\nWe're merrymaking\nAll the stuff that you've being taking\nAll the stuff that I've being taking\nAll the stuff that we've being taking\nWe're merrymaking\nAll the stuff that we've being taking\nAll the stuff that I've being taking\nAll the stuff that you've being taking\nYou might also like[Chorus]\nMerrymaking, drug taking\nAt my place, baby, at my place\nMerrymaking, drug taking\nAt my place, baby, at my place\nMerrymaking, drug taking\nAt my place, baby, at my place\n\n[Bridge]\nMerrymaking\nDrug taking\n\n[Chorus]\nMerrymaking, drug taking\nAt my place, baby, at my place\nMerrymaking, drug taking\nAt my place, baby, at my place\nMerrymaking, drug taking\nAt my place, baby, at my place\nMerrymaking, drug taking\nAt my place, baby, at my place\nMerrymaking\n\n[Outro]\nOh, oh, oh\nOh, oh, oh\nMerrymaking1Embed"
+    }
+}

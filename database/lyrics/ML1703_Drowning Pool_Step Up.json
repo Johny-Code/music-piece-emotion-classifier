@@ -1,0 +1,57 @@
+{
+    "id": "ML1703",
+    "mood": "angry",
+    "artist": "Drowning Pool",
+    "title": "Step Up",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/907509",
+        "artist_names": "Drowning Pool",
+        "full_title": "Step Up by\u00a0Drowning\u00a0Pool",
+        "header_image_thumbnail_url": "https://images.genius.com/7f53b53710a9f231f8f5b4aaf81eb2de.205x205x1.jpg",
+        "header_image_url": "https://images.genius.com/7f53b53710a9f231f8f5b4aaf81eb2de.205x205x1.jpg",
+        "id": 907509,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 11049246,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1655728884,
+        "path": "/Drowning-pool-step-up-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Drowning-pool-step-up-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 6,
+            "day": 22
+        },
+        "release_date_for_display": "June 22, 2004",
+        "release_date_with_abbreviated_month_for_display": "Jun. 22, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/7f53b53710a9f231f8f5b4aaf81eb2de.205x205x1.jpg",
+        "song_art_image_url": "https://images.genius.com/7f53b53710a9f231f8f5b4aaf81eb2de.205x205x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Step Up",
+        "title_with_featured": "Step Up",
+        "updated_by_human_at": 1655728884,
+        "url": "https://genius.com/Drowning-pool-step-up-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/15619",
+            "header_image_url": "https://images.genius.com/5916992c28e4f5ee4e3d80d8d918512f.1000x667x1.jpg",
+            "id": 15619,
+            "image_url": "https://images.genius.com/dcbefe9de5ff79294d065323cda516dd.957x957x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Drowning Pool",
+            "slug": "Drowning-pool",
+            "url": "https://genius.com/artists/Drowning-pool"
+        },
+        "artist": "Drowning Pool",
+        "lyrics": "Step Up Lyrics[Intro]\nOne, two, three, go!\n\n[Verse 1]\nBroken, yeah, you been living\nOn the edge of a broken dream\nNothin', yeah, that's the only thing\nYou'll ever take away from me\n\n[Pre-Chorus]\nI'm never gonna stop\nI'm never gonna drop\nAin't no different than it was before\nSo, take some good advice\nYou better stop and think twice\nBefore you take your first step out that door\n[Chorus]\nIf you wanna step up (Step up)\nYou're gonna get knocked down (Knocked down)\nIf you wanna step up (Step up)\nYou're gonna get knocked down\nYou had your chance to walk away\nAnd live to see another day\nIf you wanna step up (Step up)\nYou're gonna get knocked down (Knocked down)\nYou're gonna get knocked down\n\n[Verse 2]\nAh... Sufferin', yeah, that's the only thing\nHere that's left for you\nNothin', yeah, that's the only thing\nYou're ever gonna fuckin' do\n\n[Pre-Chorus]\nI'm never gonna stop\nI'm never gonna drop\nAin't no different than it was before\nSo, take some good advice\nYou better stop and think twice\nBefore you take your first step out that door\n\n[Chorus]\nSo, if you wanna step up (Step up)\nYou're gonna get knocked down (Knocked down)\nIf you wanna step up (Step up)\nYou're gonna get knocked down\nYou had your chance to walk away\nAnd live to see another day\nIf you wanna step up (Step up)\nYou're gonna get knocked down (Knocked down)\nYou're gonna get knocked down\nYou're gonna get knocked down\nYou might also like[Bridge]\nAnd now you've crossed that line\nYou must be out your mind\nGo!\n\n[Chorus]\nIf you wanna step up (Step up)\nYou're gonna get knocked down (Knocked down)\nIf you wanna step up (Step up)\nYou're gonna get knocked down\nYou had your chance to walk away\nAnd live to see another day\nIf you wanna step up (Step up)\nYou're gonna get knocked down (Knocked down)\nYou're gonna get knocked down\nYou're gonna get knocked down (Step up)\nYou're gonna get knocked down\nYou're gonna get knocked down (Step up)\nYou're gonna get knocked downEmbed"
+    }
+}

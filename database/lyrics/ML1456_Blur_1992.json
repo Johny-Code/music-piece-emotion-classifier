@@ -1,0 +1,58 @@
+{
+    "id": "ML1456",
+    "mood": "sad",
+    "artist": "Blur",
+    "title": "1992",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/403809",
+        "artist_names": "Blur",
+        "full_title": "1992 by\u00a0Blur",
+        "header_image_thumbnail_url": "https://images.genius.com/4c4ed5ae31a2a596b05b11e9609684a6.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/4c4ed5ae31a2a596b05b11e9609684a6.1000x1000x1.jpg",
+        "id": 403809,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 354382,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1587515450,
+        "path": "/Blur-1992-lyrics",
+        "pyongs_count": 9,
+        "relationships_index_url": "https://genius.com/Blur-1992-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 3,
+            "day": 15
+        },
+        "release_date_for_display": "March 15, 1999",
+        "release_date_with_abbreviated_month_for_display": "Mar. 15, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/4c4ed5ae31a2a596b05b11e9609684a6.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/4c4ed5ae31a2a596b05b11e9609684a6.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 13033
+        },
+        "title": "1992",
+        "title_with_featured": "1992",
+        "updated_by_human_at": 1628778886,
+        "url": "https://genius.com/Blur-1992-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/723",
+            "header_image_url": "https://images.genius.com/3744fc961c80ee9201af0522f77372af.1000x563x1.jpeg",
+            "id": 723,
+            "image_url": "https://images.genius.com/5b6238fedd322e7946ba576d8e96a94a.610x610x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Blur",
+            "slug": "Blur",
+            "url": "https://genius.com/artists/Blur"
+        },
+        "artist": "Blur",
+        "lyrics": "1992 Lyrics[Verse 1]\nGoing into business\nAn agreement of your bombast\nYou'd love my bed\nYou took the other instead\nBut don't you feel low?\nI was being oblique\nAnd you'd love my bed\nYou got the other instead\n\n[Instrumental Break]\n[Verse 2]\nWhat do you owe me?\nThe price of your peace of mind\nYou'd love my bed\nYou took it all insteadYou might also like9Embed"
+    }
+}

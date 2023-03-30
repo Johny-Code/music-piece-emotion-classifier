@@ -1,0 +1,58 @@
+{
+    "id": "ML1573",
+    "mood": "relaxed",
+    "artist": "The Black Ghosts",
+    "title": "Full Moon",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/451554",
+        "artist_names": "The Black Ghosts",
+        "full_title": "Full Moon by\u00a0The\u00a0Black Ghosts",
+        "header_image_thumbnail_url": "https://images.genius.com/703ff44fece4d7a3ed6aec2c9c9e3494.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/703ff44fece4d7a3ed6aec2c9c9e3494.640x640x1.jpg",
+        "id": 451554,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 848008,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1674521685,
+        "path": "/The-black-ghosts-full-moon-lyrics",
+        "pyongs_count": 10,
+        "relationships_index_url": "https://genius.com/The-black-ghosts-full-moon-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 6,
+            "day": 16
+        },
+        "release_date_for_display": "June 16, 2008",
+        "release_date_with_abbreviated_month_for_display": "Jun. 16, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/703ff44fece4d7a3ed6aec2c9c9e3494.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/703ff44fece4d7a3ed6aec2c9c9e3494.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 12684
+        },
+        "title": "Full Moon",
+        "title_with_featured": "Full Moon",
+        "updated_by_human_at": 1674521685,
+        "url": "https://genius.com/The-black-ghosts-full-moon-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/189915",
+            "header_image_url": "https://images.genius.com/0e4f0dd55b6e2bbe5754a35f645ba266.1000x669x1.jpg",
+            "id": 189915,
+            "image_url": "https://images.genius.com/79d3a1eda55fe189566b1ceb09a9aae8.300x300x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Black Ghosts",
+            "slug": "The-black-ghosts",
+            "url": "https://genius.com/artists/The-black-ghosts"
+        },
+        "artist": "The Black Ghosts",
+        "lyrics": "Full Moon Lyrics[Verse 1]\nWhen the full moon turns white, that's when I'll come home\nI am going out to see what I can sow\nAnd I don't know where I'll go\nAnd I don't know what I'll see\nBut I'll try not to bring it back home with me\n\n[Verse 2]\nLike the morning sun, your eyes will follow me\nAs you watch me wander, curse the powers that be\n\u2018Cause all I want is here and now\nBut it\u2019s already been and gone\nOur intentions always last that bit too long\n[Verse 3]\nFar, far away, no voices sounding\nNo one around me and you're still there\nFar, far away, no choices passing\nNo time confounds me and you're still there\n\n[Verse 4]\nIn the full moon's light, I listen to the stream\nAnd in between the silence hear you calling me\nBut I don't know where I am and I don't trust who I've been\nAnd If I come home, how will I ever leave?You might also like10Embed"
+    }
+}

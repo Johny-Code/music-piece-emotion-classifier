@@ -1,0 +1,74 @@
+{
+    "id": "ML1467",
+    "mood": "happy",
+    "artist": "Gwen Stefani",
+    "title": "Rich Girl",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/32729",
+        "artist_names": "Gwen Stefani (Ft. Eve)",
+        "full_title": "Rich Girl by\u00a0Gwen\u00a0Stefani (Ft.\u00a0Eve)",
+        "header_image_thumbnail_url": "https://images.genius.com/5abe4f9042b4404f1a58d603f2edee63.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5abe4f9042b4404f1a58d603f2edee63.1000x1000x1.jpg",
+        "id": 32729,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 50,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1670427889,
+        "path": "/Gwen-stefani-rich-girl-lyrics",
+        "pyongs_count": 18,
+        "relationships_index_url": "https://genius.com/Gwen-stefani-rich-girl-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 12,
+            "day": 14
+        },
+        "release_date_for_display": "December 14, 2004",
+        "release_date_with_abbreviated_month_for_display": "Dec. 14, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/6b8ec2b77ff841318b02420d10f0d116.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/6b8ec2b77ff841318b02420d10f0d116.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 167877
+        },
+        "title": "Rich Girl",
+        "title_with_featured": "Rich Girl (Ft.\u00a0Eve)",
+        "updated_by_human_at": 1670427889,
+        "url": "https://genius.com/Gwen-stefani-rich-girl-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/458",
+                "header_image_url": "https://images.genius.com/a81eb20a79449c65bf95be8b2ec2e3e9.1000x1000x1.jpg",
+                "id": 458,
+                "image_url": "https://images.genius.com/a81eb20a79449c65bf95be8b2ec2e3e9.1000x1000x1.jpg",
+                "index_character": "e",
+                "is_meme_verified": true,
+                "is_verified": true,
+                "name": "Eve",
+                "slug": "Eve",
+                "url": "https://genius.com/artists/Eve",
+                "iq": 1416
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1893",
+            "header_image_url": "https://images.genius.com/3e60b120afdaf32da8b3e0716b779554.1000x333x1.jpg",
+            "id": 1893,
+            "image_url": "https://images.genius.com/a922b5f056c67f38128424bc8c308a87.661x661x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Gwen Stefani",
+            "slug": "Gwen-stefani",
+            "url": "https://genius.com/artists/Gwen-stefani",
+            "iq": 262
+        },
+        "artist": "Gwen Stefani",
+        "lyrics": "Rich Girl Lyrics[Intro: Gwen Stefani]\nNa-na-na-na-na-na\nNa-na-na-na-na-na\nNa-na-na-na-na-na-na-na-na-na-na-na\nNa-na-na-na-na-na\nNa-na-na-na-na-na\nNa-na-na-na-na-na-na-na-na-na-na-na\n\n[Chorus: Gwen Stefani]\nIf I was a rich girl\nNa-na-na-na-na-na-na-na-na-na-na-na-na-na-na\nSee, I'd have all the money in the world\nIf I was a wealthy gi-i-i-irl\nNo man could test me, impress me\nMy cash flow would never ever end\n'Cause I'd have all the money in the world\nIf I was a wealthy gi-i-i-irl\n[Verse 1: Gwen Stefani]\nThink what that money could bring\nI'd buy everything\nClean out Vivienne Westwood\nIn my Galliano gown\nNo, wouldn't just have one hood\nA Hollywood mansion if I could\nPlease book me first class to my fancy house in London town\n\n[Refrain: Gwen Stefani]\nAll the riches, baby, won't mean anything\nAll the riches, baby, don't bring what your love can bring\nAll the riches, baby, won't mean anything\nDon't need no other baby\nYour loving is better than gold and I know\n\n[Chorus: Gwen Stefani]\nIf I was a rich girl\nNa-na-na-na-na-na-na-na-na-na-na-na-na-na-na\nSee, I'd have all the money in the world\nIf I was a wealthy gi-irl\nNo man could test me, impress me\nMy cash flow would never ever end\n'Cause I'd have all the money in the world\nIf I was a wealthy gi-i-i-irl\nYou might also like[Verse 2: Gwen Stefani]\nI'd get me four Harajuku girls to (Uh-huh)\nInspire me, and they'd come to my rescue\nI'd dress them wicked, I'd give them names (Yeah)\nLove, Angel, Music, Baby\nHurry up and come and save me\n\n[Refrain: Gwen Stefani]\nAll the riches, baby, won't mean anything\nAll the riches, baby, won't bring what your love can bring\nAll the riches, baby, won't mean anything\nDon't need no other baby\nYour loving is better than gold and I know\n\n[Bridge: Eve, Gwen Stefani & Eve]\nCome together all over the world\nFrom the hoods of Japan, Harajuku Girls\nWhat? It's all love\nWhat? Give it up! What?\nShouldn't matter, shouldn't matter\nShouldn't matter, shouldn't matter, what?\nCome together all over the world\nFrom the hoods of Japan, Harajuku Girls\nWhat? It's all love\nWhat? Give it up! What?\nShouldn't matter, shouldn't matter\nShouldn't matter, shouldn't matter\n[Verse 3: Eve, Gwen Stefani & Eve]\nWhat happened to my life? Turned upside down\nChicks dat blew ya mind, ding, it's the second round\nOriginal track and ting, mmm\nYou know you can't buy these things, no\nSee Stefani and her L.A.M.B\nI rock the Fetish, people you know who I am!\nYes, ma'am, we got the style that's wicked\nI hope you can all keep up\nWe climbed all the way from the bottom to the top\nNow we ain't gettin' nothing but love\n\n[Chorus: Gwen Stefani]\nIf I was a rich girl\nNa-na-na-na-na-na-na-na-na-na-na-na-na-na-na\nSee, I'd have all the money in the world\nIf I was a wealthy gi-irl\nNo man could test me, impress me\nMy cash flow would never ever end\n'Cause I'd have all the money in the world\nIf I was a wealthy gi-i-i-irl\n\n[Outro: Gwen Stefani]\nNa-na-na-na-na-na\nNa-na-na-na-na-na\nNa-na-na-na-na-na-na-na-na-na-na-na\nNa-na-na-na-na-na\nNa-na-na-na-na-na\nNa-na-na-na-na-na-na-na-na-na-na-na\nNa-na-na-na-na-na\nNa-na-na-na-na-na\nNa-na-na-na-na-na-na-na-na-na-na-na18Embed"
+    }
+}

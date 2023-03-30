@@ -1,0 +1,57 @@
+{
+    "id": "ML984",
+    "mood": "angry",
+    "artist": "Undertones",
+    "title": "Get Over You",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1085778",
+        "artist_names": "The Undertones",
+        "full_title": "Get Over You by\u00a0The\u00a0Undertones",
+        "header_image_thumbnail_url": "https://images.genius.com/27ce6e5f78a1361dadaa0f9589a8dc06.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/27ce6e5f78a1361dadaa0f9589a8dc06.600x600x1.jpg",
+        "id": 1085778,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5566870,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1605903841,
+        "path": "/The-undertones-get-over-you-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-undertones-get-over-you-sample",
+        "release_date_components": {
+            "year": 1979,
+            "month": 1,
+            "day": 19
+        },
+        "release_date_for_display": "January 19, 1979",
+        "release_date_with_abbreviated_month_for_display": "Jan. 19, 1979",
+        "song_art_image_thumbnail_url": "https://images.genius.com/27ce6e5f78a1361dadaa0f9589a8dc06.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/27ce6e5f78a1361dadaa0f9589a8dc06.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Get Over You",
+        "title_with_featured": "Get Over You",
+        "updated_by_human_at": 1605988533,
+        "url": "https://genius.com/The-undertones-get-over-you-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/60331",
+            "header_image_url": "https://images.genius.com/bd0e1e835f9a9499e5c482136487759b.858x536x1.jpg",
+            "id": 60331,
+            "image_url": "https://images.genius.com/2e51b33e679363e3c756b3dd3cc5955d.806x806x1.jpg",
+            "index_character": "u",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Undertones",
+            "slug": "The-undertones",
+            "url": "https://genius.com/artists/The-undertones"
+        },
+        "artist": "The Undertones",
+        "lyrics": "Get Over You LyricsDressed like that, you must be living in a different world\nAnd your mother doesn't know why you can't look like all the other girls\nBoys stop you on the street, they wanna know your name\nTo reach you on the phone 'cause they know your game\nAlways running up the alley, trying to get home\nOr standing on the corner, never alone\n\nAnd I don't wanna get over you\n(Over you)\nIt doesn't matter what you do\n(Over you)\nI just can't get over you\nOver you\nYou say the boys with the bikes and the leathers'd like to beat you to hell\nAnd the girls where you work don't treat you too well\nYou think you're such a smart girl, but you ain't so bad\nGet what you want with looks like that\nAlways running up the alley, trying to get home\nOr standing on the corner, never alone\n\nAnd I don't wanna get over you\n(Over you)\nIt doesn't matter what you do\n(Over you)\nI just can't get over you\nOver you\n\n[Guitar solo]\n\nDressed like that, you must be living in a different world\n(In a different world)\nAnd your mother doesn't know why you can't look like all the other girls\n(All the other girls)\nBoys stop you on the street, they wanna know your name\nTo reach you on the phone 'cause they know your game\nAlways running up the alley, trying to get home\nOr standing on the corner, never alone\n\nAnd I don't wanna get over you\n(Over you)\nIt doesn't matter what you do\n(Over you)\nI just can't get over you\nOver you...You might also likeEmbed"
+    }
+}

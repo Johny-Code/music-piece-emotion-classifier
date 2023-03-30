@@ -1,0 +1,57 @@
+{
+    "id": "ML1999",
+    "mood": "happy",
+    "artist": "Fatboy Slim",
+    "title": "Talking Bout My Baby",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1649566",
+        "artist_names": "Fatboy Slim",
+        "full_title": "Talking 'Bout My Baby by\u00a0Fatboy\u00a0Slim",
+        "header_image_thumbnail_url": "https://images.genius.com/f681642ba647ab52b549bbe4db22556a.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/f681642ba647ab52b549bbe4db22556a.1000x1000x1.jpg",
+        "id": 1649566,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 4605770,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1526813792,
+        "path": "/Fatboy-slim-talking-bout-my-baby-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Fatboy-slim-talking-bout-my-baby-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2000",
+        "release_date_with_abbreviated_month_for_display": "2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/f681642ba647ab52b549bbe4db22556a.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f681642ba647ab52b549bbe4db22556a.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Talking \u2019Bout My Baby",
+        "title_with_featured": "Talking 'Bout My Baby",
+        "updated_by_human_at": 1622568731,
+        "url": "https://genius.com/Fatboy-slim-talking-bout-my-baby-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2957",
+            "header_image_url": "https://images.genius.com/c122b11fa38d9ca1874d91d5cee9dfcd.600x180x1.jpg",
+            "id": 2957,
+            "image_url": "https://images.genius.com/25c93214398bdfcff06bb756fb77147a.523x523x1.png",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Fatboy Slim",
+            "slug": "Fatboy-slim",
+            "url": "https://genius.com/artists/Fatboy-slim"
+        },
+        "artist": "Fatboy Slim",
+        "lyrics": "Talking \u2019Bout My Baby LyricsYeah Yeah yeah yeah yeah\nWoah yeah talkin' 'bout my baby\nTalkin' 'bout my baby\nWhen she goes walkin' down Bourbon street\nI just can't hardly stand to walk behind her\nShes got her red hot pants on\nShe got on her yellow high heeled sneakers\nShe got on a yellow low neck see through blouse\nWithout her brassiere on\nShe's shakin' like two big ol' balloons in a hurricane\nOoooh, she's got on a purple afro wig\nShe got a hand on her hip\nLettin' her back bone slip\nBattin' her eye, battin' her eye\nBattin' her eye, battin' her eye\nBattin' her eye n' lookin' straight at me\nYeah, lookin' straight at me\nShe's battin' her eyes and lookin' straight at me\nWith that sassy, saucy look on her face\nShit son, yeah\nI want to go out on a picnic with you, baby\nOut under the big bright yellow sun\nShe said \"I wanna go out on a picnic with you, baby\nOut under the big bright yellow sun\"\nUnder the big bright yellow sun\n(repeat to fade out)You might also like1Embed"
+    }
+}

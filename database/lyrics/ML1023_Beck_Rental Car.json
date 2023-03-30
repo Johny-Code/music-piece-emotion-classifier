@@ -1,0 +1,57 @@
+{
+    "id": "ML1023",
+    "mood": "happy",
+    "artist": "Beck",
+    "title": "Rental Car",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/462730",
+        "artist_names": "Beck",
+        "full_title": "Rental Car by\u00a0Beck",
+        "header_image_thumbnail_url": "https://images.genius.com/643df05ccf2fd1b3e13f9efd1647f615.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/643df05ccf2fd1b3e13f9efd1647f615.500x500x1.jpg",
+        "id": 462730,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 396158,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1646702711,
+        "path": "/Beck-rental-car-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Beck-rental-car-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 3,
+            "day": 29
+        },
+        "release_date_for_display": "March 29, 2005",
+        "release_date_with_abbreviated_month_for_display": "Mar. 29, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/643df05ccf2fd1b3e13f9efd1647f615.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/643df05ccf2fd1b3e13f9efd1647f615.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Rental Car",
+        "title_with_featured": "Rental Car",
+        "updated_by_human_at": 1646702711,
+        "url": "https://genius.com/Beck-rental-car-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2073",
+            "header_image_url": "https://images.genius.com/e51a50f91141de2e416603d46ef41ed9.1000x600x1.jpg",
+            "id": 2073,
+            "image_url": "https://images.genius.com/ffc8308e5bc88850b2e8a0234ec8ee3b.320x320x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Beck",
+            "slug": "Beck",
+            "url": "https://genius.com/artists/Beck"
+        },
+        "artist": "Beck",
+        "lyrics": "Rental Car Lyrics[Verse 1]\nHey now girl, what's the matter with me?\nWe're on a back road something to see\nStraight as a razor kicking the dust\nDigging through ditches and falling to rust\n\n[Pre-Chorus]\nTaking me far\nFar as a rental car can go\n\n[Chorus]\nYeah, yeah, yeah\nYeah, yeah, yeah\nYeah, yeah, yeah\nYeah, yeah, yeah\n[Verse 2]\nHey now girl at the end of the road\nDown where the reaper is walking alone\nSinging a death knell, clapping along\nAt the end of the night there's a road we'll be on\n\n[Pre-Chorus]\nTaking me far\nFar as a rental car can go\n\n[Chorus]\nYeah, yeah, yeah\nYeah, yeah, yeah\nYeah, yeah, yeah\nYeah, yeah, yeah\n\n[Bridge]\nLa-la-la-la-la-la-la-la-la-la-la-la-la-la-la-la-[?]\nLa-la-la-la-la-la-la-la-la-la-la-la-la-la-la-la-[?]\nLa-la-la-la-la-la-la-la-la-la-la-la-la-la-la-la-[?]\nLa-la-la-la-la-la-la-la-la-la-la-la-la-la-la-la-[?]\n[?]\n\n[Verse 3]\nStraight as a razor kicking the dust\nDigging through ditches and falling to rust\nYou might also like[Chorus]\nTaking me far\nFar as a rental car can go\n\n[Chorus]\nYeah, yeah, yeah\nYeah, yeah, yeah\nYeah, yeah, yeah\nYeah, yeah, yeah1Embed"
+    }
+}

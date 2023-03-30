@@ -1,0 +1,58 @@
+{
+    "id": "ML1389",
+    "mood": "sad",
+    "artist": "Portishead",
+    "title": "Magic Doors",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/319519",
+        "artist_names": "Portishead",
+        "full_title": "Magic Doors by\u00a0Portishead",
+        "header_image_thumbnail_url": "https://images.rapgenius.com/2c66b95a64ae9e9c1593455fee7c701a.300x300x1.jpg",
+        "header_image_url": "https://images.rapgenius.com/2c66b95a64ae9e9c1593455fee7c701a.699x700x1.jpg",
+        "id": 319519,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 261541,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1519522138,
+        "path": "/Portishead-magic-doors-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Portishead-magic-doors-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 11,
+            "day": 24
+        },
+        "release_date_for_display": "November 24, 2008",
+        "release_date_with_abbreviated_month_for_display": "Nov. 24, 2008",
+        "song_art_image_thumbnail_url": "https://images.rapgenius.com/2c66b95a64ae9e9c1593455fee7c701a.300x300x1.jpg",
+        "song_art_image_url": "https://images.rapgenius.com/2c66b95a64ae9e9c1593455fee7c701a.699x700x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 8330
+        },
+        "title": "Magic Doors",
+        "title_with_featured": "Magic Doors",
+        "updated_by_human_at": 1588077468,
+        "url": "https://genius.com/Portishead-magic-doors-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/12528",
+            "header_image_url": "https://images.genius.com/ae3efb6f56aa07f600c15198a5bf6e9b.999x999x1.jpg",
+            "id": 12528,
+            "image_url": "https://images.genius.com/ae3efb6f56aa07f600c15198a5bf6e9b.999x999x1.jpg",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Portishead",
+            "slug": "Portishead",
+            "url": "https://genius.com/artists/Portishead"
+        },
+        "artist": "Portishead",
+        "lyrics": "Magic Doors Lyrics[Verse 1]\nI can't deny what I've become\nI'm just emotionally undone\nI can't deny, I can't be someone else\nWhen I have tried to find the words\nTo describe this sense absurd\nTry to resist my thoughts, but I can't lie\n\n[Chorus]\nI'm losing myself\nMy desire I can't hide\nNo reason am I for\n[Verse 2]\nI can't divide or hide from me\nI don't know who I'm meant to be\nI guess it's just the person that I am\nOften I've dreamt that I don't wade\nEnjoy the gift of my mistake\nBut yet again, I'm wrong and I confess\n\n[Chorus]\nI'm losing myself\nMy desire I can't hide\nNo reason am I for\n\nI'm losing myself\nMy desire I can't hide\nNo reason am I forYou might also like2Embed"
+    }
+}

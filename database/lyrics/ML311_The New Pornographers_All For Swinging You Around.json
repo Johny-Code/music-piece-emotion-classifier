@@ -1,0 +1,57 @@
+{
+    "id": "ML311",
+    "mood": "happy",
+    "artist": "The New Pornographers",
+    "title": "All For Swinging You Around",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1135316",
+        "artist_names": "The New Pornographers",
+        "full_title": "All for Swinging You Around by\u00a0The\u00a0New Pornographers",
+        "header_image_thumbnail_url": "https://images.genius.com/3d11a7a793d024c1f56552b35376d8e4.300x304x1.jpg",
+        "header_image_url": "https://images.genius.com/3d11a7a793d024c1f56552b35376d8e4.905x918x1.jpg",
+        "id": 1135316,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5593635,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1539864599,
+        "path": "/The-new-pornographers-all-for-swinging-you-around-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-new-pornographers-all-for-swinging-you-around-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 5,
+            "day": 6
+        },
+        "release_date_for_display": "May 6, 2003",
+        "release_date_with_abbreviated_month_for_display": "May. 6, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3d11a7a793d024c1f56552b35376d8e4.300x304x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3d11a7a793d024c1f56552b35376d8e4.905x918x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "All for Swinging You Around",
+        "title_with_featured": "All for Swinging You Around",
+        "updated_by_human_at": 1635013257,
+        "url": "https://genius.com/The-new-pornographers-all-for-swinging-you-around-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/196985",
+            "header_image_url": "https://images.genius.com/05beb6a063c929706f7877c4b737989a.959x959x1.jpg",
+            "id": 196985,
+            "image_url": "https://images.genius.com/05beb6a063c929706f7877c4b737989a.959x959x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The New Pornographers",
+            "slug": "The-new-pornographers",
+            "url": "https://genius.com/artists/The-new-pornographers"
+        },
+        "artist": "The New Pornographers",
+        "lyrics": "All for Swinging You Around Lyrics[Verse 1]\nExploding international, the scenes, the sounds\nAnd famously, the feeling that you can't squeeze 'round\nWhile tearing off another page\nOf loose change, outrage\nIt's another perfect day\nUntil the night show\n\n[Verse 21]\nExploding international, the wind did howl\nThe sky above was thick with rings of smoke and clouds\nAnd hanging on the bleeding end\nOf conscious, who's this?\nWas there anything I missed\nAs far as you know?\nAs far as you know?\n[Chorus]\nWas it all for swinging you around?\nAll for swinging you around?\n\n[Verse 3]\nExploding international, the sun, the sights\nThe moments you are viewing through a beam of light\nPropel you through the golden age\nWe crash-land the first page\nOn a crumbling world stage\nInto the front rows\nInto the front rows\n\n[Chorus]\nAnd all for swinging you around\nAll for swinging you around\n\n[Bridge]\nAnd off your feet, all the love you found, spinning 'round\nAnd off your feet, all the love you found, spinning 'round\nAnd off your feet, all the love you found, spinning 'round, spinning 'round, swinging 'round\n\n[Verse 4]\nWe're twisting incognito with no time, can't talk\nCan't tell if this is fantasy or culture shock\nOr remnants of a golden age\nThat's near mint, unplayed\nOr a welcome overstayed\nBeneath the light show\nBeneath the light show\nYou might also like[Chorus - Outro]\nAll for swinging you around\nAll for swinging you around\nAll for swinging you around\nAll for swinging you around\nAll for swinging you around\nAll for swinging you aroundEmbed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML1278",
+    "mood": "sad",
+    "artist": "Morrissey",
+    "title": "There's A Place In Hell For Me And My Friends",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/741863",
+        "artist_names": "Morrissey",
+        "full_title": "There\u2019s a Place in Hell for Me and My Friends by\u00a0Morrissey",
+        "header_image_thumbnail_url": "https://images.genius.com/eb6bb622bd0fc30e9e4f8ce435c923a8.300x293x1.jpg",
+        "header_image_url": "https://images.genius.com/eb6bb622bd0fc30e9e4f8ce435c923a8.300x293x1.jpg",
+        "id": 741863,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 187199,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1513523332,
+        "path": "/Morrissey-theres-a-place-in-hell-for-me-and-my-friends-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Morrissey-theres-a-place-in-hell-for-me-and-my-friends-sample",
+        "release_date_components": {
+            "year": 1991,
+            "month": 3,
+            "day": 4
+        },
+        "release_date_for_display": "March 4, 1991",
+        "release_date_with_abbreviated_month_for_display": "Mar. 4, 1991",
+        "song_art_image_thumbnail_url": "https://images.genius.com/eb6bb622bd0fc30e9e4f8ce435c923a8.300x293x1.jpg",
+        "song_art_image_url": "https://images.genius.com/eb6bb622bd0fc30e9e4f8ce435c923a8.300x293x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "There\u2019s a Place in Hell for Me and My Friends",
+        "title_with_featured": "There\u2019s a Place in Hell for Me and My Friends",
+        "updated_by_human_at": 1612818713,
+        "url": "https://genius.com/Morrissey-theres-a-place-in-hell-for-me-and-my-friends-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/39064",
+            "header_image_url": "https://images.genius.com/38deb38b3cfbbbe74500f9a394e1186c.964x424x1.png",
+            "id": 39064,
+            "image_url": "https://images.genius.com/74769dc74e2873837c709cdd6feb3bf0.500x500x1.png",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Morrissey",
+            "slug": "Morrissey",
+            "url": "https://genius.com/artists/Morrissey"
+        },
+        "artist": "Morrissey",
+        "lyrics": "There\u2019s a Place in Hell for Me and My Friends LyricsThere is a place\nReserved\nFor me and my friends\nAnd when we go\nWe all will go\nSo you see\nI'm never alone\nThere is a place\nWith a bit more time\nAnd a few more\nGentler words\nAnd looking back\nWe do forgive\n(we had no choice\nWe always did)\nAll that we hope\nIs that when we go\nOur skin\nAnd our blood\nAnd our bones\nDon't get in your way\nMaking you ill\nThe way they did\nWhen we lived\nThere is a place\nA place in hell\nReserved\nFor me and my friends\nAnd if ever I\nWanted to cry\nThen I will\nBecause I canYou might also like1Embed"
+    }
+}

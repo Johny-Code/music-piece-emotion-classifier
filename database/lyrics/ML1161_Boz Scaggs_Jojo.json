@@ -1,0 +1,58 @@
+{
+    "id": "ML1161",
+    "mood": "relaxed",
+    "artist": "Boz Scaggs",
+    "title": "Jojo",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1466159",
+        "artist_names": "Boz Scaggs",
+        "full_title": "Jojo by\u00a0Boz\u00a0Scaggs",
+        "header_image_thumbnail_url": "https://images.genius.com/d7cc8a4a40d1f88a8787a906b4e2848f.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/d7cc8a4a40d1f88a8787a906b4e2848f.1000x1000x1.jpg",
+        "id": 1466159,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 8664184,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1629776425,
+        "path": "/Boz-scaggs-jojo-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Boz-scaggs-jojo-sample",
+        "release_date_components": {
+            "year": 1980,
+            "month": 4,
+            "day": null
+        },
+        "release_date_for_display": "April 1980",
+        "release_date_with_abbreviated_month_for_display": "Apr. 1980",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b333a13ab06b176e30223434960254ca.300x297x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b333a13ab06b176e30223434960254ca.600x593x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 10102
+        },
+        "title": "Jojo",
+        "title_with_featured": "Jojo",
+        "updated_by_human_at": 1629776425,
+        "url": "https://genius.com/Boz-scaggs-jojo-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/222679",
+            "header_image_url": "https://images.genius.com/3ff9de71010a335fad86760f4bb7624e.1000x1000x1.jpg",
+            "id": 222679,
+            "image_url": "https://images.genius.com/3ff9de71010a335fad86760f4bb7624e.1000x1000x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Boz Scaggs",
+            "slug": "Boz-scaggs",
+            "url": "https://genius.com/artists/Boz-scaggs"
+        },
+        "artist": "Boz Scaggs",
+        "lyrics": "Jojo Lyrics[Verse 1]\nLook out behind you\nJojo's got his gun\nHe wouldn't mean to do but\nYa know he likes his fun\n\n[Chorus]\nJojo dig those spinning lights\nWay out games and dizzy heights below him\nJojo dig those Broadway nights\nFlashy lines, you know him\nYou know him\n[Verse 2]\nHe's got you covered\nYou'll know it right our front\nHey fifty dollars\nHe'll get you all you want\n\n[Chorus]\nJojo dig those spinning lights\nWay out games and dizzy heights below him\nJojo dig those Broadway nights\nFlashy lines, you know him\n\n[Bridge]\nEver so rarely that man in a millon's born\nGentle and soft, but who'd just as soon off you\nFor looking the wrong way as not\nJojo, go Jo\n\n[Verse 3]\nHis baby stays high\nGot to keep her sweet\nHe keep her just right\nKeeps her on the street\n\n[Chorus]\nJo Jo dig those spinning lights\n(Way out games and dizzy heights)\nOh below him\nJo Jo dig those Broadway nights\nOh you know him\nYou might also like[Break]\n(Jo you are so low\nOh Oh Jo how low can you go)\n\n[Chorus]\nJo Jo dig those spinning lights\nWay out games and dizzy heights below him\n(Jo Jo dig those Broadway nights)\nBroadway nights\nYou know him\n\n[Verse 4]\nSay what do you think\nOf gentlemen wearing mink\nGentle and soft\nBut who'd just as soon off you\nFor looking the wrong way as not\n(Jo Jo) Jo Jo\n\n[Verse 1]\nSo look out behind you\nJojo got a gun\nThough he wouldn't mean to\nHe likes his fun\n\n[Chorus]\nJo Jo dig those spinning lights\nWay out games and dizzy heights below him\nMan its way below him\nJo Jo dig those Broadway nights\nFlashing lights below him\nYeah yeah\nJo Jo\nHow low can you go\nJo Jo Oh Oh1Embed"
+    }
+}

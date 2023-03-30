@@ -1,0 +1,58 @@
+{
+    "id": "ML1504",
+    "mood": "sad",
+    "artist": "Talk Talk",
+    "title": "I Don't Believe in You",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1143311",
+        "artist_names": "Talk Talk",
+        "full_title": "I Don't Believe in You by\u00a0Talk\u00a0Talk",
+        "header_image_thumbnail_url": "https://images.genius.com/39ec2625a4842d0929999f6ad93780ee.300x296x1.jpg",
+        "header_image_url": "https://images.genius.com/39ec2625a4842d0929999f6ad93780ee.599x592x1.jpg",
+        "id": 1143311,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3264970,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1640047476,
+        "path": "/Talk-talk-i-dont-believe-in-you-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Talk-talk-i-dont-believe-in-you-sample",
+        "release_date_components": {
+            "year": 1986,
+            "month": 3,
+            "day": null
+        },
+        "release_date_for_display": "March 1986",
+        "release_date_with_abbreviated_month_for_display": "Mar. 1986",
+        "song_art_image_thumbnail_url": "https://images.genius.com/39ec2625a4842d0929999f6ad93780ee.300x296x1.jpg",
+        "song_art_image_url": "https://images.genius.com/39ec2625a4842d0929999f6ad93780ee.599x592x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 8039
+        },
+        "title": "I Don\u2019t Believe in You",
+        "title_with_featured": "I Don't Believe in You",
+        "updated_by_human_at": 1660303111,
+        "url": "https://genius.com/Talk-talk-i-dont-believe-in-you-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/223797",
+            "header_image_url": "https://images.genius.com/36e8c893a4501a2153717c8acf8991a8.500x330x1.jpg",
+            "id": 223797,
+            "image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/fyOrLvBjQCG9RizZwlNF_Talk-Talk-resize-2.jpg",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Talk Talk",
+            "slug": "Talk-talk",
+            "url": "https://genius.com/artists/Talk-talk"
+        },
+        "artist": "Talk Talk",
+        "lyrics": "I Don\u2019t Believe in You Lyrics[Verse 1]\nNow the fun is over\nWhere do words begin\nI'm trying to find the path ahead\nAny way you say it\nThe charade goes on\nBut your eyes won't see it\nIt's the same old song\n\n[Refrain]\nI don't believe you\nI don't believe you\n[Verse 2]\nPromises so golden\nYears have proved them wrong\nI'm trying to leave some self-respect\nAny way you say it\nOur decline goes on\nBut your pride won't heed it\nIt's the same old song\n\n[Refrain]\nI don't believe you\nI don't believe you, I don't!\nI don't believe in you\n\n[Bridge]\nAnd the way you play it\nIs the way you want it\nAny way you sing it\nIt's the same old song\n\n[Refrain]\nI don't believe you\nI don't believe you\nI don't believe you\nI don't believe youYou might also likeEmbed"
+    }
+}

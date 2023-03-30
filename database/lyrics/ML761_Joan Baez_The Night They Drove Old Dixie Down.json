@@ -1,0 +1,58 @@
+{
+    "id": "ML761",
+    "mood": "sad",
+    "artist": "Joan Baez",
+    "title": "The Night They Drove Old Dixie Down",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/844542",
+        "artist_names": "Joan Baez",
+        "full_title": "The Night They Drove Old Dixie Down by\u00a0Joan\u00a0Baez",
+        "header_image_thumbnail_url": "https://images.genius.com/bfa1809d32a792d9a3e6cd05cc5e8795.300x293x1.jpg",
+        "header_image_url": "https://images.genius.com/bfa1809d32a792d9a3e6cd05cc5e8795.1000x977x1.jpg",
+        "id": 844542,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3049243,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1601297243,
+        "path": "/Joan-baez-the-night-they-drove-old-dixie-down-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Joan-baez-the-night-they-drove-old-dixie-down-sample",
+        "release_date_components": {
+            "year": 1971,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1971",
+        "release_date_with_abbreviated_month_for_display": "1971",
+        "song_art_image_thumbnail_url": "https://images.genius.com/bfa1809d32a792d9a3e6cd05cc5e8795.300x293x1.jpg",
+        "song_art_image_url": "https://images.genius.com/bfa1809d32a792d9a3e6cd05cc5e8795.1000x977x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 8848
+        },
+        "title": "The Night They Drove Old Dixie Down",
+        "title_with_featured": "The Night They Drove Old Dixie Down",
+        "updated_by_human_at": 1637527863,
+        "url": "https://genius.com/Joan-baez-the-night-they-drove-old-dixie-down-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/37184",
+            "header_image_url": "https://images.genius.com/773b1846b92202079447cccb9b1d0e70.729x729x1.jpg",
+            "id": 37184,
+            "image_url": "https://images.genius.com/773b1846b92202079447cccb9b1d0e70.729x729x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Joan Baez",
+            "slug": "Joan-baez",
+            "url": "https://genius.com/artists/Joan-baez"
+        },
+        "artist": "Joan Baez",
+        "lyrics": "The Night They Drove Old Dixie Down Lyrics[Verse 1]\nVirgil Caine is my name and I drove on the Danville train\nTill so much cavalry came and tore up the tracks again\nIn the winter of 'sixty-five, we were hungry, just barely alive\nI took the train to Richmond that fell\nIt was a time I remember, oh, so well\n\n[Chorus]\nThe night they drove old Dixie down\nAnd all the bells were ringin'\nThe night they drove old Dixie down\nAnd all the people were singin'\nThey went:\nLa, la, la, la, la, la, la\nLa, la, la, la, la, la\nLa, la, la\n[Verse 2]\nBack with my wife in Tennessee\nAnd one day she said to me\nVirgil, quick come see\nThere goes the Robert E. Lee\nNow I don't mind chopping wood\nAnd I don't care if the money's no good\nJust take what you need and leave the rest\nBut they should never have taken the very best\n\n[Chorus]\nThe night they drove old Dixie down\nAnd all the bells were ringin'\nThe night they drove old Dixie down\nAnd all the people were singin'\nThey went:\nLa, la, la, la, la, la, la\nLa, la, la, la, la, la\nLa, la, la\n\n[Verse 3]\nLike my father before me, I'm a working man\nAnd like my brother before me, I took a rebel stand\nOh, he was just eighteen, proud and brave\nBut a yankee laid him in his grave\nI swear by the blood below my feet\nYou can't raise a Caine back up when he's in defeat\nYou might also like[Chorus]\nThe night they drove old Dixie down\nAnd all the bells were ringin'\nThe night they drove old Dixie down\nAnd all the people were singin'\nThey went:\nLa, la, la, la, la, la, la\nLa, la, la, la, la, la\nLa, la, la2Embed"
+    }
+}

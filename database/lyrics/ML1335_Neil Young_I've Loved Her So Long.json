@@ -1,0 +1,57 @@
+{
+    "id": "ML1335",
+    "mood": "sad",
+    "artist": "Neil Young",
+    "title": "I've Loved Her So Long",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/402019",
+        "artist_names": "Neil Young",
+        "full_title": "I've Loved Her So Long by\u00a0Neil\u00a0Young",
+        "header_image_thumbnail_url": "https://images.genius.com/3dd3991715b756f2e8b36605c82ecb08.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3dd3991715b756f2e8b36605c82ecb08.1000x1000x1.jpg",
+        "id": 402019,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 359620,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1639489104,
+        "path": "/Neil-young-ive-loved-her-so-long-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Neil-young-ive-loved-her-so-long-sample",
+        "release_date_components": {
+            "year": 1968,
+            "month": 11,
+            "day": 12
+        },
+        "release_date_for_display": "November 12, 1968",
+        "release_date_with_abbreviated_month_for_display": "Nov. 12, 1968",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3dd3991715b756f2e8b36605c82ecb08.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3dd3991715b756f2e8b36605c82ecb08.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "I\u2019ve Loved Her So Long",
+        "title_with_featured": "I've Loved Her So Long",
+        "updated_by_human_at": 1673911971,
+        "url": "https://genius.com/Neil-young-ive-loved-her-so-long-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/598",
+            "header_image_url": "https://images.genius.com/a5b598b188817d5e96997957d02d84db.1000x562x1.jpg",
+            "id": 598,
+            "image_url": "https://images.genius.com/dfcc9780593b91ddffeac4f927dbad2f.600x600x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Neil Young",
+            "slug": "Neil-young",
+            "url": "https://genius.com/artists/Neil-young"
+        },
+        "artist": "Neil Young",
+        "lyrics": "I\u2019ve Loved Her So Long Lyrics[Verse]\nShe's a victim of her senses, do you know her?\nCan you see her in the distance as she tumbles by?\nVeteran of a race that should be over\nCan you hear her sigh? With wings to fly\nShe rolls along doing it wrong\n\n[Chorus]\nOh, I've loved her so long\nOh, I've loved her so long\n[Bridge]\nThere's a place that I know we could go\nGet away for a while\nI can bring her the peace that she needs\nGive her reason to smile\n\n[Outro]\nOh, I've loved her so long\nOh, I've loved her so long\nOh, I've loved her so long\nOh, I've loved her so long\nOh, I've loved her so long\nOh, I've loved her so long\nOh, I've loved her so long\nOh, I've loved her so long\nOh, I've loved her so long\nOh, I've loved her so long\nOh, I've loved her so long\nOh, I've loved her so longYou might also like2Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML1235",
+    "mood": "relaxed",
+    "artist": "Firefall",
+    "title": "Strange Way",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1231526",
+        "artist_names": "Firefall",
+        "full_title": "Strange Way by\u00a0Firefall",
+        "header_image_thumbnail_url": "https://images.genius.com/598846434c4b3491de71a82e91f1a116.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/598846434c4b3491de71a82e91f1a116.500x500x1.jpg",
+        "id": 1231526,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 8664184,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1567135510,
+        "path": "/Firefall-strange-way-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Firefall-strange-way-sample",
+        "release_date_components": {
+            "year": 1978,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1978",
+        "release_date_with_abbreviated_month_for_display": "1978",
+        "song_art_image_thumbnail_url": "https://images.genius.com/2abf11f166074502c8314486a68e9343.295x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2abf11f166074502c8314486a68e9343.295x300x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Strange Way",
+        "title_with_featured": "Strange Way",
+        "updated_by_human_at": 1667237720,
+        "url": "https://genius.com/Firefall-strange-way-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/359765",
+            "header_image_url": "https://images.genius.com/676a26f2cbda8d86c30ae864a64b48ca.592x592x1.jpg",
+            "id": 359765,
+            "image_url": "https://images.genius.com/676a26f2cbda8d86c30ae864a64b48ca.592x592x1.jpg",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Firefall",
+            "slug": "Firefall",
+            "url": "https://genius.com/artists/Firefall"
+        },
+        "artist": "Firefall",
+        "lyrics": "Strange Way Lyrics[Verse 1]\nDidn't I hear you cry this morning, didn't I feel you weep?\nTeardrops flowin' down on me, like rivers in my sleep\nAnd in my dream of laughter, you came creepin' with your fears\nTelling me your sorrows, in the tracings of your tears\n\n[Chorus]\nThat's a strange way to tell me you love me\nWhen your sorrow is all I can see\nIf you just want to cry to somebody, don't cry to me, no\nDon't cry to me, no\n[Verse 2]\nDidn't I hear your voice this morning, didn't you call my name?\nI heard you whisper softly, but the words were never plain\nAnd in your dream of darkness, I came shinin' like the sun\nWaiting for the laughter, but the laughter never comes\n\n[Chorus]\nThat's a strange way to tell me you love me\nWhen your sorrow is all I can see\nIf you just want to cry to somebody, dont cry to me, no\nDont cry to me, no\n\n[Bridge]\nDidn't you feel alone this morning, didn't you need a friend?\nAnd in your darkest hour, you came runnin' back again\n\n[Outro]\nThat's a strange way to tell me you love me\nThat's a strange way to tell me you love me\nThat's a strange way to tell me you love meYou might also likeEmbed"
+    }
+}

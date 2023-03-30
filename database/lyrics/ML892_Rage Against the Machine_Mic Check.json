@@ -1,0 +1,58 @@
+{
+    "id": "ML892",
+    "mood": "angry",
+    "artist": "Rage Against the Machine",
+    "title": "Mic Check",
+    "song": {
+        "_type": "song",
+        "annotation_count": 16,
+        "api_path": "/songs/39682",
+        "artist_names": "Rage Against the Machine",
+        "full_title": "Mic Check by\u00a0Rage\u00a0Against the Machine",
+        "header_image_thumbnail_url": "https://images.genius.com/52884aa548e8b89b94182218c3f46dea.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/52884aa548e8b89b94182218c3f46dea.600x600x1.jpg",
+        "id": 39682,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 50,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1677562514,
+        "path": "/Rage-against-the-machine-mic-check-lyrics",
+        "pyongs_count": 5,
+        "relationships_index_url": "https://genius.com/Rage-against-the-machine-mic-check-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 11,
+            "day": 2
+        },
+        "release_date_for_display": "November 2, 1999",
+        "release_date_with_abbreviated_month_for_display": "Nov. 2, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/52884aa548e8b89b94182218c3f46dea.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/52884aa548e8b89b94182218c3f46dea.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 45832
+        },
+        "title": "Mic Check",
+        "title_with_featured": "Mic Check",
+        "updated_by_human_at": 1677562514,
+        "url": "https://genius.com/Rage-against-the-machine-mic-check-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1499",
+            "header_image_url": "https://images.genius.com/894d5c14133517ce6354f719cc88af54.1000x302x1.png",
+            "id": 1499,
+            "image_url": "https://images.genius.com/2158957823960c84c7890b8fa5e6d479.1000x1000x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Rage Against the Machine",
+            "slug": "Rage-against-the-machine",
+            "url": "https://genius.com/artists/Rage-against-the-machine"
+        },
+        "artist": "Rage Against the Machine",
+        "lyrics": "Mic Check Lyrics[Intro]\nOh, wait a minute now\nHuh-huh\nCome on\nOh, wait a minute now\nCheck\n\n[Verse 1]\nTo the Young R to the E, the B to the E, the L\nNever give up, just live up\nFed upon America, I'll be spittin' it up\nRippin' it up for an even amount in each cup\nTo my brothers' burning bare feet on black top\nWhose curled 'neath the shadows from the gaze of the cops\nWhose huntin' for 9 to 5's through factory locks\nIs now hunted on this modern day auction block\n[Chorus]\nMic check, ha ha ha\nI be the anti-myth rhythm rock shocker\nMic check, ha ha ha ha\nI be the anti-myth rhythm rock shocker, what?\nMic check, ha ha ha\nI be the anti-myth rhythm rock shocker\nMic check, ha ha ha ha\nI be the anti-myth rhythm rock shocker, what?\n\n[Interlude]\nCheck, check, check, check, the check\nOh, packin'\n\n[Verse 2]\nFlexin' and mashin' with complex text\nFast and in a fashion that snap back necks\nQuicker than a fed cash the company checks\nI be the \"Fire\" only Marley could catch\nYes, I be the flame in the cellar, beware\nNameless cold millions gaspin' for air\nThe naked and wageless, scream within cages\nWhat, they make you pull your shit\nJust to get your share, what?\n\n[Chorus]\nMic check, ha ha ha\nI be the anti-myth rhythm rock shocker\nMic check, ha ha ha ha\nI be the anti-myth rhythm rock shocker, what?\nMic check, ha ha ha\nI be the anti-myth rhythm rock shocker\nMic check, ha ha ha ha\nI be the anti-myth rhythm rock shocker, what?\nYou might also like[Interlude]\nWe'll walk 'em down with the warrior's sound\n\n[Bridge]\nWith this mic device, I spit nonfiction\nWho got the power? This be my question\nThe mass or the few in this torn nation?\nThe priest, the book, or the congregation?\nThe politricks who rob and hold down your zone?\nOr those who give the thieves the key to their homes?\nThe pig who's free to murder one Shucklak\nOr survivors who make a move and murder one back?\nWith this mic device, I spit nonfiction\nWho got the power? This be my question\nThe mass of the few in this torn nation?\nThe priest, the book, or the congregation?\nThe politricks who rob and hold down your zone?\nOr those who give the thieves the key to their homes?\nThe pig who's free to murder one Shucklak\nOr survivors who make a move and murder one back?\n\n[Chorus]\nMic check, ha ha ha\nI be the anti-myth rhythm rock shocker\nMic check, ha ha ha ha\nI be the anti-myth rhythm rock shocker, what?\nMic check, ha ha ha\nI be the anti-myth rhythm rock shocker\nMic check, ha ha ha ha\nI be the anti-myth rhythm rock shocker, what?5Embed"
+    }
+}

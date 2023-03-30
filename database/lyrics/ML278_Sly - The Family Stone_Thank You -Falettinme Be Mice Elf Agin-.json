@@ -1,0 +1,58 @@
+{
+    "id": "ML278",
+    "mood": "happy",
+    "artist": "Sly & The Family Stone",
+    "title": "Thank You (Falettinme Be Mice Elf Agin)",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/389988",
+        "artist_names": "Sly and the Family Stone",
+        "full_title": "Thank You (Falettinme Be Mice Elf Agin) by\u00a0Sly\u00a0and the Family Stone",
+        "header_image_thumbnail_url": "https://images.genius.com/0812352424f8d0946f01a8727b94f26f.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/0812352424f8d0946f01a8727b94f26f.1000x1000x1.jpg",
+        "id": 389988,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 585437,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1642368453,
+        "path": "/Sly-and-the-family-stone-thank-you-falettinme-be-mice-elf-agin-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Sly-and-the-family-stone-thank-you-falettinme-be-mice-elf-agin-sample",
+        "release_date_components": {
+            "year": 1969,
+            "month": 12,
+            "day": 1
+        },
+        "release_date_for_display": "December 1, 1969",
+        "release_date_with_abbreviated_month_for_display": "Dec. 1, 1969",
+        "song_art_image_thumbnail_url": "https://images.genius.com/77a080405468289d997fd2b8ac3a5fe1.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/77a080405468289d997fd2b8ac3a5fe1.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 27503
+        },
+        "title": "Thank You (Falettinme Be Mice Elf Agin)",
+        "title_with_featured": "Thank You (Falettinme Be Mice Elf Agin)",
+        "updated_by_human_at": 1674068764,
+        "url": "https://genius.com/Sly-and-the-family-stone-thank-you-falettinme-be-mice-elf-agin-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/19504",
+            "header_image_url": "https://images.genius.com/e24abeef0fe88a5d8ef19e35114b4797.1000x1000x1.jpg",
+            "id": 19504,
+            "image_url": "https://images.genius.com/e24abeef0fe88a5d8ef19e35114b4797.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Sly and the Family Stone",
+            "slug": "Sly-and-the-family-stone",
+            "url": "https://genius.com/artists/Sly-and-the-family-stone"
+        },
+        "artist": "Sly and the Family Stone",
+        "lyrics": "Thank You (Falettinme Be Mice Elf Agin) Lyrics[Verse 1]\nLookin' at the devil\nGrinnin' at his gun\nFingers start shakin'\nI begin to run\nBullets start chasin'\nI begin to stop\nWe begin to wrastle\nI was on the top\n\n[Chorus]\nI want to thank you falettinme\nBe mice elf agin\nThank you falettinme\nBe mice elf agin\n[Verse 2]\nStiff all in the collar\nFluffy in the face\nChit chat chatter tryin'\nStuffy in the place\nThank you for the party\nBut I could never stay\nMany thangs on my mind\nWords in the way\n\n[Chorus]\nI want to thank you falettinme\nBe mice elf agin\nThank you falettinme\nBe mice elf agin\n\n[Verse 3]\nDance to the music\nAll nite long\nEveryday people\nSing a simple song\nMama's so happy\nMama start to cry\nPapa still singin'\nYou can make it if you try\nYou might also like[Chorus]\nI want to thank you falettinme\nBe mice elf agin\n(Different strokes for different folks, yeah)\nThank you falettinme\nBe mice elf agin\n\n[Verse 4]\nFlamin' eyes of people fear\nBurnin' into you\nMany men are missin' much\nHatin' what they do\nYouth and truth are makin' love\nDig it for a starter, now\nDyin' young is hard to take\nSellin' out is harder\n\n[Chorus]\nThank you falettinme\nBe mice elf agin\nI want to thank you falettinme\nBe mice elf agin\nThank you falettinme\nBe mice elf agin\nThank you falettinme\nBe mice elf agin\nI want to thank you falettinme\nBe mice elf agin4Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML929",
+    "mood": "angry",
+    "artist": "Acid Bath",
+    "title": "Toubabo Koomi",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/754804",
+        "artist_names": "Acid Bath",
+        "full_title": "Toubabo Koomi by\u00a0Acid\u00a0Bath",
+        "header_image_thumbnail_url": "https://images.genius.com/9129aaa59b0849eaa920291e957f415b.300x300x1.png",
+        "header_image_url": "https://images.genius.com/9129aaa59b0849eaa920291e957f415b.999x999x1.png",
+        "id": 754804,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5287870,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1658897682,
+        "path": "/Acid-bath-toubabo-koomi-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Acid-bath-toubabo-koomi-sample",
+        "release_date_components": {
+            "year": 1994,
+            "month": 8,
+            "day": 8
+        },
+        "release_date_for_display": "August 8, 1994",
+        "release_date_with_abbreviated_month_for_display": "Aug. 8, 1994",
+        "song_art_image_thumbnail_url": "https://images.genius.com/9129aaa59b0849eaa920291e957f415b.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/9129aaa59b0849eaa920291e957f415b.999x999x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 18009
+        },
+        "title": "Toubabo Koomi",
+        "title_with_featured": "Toubabo Koomi",
+        "updated_by_human_at": 1658897682,
+        "url": "https://genius.com/Acid-bath-toubabo-koomi-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/340031",
+            "header_image_url": "https://images.genius.com/d983c1ca9512c0691ed775daffacafa5.1000x528x1.png",
+            "id": 340031,
+            "image_url": "https://images.genius.com/3cca9fe8ee39bdd5014ac3ded5f0fb42.687x687x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Acid Bath",
+            "slug": "Acid-bath",
+            "url": "https://genius.com/artists/Acid-bath"
+        },
+        "artist": "Acid Bath",
+        "lyrics": "Toubabo Koomi LyricsWe wanna see some blood\nWe need a new whore\nWe don't give a fuck\nWe just want more\nBlood, we want blood\n\nI'm gonna fuck the hole in Kennedy's head\nRevolt, deface, resist\nPush the button\nLegalize freedom\nLet's shoot the president\nRape the queen\nAnd feel the flowers breathe again\nInside this dead machine\n\nGotta teach you, gotta teach you\nGotta teach you, gotta teach you\n\nSwimming into nowhere\nThrill kill avenue\nCutting her slowly\nLiberty, she crawls to me\n\nI slept the last mile on our way to endsville\nShove it inside her, spectro-trippin on\nI slept the last mile on our way to endsville\n\nSpread your legs, don't look at me\nCut me, rape me, make me free\nBreeders screaming, dreaming bloodless\nFor the loveless\n\nWhite sound, oceans of dreams\nI won't be another number on the screen\nShhh, I wanna hear you scream\nI won't be another number\nYou might also likeWhite sound, jet black scream\nVomiting this cold mass of hate\nI'm gonna push my love\nThrough her skull\nThrough her skull\nThrough her skull\nThrough her skull\nThrough her-\n\nI have heard abortion stories from the leather nun\nHolding hands with dead girls, hiding from the sun\nI did a line\nI did a line\nI did a line\nI did a line\n\nThe lines that define begin to gray and fade now\nWe shoot out the lights and swallow razor blades\nI feel nothing for the meat that came before\nLiberty, she crawled to me playing the whore1Embed"
+    }
+}

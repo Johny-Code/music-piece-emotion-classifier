@@ -1,0 +1,57 @@
+{
+    "id": "ML1527",
+    "mood": "sad",
+    "artist": "Lloyd Cole And The Commotions",
+    "title": "Are You Ready To Be Heartbroken?",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/117952",
+        "artist_names": "Lloyd Cole And The Commotions",
+        "full_title": "Are You Ready To Be Heartbroken? by\u00a0Lloyd\u00a0Cole And The Commotions",
+        "header_image_thumbnail_url": "https://images.genius.com/3ce9ebe98ec9b0d5dc8823dad5e71a1d.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3ce9ebe98ec9b0d5dc8823dad5e71a1d.595x595x1.jpg",
+        "id": 117952,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 27699,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1590517603,
+        "path": "/Lloyd-cole-and-the-commotions-are-you-ready-to-be-heartbroken-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Lloyd-cole-and-the-commotions-are-you-ready-to-be-heartbroken-sample",
+        "release_date_components": {
+            "year": 1984,
+            "month": 10,
+            "day": 12
+        },
+        "release_date_for_display": "October 12, 1984",
+        "release_date_with_abbreviated_month_for_display": "Oct. 12, 1984",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3ce9ebe98ec9b0d5dc8823dad5e71a1d.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3ce9ebe98ec9b0d5dc8823dad5e71a1d.595x595x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Are You Ready To Be Heartbroken?",
+        "title_with_featured": "Are You Ready To Be Heartbroken?",
+        "updated_by_human_at": 1590517603,
+        "url": "https://genius.com/Lloyd-cole-and-the-commotions-are-you-ready-to-be-heartbroken-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/30479",
+            "header_image_url": "https://images.genius.com/104b0665bce8b1e2ed6a79cf812d97aa.540x540x1.jpg",
+            "id": 30479,
+            "image_url": "https://images.genius.com/104b0665bce8b1e2ed6a79cf812d97aa.540x540x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Lloyd Cole And The Commotions",
+            "slug": "Lloyd-cole-and-the-commotions",
+            "url": "https://genius.com/artists/Lloyd-cole-and-the-commotions"
+        },
+        "artist": "Lloyd Cole And The Commotions",
+        "lyrics": "Are You Ready To Be Heartbroken? LyricsLooking like a born again\nLiving like a heretic\nListening to Arthur Lee records\nMaking all your friends feel so guilty\nAbout their cynicism\nAnd the rest of their generation\nNot even the government are going to stop you now\n\nBut are you ready to be heartbroken?\nAre you ready to be heartbroken?\nPumped up full of vitamins\nOn account of all the seriousness\nYou say you\u2019re so happy now\nYou can hardly stand\nLean over on the bookcase\nIf you really want to get straight\nRead Norman Mailer\nOr get a new tailor\n\nAre you ready to be heartbroken?\nAre you ready to be heartbroken?\nAre you ready to bleed?\n\nWhat would it take\nWhat would it take\nTo wipe that smile off of your face?\nAre you ready to be\nAre you ready to bleed?\n\nAre you ready to be heartbroken?\nAre you ready to bleed?\nWell you better get ready now baby\nReady to bleed\nReady to bleed?You might also likeEmbed"
+    }
+}

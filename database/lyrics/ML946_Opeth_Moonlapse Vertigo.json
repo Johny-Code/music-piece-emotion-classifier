@@ -1,0 +1,58 @@
+{
+    "id": "ML946",
+    "mood": "sad",
+    "artist": "Opeth",
+    "title": "Moonlapse Vertigo",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/670330",
+        "artist_names": "Opeth",
+        "full_title": "Moonlapse Vertigo by\u00a0Opeth",
+        "header_image_thumbnail_url": "https://images.genius.com/da17eb8970f15c03c512d5b517c07581.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/da17eb8970f15c03c512d5b517c07581.1000x1000x1.jpg",
+        "id": 670330,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1112222,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1588800980,
+        "path": "/Opeth-moonlapse-vertigo-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Opeth-moonlapse-vertigo-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 10,
+            "day": 18
+        },
+        "release_date_for_display": "October 18, 1999",
+        "release_date_with_abbreviated_month_for_display": "Oct. 18, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/da17eb8970f15c03c512d5b517c07581.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/da17eb8970f15c03c512d5b517c07581.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 11098
+        },
+        "title": "Moonlapse Vertigo",
+        "title_with_featured": "Moonlapse Vertigo",
+        "updated_by_human_at": 1670328097,
+        "url": "https://genius.com/Opeth-moonlapse-vertigo-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/59420",
+            "header_image_url": "https://images.genius.com/8b4f52d1ecc384d81d2da6648f18ae28.450x450x1.jpg",
+            "id": 59420,
+            "image_url": "https://images.genius.com/8b4f52d1ecc384d81d2da6648f18ae28.450x450x1.jpg",
+            "index_character": "o",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Opeth",
+            "slug": "Opeth",
+            "url": "https://genius.com/artists/Opeth"
+        },
+        "artist": "Opeth",
+        "lyrics": "Moonlapse Vertigo Lyrics[Verse 1]\nKept warm by the light of the lantern\nLost sight of everything tonight\nMy presence blackens their pattern\nA pock in the healthy and calm\n\n[Verse 2]\nTheir scorn behind your back\nMy promise would put them down\nNo trace of reverence left\nImmemorial fire in their eyes\n[Verse 3]\nI would perish at the given signal\nAt the slightest touch from my soul\nTainted prophet in flesh\nFor all the plagued and lost\n\n[Verse 4]\nDripping sin, decision in stalemate\nDare to feel death at hand\nSurprised me with its voice\nThrough the forest came the morn\n\n[Verse 5]\nAcross the leafy pathway, their deeds smeared in blood\nFor all to behold the Council of the Cross\nMust have sensed my coming, the pest through the air\nWith despise for squalor lashing out at the poor\n\n[Verse 6]\nI turned away my eyes\nIn pallor escape from the end\nFading time to leave from here\nAnd less to fulfill my task\nShe would be safe and firm\nNothing of this is in vain\nTaken away from stifling grace\nAnd saved from the pastYou might also like2Embed"
+    }
+}

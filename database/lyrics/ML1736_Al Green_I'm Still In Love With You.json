@@ -1,0 +1,58 @@
+{
+    "id": "ML1736",
+    "mood": "relaxed",
+    "artist": "Al Green",
+    "title": "I'm Still In Love With You",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/786952",
+        "artist_names": "Al Green",
+        "full_title": "I\u2019m Still in Love with You by\u00a0Al\u00a0Green",
+        "header_image_thumbnail_url": "https://images.genius.com/4c0aa248ccfb0619633880eb3d8cd482.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/4c0aa248ccfb0619633880eb3d8cd482.1000x1000x1.jpg",
+        "id": 786952,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3492882,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1679049987,
+        "path": "/Al-green-im-still-in-love-with-you-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Al-green-im-still-in-love-with-you-sample",
+        "release_date_components": {
+            "year": 1972,
+            "month": 8,
+            "day": null
+        },
+        "release_date_for_display": "August 1972",
+        "release_date_with_abbreviated_month_for_display": "Aug. 1972",
+        "song_art_image_thumbnail_url": "https://images.genius.com/4c0aa248ccfb0619633880eb3d8cd482.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/4c0aa248ccfb0619633880eb3d8cd482.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 23833
+        },
+        "title": "I\u2019m Still in Love with You",
+        "title_with_featured": "I\u2019m Still in Love with You",
+        "updated_by_human_at": 1679049987,
+        "url": "https://genius.com/Al-green-im-still-in-love-with-you-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1610",
+            "header_image_url": "https://images.genius.com/2f9bcf3ab7bf6e2e8966ffcbc280ea0d.1000x750x1.jpg",
+            "id": 1610,
+            "image_url": "https://s3.amazonaws.com/rapgenius/algreen_wide-1859c7e02eb9c661302371127ea16d32559b63ea-s6-c10.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Al Green",
+            "slug": "Al-green",
+            "url": "https://genius.com/artists/Al-green"
+        },
+        "artist": "Al Green",
+        "lyrics": "I\u2019m Still in Love with You Lyrics[Verse 1]\nSpending my day, thinking 'bout you, girl\nBeing here with you, being near with you\nI can't explain myself\nWhy I feel like I do (Like I do)\nThough it hurt me so to let you know\nThat I look in your eyes\nTo let me know how you feel\nLet me know that love is really real\nWell, it seems to me\nThat I'm wrapped up in your love\n[Chorus]\nDon't you know that I'm still in love\n(Still in love, in love with you)\nSho'nuff in love with you, yeah, hey\n\nHeaven knows that I'm still in love\n(Still in love, in love with you)\nSho'nuff in love with you, hey\n\n[Verse 2]\nHey, when I look in your eyes\nAnd all, all the years I see (I see)\nMe lovin' you and you lovin' me\nWell, it seems to me\nThat I'm wrapped up in your love\n\n[Chorus]\nDon't you know that I'm still in love\n(Still in love, in love with you)\nSho'nuff in love with you\nHey, ah-ha, ah-ah-ah, ah-ha\nAh-ha\nDon't you know that I'm still in love\n(Still in love, in love with you)\nSho'nuff in love with you\nYou might also like[Outro]\nHey, I'll try it if you want me to\n(Still in love, in love with you)\nAh-ha, ah-ha, ah, ah-ah-ah, ah-ha\nAh-ha3Embed"
+    }
+}

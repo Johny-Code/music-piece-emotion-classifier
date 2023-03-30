@@ -1,0 +1,58 @@
+{
+    "id": "ML238",
+    "mood": "sad",
+    "artist": "Cream",
+    "title": "We're Going Wrong",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1744818",
+        "artist_names": "Cream",
+        "full_title": "We're Going Wrong by\u00a0Cream",
+        "header_image_thumbnail_url": "https://images.genius.com/3b501bd16812821e61a395703c7e5622.300x300x1.png",
+        "header_image_url": "https://images.genius.com/3b501bd16812821e61a395703c7e5622.1000x1000x1.png",
+        "id": 1744818,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 4624897,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1677328058,
+        "path": "/Cream-were-going-wrong-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Cream-were-going-wrong-sample",
+        "release_date_components": {
+            "year": 1967,
+            "month": 11,
+            "day": 2
+        },
+        "release_date_for_display": "November 2, 1967",
+        "release_date_with_abbreviated_month_for_display": "Nov. 2, 1967",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3b501bd16812821e61a395703c7e5622.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/3b501bd16812821e61a395703c7e5622.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 5368
+        },
+        "title": "We\u2019re Going Wrong",
+        "title_with_featured": "We're Going Wrong",
+        "updated_by_human_at": 1677328058,
+        "url": "https://genius.com/Cream-were-going-wrong-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/4800",
+            "header_image_url": "https://images.genius.com/40f2d0e8e6834e6dbd8e490128e93a89.990x1000x1.jpg",
+            "id": 4800,
+            "image_url": "https://images.genius.com/167ae589f4b351d4221d15c23b89df02.852x852x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Cream",
+            "slug": "Cream",
+            "url": "https://genius.com/artists/Cream"
+        },
+        "artist": "Cream",
+        "lyrics": "We\u2019re Going Wrong Lyrics[Verse 1]\nPlease open your eyes\nTry to realise\n\n[Chorus]\nI found out today\nWe're going wrong\nWe're going wrong\n\n[Verse 2]\nPlease open your mind\nSee what you can find\n[Chorus]\nI found out today\nWe're going wrong\nWe're going wrong\nWe're going wrong\nWe're going wrong\nWe're going wrongYou might also likeEmbed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML759",
+    "mood": "relaxed",
+    "artist": "Keb' Mo'",
+    "title": "Just Like You",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1195726",
+        "artist_names": "Keb' Mo'",
+        "full_title": "Just Like You by\u00a0Keb'\u00a0Mo'",
+        "header_image_thumbnail_url": "https://images.genius.com/5532a6b0694f8d76ee42cdf4027f9ea6.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5532a6b0694f8d76ee42cdf4027f9ea6.1000x1000x1.jpg",
+        "id": 1195726,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1378473,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1647379668,
+        "path": "/Keb-mo-just-like-you-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Keb-mo-just-like-you-sample",
+        "release_date_components": {
+            "year": 1996,
+            "month": 6,
+            "day": 18
+        },
+        "release_date_for_display": "June 18, 1996",
+        "release_date_with_abbreviated_month_for_display": "Jun. 18, 1996",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5532a6b0694f8d76ee42cdf4027f9ea6.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5532a6b0694f8d76ee42cdf4027f9ea6.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Just Like You",
+        "title_with_featured": "Just Like You",
+        "updated_by_human_at": 1671497025,
+        "url": "https://genius.com/Keb-mo-just-like-you-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/180723",
+            "header_image_url": "https://images.genius.com/58ad187f0822ee6a5ee90a1f0c4510f6.679x679x1.jpg",
+            "id": 180723,
+            "image_url": "https://images.genius.com/58ad187f0822ee6a5ee90a1f0c4510f6.679x679x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Keb\u2019 Mo\u2019",
+            "slug": "Keb-mo",
+            "url": "https://genius.com/artists/Keb-mo"
+        },
+        "artist": "Keb\u2019 Mo\u2019",
+        "lyrics": "Just Like You LyricsHello my old friend\nIt's been awhile\nAll our old clothes\nAre back in style\nWe went our separate ways\nOnly to return\nTo face a lesson\nWe failed to learn\n\nWe didn't understand the truth\nWe were blinded by the eyes of youth\nBut time kept on moving\nAnd a change has come\nYou think that I don't know\nWhere you're coming from\nWell I feel just like you\nAnd I cry just like you\nBut I heal just like you\nAnd under my skin\nI'm just like you\n\nYou gave your love and your innocence\nAnd they took away your confidence\nWell I'm not those women\nI'm not those men\nPut your arms around me\nI am your friend\n\n'Cause I feel just like you\nAnd I cry just like you\nBut I heal just like you\nAnd under my skin\nI'm just like you...\n\nYou and everybody else\nWhen I get hurt\nI cry for help\nAnd I've got secrets\nThat god only knows\nAnd god knows I feel...\nJust like you\nAnd I cry just like you\nBut I heal just like you\nAnd under my skin\nI'm just like you\nYou might also likeI feel just like you\nAnd i cry just like you\nI heal just like you\nAnd I break down just like you\nI feel just like you...\nAnd I cry just like you\nBut I'm weak just like you\nAnd under my skin...\nIm just like you...Embed"
+    }
+}

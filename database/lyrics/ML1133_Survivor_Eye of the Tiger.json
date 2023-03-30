@@ -1,0 +1,58 @@
+{
+    "id": "ML1133",
+    "mood": "angry",
+    "artist": "Survivor",
+    "title": "Eye of the Tiger",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/202978",
+        "artist_names": "Survivor",
+        "full_title": "Eye of the Tiger by\u00a0Survivor",
+        "header_image_thumbnail_url": "https://images.genius.com/8a4edda4c89467ff82ff17d7cdfda75a.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/8a4edda4c89467ff82ff17d7cdfda75a.1000x1000x1.jpg",
+        "id": 202978,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 125524,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1652295220,
+        "path": "/Survivor-eye-of-the-tiger-lyrics",
+        "pyongs_count": 72,
+        "relationships_index_url": "https://genius.com/Survivor-eye-of-the-tiger-sample",
+        "release_date_components": {
+            "year": 1982,
+            "month": 5,
+            "day": 29
+        },
+        "release_date_for_display": "May 29, 1982",
+        "release_date_with_abbreviated_month_for_display": "May. 29, 1982",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5cdc1030aafc282466d76f39827fff4d.300x296x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5cdc1030aafc282466d76f39827fff4d.1000x987x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 452139
+        },
+        "title": "Eye of the Tiger",
+        "title_with_featured": "Eye of the Tiger",
+        "updated_by_human_at": 1675829558,
+        "url": "https://genius.com/Survivor-eye-of-the-tiger-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/44268",
+            "header_image_url": "https://images.genius.com/897874f2dfa534bf3921e79c7737c4e8.1000x562x1.jpg",
+            "id": 44268,
+            "image_url": "https://images.genius.com/eb41ec7adae61dba39e4191b9891d1ec.341x341x1.png",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Survivor",
+            "slug": "Survivor",
+            "url": "https://genius.com/artists/Survivor"
+        },
+        "artist": "Survivor",
+        "lyrics": "TranslationsPortugu\u00easEye of the Tiger Lyrics[Verse 1]\nRising up, back on the street\nDid my time, took my chances\nWent the distance, now I'm back on my feet\nJust a man and his will to survive\nSo many times, it happens too fast\nYou trade your passion for glory\nDon't lose your grip on the dreams of the past\nYou must fight just to keep them alive\n\n[Chorus]\nIt's the eye of the tiger\nIt's the thrill of the fight\nRising up to the challenge of our rival\nAnd the last known survivor\nStalks his prey in the night\nAnd he's watching us all\nWith the eye of the tiger\n[Verse 2]\nFace to face, out in the heat\nHanging tough, staying hungry\nThey stack the odds 'til we take to the street\nFor the kill with the skill to survive\n\n[Chorus]\nIt's the eye of the tiger\nIt's the thrill of the fight\nRising up to the challenge of our rival\nAnd the last known survivor\nStalks his prey in the night\nAnd he's watching us all\nWith the eye of the tiger\n\n[Verse 3]\nRising up, straight to the top\nHad the guts, got the glory\nWent the distance, now I'm not gonna stop\nJust a man and his will to survive\n\n[Chorus]\nIt's the eye of the tiger\nIt's the thrill of the fight\nRising up to the challenge of our rival\nAnd the last known survivor\nStalks his prey in the night\nAnd he's watching us all\nWith the eye of the tiger\nYou might also like[Outro]\nThe eye of the tiger\nThe eye of the tiger\nThe eye of the tiger\nThe eye of the tiger72Embed"
+    }
+}

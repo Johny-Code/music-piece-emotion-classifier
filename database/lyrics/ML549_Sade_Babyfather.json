@@ -1,0 +1,58 @@
+{
+    "id": "ML549",
+    "mood": "relaxed",
+    "artist": "Sade",
+    "title": "Babyfather",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/737575",
+        "artist_names": "Sade",
+        "full_title": "Babyfather by\u00a0Sade",
+        "header_image_thumbnail_url": "https://images.genius.com/2c2b1b3e4bfb69e339c6049619818c5b.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2c2b1b3e4bfb69e339c6049619818c5b.1000x1000x1.jpg",
+        "id": 737575,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 130727,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1618340932,
+        "path": "/Sade-babyfather-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Sade-babyfather-sample",
+        "release_date_components": {
+            "year": 2010,
+            "month": 2,
+            "day": 5
+        },
+        "release_date_for_display": "February 5, 2010",
+        "release_date_with_abbreviated_month_for_display": "Feb. 5, 2010",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d01c00fa605cfa9f332c4e2d512f1c7f.300x301x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d01c00fa605cfa9f332c4e2d512f1c7f.998x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 25361
+        },
+        "title": "Babyfather",
+        "title_with_featured": "Babyfather",
+        "updated_by_human_at": 1636928750,
+        "url": "https://genius.com/Sade-babyfather-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/691",
+            "header_image_url": "https://images.genius.com/bfcaa5ba05417c9a5ed17f1cda3aaa5e.537x432x1.jpg",
+            "id": 691,
+            "image_url": "https://images.genius.com/2532eb39b9f3354b048df6db7943cbee.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Sade",
+            "slug": "Sade",
+            "url": "https://genius.com/artists/Sade"
+        },
+        "artist": "Sade",
+        "lyrics": "Babyfather Lyrics[Verse 1]\nWe were waiting for the bus\nNo one much around but us\nThen I see this young boy cut a look at me\nI'm stunned in a daze\nHe had the whole street set ablaze\nIt's only love they say\nMakes you feel this way\n\n[Verse 2]\nShe liked his eyes she wanted more\nThe baby gonna have your smile for sure\nHe saw a lovely girl\nSmelling sweet and soapy like fresh air\nShe saw him looking, acted like she didn't care\nThat's how we knew\nAnd so love grew a flower\nA flower that is you\n[Chorus]\nYour daddy know you're a flame\nYour daddy know you're a flame\nYour daddy know you're a flame\nYour daddy know you're a flame\n\n[Bridge]\nEven to the angels it may sound like a lie\nFor you child\nHe has the troops and extra backup standing by\nFor you child\nFor you he's the best he can be\nFor you child\nFor you he's the best he can be\nOh child don't you know\nYour daddy love come with a life time guarantee\n\n[Chorus]\nYour daddy knows you're a flame\nYour daddy knows you're a flame\nYeah daddy love you child\nYour daddy knows you're a flame\nYour daddy knows you're a flame\nDaddy love you yeah\n\n[Verse 3]\nIt's only you he'll say\nMade the young boy hungry for the man he is today\nIt's only love, love, love, love\nCan make you feel this way\nYou might also like[Chorus]\nYour daddy knows you're a flame\nYour daddy knows you're a flame\nYeah daddy love you child\nYour daddy knows you're a flame\nYour daddy knows you're a flame\nYour daddy love come with a life time guarantee\nYour daddy knows you're a flame\nYour daddy knows you're a flame\nDaddy love you yeah\nYour daddy knows you're a flame\nYour daddy knows you're a flame\nYour daddy love come with a life time guarantee4Embed"
+    }
+}

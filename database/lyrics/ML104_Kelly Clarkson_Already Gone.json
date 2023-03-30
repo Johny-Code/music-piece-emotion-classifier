@@ -1,0 +1,58 @@
+{
+    "id": "ML104",
+    "mood": "sad",
+    "artist": "Kelly Clarkson",
+    "title": "Already Gone",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/63434",
+        "artist_names": "Kelly Clarkson",
+        "full_title": "Already Gone by\u00a0Kelly\u00a0Clarkson",
+        "header_image_thumbnail_url": "https://images.genius.com/3bac47d8083cf98ced63aa6d2c8eeb15.294x294x1.jpg",
+        "header_image_url": "https://images.genius.com/3bac47d8083cf98ced63aa6d2c8eeb15.294x294x1.jpg",
+        "id": 63434,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 63154,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1662915108,
+        "path": "/Kelly-clarkson-already-gone-lyrics",
+        "pyongs_count": 21,
+        "relationships_index_url": "https://genius.com/Kelly-clarkson-already-gone-sample",
+        "release_date_components": {
+            "year": 2009,
+            "month": 8,
+            "day": 11
+        },
+        "release_date_for_display": "August 11, 2009",
+        "release_date_with_abbreviated_month_for_display": "Aug. 11, 2009",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a2a1f2cc64a1b2f0b24032455db1bcac.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a2a1f2cc64a1b2f0b24032455db1bcac.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 61163
+        },
+        "title": "Already Gone",
+        "title_with_featured": "Already Gone",
+        "updated_by_human_at": 1663094339,
+        "url": "https://genius.com/Kelly-clarkson-already-gone-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/11714",
+            "header_image_url": "https://images.genius.com/ddbd3890a847e5f4b3570a5b3e45e6d7.1000x1000x1.jpg",
+            "id": 11714,
+            "image_url": "https://images.genius.com/834572a72544c830b28d694cdeedd5df.1000x1000x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Kelly Clarkson",
+            "slug": "Kelly-clarkson",
+            "url": "https://genius.com/artists/Kelly-clarkson"
+        },
+        "artist": "Kelly Clarkson",
+        "lyrics": "Already Gone Lyrics[Verse 1]\nRemember all the things we wanted\nNow all our memories, they're haunted\nWe were always meant to say goodbye\nEven with our fists held high\nIt never would've worked out right, yeah\nWe were never meant for do or die\n\n[Interlude]\nI didn't want us to burn out\nI didn't come here to hurt you, now I can't stop\n[Chorus]\nI want you to know that it doesn't matter\nWhere we take this road\nSomeone's gotta go\nAnd I want you to know you couldn't have loved me better\nBut I want you to move on\nSo I'm already gone\n\n[Verse 2]\nLooking at you makes it harder\nBut I know that you'll find another\nThat doesn't always make you wanna cry\nIt started with a perfect kiss then\nWe could feel the poison set in\n\"Perfect\" couldn't keep this love alive\n\n[Interlude 2]\nYou know that I love you so, I\nLove you enough to let you go\n\n[Chorus]\nI want you to know that it doesn't matter\nWhere we take this road\nSomeone's gotta go\nAnd I want you to know you couldn't have loved me better\nBut I want you to move on\nSo I'm already gone\nYou might also like[Post-Chorus]\nI'm already gone, already gone\nYou can't make it feel right when you know that it's wrong\nI'm already gone, already gone\nThere's no moving on, so I'm already gone\n\n[Bridge]\nAhh, already gone, already gone, already gone (Ooh, oh)\nAhh, already gone, already gone, already gone, yeah\n\n[Verse 3]\nRemember all the things we wanted\nNow all our memories, they're haunted\nWe were always meant to say goodbye\n\n[Chorus]\nI want you to know that it doesn't matter\nWhere we take this road\nSomeone's gotta go\nAnd I want you to know you couldn't have loved me better\nBut I want you to move on\nSo I'm already gone\n\n[Outro]\nI'm already gone, already gone\nYou can't make it feel right when you know that it's wrong\nI'm already gone, already gone\nThere's no moving on\nSo I'm already gone21Embed"
+    }
+}

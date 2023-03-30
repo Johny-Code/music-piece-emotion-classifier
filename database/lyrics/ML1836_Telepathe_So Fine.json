@@ -1,0 +1,53 @@
+{
+    "id": "ML1836",
+    "mood": "happy",
+    "artist": "Telepathe",
+    "title": "So Fine",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1175528",
+        "artist_names": "Telepathe",
+        "full_title": "So Fine by\u00a0Telepathe",
+        "header_image_thumbnail_url": "https://assets.genius.com/images/default_cover_image.png?1679675825",
+        "header_image_url": "https://assets.genius.com/images/default_cover_image.png?1679675825",
+        "id": 1175528,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429681673,
+        "path": "/Telepathe-so-fine-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Telepathe-so-fine-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://assets.genius.com/images/default_cover_image.png?1679675825",
+        "song_art_image_url": "https://assets.genius.com/images/default_cover_image.png?1679675825",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "So Fine",
+        "title_with_featured": "So Fine",
+        "updated_by_human_at": 1480535271,
+        "url": "https://genius.com/Telepathe-so-fine-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/380620",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "id": 380620,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Telepathe",
+            "slug": "Telepathe",
+            "url": "https://genius.com/artists/Telepathe"
+        },
+        "artist": "Telepathe",
+        "lyrics": "So Fine LyricsPusher be the test and I beat to the rest\nIn my head, in my head now\nSlow candle burning with your flame on high and now I'm dry land so\nPlay it bland, play it bland\nThe sound of escape now honey\nTake it take it\nSay it lover, say it lover right\nIt's all the faker, the light hearted taker\nSo take it, so take it, so take it\n\nDream is in this heart\nSeason in these years\nDeath is in this heart\nSo what so what\nSo fine so fine\nSo what so what\nBe mine be mine\n\nBurn it to the groundYou might also likeEmbed"
+    }
+}

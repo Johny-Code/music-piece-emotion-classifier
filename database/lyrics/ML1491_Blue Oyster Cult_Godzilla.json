@@ -1,0 +1,58 @@
+{
+    "id": "ML1491",
+    "mood": "angry",
+    "artist": "Blue Oyster Cult",
+    "title": "Godzilla",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/215882",
+        "artist_names": "Blue \u00d6yster Cult",
+        "full_title": "Godzilla by\u00a0Blue\u00a0\u00d6yster Cult",
+        "header_image_thumbnail_url": "https://images.genius.com/47214bb223e3106e011e0850f94c0c56.300x302x1.jpg",
+        "header_image_url": "https://images.genius.com/47214bb223e3106e011e0850f94c0c56.992x1000x1.jpg",
+        "id": 215882,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 227722,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1617728225,
+        "path": "/Blue-oyster-cult-godzilla-lyrics",
+        "pyongs_count": 5,
+        "relationships_index_url": "https://genius.com/Blue-oyster-cult-godzilla-sample",
+        "release_date_components": {
+            "year": 1977,
+            "month": 11,
+            "day": null
+        },
+        "release_date_for_display": "November 1977",
+        "release_date_with_abbreviated_month_for_display": "Nov. 1977",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8d631700be279f2e5a398c7f55770062.300x305x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8d631700be279f2e5a398c7f55770062.629x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 70848
+        },
+        "title": "Godzilla",
+        "title_with_featured": "Godzilla",
+        "updated_by_human_at": 1617728226,
+        "url": "https://genius.com/Blue-oyster-cult-godzilla-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/50622",
+            "header_image_url": "https://images.genius.com/71c0a8e13069407f39996e86fac679fd.1000x563x1.jpg",
+            "id": 50622,
+            "image_url": "https://images.genius.com/2215407fe6f32f8a1461ccc59293d878.600x600x60.gif",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Blue \u00d6yster Cult",
+            "slug": "Blue-oyster-cult",
+            "url": "https://genius.com/artists/Blue-oyster-cult"
+        },
+        "artist": "Blue \u00d6yster Cult",
+        "lyrics": "Godzilla Lyrics[Verse: Buck Dharma & Eric Bloom]\nWith a purposeful grimace and a terrible sound\nHe pulls the spitting high-tension wires down\nHelpless people on subway trains\nScream, bug-eyed, as he looks in on them\nHe picks up a bus and he throws it back down\nAs he wades through the buildings toward the center of town\n\n[Chorus: Buck Dharma & Eric Bloom]\nOh, no, they say he's got to go\nGo! Go! Godzilla, yeah\nOh, no, there goes Tokyo\nGo! Go! Godzilla, yeah\nOh, no, they say he's got to go\nGo! Go! Godzilla, yeah\nOh, no, there goes Tokyo\nGo! Go! Godzilla, yeah\n[Instrumental Break]\nGodzilla! (zilla, zilla)\nGod (zilla) God (zilla) God (zilla) God (zilla)\nGod (zilla) God (zilla) God (zilla) God (zilla)\nGod (zilla) God (zilla) God (zilla) God (zilla)\nGod (zilla) God (zilla) God (zilla) God (zilla)\nGodzilla!\nRinji news o moshiagemasu!\nGod (zilla) God (zilla) God (zilla) God (zilla) God (zilla) God (zilla)\nRinji news o moshiagemasu!\nGodzilla ga Ginza hoomen e mukatte imasu!\nGod (zilla) God (zilla) God (zilla) God (zilla) God (zilla) God (zilla)\nDaishikyu hinan shite kudasai! Daishikyu hinan shite kudasai!\nGod (zilla) God (zilla) God (zilla) God (zilla)\nGod (zilla) God (zilla) God (zilla) God (zilla)\n\n[Chorus: Buck Dharma & Eric Bloom]\nOh, no, they say he's got to go\nGo! Go! Godzilla, yeah\nOh, no, there goes Tokyo\nGo! Go! Godzilla, yeah\n\n[Outro: Buck Dharma & Eric Bloom]\nHistory shows again and again\nHow nature points up the folly of man\nGodzilla!\nHistory shows again and again\nHow nature points up the folly of man\nGodzilla!\nHistory shows again and again\nHow nature points up the folly of man\nGodzilla!\nHistory shows again and again\nHow nature points up the folly of man\nGodzilla!You might also like5Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML206",
+    "mood": "angry",
+    "artist": "Anthrax",
+    "title": "Potters Field",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1788420",
+        "artist_names": "Anthrax",
+        "full_title": "Potter's Field by\u00a0Anthrax",
+        "header_image_thumbnail_url": "https://images.rapgenius.com/e12ed7a99130a4657929358bddc67e89.300x300x1.jpg",
+        "header_image_url": "https://images.rapgenius.com/e12ed7a99130a4657929358bddc67e89.348x348x1.jpg",
+        "id": 1788420,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1364764,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1654176867,
+        "path": "/Anthrax-potters-field-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Anthrax-potters-field-sample",
+        "release_date_components": {
+            "year": 1993,
+            "month": 5,
+            "day": 25
+        },
+        "release_date_for_display": "May 25, 1993",
+        "release_date_with_abbreviated_month_for_display": "May. 25, 1993",
+        "song_art_image_thumbnail_url": "https://images.rapgenius.com/e12ed7a99130a4657929358bddc67e89.300x300x1.jpg",
+        "song_art_image_url": "https://images.rapgenius.com/e12ed7a99130a4657929358bddc67e89.348x348x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Potter\u2019s Field",
+        "title_with_featured": "Potter's Field",
+        "updated_by_human_at": 1654176867,
+        "url": "https://genius.com/Anthrax-potters-field-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/11082",
+            "header_image_url": "https://images.genius.com/d499722d26aeff596f7997baaadfc9c5.1000x493x1.png",
+            "id": 11082,
+            "image_url": "https://images.genius.com/ce339ce31aac8b551ff64f181be882b0.1000x1000x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Anthrax",
+            "slug": "Anthrax",
+            "url": "https://genius.com/artists/Anthrax"
+        },
+        "artist": "Anthrax",
+        "lyrics": "Potter\u2019s Field Lyrics[Intro]\nThis is a journey into sound\n\n[Verse 1]\nI was told to love you\nI was told to try\nI was born to save you\nI was born to die\nI'll always be your scapegoat\nYou'll never take the blame\nYou never had a chance\nIt was your soul to save\nI am your one-night nightmare\nPain is all you see\nThe blood is on your hands\nI hope you're proud of me\n[Verse 2]\nI was told to love you\nI learned how to hate\nI was born to save you\nYour choice became your fate\nYou can't take care of yourself\nHow could you care for me?\nI am your retribution\nWhen is my soul free?\nI never asked for mercy\nYou told me to forgive\nThe blood is on your hands\nI hope you're proud of me\nAnd what I've done to set you free\nI can barely hold myself\n\n[Pre-Chorus]\nFascination, stimulation\nStronger as I learn\nBy his hand, I understand\nI was told to burn\n\n[Chorus]\nBastard son, your saving grace\nLeft alone I found my place\nI find love in what I steal\nYou should have let me rest\nIn Potter's field\nI was told to, I was told to\nYou might also like[Guitar Solo]\n\n[Verse 3]\nYour beliefs turned me into this\nBite the hand that feeds\nYou're so selfish\nThank you, mother\nFor giving me this life\nI'll bring down the rapture\nThen we'll see who lies\n\n[Pre-Chorus]\nFascination, stimulation\nStronger as I learn\nBy his hand, I understand\nI was told to burn\n\n[Chorus]\nBastard son, your saving grace\nLeft alone I found my place\nI find love in what I steal\nYou should have let me rest\nIn Potter's field\nI was told to, I was told to\nI was told to, I was told to\nStop it1Embed"
+    }
+}

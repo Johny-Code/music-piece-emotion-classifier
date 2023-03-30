@@ -1,0 +1,58 @@
+{
+    "id": "ML1323",
+    "mood": "angry",
+    "artist": "Children of Bodom",
+    "title": "Downfall",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1623548",
+        "artist_names": "Children of Bodom",
+        "full_title": "Downfall by\u00a0Children\u00a0of Bodom",
+        "header_image_thumbnail_url": "https://images.rapgenius.com/a0f8ebb00c988e8a3e43cc0843519029.300x293x1.jpg",
+        "header_image_url": "https://images.rapgenius.com/a0f8ebb00c988e8a3e43cc0843519029.1000x978x1.jpg",
+        "id": 1623548,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1610618071,
+        "path": "/Children-of-bodom-downfall-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Children-of-bodom-downfall-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 4,
+            "day": 21
+        },
+        "release_date_for_display": "April 21, 1999",
+        "release_date_with_abbreviated_month_for_display": "Apr. 21, 1999",
+        "song_art_image_thumbnail_url": "https://images.rapgenius.com/a0f8ebb00c988e8a3e43cc0843519029.300x293x1.jpg",
+        "song_art_image_url": "https://images.rapgenius.com/a0f8ebb00c988e8a3e43cc0843519029.1000x978x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 8684
+        },
+        "title": "Downfall",
+        "title_with_featured": "Downfall",
+        "updated_by_human_at": 1658161787,
+        "url": "https://genius.com/Children-of-bodom-downfall-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/328328",
+            "header_image_url": "https://images.genius.com/f8ca22a3d3921476fbf31d184bb006a0.550x435x1.jpg",
+            "id": 328328,
+            "image_url": "https://images.genius.com/f8ca22a3d3921476fbf31d184bb006a0.550x435x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Children of Bodom",
+            "slug": "Children-of-bodom",
+            "url": "https://genius.com/artists/Children-of-bodom"
+        },
+        "artist": "Children of Bodom",
+        "lyrics": "Translations\u0420\u0443\u0441\u0441\u043a\u0438\u0439Downfall LyricsThe night of timeless fire is drawing near\nI flee...\nThroughout the years of throe\nWatching through a mirror, as I fall apart\nI see a wreck, I'm burning\n\nI see angels burning, falling down in ruins\nLooking down I see me, I'm my own enemy\n\nWatching myself decaying, (decaying)\nFalling from high spirits\nI flee...\nThroughout the ruins of me\nLonging for finding my way out\nLeaving myself, there's nothing left for me\nThe ruins are about to crumble down\nThe flame is dying by shivery winds of jet black skies\nIt reflects hatred in my eyes\n\nI see angels burning, falling down in ruins\nLooking down, I see my ashes scattered around my grave\n\nAngels whispering fire, no longer I'm alive\nSettled down, I'm done with the trip to my kingdom comeYou might also like1Embed"
+    }
+}

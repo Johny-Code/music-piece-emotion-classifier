@@ -1,0 +1,86 @@
+{
+    "id": "ML1006",
+    "mood": "happy",
+    "artist": "Gorillaz",
+    "title": "Superfast Jellyfish",
+    "song": {
+        "_type": "song",
+        "annotation_count": 32,
+        "api_path": "/songs/5427",
+        "artist_names": "Gorillaz (Ft. De La Soul & Gruff Rhys)",
+        "full_title": "Superfast Jellyfish by\u00a0Gorillaz (Ft.\u00a0De\u00a0La Soul & Gruff\u00a0Rhys)",
+        "header_image_thumbnail_url": "https://images.genius.com/e9e615b949f586581ef2483719d71159.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e9e615b949f586581ef2483719d71159.786x786x1.jpg",
+        "id": 5427,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 9203,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675700279,
+        "path": "/Gorillaz-superfast-jellyfish-lyrics",
+        "pyongs_count": 31,
+        "relationships_index_url": "https://genius.com/Gorillaz-superfast-jellyfish-sample",
+        "release_date_components": {
+            "year": 2010,
+            "month": 3,
+            "day": 3
+        },
+        "release_date_for_display": "March 3, 2010",
+        "release_date_with_abbreviated_month_for_display": "Mar. 3, 2010",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b2a5acd0877d5e3aa4e600c6423f3d0e.300x301x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b2a5acd0877d5e3aa4e600c6423f3d0e.352x353x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false,
+            "pageviews": 149928
+        },
+        "title": "Superfast Jellyfish",
+        "title_with_featured": "Superfast Jellyfish (Ft.\u00a0De\u00a0La Soul & Gruff\u00a0Rhys)",
+        "updated_by_human_at": 1675700279,
+        "url": "https://genius.com/Gorillaz-superfast-jellyfish-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/2255",
+                "header_image_url": "https://images.genius.com/ea10631d80a119cf4effd7e63eec68a4.1000x666x1.jpg",
+                "id": 2255,
+                "image_url": "https://images.genius.com/8187e4f4c70117505844e51e809eefa8.799x799x1.jpg",
+                "index_character": "g",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "Gruff Rhys",
+                "slug": "Gruff-rhys",
+                "url": "https://genius.com/artists/Gruff-rhys"
+            },
+            {
+                "_type": "artist",
+                "api_path": "/artists/225",
+                "header_image_url": "https://images.genius.com/54015a0b5441c3e94ff76a375494b4a6.996x608x1.jpg",
+                "id": 225,
+                "image_url": "https://images.genius.com/74eced2a1a6baae90f5d2e678b1d494a.600x600x1.jpg",
+                "index_character": "d",
+                "is_meme_verified": true,
+                "is_verified": true,
+                "name": "De La Soul",
+                "slug": "De-la-soul",
+                "url": "https://genius.com/artists/De-la-soul",
+                "iq": 100
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/860",
+            "header_image_url": "https://images.genius.com/37183f148e14391012d387d322474319.1000x562x1.jpg",
+            "id": 860,
+            "image_url": "https://images.genius.com/dcf209467ed03269eca45f9586a27d52.1000x1000x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Gorillaz",
+            "slug": "Gorillaz",
+            "url": "https://genius.com/artists/Gorillaz"
+        },
+        "artist": "Gorillaz",
+        "lyrics": "Superfast Jellyfish Lyrics[Intro]\nThis morning, you've got time for a hot home cooked breakfast\nDelicious and piping hot in only three microwaved minutes\nAre you kidding?!\n\n[Verse: Gruff Rhys, De La Soul & Both]\nYo, retty packages of frosted delights\nLook, it comes with a toy! I like that\nI want a number four, number six, and throw in a plastic donut\nJust enjoy the gritty crunch that tastes just like chicken\nRappers of many bite sizes\nMan, are you freaking blind? That's a rock\nAll mixed in the pot full\nMomma's homemade from scratch, but not quite (Nope!)\nToasted over flames they be tasting quite right\n[Refrain: Posdnuos and (Dave)]\nAll hail King Neptune and his water-breathers\nNo snail thing too quick for his water-feeders\n\"Don't waste time\" with your net\nOur net worth is set\nReady, go many know others but\nWe be the colors of the mad and the wicked\nWe be bad, we re-brick it\nWith the twenty-four hour sign\nShower mine habits\nWhile you dine like rabbits\nWith the crunchy, crunchy carrots\n(Oh that's chicken)\nGotta have it super fast\n\n[Interlude]\nA whole line of breakfasts you've got time for\n\n[Chorus: Gruff Rhys]\nSuper fast, super fast, I come in last\nBut just in time for breakfast\nKeep us through, keep us through, forever blue\nThe night, the night throws at us\nAluminum I crush for fun, aluminum\nThe sea is radioactive, the sea is radioactive\nYou might also like[Refrain: Posdnuos and (Dave)]\nAll hail King Neptune and his water-breathers\nNo snail thing too quick for his water-feeders\n\"Don't waste time\" with your net\nOur net worth is set\nReady, go, many know others but\nWe be the colors of the mad and the wicked\nWe be bad, we re-brick it\nWith the twenty-four hours sign\nShower mine habits\nWhile you dine like rabbits\nWith the crunchy, crunchy carrots\n(Oh, that's chicken)\nGotta have it super fast\n\n[Chorus: 2D]\nSuper fast, super fast, I come in last\nBut just in time for breakfast\nKeep us through, keep us through, forever blue\nThe night, the night throws at us\nAluminum I crush for fun, aluminum\nThe sea is radioactive, the sea is radioactive\n\n[Outro: 2D & (Posdnuos)]\nSuperfast jellyfish\nSuperfast jellyfish\nSuperfast jellyfish\nSuperfast jellyfish\n(Don't waste time)\nSuperfast jellyfish\nSuperfast jellyfish\n(The sea has gone silent)\n(What!)\n(Everybody loves jellyfish!)\n(Everybody loves jellyfish!)\n(Everybody loves jellyfish!)\n(Everybody loves jellyfish!)\nSuperfast jellyfish, superfast jellyfish\nSuperfast jellyfish, superfast jellyfish\nSuperfast jellyfish, superfast jellyfish\nSuperfast jellyfish, superfast jellyfish\nSuperfast jellyfish, superfast jellyfish\nSuperfast jellyfish, superfast jellyfish\nSuperfast jellyfish, superfast jellyfish\nSuperfast jellyfish, superfast jellyfish\nSuperfast jellyfish, superfast jellyfish31Embed"
+    }
+}

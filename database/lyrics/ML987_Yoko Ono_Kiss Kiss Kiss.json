@@ -1,0 +1,58 @@
+{
+    "id": "ML987",
+    "mood": "happy",
+    "artist": "Yoko Ono",
+    "title": "Kiss Kiss Kiss",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/318572",
+        "artist_names": "Yoko Ono",
+        "full_title": "Kiss Kiss Kiss by\u00a0Yoko\u00a0Ono",
+        "header_image_thumbnail_url": "https://images.genius.com/27c373ced326b9711b9757d7ff0494bf.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/27c373ced326b9711b9757d7ff0494bf.1000x1000x1.jpg",
+        "id": 318572,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 354385,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1519897211,
+        "path": "/Yoko-ono-kiss-kiss-kiss-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Yoko-ono-kiss-kiss-kiss-sample",
+        "release_date_components": {
+            "year": 1980,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1980",
+        "release_date_with_abbreviated_month_for_display": "1980",
+        "song_art_image_thumbnail_url": "https://images.genius.com/27c373ced326b9711b9757d7ff0494bf.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/27c373ced326b9711b9757d7ff0494bf.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 11169
+        },
+        "title": "Kiss Kiss Kiss",
+        "title_with_featured": "Kiss Kiss Kiss",
+        "updated_by_human_at": 1525813891,
+        "url": "https://genius.com/Yoko-ono-kiss-kiss-kiss-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/27984",
+            "header_image_url": "https://images.genius.com/50ff5ae3f792bdf94a58c3f383e69e0f.630x420x1.jpg",
+            "id": 27984,
+            "image_url": "https://images.genius.com/50ff5ae3f792bdf94a58c3f383e69e0f.630x420x1.jpg",
+            "index_character": "y",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Yoko Ono",
+            "slug": "Yoko-ono",
+            "url": "https://genius.com/artists/Yoko-ono"
+        },
+        "artist": "Yoko Ono",
+        "lyrics": "Kiss Kiss Kiss Lyrics[Intro]\nKiss, Kiss, Kiss, Kiss me love\nJust one kiss, kiss will do\nKiss, kiss kiss, kiss me love\nJust one kiss, kiss will do\n\n[Bridge]\nWhy death\nWhy Life\nWarm hearts\nCold darts\n[Bridge]\nKiss, kiss, kiss, kiss me love\nI'm bleeding inside\n\n[Bridge]\nIt's a long, long story to tell\nAnd I can only show you my hell\n\n[Bridge]\nTouch, touch, touch, touch me love\nJust one touch, touch will do\nTouch, touch, touch, touch me love\nJust one touch, touch will do\n\n[Bridge]\nWhy me\nWhy you\nBroken mirror\nWhite terror\n\n[Bridge]\nTouch, touch, touch, touch me love\nI'm shaking inside\nIt's that faint, faint sound of the childhood bell\nRinging in my soul\nYou might also like[Outro]\nKiss, kiss, kiss, kiss me love\nJust one kiss, kiss will doEmbed"
+    }
+}

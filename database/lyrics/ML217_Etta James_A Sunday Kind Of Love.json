@@ -1,0 +1,58 @@
+{
+    "id": "ML217",
+    "mood": "relaxed",
+    "artist": "Etta James",
+    "title": "A Sunday Kind Of Love",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/488955",
+        "artist_names": "Etta James",
+        "full_title": "A Sunday Kind of Love by\u00a0Etta\u00a0James",
+        "header_image_thumbnail_url": "https://images.genius.com/4064c12eafb8643e2d109e35a3af6529.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/4064c12eafb8643e2d109e35a3af6529.1000x1000x1.jpg",
+        "id": 488955,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 96792,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1621080071,
+        "path": "/Etta-james-a-sunday-kind-of-love-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Etta-james-a-sunday-kind-of-love-sample",
+        "release_date_components": {
+            "year": 1960,
+            "month": 11,
+            "day": 15
+        },
+        "release_date_for_display": "November 15, 1960",
+        "release_date_with_abbreviated_month_for_display": "Nov. 15, 1960",
+        "song_art_image_thumbnail_url": "https://images.genius.com/4064c12eafb8643e2d109e35a3af6529.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/4064c12eafb8643e2d109e35a3af6529.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 42617
+        },
+        "title": "A Sunday Kind of Love",
+        "title_with_featured": "A Sunday Kind of Love",
+        "updated_by_human_at": 1631750561,
+        "url": "https://genius.com/Etta-james-a-sunday-kind-of-love-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/5093",
+            "header_image_url": "https://images.genius.com/03afa043e147f000e5cc335ba0dce9e3.1000x563x1.jpg",
+            "id": 5093,
+            "image_url": "https://images.genius.com/3cf3df713ed485989a3940262f156135.1000x666x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Etta James",
+            "slug": "Etta-james",
+            "url": "https://genius.com/artists/Etta-james"
+        },
+        "artist": "Etta James",
+        "lyrics": "A Sunday Kind of Love Lyrics[Verse 1]\nI want a Sunday kind of love\nA love to last past Saturday night\nAnd I\u2019d like to know it\u2019s more than love at first sight\nAnd I want a Sunday kind of love, oh yeah yeah\n\n[Verse 2]\nI want a, a love that\u2019s on the square\nCan\u2019t seem to find somebody, someone to care\nAnd I\u2019m on a lonely road that leads to nowhere\nI need a Sunday kind of love\n[Bridge]\nI do my Sunday dreaming, oh yeah\nAnd all my Sunday scheming\nEvery minute, every hour, every day\nOh, I\u2019m hoping to discover\nA certain kind of lover\nWho will show me the way\n\n[Verse 3]\nAnd my arms need someone, someone to enfold\nTo keep me warm when Mondays and Tuesdays grow cold\nLove for all my life, to have and to hold\nOh and I want a Sunday kind of love\n\n[Outro]\nOh yeah\nYeah, yeah\nI don\u2019t want a Monday\nTuesday or Wednesday\nOr Thursday, Friday\nOr Saturday\nOh, nothing\nBut Sunday\nOh yeah\nI want a Sunday\nSunday\nI want a Sunday kind of love\nOh yeah\nSunday, Sunday\nSunday kind of loveYou might also like2Embed"
+    }
+}

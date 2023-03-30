@@ -1,0 +1,58 @@
+{
+    "id": "ML810",
+    "mood": "relaxed",
+    "artist": "John Mayer",
+    "title": "New Deep",
+    "song": {
+        "_type": "song",
+        "annotation_count": 14,
+        "api_path": "/songs/206603",
+        "artist_names": "John Mayer",
+        "full_title": "New Deep by\u00a0John\u00a0Mayer",
+        "header_image_thumbnail_url": "https://images.genius.com/cc9d7797167f646b6e61d13e11a3b6d0.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/cc9d7797167f646b6e61d13e11a3b6d0.1000x1000x1.jpg",
+        "id": 206603,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 10380,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1595633179,
+        "path": "/John-mayer-new-deep-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/John-mayer-new-deep-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 9,
+            "day": 9
+        },
+        "release_date_for_display": "September 9, 2003",
+        "release_date_with_abbreviated_month_for_display": "Sep. 9, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/cc9d7797167f646b6e61d13e11a3b6d0.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/cc9d7797167f646b6e61d13e11a3b6d0.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 14,
+            "hot": false,
+            "pageviews": 10933
+        },
+        "title": "New Deep",
+        "title_with_featured": "New Deep",
+        "updated_by_human_at": 1630804352,
+        "url": "https://genius.com/John-mayer-new-deep-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/488",
+            "header_image_url": "https://images.genius.com/1be04874b28d6828360f2e453df9a1da.1000x429x1.jpg",
+            "id": 488,
+            "image_url": "https://images.genius.com/77f8c062eb605456716eec0efbe96553.640x640x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "John Mayer",
+            "slug": "John-mayer",
+            "url": "https://genius.com/artists/John-mayer"
+        },
+        "artist": "John Mayer",
+        "lyrics": "New Deep Lyrics[Verse 1]\nI'm so alive\nI'm so enlightened\nI can barely survive\nA night in my mind\nSo I've got a plan\nI'm going to find out just how boring I am\nAnd have a good time\n\n[Pre-Chorus]\nCause ever since I tried\nTrying not to find\nEvery little meaning in my life\nIt's been fine, I've been cool\nWith my new golden rule\n[Chorus]\nNumb is the new deep\nDone with the old me\nAnd talk is the same cheap it's been\n\n[Verse 2]\nIs there a God?\nWhy is he waiting?\nDon't you think of it odd\nWhen he knows my address?\nAnd look at the stars\nDon't they remind you of just how feeble we are?\nWell it used to, I guess\n\n[Pre-Chorus]\nCause ever since I tried\nTrying not to find\nEvery little meaning in my life\nIt's been fine, I've been cool\nWith my new golden rule\n\n[Chorus]\nNumb is the new deep\nDone with the old me\nAnd talk is the same cheap it's been\nYou might also like[Verse 3]\nI'm a new man\nI wear a new cologne and\nYou wouldn't know me if your eyes were closed\nI know what you'll say\nThis won't last longer than the rest of the day\nBut you're wrong this time\nYou're wrong\n\n[Chorus]\nNumb is the new deep\nDone with the old me\nI'm over the analyzing tonight\n\n[Outro]\nStop trying to figure it out\n(you try to figure, you try to figure it out)\nDeep will only bring you down\nYou know, I used to be\nThe back porch poet with my book of rhymes\nAlways open knowing all the time I'm probably\nNever going to find the perfect rhyme\nFor \"heavier things\"1Embed"
+    }
+}

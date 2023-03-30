@@ -1,0 +1,58 @@
+{
+    "id": "ML1942",
+    "mood": "happy",
+    "artist": "Lordi",
+    "title": "Hard Rock Hallelujah",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1536806",
+        "artist_names": "Lordi",
+        "full_title": "Hard Rock Hallelujah by\u00a0Lordi",
+        "header_image_thumbnail_url": "https://images.genius.com/999a60baa93475d7a6cd3281bd42e47b.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/999a60baa93475d7a6cd3281bd42e47b.600x600x1.jpg",
+        "id": 1536806,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5268503,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1678219582,
+        "path": "/Lordi-hard-rock-hallelujah-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Lordi-hard-rock-hallelujah-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 2,
+            "day": 22
+        },
+        "release_date_for_display": "February 22, 2006",
+        "release_date_with_abbreviated_month_for_display": "Feb. 22, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/999a60baa93475d7a6cd3281bd42e47b.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/999a60baa93475d7a6cd3281bd42e47b.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 36516
+        },
+        "title": "Hard Rock Hallelujah",
+        "title_with_featured": "Hard Rock Hallelujah",
+        "updated_by_human_at": 1678219582,
+        "url": "https://genius.com/Lordi-hard-rock-hallelujah-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/64086",
+            "header_image_url": "https://images.genius.com/8f45337fc5ba07136a706e4aa0bdae3a.1000x313x1.jpg",
+            "id": 64086,
+            "image_url": "https://images.genius.com/130f5016c58546aaf9f6f4cb5ffaaa74.960x960x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Lordi",
+            "slug": "Lordi",
+            "url": "https://genius.com/artists/Lordi"
+        },
+        "artist": "Lordi",
+        "lyrics": "Hard Rock Hallelujah Lyrics[Intro]\nHard rock, hallelujah!\nHard rock, hallelujah!\nHard rock, hallelujah!\nHard rock, hallelujah!\n\n[Verse 1]\nThe saints are crippled on this sinners night\nLost are the lambs with no guiding light\nThe walls come down like thunder, the rock's about to roll\nIt's the arockalypse, now bare your soul\n[Pre-Chorus]\nAll we need is lightning with power and might\nStriking down the prophets of false\nAs the moon is rising, give us the sign\nNow let us rise up in awe\n\n[Chorus]\nRock 'n roll angels bring then hard rock, hallelujah\nDemons and angels, all in one, have arrived\nRock 'n roll angels bring then hard rock, hallelujah\nIn God's creation, supernatural high\n\n[Verse 2]\nThe true believers, thou shall be saved\nBrothers and sisters, keep strong in the faith\nOn the day of Rockoning it's who dares, wins\nYou will see the jokers soon'll be the new kings\n\n[Pre-Chorus]\nAll we need is lightning with power and might\nStriking down the prophets of false\nAs the moon is rising, give us the sign\nNow let us rise up in awe\n\n[Chorus]\nRock 'n roll angels bring then hard rock, hallelujah\nDemons and angels, all in one, have arrived\nRock 'n roll angels bring then hard rock, hallelujah\nIn God's creation, supernatural high\nYou might also like[Bridge]\nWings on my back, I got horns on my head\nMy fangs are sharp and my eyes are red\nNot quite an angel or the one that fell\nNow choose to join us or go straight to Hell\n\nHard rock, hallelujah!\nHard rock, hallelujah!\nHard rock, hallelujah!\nHard rock, yeah!\n\n[Chorus]\nRock 'n roll angels bring then hard rock, hallelujah\nDemons and angels, all in one, have arrived\nRock 'n roll angels bring then hard rock, hallelujah\nIn God's creation, supernatural high\n\nRock 'n roll angels bring then hard rock, hallelujah\nRock 'n roll angels bring then hard rock, hallelujah\n\n[Outro]\nHard rock, hallelujah!\nHard rock, hallelujah!3Embed"
+    }
+}

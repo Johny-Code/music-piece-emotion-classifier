@@ -1,0 +1,53 @@
+{
+    "id": "ML40",
+    "mood": "relaxed",
+    "artist": "Hooverphonic",
+    "title": "The Magnificent Tree",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1218009",
+        "artist_names": "Hooverphonic",
+        "full_title": "The Magnificent Tree by\u00a0Hooverphonic",
+        "header_image_thumbnail_url": "https://images.genius.com/8a8f177e1eaa8af09a1ee0fece5a6b3f.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/8a8f177e1eaa8af09a1ee0fece5a6b3f.768x768x1.jpg",
+        "id": 1218009,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429705238,
+        "path": "/Hooverphonic-the-magnificent-tree-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Hooverphonic-the-magnificent-tree-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/8a8f177e1eaa8af09a1ee0fece5a6b3f.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8a8f177e1eaa8af09a1ee0fece5a6b3f.768x768x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "The Magnificent Tree",
+        "title_with_featured": "The Magnificent Tree",
+        "updated_by_human_at": 1476909420,
+        "url": "https://genius.com/Hooverphonic-the-magnificent-tree-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/209725",
+            "header_image_url": "https://images.genius.com/f5fde918b87d752335cb59ea742076d9.1000x667x1.jpg",
+            "id": 209725,
+            "image_url": "https://images.genius.com/73a122829a4e37fac6cef0eb21978534.1000x1000x1.jpg",
+            "index_character": "h",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Hooverphonic",
+            "slug": "Hooverphonic",
+            "url": "https://genius.com/artists/Hooverphonic"
+        },
+        "artist": "Hooverphonic",
+        "lyrics": "The Magnificent Tree LyricsBought this guitar\nAt a shop called mars\nBut on the way back home\nStrange things happened in my car\nStarted to play\nAll by itself\nCreatures jumped from\nThe highest shelf\nUntil I touched string 12\nThis magnificent tree\nAppeared in my mind\nEven without leaves\nITS strength was divine\nSynthesized gnomes\nPenetrated this godly zone\nSummer was thrown off\nITS royal THRONE\nThis magnificent tree\nAppeared in my mind\nEven without leaves\nITS strength was divineYou might also likeEmbed"
+    }
+}

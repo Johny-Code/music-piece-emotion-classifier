@@ -1,0 +1,58 @@
+{
+    "id": "ML1471",
+    "mood": "relaxed",
+    "artist": "The Isley Brothers",
+    "title": "Hello It's Me",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1535643",
+        "artist_names": "The Isley Brothers",
+        "full_title": "Hello It's Me by\u00a0The\u00a0Isley Brothers",
+        "header_image_thumbnail_url": "https://images.genius.com/fc4b35d2e6763cc12aa0d422eb38841f.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/fc4b35d2e6763cc12aa0d422eb38841f.1000x1000x1.jpg",
+        "id": 1535643,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3492882,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1617655536,
+        "path": "/The-isley-brothers-hello-its-me-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-isley-brothers-hello-its-me-sample",
+        "release_date_components": {
+            "year": 1974,
+            "month": 9,
+            "day": 7
+        },
+        "release_date_for_display": "September 7, 1974",
+        "release_date_with_abbreviated_month_for_display": "Sep. 7, 1974",
+        "song_art_image_thumbnail_url": "https://images.genius.com/fc4b35d2e6763cc12aa0d422eb38841f.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/fc4b35d2e6763cc12aa0d422eb38841f.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 11014
+        },
+        "title": "Hello It\u2019s Me",
+        "title_with_featured": "Hello It's Me",
+        "updated_by_human_at": 1646195238,
+        "url": "https://genius.com/The-isley-brothers-hello-its-me-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/8400",
+            "header_image_url": "https://images.genius.com/76f0a74ad8df6f8fc6efe86cd5425778.1000x563x1.jpg",
+            "id": 8400,
+            "image_url": "https://images.genius.com/cb26d2c239b3692a6ec7f6de1db57180.597x597x1.jpg",
+            "index_character": "i",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Isley Brothers",
+            "slug": "The-isley-brothers",
+            "url": "https://genius.com/artists/The-isley-brothers"
+        },
+        "artist": "The Isley Brothers",
+        "lyrics": "Hello It\u2019s Me Lyrics[Intro]\nHello, hello\nOh, hello, hello\nHello, hello, hello, girl\nHello, hello, oh\nHello, hello, hello, hello\nHello, hello, ooh\n\n[Verse 1]\nHello, it's me, it's me, baby\nI've thought about us for a long, long time\nMaybe I think too much but something's wrong\nSomething's here that doesn't last too long\nMaybe I shouldn't think of you as mine\nI can't help it, baby\nSeeing you, yeah, seeing anyone as much as I do you\nI take for granted that you're always there\nI take for granted that you just don't care\nSometimes I can't help seeing all the way through, baby\nYou know why, ah yeah\n[Pre-Chorus]\nIt's important to me\nThat you know you are free\n'Cause I never want to make you change for me, babe\n\n[Chorus]\n(Don't change, don't change, girl)\nNo, I wouldn't change you, change you for the world\n(Don't change, don't change, girl)\nNo, don't change, girl\n(Don't change, don't change, girl)\nStay as sweet as you are, baby\n(Don't change, don't change, girl)\nBut one thing I want you to do is\n\n[Verse 2]\nThink of me, think of me, baby\nYou know I'd be with you if I could\nCome around and see you once in a while\nIf you ever need a reason to smile\nI'd spend the night if you think I should\nWell\n\n[Pre-Chorus]\nIt's important to me\nThat you know you are free\n'Cause I never want to make you change\nYou might also like[Bridge]\nDon't change, baby\nOh, keep everything the same, baby\nStay as sweet as you are, baby\nGirl, don't you move too far, girl\nI'll come around, come around and see you every once in a while\nIf you ever need, ah, if you ever need a reason to smile, baby\n\n[Outro]\nJust don't change, girl\n(Don't change, don't change, girl)\nAh, oh\n(Don't change, don't change)\nKeep everything the same, baby\n(Don't change, don't change, girl)\nThink about me, baby\n(Don't change, don't change, girl)\nKeep your mind\n(Don't change, don't change, girl)\nKeep your mind\n(Don't change, don't change, girl)\nDon't change, baby\n(Don't change, don't change, girl)\nOoh, ooh, ooh, don't change\n(Don't change, don't change, girl)\nKeep every, everything the same\n(Don't change, don't change, girl)\nStay as sweet as you are\n(Don't change, don't change, girl)\nSweet as you are\n(Don't change, don't change, girl)\nOh, oh, oh, oh\n(Don't change, don't change, girl)\nNo, don't change\n(Don't change, don't change, girl)\nWell, well, well, well, well\n(Don't change, don't change, girl)Embed"
+    }
+}

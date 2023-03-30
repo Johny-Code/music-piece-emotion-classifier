@@ -1,0 +1,57 @@
+{
+    "id": "ML726",
+    "mood": "relaxed",
+    "artist": "Pinback",
+    "title": "Some Voices",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/886985",
+        "artist_names": "Pinback",
+        "full_title": "Some Voices by\u00a0Pinback",
+        "header_image_thumbnail_url": "https://images.genius.com/f928328d738eb99e74e7c88a980b617d.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/f928328d738eb99e74e7c88a980b617d.355x355x1.jpg",
+        "id": 886985,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6296035,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1548970728,
+        "path": "/Pinback-some-voices-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Pinback-some-voices-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": 9,
+            "day": 5
+        },
+        "release_date_for_display": "September 5, 2000",
+        "release_date_with_abbreviated_month_for_display": "Sep. 5, 2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/f928328d738eb99e74e7c88a980b617d.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f928328d738eb99e74e7c88a980b617d.355x355x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false
+        },
+        "title": "Some Voices",
+        "title_with_featured": "Some Voices",
+        "updated_by_human_at": 1548970728,
+        "url": "https://genius.com/Pinback-some-voices-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/44434",
+            "header_image_url": "https://images.genius.com/8a7dbf6d8e8aa48aef448b8b1968d0fb.404x404x1.jpg",
+            "id": 44434,
+            "image_url": "https://images.genius.com/8a7dbf6d8e8aa48aef448b8b1968d0fb.404x404x1.jpg",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Pinback",
+            "slug": "Pinback",
+            "url": "https://genius.com/artists/Pinback"
+        },
+        "artist": "Pinback",
+        "lyrics": "Some Voices Lyrics\"-- the drive sequence begun. Hit it, Pinback...\"\n\nShe lays among the flowers\nAnd spreads among the sheets\nShe counts the clouds for hours\nAnd turns them into sheep\nThey sleep along the rivers\nAnd shower in the deep\nAnd breath in all that's autumn\nTill winter stays\nThey almost didn't find her\nA couple times she walked to the train tracks\n\nSometimes her forehead gets hot\nIt comes and goes\nSometimes the medicine can heal her kind\nIt's like a hurricane inside her\nInside the hurricane her mind gets blown\n\nIt's like a hurricane inside herYou might also likeEmbed"
+    }
+}

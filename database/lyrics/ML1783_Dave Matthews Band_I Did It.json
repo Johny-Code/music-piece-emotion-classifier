@@ -1,0 +1,58 @@
+{
+    "id": "ML1783",
+    "mood": "relaxed",
+    "artist": "Dave Matthews Band",
+    "title": "I Did It",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/398025",
+        "artist_names": "Dave Matthews Band",
+        "full_title": "I Did It by\u00a0Dave\u00a0Matthews Band",
+        "header_image_thumbnail_url": "https://images.genius.com/8da7e6afd56918234bb805530b456151.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/8da7e6afd56918234bb805530b456151.500x500x1.jpg",
+        "id": 398025,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 104344,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1568556834,
+        "path": "/Dave-matthews-band-i-did-it-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Dave-matthews-band-i-did-it-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 2,
+            "day": 27
+        },
+        "release_date_for_display": "February 27, 2001",
+        "release_date_with_abbreviated_month_for_display": "Feb. 27, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8da7e6afd56918234bb805530b456151.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8da7e6afd56918234bb805530b456151.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 7,
+            "hot": false
+        },
+        "title": "I Did It",
+        "title_with_featured": "I Did It",
+        "updated_by_human_at": 1568556834,
+        "url": "https://genius.com/Dave-matthews-band-i-did-it-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/18451",
+            "header_image_url": "https://s3.amazonaws.com/rapgenius/1375568441_ENTER_MUS-GRAMMYS_96_LA1.jpg",
+            "id": 18451,
+            "image_url": "https://s3.amazonaws.com/rapgenius/1375568441_ENTER_MUS-GRAMMYS_96_LA1.jpg",
+            "index_character": "d",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Dave Matthews Band",
+            "slug": "Dave-matthews-band",
+            "url": "https://genius.com/artists/Dave-matthews-band",
+            "iq": 5355
+        },
+        "artist": "Dave Matthews Band",
+        "lyrics": "I Did It Lyrics[Verse 1]\nI'm mixing up a bunch of magic stuff\nA magic mushroom cloud of care\nA potion that'll rock, the boat will rock\nI'll make a bomb of love and blow it up\n\n[Chorus 1]\nI did it, do you think I've gone too far?\nI did it, guilty as charged\nI did it, it was me right or wrong\nI did it, yeah\n[Chorus 2]\nI never did a single thing that did a single thing\nTo change the ugly ways of the world\nI didn't know it felt so right inside\nI didn't know it all\n\n[Chorus 3]\nAnd I opened up the curtains\nI heard sirens there, the lights flash and crawl\nBut I did it justice\n\n[Verse 2]\nI just did it for us all\nIt's a nickel or a dime for what I've done\nThe truth is that I don't really care\nFor such a lovely crime I'll do the time\nYou better lock me up, I'll do it again\n\n[Chorus 1]\n\n[Chorus 2]\n\n[Chorus 3]\nI open up the curtains\nI heard sirens there, the lights flash and crawl\nBut I did it justice\nI just did it for the buzz\nYou might also like[Verse 3]\nAll you people are the skewers of our dreams\nLike the cat that collared me\nOh, what I gotta say to you, you got love\nDon't turn it down, turn it loud, let it build\nWe got a long way to go\nBut you, you got to start somewhere\nGo door to door, spread the love you got\nYou got the love, you get what you want\nDoes it matter where you get it from?\nI for one, don't turn my cheek for anyone\nUnturn your cheek to give your love\nLove to grow\n\n[Chorus 1]\nI did it, do you think I've gone too far?\nI did it, guilty as charged\nI did it, it was me right or wrong\nI did it, yeah, yeah, yeah\n\n[Bridge]\nI did it, I told you, I told you I did\nI did it, I'm guilty as charged\nI did it, I told you, I told you I did\nI did it, yeah\n[Verse 4]\nI never did a single thing that did a single thing\nTo change the ugly ways of the world\nI didn't know it felt so right inside\nI didn't know it all\n\n[Chorus 3]2Embed"
+    }
+}

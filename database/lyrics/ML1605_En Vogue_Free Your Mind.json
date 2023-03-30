@@ -1,0 +1,58 @@
+{
+    "id": "ML1605",
+    "mood": "happy",
+    "artist": "En Vogue",
+    "title": "Free Your Mind",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/410884",
+        "artist_names": "En Vogue",
+        "full_title": "Free Your Mind by\u00a0En\u00a0Vogue",
+        "header_image_thumbnail_url": "https://images.genius.com/7310cd0544f66944711ac1c8dd97e573.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/7310cd0544f66944711ac1c8dd97e573.1000x1000x1.jpg",
+        "id": 410884,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 314089,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1659562118,
+        "path": "/En-vogue-free-your-mind-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/En-vogue-free-your-mind-sample",
+        "release_date_components": {
+            "year": 1992,
+            "month": 8,
+            "day": 24
+        },
+        "release_date_for_display": "August 24, 1992",
+        "release_date_with_abbreviated_month_for_display": "Aug. 24, 1992",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d9566986f577c7217077a005f0c51fc8.300x261x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d9566986f577c7217077a005f0c51fc8.503x438x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false,
+            "pageviews": 44552
+        },
+        "title": "Free Your Mind",
+        "title_with_featured": "Free Your Mind",
+        "updated_by_human_at": 1629773775,
+        "url": "https://genius.com/En-vogue-free-your-mind-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/8571",
+            "header_image_url": "https://images.genius.com/f11ee6a04ea09185070217ee06971f21.500x500x1.jpg",
+            "id": 8571,
+            "image_url": "https://images.genius.com/d43e85def20ebd1983ce7d83ded975c5.908x908x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "En Vogue",
+            "slug": "En-vogue",
+            "url": "https://genius.com/artists/En-vogue"
+        },
+        "artist": "En Vogue",
+        "lyrics": "Free Your Mind Lyrics[Intro]\nPrejudice, wrote a song about it\nLike to hear it? Here it go\nFree your mind\n\n[Verse 1]\nI wear tight clothing, high heeled shoes\nIt doesn't mean that I'm a prostitute, no no\nI like rap music, wear hip hop clothes\nThat doesn't mean that I'm out sellin' dope, no no no\nOh my forgive me for having straight hair, no\nIt doesn't mean there's another blood in my heir, yeah yeah\nI might date another race or color\nIt doesn't mean I don't like my strong black brothers\n[Pre-Chorus]\nMmm-dah, mmm-dah, mmm-dah, mmm-dah\nWhy oh why must it be this way?\nMmm-dah, mmm-dah, mmm-dah, mmm-dah\nBefore you can read me you gotta learn how to see me, I said\n\n[Chorus]\nFree your mind and the rest will follow\nBe color blind, don't be so shallow\nFree your mind and the rest will follow\nBe color blind, don't be so shallow\n\n[Verse 2]\nSo I'm a sista, buy things with cash\nThat really doesn't mean that all my credit's bad, oh\nSo why dispute me and waste my time?\nBecause you really think the price is high for me\nI can't look without being watched, and oh\nYou rang my buy before I made up my mind, OW!\nOh now attitude, why even bother?\nI can't change your mind, you can't change my color\n\n[Pre-Chorus]\nMmm-dah, mmm-dah, mmm-dah, mmm-dah\nWhy oh why must it be this way?\nMmm-dah, mmm-dah, mmm-dah, mmm-dah\nBefore you can read me you gotta learn how to see me, I said\nYou might also like[Chorus]\nFree your mind and the rest will follow\nBe color blind, don't be so shallow\nFree your mind and the rest will follow\nBe color blind, don't be so shallow\nFree your mind and the rest will follow\nBe color blind, don't be so shallow\nFree your mind and the rest will follow\nBe color blind, don't be so shallow\nFree your mind\n\n[Break]\n\n[Pre-Chorus]\nMmm-dah, mmm-dah, mmm-dah, mmm-dah\nWhy oh why must it be this way?\nBefore you can read me you gotta learn how to see me, I said\n\n[Chorus]\nFree your mind and the rest will follow\nBe color blind, don't be so shallow\nFree your mind and the rest will follow\nBe color blind, don't be so shallow\nFree your mind and the rest will follow\nBe color blind, don't be so shallow\nFree your mind and the rest will follow\nBe color blind, don't be so shallow\nFREE YOUR MIND!1Embed"
+    }
+}

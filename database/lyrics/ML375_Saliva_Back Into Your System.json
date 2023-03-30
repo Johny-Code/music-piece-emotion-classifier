@@ -1,0 +1,57 @@
+{
+    "id": "ML375",
+    "mood": "relaxed",
+    "artist": "Saliva",
+    "title": "Back Into Your System",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1122018",
+        "artist_names": "Saliva",
+        "full_title": "Back Into Your System by\u00a0Saliva",
+        "header_image_thumbnail_url": "https://images.genius.com/cd6491ad7bf5658c2106be61d8bdb614.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/cd6491ad7bf5658c2106be61d8bdb614.1000x1000x1.jpg",
+        "id": 1122018,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429645951,
+        "path": "/Saliva-back-into-your-system-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Saliva-back-into-your-system-sample",
+        "release_date_components": {
+            "year": 2002,
+            "month": 11,
+            "day": 12
+        },
+        "release_date_for_display": "November 12, 2002",
+        "release_date_with_abbreviated_month_for_display": "Nov. 12, 2002",
+        "song_art_image_thumbnail_url": "https://images.genius.com/cd6491ad7bf5658c2106be61d8bdb614.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/cd6491ad7bf5658c2106be61d8bdb614.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Back Into Your System",
+        "title_with_featured": "Back Into Your System",
+        "updated_by_human_at": 1665640426,
+        "url": "https://genius.com/Saliva-back-into-your-system-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/34397",
+            "header_image_url": "https://images.genius.com/009d5c5a006748c69149118b133a5377.1000x1000x1.jpg",
+            "id": 34397,
+            "image_url": "https://images.genius.com/009d5c5a006748c69149118b133a5377.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Saliva",
+            "slug": "Saliva",
+            "url": "https://genius.com/artists/Saliva"
+        },
+        "artist": "Saliva",
+        "lyrics": "Back Into Your System LyricsI've been gone away\nBut I'm back again...back with all my friends\nI've been floatin' away\nOn a silver cloud...lined with all my wildest dreams\n\nChorus:\nI'm back in your system now\nAnd I've waited much too long (back in your system)\nAnd I'm back in your system now\nAnd I've finally come back home\nI've been thinking of days\nBack when we began...when we first made our first stand\nAnd i get taken away\nOn a silver cloud...lined with all my wildest dreams\n\nChorus:\nIm back in your system now\nAnd I've waited much too long\nAnd I'm back in your system now\nAnd I've finally come back home\n\nIM BACK INTO YOUR SYSTEM!\nThere's a way to find it, (repeat 3x)\nThere's a way to see it. (repeat 3x)\nThere's a way to get BACK INTO YOUR SYSTEM (repeat 3x)\nSYSTEM!\n\nMy minds set\n\nChorus:(repeat 3x)\nIm back in your system now\nI've waited for much too long\nIm back in your system now\nAnd I've found my way back home\n\nIM BACK IN YOUR SYSTEM\nThere's way to find it\nThere's a way to see it\nThere's a way to get BACK INTO YOUR SYSTEM\nSYSTEM!You might also likeEmbed"
+    }
+}

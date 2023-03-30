@@ -1,0 +1,57 @@
+{
+    "id": "ML1059",
+    "mood": "sad",
+    "artist": "Siobhan Donaghy",
+    "title": "So You Say",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1823061",
+        "artist_names": "Siobh\u00e1n Donaghy",
+        "full_title": "So You Say by\u00a0Siobh\u00e1n\u00a0Donaghy",
+        "header_image_thumbnail_url": "https://images.genius.com/1905ce98b38336bcd3d8bab834028745.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1905ce98b38336bcd3d8bab834028745.1000x1000x1.jpg",
+        "id": 1823061,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1495986141,
+        "path": "/Siobhan-donaghy-so-you-say-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Siobhan-donaghy-so-you-say-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 6,
+            "day": 18
+        },
+        "release_date_for_display": "June 18, 2007",
+        "release_date_with_abbreviated_month_for_display": "Jun. 18, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1905ce98b38336bcd3d8bab834028745.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/1905ce98b38336bcd3d8bab834028745.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "So You Say",
+        "title_with_featured": "So You Say",
+        "updated_by_human_at": 1612821429,
+        "url": "https://genius.com/Siobhan-donaghy-so-you-say-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/391287",
+            "header_image_url": "https://images.genius.com/d1403a71e6a34d9b41020d966f54ab3e.328x450x1.jpg",
+            "id": 391287,
+            "image_url": "https://images.genius.com/07342aa4346ca308f192d4d6e01aedee.331x331x1.png",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Siobh\u00e1n Donaghy",
+            "slug": "Siobhan-donaghy",
+            "url": "https://genius.com/artists/Siobhan-donaghy"
+        },
+        "artist": "Siobh\u00e1n Donaghy",
+        "lyrics": "So You Say LyricsSo you say we should just be friends Adam\nBut I know when I get the bends\nThat I'll hate you so\n\nSo you say we should drift apart Adam\nBut I know that'll break my heart\nAnd I'll hate you so, 'cause I loved you so\n\nSo you say I can be afraid\nBut I know I would have strayed\nI sit and miss you so, a batch of alcohol ceases to control\nDon't say you'll think about me\nOr say that you can live without me\nDidn't we make it nearly\nFor everything that I hold dearly\nHow many ways can I say plainly, we can\nBefore it wore on us thinly\nTo each and every degree\nYou've got me in agony\n\nSo you say I should call sometime Adam\nBut I know that'll make you cry\nI'll say I hate you so, that you burned me so\n\nSo you say we should make it work Adam\nBut how long does this feeling hurt\nI'm sure you'd like to know, 'cause I loved you so\n\nDon't say you'll think about me\nOr say that you can live without me\nDidn't we make it nearly\nFor everything that I hold dearly\nHow many ways can I say plainly, we can\nBefore it wore on us thinly\nTo each and every degree\nYou've got me in agony\nYou might also likeDon't say you'll think about me\nOr say that you can live without me\nDidn't we make it nearly\nFor everything that I hold dearly\nHow many ways can I say plainly, we can\nBefore it wore on us thinly\nTo each and every degree\nYou've got me in agonyEmbed"
+    }
+}

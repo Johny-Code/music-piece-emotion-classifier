@@ -1,0 +1,53 @@
+{
+    "id": "ML96",
+    "mood": "angry",
+    "artist": "Atari Teenage Riot",
+    "title": "Deutschland (Has Gotta Die!)",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1318432",
+        "artist_names": "Atari Teenage Riot",
+        "full_title": "Deutschland (Has Gotta Die!) by\u00a0Atari\u00a0Teenage Riot",
+        "header_image_thumbnail_url": "https://images.genius.com/ebf742cb0bec8d1e1c5af85f805a0929.300x299x1.jpg",
+        "header_image_url": "https://images.genius.com/ebf742cb0bec8d1e1c5af85f805a0929.600x597x1.jpg",
+        "id": 1318432,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1580483879,
+        "path": "/Atari-teenage-riot-deutschland-has-gotta-die-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Atari-teenage-riot-deutschland-has-gotta-die-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/ebf742cb0bec8d1e1c5af85f805a0929.300x299x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ebf742cb0bec8d1e1c5af85f805a0929.600x597x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Deutschland (Has Gotta Die!)",
+        "title_with_featured": "Deutschland (Has Gotta Die!)",
+        "updated_by_human_at": 1580483879,
+        "url": "https://genius.com/Atari-teenage-riot-deutschland-has-gotta-die-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/170857",
+            "header_image_url": "https://images.genius.com/3f24a033d41d037f4dab5fc04c4a3b61.620x344x1.jpg",
+            "id": 170857,
+            "image_url": "https://images.genius.com/67230ab122daaa73299ddaeb2f49a6dc.300x300x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Atari Teenage Riot",
+            "slug": "Atari-teenage-riot",
+            "url": "https://genius.com/artists/Atari-teenage-riot"
+        },
+        "artist": "Atari Teenage Riot",
+        "lyrics": "Deutschland (Has Gotta Die!) LyricsDeutschland has gotta die! (eins, zwei, drei, vier!)\n\nWake up! Wake up! Get off your knees...\nWhere will the West strike next?\nThe war is still between East and West...\nMoney talks! Money! You're so bored and sick!\nLets burn Germany!\nBuilding up economy of dead bodies! That's what they want!\n\nWe react very strongly to tranquilizers you know...\nI need a diversion for a silent escape! Harder! Faster!\nYou know what they're after\nYou haven't suffered the same as I have!\nSenseless neverending terror!\nWe make em nervous... We make em nervous! (x3)\n\nDeutschland has gotta die!\n\nWake up! Wake up! Get off your spleen!\nWhat will the West strike next?\nThe war is still between East and West...\nMoney talks! Money knows!\nYou're so bored and sick!\nLet's burn Deutschland!\n\nThe bloody wankers tried to pull us down...\nBlow'em up! Blow'em up!\nThe bloody wankers try to pull us down but\nWe're gonna smash them in! (x4)\nThe time is right to fight!You might also likeEmbed"
+    }
+}

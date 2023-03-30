@@ -1,0 +1,57 @@
+{
+    "id": "ML370",
+    "mood": "sad",
+    "artist": "Novembre",
+    "title": "Verne",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1432133",
+        "artist_names": "Novembre",
+        "full_title": "Verne by\u00a0Novembre",
+        "header_image_thumbnail_url": "https://images.genius.com/7ba9e02df9dec3edfb10c57f6f89577b.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/7ba9e02df9dec3edfb10c57f6f89577b.1000x1000x1.jpg",
+        "id": 1432133,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2337416,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1597334366,
+        "path": "/Novembre-verne-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Novembre-verne-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 4,
+            "day": 17
+        },
+        "release_date_for_display": "April 17, 2006",
+        "release_date_with_abbreviated_month_for_display": "Apr. 17, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/7ba9e02df9dec3edfb10c57f6f89577b.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/7ba9e02df9dec3edfb10c57f6f89577b.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Verne",
+        "title_with_featured": "Verne",
+        "updated_by_human_at": 1678866066,
+        "url": "https://genius.com/Novembre-verne-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/355228",
+            "header_image_url": "https://images.genius.com/6a3cb8656b1cd5d9c59edb792b636413.1000x170x1.jpg",
+            "id": 355228,
+            "image_url": "https://images.genius.com/c0c9ab9345c2cae65fba68effabd39ec.549x549x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Novembre",
+            "slug": "Novembre",
+            "url": "https://genius.com/artists/Novembre"
+        },
+        "artist": "Novembre",
+        "lyrics": "Verne LyricsSarah, we once feltered\nAs you froze that\nMorning omen\nAnd you told them\nAnd you warned them\nThat the sky turned red\nAbove them\n\nSarah it's said, same rain\nDoesn't fall down twice\nDays, gone by\nCome back as the morning light\nA colourless demise rises\nAnd the only shelter I used to know\nIs gone lost out of sight\n\n(repeat refrain)\n\nSarah of the wonders\nOf the wonders\nMade of wonders\n\nVenivi dall'atrio del cuore\nPortando le chiavi del sole\nDomani faremo l'amore\nE niente potr\u00e0 mai cambiare\n\nDi questo rimase il rumore\nD'un sogno che come nel mare\nSi infrange su nere scogliere\nD'un nero che pu\u00f2 cancellare\n\nSi dice che il sogno dell'uomo\n\u00c8 far si che il proprio domani\nSia senza calar del Sole\nMa dimmi com'\u00e8 senz'amare?\n\nMa i sogni son figli del cuore\nCreati in quanto dolore\nSpogliati dalla lor ragione\nPer questo mandati a morire\nYou might also like[Outro]\nMa i sogni son figli del cuore\nCreati in quanto dolore\nSpogliati dalla lor ragione\nPer questo mandati a morire\n\nMa i sogni son figli del cuore\nCreati in quanto dolore\nSpogliati dalla lor ragione\nPer questo mandati a morire\n\nMa i sogni son figli del cuore\nCreati in quanto dolore\nSpogliati dalla lor ragione\nPer questo mandati a morire...Embed"
+    }
+}

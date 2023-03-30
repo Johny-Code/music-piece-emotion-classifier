@@ -1,0 +1,59 @@
+{
+    "id": "ML440",
+    "mood": "happy",
+    "artist": "Stevie Wonder",
+    "title": "Part-Time Lover",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/393279",
+        "artist_names": "Stevie Wonder",
+        "full_title": "Part-Time Lover by\u00a0Stevie\u00a0Wonder",
+        "header_image_thumbnail_url": "https://images.genius.com/e41ea67a87b3dab72a1ce7a3d1108d4c.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e41ea67a87b3dab72a1ce7a3d1108d4c.1000x1000x1.jpg",
+        "id": 393279,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3492882,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1641464598,
+        "path": "/Stevie-wonder-part-time-lover-lyrics",
+        "pyongs_count": 9,
+        "relationships_index_url": "https://genius.com/Stevie-wonder-part-time-lover-sample",
+        "release_date_components": {
+            "year": 1985,
+            "month": 8,
+            "day": 24
+        },
+        "release_date_for_display": "August 24, 1985",
+        "release_date_with_abbreviated_month_for_display": "Aug. 24, 1985",
+        "song_art_image_thumbnail_url": "https://images.genius.com/fba4f735eff951d7b97e423ccb31d08b.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/fba4f735eff951d7b97e423ccb31d08b.700x700x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "concurrents": 2,
+            "hot": false,
+            "pageviews": 79719
+        },
+        "title": "Part-Time Lover",
+        "title_with_featured": "Part-Time Lover",
+        "updated_by_human_at": 1638844744,
+        "url": "https://genius.com/Stevie-wonder-part-time-lover-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1602",
+            "header_image_url": "https://images.genius.com/8bb3f2a398b71495e10ac75e56180faa.1000x661x1.jpg",
+            "id": 1602,
+            "image_url": "https://images.genius.com/378a1d769bbb5652314149bff8252c75.696x696x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Stevie Wonder",
+            "slug": "Stevie-wonder",
+            "url": "https://genius.com/artists/Stevie-wonder"
+        },
+        "artist": "Stevie Wonder",
+        "lyrics": "Part-Time Lover Lyrics[Verse 1: Stevie Wonder]\nCall up, ring once, hang up the phone\nTo let me know you made it home\nDon't want nothing to be wrong with part-time lover\nIf she's with me, I'll blink the lights\nTo let you know tonight's the night\nFor me and you, my part-time lover\n\n[Chorus]\nWe are undercover passion on the run\nChasing love up against the sun\nWe are strangers by day, lovers by night\nKnowing it's so wrong, but feeling so right\n[Verse 2]\nIf I'm with friends and we should meet\nJust pass me by, don't even speak\nKnow the word's \"discreet\" with part-time lovers\nBut if there's some emergency\nHave a male friend to ask for me\nSo then she won't peek it's really you my part-time lover\n\n[Chorus]\nWe are undercover passion on the run\nChasing love up against the sun\nWe are strangers by day, lovers by night\nKnowing it's so wrong, but feeling so right\n\n[Bridge: Luther Vandross, (Part-Time Lovers)]\nDa-da-da-da-da-da, da-da-da-da-da, da-da-da-da-pa-da-da-da\n(Part-time lovers)\nDe-hee, da-pa-da-da-da-da, dadadadadadada, pa-da-da-da, pa-pa-da-pa-pa-pa-pa-da-da-da\n(Part-time lovers)\n\n[Chorus]\nWe are undercover passion on the run, yeah\nChasing love up against the sun\nWe are strangers by day, lovers by night\nKnowing it's so wrong, but feeling so right\nYou might also like[Verse 3]\nI've got something that I must tell\nLast night someone rang our doorbell\nAnd it was not you, my part-time lover\nAnd then a man called our exchange\nBut didn't want to leave his name\nI guess that two can play the game\nOf part-time lovers\nYou and me, part-time lovers\nBut, she and he, part-time lovers\n\n[Outro]\n*Scatting*\n(Part-time lovers)\n*Scatting*\n(Part-time lovers)\n*Scatting*\n(Part-time lovers)\n*Scatting*\n(Part-time lovers)\n*Scatting*\n(Part-time lovers)\n*Scatting*\n(Part-time lovers)9Embed"
+    }
+}

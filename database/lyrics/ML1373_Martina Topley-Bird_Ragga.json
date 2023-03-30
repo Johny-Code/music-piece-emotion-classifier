@@ -1,0 +1,71 @@
+{
+    "id": "ML1373",
+    "mood": "happy",
+    "artist": "Martina Topley-Bird",
+    "title": "Ragga",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1765939",
+        "artist_names": "Martina Topley-Bird (Ft. Tricky)",
+        "full_title": "Ragga by\u00a0Martina\u00a0Topley-Bird (Ft.\u00a0Tricky)",
+        "header_image_thumbnail_url": "https://images.genius.com/1e294a73c325dba3c7f04feeebf13272.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1e294a73c325dba3c7f04feeebf13272.599x599x1.jpg",
+        "id": 1765939,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3324857,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1621219740,
+        "path": "/Martina-topley-bird-ragga-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Martina-topley-bird-ragga-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2003",
+        "release_date_with_abbreviated_month_for_display": "2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1e294a73c325dba3c7f04feeebf13272.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/1e294a73c325dba3c7f04feeebf13272.599x599x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Ragga",
+        "title_with_featured": "Ragga (Ft.\u00a0Tricky)",
+        "updated_by_human_at": 1621219740,
+        "url": "https://genius.com/Martina-topley-bird-ragga-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/6318",
+                "header_image_url": "https://images.genius.com/d87732c1ba797ec3a316f01be874a1d2.1000x429x1.jpg",
+                "id": 6318,
+                "image_url": "https://images.genius.com/0a422372a799504636c8d9524e45cb11.656x656x1.jpg",
+                "index_character": "t",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "Tricky",
+                "slug": "Tricky",
+                "url": "https://genius.com/artists/Tricky"
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1707",
+            "header_image_url": "https://images.genius.com/5a62afbc774c569172b38386a6b7f4bf.547x697x1.jpg",
+            "id": 1707,
+            "image_url": "https://images.genius.com/27ceadfc7d17cc74412c7567b62aa6f6.471x471x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Martina Topley-Bird",
+            "slug": "Martina-topley-bird",
+            "url": "https://genius.com/artists/Martina-topley-bird"
+        },
+        "artist": "Martina Topley-Bird",
+        "lyrics": "Ragga LyricsSomeone wanna come around\nDumpin' fun around\nI bring my pan around\nAnd pop one in your shoulder\nAnd pop one in your shoulder\n\nWon't no be the same\nWon't no be the same\n\nA stumble pacifist\nChristian on my list\nCause I'm fingers and Noah's\nYou need to hold on\nA stumbled a pacifist\nChristian's on my list\nCause I'm feeling the fluid\nThey need to hold it\nI come on fast as this\nLike a Viper Kiss\nTricky make a vapour\nMake you get your cold on\nI wrap my tongue around\nYou get to be the clown\nI come like underground\nAnd make you feel older\n\nOoh, I love it so much\nI'm doing things I wouldn't normally do\nAnd when it comes to your touch\nI'm doing things I wouldn't normally do\n\nI wrap my tongue around\nYou get to be the clown\nI come like underground\nI make you feel older\nI wrap my tongue around\nYou get to be the clown\n\nOoh, I love it so much\nI'm doing things I wouldn't normally do\nAnd when it comes to your touch\nI'm doing things I wouldn't normally do\nOoh, I like it so much\nI'm doing things I wouldn't normally do\nAnd when it comes to your touch\nI'm doing things you wouldn't normally do, you\nYou might also likeSomeone wanna come around\nDumpin' fun around\nI bring my pan around\nAnd pop one in your shoulder\nSomeone wanna come around\nDumpin' fun around\nI bring my pan around\nAnd pop one in your shoulder\nAnd pop one in your shoulder\nAnd pop one in your shoulder\n\nOoh, I love it so much\nI'm doing things I wouldn't normally do\nAnd when it comes to your touch\nI'm doing things I wouldn't normally do\nOoh, I like it so much\nI'm doing things I wouldn't normally do\nAnd when it comes to your touch\nI'm doing things I wouldn't normally do\n\nOoh, I love it so much\nI'm doing things I wouldn't normally do\nAnd when it comes to your touch\nI'm doing things I wouldn't normally doEmbed"
+    }
+}

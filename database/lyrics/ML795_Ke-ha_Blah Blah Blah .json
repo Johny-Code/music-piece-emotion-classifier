@@ -1,0 +1,73 @@
+{
+    "id": "ML795",
+    "mood": "happy",
+    "artist": "Ke$ha",
+    "title": "Blah Blah Blah ",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/25977",
+        "artist_names": "Kesha (Ft. 3OH!3)",
+        "full_title": "Blah Blah Blah by\u00a0Kesha (Ft.\u00a03OH!3)",
+        "header_image_thumbnail_url": "https://images.genius.com/d32a95d04db02551bf4d6775861fe166.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/d32a95d04db02551bf4d6775861fe166.1000x1000x1.jpg",
+        "id": 25977,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 50,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1661281751,
+        "path": "/Kesha-blah-blah-blah-lyrics",
+        "pyongs_count": 17,
+        "relationships_index_url": "https://genius.com/Kesha-blah-blah-blah-sample",
+        "release_date_components": {
+            "year": 2010,
+            "month": 1,
+            "day": 29
+        },
+        "release_date_for_display": "January 29, 2010",
+        "release_date_with_abbreviated_month_for_display": "Jan. 29, 2010",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d32a95d04db02551bf4d6775861fe166.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d32a95d04db02551bf4d6775861fe166.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 42668
+        },
+        "title": "Blah Blah Blah",
+        "title_with_featured": "Blah Blah Blah (Ft.\u00a03OH!3)",
+        "updated_by_human_at": 1661281751,
+        "url": "https://genius.com/Kesha-blah-blah-blah-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/7092",
+                "header_image_url": "https://images.genius.com/4393d5d80795abefb24a39bf47d35ab6.1000x1000x1.jpg",
+                "id": 7092,
+                "image_url": "https://images.genius.com/6240e3b5fc14241b430b139e90ee9cc7.1000x1000x1.jpg",
+                "index_character": "0",
+                "is_meme_verified": false,
+                "is_verified": true,
+                "name": "3OH!3",
+                "slug": "3oh-3",
+                "url": "https://genius.com/artists/3oh-3",
+                "iq": 100
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1519",
+            "header_image_url": "https://images.genius.com/b1c422905330007da3d826cd0e184d7f.1000x667x1.jpg",
+            "id": 1519,
+            "image_url": "https://images.genius.com/3d5394429d9e5601d2f863846073bc3d.400x400x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Kesha",
+            "slug": "Kesha",
+            "url": "https://genius.com/artists/Kesha"
+        },
+        "artist": "Kesha",
+        "lyrics": "Blah Blah Blah Lyrics[Intro: Kesha]\nAh\n\n[Verse 1: Kesha]\nBlah, blah, blah, blah, bl-bl-blah, blah, blah\nComing out'cha mouth with'cha blah, blah, blah\nZip your lip like a padlock (Yeah)\nAnd meet me in the back with the Jack at the jukebox\nI don't really care where you live at\nJust turn around, boy, let me hit that\nDon't be a little bitch with your chit chat\nJust show me where your dick's at\n[Pre-Chorus: Kesha]\nMu-mu-music's up\nListen hot stuff, I'm in love (Love) with this song\nSo just hush (Hush)\nBaby, shut up (Uh)\nHeard enough\n\n[Chorus: Kesha]\nStop ta-ta-talking that blah, blah, blah\nThink you'll be getting this? (Holla!)\nNah, nah, nah\nNot in the back of my car-ar-ar\nIf you keep talking that blah, blah, blah, blah, blah\n\n[Verse 2: Kesha]\nBoy, c'mon and get my rocks off\nCome put a little love in my glove box\nWanna dance, with no pants on? (Holla)\nMeet me in the back with the Jack at the jukebox\nSo cut to the chase, kid\n'Cause I know you don't care what my middle name is\nI wanna be naked and you're wasted\n\n[Pre-Chorus: Kesha]\nMu-mu-mu-music's up\nListen hot stuff, I'm in love (Love) with this song\nSo just hush (Hush)\nBaby, shut up (Uh)\nHeard enough\nYou might also like[Chorus: Kesha]\nStop ta-ta-talking that blah, blah, blah\nThink you'll be getting this?\nNah, nah, nah\nNot in the back of my car-ar-ar\nIf you keep talking that blah, blah, blah, blah, blah\n\n[Bridge: 3OH!3]\nYou be delaying, you always saying some \u200bshit\nYou say I'm playin', I'm never layin' the dick\nSaying, \"Blah, blah, blah\"\n'Cause I don't care who you are in this bar\nIt only matters who I is\n\n[Chorus: Kesha]\nStop ta-ta-talking that blah, blah, blah\nThink you'll be getting this?\nNah, nah, nah\nNot in the back of my car-ar-ar\nIf you keep talking that blah, blah, blah, blah, blah\nBlah, blah, blah\nThink you'll be getting this?\nNah, nah, nah\nNot in the back of my car-ar-ar\nIf you keep talking that blah, blah, blah, blah, blah\n[Outro: Kesha]\nOh\nBlah, blah, blah\nStop talking\nStop ta-ta-talking that17Embed"
+    }
+}

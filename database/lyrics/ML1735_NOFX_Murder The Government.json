@@ -1,0 +1,58 @@
+{
+    "id": "ML1735",
+    "mood": "angry",
+    "artist": "NOFX",
+    "title": "Murder The Government",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/375789",
+        "artist_names": "NOFX",
+        "full_title": "Murder the Government by\u00a0NOFX",
+        "header_image_thumbnail_url": "https://images.genius.com/f858355d5799d5b2b8df512e273de56c.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/f858355d5799d5b2b8df512e273de56c.1000x1000x1.jpg",
+        "id": 375789,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 161088,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1653165823,
+        "path": "/Nofx-murder-the-government-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Nofx-murder-the-government-sample",
+        "release_date_components": {
+            "year": 1997,
+            "month": 11,
+            "day": 11
+        },
+        "release_date_for_display": "November 11, 1997",
+        "release_date_with_abbreviated_month_for_display": "Nov. 11, 1997",
+        "song_art_image_thumbnail_url": "https://images.genius.com/f858355d5799d5b2b8df512e273de56c.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f858355d5799d5b2b8df512e273de56c.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 7707
+        },
+        "title": "Murder the Government",
+        "title_with_featured": "Murder the Government",
+        "updated_by_human_at": 1653165823,
+        "url": "https://genius.com/Nofx-murder-the-government-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/18892",
+            "header_image_url": "https://images.genius.com/689c165977b8c56f57c1713be9cda805.1000x666x1.jpg",
+            "id": 18892,
+            "image_url": "https://images.genius.com/6d45ab213332862fae06f78cb0a4a53b.1000x1000x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "NOFX",
+            "slug": "Nofx",
+            "url": "https://genius.com/artists/Nofx"
+        },
+        "artist": "NOFX",
+        "lyrics": "Murder the Government LyricsI wanna see the constitution burn\nWanna watch the white house overturn\nWanna witness some blue blood bleed red\nI wanna tar and lynch the KKK\nI wanna pull and shoot the NRA\nI wanna pay the lobbyists to kill themselves\nMurder the government, murder the government\nMurder the government, and then do it again yeah\nMurder the government, murder the government\nMurder the government, and then\nMurder the governmentYou might also like1Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML364",
+    "mood": "sad",
+    "artist": "Dixie Chicks",
+    "title": "Without You",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/607136",
+        "artist_names": "The Chicks",
+        "full_title": "Without You by\u00a0The\u00a0Chicks",
+        "header_image_thumbnail_url": "https://images.genius.com/1b8855bc68df30b4ea125bb6ee276610.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1b8855bc68df30b4ea125bb6ee276610.1000x1000x1.jpg",
+        "id": 607136,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 851743,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1621661723,
+        "path": "/The-chicks-without-you-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-chicks-without-you-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": 8,
+            "day": 9
+        },
+        "release_date_for_display": "August 9, 2000",
+        "release_date_with_abbreviated_month_for_display": "Aug. 9, 2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1b8855bc68df30b4ea125bb6ee276610.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/1b8855bc68df30b4ea125bb6ee276610.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Without You",
+        "title_with_featured": "Without You",
+        "updated_by_human_at": 1621661723,
+        "url": "https://genius.com/The-chicks-without-you-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/24366",
+            "header_image_url": "https://images.genius.com/ec7ef9e21398df992cb97508a9888383.1000x333x1.jpg",
+            "id": 24366,
+            "image_url": "https://images.genius.com/8fed4750f08a5aceea55e3165e00dcca.400x400x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Chicks",
+            "slug": "The-chicks",
+            "url": "https://genius.com/artists/The-chicks"
+        },
+        "artist": "The Chicks",
+        "lyrics": "Without You Lyrics[Verse 1]\nI've sure enjoyed the rain\nBut I'm lookin' forward to the sun\nYou have to feel the pain\nWhen you lose the love you gave someone\n\n[Pre-Chorus]\nI thought by now the time\nWould take away these lonely tears\nI hope you're doin' fine all alone\nBut where do I go from here\n[Chorus]\n'Cause without you, I'm not okay\nAnd without you, I've lost my way\nMy heart's stuck in second place, ooh\nWithout you\n\n[Verse 2]\nWell I never thought I'd be\nLyin' here without you by my side\nIt seems unreal to me\nThat the life you promised was a lie\n\n[Pre-Chorus]\nYou made it look so easy\nMakin' love into memories\nI guess you got what you wanted\nBut what about me\n\n[Chorus]\n'Cause without you, I'm not okay\nAnd without you, I've lost my way\nMy heart's stuck in second place, ooh\nWithout you\n\n[Bridge]\nSomebody tell my head to try to tell my heart\nThat I'm better off without you\n'Cause, baby, I can't live\nYou might also like[Chorus]\nWithout you, I'm not okay\nAnd without you, I've lost my way\nMy heart's stuck in second place, ooh\nWithout youEmbed"
+    }
+}

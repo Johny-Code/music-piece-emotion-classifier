@@ -1,0 +1,58 @@
+{
+    "id": "ML458",
+    "mood": "happy",
+    "artist": "The White Stripes",
+    "title": "My Doorbell",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/332269",
+        "artist_names": "The White Stripes",
+        "full_title": "My Doorbell by\u00a0The\u00a0White Stripes",
+        "header_image_thumbnail_url": "https://images.genius.com/391fa50060a7b757fd543fa7cd724a4b.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/391fa50060a7b757fd543fa7cd724a4b.315x315x1.jpg",
+        "id": 332269,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 113589,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1667756225,
+        "path": "/The-white-stripes-my-doorbell-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/The-white-stripes-my-doorbell-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 9,
+            "day": 3
+        },
+        "release_date_for_display": "September 3, 2005",
+        "release_date_with_abbreviated_month_for_display": "Sep. 3, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/391fa50060a7b757fd543fa7cd724a4b.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/391fa50060a7b757fd543fa7cd724a4b.315x315x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 26575
+        },
+        "title": "My Doorbell",
+        "title_with_featured": "My Doorbell",
+        "updated_by_human_at": 1667756225,
+        "url": "https://genius.com/The-white-stripes-my-doorbell-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/749",
+            "header_image_url": "https://images.genius.com/23a835a6d369d80609707c2e606c2d59.1000x753x1.jpg",
+            "id": 749,
+            "image_url": "https://images.genius.com/cb37ea69d7344511e6954ed78eaac82b.457x335x2.gif",
+            "index_character": "w",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The White Stripes",
+            "slug": "The-white-stripes",
+            "url": "https://genius.com/artists/The-white-stripes"
+        },
+        "artist": "The White Stripes",
+        "lyrics": "My Doorbell Lyrics[Chorus 1]\nAnd I'm thinkin' about my doorbell\nWhen you gonna ring it, and when you gonna ring it\nYeah, I'm thinkin' about my doorbell\nWhen you gonna ring it, when you gonna ring it\nYeah, I'm thinkin' about my doorbell\nWhen you gonna ring it, when you gonna ring it\nYeah, I been thinkin' about my doorbell\nOh, well\n\n[Verse 1]\nWell, women and children need kisses\nNot the man in my life I know\nAnd I been goin' to mystery misses\nI respect the art of the show\nTake back what you said, little girl\nAnd while you're at it take yourself back too\nWell, I'm tired of sitting here waiting\nWoman, what you going to do now, what you going to do about it?\n[Chorus 1]\nAnd I'm thinkin' about my doorbell\nWhen you gonna ring it, and when you gonna ring it\nYeah, I'm thinkin' about my doorbell\nWhen you gonna ring it, yeah, when you gonna ring it, oh\nI'm thinkin' about my doorbell\nWhen you gonna ring it, and when you gonna ring it\nYeah, I been thinkin' about my doorbell\nOh, well\n\n[Bridge 1]\nYou don't seem to come around\nPoint your finger and make a sound\nYou don't seem to come around\nKnock, knock, since you knocked it down\nOh, well\n\n[Interlude 1]\nMake a sound and I'll make you feel right\nRight at home, yeah\nYeah, right at home, yeah\n\n[Verse 2]\nNobody's got me waitin' in pain\nBut how come it's so easy to you\nYou don't strike me as the type to be callous\nBut your words seem so obtuse\nBut then again, I know you feel guilty\nAnd you tell me you want me again\nBut I don't need any of your pity\nI got plenty of my own friends, they're all above me\nYou might also like[Chorus 2]\nAnd I been thinkin' about my doorbell\nWhen they're gonna ring it, when they're gonna ring it\nYeah, I been thinkin' about the doorbell\nWhen they're gonna ring it, and when they're gonna ring it, oh\nI been thinkin' about the doorbell\nWhen they're gonna ring it, when they're gonna ring it\nYeah, I been thinkin' about the doorbell\nOh, well\n\n[Bridge 2]\nThey don't seem to come around\nPush the finger and make a sound\nThey don't seem to come around\nMaybe then they'll knock 'em down\nOh, well\n\n[Interlude 2]\nMake a sound and I'll make you feel right\nRight at home\nRight at home\n\n[Chorus 1]\nI'm thinkin' about my doorbell\nWhen you gonna ring it, and when you gonna ring it\nI'm thinkin' about my doorbell\nWhen you gonna ring it, when you gonna ring it\nI'm thinkin' about my doorbell\nWhen you gonna ring it, a-when you gonna ring it\nYeah, I been thinkin' about my doorbell\nAnd when they're gonna ring it, and when you gonna ring it\nYeah, I'm thinkin' about my doorbell\nWhen you gonna ring it, when you gonna ring it\nYeah, I'm thinkin' about my doorbell\nOh, oh well6Embed"
+    }
+}

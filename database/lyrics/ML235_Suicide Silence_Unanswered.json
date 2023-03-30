@@ -1,0 +1,58 @@
+{
+    "id": "ML235",
+    "mood": "angry",
+    "artist": "Suicide Silence",
+    "title": "Unanswered",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/734140",
+        "artist_names": "Suicide Silence",
+        "full_title": "Unanswered by\u00a0Suicide\u00a0Silence",
+        "header_image_thumbnail_url": "https://images.genius.com/d50e91c15a498013b065395430a9135b.225x225x1.jpg",
+        "header_image_url": "https://images.genius.com/d50e91c15a498013b065395430a9135b.225x225x1.jpg",
+        "id": 734140,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 688479,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1670206530,
+        "path": "/Suicide-silence-unanswered-lyrics",
+        "pyongs_count": 7,
+        "relationships_index_url": "https://genius.com/Suicide-silence-unanswered-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 9,
+            "day": 18
+        },
+        "release_date_for_display": "September 18, 2007",
+        "release_date_with_abbreviated_month_for_display": "Sep. 18, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d50e91c15a498013b065395430a9135b.225x225x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d50e91c15a498013b065395430a9135b.225x225x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 41560
+        },
+        "title": "Unanswered",
+        "title_with_featured": "Unanswered",
+        "updated_by_human_at": 1670197950,
+        "url": "https://genius.com/Suicide-silence-unanswered-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/27378",
+            "header_image_url": "https://images.genius.com/5da8a124e606bc8f364200643f569043.1000x644x1.jpg",
+            "id": 27378,
+            "image_url": "https://images.genius.com/5da8a124e606bc8f364200643f569043.1000x644x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Suicide Silence",
+            "slug": "Suicide-silence",
+            "url": "https://genius.com/artists/Suicide-silence"
+        },
+        "artist": "Suicide Silence",
+        "lyrics": "Unanswered LyricsHow much must I curse your name\nAnd put your beliefs to shame\nBefore you prove yourself\nAnd end this life?\n\nEnd this life\n\nAnd I'll say a fucking prayer\nBecause I know it won't be answered\n\nWhere is your god?\nWhere is your god?\nWhere is your fucking god?\nAnd even though I don't believe in you\nI pray for the day\nI pray for the day that you end this life\n\nSo please\nTake me\nAway\n\nI want the hand of god\nTo come and strike me down\nI want the hand of god\nTo come and strike me down\n\nWhere is your god?\nWhere is your god?\nWhere is your fucking god?\n\nFor all the prayers that go unanswered\n\nFor all the prayers that go unanswered\nWhy do you think that is?\nFor the families that waste their time\nOpen your eyes\n\nAnd all your prayers will go unanswered\nWhy do you think that is?\nFor the families that waste their time\nOpen your fucking eyesYou might also like7Embed"
+    }
+}

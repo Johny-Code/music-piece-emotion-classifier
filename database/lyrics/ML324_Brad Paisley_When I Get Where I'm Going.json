@@ -1,0 +1,73 @@
+{
+    "id": "ML324",
+    "mood": "sad",
+    "artist": "Brad Paisley",
+    "title": "When I Get Where I'm Going",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/198297",
+        "artist_names": "Brad Paisley (Ft. Dolly Parton)",
+        "full_title": "When I Get Where I'm Going by\u00a0Brad\u00a0Paisley (Ft.\u00a0Dolly\u00a0Parton)",
+        "header_image_thumbnail_url": "https://images.genius.com/e33a18b963a0f39f5ec6f5bf9d8c6383.300x296x1.jpg",
+        "header_image_url": "https://images.genius.com/e33a18b963a0f39f5ec6f5bf9d8c6383.500x494x1.jpg",
+        "id": 198297,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 225680,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1678086919,
+        "path": "/Brad-paisley-when-i-get-where-im-going-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Brad-paisley-when-i-get-where-im-going-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 10,
+            "day": 10
+        },
+        "release_date_for_display": "October 10, 2005",
+        "release_date_with_abbreviated_month_for_display": "Oct. 10, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/137df84c57cb17f0c12b6e8b8aba3cde.300x299x1.jpg",
+        "song_art_image_url": "https://images.genius.com/137df84c57cb17f0c12b6e8b8aba3cde.316x315x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 7817
+        },
+        "title": "When I Get Where I\u2019m Going",
+        "title_with_featured": "When I Get Where I'm Going (Ft.\u00a0Dolly\u00a0Parton)",
+        "updated_by_human_at": 1678076308,
+        "url": "https://genius.com/Brad-paisley-when-i-get-where-im-going-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/20955",
+                "header_image_url": "https://images.genius.com/3e30a87894174fc812e796a81732cb72.1000x286x1.png",
+                "id": 20955,
+                "image_url": "https://images.genius.com/394694000da0b7bea45a09dd6550e75d.1000x1000x1.jpg",
+                "index_character": "d",
+                "is_meme_verified": false,
+                "is_verified": true,
+                "name": "Dolly Parton",
+                "slug": "Dolly-parton",
+                "url": "https://genius.com/artists/Dolly-parton",
+                "iq": 100
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/22758",
+            "header_image_url": "https://images.genius.com/2eba61efcd715192686334e23ff0390b.1000x525x1.jpg",
+            "id": 22758,
+            "image_url": "https://images.genius.com/9a17f90ae120589b2aab672be144fecb.512x512x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Brad Paisley",
+            "slug": "Brad-paisley",
+            "url": "https://genius.com/artists/Brad-paisley"
+        },
+        "artist": "Brad Paisley",
+        "lyrics": "When I Get Where I\u2019m Going Lyrics[Verse 1]\nWhen I get where I'm going\nOn the far side of the sky\nThe first thing that I'm gonna do\nIs spread my wings and fly\n\n[Verse 2]\nI'm gonna land beside a lion\nAnd run my fingers through his mane\nOr I might find out what it's like\nTo ride a drop of rain\n[Chorus]\nYeah when I get where I'm going\nThere'll be only happy tears\nI will shed the sins and struggles\nI have carried all these years\nAnd I'll leave my heart wide open\nI will love and have no fear\nYeah when I get where I'm going\nDon't cry for me down here\n\n[Verse 3]\nI'm gonna walk with my grand daddy\nAnd he'll match me step for step\nAnd I'll tell him how I missed him\nEvery minute since he left\nThen I'll hug his neck\n\n[Chorus]\nYeah when I get where I'm going\nThere'll be only happy tears\nI will shed the sins and struggles\nI have carried all these years\nAnd I'll leave my heart wide open\nI will love and have no fear\nYeah when I get where I'm going\nDon't cry for me down here\nYou might also like[Verse 4]\nSo much pain and so much darkness\nIn this world we stumble through\nAll these questions I can't answer\nSo much work to do\n\n[Verse 5]\nBut when I get where I'm going\nAnd I see my maker's face\nI'll stand forever in the light\nOf his amazing grace\nYeah when I get where I'm going\nThere'll be only happy tears\nHallelujah\nI will love and have no fear\nWhen I get where I'm going\nYeah when I get where I'm going6Embed"
+    }
+}

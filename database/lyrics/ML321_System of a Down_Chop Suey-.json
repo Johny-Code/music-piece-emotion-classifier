@@ -1,0 +1,59 @@
+{
+    "id": "ML321",
+    "mood": "angry",
+    "artist": "System of a Down",
+    "title": "Chop Suey!",
+    "song": {
+        "_type": "song",
+        "annotation_count": 11,
+        "api_path": "/songs/88430",
+        "artist_names": "System Of A Down",
+        "full_title": "Chop Suey! by\u00a0System\u00a0Of A Down",
+        "header_image_thumbnail_url": "https://images.genius.com/1d07457cee710e876b33942e65632c28.300x300x1.png",
+        "header_image_url": "https://images.genius.com/1d07457cee710e876b33942e65632c28.877x877x1.png",
+        "id": 88430,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 123252,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1671625988,
+        "path": "/System-of-a-down-chop-suey-lyrics",
+        "pyongs_count": 169,
+        "relationships_index_url": "https://genius.com/System-of-a-down-chop-suey-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 8,
+            "day": 13
+        },
+        "release_date_for_display": "August 13, 2001",
+        "release_date_with_abbreviated_month_for_display": "Aug. 13, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5c3822eba1d0624efb47b0b96025ad66.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/5c3822eba1d0624efb47b0b96025ad66.877x877x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "concurrents": 2,
+            "hot": false,
+            "pageviews": 1245617
+        },
+        "title": "Chop Suey!",
+        "title_with_featured": "Chop Suey!",
+        "updated_by_human_at": 1673255109,
+        "url": "https://genius.com/System-of-a-down-chop-suey-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/16259",
+            "header_image_url": "https://images.genius.com/606deb81dbb7c20be6fc872da546b47e.1000x562x1.jpg",
+            "id": 16259,
+            "image_url": "https://images.genius.com/5688d59e74bfc07b0531636114f56c1e.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "System Of A Down",
+            "slug": "System-of-a-down",
+            "url": "https://genius.com/artists/System-of-a-down"
+        },
+        "artist": "System Of A Down",
+        "lyrics": "Translations\u0627\u0644\u0639\u0631\u0628\u064a\u0629Chop Suey! Lyrics[Intro: Serj Tankian]\nWe're rolling \"Suicide\"\n\n[Verse: Serj Tankian]\nWake up (Wake up)\nGrab a brush and put a little makeup\nHide your scars to fade away the shakeup (Hide the scars to fade away the shakeup)\nWhy'd you leave the keys upon the table?\nHere you go, create another fable, you wanted to\nGrab a brush and put a little makeup, you wanted to\nHide the scars to fade away the shakeup, you wanted to\nWhy'd you leave the keys upon the table? You wanted to\n[Chorus: Serj Tankian with Daron Malakian]\nI don't think you trust\nIn my self-righteous suicide\nI cry when angels deserve to die\n\n[Verse: Serj Tankian]\nAh! Wake up (Wake up)\nGrab a brush and put a little makeup (A little bit)\nHide the scars to fade away the (Hide the scars to fade away the shakeup)\nWhy'd you leave the keys upon the table?\nHere you go, create another fable, you wanted to\nGrab a brush and put a little makeup, you wanted to\nHide the scars to fade away the shakeup, you wanted to\nWhy'd you leave the keys upon the table? You wanted to\n\n[Chorus: Serj Tankian with Daron Malakian]\nI don't think you trust\nIn my self-righteous suicide\nI cry when angels deserve to die\nIn my self-righteous suicide\nI cry when angels deserve to die\n[Bridge: Serj Tankian & Daron Malakian]\nFather, father, father, father\nFather, father, father, father\nFather, into your hands I commend my spirit\nFather, into your hands\nWhy have you forsaken me?\nIn your eyes, forsaken me?\nIn your thoughts, forsaken me?\nIn your heart, forsaken me? Oh\nYou might also like[Outro: Serj Tankian & Daron Malakian]\nTrust in my self-righteous suicide\nI cry when angels deserve to die\nIn my self-righteous suicide\nI cry when angels deserve to die169Embed"
+    }
+}

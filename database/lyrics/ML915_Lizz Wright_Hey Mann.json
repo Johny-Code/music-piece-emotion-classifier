@@ -1,0 +1,57 @@
+{
+    "id": "ML915",
+    "mood": "relaxed",
+    "artist": "Lizz Wright",
+    "title": "Hey Mann",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/1672862",
+        "artist_names": "Lizz Wright",
+        "full_title": "Hey Mann by\u00a0Lizz\u00a0Wright",
+        "header_image_thumbnail_url": "https://images.genius.com/3c9839356b036a40de290ef7f316559d.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3c9839356b036a40de290ef7f316559d.1000x1000x1.jpg",
+        "id": 1672862,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1464217324,
+        "path": "/Lizz-wright-hey-mann-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Lizz-wright-hey-mann-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2008",
+        "release_date_with_abbreviated_month_for_display": "2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3c9839356b036a40de290ef7f316559d.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3c9839356b036a40de290ef7f316559d.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 10,
+            "hot": false
+        },
+        "title": "Hey Mann",
+        "title_with_featured": "Hey Mann",
+        "updated_by_human_at": 1664721142,
+        "url": "https://genius.com/Lizz-wright-hey-mann-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/359520",
+            "header_image_url": "https://images.genius.com/a2f8f00460e146a55ea379126d4af272.231x231x1.jpg",
+            "id": 359520,
+            "image_url": "https://images.genius.com/a2f8f00460e146a55ea379126d4af272.231x231x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Lizz Wright",
+            "slug": "Lizz-wright",
+            "url": "https://genius.com/artists/Lizz-wright"
+        },
+        "artist": "Lizz Wright",
+        "lyrics": "Hey Mann LyricsHey mann what you doing here\nI don't remember letting you in\nHey mann how d'you get in here\nYou're in my heart without consent\nI always took pride in my selfcontrol\nTo my heart only I had the key\nBut something's gone wrong with my radar screen\nYou slipped by and you captured me\nHey mann what you doing here\nI don't remember letting you in\n\nHey mann how d'you get in here\nYou're in my heart without consent\n\nI've done all I could to keep my head clear\nLogic tells me that this should never be\nBut there's no mistaking the shape I'm in\nLove has filled my every waking day\n\nHey mann what you doing here\nI don't remember letting you in\n\nHey mann how d'you get in here\nYou're in my heart without consent\n\nNow hear, here's the strangest thing\nThe day has come I thought I'd never see\nI walk smiling in a lightglow and I'm calling out your name\nI've lost the battle and I'm quiet well pleased\n\nHey mann what you doing here\nI don't remember letting you in\nYou might also likeHey mann how d'you get in here\nYou're in my heart\n\nHey mann what you doing here\nI don't remember letting you in\n\nHey mann how d'you get in here\nYou're in my heart1Embed"
+    }
+}

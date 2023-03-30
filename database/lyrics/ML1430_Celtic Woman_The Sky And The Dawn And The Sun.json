@@ -1,0 +1,53 @@
+{
+    "id": "ML1430",
+    "mood": "relaxed",
+    "artist": "Celtic Woman",
+    "title": "The Sky And The Dawn And The Sun",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1688632",
+        "artist_names": "Celtic Woman",
+        "full_title": "The Sky and the Dawn and The Sun by\u00a0Celtic\u00a0Woman",
+        "header_image_thumbnail_url": "https://images.genius.com/af654f908967d99f742022131d6a73bc.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/af654f908967d99f742022131d6a73bc.800x800x1.jpg",
+        "id": 1688632,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429903988,
+        "path": "/Celtic-woman-the-sky-and-the-dawn-and-the-sun-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Celtic-woman-the-sky-and-the-dawn-and-the-sun-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/af654f908967d99f742022131d6a73bc.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/af654f908967d99f742022131d6a73bc.800x800x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "The Sky and the Dawn and The Sun",
+        "title_with_featured": "The Sky and the Dawn and The Sun",
+        "updated_by_human_at": 1481827829,
+        "url": "https://genius.com/Celtic-woman-the-sky-and-the-dawn-and-the-sun-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/44393",
+            "header_image_url": "https://images.genius.com/3a6f77a60de2c2a652e1d8bc27f45ab6.751x563x1.jpg",
+            "id": 44393,
+            "image_url": "https://images.genius.com/3a6f77a60de2c2a652e1d8bc27f45ab6.751x563x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Celtic Woman",
+            "slug": "Celtic-woman",
+            "url": "https://genius.com/artists/Celtic-woman"
+        },
+        "artist": "Celtic Woman",
+        "lyrics": "The Sky and the Dawn and The Sun LyricsHigh is the moon tonight\nHiding its guiding light\nHigh\n\nHeaven and earth do sleep\nStill in the dark so deep\nI will the darkness sweep\n\nI will the moon to flight\nI will the heavens bright\nI will the earth delight\nOpen your eyes with me\nSee paradise with me\nAwake and arise with me\n\nI am the dawn, I'm the new day begun\nI bring you the morning, I bring you the sun\nI hold back the night and I open the skies\nI give light to the world, I give sight to your eyes\n\nFrom the first of all time, until time is undone\nForever and ever and ever and ever\nAnd I am the dawn and the sky and the sun\nI am one with the One, and I am the dawn\n\nI am the sky and the dawn and the sun\nI am the sky and the new day begun\nI am the sky and the dawn and the sunYou might also likeEmbed"
+    }
+}

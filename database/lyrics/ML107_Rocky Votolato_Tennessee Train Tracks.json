@@ -1,0 +1,53 @@
+{
+    "id": "ML107",
+    "mood": "relaxed",
+    "artist": "Rocky Votolato",
+    "title": "Tennessee Train Tracks",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1462566",
+        "artist_names": "Rocky Votolato",
+        "full_title": "Tennessee Train Tracks by\u00a0Rocky\u00a0Votolato",
+        "header_image_thumbnail_url": "https://images.genius.com/f154a95d2090c27e68c7f4b1ef525245.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/f154a95d2090c27e68c7f4b1ef525245.630x630x1.jpg",
+        "id": 1462566,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429855693,
+        "path": "/Rocky-votolato-tennessee-train-tracks-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Rocky-votolato-tennessee-train-tracks-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/f154a95d2090c27e68c7f4b1ef525245.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f154a95d2090c27e68c7f4b1ef525245.630x630x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Tennessee Train Tracks",
+        "title_with_featured": "Tennessee Train Tracks",
+        "updated_by_human_at": 1549910264,
+        "url": "https://genius.com/Rocky-votolato-tennessee-train-tracks-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/354539",
+            "header_image_url": "https://images.genius.com/086d711151f60dd08b4752741bccd1af.1000x500x1.jpg",
+            "id": 354539,
+            "image_url": "https://images.genius.com/7af824b38398da69ae45b042c9464f68.334x334x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Rocky Votolato",
+            "slug": "Rocky-votolato",
+            "url": "https://genius.com/artists/Rocky-votolato"
+        },
+        "artist": "Rocky Votolato",
+        "lyrics": "Tennessee Train Tracks LyricsCome dry me out\nCause I've been drinking all night\nBefore I pass out I need your ghost to tell me this bloodless voice\nIs as meaningless as it sounds\nHard fought for some spare time\nTo sit around and search for something I ain't never gonna find\nColors fade in the night sky\nLightning bugs are flashing on the front porch\nNo it's in my head\nTo take me back to another time\nCause once its gone it's just something you ain't never gonna find\nNo matter how hard you try\nThere's no reason to stop it\nAnd you couldn't if you wanted now\nCome dry me out\nJust not with your fist\nI'm not looking for a fight\nHard fought for some spare time\nTo search through books and records\nFor something you ain't never gonna find\nIf you could just make up your mind\nTrain tracks\nCan't decide\nTennessee morning leaves you paralyzedYou might also likeEmbed"
+    }
+}

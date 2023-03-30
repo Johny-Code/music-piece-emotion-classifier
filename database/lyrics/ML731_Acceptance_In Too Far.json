@@ -1,0 +1,57 @@
+{
+    "id": "ML731",
+    "mood": "relaxed",
+    "artist": "Acceptance",
+    "title": "In Too Far",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/217133",
+        "artist_names": "Acceptance",
+        "full_title": "In Too Far by\u00a0Acceptance",
+        "header_image_thumbnail_url": "https://images.genius.com/909f0cda0ea269d01fa50d7d57539b70.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/909f0cda0ea269d01fa50d7d57539b70.640x640x1.jpg",
+        "id": 217133,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 282083,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1507940957,
+        "path": "/Acceptance-in-too-far-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Acceptance-in-too-far-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 4,
+            "day": 26
+        },
+        "release_date_for_display": "April 26, 2005",
+        "release_date_with_abbreviated_month_for_display": "Apr. 26, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/909f0cda0ea269d01fa50d7d57539b70.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/909f0cda0ea269d01fa50d7d57539b70.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "In Too Far",
+        "title_with_featured": "In Too Far",
+        "updated_by_human_at": 1507940957,
+        "url": "https://genius.com/Acceptance-in-too-far-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/70374",
+            "header_image_url": "https://images.genius.com/74b88b76982a894e3714d2056f0adeab.1000x370x1.jpg",
+            "id": 70374,
+            "image_url": "https://images.genius.com/d078c356a9b8bd2a534e01b8c34c978a.640x640x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Acceptance",
+            "slug": "Acceptance",
+            "url": "https://genius.com/artists/Acceptance"
+        },
+        "artist": "Acceptance",
+        "lyrics": "In Too Far Lyrics[Verse 1]\nThe worst time to hit you with my first line, no\nEverything seemed fine, when I hold you like you\u2019re one-of-a-kind\nYou said you were a sure sign, it\u2019s feeling like the last time\nPlay it back, it\u2019s going over and over\nGive it up and pull me through\nAll of this to tell you\n\n[Chorus]\nI\u2019ve been thinking\nTake me now, I\u2019m in too far\nCan\u2019t stop feeling\nDoesn\u2019t matter who you are\nThis could be my last goodbye\nYou could stay, I\u2019ll be alright\nI\u2019ve been thinking\nTake me now, I\u2019m in too far\n[Verse 2]\nIf I might say, all of this seems to flow away\nFrom your lips when they\u2019re kissing me\nAnd your hips when they're leaving me\nFor the last time, I\u2019m thinking of the first time\nThe first time, I\u2019m thinking of the last time\nPlay it back, it\u2019s going over and over\nYou\u2019re trying me so I\u2019m moving on\nAll of this to tell you\n\n[Chorus]\nI\u2019ve been thinking\nTake me now, I\u2019m in too far\nCan\u2019t stop feeling\nDoesn\u2019t matter who you are\nThis could be my last goodbye\nYou could stay, I\u2019ll be alright\nI\u2019ve been thinking\nTake me now, I\u2019m in too far\n\n[Bridge]\nThis is where we left off and I\u2019m trying hard to let go\nThis is where we left off and I\u2019m still waiting to see if you\u2019ll show\n\nThe first time, I\u2019m thinking of the last time\nThe last time, I\u2019m thinking of the first time\nYou might also like[Chorus]\nI\u2019ve been thinking\nTake me now, I\u2019m in too far\nCan\u2019t stop feeling\nDoesn\u2019t matter who you are\nThis could be my last goodbye\nYou could stay, I\u2019ll be alright\nI\u2019ve been thinking\nTake me now, I\u2019m in too far3Embed"
+    }
+}

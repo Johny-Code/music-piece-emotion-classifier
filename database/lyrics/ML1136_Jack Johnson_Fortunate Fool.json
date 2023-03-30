@@ -1,0 +1,58 @@
+{
+    "id": "ML1136",
+    "mood": "relaxed",
+    "artist": "Jack Johnson",
+    "title": "Fortunate Fool",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/334265",
+        "artist_names": "Jack Johnson",
+        "full_title": "Fortunate Fool by\u00a0Jack\u00a0Johnson",
+        "header_image_thumbnail_url": "https://images.genius.com/d2845051c0e516df92ba8890ff14e024.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/d2845051c0e516df92ba8890ff14e024.999x999x1.jpg",
+        "id": 334265,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 359620,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1641238977,
+        "path": "/Jack-johnson-fortunate-fool-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Jack-johnson-fortunate-fool-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 1,
+            "day": 23
+        },
+        "release_date_for_display": "January 23, 2001",
+        "release_date_with_abbreviated_month_for_display": "Jan. 23, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d2845051c0e516df92ba8890ff14e024.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d2845051c0e516df92ba8890ff14e024.999x999x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 5807
+        },
+        "title": "Fortunate Fool",
+        "title_with_featured": "Fortunate Fool",
+        "updated_by_human_at": 1641240847,
+        "url": "https://genius.com/Jack-johnson-fortunate-fool-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/3833",
+            "header_image_url": "https://images.genius.com/d7573ef9f9edcbefbbbf844e5f7e336e.640x640x1.jpg",
+            "id": 3833,
+            "image_url": "https://images.genius.com/d7573ef9f9edcbefbbbf844e5f7e336e.640x640x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Jack Johnson",
+            "slug": "Jack-johnson",
+            "url": "https://genius.com/artists/Jack-johnson"
+        },
+        "artist": "Jack Johnson",
+        "lyrics": "Fortunate Fool Lyrics[Verse 1]\nShe's got it all figured out\nShe knows what everything's about\nAnd when anybody doubts her\nOr sings songs without her\nShe's just so mmm\n\n[Verse 2]\nShe knows the world is just her stage\nAnd so she'll never misbehave\nShe gives thanks for what they gave her\nMan, they practically made her\nInto a mmm\n[Chorus 1]\nShe's the one that stumbles when she talks about\nThe seven foreign films that she's checked out\nSuch a fortunate fool\nShe's just too good to be true\nShe's such a fortunate fool\nShe's just so mmm\n\n[Verse 1]\nShe's got it all figured out\nShe knows what everything's about\nAnd when anybody doubts her\nOr sings songs about her\nShe's just so mmm\n\n[Chorus 2]\nBut she's the one that stumbles when she talks about\nSo maybe we shouldn't talk about\nSuch a fortunate fool\nShe's just too good to be true\nShe's such a fortunate fool\nShe's just so mmmYou might also like2Embed"
+    }
+}

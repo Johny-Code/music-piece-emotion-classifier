@@ -1,0 +1,57 @@
+{
+    "id": "ML1782",
+    "mood": "sad",
+    "artist": "The Dead Weather",
+    "title": "Will There Be Enough Water?",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/692018",
+        "artist_names": "The Dead Weather",
+        "full_title": "Will There Be Enough Water? by\u00a0The\u00a0Dead Weather",
+        "header_image_thumbnail_url": "https://images.genius.com/e3574fc828b4e46bcd327122c3c10dfc.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e3574fc828b4e46bcd327122c3c10dfc.550x550x1.jpg",
+        "id": 692018,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5593635,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1654804250,
+        "path": "/The-dead-weather-will-there-be-enough-water-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/The-dead-weather-will-there-be-enough-water-sample",
+        "release_date_components": {
+            "year": 2009,
+            "month": 7,
+            "day": 14
+        },
+        "release_date_for_display": "July 14, 2009",
+        "release_date_with_abbreviated_month_for_display": "Jul. 14, 2009",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e3574fc828b4e46bcd327122c3c10dfc.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e3574fc828b4e46bcd327122c3c10dfc.550x550x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Will There Be Enough Water?",
+        "title_with_featured": "Will There Be Enough Water?",
+        "updated_by_human_at": 1654804250,
+        "url": "https://genius.com/The-dead-weather-will-there-be-enough-water-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/177586",
+            "header_image_url": "https://images.genius.com/9c8b1bfac0a04664cba8b48231e9bf03.629x202x1.png",
+            "id": 177586,
+            "image_url": "https://images.genius.com/eb684fbf5e26567646638f7ea4f4a297.951x951x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Dead Weather",
+            "slug": "The-dead-weather",
+            "url": "https://genius.com/artists/The-dead-weather"
+        },
+        "artist": "The Dead Weather",
+        "lyrics": "Will There Be Enough Water? Lyrics[Verse 1]\nWill there be enough water when my ship comes in?\nWater when my ship comes in?\nWill there be water when my ship comes in?\n\n[Verse 2]\nAnd when I set sail will there be enough wind?\nAnd when I set sail will there be enough wind?\nAnd when I set sail will there be enough wind?\nCool water,  oh cool wind\n[Verse 3]\nJust because you caught me, does that make it a sin?\nYeah, just because you caught me, does that make it a sin?\nCool water and the cool wind\n\n[Outro]\nEnough water when my ship comes in?\nBe enough water when my ship comes in?\nOh when I set sail will there be enough wind? Yeah\nOh cool water, yeah, and a cool wind\nJust because you caught me, does it make it a sin?\nJust because you caught me, does that make it a sin?You might also like1Embed"
+    }
+}

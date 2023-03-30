@@ -1,0 +1,58 @@
+{
+    "id": "ML14",
+    "mood": "relaxed",
+    "artist": "Van Morrison",
+    "title": "And It Stoned Me",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/693397",
+        "artist_names": "Van Morrison",
+        "full_title": "And It Stoned Me by\u00a0Van\u00a0Morrison",
+        "header_image_thumbnail_url": "https://images.genius.com/e3b5c1807f54d47227ff57ad189b9256.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e3b5c1807f54d47227ff57ad189b9256.1000x1000x1.jpg",
+        "id": 693397,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 327106,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1648710349,
+        "path": "/Van-morrison-and-it-stoned-me-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Van-morrison-and-it-stoned-me-sample",
+        "release_date_components": {
+            "year": 1970,
+            "month": 2,
+            "day": 28
+        },
+        "release_date_for_display": "February 28, 1970",
+        "release_date_with_abbreviated_month_for_display": "Feb. 28, 1970",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e3b5c1807f54d47227ff57ad189b9256.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e3b5c1807f54d47227ff57ad189b9256.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 37012
+        },
+        "title": "And It Stoned Me",
+        "title_with_featured": "And It Stoned Me",
+        "updated_by_human_at": 1648710349,
+        "url": "https://genius.com/Van-morrison-and-it-stoned-me-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/32544",
+            "header_image_url": "https://images.genius.com/2f97270cc1d1420867052a6c331d5820.1000x667x1.jpg",
+            "id": 32544,
+            "image_url": "https://images.genius.com/2f97270cc1d1420867052a6c331d5820.1000x667x1.jpg",
+            "index_character": "v",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Van Morrison",
+            "slug": "Van-morrison",
+            "url": "https://genius.com/artists/Van-morrison"
+        },
+        "artist": "Van Morrison",
+        "lyrics": "And It Stoned Me Lyrics[Verse 1]\nHalf a mile from the county fair\nAnd the rain came pourin' down\nMe and Billy standin' there\nWith a silver half a crown\nHands are full of a fishin' rod\nAnd the tackle on our backs\nWe just stood there gettin' wet\nWith our backs against the fence\n\n[Pre-Chorus]\nOh, the water\nOh, the water\nOh, the water\nHope it don't rain all day\n[Chorus]\nAnd it stoned me to my soul\nStoned me just like Jelly Roll\nAnd it stoned me\nAnd it stoned me to my soul\nStoned me just like goin' home\nAnd it stoned me\n\n[Verse 2]\nAnd the rain let up\nAnd the sun came up\nAnd we were gettin' dry\nAlmost let a pick-up truck\nNearly pass us by\nSo we jumped right in\nAnd the driver grinned\nAnd he dropped us up the road\nAnd we looked at the swim\nAnd we jumped right in\nNot to mention fishing poles\n\n[Pre-Chorus]\nOh, the water\nOh, the water\nOh, the water\nLet it run all over me\nYou might also like[Chorus]\nAnd it stoned me to my soul\nStoned me just like Jelly Roll\nAnd it stoned me\nAnd it stoned me to my soul\nStoned me just like goin' home\nAnd it stoned me\n\n[Instrumental]\n\n[Verse 3]\nOn the way back home\nWe sang a song\nBut our throats were getting dry\nThen we saw the man\nFrom across the road\nWith the sunshine in his eyes\nWell he lived all alone\nIn his own little home\nWith a great big gallon jar\nThere were bottles too\nOne for me and you\nAnd he said \"Hey! There you are\"\n\n[Pre-Chorus]\nOh, the water\nOh, the water\nOh, the water\nGet it myself from the mountain stream\n[Chorus]\nAnd it stoned me to my soul\nStoned me just like Jelly Roll\nAnd it stoned me\nAnd it stoned me to my soul\nStoned me just like goin' home\nAnd it stoned me\nWell it stoned me to my soul\nStoned on me just like Jelly Roll\nAnd it stoned me\nWell it stoned me to my soul\nStoned me just like goin' home\nAnd it stoned meEmbed"
+    }
+}

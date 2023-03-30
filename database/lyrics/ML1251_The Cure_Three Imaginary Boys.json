@@ -1,0 +1,58 @@
+{
+    "id": "ML1251",
+    "mood": "sad",
+    "artist": "The Cure",
+    "title": "Three Imaginary Boys",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/388303",
+        "artist_names": "The Cure",
+        "full_title": "Three Imaginary Boys by\u00a0The\u00a0Cure",
+        "header_image_thumbnail_url": "https://images.genius.com/d676aafddde3494774f6036e2a320717.300x298x1.jpg",
+        "header_image_url": "https://images.genius.com/d676aafddde3494774f6036e2a320717.873x868x1.jpg",
+        "id": 388303,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 396158,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1649945140,
+        "path": "/The-cure-three-imaginary-boys-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/The-cure-three-imaginary-boys-sample",
+        "release_date_components": {
+            "year": 1979,
+            "month": 5,
+            "day": 8
+        },
+        "release_date_for_display": "May 8, 1979",
+        "release_date_with_abbreviated_month_for_display": "May. 8, 1979",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d676aafddde3494774f6036e2a320717.300x298x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d676aafddde3494774f6036e2a320717.873x868x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 16605
+        },
+        "title": "Three Imaginary Boys",
+        "title_with_featured": "Three Imaginary Boys",
+        "updated_by_human_at": 1649945157,
+        "url": "https://genius.com/The-cure-three-imaginary-boys-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/15758",
+            "header_image_url": "https://images.genius.com/cd329cd267a717821150770e9f47e920.1000x600x1.jpg",
+            "id": 15758,
+            "image_url": "https://images.genius.com/a0eeac26e313b49cc558102ed0a5622b.640x640x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Cure",
+            "slug": "The-cure",
+            "url": "https://genius.com/artists/The-cure"
+        },
+        "artist": "The Cure",
+        "lyrics": "Three Imaginary Boys Lyrics[Verse 1]\nWalk across the garden in the footsteps of my shadow\nSee the lights out, no one's home\nIn amongst the statues, stare at nothing, in the garden moves\nCan you help me?\n\n[Chorus]\nClose my eyes and hold so tightly\nScared of what the morning brings\nWaiting for tomorrow, never comes\nDeep inside the empty feeling\nAll the night time leaves me\nThree imaginary boys\n[Verse 2]\nSlipping through the door\nHear my heart beats in the hallway\nEchoes 'round and 'round inside my head\nDrifting up the stairs, I see the steps behind me disappearing\nCan you help me?\n\n[Chorus]\nClose my eyes and hold so tightly\nScared of what the morning brings\nWaiting for tomorrow, never comes\nDeep inside the empty feeling\nAll the night time leaves me\nThree imaginary boys sing in my sleep\nSweet child, the moon will change your mind\n\n[Verse 3]\nSee the cracked reflection standing still before the bedroom mirror\nOver my shoulder, but no one's there\nWhispers in the silence pressing close behind me, pressing close behind\nCan you help me?\n\n[Outro]\nCan you help me?\nCan you help me?\nCan you help me?You might also like3Embed"
+    }
+}

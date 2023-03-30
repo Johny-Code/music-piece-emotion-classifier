@@ -1,0 +1,58 @@
+{
+    "id": "ML373",
+    "mood": "sad",
+    "artist": "New Radicals",
+    "title": "I Don't Wanna Die Anymore",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1383122",
+        "artist_names": "New Radicals",
+        "full_title": "I Don't Wanna Die Anymore by\u00a0New\u00a0Radicals",
+        "header_image_thumbnail_url": "https://images.genius.com/23cc222977b9d0e1165d50266f057968.300x300x1.png",
+        "header_image_url": "https://images.genius.com/23cc222977b9d0e1165d50266f057968.640x640x1.png",
+        "id": 1383122,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3499648,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1619173711,
+        "path": "/New-radicals-i-dont-wanna-die-anymore-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/New-radicals-i-dont-wanna-die-anymore-sample",
+        "release_date_components": {
+            "year": 1998,
+            "month": 10,
+            "day": 16
+        },
+        "release_date_for_display": "October 16, 1998",
+        "release_date_with_abbreviated_month_for_display": "Oct. 16, 1998",
+        "song_art_image_thumbnail_url": "https://images.genius.com/23cc222977b9d0e1165d50266f057968.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/23cc222977b9d0e1165d50266f057968.640x640x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 5590
+        },
+        "title": "I Don\u2019t Wanna Die Anymore",
+        "title_with_featured": "I Don't Wanna Die Anymore",
+        "updated_by_human_at": 1674006474,
+        "url": "https://genius.com/New-radicals-i-dont-wanna-die-anymore-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/31932",
+            "header_image_url": "https://images.genius.com/e1c23e00f464282a897768355da5d6f5.960x540x1.jpg",
+            "id": 31932,
+            "image_url": "https://images.genius.com/e1c23e00f464282a897768355da5d6f5.960x540x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "New Radicals",
+            "slug": "New-radicals",
+            "url": "https://genius.com/artists/New-radicals"
+        },
+        "artist": "New Radicals",
+        "lyrics": "I Don\u2019t Wanna Die Anymore Lyrics[Verse 1]\nTwo months of fun\nTwo years of pain\nAdd it up\nAnd get a life of rain\nNeed to scream\nBut too ashamed\nI'm gonna rain, I'm gonna rain\nYou wanna go, you wanna stay\nYou wanna\nYou really blew my world\nI wanna live, and there's only one way\n[Chorus]\nI don't wanna die anymore\nI want to live it up\nI don't want this high anymore\nBut I can't give it up\nI won't live a lie anymore\nI need to give you up\nWon't you save me?\n\n[Verse 2]\nTwo months of sun\nA life of rain\nAdd it up\nI'm on my own again\nNeed to scream\nI'm so filled with rage\nGonna rain, gonna rain\nYou wanna go, you wanna stay\nYou wanna\nYou really screwed my world\nI gotta live, but you stand in the way\nI'm pullin' out now, uh huh\n\n[Chorus]\nI don't wanna die anymore\nI want to live it up\nDon't want this high anymore\nBut I can't give it up\nI won't live a lie anymore\nI need to give you up\nYou might also like[Bridge]\nOh, oh oh\nOh oh baby, do you think that I was strong?\nOh oh baby, can't you see that you were wrong?\nOh oh honey, do you think that I was strong?\nAh\n\n[Chorus]\nI don't wanna die anymore\nI want to live it up\nI don't want this high anymore\nBut I can't give it up\nI won't live a lie anymore\nI need to give you, give you, give you\nYou got me really going out of my mind\n\n[Outro]\nOh oh baby, do you think that I was strong?\nOh oh honey, can't you see that you were wrong?\nOh oh baby, do you think that I was strong?\nAhh\nOh oh baby, do you think that I was strong?\nOh oh honey, can't you see that you were wrong?\nOh oh baby, can't you see that's all we lost?Embed"
+    }
+}

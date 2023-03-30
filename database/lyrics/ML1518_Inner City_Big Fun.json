@@ -1,0 +1,58 @@
+{
+    "id": "ML1518",
+    "mood": "happy",
+    "artist": "Inner City",
+    "title": "Big Fun",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/986079",
+        "artist_names": "Inner City",
+        "full_title": "Big Fun by\u00a0Inner\u00a0City",
+        "header_image_thumbnail_url": "https://images.genius.com/c83a91284265537967ac8891eda30b39.300x169x1.jpg",
+        "header_image_url": "https://images.genius.com/c83a91284265537967ac8891eda30b39.1000x563x1.jpg",
+        "id": 986079,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2200361,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1564819548,
+        "path": "/Inner-city-big-fun-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Inner-city-big-fun-sample",
+        "release_date_components": {
+            "year": 1988,
+            "month": 9,
+            "day": 21
+        },
+        "release_date_for_display": "September 21, 1988",
+        "release_date_with_abbreviated_month_for_display": "Sep. 21, 1988",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5be80a97ea96040801e2be2a5c97edde.300x288x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5be80a97ea96040801e2be2a5c97edde.300x288x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 5456
+        },
+        "title": "Big Fun",
+        "title_with_featured": "Big Fun",
+        "updated_by_human_at": 1564819994,
+        "url": "https://genius.com/Inner-city-big-fun-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/199548",
+            "header_image_url": "https://images.genius.com/b635b612933bd342fcefa5e248b5b833.595x595x1.jpg",
+            "id": 199548,
+            "image_url": "https://images.genius.com/b635b612933bd342fcefa5e248b5b833.595x595x1.jpg",
+            "index_character": "i",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Inner City",
+            "slug": "Inner-city",
+            "url": "https://genius.com/artists/Inner-city"
+        },
+        "artist": "Inner City",
+        "lyrics": "Big Fun LyricsWe don't really need a crowd to have a party\nJust a funky beat, and you to get it started and oh\nWe'll dance the night away\n\nWe're having big fun\nThe party's just begun, yeah\nWe're having big fun\nBig fun\n\nIt won't take a lot of thought for you to do it\nYou just feel the groove, and baby then you move it and oh\nOh, dance the night away\nWe're having big fun\nThe party's just begun yeah, yeah yeah yeah\nWe're having big fun\nBig fun\n\nI think you're ready, ready, ready\nNow it's time to join the party, baby\nLet's get down into the groove\nIt could make your body move\nOh, oh, tonight\n\nWe're having big fun\nThe party's just begun yeah, yeah yeah yeah\nWe're having big fun\nBig fun\n\nWe're having big fun\nWe're having big fun\nThe party's just begun, yeah\nWe're having big fun\nBig fun\n\nWe're having big fun\nThe party's just begun, yeah\nWe're having big fun\nWe're having big fun...You might also like1Embed"
+    }
+}

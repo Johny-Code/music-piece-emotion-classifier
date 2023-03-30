@@ -1,0 +1,58 @@
+{
+    "id": "ML1854",
+    "mood": "angry",
+    "artist": "The Mars Volta",
+    "title": "Inertiatic Esp",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/85551",
+        "artist_names": "The Mars Volta",
+        "full_title": "Inertiatic ESP by\u00a0The\u00a0Mars Volta",
+        "header_image_thumbnail_url": "https://images.genius.com/0ba4f7dea99b022656058773e3540141.300x300x1.png",
+        "header_image_url": "https://images.genius.com/0ba4f7dea99b022656058773e3540141.877x877x1.png",
+        "id": 85551,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 66760,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1658928904,
+        "path": "/The-mars-volta-inertiatic-esp-lyrics",
+        "pyongs_count": 11,
+        "relationships_index_url": "https://genius.com/The-mars-volta-inertiatic-esp-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 6,
+            "day": 24
+        },
+        "release_date_for_display": "June 24, 2003",
+        "release_date_with_abbreviated_month_for_display": "Jun. 24, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/90d26b9b672ea5f9c9abe270917b793f.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/90d26b9b672ea5f9c9abe270917b793f.877x877x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 70840
+        },
+        "title": "Inertiatic ESP",
+        "title_with_featured": "Inertiatic ESP",
+        "updated_by_human_at": 1660317207,
+        "url": "https://genius.com/The-mars-volta-inertiatic-esp-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/6427",
+            "header_image_url": "https://images.genius.com/e23e47747d29837a84d64e6f20095fc5.975x180x1.png",
+            "id": 6427,
+            "image_url": "https://images.genius.com/f734389be86f43f78f73c2333141205b.500x500x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Mars Volta",
+            "slug": "The-mars-volta",
+            "url": "https://genius.com/artists/The-mars-volta"
+        },
+        "artist": "The Mars Volta",
+        "lyrics": "Inertiatic ESP Lyrics[Chorus]\nNow I'm lost\nNow I'm lost\nNow I'm lost\nNow I'm lost\n\n[Verse 1]\nLast night I heard lepers\nFlinch like birth defects\nIts musk was fecal in origin\nAs the words dribbled off of its chin (Chin)\nIt said \"I'm lost, I'm lost\"\n[Chorus]\nNow I'm lost\nNow I'm lost\nNow I'm lost\nNow I'm lost\nNow I'm lost\nNow I'm lost\n\n[Verse 2]\nDolls wreck the minced meat of pupils\nCast in oblong arms length\nThe hooks have been picking their scabs\nWhere wolves hide in the company of men\nIt said \"I'm lost, I'm lost\"\n\n[Chorus]\nNow I'm lost\nNow I'm lost\nNow I'm lost\nNow I'm lost\nNow I'm lost\nNow I'm lost\n\n[Bridge]\nAre you peaking in the red?\nPerforated at the neck\nWhat of this mongrel architect?\nA broken arm of sewers set\nPast, present, and future tense\nClipside of the pink-eyed fountain\nWhat of this mongrel architect?\nA broken arm of sewers set\nPast, present, and future tense\nClipside of the pink-eyed fountain\nYou might also like[Chorus]\nNow I'm lost\nNow I'm lost\nNow I'm lost\nNow I'm lost\n\n[Outro]\nIt's been said, long time ago\nYou'll be the first and last to know\nAh, you'll never know\nAh, you'll never know\nYou'll never know\nYou'll never know11Embed"
+    }
+}

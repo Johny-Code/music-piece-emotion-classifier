@@ -1,0 +1,58 @@
+{
+    "id": "ML452",
+    "mood": "happy",
+    "artist": "\"Weird Al\" Yankovic",
+    "title": "Christmas At Ground Zero",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/483911",
+        "artist_names": "\"Weird Al\" Yankovic",
+        "full_title": "Christmas at Ground Zero by\u00a0\"Weird\u00a0Al\" Yankovic",
+        "header_image_thumbnail_url": "https://images.rapgenius.com/38e88e189ef24e16b66747aa7650fdfa.300x296x1.jpg",
+        "header_image_url": "https://images.rapgenius.com/38e88e189ef24e16b66747aa7650fdfa.500x494x1.jpg",
+        "id": 483911,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 270557,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1626416945,
+        "path": "/Weird-al-yankovic-christmas-at-ground-zero-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Weird-al-yankovic-christmas-at-ground-zero-sample",
+        "release_date_components": {
+            "year": 1986,
+            "month": 10,
+            "day": 21
+        },
+        "release_date_for_display": "October 21, 1986",
+        "release_date_with_abbreviated_month_for_display": "Oct. 21, 1986",
+        "song_art_image_thumbnail_url": "https://images.genius.com/7abd0d662c638b3f39dfcb78b777e255.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/7abd0d662c638b3f39dfcb78b777e255.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 7902
+        },
+        "title": "Christmas at Ground Zero",
+        "title_with_featured": "Christmas at Ground Zero",
+        "updated_by_human_at": 1671787534,
+        "url": "https://genius.com/Weird-al-yankovic-christmas-at-ground-zero-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/899",
+            "header_image_url": "https://images.genius.com/f49f3174729ee32fcd17017a68b4acd4.1000x665x1.webp",
+            "id": 899,
+            "image_url": "https://images.genius.com/f0f694679171179c6c7cc0ede1204f12.1000x1000x1.jpg",
+            "index_character": "w",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "\u201cWeird Al\u201d Yankovic",
+            "slug": "Weird-al-yankovic",
+            "url": "https://genius.com/artists/Weird-al-yankovic"
+        },
+        "artist": "\u201cWeird Al\u201d Yankovic",
+        "lyrics": "Christmas at Ground Zero Lyrics[Verse 1]\nIt's Christmas at ground zero\nThere's music in the air\nThe sleigh bells are ringing, and the carolers are singing\nWhile the air-raid sirens blare\n\n[Verse 2]\nIt's Christmas at ground zero\nThe button has been pressed\nThe radio just let us know\nThat this is not a test\n[Chorus 1]\nEverywhere the atom bombs are dropping\nIt's the end of all humanity\nNo more time for last-minute shopping\nIt's time to face your final destiny\n\n[Verse 3]\n'Cause it's Christmas at ground zero\nThere's panic in the crowd\nWe can dodge debris while we trim the tree\nUnderneath the mushroom cloud\n\n[Instrumental Interlude]\n\n[Chorus 2]\nYou might hear some reindeer on your rooftop\nOr Jack Frost on your windowsill\nBut if someone's climbing down your chimney\nYou better load your gun and shoot to kill\n\n[Verse 4]\nOh, it's Christmas at ground zero\nAnd if the radiation level's okay\nI'll go out with you and see all the new\nMutations on New Year's Day\nYou might also like[Verse 5]\nIt's Christmas at ground zero\nJust seconds left to go\nI'll duck and cover with my Yuletide lover\nUnderneath the mistletoe\n\n[Verse 6]\nIt's Christmas at ground zero\nNow the missiles are on their way\nWhat a crazy fluke, we're gonna get nuked\nOn this jolly holiday\nWhat a crazy fluke, we're gonna get nuked\nOn this jolly holidayEmbed"
+    }
+}

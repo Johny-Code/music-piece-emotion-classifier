@@ -1,0 +1,59 @@
+{
+    "id": "ML1082",
+    "mood": "sad",
+    "artist": "Bright Eyes",
+    "title": "A Perfect Sonnet",
+    "song": {
+        "_type": "song",
+        "annotation_count": 16,
+        "api_path": "/songs/705696",
+        "artist_names": "Bright Eyes",
+        "full_title": "A Perfect Sonnet by\u00a0Bright\u00a0Eyes",
+        "header_image_thumbnail_url": "https://images.genius.com/f624bb4a8ecd221c540a3141c4585fb7.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/f624bb4a8ecd221c540a3141c4585fb7.375x375x1.jpg",
+        "id": 705696,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 389740,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1652763999,
+        "path": "/Bright-eyes-a-perfect-sonnet-lyrics",
+        "pyongs_count": 5,
+        "relationships_index_url": "https://genius.com/Bright-eyes-a-perfect-sonnet-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 11,
+            "day": 1
+        },
+        "release_date_for_display": "November 1, 1999",
+        "release_date_with_abbreviated_month_for_display": "Nov. 1, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/f624bb4a8ecd221c540a3141c4585fb7.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f624bb4a8ecd221c540a3141c4585fb7.375x375x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 9,
+            "hot": false,
+            "pageviews": 18372
+        },
+        "title": "A Perfect Sonnet",
+        "title_with_featured": "A Perfect Sonnet",
+        "updated_by_human_at": 1652763999,
+        "url": "https://genius.com/Bright-eyes-a-perfect-sonnet-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/8750",
+            "header_image_url": "https://images.genius.com/30a3684858c241659f70a7cc414617a4.975x140x1.png",
+            "id": 8750,
+            "image_url": "https://images.genius.com/c143e05ffd2366e7d78027875c8834b5.681x681x1.png",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Bright Eyes",
+            "slug": "Bright-eyes",
+            "url": "https://genius.com/artists/Bright-eyes",
+            "iq": 100
+        },
+        "artist": "Bright Eyes",
+        "lyrics": "A Perfect Sonnet Lyrics[Verse 1]\nLately I've been wishing I had one desire\nSomething that would make me never want another\nSomething that would make it so that nothing mattered\nAll would be clear then\nBut I guess I'll have to settle for a few brief moments\nAnd watch it all dissolve into a single second\nAnd try to write it down into a perfect sonnet\nOr one foolish line\n\nCause that's all that you'll get so you'll have to accept\nYou are here then you're gone\nBut I believe that lovers should be tied together\nThrown into the ocean in the worst of weather\nAnd left there to drown\nLeft there to drown in their innocence\nBut as for me I'm coming to the final chapter\nI read all of the pages and there is still no answer\nOnly all that was before I know must soon come after\nThat is the only way it can be\n\n[Bridge]\nSo I stand in the sun\nAnd I breathe with my lungs\nI'm trying to spare me the weight of the truth\n\n[Verse 2]\nSaying everything you've ever seen was just a mirror\nSpent your whole life sweating in an endless fever\nAnd now you're laying in a bathtub full of freezing water\nWishing you were a ghost\nBut once you knew a girl and you named her Lover\nDanced with her in kitchens through the greenest summer\nAutumn came, she disappeared\nYou can't remember where she said she was going to\nBut you know that she's gone cause she left you a song\nThat you don't want to sing\nSinging I believe that lovers should be chained together\nThrown into a fire with their songs and letters\nAnd left there to burn\nLeft there to burn in their arrogance\nYou might also likeBut as for me I'm coming to my final failure\nKilled myself with changes trying to make things better\nEnded up becoming something other than what I had planned to be\nNow I believe that lovers should be draped in flowers\nAnd laid entwined together on a bed of clover\nAnd left there to sleep\nLeft there to dream of their happiness5Embed"
+    }
+}

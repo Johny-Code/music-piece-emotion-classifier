@@ -1,0 +1,58 @@
+{
+    "id": "ML752",
+    "mood": "angry",
+    "artist": "Sick Puppies",
+    "title": "You're Going Down",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/367494",
+        "artist_names": "Sick Puppies",
+        "full_title": "You're Going Down by\u00a0Sick\u00a0Puppies",
+        "header_image_thumbnail_url": "https://images.genius.com/fecc79169e614b687074fff4715d2152.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/fecc79169e614b687074fff4715d2152.1000x1000x1.jpg",
+        "id": 367494,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 118758,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1634532604,
+        "path": "/Sick-puppies-youre-going-down-lyrics",
+        "pyongs_count": 13,
+        "relationships_index_url": "https://genius.com/Sick-puppies-youre-going-down-sample",
+        "release_date_components": {
+            "year": 2009,
+            "month": 7,
+            "day": 14
+        },
+        "release_date_for_display": "July 14, 2009",
+        "release_date_with_abbreviated_month_for_display": "Jul. 14, 2009",
+        "song_art_image_thumbnail_url": "https://images.genius.com/fecc79169e614b687074fff4715d2152.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/fecc79169e614b687074fff4715d2152.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 39764
+        },
+        "title": "You\u2019re Going Down",
+        "title_with_featured": "You're Going Down",
+        "updated_by_human_at": 1634532604,
+        "url": "https://genius.com/Sick-puppies-youre-going-down-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/23622",
+            "header_image_url": "https://images.genius.com/936e2168de6f2e481297813da41b89f4.1000x1000x1.jpg",
+            "id": 23622,
+            "image_url": "https://images.genius.com/936e2168de6f2e481297813da41b89f4.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Sick Puppies",
+            "slug": "Sick-puppies",
+            "url": "https://genius.com/artists/Sick-puppies"
+        },
+        "artist": "Sick Puppies",
+        "lyrics": "You\u2019re Going Down Lyrics[Verse 1]\nDefine your meanin' of war\nTo me it's what we do when we're bored\nI feel the heat comin' off of the blacktop\nAnd it makes me want it more\nBecause I'm hyped up, out of control\nIf it's a fight, I'm ready to go\nI wouldn't put my money on the other guy\nIf you know what I know that I know\n\n[Chorus]\nIt's been a long time comin'\nAnd the tables turned around\n'Cause one of us is goin'\nOne of us is goin' down\nI'm not runnin'\nIt's a little different now\n'Cause one of us is goin'\nOne of us is goin' down\n[Verse 2]\nDefine your meanin' of fun\nIs it fuckin', druggin' or guns?\nI feel the heat comin' off of the blacktop\nSo get ready for another one\nLet's take a trip down memory lane\nThe words circlin' in my brain\nYou can treat this like another all the same\nBut don't cry like a bitch when you feel the pain\n\n[Chorus]\nIt's been a long time comin'\nAnd the tables turned around\n'Cause one of us is going\nOne of us is goin' down\nI'm not runnin'\nIt's a little different now\n'Cause one of us is goin'\nOne of us is goin' down\n\n[Bridge]\nThis is hardly worth fightin' for\nBut it's the little petty shit that I can't ignore\nWhen my fist hits your face and your face hits the floor\nIt'll be a long time comin'\nBut you got the message now\n'Cause I was never goin'\nYeah, you're the one that's goin' down\nYou might also like[Outro]\nOne of us is goin' down\nI'm not running\nIt's a little different now\n'Cause one of us is goin'\nOne of us is going dow'\nOne of us is going dow'\nDown13Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML666",
+    "mood": "sad",
+    "artist": "Burzum",
+    "title": "Dunkelheit",
+    "song": {
+        "_type": "song",
+        "annotation_count": 11,
+        "api_path": "/songs/3295714",
+        "artist_names": "Burzum",
+        "full_title": "Dunkelheit / Burzum by\u00a0Burzum",
+        "header_image_thumbnail_url": "https://images.genius.com/5fa125639768dbda3a8fb5d625e9e915.300x548x1.jpg",
+        "header_image_url": "https://images.genius.com/5fa125639768dbda3a8fb5d625e9e915.323x590x1.jpg",
+        "id": 3295714,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 265927,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1652424890,
+        "path": "/Burzum-dunkelheit-burzum-lyrics",
+        "pyongs_count": 16,
+        "relationships_index_url": "https://genius.com/Burzum-dunkelheit-burzum-sample",
+        "release_date_components": {
+            "year": 1996,
+            "month": 1,
+            "day": 1
+        },
+        "release_date_for_display": "January 1, 1996",
+        "release_date_with_abbreviated_month_for_display": "Jan. 1, 1996",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5fa125639768dbda3a8fb5d625e9e915.300x548x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5fa125639768dbda3a8fb5d625e9e915.323x590x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 11,
+            "hot": false,
+            "pageviews": 74095
+        },
+        "title": "Dunkelheit / Burzum",
+        "title_with_featured": "Dunkelheit / Burzum",
+        "updated_by_human_at": 1676111605,
+        "url": "https://genius.com/Burzum-dunkelheit-burzum-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/153511",
+            "header_image_url": "https://images.genius.com/732e716a0fb63ab8f2d0a8a223e480bb.1000x528x1.png",
+            "id": 153511,
+            "image_url": "https://images.genius.com/65bb91c5270bd258faa769e1177c2735.1000x1000x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Burzum",
+            "slug": "Burzum",
+            "url": "https://genius.com/artists/Burzum"
+        },
+        "artist": "Burzum",
+        "lyrics": "Dunkelheit / Burzum LyricsWhen night falls\nShe cloaks the world\nIn impenetrable darkness\nA chill rises\nFrom the soil\nAnd contaminates the air\n\nSuddenly...\nLife has new meaning\nWhen night falls\nShe cloaks the world\nIn impenetrable darkness\nA chill rises from the soil\nAnd contaminates the air\nWhen night falls\nShe cloaks the world\nIn impenetrable darkness\nA chill rises from the soil\nAnd contaminates the air\nSuddenly life has new meaning\n\nLife has new meaning\nMeaningYou might also like16Embed"
+    }
+}

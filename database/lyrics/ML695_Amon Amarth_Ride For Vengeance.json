@@ -1,0 +1,57 @@
+{
+    "id": "ML695",
+    "mood": "angry",
+    "artist": "Amon Amarth",
+    "title": "Ride For Vengeance",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/771233",
+        "artist_names": "Amon Amarth",
+        "full_title": "Ride for Vengeance by\u00a0Amon\u00a0Amarth",
+        "header_image_thumbnail_url": "https://images.genius.com/b74f92073ea411747b70d6ff7fa676ab.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b74f92073ea411747b70d6ff7fa676ab.500x500x1.jpg",
+        "id": 771233,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1485547535,
+        "path": "/Amon-amarth-ride-for-vengeance-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Amon-amarth-ride-for-vengeance-sample",
+        "release_date_components": {
+            "year": 1998,
+            "month": 2,
+            "day": 10
+        },
+        "release_date_for_display": "February 10, 1998",
+        "release_date_with_abbreviated_month_for_display": "Feb. 10, 1998",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b74f92073ea411747b70d6ff7fa676ab.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b74f92073ea411747b70d6ff7fa676ab.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false
+        },
+        "title": "Ride for Vengeance",
+        "title_with_featured": "Ride for Vengeance",
+        "updated_by_human_at": 1626233340,
+        "url": "https://genius.com/Amon-amarth-ride-for-vengeance-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/54783",
+            "header_image_url": "https://images.genius.com/0795ee7a2ce1eb3ac1fef315379eabf9.700x310x1.png",
+            "id": 54783,
+            "image_url": "https://images.genius.com/a4b46cf87246ea927f884d788ac24e8b.804x804x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Amon Amarth",
+            "slug": "Amon-amarth",
+            "url": "https://genius.com/artists/Amon-amarth"
+        },
+        "artist": "Amon Amarth",
+        "lyrics": "Ride for Vengeance LyricsAs His Life's blood leaving\nI hold my son, my only son\nAnd tears fill my burning eyes\n\nWhile his skin turns pale as snow\nButchered he lies here bleeding in my arms\nSlewn by the men of the single god\nHatred burns in my chest\n\nRain falls from a raging heaven\nThe wind howls like wolves at the moon\nI will seek my vengeance for my son\nI swear I'll avenge my first born one\nI ride fast through the woods\nMy friends are by my side\nDark Hatred burns in my eyes\n\"Slaves of hvitekrist today you die!\"\n\"Maktiga gudar\nI gyllene salen\nHjalp mig i striden\nMot sondraparna\nDen hoge skall\nFor huggen hamnas\nOch blod skall galdas\nI blod\"\n\nOur cloaks fly in the wind\nAs we ride in the cold dark night\nWe're closing in our enemies\nWe rage in our hearts burning bright\n\nThe clouds scatter in the northern wind\nA full moon rides the pitch black sky\n\"Now, hounds of Hvitekrist\nYour time has come to die!\"\n\n\"Kneel before my sword!\nNo mercy! Your time has come to die!\nThis is the ride for vengeance!\"You might also likeEmbed"
+    }
+}

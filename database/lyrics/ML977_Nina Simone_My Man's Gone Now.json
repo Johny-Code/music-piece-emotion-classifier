@@ -1,0 +1,57 @@
+{
+    "id": "ML977",
+    "mood": "sad",
+    "artist": "Nina Simone",
+    "title": "My Man's Gone Now",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1650680",
+        "artist_names": "Nina Simone",
+        "full_title": "My Man's Gone Now by\u00a0Nina\u00a0Simone",
+        "header_image_thumbnail_url": "https://images.genius.com/f12a22e4a912f598272bd6b9a4e13165.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/f12a22e4a912f598272bd6b9a4e13165.1000x1000x1.jpg",
+        "id": 1650680,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 458792,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1645734734,
+        "path": "/Nina-simone-my-mans-gone-now-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Nina-simone-my-mans-gone-now-sample",
+        "release_date_components": {
+            "year": 1967,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1967",
+        "release_date_with_abbreviated_month_for_display": "1967",
+        "song_art_image_thumbnail_url": "https://images.genius.com/f12a22e4a912f598272bd6b9a4e13165.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f12a22e4a912f598272bd6b9a4e13165.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "My Man\u2019s Gone Now",
+        "title_with_featured": "My Man's Gone Now",
+        "updated_by_human_at": 1670750209,
+        "url": "https://genius.com/Nina-simone-my-mans-gone-now-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/8372",
+            "header_image_url": "https://images.genius.com/07473721851cdfe667d9e99b83e6c2bf.990x500x1.jpg",
+            "id": 8372,
+            "image_url": "https://images.genius.com/3ac77ceb774373386af9f11d2d2b6bc9.511x594x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Nina Simone",
+            "slug": "Nina-simone",
+            "url": "https://genius.com/artists/Nina-simone"
+        },
+        "artist": "Nina Simone",
+        "lyrics": "My Man\u2019s Gone Now Lyrics[Verse 1]\nMy man's gone now\nAin't no use a-listenin'\nFor his tired footsteps\nClimbin' up the stairs\n\n[Verse 2]\nOld man sorrow's\nCome to keep me company\nWhisperin' beside me\nWhen I say my prayers\nWhen I say my prayers\n[Verse 3]\nHe come around\nHe come up\nHe come around\nAin't that I mind workin'\nWorkin' means travelers\nJourneyin' together\nTo the promise land\n\n[Verse 4]\nBut old man sorrow\nMountin' all the way with me\nTellin' me that I'm old now\nSince I lose my man\nSince I lose my man\n\n[Outro]\nSince I lose my manYou might also likeEmbed"
+    }
+}

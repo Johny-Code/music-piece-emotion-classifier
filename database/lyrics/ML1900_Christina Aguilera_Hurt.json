@@ -1,0 +1,60 @@
+{
+    "id": "ML1900",
+    "mood": "angry",
+    "artist": "Christina Aguilera",
+    "title": "Hurt",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/204987",
+        "artist_names": "Christina Aguilera",
+        "full_title": "Hurt by\u00a0Christina\u00a0Aguilera",
+        "header_image_thumbnail_url": "https://images.genius.com/2415d7f0a0985119e777a0d32c2d3f30.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2415d7f0a0985119e777a0d32c2d3f30.1000x1000x1.jpg",
+        "id": 204987,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 225680,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675775284,
+        "path": "/Christina-aguilera-hurt-lyrics",
+        "pyongs_count": 49,
+        "relationships_index_url": "https://genius.com/Christina-aguilera-hurt-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 9,
+            "day": 19
+        },
+        "release_date_for_display": "September 19, 2006",
+        "release_date_with_abbreviated_month_for_display": "Sep. 19, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/9fb41d3b5c911f26028105d6b33547f2.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/9fb41d3b5c911f26028105d6b33547f2.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "concurrents": 2,
+            "hot": false,
+            "pageviews": 305679
+        },
+        "title": "Hurt",
+        "title_with_featured": "Hurt",
+        "updated_by_human_at": 1675775284,
+        "url": "https://genius.com/Christina-aguilera-hurt-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1211",
+            "header_image_url": "https://images.genius.com/58efea3ee217eac7ea7a76563ee9edd3.1000x333x1.jpg",
+            "id": 1211,
+            "image_url": "https://images.genius.com/f72345df98b6937ea8a111daa5767739.400x400x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Christina Aguilera",
+            "slug": "Christina-aguilera",
+            "url": "https://genius.com/artists/Christina-aguilera",
+            "iq": 478
+        },
+        "artist": "Christina Aguilera",
+        "lyrics": "Hurt Lyrics[Verse 1]\nSeems like it was yesterday when I saw your face\nYou told me how proud you were, but I walked away\nIf only I knew what I know today\nOoh, ooh\n\n[Pre-Chorus]\nI would hold you in my arms\nI would take the pain away\nThank you for all you've done\nForgive all your mistakes\nThere's nothing I wouldn't do\nTo hear your voice again\nSometimes I wanna call you\nBut I know you won't be there\n[Chorus]\nOh, I'm sorry for blaming you\nFor everything I just couldn't do\nAnd I've hurt myself by hurting you\n\n[Verse 2]\nSome days I feel broke inside, but I won't admit\nSometimes I just wanna hide 'cause it's you I miss\nAnd it's so hard to say goodbye when it comes to this\nOoh-ooh-ooh-ooh, ooh, ah\n\n[Pre-Chorus]\nWould you tell me I was wrong?\nWould you help me understand?\nAre you lookin' down upon me?\nAre you proud of who I am?\nThere's nothing I wouldn't do\nTo have just one more chance\nTo look into your eyes\nAnd see you looking back\n\n[Chorus]\nOh, I'm sorry for blaming you\nFor everything I just couldn't do\nAnd I've hurt myself\nOh, oh\nYou might also like[Bridge]\nIf I had just one more day\nI would tell you how much that I've missed you since you've been away\nOh, it's dangerous\nIt's so out of line\nTo try and turn back time\n\n[Chorus]\nI'm sorry for blaming you\nFor everything I just couldn't do\nAnd I've hurt myself\nBy hurting you49Embed"
+    }
+}

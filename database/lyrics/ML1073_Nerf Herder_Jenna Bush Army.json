@@ -1,0 +1,57 @@
+{
+    "id": "ML1073",
+    "mood": "happy",
+    "artist": "Nerf Herder",
+    "title": "Jenna Bush Army",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1653131",
+        "artist_names": "Nerf Herder",
+        "full_title": "Jenna Bush Army by\u00a0Nerf\u00a0Herder",
+        "header_image_thumbnail_url": "https://images.genius.com/e580f8707996b5ce13baf157481ad5d4.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e580f8707996b5ce13baf157481ad5d4.1000x1000x1.jpg",
+        "id": 1653131,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1610604993,
+        "path": "/Nerf-herder-jenna-bush-army-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Nerf-herder-jenna-bush-army-sample",
+        "release_date_components": {
+            "year": 2002,
+            "month": 8,
+            "day": 13
+        },
+        "release_date_for_display": "August 13, 2002",
+        "release_date_with_abbreviated_month_for_display": "Aug. 13, 2002",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e580f8707996b5ce13baf157481ad5d4.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e580f8707996b5ce13baf157481ad5d4.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Jenna Bush Army",
+        "title_with_featured": "Jenna Bush Army",
+        "updated_by_human_at": 1629737276,
+        "url": "https://genius.com/Nerf-herder-jenna-bush-army-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/184143",
+            "header_image_url": "https://images.genius.com/9d3e3ba8b9870c57e1aa5b1341ec7b7c.1000x792x1.jpg",
+            "id": 184143,
+            "image_url": "https://images.genius.com/2aeedff42c948b382b4ea21044789fbd.1000x1000x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Nerf Herder",
+            "slug": "Nerf-herder",
+            "url": "https://genius.com/artists/Nerf-herder"
+        },
+        "artist": "Nerf Herder",
+        "lyrics": "Jenna Bush Army LyricsThere's a new leader in the land\nWith a platform I understand\nI saw her face in the magazine\nShe looks hot in her tight jeans\n\nKeep marching on\nSolider of love\nJenna Bush army\n(You can't stop her)\nJenna Bush army\nShe's got the brains and the looks that kill\nWant to see her butt on a ten dollar bill\nReady your vote for her ballot box\nYou've got to admit it, she's a fox\n\nKeep marching on\nSoldier of love\nJenna Bush army\n(You can't stop her)\nJenna Bush army\n\nI don't care who blows up the world\nI only care about that girl\nMen of America, storm the election\nWhen in doubt, follow your erection\nCall up your congressman and I say, quote\n\"Sir, I'm horny and I vote\"\nCome ye, rally 'round the flag\nIf you don't like her, you must be a fag\n\nJenna Bush army\nJenna Bush army\nJenna BushYou might also likeEmbed"
+    }
+}

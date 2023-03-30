@@ -1,0 +1,73 @@
+{
+    "id": "ML676",
+    "mood": "happy",
+    "artist": "Justin Timberlake",
+    "title": "Like I Love You",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/32546",
+        "artist_names": "Justin Timberlake (Ft. Clipse)",
+        "full_title": "Like I Love You by\u00a0Justin\u00a0Timberlake (Ft.\u00a0Clipse)",
+        "header_image_thumbnail_url": "https://images.genius.com/1b2b8a9f9569edcc3f710e5cdf22e26d.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1b2b8a9f9569edcc3f710e5cdf22e26d.1000x1000x1.jpg",
+        "id": 32546,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 50,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1666330943,
+        "path": "/Justin-timberlake-like-i-love-you-lyrics",
+        "pyongs_count": 12,
+        "relationships_index_url": "https://genius.com/Justin-timberlake-like-i-love-you-sample",
+        "release_date_components": {
+            "year": 2002,
+            "month": 8,
+            "day": 26
+        },
+        "release_date_for_display": "August 26, 2002",
+        "release_date_with_abbreviated_month_for_display": "Aug. 26, 2002",
+        "song_art_image_thumbnail_url": "https://images.genius.com/af2d306571b0317cf98ec59b4d298ede.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/af2d306571b0317cf98ec59b4d298ede.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 109563
+        },
+        "title": "Like I Love You",
+        "title_with_featured": "Like I Love You (Ft.\u00a0Clipse)",
+        "updated_by_human_at": 1666330950,
+        "url": "https://genius.com/Justin-timberlake-like-i-love-you-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/5",
+                "header_image_url": "https://images.genius.com/449264375459f5d5c793634340c167fb.617x409x1.jpg",
+                "id": 5,
+                "image_url": "https://images.genius.com/6d9b19d023bc1a4aaf747cabf6d78531.467x467x1.jpg",
+                "index_character": "c",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "Clipse",
+                "slug": "Clipse",
+                "url": "https://genius.com/artists/Clipse"
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/334",
+            "header_image_url": "https://images.genius.com/aa6dfaa347c15f7c3b5a4c768beb5465.1000x563x1.jpg",
+            "id": 334,
+            "image_url": "https://images.genius.com/d33775ee78f5b76308d1e024eb2c5867.1000x1000x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Justin Timberlake",
+            "slug": "Justin-timberlake",
+            "url": "https://genius.com/artists/Justin-timberlake",
+            "iq": 567
+        },
+        "artist": "Justin Timberlake",
+        "lyrics": "Like I Love You Lyrics[Intro: Justin Timberlake]\nJust somethin' about you\nWay I'm lookin' at you, whatever\nKeep lookin' at me\nGettin' scared now, right?\nDon't fail me, baby\nIt's just Justin\nYou feel good, right?\nListen\n\n[Verse 1: Justin Timberlake]\nI kinda noticed somethin' wasn't right\nFrom your colorful face\nIt's kinda weird to me since you're so fine\nIf it's up to me, your face will change\n[Pre-Chorus: Justin Timberlake]\nIf you smile, then that should set the tone\nJust be limber\nAnd if you let go, the music should move your bones\nJust remember\nSing a song with me\n\n[Chorus: Justin Timberlake]\nCan't nobody love you like I love you\nYou're a good girl and that's what makes me trust ya (Hey!)\nLate at night, I talk to you\nYou will know the difference when I touch you\n\n[Verse 2: Justin Timberlake]\nSee, people are so phony\nNosy 'cause they're lonely\nAren't you sick of the same thing? (Thing, thing)\nThey say so and so was datin'\nLove you or they're hatin'\nWhen it doesn't matter anyway\n'Cause we're here tonight\n\n[Pre-Chorus: Justin Timberlake]\nIf you smile, then that should set the tone\nJust be limber, baby\nAnd if you let go, the music should move your bones\nBaby, just remember\nSing a song with me\nYou might also like[Chorus: Justin Timberlake]\nCan't nobody love you like I love you\nYou're a good girl and that's what makes me trust ya (Hey)\nLate at night, I talk to you\nYou will know the difference when I touch you\n\n[Interlude: Justin Timberlake]\nYeah, you know I can make you happy\nI could change your life\nIf you give me that chance to be your man\nI won't let you down, baby\nIf you give me that chance to be your man\nHere, baby, put on my jacket\nAnd then\n\n[Bridge: Justin Timberlake]\nMaybe we'll fly the night away (I just wanna love you, baby)\nGirl (Yeah, yeah, yeah)\nMaybe we'll fly the night away (I just wanna love you, baby)\nGirl (Ooh)\n\n[Verse 3: Pusha T, Malice, (Justin Timberlake)]\nMa, whatchu wanna do? I'm in front of you\nGrab a friend, see? I can have fun with two\nOr me and you put on a stage show\nIn the mall, kids ask, \"How'd the chain glow?\"\nPoint to her, they say, \"Wow, it's the same glow\"\nPoint to me, I say, \"Yeah, it's the same dough\"\nWe the same type, you my a-like (Yeah)\nYou have me sleepin' in the same bed every night\nGo ride with me, you deservin' the best\nTake a few shots, let it burn in your chest\nWe could ride down, pumpin' N.E.R.D. in the deck\nFunny how a few words turn into sex\nPlay number three, joint called \"Brain\" (I just love your, brain)\nMa, took a hint, make me swerve in the lane\nThe name Malicious and I burn every track\nClipse and J. Timberlake, now how heavy is that?\n[Bridge: Justin Timberlake]\nMaybe we'll fly the night away (I just wanna love you, baby)\nGirl (Yeah, yeah, yeah)\nMaybe we'll fly the night away (I just wanna love you, baby)\nGirl\nHo\n\n[Chorus: Justin Timberlake]\nCan't nobody love you like I love you (Can't love you like I do)\nYou're a good girl and that's what makes me trust you (Makes me trust you like I do) (Hey!)\nLate at night, I talk to you (Hey)\nYou will know the difference when I\u2014\nBreak it down\n\n[Outro: Justin Timberlake]\nYou know, I used to dream about this when I was a little boy\nI never thought it would end up this way, drums (Hey)\nIt's kind of special, right? Yeah\nYou know, you think about it\nSometimes, people just destined\nDestined to do what they do\nAnd that's what it is\nNow, everybody dance12Embed"
+    }
+}

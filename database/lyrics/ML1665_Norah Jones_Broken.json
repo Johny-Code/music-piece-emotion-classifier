@@ -1,0 +1,57 @@
+{
+    "id": "ML1665",
+    "mood": "relaxed",
+    "artist": "Norah Jones",
+    "title": "Broken",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1391278",
+        "artist_names": "Norah Jones",
+        "full_title": "Broken by\u00a0Norah\u00a0Jones",
+        "header_image_thumbnail_url": "https://images.genius.com/a7d57498641ad892016d0f776eb1a88d.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/a7d57498641ad892016d0f776eb1a88d.1000x1000x1.jpg",
+        "id": 1391278,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1168310,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1596171506,
+        "path": "/Norah-jones-broken-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Norah-jones-broken-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 1,
+            "day": 30
+        },
+        "release_date_for_display": "January 30, 2007",
+        "release_date_with_abbreviated_month_for_display": "Jan. 30, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a7d57498641ad892016d0f776eb1a88d.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a7d57498641ad892016d0f776eb1a88d.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Broken",
+        "title_with_featured": "Broken",
+        "updated_by_human_at": 1596171506,
+        "url": "https://genius.com/Norah-jones-broken-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1447",
+            "header_image_url": "https://images.genius.com/09dd8d430d8cd258eca8cf333fa5a45f.1000x304x1.jpg",
+            "id": 1447,
+            "image_url": "https://images.genius.com/825876b92916dbc22f1fead47c8bbfe9.647x647x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Norah Jones",
+            "slug": "Norah-jones",
+            "url": "https://genius.com/artists/Norah-jones"
+        },
+        "artist": "Norah Jones",
+        "lyrics": "Broken LyricsHe's got a broken voice and a twisted smile\nGuess he's been that way now for quite a while\nHe's got blood on his shoes and mud on his brim\nDid he do it to himself or was it done to him?\n\nNow people say that he don't look well\nBut all he needs, from what I can tell\nIs someone to help wash away all the paint\nFrom his purple hands before it gets too late\n\nI saw him stand alone under a broken streetlight\nSo sincere, singing \"Silent Night\"\nBut the trees, they were full and the grass was green\nIt was the sweetest thing I had ever seen\nHe may move slow\nBut that don't mean he's going nowhere\nHe may be moving slow\nBut that don't mean he's going nowhereYou might also likeEmbed"
+    }
+}

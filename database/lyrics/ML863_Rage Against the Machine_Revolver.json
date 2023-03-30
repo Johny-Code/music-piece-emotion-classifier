@@ -1,0 +1,58 @@
+{
+    "id": "ML863",
+    "mood": "angry",
+    "artist": "Rage Against the Machine",
+    "title": "Revolver",
+    "song": {
+        "_type": "song",
+        "annotation_count": 11,
+        "api_path": "/songs/39696",
+        "artist_names": "Rage Against the Machine",
+        "full_title": "Revolver by\u00a0Rage\u00a0Against the Machine",
+        "header_image_thumbnail_url": "https://images.genius.com/754bd0130865da8240d3062d7393b6a2.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/754bd0130865da8240d3062d7393b6a2.1000x1000x1.jpg",
+        "id": 39696,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 50,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1677852778,
+        "path": "/Rage-against-the-machine-revolver-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Rage-against-the-machine-revolver-sample",
+        "release_date_components": {
+            "year": 1996,
+            "month": 4,
+            "day": 16
+        },
+        "release_date_for_display": "April 16, 1996",
+        "release_date_with_abbreviated_month_for_display": "Apr. 16, 1996",
+        "song_art_image_thumbnail_url": "https://images.genius.com/754bd0130865da8240d3062d7393b6a2.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/754bd0130865da8240d3062d7393b6a2.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 48314
+        },
+        "title": "Revolver",
+        "title_with_featured": "Revolver",
+        "updated_by_human_at": 1677852779,
+        "url": "https://genius.com/Rage-against-the-machine-revolver-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1499",
+            "header_image_url": "https://images.genius.com/894d5c14133517ce6354f719cc88af54.1000x302x1.png",
+            "id": 1499,
+            "image_url": "https://images.genius.com/2158957823960c84c7890b8fa5e6d479.1000x1000x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Rage Against the Machine",
+            "slug": "Rage-against-the-machine",
+            "url": "https://genius.com/artists/Rage-against-the-machine"
+        },
+        "artist": "Rage Against the Machine",
+        "lyrics": "Revolver Lyrics[Verse 1]\nHis spit is worth more than her work\nPass the purse to the pugilists\nHe's a prize-fighter\nAnd he bought rings and he owns kin\nAnd now he's swinging\nAnd now he's the champion\n\n[Chorus]\nHey revolver, don't mothers make good fathers? Revolver\nHey revolver, don't mothers make good fathers? Revolver\n[Verse 2]\nA spotless domain\nHides festering hopes, she's certain there's more\nPictures of fields without fences\nA spotless domain\nHides festering hopes, she's certain there's more\nPictures of fields without fences\nHer body numbs as he approaches the door\nAs he approaches the door\nAs he approaches the door\nAs he approaches the door\nAs he approaches\n\n[Chorus]\nHey revolver, don't mothers make good fathers? Revolver\nHey revolver, don't mothers make good fathers? Revolver\nHey revolver, don't mothers make good fathers? Revolver\nHey revolver, don't mothers make good fathers? Revolver\n\n\n[Chorus]\nYeah\nHey revolver, don't mothers make good fathers? Revolver\nHey revolver, don't mothers make good fathers? Revolver\n\n[Outro]\nRevolver\nRevolver\nRevolver\nRevolverYou might also like3Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML692",
+    "mood": "happy",
+    "artist": "Britney Spears",
+    "title": "Brave New Girl",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/193655",
+        "artist_names": "Britney Spears",
+        "full_title": "Brave New Girl by\u00a0Britney\u00a0Spears",
+        "header_image_thumbnail_url": "https://images.genius.com/2a18ceaad0415ed53ed975bf402bdea9.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2a18ceaad0415ed53ed975bf402bdea9.1000x1000x1.jpg",
+        "id": 193655,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 256722,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1638383237,
+        "path": "/Britney-spears-brave-new-girl-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Britney-spears-brave-new-girl-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 11,
+            "day": 12
+        },
+        "release_date_for_display": "November 12, 2003",
+        "release_date_with_abbreviated_month_for_display": "Nov. 12, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/2a18ceaad0415ed53ed975bf402bdea9.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2a18ceaad0415ed53ed975bf402bdea9.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 7786
+        },
+        "title": "Brave New Girl",
+        "title_with_featured": "Brave New Girl",
+        "updated_by_human_at": 1638383237,
+        "url": "https://genius.com/Britney-spears-brave-new-girl-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1052",
+            "header_image_url": "https://images.genius.com/b5068f9bdadbb8c05fe2f2f6c9c6be70.1000x333x1.jpg",
+            "id": 1052,
+            "image_url": "https://images.genius.com/46f4e22f4dd38d21ca5e5edb9cd82331.900x900x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Britney Spears",
+            "slug": "Britney-spears",
+            "url": "https://genius.com/artists/Britney-spears"
+        },
+        "artist": "Britney Spears",
+        "lyrics": "Brave New Girl Lyrics[Verse 1]\nShe's gonna pack her bags, she's gonna find her way\nShe's gonna get right out of this\nShe don't want New York, she don't want L.A\nShe's gonna find her special kiss\nShe don't want no sleep, she don't want no high\nOh, like peaches and cream\nShe's gonna wish on stars and touch the sky\nAh, you know what I mean?\n\n[Pre Chorus]\nShe wants the good life, no need to rewind\nShe needs to really, really find what she wants\nShe lands on both feet, won't take a back seat\nThere's a brave new girl, and she's coming out tonight\n[Chorus]\nShe's gonna step outside, uncover her eyes\nWho knew she could feel so alive?\nHer M.O.'s changed\nShe don't wanna behave\nAin't it good to be a brave girl tonight?\n\n[Post-Chorus]\nTonight, it's alright\nA brave girl tonight\n\n[Verse 2]\nSo, she met this man, he was kind of rough\nHe said, \"Girl, what you looking for?\"\nShe said, \"I don't know, I go with the flow\"\nHe said, \"Let's get on the floor\"\nHe said, \"You look real cute with your low ride jeans and your pink little baby tee\"\n\"Let's get a room, girl, come and ride with me\"\n\n[Pre Chorus]\nShe wants the good life, no need to rewind\nShe needs to really, really find what she wants\nShe lands on both feet, won't take a back seat\nThere's a brave new girl, and she's coming out tonight\n\n[Chorus]\nShe's gonna step outside, uncover her eyes\nWho knew she could feel so alive?\nHer M.O.'s changed\nShe don't wanna behave\nAin't it good to be a brave girl tonight?\nYou might also like[Post-Chorus]\nTonight, it's alright\nA brave girl tonight\nTonight, it's alright\nA brave girl tonight\n\n[Bridge]\nI just keep on running\nI just keep on running\nWho knew she could feel so alive?\n(Shining star)\n\n[Chorus]\nShe's gonna step outside, uncover her eyes\nWho knew she could feel so alive?\nHer M.O.'s changed\nShe don't wanna behave\nAin't it good to be a brave girl tonight?\n\n[Outro]\nTonight, it's alright\nA brave girl tonight\nTonight, it's alright\nA brave girl tonight\nA brave girl tonight\nA brave girl tonight6Embed"
+    }
+}

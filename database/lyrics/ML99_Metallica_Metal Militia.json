@@ -1,0 +1,58 @@
+{
+    "id": "ML99",
+    "mood": "angry",
+    "artist": "Metallica",
+    "title": "Metal Militia",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/66673",
+        "artist_names": "Metallica",
+        "full_title": "Metal Militia by\u00a0Metallica",
+        "header_image_thumbnail_url": "https://images.genius.com/71554d77be54a7c887f0751802a2e456.300x300x1.png",
+        "header_image_url": "https://images.genius.com/71554d77be54a7c887f0751802a2e456.594x594x1.png",
+        "id": 66673,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1297,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675904820,
+        "path": "/Metallica-metal-militia-lyrics",
+        "pyongs_count": 7,
+        "relationships_index_url": "https://genius.com/Metallica-metal-militia-sample",
+        "release_date_components": {
+            "year": 1983,
+            "month": 7,
+            "day": 25
+        },
+        "release_date_for_display": "July 25, 1983",
+        "release_date_with_abbreviated_month_for_display": "Jul. 25, 1983",
+        "song_art_image_thumbnail_url": "https://images.genius.com/71554d77be54a7c887f0751802a2e456.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/71554d77be54a7c887f0751802a2e456.594x594x1.png",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 30617
+        },
+        "title": "Metal Militia",
+        "title_with_featured": "Metal Militia",
+        "updated_by_human_at": 1675904820,
+        "url": "https://genius.com/Metallica-metal-militia-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/10662",
+            "header_image_url": "https://images.genius.com/48c97afd823fa51fec38b30ed83183e6.1000x286x1.jpg",
+            "id": 10662,
+            "image_url": "https://images.genius.com/a27c6cb3cb282e9327774fccdad9aaa3.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Metallica",
+            "slug": "Metallica",
+            "url": "https://genius.com/artists/Metallica"
+        },
+        "artist": "Metallica",
+        "lyrics": "Metal Militia Lyrics[Verse 1]\nThunder and lightning, the gods take revenge\nSenseless destruction\nVictims of fury are cowardly now\nRunning for safety\nStabbing the harlot to pay for her sins\nLeaving the virgin\nSuicide running as if it were free\nRipping and tearing\n\n[Chorus]\nOh, through the mist and the madness\nWe're trying to get the message to you\nMetal militia\nMetal militia\nMetal militia\n[Verse 2]\nChained and shadowed to be left behind\nNine and one thousand\nMetal militia for your sacrifice\nIron clad soldiers\nJoin or be conquered the law of the land\nWhat will befall you\nThe metalization of your inner soul\nTwisting and turning\n\n[Chorus]\nOh, through the mist and the madness\nWe're trying to get the message to you\nMetal militia\nMetal militia, oh!\n\n[Guitar Solo]\n\n[Instrumental Break]\nOh!\n\n[Verse 3]\nWe are as one as we all are the same\nFighting for one cause\nLeather and metal are our uniforms\nProtecting what we are\nJoining together to take on the world\nWith our heavy metal\nSpreading the message to everyone here\nCome let yourself go\nYou might also like[Chorus]\nOh, through the mist and the madness\nWe're trying to get the message to you\nMetal militia\nMetal militia\n\n[Outro]\nMetal militia\nMetal militia\nMetal militia\nMetal militia\nMetal militia\nMetal militia\nMetal militia\nMetal militia7Embed"
+    }
+}

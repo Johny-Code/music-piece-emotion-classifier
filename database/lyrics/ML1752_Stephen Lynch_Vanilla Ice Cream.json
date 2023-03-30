@@ -1,0 +1,58 @@
+{
+    "id": "ML1752",
+    "mood": "happy",
+    "artist": "Stephen Lynch",
+    "title": "Vanilla Ice Cream",
+    "song": {
+        "_type": "song",
+        "annotation_count": 13,
+        "api_path": "/songs/360645",
+        "artist_names": "Stephen Lynch",
+        "full_title": "Vanilla Ice Cream by\u00a0Stephen\u00a0Lynch",
+        "header_image_thumbnail_url": "https://images.genius.com/2998f725b9ab391369157810e86ba479.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2998f725b9ab391369157810e86ba479.640x640x1.jpg",
+        "id": 360645,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 84379,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1663912930,
+        "path": "/Stephen-lynch-vanilla-ice-cream-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Stephen-lynch-vanilla-ice-cream-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 1,
+            "day": 1
+        },
+        "release_date_for_display": "January 1, 2005",
+        "release_date_with_abbreviated_month_for_display": "Jan. 1, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/2998f725b9ab391369157810e86ba479.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2998f725b9ab391369157810e86ba479.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 13525
+        },
+        "title": "Vanilla Ice Cream",
+        "title_with_featured": "Vanilla Ice Cream",
+        "updated_by_human_at": 1559242305,
+        "url": "https://genius.com/Stephen-lynch-vanilla-ice-cream-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/87515",
+            "header_image_url": "https://images.genius.com/ede0930693602871e8ec8809d9f18818.300x300x1.jpg",
+            "id": 87515,
+            "image_url": "https://images.genius.com/ede0930693602871e8ec8809d9f18818.300x300x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Stephen Lynch",
+            "slug": "Stephen-lynch",
+            "url": "https://genius.com/artists/Stephen-lynch"
+        },
+        "artist": "Stephen Lynch",
+        "lyrics": "Vanilla Ice Cream Lyrics*Cheering*\n\n[Verse 1]\nHave a seat and listen\nPlease don\u2019t say a thing\nIn matters of the heart sometimes the truth will ever sting\nJust don\u2019t take it personally, this is no attack\nBut we will never last because I\u2019m white and you are\u2026 also white\n\n[Hook 1]\nI only like black girls, the brown girls, the caf\u00e9 au lait\nThe caramel girls and mocha girls just blow me away\nIf you are nubian I want you to be in every fantasy\nBut if you\u2019re a whitey say nighty-nighty you\u2019re just not the girl for me\n[Verse 2]\nOh I hate vanilla ice cream I like chocolate instead\nI hope she likes her soul food with a little wonder bread\nDon\u2019t call it jungle fever \u2018cause that just isn't right\nI am not a racist some of my best friends are white\n\n[Hook 2]\nI just prefer black girls, the brown girls, the caf\u00e9 au lait\nThe caramel girls and mocha girls just blow me away\nIf you\u2019re a cracker you better get blacker or else you best get out\nIt is no mystery I like a sister see this is what I\u2019m talking about\n\n[Verse 3]\nOur wedding song will be ebony and ivory\nAnd we\u2019ll sing Christmas carols around the old Kwanzaa tree\nBut color is not the issue here, it's dignity it's class\nIt\u2019s all about her heart ok it\u2019s partly about that ass\n\n[Hook 3]\nI want me some black girls, the brown girls the caf\u00e9 au lait\nOh caramel girls and mocha girls just blow me away\nIf you\u2019re a honky your singing the wrong key it\u2019s the honest truth\nThe skin that she\u2019s dwelling in must contain melanin that is the fountain of youth\n\n[Outro]\nThomas Jefferson\nRobert De Niro\nDavid Bowie\nTo a certain extent Ted Dansen\nStrom Thermond\nStrom Thermond\nYeahYou might also like1Embed"
+    }
+}

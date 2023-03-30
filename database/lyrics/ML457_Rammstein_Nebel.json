@@ -1,0 +1,58 @@
+{
+    "id": "ML457",
+    "mood": "sad",
+    "artist": "Rammstein",
+    "title": "Nebel",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/64585",
+        "artist_names": "Rammstein",
+        "full_title": "Nebel by\u00a0Rammstein",
+        "header_image_thumbnail_url": "https://images.genius.com/1fff1187a8e7ffc7f4d6be7022666f18.300x300x1.png",
+        "header_image_url": "https://images.genius.com/1fff1187a8e7ffc7f4d6be7022666f18.1000x1000x1.png",
+        "id": 64585,
+        "instrumental": false,
+        "language": "de",
+        "lyrics_owner_id": 33985,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1669320435,
+        "path": "/Rammstein-nebel-lyrics",
+        "pyongs_count": 5,
+        "relationships_index_url": "https://genius.com/Rammstein-nebel-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 4,
+            "day": 2
+        },
+        "release_date_for_display": "April 2, 2001",
+        "release_date_with_abbreviated_month_for_display": "Apr. 2, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1fff1187a8e7ffc7f4d6be7022666f18.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/1fff1187a8e7ffc7f4d6be7022666f18.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 22922
+        },
+        "title": "Nebel",
+        "title_with_featured": "Nebel",
+        "updated_by_human_at": 1669320435,
+        "url": "https://genius.com/Rammstein-nebel-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/16045",
+            "header_image_url": "https://images.genius.com/435f4fec0109f9045045051aee384728.1000x495x1.jpg",
+            "id": 16045,
+            "image_url": "https://images.genius.com/29cedf8dd30a7458f4fca47d1c0f0eab.1000x1000x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Rammstein",
+            "slug": "Rammstein",
+            "url": "https://genius.com/artists/Rammstein"
+        },
+        "artist": "Rammstein",
+        "lyrics": "Nebel Lyrics[Songtext zu \u201eNebel\u201c]\n\n[Strophe]\nSie stehen eng umschlungen\nEin Fleischgemisch so reich an Tagen\nWo das Meer das Land ber\u00fchrt\nWill sie ihm die Wahrheit sagen\nDoch ihre Worte frisst der Wind\nWo das Meer zu Ende ist\nH\u00e4lt sie zitternd seine Hand\nUnd hat ihn auf die Stirn gek\u00fcsst\nSie tr\u00e4gt den Abend in der Brust\nUnd wei\u00df, dass sie verleben muss\nSie legt den Kopf in seinen Scho\u00df\nUnd bittet einen letzten Kuss\n[Refrain]\nUnd dann hat er sie gek\u00fcsst\nWo das Meer zu Ende ist\nIhre Lippen schwach und blass\nUnd seine Augen werden nass\nUnd dann hat er sie gek\u00fcsst\nWo das Meer zu Ende ist\nIhre Lippen schwach und blass\nUnd seine Augen werden nass\n\n[Interlude]\n\n[Refrain]\nUnd dann hat er sie gek\u00fcsst\nWo das Meer zu Ende ist\nIhre Lippen schwach und blass\nUnd seine Augen werden nass\nUnd dann hat er sie gek\u00fcsst\nWo das Meer zu Ende ist\nIhre Lippen schwach und blass\nUnd seine Augen werden nass\n\n[Outro]\nDer letzte Kuss ist so lang her\nDer letzte Kuss\nEr erinnert sich nicht mehrYou might also like5Embed"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "id": "ML1556",
+    "mood": "sad",
+    "artist": "Sharon Van Etten",
+    "title": "Don't Do It",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/1550016",
+        "artist_names": "Sharon Van Etten",
+        "full_title": "Don't Do It by\u00a0Sharon\u00a0Van Etten",
+        "header_image_thumbnail_url": "https://images.genius.com/12d8ad0017fabcd98519c4bcf7265c69.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/12d8ad0017fabcd98519c4bcf7265c69.1000x1000x1.jpg",
+        "id": 1550016,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3152005,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1635377557,
+        "path": "/Sharon-van-etten-dont-do-it-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Sharon-van-etten-dont-do-it-sample",
+        "release_date_components": {
+            "year": 2010,
+            "month": 9,
+            "day": 7
+        },
+        "release_date_for_display": "September 7, 2010",
+        "release_date_with_abbreviated_month_for_display": "Sep. 7, 2010",
+        "song_art_image_thumbnail_url": "https://images.genius.com/12d8ad0017fabcd98519c4bcf7265c69.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/12d8ad0017fabcd98519c4bcf7265c69.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 5687
+        },
+        "title": "Don\u2019t Do It",
+        "title_with_featured": "Don't Do It",
+        "updated_by_human_at": 1651708707,
+        "url": "https://genius.com/Sharon-van-etten-dont-do-it-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/24728",
+            "header_image_url": "https://images.genius.com/4d94f07390fc32ab3660c4f30fa435cd.1000x1000x1.jpg",
+            "id": 24728,
+            "image_url": "https://images.genius.com/5ce82e3eaff6d2b570708034a4aa56c9.874x874x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Sharon Van Etten",
+            "slug": "Sharon-van-etten",
+            "url": "https://genius.com/artists/Sharon-van-etten",
+            "iq": 248
+        },
+        "artist": "Sharon Van Etten",
+        "lyrics": "Don\u2019t Do It Lyrics[Verse 1]\nSaid you need to do it, 'cause you can't feel it tonight\nWell you can if you want to\nWant to take you outside, want to show you the sky\nTo remind you why you shouldn't\n\n[Chorus 1]\nDo your worst if you can\nDo your worst if you can, do it\nYou can if you want\nYou can take it - yeah, you want to run\nSaid you wanted to, then kissed the gun\nYou can if you want to\nAnd you want to do it, and you want to do it\nIf you want to do it, you are going to do it\nEven if I don't want you to\n[Verse 2]\nSay it outright, 'cause you don't want to see me tonight\nAnd you won't if you don't want to\nHide it from me, if you must\nHide it from me, if you don't trust anything I say right to you\n\n[Chorus 2]\nAnd you want to do it, if you want to do it\nYou will if you want to\nAnd you want to do it, if you want to do it\nYou will if you want to\nAnd you want to do it, and you want to do it\nIf you want to do it, you are going to do it\nEven if I don't want you to\n\n[Verse 3]\nI was inside painting your name on the window\nI was somewhere inside\nAnd I wanted to find out why you're hiding\nI was tired of the fight\n\n[Chorus 3]\nLook me in the eyes, say you can't do it\nLook me in the eyes, say you can't do it\nBut you will if you want to\nLook me in the eyes, say you can't do it\nLook me in the eyes, say you can't do it\nBut you will if you want to\nAnd you want to do it, and you want to do it\nIf you want to do it, you are going to do it\nEven if I don't want you to\nYou might also like[Bridge]\nShake it down\nSo much better\nTell me that you don't know what you do\n\n[Chorus 4]\nAnd you want to do it, if you want to do it\nYou will if you want to\nAnd you want to do it, if you want to do it\nYou will if you want to\nAnd you want to do it, if you want to do it\nYou will if you want to\n\n[Outro]\nI wish I could make you right1Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML885",
+    "mood": "relaxed",
+    "artist": "Sneaker Pimps",
+    "title": "How Do",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/873986",
+        "artist_names": "Sneaker Pimps",
+        "full_title": "How Do by\u00a0Sneaker\u00a0Pimps",
+        "header_image_thumbnail_url": "https://images.genius.com/6346d8129aa16d8c6862ee66f45f9cc9.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/6346d8129aa16d8c6862ee66f45f9cc9.1000x1000x1.jpg",
+        "id": 873986,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 923739,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1622378473,
+        "path": "/Sneaker-pimps-how-do-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Sneaker-pimps-how-do-sample",
+        "release_date_components": {
+            "year": 1996,
+            "month": 8,
+            "day": 19
+        },
+        "release_date_for_display": "August 19, 1996",
+        "release_date_with_abbreviated_month_for_display": "Aug. 19, 1996",
+        "song_art_image_thumbnail_url": "https://images.genius.com/6346d8129aa16d8c6862ee66f45f9cc9.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/6346d8129aa16d8c6862ee66f45f9cc9.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "How Do",
+        "title_with_featured": "How Do",
+        "updated_by_human_at": 1627141505,
+        "url": "https://genius.com/Sneaker-pimps-how-do-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/86516",
+            "header_image_url": "https://images.genius.com/60800b9f376b29e6d716bacf89fb7ee3.1000x173x1.png",
+            "id": 86516,
+            "image_url": "https://images.genius.com/b621554f04e85e24c3a220034c209bac.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Sneaker Pimps",
+            "slug": "Sneaker-pimps",
+            "url": "https://genius.com/artists/Sneaker-pimps"
+        },
+        "artist": "Sneaker Pimps",
+        "lyrics": "How Do Lyrics[Willow: Sergeant!]\n\n[Verse]\nHey ho\u2014who is this?\nNo one but me, my dear\nPlease, come, say, \"How do.\"\nThe things I'll give to you\nA stroke as gentle as a feather\nHey ho\u2014I am here\nAm I not young and fair?\nPlease, come, say, \"How do.\"\nThe things I'll show to you\nWould you have a wond'rous sight\nOooh, oooh, ooh, the midday sun\nAt midnight\nFair maid, white and red\nComb you smooth and stroke your head\n[Outro (vocalizations)]You might also likeEmbed"
+    }
+}

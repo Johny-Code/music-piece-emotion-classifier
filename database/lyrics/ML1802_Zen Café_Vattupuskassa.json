@@ -1,0 +1,53 @@
+{
+    "id": "ML1802",
+    "mood": "sad",
+    "artist": "Zen Caf\u00e9",
+    "title": "Vattupuskassa",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1505043",
+        "artist_names": "Zen Caf\u00e9",
+        "full_title": "Vattupuskassa by\u00a0Zen\u00a0Caf\u00e9",
+        "header_image_thumbnail_url": "https://images.genius.com/7f2247b5a94b5b36490815e2e538ac00.300x305x1.jpg",
+        "header_image_url": "https://images.genius.com/7f2247b5a94b5b36490815e2e538ac00.500x508x1.jpg",
+        "id": 1505043,
+        "instrumental": false,
+        "language": "fi",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429892692,
+        "path": "/Zen-cafe-vattupuskassa-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Zen-cafe-vattupuskassa-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/7f2247b5a94b5b36490815e2e538ac00.300x305x1.jpg",
+        "song_art_image_url": "https://images.genius.com/7f2247b5a94b5b36490815e2e538ac00.500x508x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Vattupuskassa",
+        "title_with_featured": "Vattupuskassa",
+        "updated_by_human_at": 1480540893,
+        "url": "https://genius.com/Zen-cafe-vattupuskassa-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/353765",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "id": 353765,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "index_character": "z",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Zen Caf\u00e9",
+            "slug": "Zen-cafe",
+            "url": "https://genius.com/artists/Zen-cafe"
+        },
+        "artist": "Zen Caf\u00e9",
+        "lyrics": "Vattupuskassa LyricsEt noussut vuoteesta\nMeni monta viikkoa\nHarvoin paistoi ikkunasta sis\u00e4\u00e4n aurinko\nSe oli syksy\u00e4\nMuistan ettet s\u00e4\nHymyillyt, kun kannoin s\u00e4nkys viereen lehti\u00e4\n\nP\u00e4iv\u00e4t mateli\nPerin hitaasti\nPohjoistuuli puita harvensi\nS\u00e4nkys vierell\u00e4\nLeikin j\u00e4nist\u00e4\nKoitin pomppimalla saada sinut nauramaan\nKertos\u00e4e:\nVattupuskassa pidin piiloa\nToivoin, ett\u00e4 jumalalta l\u00f6ytyis troppia\nSuutuin koulussa, jumppatunnilla\nKun j\u00e4tk\u00e4t v\u00e4itti, ett\u00e4 is\u00e4\u00e4n nojaa kuolema\n\nLipputangossa ei ollut lippua\nVaikka t\u00e4ytit vuosia ja tuli vieraita\n\u00c4iti kampasi tukkas siistiksi\nPyysi vieraat p\u00f6yd\u00e4n \u00e4\u00e4reen sy\u00f6m\u00e4\u00e4n kakkua\n\nKertos\u00e4e\n\nViikonloppuina ei k\u00e4yty landella\nAalto pieksi laiturilta piirrustukset pois\nKatsoin uutisia, kun sirkus finlandia\nP\u00e4\u00e4tti n\u00e4yt\u00f6skautensa aurooran kent\u00e4ll\u00e4\nVattupuskassa pidin piiloa\nToivoin, ett\u00e4 pelko ty\u00f6ntyis pois tai kauemmas\n\nEt noussut vuoteesta\nMeni monta viikkoa\nTalo seisoi hiljaa, maa alkoi routia\n\nKertos\u00e4e\nYou might also likeVattupuskassa pidin piiloa (2x)Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML944",
+    "mood": "happy",
+    "artist": "Less Than Jake",
+    "title": "History Of A Boring Town",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1506214",
+        "artist_names": "Less Than Jake",
+        "full_title": "History of a Boring Town by\u00a0Less\u00a0Than Jake",
+        "header_image_thumbnail_url": "https://images.genius.com/d9fa664bac2236fe0aa0b105d56d0842.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/d9fa664bac2236fe0aa0b105d56d0842.640x640x1.jpg",
+        "id": 1506214,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 8121664,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1664215328,
+        "path": "/Less-than-jake-history-of-a-boring-town-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Less-than-jake-history-of-a-boring-town-sample",
+        "release_date_components": {
+            "year": 1998,
+            "month": 10,
+            "day": 6
+        },
+        "release_date_for_display": "October 6, 1998",
+        "release_date_with_abbreviated_month_for_display": "Oct. 6, 1998",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d9fa664bac2236fe0aa0b105d56d0842.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d9fa664bac2236fe0aa0b105d56d0842.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "History of a Boring Town",
+        "title_with_featured": "History of a Boring Town",
+        "updated_by_human_at": 1664215328,
+        "url": "https://genius.com/Less-than-jake-history-of-a-boring-town-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/66769",
+            "header_image_url": "https://images.genius.com/32a4f92c567036ad600ce78674160102.960x360x1.jpg",
+            "id": 66769,
+            "image_url": "https://images.genius.com/bc6450767488e027ec7802684a5223da.418x418x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Less Than Jake",
+            "slug": "Less-than-jake",
+            "url": "https://genius.com/artists/Less-than-jake"
+        },
+        "artist": "Less Than Jake",
+        "lyrics": "History of a Boring Town Lyrics[Verse 1]\nJust talked to this girl used to live here on my street\nAfter all these years you're here, and you remember me\nShe said her old boyfriend packed up and headed back east\nBut she always knew some day he would go\n\n[Verse 2]\nShe just got a new job, but she doubts it will last\nSo let's take a drink and never think, yeah, here's to the past\nShe said it's so funny how life runs out so fast\nIt's just another wasted day\n[Pre-Chorus]\nA boring life in a boring town with the same old crowd\nAnd I used to say that I'd never stay, but I'm rotting here today\nWith that same old crowd that's always been around\nAnd I always thought I'd be the first to go\n\n[Chorus]\nThat same old crowd that drags me down\nAnother day in a boring town\nThat same old crowd that brings me down\nA boring life in a boring town\n\n[Verse 3]\nJust talked to this girl used to live here on my street\nAfter all these years you're here and it's still just you and me\nSometimes I can't believe after all these years, I just think I'll never leave here\nShe said it's so funny how life runs out so fast\nLet's take another drink and here's to the past\n\n[Chorus]\nThat same old crowd that drags me down\nAnother day in a boring town\nThat same old crowd that brings me down\nA boring life in a boring town\n\n[Bridge]\nAnd remember when they looked through you\nAnd then looked past me?\nWe were the ones they said would always leave\nSo when you go, just think of me, think of me\nYou might also like[Pre-Chorus]\nA boring life in a boring town with the same old crowd\nAnd I used to say that I'd never stay, but I'm rotting here today\nWith that same old crowd that's always been around\nAnd I always thought that, and I always thought that\nAnd I always thought I'd be the first to go\n\n[Outro]\nA boring life, a boring town\nA boring life, a boring town\nA boring life, a boring townEmbed"
+    }
+}

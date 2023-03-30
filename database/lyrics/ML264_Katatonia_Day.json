@@ -1,0 +1,58 @@
+{
+    "id": "ML264",
+    "mood": "sad",
+    "artist": "Katatonia",
+    "title": "Day",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1518851",
+        "artist_names": "Katatonia",
+        "full_title": "Day by\u00a0Katatonia",
+        "header_image_thumbnail_url": "https://images.genius.com/7b594950eca76ed3072638ed1ddf0ed6.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/7b594950eca76ed3072638ed1ddf0ed6.600x600x1.jpg",
+        "id": 1518851,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 4334743,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1601463687,
+        "path": "/Katatonia-day-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Katatonia-day-sample",
+        "release_date_components": {
+            "year": 1996,
+            "month": 11,
+            "day": null
+        },
+        "release_date_for_display": "November 1996",
+        "release_date_with_abbreviated_month_for_display": "Nov. 1996",
+        "song_art_image_thumbnail_url": "https://images.genius.com/7b594950eca76ed3072638ed1ddf0ed6.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/7b594950eca76ed3072638ed1ddf0ed6.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 8768
+        },
+        "title": "Day",
+        "title_with_featured": "Day",
+        "updated_by_human_at": 1601463687,
+        "url": "https://genius.com/Katatonia-day-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/326056",
+            "header_image_url": "https://images.genius.com/060725ea6f3ea4b3644ebb52c9476b57.1000x208x1.jpg",
+            "id": 326056,
+            "image_url": "https://images.genius.com/eef8ca5c4512dbce8218372beba74249.1000x1000x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Katatonia",
+            "slug": "Katatonia",
+            "url": "https://genius.com/artists/Katatonia"
+        },
+        "artist": "Katatonia",
+        "lyrics": "Day Lyrics[Verse 1]\nGrey park look the same\nAnd the days are pale\nI never thought it would rain this way\nI should be knowing that, it used to be me\n\n[Chorus]\nLet's stay here for a while\nIs something gonna happen today?\n\n[Verse 2]\nYour smile has decayed\nIt will never be the same\nI never thought I would laugh again\nI should be knowing this, it used to be me\n[Chorus]\nLet's stay here for a while\nIs something gonna happen today?\nLet's stay here for a while\nIs something gonna happen today?\n\n[Verse 3]\nNow it's dark and you're colder\nNow it's dark and I'm older\nNow it's dark and you're colder\nAnd you tell me my parks are grey\n\n[Chorus]\nLet's stay here for a while\nIs something gonna happen today?\nLet's stay here for a while\nIs something gonna happen today?\n\n[Verse 4]\nGrey park look the same\nAll the days are pale\nI never thought it would rain this way\nI should be knowing that, it used to be me\n\n[Chorus]\nLet's stay here for a while\nIs something gonna happen today?\nLet's stay here for a while\nIs something gonna happen today?You might also like3Embed"
+    }
+}

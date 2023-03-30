@@ -1,0 +1,57 @@
+{
+    "id": "ML1776",
+    "mood": "sad",
+    "artist": "Cult of Luna",
+    "title": "And With Her Came The Birds",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1113068",
+        "artist_names": "Cult of Luna",
+        "full_title": "And With Her Came the Birds by\u00a0Cult\u00a0of Luna",
+        "header_image_thumbnail_url": "https://images.genius.com/1cc0a4fccf5663265ec936bdf0cdad62.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1cc0a4fccf5663265ec936bdf0cdad62.1000x1000x1.jpg",
+        "id": 1113068,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1645157420,
+        "path": "/Cult-of-luna-and-with-her-came-the-birds-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Cult-of-luna-and-with-her-came-the-birds-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 4,
+            "day": 24
+        },
+        "release_date_for_display": "April 24, 2006",
+        "release_date_with_abbreviated_month_for_display": "Apr. 24, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1cc0a4fccf5663265ec936bdf0cdad62.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/1cc0a4fccf5663265ec936bdf0cdad62.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "And With Her Came the Birds",
+        "title_with_featured": "And With Her Came the Birds",
+        "updated_by_human_at": 1645471246,
+        "url": "https://genius.com/Cult-of-luna-and-with-her-came-the-birds-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/227882",
+            "header_image_url": "https://images.genius.com/770e6a46d7b496396459b771019c6141.1000x1000x1.jpg",
+            "id": 227882,
+            "image_url": "https://images.genius.com/770e6a46d7b496396459b771019c6141.1000x1000x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Cult of Luna",
+            "slug": "Cult-of-luna",
+            "url": "https://genius.com/artists/Cult-of-luna"
+        },
+        "artist": "Cult of Luna",
+        "lyrics": "And With Her Came the Birds LyricsNight falls, silence takes a grip\nGuilt I retrieved, a burning will to die\nI need this to be over before I am bleeding dry\n\nSomewhere along the highway these tracks must end\nI pass a crowd on my way to the house on the hill\n\nDead man with pitchfork arms tells me all that he knows\nLeave me here for the crows\nIn the Fall she came back, and with her the birdsYou might also likeEmbed"
+    }
+}

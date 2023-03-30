@@ -1,0 +1,58 @@
+{
+    "id": "ML222",
+    "mood": "happy",
+    "artist": "Molotov",
+    "title": "Puto",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1510280",
+        "artist_names": "Molotov",
+        "full_title": "Puto by\u00a0Molotov",
+        "header_image_thumbnail_url": "https://images.genius.com/9be31d25c73170f4806ab1444286d210.300x261x1.jpg",
+        "header_image_url": "https://images.genius.com/9be31d25c73170f4806ab1444286d210.540x469x1.jpg",
+        "id": 1510280,
+        "instrumental": false,
+        "language": "es",
+        "lyrics_owner_id": 5264276,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1560743775,
+        "path": "/Molotov-puto-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Molotov-puto-sample",
+        "release_date_components": {
+            "year": 1997,
+            "month": 3,
+            "day": 11
+        },
+        "release_date_for_display": "March 11, 1997",
+        "release_date_with_abbreviated_month_for_display": "Mar. 11, 1997",
+        "song_art_image_thumbnail_url": "https://images.genius.com/9be31d25c73170f4806ab1444286d210.300x261x1.jpg",
+        "song_art_image_url": "https://images.genius.com/9be31d25c73170f4806ab1444286d210.540x469x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 22899
+        },
+        "title": "Puto",
+        "title_with_featured": "Puto",
+        "updated_by_human_at": 1611214132,
+        "url": "https://genius.com/Molotov-puto-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/14483",
+            "header_image_url": "https://images.genius.com/97a5f43a4519c0c660f60bed0d0783a4.1000x661x1.jpg",
+            "id": 14483,
+            "image_url": "https://images.genius.com/f76a12eb00aecbda9c1ff049fb9383c7.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Molotov",
+            "slug": "Molotov",
+            "url": "https://genius.com/artists/Molotov"
+        },
+        "artist": "Molotov",
+        "lyrics": "Puto Lyrics[Intro]\nQue muy mach\u00edn, \u00bfno?\nAh, muy mach\u00edn, \u00bfno?\nMarica nena\nM\u00e1s bien put\u00edn, \u00bfno?\n\nQue muy mach\u00edn, \u00bfno?\nAh, muy mach\u00edn, \u00bfno?\nMarica nena\nM\u00e1s bien put\u00edn, \u00bfno?\nQue muy mach\u00edn, \u00bfno? (Puto)\nAh, muy mach\u00edn, \u00bfno? (Puto)\nMarica nena (Puto)\nM\u00e1s bien put\u00edn, \u00bfno? (Puto)\n\nQue muy mach\u00edn, \u00bfno? (Puto)\nAh, muy mach\u00edn, \u00bfno? (Puto)\nMarica nena (Puto)\nM\u00e1s bien put\u00edn, \u00bfno? (Puto)\n\n[Verso 1]\n\u00a1Puto! El que no brinque, el que no salte\n\u00a1Puto! El que no grite y eche desmadre\n\u00a1Puto! El g\u00fcey que qued\u00f3 conforme\n\u00a1Puto! El que crey\u00f3 lo del informe\n\n\u00a1Puto! El que nos quita la papa\n\u00a1Puto! Tambi\u00e9n todo el que lo tapa\n\u00a1Puto! El que no hace lo que quiere\n\u00a1Puto! Puto nace y puto se muere\n\n[Coro]\nAmo a mat\u00f3n, matarile al maric\u00f3n\n\u00bfY qu\u00e9 quiere este hijo de puta?\nQuiere llorar, quiere llorar\nYou might also likeAmo a mat\u00f3n, matarile al maric\u00f3n\n\u00bfY qu\u00e9 quiere? \u00bfQu\u00e9? \u00bfQu\u00e9? \u00bfQu\u00e9? \u00bfQu\u00e9? \u00bfQu\u00e9? \u00bfQu\u00e9? \u00bfQu\u00e9?\nQuiere llorar, quiere llorar\n\n[Interludio]\nEste es un son dedicado a Mickey\nY a toda su familia\nY a I\u00f1aki, su hermano\n\n[Verso 2]\n\u00a1Puto! Le faltan tanates al\n\u00a1Puto! Le faltan trompiates\n\u00a1Puto! Le faltan tanates al\nPuto, puto\n\n\u00a1Puto! Le faltan tanates al\n\u00a1Puto! Le faltan trompiates\n\u00a1Puto! Le faltan tanates al\nPuto, puto\n\n[Coro]\nAmo a mat\u00f3n, matarile al maric\u00f3n\n\u00bfY qu\u00e9 quiere este hijo de puta?\nQuiere llorar, quiere llorar\n\nAmo a mat\u00f3n, matarile al maric\u00f3n\n\u00bfY qu\u00e9 quiere este hocic\u00f3n?\nQuiere llorar, quiere llorar\n[Outro]\nPuto\nPuto\nPuto\nPuto\nPuto\nPuto\nPuto\nPuto\nPuto\nPuto\nPuto\nPuto4Embed"
+    }
+}

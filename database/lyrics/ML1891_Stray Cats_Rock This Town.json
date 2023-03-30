@@ -1,0 +1,58 @@
+{
+    "id": "ML1891",
+    "mood": "happy",
+    "artist": "Stray Cats",
+    "title": "Rock This Town",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/1645465",
+        "artist_names": "Stray Cats",
+        "full_title": "Rock This Town by\u00a0Stray\u00a0Cats",
+        "header_image_thumbnail_url": "https://images.genius.com/d0f1068c50e5ee256ee27c320322058d.299x299x1.jpg",
+        "header_image_url": "https://images.genius.com/d0f1068c50e5ee256ee27c320322058d.299x299x1.jpg",
+        "id": 1645465,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1578425087,
+        "path": "/Stray-cats-rock-this-town-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Stray-cats-rock-this-town-sample",
+        "release_date_components": {
+            "year": 1982,
+            "month": 8,
+            "day": 31
+        },
+        "release_date_for_display": "August 31, 1982",
+        "release_date_with_abbreviated_month_for_display": "Aug. 31, 1982",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d0f1068c50e5ee256ee27c320322058d.299x299x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d0f1068c50e5ee256ee27c320322058d.299x299x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 7910
+        },
+        "title": "Rock This Town",
+        "title_with_featured": "Rock This Town",
+        "updated_by_human_at": 1615145956,
+        "url": "https://genius.com/Stray-cats-rock-this-town-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/109617",
+            "header_image_url": "https://images.genius.com/088973c3e4e21d34995acfb7315cfa61.228x228x1.jpg",
+            "id": 109617,
+            "image_url": "https://images.genius.com/088973c3e4e21d34995acfb7315cfa61.228x228x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Stray Cats",
+            "slug": "Stray-cats",
+            "url": "https://genius.com/artists/Stray-cats"
+        },
+        "artist": "Stray Cats",
+        "lyrics": "Rock This Town LyricsWell, my baby and me went out late Saturday night\nI had my hair piled high and my baby just looked so right\nWell-ell, pick you up at ten, gotta have you home at two\nMama don't know what I got in store for you\nBut that's all right, 'cause we're looking as cool as can be\n\nWell, we found a little place that really didn't look half bad\nI had a whiskey on the rocks, and changed half a dollar for the jukebox\nWell-ell, I put a quarter right into that can, but all they played was disco, man\nCome on, baby, baby, let's get out of here right away\nWe're gonna rock this town\nRock it inside out\nWe're gonna rock this town\nMake 'em scream and shout\nLet's rock, rock, rock, man, rock\nWe're gonna rock till we pop\nWe're gonna rock till we drop\nWe're gonna rock this town\nRock it inside out\n(Rock it, rock right in!)\n\n(Whoa!)\n(Whoo!)\n(Oh my god)\nWhoo!\n\nWell, we're having a ball just a-bopping on the big dance floor\nWell, there's a real square cat, he looks a 1974\nWell-ell, he looked at me once, he looked at me twice\nLook at me again and there's a-gonna be fight\nWe're gonna rock this town\nWe're gonna rip this place apart\n\nWe're gonna rock this town\nRock it inside out\nWe're gonna rock this town\nMake 'em scream and shout\nLet's rock, rock, rock, man, rock\nWe're gonna rock till we pop\nWe're gonna rock till we drop\nWe're gonna rock this town\nRock this place apart\nYou might also likeWe're gonna rock this town\nRock it inside out\nWe're gonna rock this town\nMake 'em scream and shout\nLet's rock, rock, rock, man, rock\nWe're gonna rock till we pop\nWe're gonna rock till we drop\nWe're gonna rock this town\nRock it inside out\n\nWe're gonna rock this town\nRock it inside out\nWe're gonna rock this town\nRock it inside out\nWhoo!Embed"
+    }
+}

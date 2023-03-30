@@ -1,0 +1,58 @@
+{
+    "id": "ML7",
+    "mood": "angry",
+    "artist": "Manic Street Preachers",
+    "title": "Ifwhiteamericatoldthetruthforonedayit'sworldwouldfallapart",
+    "song": {
+        "_type": "song",
+        "annotation_count": 29,
+        "api_path": "/songs/118635",
+        "artist_names": "Manic Street Preachers",
+        "full_title": "Ifwhiteamericatoldthetruthforonedayit'sworldwouldfallapart by\u00a0Manic\u00a0Street Preachers",
+        "header_image_thumbnail_url": "https://images.genius.com/f9eb668cfc15af7624d7009ea33a585a.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/f9eb668cfc15af7624d7009ea33a585a.1000x1000x1.jpg",
+        "id": 118635,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 163077,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1668981241,
+        "path": "/Manic-street-preachers-ifwhiteamericatoldthetruthforonedayitsworldwouldfallapart-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Manic-street-preachers-ifwhiteamericatoldthetruthforonedayitsworldwouldfallapart-sample",
+        "release_date_components": {
+            "year": 1994,
+            "month": 8,
+            "day": 29
+        },
+        "release_date_for_display": "August 29, 1994",
+        "release_date_with_abbreviated_month_for_display": "Aug. 29, 1994",
+        "song_art_image_thumbnail_url": "https://images.genius.com/f9eb668cfc15af7624d7009ea33a585a.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f9eb668cfc15af7624d7009ea33a585a.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false,
+            "pageviews": 42727
+        },
+        "title": "Ifwhiteamericatoldthetruthforonedayit\u2019sworldwouldfallapart",
+        "title_with_featured": "Ifwhiteamericatoldthetruthforonedayit'sworldwouldfallapart",
+        "updated_by_human_at": 1668981241,
+        "url": "https://genius.com/Manic-street-preachers-ifwhiteamericatoldthetruthforonedayitsworldwouldfallapart-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/38489",
+            "header_image_url": "https://images.genius.com/f85a340009bffa8e40c559337aa3e16a.1000x303x1.jpg",
+            "id": 38489,
+            "image_url": "https://images.genius.com/0363116aa544f7c993e32a4dedfed20b.494x494x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Manic Street Preachers",
+            "slug": "Manic-street-preachers",
+            "url": "https://genius.com/artists/Manic-street-preachers"
+        },
+        "artist": "Manic Street Preachers",
+        "lyrics": "Ifwhiteamericatoldthetruthforonedayit\u2019sworldwouldfallapart Lyrics[Sampled Intro]\nNext Thursday you're invited to watch Rising Tide's live coverage of a gala tribute in salute to Ronald Reagan. Host Haley Barbour joins special guest Lady Margaret Thatcher in celebrating the former president's 83rd birthday. Tickets are 1000 Dollars a plate but you can see the event free on GOP TV.\n\n[Verse 1]\nImages of perfection, suntan and napalm\nGrenada, Haiti, Poland, Nicaragua\nWho shall we choose for our morality\nI'm thinking right now of Hollywood tragedy\nBig Mac, smack, Phoenix, R., please smile y'all\nCuba, Mexico can't cauterise our discipline\nYour idols speak so much of the abyss\nYet your morals only run as deep as the surface\n[Chorus]\nCool, groovy, morning, fine\nTipper Gore was a friend of mine\nI love a free country\nThe stars and stripes and an apple for mommy\n\n[Bridge]\n(Conservatives say) \"There ain't no black in the Union Jack\"\n(Democrats say) \"There ain't enough white in the Stars and Stripes\"\n\n[Verse 2]\nCompton, Harlem, a pimp fucked a priest\nThe white man has just found a new moral saviour\nVital stats, how white was their skin\nUnimportant, just another inner-city drive-by thing\nMorning, fine, serve your first coffee of the day\nReal privilege, it will take your problems away\nNumber one, the best, no excuse from me\nI am here to serve the Moral Majority\n\n[Chorus]\nCool, groovy, morning, fine\nTipper Gore was a friend of mine\nI love a free country\nThe stars and stripes and an apple for mommy\nYou might also like[Extended Bridge]\nZapruder the first to masturbate\nThe world's first taste of crucified grace\n(And we say) there's not enough black in the Union Jack\n(And we say) there's too much white in the Stars and Stripes\n\n[Outro]\nFuck the Brady bill!\nFuck the Brady bill!\n\"If God made man,\" they say\n\"Sam Colt made him equal\"2Embed"
+    }
+}

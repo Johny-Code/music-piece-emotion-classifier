@@ -1,0 +1,58 @@
+{
+    "id": "ML1147",
+    "mood": "sad",
+    "artist": "Nick Cave and the Bad Seeds",
+    "title": "Hallelujah",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/381827",
+        "artist_names": "Nick Cave & The Bad Seeds",
+        "full_title": "Hallelujah by\u00a0Nick\u00a0Cave & The Bad Seeds",
+        "header_image_thumbnail_url": "https://images.genius.com/65d5e87dee39163806f917ba2604aa2d.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/65d5e87dee39163806f917ba2604aa2d.768x768x1.jpg",
+        "id": 381827,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 389740,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1643755956,
+        "path": "/Nick-cave-and-the-bad-seeds-hallelujah-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Nick-cave-and-the-bad-seeds-hallelujah-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 4,
+            "day": 2
+        },
+        "release_date_for_display": "April 2, 2001",
+        "release_date_with_abbreviated_month_for_display": "Apr. 2, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/65d5e87dee39163806f917ba2604aa2d.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/65d5e87dee39163806f917ba2604aa2d.768x768x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 8963
+        },
+        "title": "Hallelujah",
+        "title_with_featured": "Hallelujah",
+        "updated_by_human_at": 1665677286,
+        "url": "https://genius.com/Nick-cave-and-the-bad-seeds-hallelujah-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/39212",
+            "header_image_url": "https://images.genius.com/06be42daeb2e6171f9060573a3118add.1000x476x1.jpg",
+            "id": 39212,
+            "image_url": "https://images.genius.com/fda40d71a232dcbf296fef998e6c7d9d.478x478x1.png",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Nick Cave & The Bad Seeds",
+            "slug": "Nick-cave-and-the-bad-seeds",
+            "url": "https://genius.com/artists/Nick-cave-and-the-bad-seeds"
+        },
+        "artist": "Nick Cave & The Bad Seeds",
+        "lyrics": "Hallelujah Lyrics[Verse 1]\nOn the first day of May I took to the road\nI'd been staring out the window most of the morning\nI'd watched the rain claw at the glass\nAnd a vicious wind blew hard and fast\nI should have taken it as a warning\nAs a warning\nAs a warning\nAs a warning\nI'd given my nurse the weekend off\nMy meals were ill prepared\nMy typewriter had turned mute as a tomb\nAnd my piano crouched in the corner of my room\nWith all its teeth bared\nAll its teeth bared\nAll its teeth bared\nAll its teeth bared\n[Chorus]\nHallelujah Hallelujah\nHallelujah Hallelujah\n\n[Verse 2]\nI left my house without my coat\nSomething my nurse would not have allowed\nAnd I took the small roads out of town\nAnd I passed a cow and the cow was brown\nAnd my pyjamas clung to me like a shroud\nLike a shroud\nLike a shroud\nLike a shroud\nThere rose before me a little house\nWith all hope and dreams kept within\nA woman's voice close to my ear\nSaid, \"Why don't you come in here?\"\n\"You looked soaked to the skin\"\nSoaked to the skin\nSoaked to the skin\nSoaked to the skin\n\n[Chorus]\nHallelujah Hallelujah\nHallelujah Hallelujah\nYou might also like[Verse 3]\nI turned to the woman and the woman was young\nI extended a hearty salutation\nBut I knew if my nurse had been here\nShe would never in a thousand years\nPermit me to accept that invitation\nInvitation\nThat invitation\nThat invitation\nNow, you might think it wise to risk it all\nThrow caution to the reckless wind\nBut with her hot cocoa and her medication\nMy nurse had been my one salvation\nSo I turned back home\nI turned back home I turned back home\nSinging my song\n\n[Chorus]\nHallelujah\nThe tears are welling in my eyes again\nHallelujah\nI need twenty big buckets to catch them in\nHallelujah\nAnd twenty pretty girls to carry\nThem down\nHallelujah\nAnd twenty deep holes to bury them in\nHallelujah\nThe tears are welling in my eyes again\nHallelujah\nI need twenty big buckets to catch them in\nHallelujah\nAnd twenty pretty girls to carry them down\nHallelujah\nAnd twenty deep holes to bury them in6Embed"
+    }
+}

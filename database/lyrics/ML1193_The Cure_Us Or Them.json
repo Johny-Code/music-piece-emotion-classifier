@@ -1,0 +1,57 @@
+{
+    "id": "ML1193",
+    "mood": "angry",
+    "artist": "The Cure",
+    "title": "Us Or Them",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/388662",
+        "artist_names": "The Cure",
+        "full_title": "Us or Them by\u00a0The\u00a0Cure",
+        "header_image_thumbnail_url": "https://images.genius.com/60c7cdf73513661031eb1cc1205f817a.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/60c7cdf73513661031eb1cc1205f817a.1000x1000x1.jpg",
+        "id": 388662,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5646923,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1634164144,
+        "path": "/The-cure-us-or-them-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/The-cure-us-or-them-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 6,
+            "day": 29
+        },
+        "release_date_for_display": "June 29, 2004",
+        "release_date_with_abbreviated_month_for_display": "Jun. 29, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/60c7cdf73513661031eb1cc1205f817a.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/60c7cdf73513661031eb1cc1205f817a.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Us or Them",
+        "title_with_featured": "Us or Them",
+        "updated_by_human_at": 1634164144,
+        "url": "https://genius.com/The-cure-us-or-them-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/15758",
+            "header_image_url": "https://images.genius.com/cd329cd267a717821150770e9f47e920.1000x600x1.jpg",
+            "id": 15758,
+            "image_url": "https://images.genius.com/a0eeac26e313b49cc558102ed0a5622b.640x640x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Cure",
+            "slug": "The-cure",
+            "url": "https://genius.com/artists/The-cure"
+        },
+        "artist": "The Cure",
+        "lyrics": "Us or Them Lyrics[Verse 1]\nThere is no terror in my heart\nDeath is with us all\nWe suck him down with our first breath\nAnd spit him out as we fall\nThere is no terror in my heart\nNo dread of the unknown\nDesire for paradise to be\nShall we love this on our own\n\n[Chorus 1][x2]\nNo I don't want you anywhere near me[x2]\nGet your fucking world out of my head\n[Chorus 2]\nI don't want your \"Us or them\"\nNo I don't need your \"Us or them\"\nOh I don't want your \"Us or them\"\nI don't need your \"Us or them\"\nYou're \"Us or them\"\n\n[Verse 2]\nI live in knowledge of real truth\nAnd all my Gods are great!\nThe doleful can't of a bigot\nBlinded by fear and hate\nYou live in knowledge of real truth?\nOh the biggest lie I heard\nHow sick in your mind and your soul\nTo be scared of my voice and my words\n\n[Chorus 3]\nYou don't want me anywhere near you\nYou don't want me anywhere near you\nGet my fucking head out of your world\nYou don't want me anywhere near you\nYou don't want me anywhere near you\nGet my fucking head out of your world\n\n[Chorus 2]\nI don't want your \"Us or them\"\nNo I don't need your \"Us or them\"\nOh I don't want your \"Us or them\"\nI don't need your \"Us or them\"\nAs the only way this ever ends is \"Me\"You might also like3Embed"
+    }
+}

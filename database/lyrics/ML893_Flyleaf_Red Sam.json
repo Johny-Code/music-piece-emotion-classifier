@@ -1,0 +1,58 @@
+{
+    "id": "ML893",
+    "mood": "angry",
+    "artist": "Flyleaf",
+    "title": "Red Sam",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/288166",
+        "artist_names": "Flyleaf",
+        "full_title": "Red Sam by\u00a0Flyleaf",
+        "header_image_thumbnail_url": "https://images.genius.com/656af9d287ca0d7a110fddcec4b793dc.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/656af9d287ca0d7a110fddcec4b793dc.1000x1000x1.jpg",
+        "id": 288166,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 308849,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1645997613,
+        "path": "/Flyleaf-red-sam-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Flyleaf-red-sam-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 1,
+            "day": 1
+        },
+        "release_date_for_display": "January 1, 2005",
+        "release_date_with_abbreviated_month_for_display": "Jan. 1, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/656af9d287ca0d7a110fddcec4b793dc.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/656af9d287ca0d7a110fddcec4b793dc.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 5361
+        },
+        "title": "Red Sam",
+        "title_with_featured": "Red Sam",
+        "updated_by_human_at": 1667663341,
+        "url": "https://genius.com/Flyleaf-red-sam-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/13374",
+            "header_image_url": "https://images.genius.com/0ccb50a08de8cbe7a9f796f0eafe5c9a.980x652x1.jpg",
+            "id": 13374,
+            "image_url": "https://images.genius.com/0319c93e4c07ace8d87bd0a5f063fb5a.640x640x1.jpg",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Flyleaf",
+            "slug": "Flyleaf",
+            "url": "https://genius.com/artists/Flyleaf"
+        },
+        "artist": "Flyleaf",
+        "lyrics": "Red Sam Lyrics[Verse 1]\nHere I stand\nEmpty hands\nWishing my wrists were bleeding\nTo stop the pain from the beatings, and\nThere you stood\nHolding me\nWaiting for me to notice you\n\n[Chorus]\nBut who are you\nYou are the truth (You are the truth)\nOut-screaming these lies\nYou are the truth (You are the truth)\nSaving my life\n[Verse 2]\nThe warmth of your embrace\nMelts my frostbitten spirit\nYou speak the truth and I hear it\nThe words are I love you\nAnd I have to believe in you\n\n[Chorus]\nBut who are you\nYou are the truth (You are the truth)\nOut-screaming these lies\nYou are the truth (You are the truth)\nSaving my life\n\n[Bridge]\nMy hands are open\nAnd you are filling them\nHands in the air\nIn the air, in the air, in the air\nAnd I worship\nAnd I worship\nAnd I worship\nAnd I worship\n\n[Chorus]\nYou are the truth (You are the truth)\nOut-screaming these lies\nYou are the truth (You are the truth)\nSaving my lifeYou might also like3Embed"
+    }
+}

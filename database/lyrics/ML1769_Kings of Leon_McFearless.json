@@ -1,0 +1,59 @@
+{
+    "id": "ML1769",
+    "mood": "angry",
+    "artist": "Kings of Leon",
+    "title": "McFearless",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/421630",
+        "artist_names": "Kings of Leon",
+        "full_title": "McFearless by\u00a0Kings\u00a0of Leon",
+        "header_image_thumbnail_url": "https://images.genius.com/b66edfd4a60763719bbd5ad8721b354a.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b66edfd4a60763719bbd5ad8721b354a.1000x1000x1.jpg",
+        "id": 421630,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 721779,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1654723057,
+        "path": "/Kings-of-leon-mcfearless-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Kings-of-leon-mcfearless-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 4,
+            "day": 2
+        },
+        "release_date_for_display": "April 2, 2007",
+        "release_date_with_abbreviated_month_for_display": "Apr. 2, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b66edfd4a60763719bbd5ad8721b354a.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b66edfd4a60763719bbd5ad8721b354a.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 7182
+        },
+        "title": "McFearless",
+        "title_with_featured": "McFearless",
+        "updated_by_human_at": 1654723057,
+        "url": "https://genius.com/Kings-of-leon-mcfearless-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1174",
+            "header_image_url": "https://images.genius.com/e45361a5332089b0797ba95f54902c7a.617x409x1.jpg",
+            "id": 1174,
+            "image_url": "https://images.genius.com/a405287bd40916864d637484ea568da8.742x742x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Kings of Leon",
+            "slug": "Kings-of-leon",
+            "url": "https://genius.com/artists/Kings-of-leon",
+            "iq": 121
+        },
+        "artist": "Kings of Leon",
+        "lyrics": "McFearless Lyrics[Verse 1]\nStrain living with a name they get the best of me\nBut I don't walk away\nI don't complain I got much to gain so they keep testing me\nAnd I keep feeding their face\nThey could go off and hit the road and what would I care\nHell I ain't going nowhere\nI got the reigns and courage I was made of\nAnd they've got fake love\n\n[Chorus]\nSo I know I must show it's my show\nI must go with my soul\nNot my hand where I stand\nIt's my role, it's my soul\n[Verse 2]\nPearls and necklaces and girls and all the pretty things\nI ain't seeking to have\nIt's safe to say if I don't get this out of me I might quite easily\nEnd up dead or just mad\nCross my t's and try to dot my i's\nBut that's just blinding me and I ain't living that way\nI roll my sleeves to make a better man of me or I might easily\nJust give up on this show\n\n[Chorus]\nIt's my show\nI must go with my soul\nNot my hand where I stand\nIt's my role, it's my soul\n\nI must show it's my show\nI must go with my soul\nNot my hand where I stand\nIt's my role, it's my soul\n\nI must show it's my showYou might also likeEmbed"
+    }
+}

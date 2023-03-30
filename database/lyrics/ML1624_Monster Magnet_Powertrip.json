@@ -1,0 +1,58 @@
+{
+    "id": "ML1624",
+    "mood": "angry",
+    "artist": "Monster Magnet",
+    "title": "Powertrip",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/190098",
+        "artist_names": "Monster Magnet",
+        "full_title": "Powertrip by\u00a0Monster\u00a0Magnet",
+        "header_image_thumbnail_url": "https://images.genius.com/c63ba13c68622cc3dd7e5fb565608f02.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/c63ba13c68622cc3dd7e5fb565608f02.600x600x1.jpg",
+        "id": 190098,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 249734,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1661290569,
+        "path": "/Monster-magnet-powertrip-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Monster-magnet-powertrip-sample",
+        "release_date_components": {
+            "year": 1998,
+            "month": 6,
+            "day": 16
+        },
+        "release_date_for_display": "June 16, 1998",
+        "release_date_with_abbreviated_month_for_display": "Jun. 16, 1998",
+        "song_art_image_thumbnail_url": "https://images.genius.com/c63ba13c68622cc3dd7e5fb565608f02.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/c63ba13c68622cc3dd7e5fb565608f02.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 6598
+        },
+        "title": "Powertrip",
+        "title_with_featured": "Powertrip",
+        "updated_by_human_at": 1661290569,
+        "url": "https://genius.com/Monster-magnet-powertrip-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/60862",
+            "header_image_url": "https://images.genius.com/53c4da780fc1e166056816310093552d.220x220x1.png",
+            "id": 60862,
+            "image_url": "https://images.genius.com/53c4da780fc1e166056816310093552d.220x220x1.png",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Monster Magnet",
+            "slug": "Monster-magnet",
+            "url": "https://genius.com/artists/Monster-magnet"
+        },
+        "artist": "Monster Magnet",
+        "lyrics": "Powertrip Lyrics[Intro]\nWho's gonna teach you how to dance?\nWho's gonna show you how to fly?\nWho's gonna call you on the lame-dope-smoking\nSlackin' little sucker you are?\nOw!\n\n[Verse 1]\nWho's gonna get you from behind?\nWho's gonna ring your little bell?\nWho's gonna con you into buying a television set revolution they sell?\n[Verse 2]\nWhen are you gonna blow the game?\nWhen are you gonna blow the screen?\nWhen do you tell them that the crap doesn't wash\nAnd you found a way to make your own dreams\nWah!\nThe crap doesn't wash and you found a way to make yourself scream\n\n[Pre-Chorus]\nWell, I died a million times\nAnd I picked my culture well\nAnd I built myself a gate\nThey can all now go to (Hell)\n\n[Chorus]\nI'm never gonna work another day in my life\nThe gods told me to relax\nThey said I'm gonna get fixed up right\nNow I'm never gonna work another day in my life\nI'm way too busy powertripping\nBut I'm gonna shed you some light\n\n[Interlude]\nYeah, get down!\n\n[Guitar Solo]\nYou might also like[Breakdown]\nWho's gonna teach you how to dance?\nWho's gonna show you how to fly?\nWhen you get tired of the crap baby move over here and maybe buy some of mine\nAww, go!\n\n[Chorus]\nI'm never gonna work another day in my life\nThe gods told me to relax\nThey said I'm gonna get fixed up right\nNow I'm never gonna work another day in my life\nI'm way too busy powertripping\nBut I'm gonna shed you some light\nNow I'm never gonna work another day in my life\nThe gods told me to relax\nThey said I'm gonna get fixed up right\nNow I'm never gonna work another day in my life\nI'm way too busy powertripping\nBut I'm gonna shed you some lightEmbed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML1085",
+    "mood": "sad",
+    "artist": "Republika",
+    "title": "Odchodz\u0105c",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/1329692",
+        "artist_names": "Republika",
+        "full_title": "Odchodz\u0105c by\u00a0Republika",
+        "header_image_thumbnail_url": "https://images.genius.com/d152655bfdc6c4cc3a25859aa6a4e86b.300x263x1.jpg",
+        "header_image_url": "https://images.genius.com/d152655bfdc6c4cc3a25859aa6a4e86b.571x500x1.jpg",
+        "id": 1329692,
+        "instrumental": false,
+        "language": "pl",
+        "lyrics_owner_id": 1388106,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1529435134,
+        "path": "/Republika-odchodzac-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Republika-odchodzac-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 2,
+            "day": null
+        },
+        "release_date_for_display": "February 1999",
+        "release_date_with_abbreviated_month_for_display": "Feb. 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d152655bfdc6c4cc3a25859aa6a4e86b.300x263x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d152655bfdc6c4cc3a25859aa6a4e86b.571x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Odchodz\u0105c",
+        "title_with_featured": "Odchodz\u0105c",
+        "updated_by_human_at": 1671548884,
+        "url": "https://genius.com/Republika-odchodzac-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/363860",
+            "header_image_url": "https://images.genius.com/2a36ba5546461f3e374153cd3b87062e.712x240x1.png",
+            "id": 363860,
+            "image_url": "https://images.genius.com/f9076f4f4dca322773593c9ea8eb2de3.318x318x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Republika",
+            "slug": "Republika",
+            "url": "https://genius.com/artists/Republika"
+        },
+        "artist": "Republika",
+        "lyrics": "Odchodz\u0105c LyricsA wi\u0119c sta\u0142o si\u0119 i odchodzisz\nTu s\u0105 twoje ksi\u0105\u017cki i p\u0142yty\nMo\u017cesz zabra\u0107 co chcesz\n\nNajlepiej zabierz mnie\n\nJestem l\u017cejszy od fotografii\nZ kt\u00f3rych b\u0119dziesz mnie teraz wycina\u0107\nB\u0119d\u0119 milcza\u0142 i tak jestem martwy\n\nOdchodz\u0105c zabierz mnie\nOdchodz\u0105c zabierz mnie\nOdchodz\u0105c zabierz mnie\nOdchodz\u0105c zabierz mnie\nW nowym \u017cyciu znajdziesz mi miejsce\nGdzie\u015b na p\u00f3\u0142ce czy parapecie\nRaz na miesi\u0105c kurz ze mnie zetrzesz\n\nOdchodz\u0105c zabierz mnie\nOdchodz\u0105c zabierz mnie\nOdchodz\u0105c zabierz mnie\nProsz\u0119 we\u017a mnie te\u017c... (x3)\n\nProsz\u0119 we\u017a mnie te\u017c...\n\n[Tekst i adnotacje na Rock Genius Polska]You might also likeEmbed"
+    }
+}

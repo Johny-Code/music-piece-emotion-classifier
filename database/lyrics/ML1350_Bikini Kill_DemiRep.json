@@ -1,0 +1,72 @@
+{
+    "id": "ML1350",
+    "mood": "angry",
+    "artist": "Bikini Kill",
+    "title": "DemiRep",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/928448",
+        "artist_names": "Bikini Kill (Ft. Joan Jett)",
+        "full_title": "Demirep by\u00a0Bikini\u00a0Kill (Ft.\u00a0Joan\u00a0Jett)",
+        "header_image_thumbnail_url": "https://images.genius.com/09820d383569642b2a5b0f5a8ee91017.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/09820d383569642b2a5b0f5a8ee91017.400x400x1.jpg",
+        "id": 928448,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 7901068,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1674106057,
+        "path": "/Bikini-kill-demirep-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Bikini-kill-demirep-sample",
+        "release_date_components": {
+            "year": 1993,
+            "month": 9,
+            "day": null
+        },
+        "release_date_for_display": "September 1993",
+        "release_date_with_abbreviated_month_for_display": "Sep. 1993",
+        "song_art_image_thumbnail_url": "https://images.genius.com/09820d383569642b2a5b0f5a8ee91017.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/09820d383569642b2a5b0f5a8ee91017.400x400x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 11135
+        },
+        "title": "Demirep",
+        "title_with_featured": "Demirep (Ft.\u00a0Joan\u00a0Jett)",
+        "updated_by_human_at": 1674106058,
+        "url": "https://genius.com/Bikini-kill-demirep-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/63682",
+                "header_image_url": "https://images.genius.com/60ba666ba451eff9e044448018da2e3e.1000x647x1.jpg",
+                "id": 63682,
+                "image_url": "https://images.genius.com/8c80f6d3c49ed08bd33eb9c7b51e1b31.950x950x1.jpg",
+                "index_character": "j",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "Joan Jett",
+                "slug": "Joan-jett",
+                "url": "https://genius.com/artists/Joan-jett"
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/29871",
+            "header_image_url": "https://images.genius.com/ade9e0688850e348696d64ace70a36e8.1000x704x1.jpg",
+            "id": 29871,
+            "image_url": "https://images.genius.com/f50a53ef54e655ba86545c980d1343ef.400x400x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Bikini Kill",
+            "slug": "Bikini-kill",
+            "url": "https://genius.com/artists/Bikini-kill"
+        },
+        "artist": "Bikini Kill",
+        "lyrics": "Demirep Lyrics[Intro]\nMiss Mary Mac, Mac, Mac\nAll dressed in black, black, black\nWith silver buttons, buttons, buttons\nAll down her back, back, back\nShe asked her mom (Mother), mom (Mother), mom (Mother)\nFor fifteen cents, cents, cents\nTo see the elephants, elephants, elephants\nThey jumped the fence, fence, fence\nThey jumped so high, high, high\nThey reached the sky, sky, sky\nAnd never came back, back, back\n'Til the fourth of July, lie, liar\n[Verse 1]\nI'm sorry that I'm getting chubby\nAnd I cannot always be happy for you\nAnd I am not some lame sorority queen\nTaking you home just to meet my daddy\n\n[Chorus 1]\nYou collect your trust funds baby\nAnd I'll be a whore\nAnd we'll pretend we're just the same but\nI know, I know, I know, I know\nI know that I\nI am hiding\nThe you I show to you is just a lie\n\n[Verse 2]\nYou take what you want\nYou get what you take\nYou take what you want\nYou get what you take\nBut I've got something, man\nThat your fucking money cannot buy\n\n[Chorus 2]\nYou never know, never know, never know what\nYou never know, never know, never know what\nYou wanna take it but you can't have it\nYou don't know what it's like to be alive\n(Mac, mac, mac\nAll dressed in black, black, black\nWith silver buttons, buttons, buttons\nAll down her back, back, back)\nYou might also like[Verse 3]\nI could scream the truth if I wanted (She asked her mother, mother, mother)\nRight through your lies (For fifteen cents, cents, cents)\nBut your baseball bat wounds, razor-mouth (To see the elephants, elephants, elephants)\nCarve your initials bloody in my thighs (They jumped the fence, fence, fence)\n(They got so high, high, high)\n\n[Outro]\nAlright\nOh, well, you see I knew it that time\nYou knew what the whole time?\nWell, they're laughing at us\nI know\nGod\nWe're having fun1Embed"
+    }
+}

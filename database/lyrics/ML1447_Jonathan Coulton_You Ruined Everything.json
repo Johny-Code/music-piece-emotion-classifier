@@ -1,0 +1,57 @@
+{
+    "id": "ML1447",
+    "mood": "happy",
+    "artist": "Jonathan Coulton",
+    "title": "You Ruined Everything",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/945216",
+        "artist_names": "Jonathan Coulton",
+        "full_title": "You Ruined Everything by\u00a0Jonathan\u00a0Coulton",
+        "header_image_thumbnail_url": "https://images.genius.com/37a7ad9e02b185760049e968b1cdd1b6.250x250x1.jpg",
+        "header_image_url": "https://images.genius.com/37a7ad9e02b185760049e968b1cdd1b6.250x250x1.jpg",
+        "id": 945216,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6752037,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1585401333,
+        "path": "/Jonathan-coulton-you-ruined-everything-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Jonathan-coulton-you-ruined-everything-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 8,
+            "day": 18
+        },
+        "release_date_for_display": "August 18, 2006",
+        "release_date_with_abbreviated_month_for_display": "Aug. 18, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/37a7ad9e02b185760049e968b1cdd1b6.250x250x1.jpg",
+        "song_art_image_url": "https://images.genius.com/37a7ad9e02b185760049e968b1cdd1b6.250x250x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false
+        },
+        "title": "You Ruined Everything",
+        "title_with_featured": "You Ruined Everything",
+        "updated_by_human_at": 1585401333,
+        "url": "https://genius.com/Jonathan-coulton-you-ruined-everything-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/12541",
+            "header_image_url": "https://images.genius.com/3f5233fd23c5772000b659bde35037d8.988x655x1.png",
+            "id": 12541,
+            "image_url": "https://images.genius.com/11e9df1b4528d2cf5a09e4dd1a53936d.316x316x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Jonathan Coulton",
+            "slug": "Jonathan-coulton",
+            "url": "https://genius.com/artists/Jonathan-coulton"
+        },
+        "artist": "Jonathan Coulton",
+        "lyrics": "You Ruined Everything Lyrics[Verse 1]\nI was fine, I pulled myself together\nJust in time to throw myself away\nOnce my perfect world was gone I knew\nYou ruined everything in the nicest way\n\n[Verse 2]\nYou should know how great things were before you\nEven so, they're better still today\nI can't think of who I was before\nYou ruined everything in the nicest way\n[Bridge]\nBumps in the road remind us\nThe worst of the best behind us\nOnly good things will find us, me and you\nDays will be clear and sunny\nWe're gonna need more money\nBaby you know it's funny\nAll those stories coming true\n\n[Verse 3]\nDespite my better efforts it's all for you\nThe worst kind of cliche\nI'll be with you 'til the day you leave\nYou ruined everything in the nicest wayYou might also likeEmbed"
+    }
+}

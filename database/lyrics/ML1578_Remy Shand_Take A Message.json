@@ -1,0 +1,53 @@
+{
+    "id": "ML1578",
+    "mood": "relaxed",
+    "artist": "Remy Shand",
+    "title": "Take A Message",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1096207",
+        "artist_names": "Remy Shand",
+        "full_title": "Take A Message by\u00a0Remy\u00a0Shand",
+        "header_image_thumbnail_url": "https://images.genius.com/ab7eb4e484d46a710acfba9c65fff554.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/ab7eb4e484d46a710acfba9c65fff554.1000x1000x1.jpg",
+        "id": 1096207,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5103933,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1669501226,
+        "path": "/Remy-shand-take-a-message-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Remy-shand-take-a-message-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/ab7eb4e484d46a710acfba9c65fff554.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ab7eb4e484d46a710acfba9c65fff554.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Take A Message",
+        "title_with_featured": "Take A Message",
+        "updated_by_human_at": 1669501226,
+        "url": "https://genius.com/Remy-shand-take-a-message-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/365749",
+            "header_image_url": "https://images.genius.com/8fc23918f32a9ac8889c600fcdd7cf31.480x360x1.jpg",
+            "id": 365749,
+            "image_url": "https://images.genius.com/a991fdd13d5a6aeda85c5bd62250633b.381x381x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Remy Shand",
+            "slug": "Remy-shand",
+            "url": "https://genius.com/artists/Remy-shand"
+        },
+        "artist": "Remy Shand",
+        "lyrics": "Take A Message Lyrics[Verse 1]\nHow did she fall in love\nTired and shaken up?\nCould it be hangin' around's enough?\nNo one was foolin' when they told about the sense and sensibility\nIn movin' on\n\n[Pre-Chorus]\nAll that I see is that we're livin' life\nDid you fail when you found that you paid the price?\nHope it wasn't lost in an honest truth\nSo the past doesn't break all that we've been through\nEvery little thing that you did was right\nBut who knows what you did on the day you cried endlessly\nOh, you cried endlessly\n[Chorus]\nTake a message for my love\nTake a message for my love (take a message)\nTake a message for my love\nTake a message for my love (take a message)\nTake a message for my love\nTake a message for my love (take a message)\nTake a message for my love\nTake a message for my love\n\n[Verse 2]\nWhat could I say to you (oh)\nWhen makin' the waves was left unconscious\nI didn't mean to tell you why, oh, why\nBut you harboured all defenses\nAnd you're makin' it hard to bring that hope back\nFor you and I\n\n[Pre-Chorus]\nAll that I see is that we're livin' life\nDid you fail when you found that you paid the price\nHope it wasn't lost in an honest truth\nSo the past doesn't break all that we've been through\nEvery little thing that you did was right\nBut who knows what you did on the day you cried endlessly\nOh, you cried endlessly\nYou might also like[Chorus]\nTake a message for my love\nTake a message for my love (take a message)\nTake a message for my love\nTake a message for my love (take a message)\nTake a message for my love\nTake a message for my love (take a message)\nTake a message for my love\nTake a message for my love\n\n[Instrumental break]\n\n[Pre-Chorus]\nAll that I see is that we're livin' life\nDid you fall when you found that you paid the price\nHope it wasn't lost in an honest truth\nSo the past doesn't break all that we've been through\nEvery little thing that you did was right\nBut who knows what you did on the day you cried endlessly\nOh, you cried endlessly\n\n[Chorus]\nTake a message for my love\nTake a message for my love (take a message)\nTake a message for my love\nTake a message for my love (take a message)\nTake a message for my love\nTake a message for my love (take a message)\nTake a message for my love\nTake a message for my love\n[Fade out]1Embed"
+    }
+}

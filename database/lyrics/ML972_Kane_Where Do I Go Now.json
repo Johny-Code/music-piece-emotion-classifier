@@ -1,0 +1,53 @@
+{
+    "id": "ML972",
+    "mood": "sad",
+    "artist": "Kane",
+    "title": "Where Do I Go Now",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1446908",
+        "artist_names": "Kane",
+        "full_title": "Where Do I Go Now by\u00a0Kane",
+        "header_image_thumbnail_url": "https://images.genius.com/8fde8d439da602a39bb6655a5cf1ca98.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/8fde8d439da602a39bb6655a5cf1ca98.1000x1000x1.jpg",
+        "id": 1446908,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429848584,
+        "path": "/Kane-where-do-i-go-now-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Kane-where-do-i-go-now-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/8fde8d439da602a39bb6655a5cf1ca98.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8fde8d439da602a39bb6655a5cf1ca98.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Where Do I Go Now",
+        "title_with_featured": "Where Do I Go Now",
+        "updated_by_human_at": 1481224177,
+        "url": "https://genius.com/Kane-where-do-i-go-now-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2851",
+            "header_image_url": "https://images.genius.com/37953d9f7f88035b057566f411f3f9c1.238x238x1.jpg",
+            "id": 2851,
+            "image_url": "https://images.genius.com/37953d9f7f88035b057566f411f3f9c1.238x238x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Kane",
+            "slug": "Kane",
+            "url": "https://genius.com/artists/Kane"
+        },
+        "artist": "Kane",
+        "lyrics": "Where Do I Go Now LyricsWith my head against the window\nSeal the letter which I did not sign\nShould I wait for you for one last time\n\nThere's no end and no beginning\nEvery word comes like a silent scream\nShe told all the things I did not see\n\nHow could I know that she would lift me up to let me down\nHow could I know that you are all that really matters now\nHow could I know that forever wasn't quite so long\nSo where do I go now\nWhere do I go yeah, yeah\nWhere do I go yeah\n\nShe says nothing's everlasting\nI'm so confused, I don't know what to do, what to say\nI forgive you but I can not stay\n\nHow could I know I thought you'd wait for me but I was wrong\nHow could I know that you are all that really matters now\nHow could I know that forever wasn't quite so long\n\n(repeat chorus)\nShe says nothing's everlasting......You might also likeEmbed"
+    }
+}

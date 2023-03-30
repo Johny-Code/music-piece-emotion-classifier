@@ -1,0 +1,59 @@
+{
+    "id": "ML1383",
+    "mood": "angry",
+    "artist": "Marilyn Manson",
+    "title": "Born Again",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/336058",
+        "artist_names": "Marilyn Manson",
+        "full_title": "Born Again by\u00a0Marilyn\u00a0Manson",
+        "header_image_thumbnail_url": "https://images.genius.com/961eb293a9b23fdf6ded027b2ee5c910.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/961eb293a9b23fdf6ded027b2ee5c910.905x905x1.jpg",
+        "id": 336058,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 354385,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1634659174,
+        "path": "/Marilyn-manson-born-again-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Marilyn-manson-born-again-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": 11,
+            "day": 11
+        },
+        "release_date_for_display": "November 11, 2000",
+        "release_date_with_abbreviated_month_for_display": "Nov. 11, 2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/961eb293a9b23fdf6ded027b2ee5c910.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/961eb293a9b23fdf6ded027b2ee5c910.905x905x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 10528
+        },
+        "title": "Born Again",
+        "title_with_featured": "Born Again",
+        "updated_by_human_at": 1648415426,
+        "url": "https://genius.com/Marilyn-manson-born-again-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2065",
+            "header_image_url": "https://images.genius.com/5a0db97e404d399703cc63eb9b803415.1000x333x1.jpg",
+            "id": 2065,
+            "image_url": "https://images.genius.com/11eb5a9520882f2f0891cd7d4cd462d0.900x900x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Marilyn Manson",
+            "slug": "Marilyn-manson",
+            "url": "https://genius.com/artists/Marilyn-manson",
+            "iq": 869
+        },
+        "artist": "Marilyn Manson",
+        "lyrics": "Born Again Lyrics[Verse 1]\nDo you or don't you want this to be your song?\nIt doesn't take a rebel to sing along\nThis art is weak in its pretty, pretty frame\nAnd I am your monkey with a misspelled name\n\n[Pre-Chorus]\n\"I'll put down you disco and take your heart away\"\n\"I'll put down you disco and take your heart away\"\nI'll be born again\n[Chorus]\nI'm someone else, I'm someone new\nI'm someone stupid just like you\nI'm someone else, I'm someone new\nI'm someone stupid just like you\n\n[Verse 2]\nDo you or don't you want to take this hit?\nDoes it make you feel like you're part of \"it\"?\n\n[Pre-Chorus]\n\"I'll put down you disco and take your heart away\"\n\"I'll put down you disco and take your heart away\"\nI'll be born again\n\n[Chorus]\nI'm someone else, I'm someone new\nI'm someone stupid just like you\nI'm someone else, I'm someone new\nI'm someone stupid just like you\nI'm someone else, I'm someone new\nI'm someone stupid just like you\nI'm someone else, I'm someone new\nI'm someone stupid just like you\n\n[Bridge]\nThe valley of the dolls is the valley of the dead\nThe valley of the dolls is the valley of the dead\nYou might also like[Chorus]\nI'm someone else, I'm someone new\nI'm someone stupid just like you\nI'm someone else, I'm someone new\nI'm someone stupid just like you\n\n[Outro]\n\"I'll put down you disco and take your heart away\"\n\"I'll put down you disco and take your heart away\"\nI'll be born again, I'll be born again\nI'll be born again, I'll be born again2Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML876",
+    "mood": "relaxed",
+    "artist": "Mariah Carey",
+    "title": "Melt Away",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/204267",
+        "artist_names": "Mariah Carey",
+        "full_title": "Melt Away by\u00a0Mariah\u00a0Carey",
+        "header_image_thumbnail_url": "https://images.genius.com/e99dab80354d1dfa5bb31e2741b69cd8.300x300x1.png",
+        "header_image_url": "https://images.genius.com/e99dab80354d1dfa5bb31e2741b69cd8.600x600x1.png",
+        "id": 204267,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 225680,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1652030881,
+        "path": "/Mariah-carey-melt-away-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Mariah-carey-melt-away-sample",
+        "release_date_components": {
+            "year": 1995,
+            "month": 10,
+            "day": 3
+        },
+        "release_date_for_display": "October 3, 1995",
+        "release_date_with_abbreviated_month_for_display": "Oct. 3, 1995",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e99dab80354d1dfa5bb31e2741b69cd8.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/e99dab80354d1dfa5bb31e2741b69cd8.600x600x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 16341
+        },
+        "title": "Melt Away",
+        "title_with_featured": "Melt Away",
+        "updated_by_human_at": 1662589959,
+        "url": "https://genius.com/Mariah-carey-melt-away-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1205",
+            "header_image_url": "https://images.genius.com/de657854cb487dd6a84a749d2ef5fd77.1000x333x1.jpg",
+            "id": 1205,
+            "image_url": "https://images.genius.com/61bfaa24101ce0c786a828d1e033ba29.400x400x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Mariah Carey",
+            "slug": "Mariah-carey",
+            "url": "https://genius.com/artists/Mariah-carey"
+        },
+        "artist": "Mariah Carey",
+        "lyrics": "Melt Away Lyrics[Verse 1]\nYou come to me with a casual flow\nAnd suddenly my defenses start to go\nWhen you talk to me in that sensual tone\nIt envelopes me and I lose my self control\n\n[Chorus]\nAnd baby I just melt away\nFall like rain\nEvery time I see your face I go off (I go off)\nI just want to break it down\nAnytime you come around\nMaybe I could melt away in your arms\n[Verse 2]\nImagining that you're taking it slow\nAnd so tenderly\n'Till the feeling overflows\nWhen you look at me I go soft and cave in\nAnd I can't conceal that I'm slowly weakening\n\n[Chorus]\n(Baby...)\nAnd baby I just melt away\n(I fall like rain)\nFall like rain\nEvery time I see your face I go off (I go off)\n(Every time I see your face I lose my self control)\nI just want to break it down\nAnytime you come around\n(And maybe I...)\nMaybe I could melt away in your arms\n\n[Bridge]\nYou and me in a cloud of reverie\nSpin around inside my head unendingly\n(Over and over and over and over)\nThoughts run wild as I sit and rhapsodize\nPaint pretty pictures of what I'd do if you were mine\nYou might also like[Chorus]\n(Baby I... fall)\nAnd baby I just melt away\nFall like rain\nEvery time I see your face I go off (I go off)\n(Every time I see your face I just go off)\nI just want to break it down\n(I just wanna break down)\nAnytime you come around\nMaybe I could melt away in your arms\n(And maybe I could melt away... oh, your arms, your arms)\n\n[Chorus]\nAnd baby I just melt away\nFall like rain (baby I fall)\nEvery time I see your face I go off (I go off)\n(Yeah yeah yeah yeah, [?])\nI just want to break it down\n(You and me ain't got a typical thing)\nAnytime you come around\n(You and me ain't got a typical thing)\nMaybe I could melt away in your arms\n(And maybe I could melt away... in your arms)\n\n[Outro]\nAnd baby I just melt away\n(And I...)\nFall like rain\n(And I...)6Embed"
+    }
+}

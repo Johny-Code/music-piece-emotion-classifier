@@ -1,0 +1,58 @@
+{
+    "id": "ML698",
+    "mood": "sad",
+    "artist": "Arcade Fire",
+    "title": "Black Mirror",
+    "song": {
+        "_type": "song",
+        "annotation_count": 12,
+        "api_path": "/songs/119848",
+        "artist_names": "Arcade Fire",
+        "full_title": "Black Mirror by\u00a0Arcade\u00a0Fire",
+        "header_image_thumbnail_url": "https://images.genius.com/b360cf063ddfa277a1f991d1ced30e0e.300x284x1.jpg",
+        "header_image_url": "https://images.genius.com/b360cf063ddfa277a1f991d1ced30e0e.600x568x1.jpg",
+        "id": 119848,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 116340,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1649287783,
+        "path": "/Arcade-fire-black-mirror-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Arcade-fire-black-mirror-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 1,
+            "day": 22
+        },
+        "release_date_for_display": "January 22, 2007",
+        "release_date_with_abbreviated_month_for_display": "Jan. 22, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b360cf063ddfa277a1f991d1ced30e0e.300x284x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b360cf063ddfa277a1f991d1ced30e0e.600x568x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 30975
+        },
+        "title": "Black Mirror",
+        "title_with_featured": "Black Mirror",
+        "updated_by_human_at": 1649287783,
+        "url": "https://genius.com/Arcade-fire-black-mirror-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/600",
+            "header_image_url": "https://images.genius.com/e48e5f271e9135c70d056ba88cc67a32.1000x333x1.jpg",
+            "id": 600,
+            "image_url": "https://images.genius.com/2eb6f036932cc05611221b277d9b7132.1000x1000x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Arcade Fire",
+            "slug": "Arcade-fire",
+            "url": "https://genius.com/artists/Arcade-fire"
+        },
+        "artist": "Arcade Fire",
+        "lyrics": "Black Mirror Lyrics[Verse 1]\nI will walk down to the ocean\nAfter waking from a nightmare\nNo moon, no pale reflection\nBlack mirror, black mirror\n\n[Verse 2]\nShot by a security camera\nYou can't watch your own image\nAnd also look yourself in the eye\nBlack mirror, black mirror, black mirror\n[Verse 3]\nI know when the time is coming\nAll the words will lose their meaning\nPlease show me something that isn\u2019t mine\nBut mine is the only kind that I relate to\nLe miroir casse\nThe mirror casts mon reflet partout\nBlack mirror, black mirror, black mirror\n\n[Verse 4]\nBlack mirror knows no reflection\nIt knows not pride or vanity\nIt cares not about your dreams\nIt cares not for your pyramid schemes\nTheir names are never spoken\nThe curse is never broken\nThe curse is never broken\nUn! Deux! Trois! Dis: miroir noir!\nBlack mirror!\nUn! Deux! Trois! Dis: miroir noir!\nBlack mirror!\n\n[Verse 5]\nBlack mirror, black mirror\nTheir names are never spoken, the curse is never broken\nTheir names are never spoken, the curse is never broken\nMirror, mirror, on the wall, show me where them bombs will fall\nMirror, mirror, on the wall, show me where them bombs will fall\nBlack mirror! Black mirror! Black mirror! Black mirror!\nBlack mirror! Black mirror! Black mirror!You might also like6Embed"
+    }
+}

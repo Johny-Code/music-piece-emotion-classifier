@@ -1,0 +1,58 @@
+{
+    "id": "ML1715",
+    "mood": "happy",
+    "artist": "Westlife",
+    "title": "Uptown Girl",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/1241562",
+        "artist_names": "Westlife",
+        "full_title": "Uptown Girl by\u00a0Westlife",
+        "header_image_thumbnail_url": "https://images.genius.com/1f238b6c04fc92082c0d027acf6522bc.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1f238b6c04fc92082c0d027acf6522bc.600x600x1.jpg",
+        "id": 1241562,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 13341136,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1641748237,
+        "path": "/Westlife-uptown-girl-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Westlife-uptown-girl-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 3,
+            "day": 5
+        },
+        "release_date_for_display": "March 5, 2001",
+        "release_date_with_abbreviated_month_for_display": "Mar. 5, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1f238b6c04fc92082c0d027acf6522bc.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/1f238b6c04fc92082c0d027acf6522bc.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 18528
+        },
+        "title": "Uptown Girl",
+        "title_with_featured": "Uptown Girl",
+        "updated_by_human_at": 1656968594,
+        "url": "https://genius.com/Westlife-uptown-girl-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/187972",
+            "header_image_url": "https://images.genius.com/a6bc50ddf1495f57e2166a37d99e73df.551x551x1.jpg",
+            "id": 187972,
+            "image_url": "https://images.genius.com/5983cdd2af711b03a30ca5d1c2c99797.732x732x1.jpg",
+            "index_character": "w",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Westlife",
+            "slug": "Westlife",
+            "url": "https://genius.com/artists/Westlife"
+        },
+        "artist": "Westlife",
+        "lyrics": "Uptown Girl Lyrics[Verse 1: Shane]\nUptown girl\nShe's been living in her uptown world\nI bet she never had a backstreet guy\nI bet her mama never told her why\nI'm gonna try for an uptown girl\nShe's been living in her white bread world\nAs long as anyone with hot blood can\nAnd now she's looking for a downtown man\nThat's what I am\n[Chorus: Brian, Nicky]\nAnd when she knows what\nShe wants from her time\nAnd when she wakes up\nAnd makes up her mind\nShe'll see I'm not so tough\nJust because\nI'm in love with an uptown girl\n\n[Verse 2: Mark]\nYou know I've seen her in her uptown world\nShe's getting tired of her high class toys\nAnd all her presents from her uptown boys\nShe's got a choice\n\nOoh\nOoh\n\n[Verse 3: Shane]\nUptown girl\nYou know I can't afford to buy her pearls\nBut maybe someday when my ship comes in\nShe'll understand what kind of guy I've been\nAnd then I'll win\n\n[Chorus: Brian, Kian]\nAnd when she's walking\nShe's looking so fine\nAnd when she's talking\nShe'll say that she's mine\nShe'll say I'm not so tough\nJust because I'm in love\nYou might also like[Bridge: Shane]\nWith an uptown girl\nShe's been living in her white bread world\nAs long as anyone with hot blood can\nAnd now she's looking for a downtown man\nThat's what I am\n\n[Chorus: Shane]\nUptown girl\nShe's my uptown girl\nDon't You know I'm in love\nWith an uptown girl\nMy uptown girl\nDon't you know I'm in love\nWith an uptown girl\nShe's my uptown girl\nShe's my uptown girl2Embed"
+    }
+}

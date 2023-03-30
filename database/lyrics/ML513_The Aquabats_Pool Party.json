@@ -1,0 +1,58 @@
+{
+    "id": "ML513",
+    "mood": "happy",
+    "artist": "The Aquabats",
+    "title": "Pool Party",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/823710",
+        "artist_names": "The Aquabats!",
+        "full_title": "Pool Party by\u00a0The\u00a0Aquabats!",
+        "header_image_thumbnail_url": "https://images.genius.com/e776a0d6eda72c17b7fd0d72d06ec026.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e776a0d6eda72c17b7fd0d72d06ec026.640x640x1.jpg",
+        "id": 823710,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1461968,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1524857761,
+        "path": "/The-aquabats-pool-party-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/The-aquabats-pool-party-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2000",
+        "release_date_with_abbreviated_month_for_display": "2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e776a0d6eda72c17b7fd0d72d06ec026.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e776a0d6eda72c17b7fd0d72d06ec026.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 11186
+        },
+        "title": "Pool Party",
+        "title_with_featured": "Pool Party",
+        "updated_by_human_at": 1571775589,
+        "url": "https://genius.com/The-aquabats-pool-party-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/311271",
+            "header_image_url": "https://images.genius.com/79c67d2b00929d732506a978ed12c9e9.538x301x1.jpg",
+            "id": 311271,
+            "image_url": "https://images.genius.com/d6609e1159b57c2a12fab7ed3535e6d0.570x298x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Aquabats!",
+            "slug": "The-aquabats",
+            "url": "https://genius.com/artists/The-aquabats"
+        },
+        "artist": "The Aquabats!",
+        "lyrics": "Pool Party LyricsPool party baby\nIt was a cool party\nCool pool party\nLa la la la\nPool party baby\nIt was a cool party\nCool pool party\nLa la la la\n\nPopcorn, hot dog buns, and hamburger patties\nAll the food you need to feed the many hungry\nMillions of people want in to my party\nBut it's invite only\nAnd you're on the list baby\n-Your pool rips!\nI cleaned it yesterday\n-Girls look cute!\nIn their swimming suits\n-Holy Guacamole!\nWe've got chips!\nSo come on take a dip\n'Cause my pool rips\n\nIt was a pool party for the cool kids at my school\nIt was a pool party for the cool kids at my school\nIt's so cool in my pool\nIt's so cool in my pool\nIt's so cool in my pool\nIt's so cool in my pool\nYeah yeah yeah\n\nPool party baby\nIt was a cool party\nCool pool party\nLa la la la\nPool party baby\n\nThe ratio of girls to guys is five to one\nThere hasn't been a party like this since 1981\nCome to my party let the games begin\nWe've even got floaties if you can't swim\nYou might also like-Your pool rips!\nI cleaned it yesterday\n-Girls look cute!\nIn their swimming suits\n-Holy Guacamole!\nWe've got chips!\nSo come on take a dip\n'Cause my pool rips\n\nIt was a pool party for the cool kids at my school\nIt was a pool party for the cool kids at my school\nIt's so cool in my pool\nIt's so cool in my pool\nIt's so cool in my pool\nIt's so cool in my pool\nYeah yeah yeah\n\nI love you girl, you know it's true\nTo have a super party in my swimming pool\nJump on in and you will see\nJust how fun a pool party can be\nBut don't eat too much before you swim\n'Cause you might get a cramp under your chin\nSomeone's screaming, that's not cool\nWho threw that Reggie Bar in the pool?\nRonnie, Sally, Bobby and Mike\nIt's my pool party, we'll do what we like!\nIt was a pool party for the cool kids at my school\nIt was a pool party for the cool kids at my school\nIt's so cool in my pool\nIt's so cool in my pool\nIt's so cool in my pool\nIt's so cool in my pool\nThere's no pool at my school\nThere's no school in my pool\nThere's no pool at my school\nSo it's cool at my pool\nYeah yeah yeah1Embed"
+    }
+}

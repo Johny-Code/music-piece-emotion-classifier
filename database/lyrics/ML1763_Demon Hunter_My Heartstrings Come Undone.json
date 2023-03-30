@@ -1,0 +1,58 @@
+{
+    "id": "ML1763",
+    "mood": "sad",
+    "artist": "Demon Hunter",
+    "title": "My Heartstrings Come Undone",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/504970",
+        "artist_names": "Demon Hunter",
+        "full_title": "My Heartstrings Come Undone by\u00a0Demon\u00a0Hunter",
+        "header_image_thumbnail_url": "https://images.genius.com/c8cc75b41210187e2f8e2266428eaa97.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/c8cc75b41210187e2f8e2266428eaa97.1000x1000x1.jpg",
+        "id": 504970,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 517968,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1541348823,
+        "path": "/Demon-hunter-my-heartstrings-come-undone-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Demon-hunter-my-heartstrings-come-undone-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 5,
+            "day": 4
+        },
+        "release_date_for_display": "May 4, 2004",
+        "release_date_with_abbreviated_month_for_display": "May. 4, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/c8cc75b41210187e2f8e2266428eaa97.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/c8cc75b41210187e2f8e2266428eaa97.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 9,
+            "hot": false,
+            "pageviews": 6065
+        },
+        "title": "My Heartstrings Come Undone",
+        "title_with_featured": "My Heartstrings Come Undone",
+        "updated_by_human_at": 1665256376,
+        "url": "https://genius.com/Demon-hunter-my-heartstrings-come-undone-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/94437",
+            "header_image_url": "https://images.genius.com/ff95bed5fb7de17d46aaeec5d4a07be1.1000x668x1.jpg",
+            "id": 94437,
+            "image_url": "https://images.genius.com/5aca6c7f124b39cf133df81a802a5114.1000x1000x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Demon Hunter",
+            "slug": "Demon-hunter",
+            "url": "https://genius.com/artists/Demon-hunter"
+        },
+        "artist": "Demon Hunter",
+        "lyrics": "My Heartstrings Come Undone Lyrics[Verse 1]\nIt\u2019s buried deep within the past and I hope it doesn\u2019t last\n(It\u2019s something I already chase, I already chase)\nI try to give it all away, but it\u2019s never going to fade\n(It\u2019s something I don\u2019t want to face, I don\u2019t want to face)\nI know you feel it\u2019s all the same, but I promise that I\u2019ll change\n(It\u2019s something I already chase, I already chase)\nYou know I\u2019m trying to believe that you\u2019re never going to leave\n(It\u2019s something I don\u2019t want to face, I don\u2019t want to face)\n\nThere\u2019s nothing left, the fear is gone\nAnd when my heartstrings come undone\nI will wait for you, pray for you\nBefore I make my final run\nI will stay with you, decay with you\n[Verse 2]\nI know I\u2019m not the perfect one and this has pain just begun\n(It\u2019s something I already chase, I already chase)\nYou bring me to a better path, and it\u2019s everything I lack\n(It\u2019s something I don\u2019t want to face, I don\u2019t want to face)\n\nThere\u2019s nothing left, the fear is gone\nThere\u2019s nothing left, the fear is gone\n\nAnd when my heartstrings come undone\nI will wait for you, pray for you\nBefore I make my final run\nI will stay with you, decay with you\n\nIf you fade out without me will you know all about me?\nIf you fade out without me will you know all?\n\nAnd when my heartstrings come undone\nI will wait for you, pray for you\nBefore I make my final run\nI will stay with you, decay with you\nYou might also likeAnd when my heartstrings come undone\nI will wait for you, pray for you\nBefore I make my final run\nI will stay with you, decay with youEmbed"
+    }
+}

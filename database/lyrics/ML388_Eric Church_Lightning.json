@@ -1,0 +1,58 @@
+{
+    "id": "ML388",
+    "mood": "sad",
+    "artist": "Eric Church",
+    "title": "Lightning",
+    "song": {
+        "_type": "song",
+        "annotation_count": 11,
+        "api_path": "/songs/342583",
+        "artist_names": "Eric Church",
+        "full_title": "Lightning by\u00a0Eric\u00a0Church",
+        "header_image_thumbnail_url": "https://images.genius.com/77f3e8a3b808f260fb355b97ecb345ef.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/77f3e8a3b808f260fb355b97ecb345ef.1000x1000x1.jpg",
+        "id": 342583,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 396961,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1655275698,
+        "path": "/Eric-church-lightning-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Eric-church-lightning-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 7,
+            "day": 18
+        },
+        "release_date_for_display": "July 18, 2006",
+        "release_date_with_abbreviated_month_for_display": "Jul. 18, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/77f3e8a3b808f260fb355b97ecb345ef.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/77f3e8a3b808f260fb355b97ecb345ef.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false
+        },
+        "title": "Lightning",
+        "title_with_featured": "Lightning",
+        "updated_by_human_at": 1655275698,
+        "url": "https://genius.com/Eric-church-lightning-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/32085",
+            "header_image_url": "https://images.genius.com/30c86762d8cf1838fd38b5c97b6afd7c.800x420x1.jpg",
+            "id": 32085,
+            "image_url": "https://images.genius.com/84f8e1c9fa2f7ae8f4638d93a922772e.1000x1000x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Eric Church",
+            "slug": "Eric-church",
+            "url": "https://genius.com/artists/Eric-church",
+            "iq": 943
+        },
+        "artist": "Eric Church",
+        "lyrics": "Lightning Lyrics[Verse 1]\nThese four walls of Farnsworth\nAre closing' in on me\nMy final meal's over\nThey're going to set me free\nI can feel the fire's a burning'\nAs the devil guards my door\nI hit my knees in search of Jesus\nOn a cold jailhouse floor\n\n[Chorus]\nLord, now I'm singing':\n\"Get me out of here\"\nI see the preacher's eyes\nAs my daughter cries\nWhen they strap me in this chair\nLord, I hope she forgives me\nFor living' my life this way\nTonight I ride the lightning\nTo my final judgment day\n[Verse 2]\nEvery life owes a debt\nThat's what the Bible says\nI owe mine to this state\nFor shooting' that boy to death\nA liquor store attendant\nHe was reaching' for his gun\nNow his Momma sits there smiling'\nAs the boss yells \"Roll on one\n\n[Chorus]\nAnd, now I'm singing':\n\"Get me out of here\"\nI see the preacher's eyes\nAs my daughter cries\nWhen they strap me in this chair\nLord, I hope she forgives me\nFor living' my life this way\nTonight I ride the lightning\nTo my final judgment day\n\n[Verse 3]\nA hungry blue eyed baby crying'\nMade me rob that store\nAn' as that boy lay there dying'\nI dropped my pistol on the floor\nYeah, I'd take it all back but there's nothing' I can do\nThey've covered my face\nAn' the order's gone through\nAs the boss yells \"Roll on, two\"\nNow I'm flying'\nUp an' out of here\nI close my eyes an' slowly rise\nLet my body leave this chair\nLord I hope you forgive me\nFor living' my life this way\nYeah, tonight I ride the lightning\nTo my final resting' place\nThese four walls of Farnworth\nAre closing' in on meYou might also likeEmbed"
+    }
+}

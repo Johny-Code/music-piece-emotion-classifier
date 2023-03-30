@@ -1,0 +1,57 @@
+{
+    "id": "ML1657",
+    "mood": "sad",
+    "artist": "Tracey Thorn",
+    "title": "Nowhere Near",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1336960",
+        "artist_names": "Tracey Thorn",
+        "full_title": "Nowhere Near by\u00a0Tracey\u00a0Thorn",
+        "header_image_thumbnail_url": "https://images.genius.com/b427c4f61850612201e219f4e326b118.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b427c4f61850612201e219f4e326b118.1000x1000x1.jpg",
+        "id": 1336960,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 13517274,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1630266990,
+        "path": "/Tracey-thorn-nowhere-near-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Tracey-thorn-nowhere-near-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2007",
+        "release_date_with_abbreviated_month_for_display": "2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b427c4f61850612201e219f4e326b118.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b427c4f61850612201e219f4e326b118.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Nowhere Near",
+        "title_with_featured": "Nowhere Near",
+        "updated_by_human_at": 1630267013,
+        "url": "https://genius.com/Tracey-thorn-nowhere-near-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/38996",
+            "header_image_url": "https://images.genius.com/cb3eb788e782a576ec24d935cab1d127.1000x415x1.jpg",
+            "id": 38996,
+            "image_url": "https://images.genius.com/be55672352c2c7140e1ae63f940ab1ad.534x534x1.jpg",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Tracey Thorn",
+            "slug": "Tracey-thorn",
+            "url": "https://genius.com/artists/Tracey-thorn"
+        },
+        "artist": "Tracey Thorn",
+        "lyrics": "Nowhere Near Lyrics[Verse 1]\nDog days of summer\nHeat haze and bad temper\nAnd whole days of shouting\n\"Would you listen to me?\"\nSee, I'm the one in charge now\nWhat happened to me?\nI turned into someone's mother\n\n[Chorus]\nReally someone should give me a uniform\nOr someone should show me where is the door\nOr someone should come around and explain\nHow it is that love forgets to speak its name\n[Verse 2]\nAnd then you turn on the news\nAnd it's somebody else's news\nAnd it's always such bad news\nAnd I'm no good with sad news anymore\nGets me running upstairs\nTo count heads in tangled beds\n\n[Chorus]\nAnd someone tears up that uniform\nAnd somewhere gently closes a door\nAnd I'm right here once more\nCrying, confessing, counting my blessings\nDon't let go\n'Cause we'll never know\nThat even when the sky is clear\nAnd the moon looks really close\nWell it's nowhere nearYou might also likeEmbed"
+    }
+}

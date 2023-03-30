@@ -1,0 +1,58 @@
+{
+    "id": "ML1100",
+    "mood": "angry",
+    "artist": "Burzum",
+    "title": "Jesus' Tod",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/3295718",
+        "artist_names": "Burzum",
+        "full_title": "Jesu D\u00f8d / Jesus' Tod by\u00a0Burzum",
+        "header_image_thumbnail_url": "https://images.genius.com/737459b5c701f73b0bed14222cbe3649.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/737459b5c701f73b0bed14222cbe3649.999x999x1.jpg",
+        "id": 3295718,
+        "instrumental": false,
+        "language": "no",
+        "lyrics_owner_id": 3922351,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1642360543,
+        "path": "/Burzum-jesu-dd-jesus-tod-lyrics",
+        "pyongs_count": 9,
+        "relationships_index_url": "https://genius.com/Burzum-jesu-dd-jesus-tod-sample",
+        "release_date_components": {
+            "year": 1996,
+            "month": 1,
+            "day": 1
+        },
+        "release_date_for_display": "January 1, 1996",
+        "release_date_with_abbreviated_month_for_display": "Jan. 1, 1996",
+        "song_art_image_thumbnail_url": "https://images.genius.com/737459b5c701f73b0bed14222cbe3649.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/737459b5c701f73b0bed14222cbe3649.999x999x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 45472
+        },
+        "title": "Jesu D\u00f8d / Jesus\u2019 Tod",
+        "title_with_featured": "Jesu D\u00f8d / Jesus' Tod",
+        "updated_by_human_at": 1676111550,
+        "url": "https://genius.com/Burzum-jesu-dd-jesus-tod-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/153511",
+            "header_image_url": "https://images.genius.com/732e716a0fb63ab8f2d0a8a223e480bb.1000x528x1.png",
+            "id": 153511,
+            "image_url": "https://images.genius.com/65bb91c5270bd258faa769e1177c2735.1000x1000x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Burzum",
+            "slug": "Burzum",
+            "url": "https://genius.com/artists/Burzum"
+        },
+        "artist": "Burzum",
+        "lyrics": "Jesu D\u00f8d / Jesus\u2019 Tod LyricsEn skikkelse l\u00e5 der p\u00e5 bakken\nS\u00e5 vond at de blomster rundt visnet\nEn dyster sjel l\u00e5 der p\u00e5 bakken\nS\u00e5 kald at alt vann ble til is\n\nEn skygge da falt over skogen\nDa skikkelsens sjel visnet bort\nFor skikkelsens sjel var en skygge\nEn skygge av vondskapens makt\n\n----English translation----\n\nA figure lay there on the hilltop\nSo evil that the flowers around withered\nA gloomy soul lay there on the hilltop\nSo cold that the water turned to ice\n\nA shadow then settled over the woods\nThen the figure's soul withered away\nBecause the figure's soul was a shadow\nA shadow of the evil powerYou might also like9Embed"
+    }
+}

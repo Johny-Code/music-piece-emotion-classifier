@@ -1,0 +1,58 @@
+{
+    "id": "ML1037",
+    "mood": "happy",
+    "artist": "Squeeze",
+    "title": "Hourglass",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/985556",
+        "artist_names": "Squeeze",
+        "full_title": "Hourglass by\u00a0Squeeze",
+        "header_image_thumbnail_url": "https://images.genius.com/95e6f0665dc8ca37051eb3447eab2d5a.300x297x1.jpg",
+        "header_image_url": "https://images.genius.com/95e6f0665dc8ca37051eb3447eab2d5a.550x545x1.jpg",
+        "id": 985556,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 579865,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1654449652,
+        "path": "/Squeeze-hourglass-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Squeeze-hourglass-sample",
+        "release_date_components": {
+            "year": 1987,
+            "month": 7,
+            "day": null
+        },
+        "release_date_for_display": "July 1987",
+        "release_date_with_abbreviated_month_for_display": "Jul. 1987",
+        "song_art_image_thumbnail_url": "https://images.genius.com/95e6f0665dc8ca37051eb3447eab2d5a.300x297x1.jpg",
+        "song_art_image_url": "https://images.genius.com/95e6f0665dc8ca37051eb3447eab2d5a.550x545x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 10424
+        },
+        "title": "Hourglass",
+        "title_with_featured": "Hourglass",
+        "updated_by_human_at": 1654449652,
+        "url": "https://genius.com/Squeeze-hourglass-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/36089",
+            "header_image_url": "https://images.genius.com/6d14835acc81e595c1ca82a7e6ab9bfb.720x450x1.jpg",
+            "id": 36089,
+            "image_url": "https://images.genius.com/c169986c64979eb77dd61580c67f0f75.468x286x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Squeeze",
+            "slug": "Squeeze",
+            "url": "https://genius.com/artists/Squeeze"
+        },
+        "artist": "Squeeze",
+        "lyrics": "Hourglass Lyrics[Verse 1]\nI feel like I'm pounding on a big door\nNo one can hear me knocking\nI feel like I'm falling flat to the floor\nNo one can catch me from falling\n\n[Pre-Chorus 1]\nThe hourglass has no more grains of sand\nMy watch has stopped, no more turning hands\nThe crew have abandoned the ship\nThe lights are on but no one is in\n[Chorus]\nTake it to the bridge, throw it overboard\nSee if it can swim, back up to the shore\nNo one's in the house, everyone is out\nAll the lights are on and the blinds are down\nTake it to the bridge, throw it overboard\nSee if it can swim, back up to the shore\nNo one's in the house, everyone is out\nAll the lights are on and the blinds are down\n\n[Verse 2]\nI feel like I'm calling on a telephone\nNo one can hear the ringing\nI feel like I'm running up a steep hill\nNo one can stop me from running\n\n[Pre-Chorus 2]\nThe hourglass has no more grains of sand\nMy watch has stopped, no more turning hands\nThe little hand shakes its fist\nThe face is hanging out on a spring\n\n[Chorus]\nTake it to the bridge, throw it overboard\nSee if it can swim, back up to the shore\nNo one's in the house, everyone is out\nAll the lights are on and the blinds are down\nTake it to the bridge, throw it overboard\nSee if it can swim, back up to the shore\nNo one's in the house, everyone is out\nAll the lights are on and the blinds are down\nTake it to the bridge, throw it overboard\nSee if it can swim, back up to the shore\nNo one's in the house, everyone is out\nAll the lights are on and the blinds are down\nTake it to the bridge, throw it overboard\nSee if it can swim, back up to the shore\nNo one's in the house, everyone is out\nAll the lights are on and the blinds are down\nYou might also like[Saxophone Solo]\n\n[Bridge]\nThe hourglass has no more grains of sand\nLittle red grains of sand\nMy watch has stopped, no more turning hands\nLittle green neon hands\n\n[Chorus]\nTake it to the bridge, throw it overboard\nSee if it can swim, back up to the shore\nNo one's in the house, everyone is out\nAll the lights are on and the blinds are down\nTake it to the bridge, throw it overboard\nSee if it can swim, back up to the shore\nNo one's in the house, everyone is out\nAll the lights are on and the blinds are down\n\n[Outro]\nFeel like I'm calling back to the shore\nNo one can hear me calling\nFeel like I'm falling back to the floor\nNo one can catch me from fallingEmbed"
+    }
+}

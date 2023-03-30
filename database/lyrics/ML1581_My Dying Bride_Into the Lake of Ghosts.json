@@ -1,0 +1,57 @@
+{
+    "id": "ML1581",
+    "mood": "sad",
+    "artist": "My Dying Bride",
+    "title": "Into the Lake of Ghosts",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1300861",
+        "artist_names": "My Dying Bride",
+        "full_title": "Into the Lake of Ghosts by\u00a0My\u00a0Dying Bride",
+        "header_image_thumbnail_url": "https://images.genius.com/e91e32ccaf43bdd7b4868664b887cf70.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e91e32ccaf43bdd7b4868664b887cf70.1000x1000x1.jpg",
+        "id": 1300861,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6538891,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1616759019,
+        "path": "/My-dying-bride-into-the-lake-of-ghosts-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/My-dying-bride-into-the-lake-of-ghosts-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 10,
+            "day": 12
+        },
+        "release_date_for_display": "October 12, 1999",
+        "release_date_with_abbreviated_month_for_display": "Oct. 12, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e91e32ccaf43bdd7b4868664b887cf70.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e91e32ccaf43bdd7b4868664b887cf70.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Into the Lake of Ghosts",
+        "title_with_featured": "Into the Lake of Ghosts",
+        "updated_by_human_at": 1616760667,
+        "url": "https://genius.com/My-dying-bride-into-the-lake-of-ghosts-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/353360",
+            "header_image_url": "https://images.genius.com/f61e6432c375c7d321dc3354fe59423d.951x951x1.jpg",
+            "id": 353360,
+            "image_url": "https://images.genius.com/f61e6432c375c7d321dc3354fe59423d.951x951x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "My Dying Bride",
+            "slug": "My-dying-bride",
+            "url": "https://genius.com/artists/My-dying-bride"
+        },
+        "artist": "My Dying Bride",
+        "lyrics": "Into the Lake of Ghosts LyricsEnter the Ghost Lake\nThe waters whisper\nOf something brooding\nNo way out of here\n\nSlow smouldering\nSlow rain(ing) heat\nLapping at your skin\nPulling you down again\n\nI wish that I could\nFan back to life\nThe dying embers\nOf my long lost passion\nDescending deeper\nWith black as my light\nWith twist and turn\nAll men will be tried in life\n\nWe look for light to call\nThe call to save us all\nLest we fall to our knees\nThe death, we kiss his feet\nOh, sacred mother come\nFor our fate is done\nIn blindness do we run\nAlways backwards\n\nThe care of many\nWas lost in my hands\nThe sickness came in\nFloods of torment and woe\n\nMy withered body\nAching and bone tired\nMy christ who art lord\nHold me down again\n\nKnee bent and head held low\nEyes closed against my foe\nIn prayer I sing on low\nAnswers to my last call\nOh, sacred father come\nFor it is you who's done\nIn blindness you will run\nAnd be sure not to fall\nYou might also likeOh, christ, what have I done?\nIll fortune now will come\nFire raining from the sun\nAll virtue swept away\nIn floods of blackest death\nThe ghost will take my breath\nMy sins I will forget\nI am nothing again\n\nExit the Ghost Lake\nThe waters silent\nWhat now has risen?\nNo man stands alone\n\nThe world is changing\n'Tis misery who\nLeads our way now\nHolding man down and again\n\nKnee bent and head held low\nEyes closed against my foe\nIn prayer I sing on low\nAnswers to my last call\nOh, sacred father come\nFor it is you who's done\nIn blindness you will run\nAnd be sure not to fall\nOh, christ, what have I done?\nIll fortune now will come\nFire raining from the sun\nAll virtue swept away\nIn floods of blackest death\nThe ghost will take my breath\nMy sins I will forget\nI am nothing again\n\nAgainEmbed"
+    }
+}

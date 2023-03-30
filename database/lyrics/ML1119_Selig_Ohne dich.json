@@ -1,0 +1,53 @@
+{
+    "id": "ML1119",
+    "mood": "sad",
+    "artist": "Selig",
+    "title": "Ohne dich",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1565898",
+        "artist_names": "Selig",
+        "full_title": "Ohne Dich by\u00a0Selig",
+        "header_image_thumbnail_url": "https://images.genius.com/ed4d2b1a3ab50c60c903315a9ad8a572.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/ed4d2b1a3ab50c60c903315a9ad8a572.1000x1000x1.jpg",
+        "id": 1565898,
+        "instrumental": false,
+        "language": "de",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1508707158,
+        "path": "/Selig-ohne-dich-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Selig-ohne-dich-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/ed4d2b1a3ab50c60c903315a9ad8a572.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ed4d2b1a3ab50c60c903315a9ad8a572.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Ohne Dich",
+        "title_with_featured": "Ohne Dich",
+        "updated_by_human_at": 1511571829,
+        "url": "https://genius.com/Selig-ohne-dich-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/150522",
+            "header_image_url": "https://images.genius.com/a94a09da32ccf7cd7a1ce9a3b025ba2f.500x500x1.jpg",
+            "id": 150522,
+            "image_url": "https://images.genius.com/a94a09da32ccf7cd7a1ce9a3b025ba2f.500x500x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Selig",
+            "slug": "Selig",
+            "url": "https://genius.com/artists/Selig"
+        },
+        "artist": "Selig",
+        "lyrics": "Ohne Dich LyricsLangeweile besuft sich meilenweit, ich zhl die Ringe an meiner Hand\nDort draussen alles dreht sich still um nix herum\nUnd ich male deine Schatten an jede Wand\nEs kommt so anders als man denkt, Herz vergeben, Herz verschenkt\nIch gab dir meine Liebe, gab dir Zeit, Geduld und Geld\nIch legte mein Leben in deine kleine Welt\nWer auch immer dir jetzt den Regen schenkt, ich hoffe es geht ihm schlecht\nWer auch immer dich durch die Nacht bringt, bitte glaub ihm nicht\nEs kommt so anders als man denkt, Herz vergeben, Herz verschenkt\nEs ist so oh, ohne dich! Es ist so widerlich ich will das nicht!\nDenkst Du vielleicht auch mal an mich?\nEs ist so oh, ohne dich!\nUnd wenn Du einsam bist denkst Du vielleicht auch mal an mich\nIch nhte mir ein Bettbezug aus der Zeit die wir hatten und trink mir alte\nWunden an, so tief und allein\nKein Berg den ich nicht verssetzt hab, zog jede Chance an den Haaren herbei\nFr ein Leben lang zu leben, so wild und so frei\nEs kommt so anders als man denkt, Herz vergeben, Herz verschenktYou might also likeEmbed"
+    }
+}

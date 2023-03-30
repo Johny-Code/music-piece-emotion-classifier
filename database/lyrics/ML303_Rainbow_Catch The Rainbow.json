@@ -1,0 +1,58 @@
+{
+    "id": "ML303",
+    "mood": "sad",
+    "artist": "Rainbow",
+    "title": "Catch The Rainbow",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/449852",
+        "artist_names": "Rainbow",
+        "full_title": "Catch the Rainbow by\u00a0Rainbow",
+        "header_image_thumbnail_url": "https://images.genius.com/e9a1aa39a9647c8d1284fb1100f2e2e5.300x300x1.png",
+        "header_image_url": "https://images.genius.com/e9a1aa39a9647c8d1284fb1100f2e2e5.1000x1000x1.png",
+        "id": 449852,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 946322,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1653030273,
+        "path": "/Rainbow-catch-the-rainbow-lyrics",
+        "pyongs_count": 7,
+        "relationships_index_url": "https://genius.com/Rainbow-catch-the-rainbow-sample",
+        "release_date_components": {
+            "year": 1975,
+            "month": 8,
+            "day": 4
+        },
+        "release_date_for_display": "August 4, 1975",
+        "release_date_with_abbreviated_month_for_display": "Aug. 4, 1975",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e9a1aa39a9647c8d1284fb1100f2e2e5.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/e9a1aa39a9647c8d1284fb1100f2e2e5.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 99168
+        },
+        "title": "Catch the Rainbow",
+        "title_with_featured": "Catch the Rainbow",
+        "updated_by_human_at": 1653030273,
+        "url": "https://genius.com/Rainbow-catch-the-rainbow-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/35787",
+            "header_image_url": "https://images.genius.com/987dff3bd6a0b9d001d4eb94853e7f26.700x167x1.png",
+            "id": 35787,
+            "image_url": "https://images.genius.com/b6b8507a9e77eee60e271e3a8d2442f6.676x676x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Rainbow",
+            "slug": "Rainbow",
+            "url": "https://genius.com/artists/Rainbow"
+        },
+        "artist": "Rainbow",
+        "lyrics": "Catch the Rainbow Lyrics[Verse]\nWhen evening falls\nShe'll run to me\nLike whispered dreams\nYour eyes can't see\nSoft and warm\nShe'll touch my face\nA bed of straw\nAgainst the lace\n\n[Chorus]\nWe believed we'd catch the rainbow\nRide the wind to the sun\nSail away on ships of wonder\nBut life's not a wheel\nWith chains made of steel\nSo bless me\nCome the dawn\nCome the dawn\nCome the dawn\nCome the dawn\n[Guitar Solo]\n\n[Chorus]\nWe believed we'd catch the rainbow\nRide the wind to the sun\nAnd sail away on ships of wonder\nBut life's not a wheel\nWith chains made of steel\nSo bless me, oh bless me, bless me\nCome the dawn\nCome the dawn\nCome the dawn\nCome the dawn\n\n[Instrumental Outro]You might also like7Embed"
+    }
+}

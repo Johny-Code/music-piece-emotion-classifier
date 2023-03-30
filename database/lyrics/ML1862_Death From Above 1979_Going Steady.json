@@ -1,0 +1,58 @@
+{
+    "id": "ML1862",
+    "mood": "happy",
+    "artist": "Death From Above 1979",
+    "title": "Going Steady",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1779440",
+        "artist_names": "Death From Above 1979",
+        "full_title": "Going Steady by\u00a0Death\u00a0From Above 1979",
+        "header_image_thumbnail_url": "https://images.genius.com/3b81bb944ee36adba8a872c3247fe866.300x300x1.png",
+        "header_image_url": "https://images.genius.com/3b81bb944ee36adba8a872c3247fe866.1000x1000x1.png",
+        "id": 1779440,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 347214,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1677794812,
+        "path": "/Death-from-above-1979-going-steady-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Death-from-above-1979-going-steady-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 7,
+            "day": 12
+        },
+        "release_date_for_display": "July 12, 2004",
+        "release_date_with_abbreviated_month_for_display": "Jul. 12, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3b81bb944ee36adba8a872c3247fe866.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/3b81bb944ee36adba8a872c3247fe866.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Going Steady",
+        "title_with_featured": "Going Steady",
+        "updated_by_human_at": 1677794812,
+        "url": "https://genius.com/Death-from-above-1979-going-steady-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/34566",
+            "header_image_url": "https://images.genius.com/8d20ec58a460420a156ef29d59a2eeeb.1000x635x1.jpg",
+            "id": 34566,
+            "image_url": "https://images.genius.com/75074c522670ccc428b357ca2e791a24.960x960x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Death From Above 1979",
+            "slug": "Death-from-above-1979",
+            "url": "https://genius.com/artists/Death-from-above-1979",
+            "iq": 144
+        },
+        "artist": "Death From Above 1979",
+        "lyrics": "Going Steady Lyrics[Verse 1]\nOh you should see her now\nWe still love her now\nShe is going steady\nBut we're not ready\nWe're not ready, Oh\nTo see her fall\nTo see her fall\nTo see her fall in love\n\n[Bridge]\nI know you are getting older\nWe should never turn our shoulder\nI have never seen you suffer\nI will never hurt you mother\nI know you are getting older\nWe should never turn our shoulder\nI have never seen you suffer\nI will never hurt you mother\nI know you are getting older\nWe should never turn our shoulder\n\n[Refrain]\nI will never make you suffer\nI will never hurt you motherYou might also likeEmbed"
+    }
+}

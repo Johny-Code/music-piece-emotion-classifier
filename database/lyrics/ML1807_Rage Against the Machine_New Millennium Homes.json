@@ -1,0 +1,58 @@
+{
+    "id": "ML1807",
+    "mood": "angry",
+    "artist": "Rage Against the Machine",
+    "title": "New Millennium Homes",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/39685",
+        "artist_names": "Rage Against the Machine",
+        "full_title": "New Millennium Homes by\u00a0Rage\u00a0Against the Machine",
+        "header_image_thumbnail_url": "https://images.genius.com/52884aa548e8b89b94182218c3f46dea.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/52884aa548e8b89b94182218c3f46dea.600x600x1.jpg",
+        "id": 39685,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 50,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1626855533,
+        "path": "/Rage-against-the-machine-new-millennium-homes-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Rage-against-the-machine-new-millennium-homes-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 11,
+            "day": 2
+        },
+        "release_date_for_display": "November 2, 1999",
+        "release_date_with_abbreviated_month_for_display": "Nov. 2, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/52884aa548e8b89b94182218c3f46dea.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/52884aa548e8b89b94182218c3f46dea.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 26800
+        },
+        "title": "New Millennium Homes",
+        "title_with_featured": "New Millennium Homes",
+        "updated_by_human_at": 1651584657,
+        "url": "https://genius.com/Rage-against-the-machine-new-millennium-homes-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1499",
+            "header_image_url": "https://images.genius.com/894d5c14133517ce6354f719cc88af54.1000x302x1.png",
+            "id": 1499,
+            "image_url": "https://images.genius.com/2158957823960c84c7890b8fa5e6d479.1000x1000x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Rage Against the Machine",
+            "slug": "Rage-against-the-machine",
+            "url": "https://genius.com/artists/Rage-against-the-machine"
+        },
+        "artist": "Rage Against the Machine",
+        "lyrics": "New Millennium Homes Lyrics[Verse 1]\nHungry people don't stay hungry for long\nThey get hope from fire and smoke as the weak grow strong\nHungry people don't stay hungry for long\nThey get hope from fire and smoke as they reach for the dawn\nThe spirit of Jackson now screams through the ruins\nThrough factory chains and the ghost of the Union\nThe forgotten remains disappear to their new homes\nThe knife, the thrust, the life burns to the raw bone\nThe blood on the floor of the tear is still dryin'\nCover the spread sheets, the Dow Jones skyin'\nThe cell block live stock, the bodies they buyin'\nOld south order, new northern horizon!\n[Pre-Chorus]\nViolence in all hands, embrace it if need be\n(Violence in all hands, embrace it if need be)\nLivin' been warfare, I press it to CD\n(Livin' been warfare, I press it to CD)\nViolence in all hands, embrace it if need be\n(Violence in all hands, embrace it if need be)\nLivin' been warfare, I press it to CD\n(Livin' been warfare, I press it to CD)\n\n[Chorus]\nA fire in the master's house is set\nA fire in the master's house is set\nA fire in the master's house is set\nA fire in the master's house is set\n\n[Verse 2]\nHungry people don't stay hungry for long\nThey get hope from fire and smoke as the weak grow strong\nHungry people don't stay hungry for long\nThey get hope from fire and smoke as they reach for the dawn\nYo, yo, check the high tech terror of the new order athletes\nPeering into the eyes of the child already on trial\nThese armies rippin' families apart, get 'em on file\nConvictions fit the stock profile all the while\nFilms of dogs, cuttin' through homes\nRipping skin from bones, yes, the new millennium homes\nPrivatizing through private eyes, an era rising\nOf the old south order, new northern horizon\nYou might also like[Pre-Chorus]\nViolence in all hands, embrace it if need be\n(Violence in all hands, embrace it if need be)\nLivin' been warfare, I press it to CD\n(Livin' been warfare, I press it to CD)\nViolence in all hands, embrace it if need be\n(Violence in all hands, embrace it if need be)\nLivin' been warfare, I press it to CD\n(Livin' been warfare, I press it to CD)\n\n[Chorus]\nA fire in the master's house is set\nA fire in the master's house is set\nA fire in the master's house is set\nA fire in the master's house is set3Embed"
+    }
+}

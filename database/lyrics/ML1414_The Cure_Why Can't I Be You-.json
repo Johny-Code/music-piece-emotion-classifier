@@ -1,0 +1,58 @@
+{
+    "id": "ML1414",
+    "mood": "happy",
+    "artist": "The Cure",
+    "title": "Why Can't I Be You?",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/388492",
+        "artist_names": "The Cure",
+        "full_title": "Why Can't I Be You? by\u00a0The\u00a0Cure",
+        "header_image_thumbnail_url": "https://images.genius.com/9023fea2bcdebc7651f2a88f75e5859a.300x298x1.jpg",
+        "header_image_url": "https://images.genius.com/9023fea2bcdebc7651f2a88f75e5859a.1000x994x1.jpg",
+        "id": 388492,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 354382,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1639079966,
+        "path": "/The-cure-why-cant-i-be-you-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/The-cure-why-cant-i-be-you-sample",
+        "release_date_components": {
+            "year": 1987,
+            "month": 5,
+            "day": 5
+        },
+        "release_date_for_display": "May 5, 1987",
+        "release_date_with_abbreviated_month_for_display": "May. 5, 1987",
+        "song_art_image_thumbnail_url": "https://images.genius.com/64269591ed4aa9b80a0a5b63a4ccc000.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/64269591ed4aa9b80a0a5b63a4ccc000.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 29745
+        },
+        "title": "Why Can\u2019t I Be You?",
+        "title_with_featured": "Why Can't I Be You?",
+        "updated_by_human_at": 1652376567,
+        "url": "https://genius.com/The-cure-why-cant-i-be-you-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/15758",
+            "header_image_url": "https://images.genius.com/cd329cd267a717821150770e9f47e920.1000x600x1.jpg",
+            "id": 15758,
+            "image_url": "https://images.genius.com/a0eeac26e313b49cc558102ed0a5622b.640x640x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Cure",
+            "slug": "The-cure",
+            "url": "https://genius.com/artists/The-cure"
+        },
+        "artist": "The Cure",
+        "lyrics": "Why Can\u2019t I Be You? Lyrics[Verse 1]\nYou're so gorgeous I'll do anything\nI'll kiss you from your feet to where your head begins\nYou're so perfect, you're so right as rain\nYou make me, make me, make me, make me hungry again\n\n[Chorus]\nEverything you do is irresistible\nEverything you do is simply kissable\nWhy can't I be you?\n[Verse 2]\nI'll run around in circles until I run out of breath\nI'll eat you all up or I'll just hug you to death\nYou're so wonderful, too good to be true\nYou make me, make me, make me, make me hungry for you\n\n[Chorus]\nEverything you do is simply delicate\nEverything you do is quite angelicate\nWhy can't I be you?\nWhy can't I be you?\n\n[Verse 3]\nYou turn my head when you turn around\nYou turn the whole world upside down\nI'm smitten, I'm bitten, I'm hooked, I'm cooked, I'm stuck like glue\nYou make me, make me, make me, make me hungry for you\n\n[Chorus]\nEverything you do is simply dreamy\nEverything you do is quite delicious\nSo why can't I be you?\nWhy can't I be you?\nWhy can't I be you?\nWhy can't I be you?\nWhy can't I be you?\nYou're simply elegantYou might also like6Embed"
+    }
+}

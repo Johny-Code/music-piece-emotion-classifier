@@ -1,0 +1,57 @@
+{
+    "id": "ML1126",
+    "mood": "sad",
+    "artist": "Richard Thompson",
+    "title": "Sibella",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1510959",
+        "artist_names": "Richard Thompson",
+        "full_title": "Sibella by\u00a0Richard\u00a0Thompson",
+        "header_image_thumbnail_url": "https://images.genius.com/328e47c49653c065b2f6a5eaffefe8be.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/328e47c49653c065b2f6a5eaffefe8be.300x300x1.jpg",
+        "id": 1510959,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 15957993,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1665767973,
+        "path": "/Richard-thompson-sibella-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Richard-thompson-sibella-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1999",
+        "release_date_with_abbreviated_month_for_display": "1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/328e47c49653c065b2f6a5eaffefe8be.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/328e47c49653c065b2f6a5eaffefe8be.300x300x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Sibella",
+        "title_with_featured": "Sibella",
+        "updated_by_human_at": 1665767973,
+        "url": "https://genius.com/Richard-thompson-sibella-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/39112",
+            "header_image_url": "https://images.genius.com/7180974ab0ad4a801a2653dd99355e9f.1000x666x1.png",
+            "id": 39112,
+            "image_url": "https://images.genius.com/152fc090f8f1f2c2d98edb47933833b3.480x320x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Richard Thompson",
+            "slug": "Richard-thompson",
+            "url": "https://genius.com/artists/Richard-thompson"
+        },
+        "artist": "Richard Thompson",
+        "lyrics": "Sibella Lyrics[Verse 1]\nOh some girls hold the ace, the deuce, the trey\nX-ray the deck to see what's coming\nMarie Antoinette she smiled that way\nEasy to smile when the luck is running\n\n[Pre-Chorus 1]\nLike a myth you rode in from the west\nFrom the go you had my button pressed\nDid the tea-time of your soul\nMake you long for wilder days?\nDid you never let Jack Kerouac\nWash over you in waves?\n[Chorus]\nSibella, we don't make sense together\nBut my heart's with you\nSibella, I found myself\nStrange but true, strange but true\n\n[Verse 2]\nSome say you can learn a lot from books\nThrill right to second-hand living\nLife is just as deadly as it looks\nBut fiction is more forgiving\n\n[Pre-Chorus 2]\nYou took chances well within your means\nSalon hair and creases in your jeans\nAll those lonely winters long\nDid you really think it through\nDid you really ache for me like I really ached for you\n\n[Chorus]\nSibella, we don't make sense together\nBut my heart's with you\nSibella, I found myself\nStrange but true, strange but true\n\n[Chorus]\nSibella, we don't make sense together\nBut my heart's with you\nSibella, I found myself\nStrange but true, strange but true\nStrange but true, strange but true\nStrange but trueYou might also likeEmbed"
+    }
+}

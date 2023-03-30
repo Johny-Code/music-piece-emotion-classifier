@@ -1,0 +1,58 @@
+{
+    "id": "ML886",
+    "mood": "angry",
+    "artist": "Jimmy Eat World",
+    "title": "Pain",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/65704",
+        "artist_names": "Jimmy Eat World",
+        "full_title": "Pain by\u00a0Jimmy\u00a0Eat World",
+        "header_image_thumbnail_url": "https://images.genius.com/eb074fecdf2912b861c4ce06efc24c0d.300x297x1.jpg",
+        "header_image_url": "https://images.genius.com/eb074fecdf2912b861c4ce06efc24c0d.500x495x1.jpg",
+        "id": 65704,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 66760,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1615118936,
+        "path": "/Jimmy-eat-world-pain-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Jimmy-eat-world-pain-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 9,
+            "day": 14
+        },
+        "release_date_for_display": "September 14, 2004",
+        "release_date_with_abbreviated_month_for_display": "Sep. 14, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/eb074fecdf2912b861c4ce06efc24c0d.300x297x1.jpg",
+        "song_art_image_url": "https://images.genius.com/eb074fecdf2912b861c4ce06efc24c0d.500x495x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 34050
+        },
+        "title": "Pain",
+        "title_with_featured": "Pain",
+        "updated_by_human_at": 1669556188,
+        "url": "https://genius.com/Jimmy-eat-world-pain-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/17341",
+            "header_image_url": "https://images.genius.com/71090c448ee310c2878a1f691b8e3ce8.533x533x1.jpg",
+            "id": 17341,
+            "image_url": "https://images.genius.com/71090c448ee310c2878a1f691b8e3ce8.533x533x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Jimmy Eat World",
+            "slug": "Jimmy-eat-world",
+            "url": "https://genius.com/artists/Jimmy-eat-world"
+        },
+        "artist": "Jimmy Eat World",
+        "lyrics": "Pain Lyrics[Verse 1]\nI don't feel the way I've ever felt\nI know\nGonna smile and not get worried\nI try but it shows\n\n[Pre-Chorus]\nAnyone can make what I have built and better now\nAnyone can find the same white pills\nIt takes my pain away\n[Chorus]\nIt's a lie, a kiss with open eyes\nAnd she's not breathing back\nAnything but bother me\n(It takes my pain away)\nNever mind, these are horrid times\nOh, oh, oh\nI can't let it bother me\n\n[Verse 2]\nI never thought I'd walk away from you\nI did\nBut it's a false sense of accomplishment every time I quit\n\n[Pre-Chorus]\nAnyone can see my every flaw\nIt isn't hard\nAnyone can say they're above this all\nIt takes my pain away\n\n[Chorus]\nIt's a lie, a kiss with open eyes\nAnd she's not breathing back\nAnything but bother me\n(It takes my pain away)\nNever mind these are horrid times\nOh, oh, oh\nI can't let it bother me\nYou might also likeI can't let it bother me\nIt takes my pain away\n\n[Chorus]\nIt's a lie, a kiss with open eyes\nAnd she's not breathing back\nAnything but bother me\n(It takes my pain away)\nNever mind, these are horrid times\nOh, oh, oh\nI can't let it bother me\n\n[Outro]\nTakes my pain\nTakes my pain\nTakes my pain\nTakes my pain away3Embed"
+    }
+}

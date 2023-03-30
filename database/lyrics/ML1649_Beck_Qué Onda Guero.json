@@ -1,0 +1,58 @@
+{
+    "id": "ML1649",
+    "mood": "happy",
+    "artist": "Beck",
+    "title": "Qu\u00e9 Onda Guero",
+    "song": {
+        "_type": "song",
+        "annotation_count": 38,
+        "api_path": "/songs/57195",
+        "artist_names": "Beck",
+        "full_title": "Qu\u00e9 Onda G\u00fcero by\u00a0Beck",
+        "header_image_thumbnail_url": "https://images.genius.com/643df05ccf2fd1b3e13f9efd1647f615.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/643df05ccf2fd1b3e13f9efd1647f615.500x500x1.jpg",
+        "id": 57195,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 36555,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1664329468,
+        "path": "/Beck-que-onda-guero-lyrics",
+        "pyongs_count": 7,
+        "relationships_index_url": "https://genius.com/Beck-que-onda-guero-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 3,
+            "day": 29
+        },
+        "release_date_for_display": "March 29, 2005",
+        "release_date_with_abbreviated_month_for_display": "Mar. 29, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/643df05ccf2fd1b3e13f9efd1647f615.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/643df05ccf2fd1b3e13f9efd1647f615.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 13,
+            "hot": false,
+            "pageviews": 41702
+        },
+        "title": "Qu\u00e9 Onda G\u00fcero",
+        "title_with_featured": "Qu\u00e9 Onda G\u00fcero",
+        "updated_by_human_at": 1664329468,
+        "url": "https://genius.com/Beck-que-onda-guero-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2073",
+            "header_image_url": "https://images.genius.com/e51a50f91141de2e416603d46ef41ed9.1000x600x1.jpg",
+            "id": 2073,
+            "image_url": "https://images.genius.com/ffc8308e5bc88850b2e8a0234ec8ee3b.320x320x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Beck",
+            "slug": "Beck",
+            "url": "https://genius.com/artists/Beck"
+        },
+        "artist": "Beck",
+        "lyrics": "Qu\u00e9 Onda G\u00fcero Lyrics[Intro]\n\u00bfQu\u00e9 onda g\u00fcero?\n\u00bfQu\u00e9 onda Jose?\n\n[Verse 1]\nSee the vegetable man in the vegetable van\nWith a horn that's honking like a mariachi band\nIn the middle of the street, people gather around\nPut the dollar-dollar-dollar in the can, \u00a1Ay wey!, \u00bfqu\u00e9 onda?\nTJ cowboys hang around\nSleeping in the sidewalk with a Burger King crown\nNever wake them up, m\u00e1s cerveza\n'Til the rooster crows vatos ver gallos\n[Chorus 1]\n\u00bfQu\u00e9 onda g\u00fcero?\n\u00bfQu\u00e9 onda g\u00fcero? (\u00bfQu\u00e9 g\u00fcero?)\n\u00bfQu\u00e9 onda g\u00fcero?\n\u00bfQu\u00e9 onda g\u00fcero?\n\n[Verse 2]\nMano Blancos roll with crowbars\nSinging rancheras on cheap guitars\nAbuelitas with plastic bags\nWalking to the church with the Spanish candles\nDirty borracho says 'que putas!'\n\u00c1ndale, Joto, your popsicle's melting\nRun better run, da doo run run\nMara Salvatrucha in the midnight sun\n\n[Chorus 2]\nG\u00fcero, where are you going?\n\u00bfQu\u00e9 onda g\u00fcero?\nG\u00fcero, where are you going?\n\u00bfQu\u00e9 onda g\u00fcero?\n\n[Verse 3]\nRampart boys with loaded rifles\nGuatemalan soccer ball instant replays\nMango ladies, vendedoras\nAnd a bus-stop singing Banda Macho chorus\nYou might also like[Chorus 3]\n\u00bfQu\u00e9 onda g\u00fcero?\n\u00bfA donde vayas?\n\u00bfQu\u00e9 onda g\u00fcero?\n\u00bfA donde vayas?\n\n[Interlude]\n\u00bfY donde encontrastes ese? en un hoyo\nAlla en la Pico\nLa Pico y Vermont\nHey vamos a jugar futbol ah\u00ed en el Griffith park\nLa locura\nYeah now I'm going to LACC, man\nI'm taking a ceramics class\n\n[Bridge]\nSee the vegetable man\nIn the vegetable van...\n\n[Interlude]\nJames Joyce\nMichael Bolton!\n\n[Chorus 4]\n\u00bfQu\u00e9 onda g\u00fcero?\nHey where you going?\n\u00bfQu\u00e9 onda g\u00fcero?\nHey where you going?\n[Outro]\nHey what's up g\u00fcero?\nYou working out g\u00fcero?\nYou doing pushups?\n\u00a1No te veo g\u00fcero!\n\u00a1El g\u00fcero!\n\u00bfQue te pasa? \u00bfQue no te pasa?\nOtra vero g\u00fcero\nYo I saw a puppet at Tang's\nWith a mullet and a popsicle\nHey g\u00fcero!\n\u00a1Que locura!\nChico\nHey g\u00fcero\nYeah Bro?\nHehehe, footlong?\nLet's go to Cap'n Cork, they have the new Yanni cassette7Embed"
+    }
+}

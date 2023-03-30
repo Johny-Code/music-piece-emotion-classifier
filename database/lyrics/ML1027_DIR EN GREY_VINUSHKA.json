@@ -1,0 +1,58 @@
+{
+    "id": "ML1027",
+    "mood": "angry",
+    "artist": "DIR EN GREY",
+    "title": "VINUSHKA",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1030572",
+        "artist_names": "Dir En Grey",
+        "full_title": "VINUSHKA by\u00a0Dir\u00a0En Grey",
+        "header_image_thumbnail_url": "https://images.genius.com/891c78dcde9bbde649c1c08b818a7e19.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/891c78dcde9bbde649c1c08b818a7e19.1000x1000x1.jpg",
+        "id": 1030572,
+        "instrumental": false,
+        "language": "ja",
+        "lyrics_owner_id": 2540990,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1668102215,
+        "path": "/Dir-en-grey-vinushka-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Dir-en-grey-vinushka-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 11,
+            "day": 11
+        },
+        "release_date_for_display": "November 11, 2008",
+        "release_date_with_abbreviated_month_for_display": "Nov. 11, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/891c78dcde9bbde649c1c08b818a7e19.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/891c78dcde9bbde649c1c08b818a7e19.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 5155
+        },
+        "title": "VINUSHKA",
+        "title_with_featured": "VINUSHKA",
+        "updated_by_human_at": 1668102215,
+        "url": "https://genius.com/Dir-en-grey-vinushka-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/105027",
+            "header_image_url": "https://images.genius.com/1d7201772d0e117d7991cde32232a6e1.1000x188x1.jpg",
+            "id": 105027,
+            "image_url": "https://images.genius.com/a4b0e08c8efb270a2ca9ef306d5e0732.718x718x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Dir En Grey",
+            "slug": "Dir-en-grey",
+            "url": "https://genius.com/artists/Dir-en-grey"
+        },
+        "artist": "Dir En Grey",
+        "lyrics": "VINUSHKA Lyrics[Japanese]\n\n\u96f2\u3068\u4ea4\u308f\u3059\u3000\u547c\u5438\u3092\u6b62\u3081\u3066\n\u55da\u547c\u3000\u305f\u3060\u3000\u76f2\u76ee\u306e\u6bbb\n\u6b64\u51e6\u304c\u5e95\u304b\uff1f\u9670\u308a\u306b\u8eab\u3092\u713c\u304b\u308c\n\u55da\u547c\u3000\u305f\u3060\u3000\u5fd8\u308c\u3066\u3044\u305f\u3044\n\u87fb\u306e\u5de3\u3078\u3068\u3000\u6b32\u3092\u6ed1\u3089\u305b\n\u3055\u3042\u3000\u4eca\u3000\u751f\u307e\u308c\u5909\u308f\u308c\u3070\u3044\u3044\n\n\u660e\u65e5\u3092\u7720\u3089\u305b\u3066\u3000\u632f\u308a\u5411\u304f\u5b89\u3089\u304e\n\u92ed\u304f\u5c16\u308b\u3000\u611f\u60c5\u306b\u8eab\u3092\u4efb\u305b\u3066\n\u3046\u306d\u308b\u6d41\u308c\u3055\u3048\u751f\u304d\u3066\u308b\u8a3c\u3068\n\u6d99\u306b\u803d\u308b\u660e\u65e5\u3092\u8a98\u3046\n\u3046\u3048\u3064\u304f\u30c9\u30b0\u30e9\u3001\u30de\u30b0\u30e9\n\u6591\u306e\u75db\u307f\u3068\u552f\u4e00\u306e\u4eba\u683c\n\u8272\u53d6\u308a\u53d6\u308a\u306b\u98fe\u308a\u3064\u3051\u3089\u308c\u305f\u77b3\u3082\u3001\u3082\u3046\u3044\u3089\u306a\u3044\n\u307e\u305f\u507d\u5584\u304c\u9023\u308c\u53bb\u3063\u3066\u884c\u304f\u306e\u304b\uff1f\n\u72ec\u308a\u304d\u308a\u306e\u771f\u3063\u8d64\u306a\u591c\u821e\u53f0\n\u6e67\u304d\u4e0a\u304c\u308b\u7acb\u5f79\u8005\u306b\u6367\u3052\u308b\n\u6b64\u51e6\u304c\u771f\u5b9f\u3060\n\n\u8aa4\u9b54\u5316\u305b\u306a\u3044\u5fc3\u306e\u7247\u9685\u306b\u306f\u300c\u307e\u3060\u6b64\u51e6\u306b\u5c45\u305f\u3044\u300d\n\u8a31\u305b\u306a\u3044\u306e\u306f\u8ab0\uff1f\n\u51b7\u3048\u305f\u58f0\u3092\u97ff\u304b\u305b\u3000\u8a93\u3046\n\n\u696d\u3068\u6b69\u3080\u3000\u5929\u5730\u88c2\u3051\u305f\u6211\u3053\u306e\u8eab\u3068\u53eb\u3076\n\u7f70\u3068\u523b\u3080\u3000\u98a8\u3068\u6d88\u3048\u308d\u6211\u306e\u8a3c\u306f\uff1f\n\n\u300c\u91d1\u525b\u306b\u8f1d\u304f\u6708\u306f\u3082\u3046\u3000\u898b\u98fd\u304d\u305d\u3046\u306a\u304f\u3089\u3044\u773a\u3081\u305f\u3093\u3060\n\u72fc\u306b\u3082\u306a\u308c\u305d\u3046\u306b\u306a\u3044\u3000\u95c7\u306b\u72c2\u3044\u305d\u3046\u3060\n\u9996\u3092\u55b0\u3089\u3044\u305f\u3044\u3000\u511a\u304d\u6b8b\u9ab8\u3000\u7720\u3089\u305b\u306f\u3057\u306a\u3044\u304b\u3089\n\u7518\u3048\u305f\u3044\u5e74\u9803\u304c\u30fb\u30fb\u30fb\u5c0f\u591c\u306a\u3089\u3000\u541b\u306b\u72c2\u3044\u305d\u3046\u3060\u300d\n\n\u8ab0\u3057\u3082\u304c\u5e78\u798f\u3068\u3070\u304b\u308a\u306b\u3000\u624b\u3092\u4f38\u3070\u3057\u95c7\u306b\u6f5c\u3080\u9b3c\u3068\u306a\u308b\n\u3082\u3046\u3059\u3067\u306b\u7d42\u308f\u308a\u306f\u751f\u307e\u308c\u305f\n\u5f62\u306f\u96f6\u306b\u751f\u307e\u308c\u5b50\u5bae\u306b\u9019\u3044\u623b\u308a\u8150\u308b\n\u7e70\u308a\u8fd4\u3059\u5ea6\u3000\u5d29\u308c\u3066\u3086\u304f\u304a\u524d\u7b49\u306e\u9762\u304c\n\n\u8033\u3092\u7815\u304f\u771f\u76f8\u306b\u306f\u8ab0\u3082\u89e6\u308c\u3084\u3057\u306a\u3044\n\u6291\u5727\u3055\u308c\u305f\u610f\u601d\nYou might also like\u7f6a\u3092\u8d16\u3044\u547d\u3088\u53bb\u308c\n\n\u511a\u304d\u30a2\u30f3\u30c1\u30c6\u30fc\u30bc\u3000\u54bd\u3073\u6ce3\u304f\u5730\u3078\u3068\n\u30c6\u30fc\u30bc\u306b\u6d78\u308b\u5171\u6709\u306b\u9aa8\u3092\u57cb\u3081\u3066\n\u6182\u9b31\u3001\u80cc\u8ca0\u3046\u307e\u307e\u3000\u3056\u3089\u3064\u304f\u6d25\u6ce2\u306b\n\u3055\u3089\u308f\u308c\u82e6\u3044\u6d99\u3068\u7b11\u3046\n\u4fa1\u5024\u3092\u898b\u51fa\u305b\u305a\u3000\u9996\u7e0a\u308a\u5341\u4e09\u968e\u6bb5\n\u624b\u3092\u53e9\u304d\u99b4\u308c\u5408\u3046\u4eba\n\u5973\u3005\u3057\u3044\u601d\u60f3\u306b\u6df7\u3056\u308a\u50b7\u4ed8\u3051\u308b\n\u305d\u3093\u306a\u541b\u304c\u306a\u3093\u3060\u304b\u60b2\u3057\u3059\u304e\u308b\n\n\u8840\u3057\u3076\u304f\u3000\u672c\u80fd\u3000\u8e0f\u307f\u6f70\u3057\n\u6b7b\u3092\u8a9e\u308b\n\n\u696d\u3068\u6b69\u3080\u3000\u5929\u5730\u88c2\u3051\u305f\u6211\u3053\u306e\u8eab\u3068\u53eb\u3076\n\u7f70\u3068\u523b\u3080\u3000\u98a8\u3068\u6d88\u3048\u308d\u6211\u306e\u8a3c\u306f\uff1f\n\n\u8033\u3092\u7815\u304f\u771f\u76f8\u306b\u306f\u8ab0\u3082\u89e6\u308c\u3084\u3057\u306a\u3044\n\u6291\u5727\u3055\u308c\u305f\u610f\u601d\n\n\u7f6a\u3092\u8d16\u3044\u547d\u3088\u53bb\u308c\n\n\u4ffa\u304c\u60aa\u3067\u3042\u308b\u304c\u6545\u306b\n\u751f\u304d\u308b\u610f\u5473\u3055\u3048\u7f6a\u306a\u306e\u304b\uff1f\n\n[Romaji]\nKumo to kawasu kokyuu wo tomete aa tada moumoku no...\nKoko ga soko ka? Kageri ni mi wo yakare aa tada wasureteitai\nAri no su he to yoku wo suberase saa ima umarekawareba ii\n\nAshita wo nemurasete furimuku yasuragi\nSurudoku tongaru kanjou ni mi wo makasete\nUneru nagare sae ikiteru akashi to\nNamida ni fukeru ashita wo sasou\n\nUetsuku dogura, magura madara no itami to yuiitsu no jinkaku\n\nIrotoridori shoku ni ritsu kerareta hitomi mo, mou iranai\nMata gizen ga tsuresatte iku no?\nHitorikiri no makka na yoru budai\nWakiagaru tateyakusha ni sasageru\nKoko ga shinjitsu da\n\nGoma kasenai kokoro no katasumi \"mada koko ni itai\"\nYurusenai no wa dare?\nHieta koe wo hibikase chikau\n\nWaza to ayumu tenchi saketa ware kono mi to sakebu\nBatsu to kizamu kaze to kiero ware akashi wa?\n\n\"kingou ni kagayaku tsuki wa mou miaki sou na kurai nagametanda\nOokami ni mo nare sou ni nai yami ni kurui sou da\nTsukasa wo kuraitai hakanaki zangai nemurase wa shinai kara\nAmaetai toshigoro ga... Sayo nara kimi ni kurui sou da\"\n\nDareshimo ga koufuku to bakari ni te wo nobashi yami ni hisomu oni tonaru\nMou sude ni owari wa umareta\nKatachi wa rei ni umare shikyou ni haimodorikusaru\nKurikaesu do kuzurete yuku omaera no mote ga\n\nMimi wo kudaku shinsou ni wa daremo fureya shinai\nYokuatsu sareta ishi\nTsumi wo aganai inochi yo sare\n\nHakanaki anchiteeze musebinaku chi he to\nTeeze ni hitaru kyouyuu ni hone wo umete\nYuutsu, seou mama zaratsuku tsunami ni\n\nSaraware ni gai namida to warau\nKachi wo midasezu kubikukuri juusankaidan\nTe wo tataki nareau hito\nMemeshii shisou ni mazari kitzukeru\nZonna kimi ga nandaka kanashisugiru\n\nChi shibuku honnou fumitsubushi\nShi wo kataru\n\nWaza to ayumu tenchi saketa ware kono mi to sakebu\nBatsu to kizamu kaze to kiero ware akashi wa?\n\nMimi wo kudaku shinsou ni wa daremo fureya shinai\nYokuatsu sareta ishi\n\nTsumi wo aganai inochi yo sare\n\nOre ga aku de aru ga yue ni\nIkiru imi sae tsumi na no ka\n\n\n\n[English]\n\nI exchange thoughts with the clouds\nI hold my breath\nAhh, it's just hard shell you can't see\nIs that where the bottom is? The shadow burns me\nAhh, I just want to keep forgetting\nSlip your desires into the ants' nest\nCome now, all you have to do now is be reborn again\n\nLet tomorrow sleep and peacefulness will turn to you\nFree yourself and go with your razor sharp emotions\nEven the twisted flow is the proof that you are alive\nI invite the tearfully-indulging tomorrow\n\nThe inculcated Dogra Magra\nThe pain of the mark and the one and only personality\nAnd those colorful eyes all decorated I don't want them anymore\nIs hypocrisy going to come and take it away?\nThe lonely red stage at night\nI dedicate the following to the aspiring leading actor\nThat's where the truth is\n\nThe small corner of my un-cheatable heart says \"I still want to be here\"\nWho can't we forgive?\nI let them hear my cold voice\nAnd i swear\n\nI will live with my work I scream with this body of flesh that separates heaven and hell\nI carve the sins What will be the proof of my existence if it disappears with the wind?\n\n\"I've stared at the strong shining moon long enough to be bored\nCan't even turn myself into a werewolf\nBut just enough to become crazy by the darkness\nI want to suck the neck\nThe emptiness of the remains\nI won't let you sleep\nAt the age where you just want attention...tonight I might go crazy for you.\"\n\nEveryone wants to reach out their hand and grab happiness\nBut they just end up becoming the monster that lies deep in darkness\nThe end has already come to life\nIt will take form at zero and will crawl back into the uterus and rot\nEvery time this happens your faces crumble\n\nNo one wants to talk about truth that hurts the ear\nThe suppressed minds\n\nCompensate the sins and let life be gone\n\nThe emptiness of the antithesis\nBecomes the choking and crying land\nBury the bones in the common land immersed in thesis\nBe burdened by depression\nThe gritty tsunami takes me away and I smile with bitter tears\nCouldn't understand the value of things\nThe hanging of the necks at the 13 stairs\nSeeing people becoming friendly while clapping hands\nThat mixes in with sissy thoughts and hurts others\nSeeing you like this it's just too sad\n\nSplash of blood\nSquashing basic instincts\nTalk about death\n\nI will live with my work I scream with this body of flesh that separates heaven and hell\nI carve the sins. What will be the proof of my existence if it disappears with the wind?\n\nNo one wants to talk about the truth that hurts the ear\nThe suppressed minds\n\nCompensate the sins, and let life be gone\n\nIs it a sin for me to live because I am evil?Embed"
+    }
+}

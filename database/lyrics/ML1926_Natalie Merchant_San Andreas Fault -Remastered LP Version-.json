@@ -1,0 +1,58 @@
+{
+    "id": "ML1926",
+    "mood": "sad",
+    "artist": "Natalie Merchant",
+    "title": "San Andreas Fault (Remastered LP Version)",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/746596",
+        "artist_names": "Natalie Merchant",
+        "full_title": "San Andreas Fault by\u00a0Natalie\u00a0Merchant",
+        "header_image_thumbnail_url": "https://images.genius.com/23064a26791efb2f7a15f37a3cc0d4b4.300x294x1.jpg",
+        "header_image_url": "https://images.genius.com/23064a26791efb2f7a15f37a3cc0d4b4.600x587x1.jpg",
+        "id": 746596,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 7901068,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1659380069,
+        "path": "/Natalie-merchant-san-andreas-fault-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Natalie-merchant-san-andreas-fault-sample",
+        "release_date_components": {
+            "year": 1995,
+            "month": 6,
+            "day": 20
+        },
+        "release_date_for_display": "June 20, 1995",
+        "release_date_with_abbreviated_month_for_display": "Jun. 20, 1995",
+        "song_art_image_thumbnail_url": "https://images.genius.com/23064a26791efb2f7a15f37a3cc0d4b4.300x294x1.jpg",
+        "song_art_image_url": "https://images.genius.com/23064a26791efb2f7a15f37a3cc0d4b4.600x587x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 9627
+        },
+        "title": "San Andreas Fault",
+        "title_with_featured": "San Andreas Fault",
+        "updated_by_human_at": 1659380069,
+        "url": "https://genius.com/Natalie-merchant-san-andreas-fault-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/36234",
+            "header_image_url": "https://images.genius.com/e578c235f0fe8fe09c6769c89100d17f.1000x407x1.jpg",
+            "id": 36234,
+            "image_url": "https://images.genius.com/9702d153975a479a80624c66e1194145.1000x1000x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Natalie Merchant",
+            "slug": "Natalie-merchant",
+            "url": "https://genius.com/artists/Natalie-merchant"
+        },
+        "artist": "Natalie Merchant",
+        "lyrics": "San Andreas Fault Lyrics[Intro]\n\n[Verse 1]\nGo west, paradise is there\nYou'll have all that you can eat\nOf milk & honey over there\nYou'll be the brightest star the world has ever seen\nSun-baked, slender heroine of film & magazine\n\n[Verse 2]\nSo, go west\nParadise is there\nYou'll have all that you can eat of milk & honey over there\nYou'll be the brightest light the world has ever seen\nThe dizzy height of a jet-set life- you could never dream\n[Pre-Chorus]\nYour pale blue eyes, strawberry hair\nLips so sweet\nSkin so fair\nYour future bright\nBeyond compare\nIt's rags to riches\nOver there\n\n[Vocal Interlude]\n\n[Chorus]\nSan Andreas fault moved its fingers through the ground\nEarth divided, plates collided, such an awful sound\n\n[Chorus]\nSan Andreas fault moved its fingers through the ground\nTerra cotta shattered, and the walls came tumbling down\n\n[Post- Chorus]\nOh, promised land (Oh, promised land)\nOh, wicked ground (Wicked ground)\nBuild a dream\nTear it down\nOh, promised land (Oh, promised land)\nWhat a wicked ground (What a wicked ground)\nBuild a dream, watch it all fall down\nYou might also like[Vocal Outro]Embed"
+    }
+}

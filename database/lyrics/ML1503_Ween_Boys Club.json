@@ -1,0 +1,58 @@
+{
+    "id": "ML1503",
+    "mood": "happy",
+    "artist": "Ween",
+    "title": "Boys Club",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1275989",
+        "artist_names": "Ween",
+        "full_title": "Boys Club by\u00a0Ween",
+        "header_image_thumbnail_url": "https://images.genius.com/74d9642c0206bcfe9005b6c4c47f0223.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/74d9642c0206bcfe9005b6c4c47f0223.1000x1000x1.jpg",
+        "id": 1275989,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2149106,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1457820395,
+        "path": "/Ween-boys-club-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Ween-boys-club-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 7,
+            "day": 19
+        },
+        "release_date_for_display": "July 19, 2005",
+        "release_date_with_abbreviated_month_for_display": "Jul. 19, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/74d9642c0206bcfe9005b6c4c47f0223.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/74d9642c0206bcfe9005b6c4c47f0223.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 13736
+        },
+        "title": "Boys Club",
+        "title_with_featured": "Boys Club",
+        "updated_by_human_at": 1530131121,
+        "url": "https://genius.com/Ween-boys-club-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/30607",
+            "header_image_url": "https://images.genius.com/0610a06629e5171b9ecaf2f1c3b1ce96.1000x421x1.jpg",
+            "id": 30607,
+            "image_url": "https://images.genius.com/fd8de174f16a783c2c60e23078da163a.519x519x1.jpg",
+            "index_character": "w",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Ween",
+            "slug": "Ween",
+            "url": "https://genius.com/artists/Ween"
+        },
+        "artist": "Ween",
+        "lyrics": "Boys Club LyricsBoys club\nYea, yea yea yea yea yea yea\nBoys club\nOoh, yeah\nBoys club\nMm-hm hm hm hm\nBoys club\nYea\nBoys club\nDo it to me baby, now\nBoys club\nYeah\nBoys club\nSaid I'm talkin' 'bout boys club\nBoys club\nTake the time, have some fun\nGo outside, make love in the sun\nAt boys club\nBoys club\nOh now, yea yea\nBoys club\nOoh now, talkin' 'bout boys club\nBoys club\nCan ya dig it? Boys club\nBoys club\n\nTell your woman, tell your man\nGo somewhere, they've got to understand\nIt's boys club\nBoys club\nAnd I'll know they'll understand\nBoys club\nOoh yea, talkin' 'bout boys club\nBoys club\nMm-hm, mm-hm\nBoys club\nC'mon Blaine\nC'mon Blaine\n\nYou can talk of the future, you can talk of the past\nYou can go find yourself a nice piece of ass at boys club\nBoys club\nC'mon down to boys club\nBoys club\nOoh yea, talkin' bout boys club\nBoys club\nBoys club\nBoys club\nYou might also likeNow I may not be gay, and I may not be proud\nBut it don't matter, cuz I'm always allowed at the boys club\nBoys club\nYea, yea yea yea yea yea\nBoys club\nOoh yea, talkin' bout boys club\nBoys club\nC'mon, baby\nBoys club\n\nBoys club\nBoys club\nOoh yea, talkin' bout boys club\nBoys club\nBoys club\nDo it to me baby, now\nBoys club\nBoys club\nBoys club\nBoys club\nBoys club\nOh yeah, baby babe\nBoys club\nC'mon down to boys club\nBoys club\nC'mon, down to boys club\nBoys club\nTalkin' 'bout boys club\nYea, yea yea yea yea yea yea, ooh yeah\nBoys clubEmbed"
+    }
+}

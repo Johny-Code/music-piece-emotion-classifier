@@ -1,0 +1,59 @@
+{
+    "id": "ML56",
+    "mood": "relaxed",
+    "artist": "Dr. Dog",
+    "title": "The Breeze",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/346334",
+        "artist_names": "Dr. Dog",
+        "full_title": "The Breeze by\u00a0Dr.\u00a0Dog",
+        "header_image_thumbnail_url": "https://images.genius.com/e00152f409d64a40ba7fdc096f8c2d53.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e00152f409d64a40ba7fdc096f8c2d53.844x844x1.jpg",
+        "id": 346334,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 359620,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1622700396,
+        "path": "/Dr-dog-the-breeze-lyrics",
+        "pyongs_count": 8,
+        "relationships_index_url": "https://genius.com/Dr-dog-the-breeze-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 7,
+            "day": 22
+        },
+        "release_date_for_display": "July 22, 2008",
+        "release_date_with_abbreviated_month_for_display": "Jul. 22, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e00152f409d64a40ba7fdc096f8c2d53.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e00152f409d64a40ba7fdc096f8c2d53.844x844x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 16672
+        },
+        "title": "The Breeze",
+        "title_with_featured": "The Breeze",
+        "updated_by_human_at": 1622700396,
+        "url": "https://genius.com/Dr-dog-the-breeze-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/66338",
+            "header_image_url": "https://images.genius.com/a8731c33ce5353a7485ffce40ba8e556.1000x562x1.jpg",
+            "id": 66338,
+            "image_url": "https://images.genius.com/c70c23aba0631dff31269b6f6878c43b.1000x1000x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Dr. Dog",
+            "slug": "Dr-dog",
+            "url": "https://genius.com/artists/Dr-dog",
+            "iq": 130
+        },
+        "artist": "Dr. Dog",
+        "lyrics": "The Breeze Lyrics[Verse 1]\nAre you moving much too fast?\nAnd the good times that just don't last\nIf you're always on the go\nMake an angel in the snow\nAnd freeze\n\n[Chorus]\nDo you feel like you're stuck in time?\nForever waiting on that line\nIf nothing ever moves\nPut that needle to the groove\nAnd sing\n[Verse 2]\nIs it a dream keeping you awake?\nIs it the stillness that makes you shake?\nIf you need to know for sure (need to know for sure)\nWhat's on the ocean's floor (on the ocean's floor)\nYou'll sink\n\n[Chorus]\nDo you like things the way they seem?\nOr are you looking behind the scenes?\nWell, if you've gotta know (if you've gotta know)\nWhat it takes to make it so (what it takes to make it so)\nJust believe\n\n[Verse 3]\nAre there dark parts to your mind?\nHidden secrets left behind?\nWhere no one ever goes\nBut everybody knows\nIt's all right\n\n[Outro]\nDo you get dizzy on the ground?\nIt must be something going around\nWhat blows us here today\nIt'll blow us all away\nThe breeze\nAhh, will blow us all away\nThe breeze\nAhh, will blow us all away\nThe breezeYou might also like8Embed"
+    }
+}

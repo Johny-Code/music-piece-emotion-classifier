@@ -1,0 +1,59 @@
+{
+    "id": "ML165",
+    "mood": "angry",
+    "artist": "Avenged Sevenfold",
+    "title": "Nightmare",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/196778",
+        "artist_names": "Avenged Sevenfold",
+        "full_title": "Nightmare by\u00a0Avenged\u00a0Sevenfold",
+        "header_image_thumbnail_url": "https://images.genius.com/433ce794519f82fd9809adcb02b10248.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/433ce794519f82fd9809adcb02b10248.800x800x1.jpg",
+        "id": 196778,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 225975,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1679363536,
+        "path": "/Avenged-sevenfold-nightmare-lyrics",
+        "pyongs_count": 46,
+        "relationships_index_url": "https://genius.com/Avenged-sevenfold-nightmare-sample",
+        "release_date_components": {
+            "year": 2010,
+            "month": 5,
+            "day": 18
+        },
+        "release_date_for_display": "May 18, 2010",
+        "release_date_with_abbreviated_month_for_display": "May. 18, 2010",
+        "song_art_image_thumbnail_url": "https://images.genius.com/433ce794519f82fd9809adcb02b10248.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/433ce794519f82fd9809adcb02b10248.800x800x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 155515
+        },
+        "title": "Nightmare",
+        "title_with_featured": "Nightmare",
+        "updated_by_human_at": 1679363536,
+        "url": "https://genius.com/Avenged-sevenfold-nightmare-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/20710",
+            "header_image_url": "https://images.genius.com/a0e84a51b67b61ab41def8ee8257d2a8.1000x333x1.jpg",
+            "id": 20710,
+            "image_url": "https://images.genius.com/b9a94f19d3730f804e3e55ea565867ff.1000x1000x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Avenged Sevenfold",
+            "slug": "Avenged-sevenfold",
+            "url": "https://genius.com/artists/Avenged-sevenfold",
+            "iq": 111
+        },
+        "artist": "Avenged Sevenfold",
+        "lyrics": "Nightmare Lyrics[Intro]\nNightmare!\nNow your nightmare comes to life\n\n[Verse 1]\nDragged ya down below, down to the devil's show\nTo be his guest forever (Peace of mind is less than never)\nHate to twist your mind, but God ain't on your side\nAn old acquaintance severed (Burn the world your last endeavor)\nFlesh is burning, you can smell it in the air\n'Cause men like you have such an easy soul to steal (steal)\nSo stand in line while they ink numbers in your head\nYou're now a slave until the end of time here\nNothing stops the madness turning, haunting, yearning pull the trigger\n[Chorus]\nYou should have known the price of evil\nAnd it hurts to know that you belong here, yeah\nOoh, it's your fucking nightmare\n\nWhile your nightmare comes to life\n\n[Verse 2]\nCan't wake up in sweat, 'cause it ain't over yet\nStill dancing with your demons (Victim of your own creation)\nBeyond the will to fight, where all that's wrong is right\nWhere hate don't need a reason (Loathing self-assassination)\nYou've been lied to just to rape you of your sight\nAnd now they have the nerve to tell you how to feel (feel)\nSo sedated as they medicate your brain\nAnd while you slowly go insane they tell you:\n\"Given with the best intentions, help you with your complications\"\n\n[Chorus]\nYou should have known the price of evil\nAnd it hurts to know that you belong here, yeah\nNo one to call, everybody to fear\nYour tragic fate is looking so clear, yeah\nOoh, it's your fucking nightmare, ha, ha, ha, ha\n\n[Guitar Solo]\nYou might also like[Bridge]\nFight (Fight!), not to fail (Fail!), not to fall (Fall!)\nOr you'll end up like the others\nDie (Die!), die again (Die!), drenched in sin (Sin!)\nWith no respect for another, oh!\nDown (Down!), feel the fire (Fire!), feel the hate (Hate!)\nYour pain is what we desire\nLost (Lost!), hit the wall (Wall!), watch you crawl (Crawl!)\nSuch a replaceable liar\n\nAnd I know you hear their voices (Calling from above)\nAnd I know they may seem real (These signals of love)\nBut our life's made up of choices (Some without appeal)\nThey took for granted your soul, and it's ours now to steal\n\nAs your nightmare comes to life\n\n[Chorus]\nYou should have known the price of evil\nAnd it hurts to know that you belong here, yeah\nNo one to call, everybody to fear\nYour tragic fate is looking so clear, yeah\nOoh, it's your fucking nightmare46Embed"
+    }
+}

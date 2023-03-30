@@ -1,0 +1,58 @@
+{
+    "id": "ML967",
+    "mood": "sad",
+    "artist": "The Velvet Underground",
+    "title": "Heroin",
+    "song": {
+        "_type": "song",
+        "annotation_count": 25,
+        "api_path": "/songs/131306",
+        "artist_names": "The Velvet Underground",
+        "full_title": "Heroin by\u00a0The\u00a0Velvet Underground",
+        "header_image_thumbnail_url": "https://images.genius.com/0298b0d0b87388ec273377eb18d4919f.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/0298b0d0b87388ec273377eb18d4919f.1000x1000x1.jpg",
+        "id": 131306,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 116340,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1658356137,
+        "path": "/The-velvet-underground-heroin-lyrics",
+        "pyongs_count": 44,
+        "relationships_index_url": "https://genius.com/The-velvet-underground-heroin-sample",
+        "release_date_components": {
+            "year": 1967,
+            "month": 3,
+            "day": 12
+        },
+        "release_date_for_display": "March 12, 1967",
+        "release_date_with_abbreviated_month_for_display": "Mar. 12, 1967",
+        "song_art_image_thumbnail_url": "https://images.rapgenius.com/ec6f245961f60ba1b9df133ab9c0855d.280x283x1.jpg",
+        "song_art_image_url": "https://images.rapgenius.com/ec6f245961f60ba1b9df133ab9c0855d.280x283x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 254959
+        },
+        "title": "Heroin",
+        "title_with_featured": "Heroin",
+        "updated_by_human_at": 1671331093,
+        "url": "https://genius.com/The-velvet-underground-heroin-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/23011",
+            "header_image_url": "https://images.genius.com/8ef9c161dbc383247cd72c10e48f1346.1000x379x1.png",
+            "id": 23011,
+            "image_url": "https://images.genius.com/5a01837ee73c72c730ab5c4d7a27ff74.802x802x1.jpg",
+            "index_character": "v",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Velvet Underground",
+            "slug": "The-velvet-underground",
+            "url": "https://genius.com/artists/The-velvet-underground"
+        },
+        "artist": "The Velvet Underground",
+        "lyrics": "Heroin Lyrics[Verse 1]\nI don't know just where I'm goin'\nBut I'm gonna try for the kingdom, if I can\n'Cause it makes me feel like I'm a man\nWhen I put a spike into my vein\nAnd I tell you things aren't quite the same\nWhen I'm rushin' on my run\nAnd I feel just like Jesus' son\nAnd I guess that I just don't know\nAnd I guess that I just don't know\n[Verse 2]\nI have made big decision\nI'm gonna try to nullify my life\n'Cause when the blood begins to flow\nWhen it shoots up the dropper's neck\nWhen I'm closin' in on death\nYou can't help me, not you guys\nOr all you sweet girls with all your sweet talk\nYou can all go take a walk\nAnd I guess I just don't know\nAnd I guess that I just don't know\n\n[Verse 3]\nI wish that I was born a thousand years ago\nI wish that I'd sailed the darkened seas\nOn a great big clipper ship\nGoin' from this land here to that\nOn a sailor's suit and cap\nAway from the big city\nWhere a man cannot be free\nOf all the evils of this town\nAnd of himself and those around\nOh, and I guess that I just don't know\nOh, and I guess that I just don't know\n[Verse 4]\nHeroin, be the death of me\nHeroin, it's my wife and it's my life, haha\nBecause a mainline into my vein\nLeads to a center in my head\nAnd then I'm better off than dead\nBecause when the smack begins to flow\nI really don't care anymore\nAbout all the Jim-Jims in this town\nAnd all the politicians makin' crazy sounds\nAnd everybody puttin' everybody else down\nAnd all the dead bodies piled up in mounds\n'Cause when the smack begins to flow\nAnd I really don't care anymore\nAh, when that heroin is in my blood\nHeh, and that blood is in my head\nThen thank God that I'm good as dead\nAnd thank your God that I'm not aware\nAnd thank God that I just don't care\nAnd I guess I just don't know\nOh, and I guess I just don't knowYou might also like44Embed"
+    }
+}

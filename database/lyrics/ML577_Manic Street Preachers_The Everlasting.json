@@ -1,0 +1,58 @@
+{
+    "id": "ML577",
+    "mood": "sad",
+    "artist": "Manic Street Preachers",
+    "title": "The Everlasting",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/463094",
+        "artist_names": "Manic Street Preachers",
+        "full_title": "The Everlasting by\u00a0Manic\u00a0Street Preachers",
+        "header_image_thumbnail_url": "https://images.genius.com/33665d1e1928b0cd33488fe64e511526.300x302x1.jpg",
+        "header_image_url": "https://images.genius.com/33665d1e1928b0cd33488fe64e511526.497x500x1.jpg",
+        "id": 463094,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 397025,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1614701850,
+        "path": "/Manic-street-preachers-the-everlasting-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Manic-street-preachers-the-everlasting-sample",
+        "release_date_components": {
+            "year": 1998,
+            "month": 9,
+            "day": 14
+        },
+        "release_date_for_display": "September 14, 1998",
+        "release_date_with_abbreviated_month_for_display": "Sep. 14, 1998",
+        "song_art_image_thumbnail_url": "https://images.genius.com/33665d1e1928b0cd33488fe64e511526.300x302x1.jpg",
+        "song_art_image_url": "https://images.genius.com/33665d1e1928b0cd33488fe64e511526.497x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 7406
+        },
+        "title": "The Everlasting",
+        "title_with_featured": "The Everlasting",
+        "updated_by_human_at": 1669657726,
+        "url": "https://genius.com/Manic-street-preachers-the-everlasting-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/38489",
+            "header_image_url": "https://images.genius.com/f85a340009bffa8e40c559337aa3e16a.1000x303x1.jpg",
+            "id": 38489,
+            "image_url": "https://images.genius.com/0363116aa544f7c993e32a4dedfed20b.494x494x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Manic Street Preachers",
+            "slug": "Manic-street-preachers",
+            "url": "https://genius.com/artists/Manic-street-preachers"
+        },
+        "artist": "Manic Street Preachers",
+        "lyrics": "The Everlasting Lyrics[Verse 1]\nThe gap that grows between our lives\nThe gap our parents never had\nStop those thoughts control your mind\nReplace the things that you despise\nOh you're old I hear you say\nIt doesn't mean that I don't care\nI don't believe in it anymore\nPathetic acts for a worthless cause\n\n[Chorus]\nIn the beginning when we were winning\nWhen our smiles were genuine\nIn the beginning when we were winning\nWhen our smiles were genuine\nBut now unforgiven, the everlasting\nEverlasting\n[Verse 2]\nThe world is full of refugees\nThey're just like you and just like me\nBut as people we have a choice\nTo end the void with all its force\nSo don't forget or don't pretend\nIt's all the same now in the end\nIt was set in a different life\nDestroys my days and haunts my nights\n\n[Chorus]\nIn the beginning when we were winning\nWhen our smiles were genuine\nIn the beginning when we were winning\nWhen our smiles were genuine\nBut now unforgiven, the everlasting\nEverlasting\n\nIn the beginning when we were winning\nWhen our smiles were genuine\nIn the beginning when we were winning\nWhen our smiles were genuine\nBut now unforgiven, the everlasting\nEverlasting\n\nIn the beginning when we were winning\nWhen our smiles were genuine\nIn the beginning when we were winning\nWhen our smiles were genuine\nIn the beginning when we were winning\nWhen our smiles were genuine\nIn the beginning when we were winning\nWhen our smiles were genuineYou might also likeEmbed"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "id": "ML1970",
+    "mood": "sad",
+    "artist": "Green Carnation",
+    "title": "Two Seconds in Life",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1749291",
+        "artist_names": "Green Carnation",
+        "full_title": "Two Seconds In Life by\u00a0Green\u00a0Carnation",
+        "header_image_thumbnail_url": "https://images.genius.com/f245dfaeb68ae74b68328ec21be50002.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/f245dfaeb68ae74b68328ec21be50002.800x800x1.jpg",
+        "id": 1749291,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1430202936,
+        "path": "/Green-carnation-two-seconds-in-life-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Green-carnation-two-seconds-in-life-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/f245dfaeb68ae74b68328ec21be50002.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f245dfaeb68ae74b68328ec21be50002.800x800x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Two Seconds In Life",
+        "title_with_featured": "Two Seconds In Life",
+        "updated_by_human_at": 1479163933,
+        "url": "https://genius.com/Green-carnation-two-seconds-in-life-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/361979",
+            "header_image_url": "https://images.genius.com/c1ff6ad2e33590f35acb5408ab0ff57c.1000x563x1.jpg",
+            "id": 361979,
+            "image_url": "https://images.genius.com/372f438349918f0920a9794c30926490.279x279x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Green Carnation",
+            "slug": "Green-carnation",
+            "url": "https://genius.com/artists/Green-carnation"
+        },
+        "artist": "Green Carnation",
+        "lyrics": "Two Seconds In Life LyricsI left myself\nI left my body\nI got so frightened by myself\nAnd all the things that I could see\nI left myself\n\nBlinded by the light\nFaded by the dawn\nOf mine\n\nI whispered \"no\";\nTo my own shadow\nI got so frightened by the light\nAnd all the tings that I could see\nI whispered \"no\";\nBlinded by the light\nFaded by the dawn\nOf mine\n\nI got along\nTo my own voice\nI got enlightened by the fright\nAnd all the things that I could see\nI got along\n\nBlinded by the light\nFaded by the dawn\nOf mine\n\nI flew away...You might also likeEmbed"
+    }
+}

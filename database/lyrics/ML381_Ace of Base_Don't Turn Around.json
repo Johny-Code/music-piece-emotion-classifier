@@ -1,0 +1,58 @@
+{
+    "id": "ML381",
+    "mood": "happy",
+    "artist": "Ace of Base",
+    "title": "Don't Turn Around",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1405061",
+        "artist_names": "Ace of Base",
+        "full_title": "Don't Turn Around by\u00a0Ace\u00a0of Base",
+        "header_image_thumbnail_url": "https://images.genius.com/5bb95d8de4fd3780b13b3a0c47a411a0.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5bb95d8de4fd3780b13b3a0c47a411a0.600x600x1.jpg",
+        "id": 1405061,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3499648,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1657604799,
+        "path": "/Ace-of-base-dont-turn-around-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Ace-of-base-dont-turn-around-sample",
+        "release_date_components": {
+            "year": 1993,
+            "month": 11,
+            "day": 23
+        },
+        "release_date_for_display": "November 23, 1993",
+        "release_date_with_abbreviated_month_for_display": "Nov. 23, 1993",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5bb95d8de4fd3780b13b3a0c47a411a0.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5bb95d8de4fd3780b13b3a0c47a411a0.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 10771
+        },
+        "title": "Don\u2019t Turn Around",
+        "title_with_featured": "Don't Turn Around",
+        "updated_by_human_at": 1657604804,
+        "url": "https://genius.com/Ace-of-base-dont-turn-around-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/39126",
+            "header_image_url": "https://images.genius.com/1b828881465d82a49bc481be9445d814.960x540x1.jpg",
+            "id": 39126,
+            "image_url": "https://images.genius.com/af914715b35b2a2958add28c70b6fa55.400x400x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Ace of Base",
+            "slug": "Ace-of-base",
+            "url": "https://genius.com/artists/Ace-of-base"
+        },
+        "artist": "Ace of Base",
+        "lyrics": "Don\u2019t Turn Around Lyrics[Intro]\nI will survive\nWithout you\nDon't tell me that you wanna leave\nWhoa, whoa, whoa, whoa\nWhoa, whoa, whoa, whoa\n\n[Verse 1]\nIf you wanna leave\nI won't beg you to stay\nAnd if you gotta go, darling\nMaybe it's better that way\n[Pre-Chorus]\nI'm gonna be strong, I'm gonna gonna be fine\nDon't worry about this heart of mine\nWalk out that door, see if I care\nGo on and go, but\n\n[Chorus]\nDon't turn around\n'Cause you're gonna see my heart breaking\nDon't turn around\nI don't want you seeing me cry\nJust walk away\nIt's tearing me apart that you're leaving\nI'm letting you go\nBut I won't let you know\nI won't let you know\n\n[Post-Chorus]\nWhoa, whoa, whoa, whoa\nWhoa, whoa, whoa, whoa\n\n[Verse 2]\nI won't miss your arms around me\nHolding me tight (Holding me tight)\nAnd if you ever think about me\nJust know that I'll be alright (I'll be alright)\nYou might also like[Pre-Chorus]\nI'm gonna be strong, I'm gonna gonna be fine\nDon't worry about this heart of mine\nI know I'll survive\nI'll make it through\nAnd I'll even learn to live without you\n\n[Chorus]\nDon't turn around\n'Cause you're gonna see my heart breaking\nDon't turn around\nI don't want you seeing me cry\nJust walk away\nIt's tearing me apart that you're leaving\nI'm letting you go\nBut I won't let you know\n\n[Post-Chorus]\nI wish I could scream out loud that I love you\nI wish I could say to you: \"Don't go\"\n\n[Bridge]\nAs he walks away, he feels the pain getting strong\nPeople in your life, they don't know what's going on\nToo proud to turn around\nHe's gone\n[Chorus]\nDon't turn around\n'Cause you're gonna see my heart breaking\nDon't turn around\nI don't want you seeing me cry\nJust walk away\nIt's tearing me apart that you're leaving\nI'm letting you go\n\n[Post-Chorus]\nBaby, don't turn around\nWhoa, whoa, whoa, whoa\nDon't turn around\nWhoa, whoa, whoa, whoa\nJust walk away (just walk away)\nWhoa, whoa, whoa, whoa\nIt's tearing me apart that you're leaving\nI'm letting you go\nDon't turn around\nWhoa, whoa, whoa, whoa\nDon't turn around\nWhoa, whoa, whoa, whoa\nJust walk away\nWhoa, whoa, whoa, whoaEmbed"
+    }
+}

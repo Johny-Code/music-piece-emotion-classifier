@@ -1,0 +1,53 @@
+{
+    "id": "ML930",
+    "mood": "happy",
+    "artist": "Infernal",
+    "title": "I Won't Be Crying",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1674616",
+        "artist_names": "Infernal",
+        "full_title": "I Won't Be Crying by\u00a0Infernal",
+        "header_image_thumbnail_url": "https://images.genius.com/8a389a7df51602467fa622aa9f5aaf09.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/8a389a7df51602467fa622aa9f5aaf09.1000x1000x1.jpg",
+        "id": 1674616,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429903247,
+        "path": "/Infernal-i-wont-be-crying-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Infernal-i-wont-be-crying-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/8a389a7df51602467fa622aa9f5aaf09.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8a389a7df51602467fa622aa9f5aaf09.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "I Won\u2019t Be Crying",
+        "title_with_featured": "I Won't Be Crying",
+        "updated_by_human_at": 1476919040,
+        "url": "https://genius.com/Infernal-i-wont-be-crying-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/355650",
+            "header_image_url": "https://images.genius.com/4cd0a77f3347a3e08437f14bcbb6dabf.1000x525x1.jpg",
+            "id": 355650,
+            "image_url": "https://images.genius.com/012a127ecb780ceef51636334eba08a2.768x768x1.jpg",
+            "index_character": "i",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Infernal",
+            "slug": "Infernal",
+            "url": "https://genius.com/artists/Infernal"
+        },
+        "artist": "Infernal",
+        "lyrics": "I Won\u2019t Be Crying LyricsYou always check yourself\nIn every mirror you see\nDay and night\nAnd it is such a shame\nYour vanity is to blame\nOh why don't you knock it off\n\nIt is the pointlessness\nThat's got me loving less\nI cannot handle that you're such a wannabe\nYou're caught up in yourself\nAnd me, you don't even see\nI won't be crying when I'm lonely\nSorry making sure I'll have a\nGood time\nAin't nothing wrong when i'm alone now\n'Cause I'm alone and I'm proud\nI won't be crying when I'm lonely\n\nI'm sure you don't believe\nThat anybody can tell\nYou're a fool\nI'll bet that you believe\nThey only think that you're cool\nAnd a handsome devil too\n\nBut baby trust me now\nYou'd better turn around\n'Cause otherwise you're gonna fall and hit the ground\n'Cause all this spirit boy\nWon't last eternally\n\nI won't be crying when i'm lonely\nSorry making sure I'll have a\nGood time\nAin't nothing wrong when I'm alone now\n'Cause I'm alone and I'm proud\nI won't be crying when I'm lonely\nYou might also likeI won't be crying when i'm lonely\nSorry making sure I'll have a\nGood time\nAin't nothing wrong when I'm alone now\n'Cause I'm alone and I'm proud\nI won't be crying when I'm lonely\nSorry making sure I'll have a\nGood time\nAin't nothing wrong when I'm alone now\n'Cause I'm alone and I'm proud\nI won't be crying when I'm lonelyEmbed"
+    }
+}

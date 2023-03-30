@@ -1,0 +1,57 @@
+{
+    "id": "ML1787",
+    "mood": "sad",
+    "artist": "Okkervil River",
+    "title": "It Ends With a Fall",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/189412",
+        "artist_names": "Okkervil River",
+        "full_title": "It Ends with a Fall by\u00a0Okkervil\u00a0River",
+        "header_image_thumbnail_url": "https://images.genius.com/cd4872a271c0736c97a7585b810ad28f.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/cd4872a271c0736c97a7585b810ad28f.1000x1000x1.jpg",
+        "id": 189412,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 225672,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1649725214,
+        "path": "/Okkervil-river-it-ends-with-a-fall-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Okkervil-river-it-ends-with-a-fall-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 9,
+            "day": 2
+        },
+        "release_date_for_display": "September 2, 2003",
+        "release_date_with_abbreviated_month_for_display": "Sep. 2, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/cd4872a271c0736c97a7585b810ad28f.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/cd4872a271c0736c97a7585b810ad28f.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "It Ends with a Fall",
+        "title_with_featured": "It Ends with a Fall",
+        "updated_by_human_at": 1649725214,
+        "url": "https://genius.com/Okkervil-river-it-ends-with-a-fall-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/60635",
+            "header_image_url": "https://s3.amazonaws.com/rapgenius/or.jpg",
+            "id": 60635,
+            "image_url": "https://s3.amazonaws.com/rapgenius/or.jpg",
+            "index_character": "o",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Okkervil River",
+            "slug": "Okkervil-river",
+            "url": "https://genius.com/artists/Okkervil-river"
+        },
+        "artist": "Okkervil River",
+        "lyrics": "It Ends with a Fall LyricsWish I could remember why it mattered to me\nIt doesn't matter to me\nIt doesn't matter to me anymore\nNow that you're feeling fine\nI'll admit that - though I know it's coming down\nAnd see it shattering me - it doesn't matter to me\nAnd I'm not sadder for seeing it come\nI'm not going to run\nI will just come when I am called\n\nYou want to cut me off\nBecause I took too much\nBut don't leave me alone\nTake off your scarves, your winter coat\nThe night's too cold\nWhen we met I should have said\n\"You're like a sister to me\"\nHow all that kiss her just seem\nLike puny suitors I can see through\nHow none will do, not for you\nIt might as well just be us two\nAnd when I pulled you by the jacket\nFrom the clattering street\nYou started flattering me\nYou started saying I was so strong\nString me along, but I can't become all that I'm called\n\nAnd I can't claim to know\nWhat makes love die or grow\nBut I can still take control\nAnd so refuse to just go home\nBack down the hall\n\nAnd as I crawl\nAs finally all the false confetti blooms up in this attic room\nI'm gonna make my stand\nI want to see both of your hands\nPut down the phone\nI won't let you go\nAlthough the moment stole my self-control from us all\nAnd now it can only end, end with a fallYou might also likeEmbed"
+    }
+}

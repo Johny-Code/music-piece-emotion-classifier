@@ -1,0 +1,57 @@
+{
+    "id": "ML169",
+    "mood": "happy",
+    "artist": "Shakira",
+    "title": "Un Poco De Amor",
+    "song": {
+        "_type": "song",
+        "annotation_count": 21,
+        "api_path": "/songs/196618",
+        "artist_names": "Shakira",
+        "full_title": "Un Poco de Amor by\u00a0Shakira",
+        "header_image_thumbnail_url": "https://images.rapgenius.com/ce6b70a8c882c4dea97d156a41cb771c.300x302x1.jpg",
+        "header_image_url": "https://images.rapgenius.com/ce6b70a8c882c4dea97d156a41cb771c.500x503x1.jpg",
+        "id": 196618,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5816430,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1671756812,
+        "path": "/Shakira-un-poco-de-amor-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Shakira-un-poco-de-amor-sample",
+        "release_date_components": {
+            "year": 1996,
+            "month": 5,
+            "day": 16
+        },
+        "release_date_for_display": "May 16, 1996",
+        "release_date_with_abbreviated_month_for_display": "May. 16, 1996",
+        "song_art_image_thumbnail_url": "https://images.rapgenius.com/ce6b70a8c882c4dea97d156a41cb771c.300x302x1.jpg",
+        "song_art_image_url": "https://images.rapgenius.com/ce6b70a8c882c4dea97d156a41cb771c.500x503x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 20,
+            "hot": false
+        },
+        "title": "Un Poco de Amor",
+        "title_with_featured": "Un Poco de Amor",
+        "updated_by_human_at": 1673713224,
+        "url": "https://genius.com/Shakira-un-poco-de-amor-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1405",
+            "header_image_url": "https://images.genius.com/5f68cfa84f8b1f023a69b2e69cb9c675.1000x563x1.jpg",
+            "id": 1405,
+            "image_url": "https://images.genius.com/5e84f4e8f1f4b6114b3f552fdcfbe916.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Shakira",
+            "slug": "Shakira",
+            "url": "https://genius.com/artists/Shakira"
+        },
+        "artist": "Shakira",
+        "lyrics": "Un Poco de Amor Lyrics[Letra de \"Un Poco de Amor\"]\n\n[Intro]\nRoots me again!\nSo come listen to di one\nMi a go' mash up on di plan\nNow dis, now dis is a message from di alluland\n\n[Verso 1]\nHoy es un d\u00eda de aquellos\nEn que miro hacia el cielo\nTratando de descifrar el que est\u00e9s\nDe vez en cuando lejos\nY de vez en cuando cerca\nUnas veces subir y otras caer\n[Pre-Coro]\nY yo cuando t\u00fa te me acercas\nNo respondo de mis actos\nSiento que aqu\u00ed voy\nDe odiarte, a quererte\nDe principio a fin\nBuscando un poco de amor\n[Coro]\nYou gotta rock it out and rock it in\nFrom Dublin to Babylon\n(Buscando un poco de amor)\nJump it out and jump it in\nFrom Kingston to Providenceland\n(Buscando un poco de amor)\n[Verso 2]\nHay cosas en la vida\nEn que no encuentras salida\nY ante tus ojos se cierra el tel\u00f3n\nY tapas la boquilla del volc\u00e1n que se hace lava\nQue hace mil a\u00f1os esta aqu\u00ed dentro\n[Pre-Coro]\nY yo tejiendo redecillas\nPara ver si puedo atraparte\nY aqu\u00ed voy colando la masilla\nEn medio de este tr\u00f3pico mortal\nRoots and creation, come again!\nYou might also like[Puente]\nSo mi guardian, mi guardian mi lift up di plan\nNow everybody a go' do dis one\nLike in down di Caribbean\nSan Andr\u00e9s, Providence Island\nLive it up, make it love sensation\nSay goodbye to di world's segregation\nDis a di age of di new generation\nLift it up to di high revelation\n\n[Pre-Coro]\nY aqu\u00ed voy tejiendo redecillas\nPara ver si puedo atraparte\nY aqu\u00ed estoy colando la masilla\nEn medio de este tr\u00f3pico mortal\nTodo por un poco de amor\n(Buscando un poco de amor)\n[Coro]\nWe gotta rock it out and rock it in\nFrom Dublin to Babylon\n(Buscando un poco de amor)\nJump it out and jump it in\n(Jump it out and jump it in)\n(Jump it out and jump it in)\nFrom Brasilia to Medell\u00edn\n(Buscando un poco de amor)\nRock it out and rock it in\n(Oh, yeah)\nFrom Aruba to Panam\u00e1\n(Por un poquito de tu amor)\n(Buscando un poco de amor)\nJump it out and jump it in\nFrom Kingston to Providenceland\n(\u00bfD\u00f3nde est\u00e1s?)\n(Buscando un poco de amor)\nYou gotta rock it out and rock it in\nFrom Dublin to Babylon\n(Por un poquito de tu amor)\n(Buscando un poco de amor)\nJump it out and jump it in\n(Oh, oh, oh, oh, oh, yeah)\nFrom Brasilia to Medell\u00edn\n(Buscando un poco de amor)\nRock it out and rock it in\n(Oh, yeah)\nFrom Aruba to Panam\u00e1\n(Por un poquito de tu amor)\n(Buscando un poco de amor)3Embed"
+    }
+}

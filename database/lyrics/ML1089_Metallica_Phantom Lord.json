@@ -1,0 +1,58 @@
+{
+    "id": "ML1089",
+    "mood": "angry",
+    "artist": "Metallica",
+    "title": "Phantom Lord",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/66669",
+        "artist_names": "Metallica",
+        "full_title": "Phantom Lord by\u00a0Metallica",
+        "header_image_thumbnail_url": "https://images.genius.com/71554d77be54a7c887f0751802a2e456.300x300x1.png",
+        "header_image_url": "https://images.genius.com/71554d77be54a7c887f0751802a2e456.594x594x1.png",
+        "id": 66669,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1297,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1659997963,
+        "path": "/Metallica-phantom-lord-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Metallica-phantom-lord-sample",
+        "release_date_components": {
+            "year": 1983,
+            "month": 7,
+            "day": 25
+        },
+        "release_date_for_display": "July 25, 1983",
+        "release_date_with_abbreviated_month_for_display": "Jul. 25, 1983",
+        "song_art_image_thumbnail_url": "https://images.genius.com/71554d77be54a7c887f0751802a2e456.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/71554d77be54a7c887f0751802a2e456.594x594x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 26530
+        },
+        "title": "Phantom Lord",
+        "title_with_featured": "Phantom Lord",
+        "updated_by_human_at": 1661981700,
+        "url": "https://genius.com/Metallica-phantom-lord-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/10662",
+            "header_image_url": "https://images.genius.com/48c97afd823fa51fec38b30ed83183e6.1000x286x1.jpg",
+            "id": 10662,
+            "image_url": "https://images.genius.com/a27c6cb3cb282e9327774fccdad9aaa3.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Metallica",
+            "slug": "Metallica",
+            "url": "https://genius.com/artists/Metallica"
+        },
+        "artist": "Metallica",
+        "lyrics": "Phantom Lord Lyrics[Verse 1]\nSound starts ripping through your ears\nThe deafening sound of metal nears\nBodies waiting for his whips\nThe taste of leather on your lips\n\n[Chorus]\nHear the cry of war, louder than before\nWith his sword in hand to control the land\nCrushing metal strikes on this frightening night\nFall on to your knees for the phantom lord\n[Verse 2]\nVictims falling under chains\nYou hear them crying dying pains\nThe fist of terrors breaking through\nNow there's nothing you can do\n\n[Chorus]\nHear the cry of war, louder than before\nWith his sword in hand to control the land\nCrushing metal strikes on this frightening night\nFall on to your knees for the phantom lord\n\n[Guitar Solo]\n\n[Interlude]\n\n[Guitar Solo]\n\n[Verse 3]\nThe leathered armies have prevailed\nThe phantom lord has never failed\nSmoke is lifting from the ground\nThe rising volume metal sound\n\n[Chorus]\nHear the cry of war, louder than before\nWith his sword in hand to control the land\nCrushing metal strikes on this frightening night\nFall on to your knees for the phantom lord\nYou might also like[Outro]\nFall to your knees\nAnd bow to the phantom lord!3Embed"
+    }
+}

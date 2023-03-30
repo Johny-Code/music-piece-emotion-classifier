@@ -1,0 +1,58 @@
+{
+    "id": "ML468",
+    "mood": "angry",
+    "artist": "Devo",
+    "title": "(I Can't Get No) Satisfaction",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/512120",
+        "artist_names": "Devo",
+        "full_title": "(I Can't Get No) Satisfaction by\u00a0Devo",
+        "header_image_thumbnail_url": "https://images.genius.com/820c63ab0c74d4e6bbd881aac8143c08.220x223x1.jpg",
+        "header_image_url": "https://images.genius.com/820c63ab0c74d4e6bbd881aac8143c08.220x223x1.jpg",
+        "id": 512120,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 413510,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1631489734,
+        "path": "/Devo-i-cant-get-no-satisfaction-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Devo-i-cant-get-no-satisfaction-sample",
+        "release_date_components": {
+            "year": 1978,
+            "month": 8,
+            "day": 28
+        },
+        "release_date_for_display": "August 28, 1978",
+        "release_date_with_abbreviated_month_for_display": "Aug. 28, 1978",
+        "song_art_image_thumbnail_url": "https://images.genius.com/820c63ab0c74d4e6bbd881aac8143c08.220x223x1.jpg",
+        "song_art_image_url": "https://images.genius.com/820c63ab0c74d4e6bbd881aac8143c08.220x223x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 7297
+        },
+        "title": "(I Can\u2019t Get No) Satisfaction",
+        "title_with_featured": "(I Can't Get No) Satisfaction",
+        "updated_by_human_at": 1678416525,
+        "url": "https://genius.com/Devo-i-cant-get-no-satisfaction-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/70215",
+            "header_image_url": "https://images.genius.com/4eedf8b6496c9ef22a6213b81c1138ce.610x225x1.jpg",
+            "id": 70215,
+            "image_url": "https://images.genius.com/fe3b9afe63d8e2fb3a8478b5463feac6.873x873x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Devo",
+            "slug": "Devo",
+            "url": "https://genius.com/artists/Devo"
+        },
+        "artist": "Devo",
+        "lyrics": "(I Can\u2019t Get No) Satisfaction Lyrics[Chorus]\nI can't get no\nSatisfaction\nI can't get me no\nSatisfaction\nAnd I try, and I try\nAnd I try, t-t-t-try, try, try\nI can't get no\nI can't get me no\n\n[Verse 1]\nWhen I'm ridin' in my car\nAnd a man comes on the radio\nHe's tellin' me more and more\nAbout some useless information\nSupposed to fire my imagination\n[Refrain]\nI can't get no\nUh, no, no, no\nUh, hey, hey, hey\nThat's what I say\n\n[Chorus]\nI can't get no\nSatisfaction\nI can't get me no\nGirly action\nAnd I try, and I try\nAnd I try, t-t-t-try, try, try\nI can't get no\nI can't get me no\n\n[Verse 2]\nWhen I'm watchin' my TV\nAnd a man comes on to tell me\nHow white my shirts could be\nBut he can't be a man 'cause he does not smoke\nThe same cigarettes as me\n\n[Refrain]\nI can't get no\nUh, no, no, no\nUh, hey, hey, hey\nThat's what I say\nYou might also like[Verse 3]\nAnd when I'm flyin' 'round the world\nAnd I'm doin' this and I'm tryin' that\nAnd I'm tryin' to make some girl\nWho tells me baby, baby, baby, baby\nBaby, baby, baby, baby, baby, baby, baby, baby, baby, baby\nBaby, baby, baby, baby, baby, baby, baby, baby, baby, baby\nBaby, baby, baby, baby, baby, baby, baby, baby, baby, baby\nBetter come back later next week\n'Cause, you see, I'm on a losin' streak\n\n[Refrain]\nI can't get no\nUh, no, no, no\nUh, hey, hey, hey\nThat's what I say\n\n[Outro]\nI can't get no (Satisfaction)\nI can't get me no (Satisfaction)\nI can't get no (Satisfaction)\nI can't get me no (Satisfaction)\nOh, no, no, no, I can't get no (Satisfaction)\nOh, no, no, no, I can't get me no (Satisfaction)\nOh, no, no, no, no, no, no, no, no (Satisfaction)\nOh, no, no, no, no, no, no, no, no (Satisfaction)\nOh, no, no, no, no, no, no, no, no (Satisfaction)\nOh, no, no, no, I can't get me no (Satisfaction)\nWell, I can't get no (Satisfaction)2Embed"
+    }
+}

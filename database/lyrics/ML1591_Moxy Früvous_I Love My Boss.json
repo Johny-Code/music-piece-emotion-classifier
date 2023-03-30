@@ -1,0 +1,53 @@
+{
+    "id": "ML1591",
+    "mood": "happy",
+    "artist": "Moxy Fr\u00fcvous",
+    "title": "I Love My Boss",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1108132",
+        "artist_names": "Moxy Fr\u00fcvous",
+        "full_title": "I Love My Boss by\u00a0Moxy\u00a0Fr\u00fcvous",
+        "header_image_thumbnail_url": "https://images.genius.com/cd14464a6926b78d3c3f7939e4e6ee49.300x301x1.jpg",
+        "header_image_url": "https://images.genius.com/cd14464a6926b78d3c3f7939e4e6ee49.399x400x1.jpg",
+        "id": 1108132,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429637880,
+        "path": "/Moxy-fruvous-i-love-my-boss-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Moxy-fruvous-i-love-my-boss-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/cd14464a6926b78d3c3f7939e4e6ee49.300x301x1.jpg",
+        "song_art_image_url": "https://images.genius.com/cd14464a6926b78d3c3f7939e4e6ee49.399x400x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "I Love My Boss",
+        "title_with_featured": "I Love My Boss",
+        "updated_by_human_at": 1479170071,
+        "url": "https://genius.com/Moxy-fruvous-i-love-my-boss-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/355090",
+            "header_image_url": "https://images.genius.com/e9f1bbcf028d030a47a5fbcbcdeeda1f.1000x500x1.jpg",
+            "id": 355090,
+            "image_url": "https://images.genius.com/3690ddee681f7325fe56f6bd8574f9c4.405x405x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Moxy Fr\u00fcvous",
+            "slug": "Moxy-fruvous",
+            "url": "https://genius.com/artists/Moxy-fruvous"
+        },
+        "artist": "Moxy Fr\u00fcvous",
+        "lyrics": "I Love My Boss Lyrics(Jian on lead)\nHe can't stand a loss\nHe's always cross\nHis name is Ross... my (boss)\nI love my boss\n\nI love my boss\nHe isn't full of fluff and gloss\nHe gives me work and many chores to do\nMy model, like Ben Cartwright to Hoss\nAnd though he pays me minimum wage\nIt's all I deserve at this stage\nSome union hack said I should ask for more\nI answered with suitable rage\n\nI love my boss\nI love my boss\nI love my boss\nI love my boss\n\nOne day I came to work too late\nI'd had a Fr\u00fcvous luncheon date\nMy boss he summoned me to speak with him\nI sweated, awaiting my fate\nHe said \"you're done!\"\nHe chased me two blocks with a gun\nBut my dear boss let me apologize\nIn hindsite, there wasn't a gun\n\n(Mike)\nHe's going out now with my sister\nThey go real heavy on the sauce\nI'd like to tell him watch out mister\nBut he's the boss\nMy friends they say that I am clinging\nAsk why I'm carrying this cross\nWho knows what club-med will be bringing\nFrom dear old boss\nYou might also like(spoken by Jian)\nExamples\n\n(All)\nBosses through the ages prove\nThey're the ones who make it move\nBewitched would have an empty plate\nIf it weren't for Larry Tate\nClark Kent reached the highest height\nWith the help of Perry White\nAnd if we may be retrograde\nSpeak the name Reuben Kincaid\n\n(Jian)\nNow the other workers all say \"Wow!\"\nWhen I roll over and I shake a paw\nMy boss is my brother-in-law\n\n(All)\nI love my boss\nI love my boss\nI love my boss\nI love my boss\n\nFrom the Liner:\n1990- Whistle while you workEmbed"
+    }
+}

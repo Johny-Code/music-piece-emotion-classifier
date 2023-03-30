@@ -1,0 +1,57 @@
+{
+    "id": "ML1620",
+    "mood": "happy",
+    "artist": "All Time Low",
+    "title": "The Beach",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/503977",
+        "artist_names": "All Time Low",
+        "full_title": "The Beach by\u00a0All\u00a0Time Low",
+        "header_image_thumbnail_url": "https://images.genius.com/3fc8033e7ef43e6d33c2c016a540616a.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3fc8033e7ef43e6d33c2c016a540616a.1000x1000x1.jpg",
+        "id": 503977,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 644489,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1665594735,
+        "path": "/All-time-low-the-beach-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/All-time-low-the-beach-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 9,
+            "day": 25
+        },
+        "release_date_for_display": "September 25, 2007",
+        "release_date_with_abbreviated_month_for_display": "Sep. 25, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3fc8033e7ef43e6d33c2c016a540616a.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3fc8033e7ef43e6d33c2c016a540616a.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "The Beach",
+        "title_with_featured": "The Beach",
+        "updated_by_human_at": 1675509206,
+        "url": "https://genius.com/All-time-low-the-beach-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/11457",
+            "header_image_url": "https://images.genius.com/70f9e87ae64c02c729ec3c469f96f172.1000x563x1.png",
+            "id": 11457,
+            "image_url": "https://images.genius.com/070ab22710eaff5d71b137201bc070ec.1000x1000x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "All Time Low",
+            "slug": "All-time-low",
+            "url": "https://genius.com/artists/All-time-low"
+        },
+        "artist": "All Time Low",
+        "lyrics": "The Beach Lyrics[Verse 1]\nWell, you're a long walk from my street\nAnd I'm dying in this summer heat\nI hope like hell you're waiting, waiting\n\n[Pre-Chorus]\nEverybody's living like they're crazy in love\nI'm a dizzy mess and everything is so above me\nFrom the floor I found the life I lead today\n\n[Chorus]\nWell, they can take, take, take the kids from the summer\nBut they'll never, never, never take the summer from me\nIt was the very first time that I lost my mind for the week\nThey can't make, make, make me forget the weather\nIf I never, never, never wash the sand from my feet\nIt was the very last time, then we said goodbye to the beach\nWe're showing off, we're showing off our teeth\n[Verse 2]\nSo make one last call back home\n'Cause tonight we go it alone\nAnd I hope that you know I'm waiting, waiting\n(Tell me, do you feel me?)\n\n[Pre-Chorus]\nEverybody's singing like we're crazy in love\nWe made a dizzy mess of everything and it was enough\nTo bring all the boys and all the girls together\n\n[Chorus]\nWell, they can take, take, take the kids from the summer\nBut they'll never, never, never take the summer from me\nIt was the very first time that I lost my mind for the week\nThey can't make, make, make me forget the weather\nIf I never, never, never wash the sand from my feet\nIt was the very last time, then we said goodbye to the beach\nWe're showing off, we're showing off our teeth\n\n[Bridge]\nYou're going out in style and I'm getting tired\nOf all your lying (Tell me do you feel me, listen can you hear it?)\nStop pretending (Cave in and believe me, open up and scream it)\nStop, the answer's in the smile, and I'm coming clean\nJust give me something (Tell me do you feel me, listen can you hear it?)\nStop pretending (Cave in and believe me, open up and scream it)\nYou might also like[Chorus]\nWell, they can take, take, take the kids from the summer\nBut they'll never, never, never take the summer from me\nIt was the very first time that I lost my mind for the week\nThey can't make, make, make me forget the weather (Make one last call back home)\nIf I never, never, never wash the sand from my feet (tonight we go it alone)\nIt was the very last time, then we said goodbye to the beach (And I hope that you know I'm waiting)\nWe're showing off, we're showing off our teethEmbed"
+    }
+}

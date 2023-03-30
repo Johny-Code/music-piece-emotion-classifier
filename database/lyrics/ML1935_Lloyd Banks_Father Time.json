@@ -1,0 +1,58 @@
+{
+    "id": "ML1935",
+    "mood": "angry",
+    "artist": "Lloyd Banks",
+    "title": "Father Time",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/2194",
+        "artist_names": "Lloyd Banks",
+        "full_title": "Father Time by\u00a0Lloyd\u00a0Banks",
+        "header_image_thumbnail_url": "https://images.genius.com/e2f98ec3d9e5c93fc879574cb53497cf.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e2f98ec3d9e5c93fc879574cb53497cf.1000x1000x1.jpg",
+        "id": 2194,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 171,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1551387873,
+        "path": "/Lloyd-banks-father-time-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Lloyd-banks-father-time-sample",
+        "release_date_components": {
+            "year": 2010,
+            "month": 11,
+            "day": 22
+        },
+        "release_date_for_display": "November 22, 2010",
+        "release_date_with_abbreviated_month_for_display": "Nov. 22, 2010",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e2f98ec3d9e5c93fc879574cb53497cf.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e2f98ec3d9e5c93fc879574cb53497cf.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 8778
+        },
+        "title": "Father Time",
+        "title_with_featured": "Father Time",
+        "updated_by_human_at": 1637836276,
+        "url": "https://genius.com/Lloyd-banks-father-time-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/255",
+            "header_image_url": "https://images.genius.com/c2796db87a16869acc47dd19649ad024.879x896x1.png",
+            "id": 255,
+            "image_url": "https://images.genius.com/e863455640709c76a4f2cbc68e8a7dd5.556x556x1.png",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Lloyd Banks",
+            "slug": "Lloyd-banks",
+            "url": "https://genius.com/artists/Lloyd-banks"
+        },
+        "artist": "Lloyd Banks",
+        "lyrics": "Father Time Lyrics[Hook]\nYeah they see me moving\nThey gonna need to stop, drop\nOff the face of Earth but, I'mma make it pop, hot\nThese niggas are not, now\nWatch me take my spot\nGot money got power and respect baby\nI just hope times on my side\nI've been trying all my life\nEvery block someones dying\nAlways high, here's our life, come inside\n[Verse 1]\nEnergy's my ammunition, like AK shells\nSo think about that when you plan on dissing, go straight to hell\nBred to be balling since a baby kicking\nI had the smell, brand new money ladies sniffing, they take a L\nI take a shit on rappers all it's worth\nCan't die over, must conquer the world first\nLike a monster to media on my beautiful girls search\nHigh and low I am no thing you tamper with\nMade the plan you should cancel it, make examples I trample shit\nDrop your hair I am cancerous, answer this, who can handle this?\nScandalous, I dismantle these ants and piss on a trucer\nYou think I seen the future, how I wham, quick recouper\nFire hand, wham turn a brand new man, big producer\nGift from heaven, living legend and I come from Queens\nRobbing leggin' 3-5-7 in my fucking jeans\nSuffering and fucked up schemes\nTwin Bentleys matching beamers on a couple beams\nTry my sentencing\n\n[Hook]\n\n[Verse 2]\nMurdered half of y'all on my mixtapes\nCome wrapped up in my wrath\nNow I'm laughing look at your rib cage\nYour ass been in a slump\nCum blasting all in your bitch face\nSuccess is what they want\nTongue lashing will get your shit sprayed\nHave it how you want, blood bath\nI'm a sharpened switchblade\nYou'll be smiling for life\nLove flashing I got the shit made\nForget where I'm at, now I passed 'em around the sixth grade\nPassion for my profession outlast anyone you could name\nHood fame got me riding in wood grain\nLook lame, Staten, Harlem to Brooklyn\nThey know I'm cooked 'caine took aim rappin would bang\nI could change, but this sport ain't a good game\nI'm strapping sir, back seat in the passenger, semi-auto massacre\nShopping while I laugh at you, rappers feed my appetite\nMetaphors will tackle you, these niggas ain't half as nice\nPlayboy in my afterlife, real nigga with cash and ice\nDrop the bread pass the dice, hope I crack twice\nYou might also like[Hook]2Embed"
+    }
+}

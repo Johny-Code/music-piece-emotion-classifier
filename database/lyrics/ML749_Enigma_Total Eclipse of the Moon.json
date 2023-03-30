@@ -1,0 +1,53 @@
+{
+    "id": "ML749",
+    "mood": "relaxed",
+    "artist": "Enigma",
+    "title": "Total Eclipse of the Moon",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1138593",
+        "artist_names": "Enigma",
+        "full_title": "Total Eclipse of the Moon by\u00a0Enigma",
+        "header_image_thumbnail_url": "https://images.genius.com/2737d081bef50e3870f6e0f843a276ca.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2737d081bef50e3870f6e0f843a276ca.640x640x1.jpg",
+        "id": 1138593,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429662345,
+        "path": "/Enigma-total-eclipse-of-the-moon-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Enigma-total-eclipse-of-the-moon-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/2737d081bef50e3870f6e0f843a276ca.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2737d081bef50e3870f6e0f843a276ca.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Total Eclipse of the Moon",
+        "title_with_featured": "Total Eclipse of the Moon",
+        "updated_by_human_at": 1446289168,
+        "url": "https://genius.com/Enigma-total-eclipse-of-the-moon-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/47617",
+            "header_image_url": "https://images.genius.com/5812a224b777d0c2f63f620c8c90a8fc.1000x1000x1.jpg",
+            "id": 47617,
+            "image_url": "https://images.genius.com/4b5472082f220eb9c2ca6b22f4d12f45.1000x1000x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Enigma",
+            "slug": "Enigma",
+            "url": "https://genius.com/artists/Enigma"
+        },
+        "artist": "Enigma",
+        "lyrics": "Total Eclipse of the Moon LyricsMiles away from light at noon\nTotal eclipse of the moon\nMany reasons to believe in life\nJust listen what it's telling you\n\nCome, have a look inside\nTotal eclipse of the moon\nDon't be childish and don't be so cruel\nI'm feeling just lonely without.... without you\n\nI can see the wide horizons\nBut debts, to be paid\nOur ways, will cross again, someday\nBelieve and come back to you.... may see you soon\nTime doesn't say hello\nTotal eclipse of the moon\nMany nights in our lives before\nDreaming to be just beside.... beside you\n\nTotal eclipse of the moon\nI'll see you soonYou might also likeEmbed"
+    }
+}

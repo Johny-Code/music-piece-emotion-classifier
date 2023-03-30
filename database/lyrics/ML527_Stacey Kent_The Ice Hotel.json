@@ -1,0 +1,57 @@
+{
+    "id": "ML527",
+    "mood": "relaxed",
+    "artist": "Stacey Kent",
+    "title": "The Ice Hotel",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/997848",
+        "artist_names": "Stacey Kent",
+        "full_title": "The Ice Hotel by\u00a0Stacey\u00a0Kent",
+        "header_image_thumbnail_url": "https://images.genius.com/63ee3b677781ca0ebfae1fa25e46ad11.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/63ee3b677781ca0ebfae1fa25e46ad11.1000x1000x1.jpg",
+        "id": 997848,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1909377,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1518400524,
+        "path": "/Stacey-kent-the-ice-hotel-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Stacey-kent-the-ice-hotel-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 10,
+            "day": 2
+        },
+        "release_date_for_display": "October 2, 2007",
+        "release_date_with_abbreviated_month_for_display": "Oct. 2, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/63ee3b677781ca0ebfae1fa25e46ad11.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/63ee3b677781ca0ebfae1fa25e46ad11.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "The Ice Hotel",
+        "title_with_featured": "The Ice Hotel",
+        "updated_by_human_at": 1518401930,
+        "url": "https://genius.com/Stacey-kent-the-ice-hotel-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/344485",
+            "header_image_url": "https://images.genius.com/df9e5aad7413495dfba5d2fe3b0ed809.667x667x1.jpg",
+            "id": 344485,
+            "image_url": "https://images.genius.com/df9e5aad7413495dfba5d2fe3b0ed809.667x667x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Stacey Kent",
+            "slug": "Stacey-kent",
+            "url": "https://genius.com/artists/Stacey-kent"
+        },
+        "artist": "Stacey Kent",
+        "lyrics": "The Ice Hotel LyricsLet's you and me go away to The Ice Hotel\nThe Caribbean's all booked out\nAnd that's just as well\nOnce I'd have been much keener\nOn Barbados and Antigua\nBut just now I think the Arctic will suit us well\nLet's you and me go away\nTo The Ice Hotel\n\nThey've built it all with ice, that's pure and clear\nThe sofas, the lobby\nEven the chandelier\nA thermostat guarantees\nA steady minus five degrees\nWhat other place could serve our needs so well?\nLet's you and me go away\nTo The Ice Hotel\nRomantic places\nLike Verona or Paris\nThey'll always lead you astray\nYou'd have to be a novice\nTo ever trust Venice\nAnd those dreamy waterways\nAnd what the tropics can do\nI know only too well\nSo, let's you and me go away\nTo The Ice Hotel\n\nHeavy clothing at all times\nIs the expected norm\nEven candlelight at dinner\nIs considered too dangerously warm\nAnd when the time comes for us to sleep\nWe'll spread out our reindeer fleece\nAnd curl up together\nOn an ice block carved for two\nBut then in the morning\nProvided we've made it through...\n\nWe'll step out together\nTo watch the sun rise over\nThat vast expanse of cold\nAnd who knows if we're lucky\nWe may find ourselves talking\nOf what the future may hold\nThis is no whim of the moment\nI want you to realize\nLet's go away\nTo that palace made of ice\nYou might also likeLet's you and me go away to The Ice Hotel\nThe Bahamas are all booked out\nAnd that's just as well\nI don't think we're quite ready\nFor Hawaii or Tahiti\nAnd when we will be\nOnly time will tell\nLet's you and me go away\nTo The Ice HotelEmbed"
+    }
+}

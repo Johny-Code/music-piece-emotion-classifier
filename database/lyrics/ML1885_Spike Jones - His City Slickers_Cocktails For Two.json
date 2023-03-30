@@ -1,0 +1,57 @@
+{
+    "id": "ML1885",
+    "mood": "happy",
+    "artist": "Spike Jones & His City Slickers",
+    "title": "Cocktails For Two",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/843210",
+        "artist_names": "Spike Jones and His City Slickers",
+        "full_title": "Cocktails for Two by\u00a0Spike\u00a0Jones and His City Slickers",
+        "header_image_thumbnail_url": "https://images.genius.com/5ebf5ddd35d92ab658923feda86fa040.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5ebf5ddd35d92ab658923feda86fa040.600x600x1.jpg",
+        "id": 843210,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2327575,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1647006368,
+        "path": "/Spike-jones-and-his-city-slickers-cocktails-for-two-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Spike-jones-and-his-city-slickers-cocktails-for-two-sample",
+        "release_date_components": {
+            "year": 1944,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1944",
+        "release_date_with_abbreviated_month_for_display": "1944",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5ebf5ddd35d92ab658923feda86fa040.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5ebf5ddd35d92ab658923feda86fa040.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Cocktails for Two",
+        "title_with_featured": "Cocktails for Two",
+        "updated_by_human_at": 1647006368,
+        "url": "https://genius.com/Spike-jones-and-his-city-slickers-cocktails-for-two-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/352336",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "id": 352336,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Spike Jones and His City Slickers",
+            "slug": "Spike-jones-and-his-city-slickers",
+            "url": "https://genius.com/artists/Spike-jones-and-his-city-slickers"
+        },
+        "artist": "Spike Jones and His City Slickers",
+        "lyrics": "Cocktails for Two LyricsOh what delight to be given the right\nTo be carefree and gay once again\nNo longer slinking, respectfully drinking\nLike civilized ladies and men\n\nNo longer need we miss\nA charming scene like this...\n\nIn some secluded rendezvous (whoopee, whistle, bang)\nThat overlooks the avenue (horn noises)\nWith someone sharing a delightful chat (yickety yickety)\nOf this and that with cocktails for two (clink clink)\nAs we enjoy a cigarette (wheezing cough)\nTo some exquisite chansonette (fiddle sound)\nTwo hands are sure to slyly meet beneath\nThe serviette with cocktails for two (clink clink)\n\nMy head may go reeling (slide whistle)\nBut my heart will be obedient (heartbeat sound)\nWith intoxicating kisses\nFor the principal ingredient (pop fizz laugh)\n\nMost any afternoon at five (ting ting ting ting)\nWe'll be so glad we're both alive (ahhhhh)\nThen maybe fortune will complete the plan\nThat all began with cocktails for two (clink crash)\n\n(musical interlude with hiccups & other strange noises)\n\nMost any afternoon at five (Sunday to Monday at five)\nWe'll be so glad we're both alive (we'll be so glad we're alive)\nThen maybe fortune will complete her plan (oooh-we-ooh)\nThat all began with cocktails for two (hic) two (hic) two-we-ooh (hic)You might also likeEmbed"
+    }
+}

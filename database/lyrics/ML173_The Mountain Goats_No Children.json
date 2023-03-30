@@ -1,0 +1,58 @@
+{
+    "id": "ML173",
+    "mood": "sad",
+    "artist": "The Mountain Goats",
+    "title": "No Children",
+    "song": {
+        "_type": "song",
+        "annotation_count": 12,
+        "api_path": "/songs/90875",
+        "artist_names": "The Mountain Goats",
+        "full_title": "No Children by\u00a0The\u00a0Mountain Goats",
+        "header_image_thumbnail_url": "https://images.genius.com/1ed13462769c918db9f1aa80eeef2516.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1ed13462769c918db9f1aa80eeef2516.700x700x1.jpg",
+        "id": 90875,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 80304,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675473926,
+        "path": "/The-mountain-goats-no-children-lyrics",
+        "pyongs_count": 22,
+        "relationships_index_url": "https://genius.com/The-mountain-goats-no-children-sample",
+        "release_date_components": {
+            "year": 2002,
+            "month": 11,
+            "day": 5
+        },
+        "release_date_for_display": "November 5, 2002",
+        "release_date_with_abbreviated_month_for_display": "Nov. 5, 2002",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1ed13462769c918db9f1aa80eeef2516.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/1ed13462769c918db9f1aa80eeef2516.700x700x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 319192
+        },
+        "title": "No Children",
+        "title_with_featured": "No Children",
+        "updated_by_human_at": 1672362298,
+        "url": "https://genius.com/The-mountain-goats-no-children-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/25815",
+            "header_image_url": "https://images.genius.com/e1d34a19124fe6c9c8e33bf5074a4c83.1000x667x1.jpg",
+            "id": 25815,
+            "image_url": "https://images.genius.com/4602e05a6f309390ac9152ce0d1c7ef0.800x800x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Mountain Goats",
+            "slug": "The-mountain-goats",
+            "url": "https://genius.com/artists/The-mountain-goats"
+        },
+        "artist": "The Mountain Goats",
+        "lyrics": "No Children Lyrics[Verse 1]\nI hope that our few remaining friends\nGive up on trying to save us\nI hope we come up with a fail-safe plot\nTo piss off the dumb few that forgave us\nI hope the fences we mended\nFall down beneath their own weight\nAnd I hope we hang on past the last exit\nI hope it's already too late\n[Pre-Chorus 1]\nAnd I hope the junkyard a few blocks from here\nSomeday burns down\nAnd I hope the rising black smoke carries me far away\nAnd I never come back to this town again\n\n[Chorus 1]\nIn my life\nI hope I lie, and tell everyone you were a good wife\nAnd I hope you die\nI hope we both die\n\n[Verse 2]\nI hope I cut myself shaving tomorrow\nI hope it bleeds all day long\nOur friends say it's darkest before the sun rises\nWe're pretty sure they're all wrong\nI hope it stays dark forever\nI hope the worst isn't over\nAnd I hope you blink before I do\nAnd I hope I never get sober\n\n[Pre-Chorus 2]\nAnd I hope when you think of me years down the line\nYou can't find one good thing to say\nAnd I'd hope that if I found the strength to walk out\nYou'd stay the hell out of my way\nYou might also like[Chorus 2]\nI am drowning\nThere is no sign of land\nYou are coming down with me\nHand in unlovable hand\nAnd I hope you die\nI hope we both die22Embed"
+    }
+}

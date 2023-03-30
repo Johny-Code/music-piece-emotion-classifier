@@ -1,0 +1,58 @@
+{
+    "id": "ML649",
+    "mood": "angry",
+    "artist": "Ministry",
+    "title": "Just One Fix",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/702172",
+        "artist_names": "Ministry",
+        "full_title": "Just One Fix by\u00a0Ministry",
+        "header_image_thumbnail_url": "https://images.genius.com/486fbc006e4062a04aa399c3c5c0cf32.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/486fbc006e4062a04aa399c3c5c0cf32.1000x1000x1.jpg",
+        "id": 702172,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1399705,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1657225476,
+        "path": "/Ministry-just-one-fix-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Ministry-just-one-fix-sample",
+        "release_date_components": {
+            "year": 1992,
+            "month": 7,
+            "day": 14
+        },
+        "release_date_for_display": "July 14, 1992",
+        "release_date_with_abbreviated_month_for_display": "Jul. 14, 1992",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a5af2d936fb3744a8f7ff9de3c80db10.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a5af2d936fb3744a8f7ff9de3c80db10.414x414x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 14715
+        },
+        "title": "Just One Fix",
+        "title_with_featured": "Just One Fix",
+        "updated_by_human_at": 1657225480,
+        "url": "https://genius.com/Ministry-just-one-fix-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/71885",
+            "header_image_url": "https://images.genius.com/c83fd1ed773969fdef4b9c97e23756ec.1000x358x1.jpg",
+            "id": 71885,
+            "image_url": "https://images.genius.com/902f15a716f83a341e77fa8c42e69f0e.420x420x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Ministry",
+            "slug": "Ministry",
+            "url": "https://genius.com/artists/Ministry"
+        },
+        "artist": "Ministry",
+        "lyrics": "Just One Fix Lyrics[Samples]\n\"Gimme that Thorazine, man\"\n\"You don't need the Thorazine, relax, relax\"\n\"I need that Thorazine\"\n\"Never trust a junkie\"\n\n[Verse 1]\nBlood keeps drinking away\nSilence of desperation\nDriving through New Orleans at night\nTrying to find a destination\n[Chorus]\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix)\n\n[Verse 2]\nLife keeps slipping away\nFighting in a war with damnation\nPoised, keep cutting away\nI'm looking in through to salvation\n\n[Chorus]\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)\n\n[Sample]\nJust one fix\nJust one fix\nJust one fix\nJust one fix\nJust one fix\nJust one fix\nJust one fix\nJust one fix\nYou might also like[Sample]\nMonkey never dies\nMonkey never dies\n\n[Verse 3]\nMonkey starts driving a train\nTrying to take in another station\nJoin us, and the choice will be made\nUnless we kill the lie as a nation\n\n[Chorus]\nJust one fix (Just one fix)\nJust one fix (Just one fix)\nJust one fix (Just one fix)\nJust one fix (Just one fix)\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)\nJust one fix (One fix, one fix, one fix)4Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML948",
+    "mood": "angry",
+    "artist": "Nile",
+    "title": "Sacrifice Unto Sebek",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1058495",
+        "artist_names": "Nile",
+        "full_title": "Sacrifice Unto Sebek by\u00a0Nile",
+        "header_image_thumbnail_url": "https://images.genius.com/f8a527c9e17c0c7ab1980d366a443ff0.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/f8a527c9e17c0c7ab1980d366a443ff0.400x400x1.jpg",
+        "id": 1058495,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1600411172,
+        "path": "/Nile-sacrifice-unto-sebek-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Nile-sacrifice-unto-sebek-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 5,
+            "day": 24
+        },
+        "release_date_for_display": "May 24, 2005",
+        "release_date_with_abbreviated_month_for_display": "May. 24, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/f8a527c9e17c0c7ab1980d366a443ff0.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f8a527c9e17c0c7ab1980d366a443ff0.400x400x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 6233
+        },
+        "title": "Sacrifice Unto Sebek",
+        "title_with_featured": "Sacrifice Unto Sebek",
+        "updated_by_human_at": 1600411172,
+        "url": "https://genius.com/Nile-sacrifice-unto-sebek-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/140933",
+            "header_image_url": "https://images.genius.com/7fd804e6d79b7fd5b8ddcd52b62018e4.750x400x1.jpg",
+            "id": 140933,
+            "image_url": "https://images.genius.com/f616340e04b00d554b96d19324e668bc.900x900x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Nile",
+            "slug": "Nile",
+            "url": "https://genius.com/artists/Nile"
+        },
+        "artist": "Nile",
+        "lyrics": "Sacrifice Unto Sebek LyricsSebek, Sochet, Suchos\nDread lord of the marsh\n\nHe who crawleth amongst the sacred waters\nAnd devoureth the flesh\nOf that which is sacrificed\nUnto Him\n\nTua Ashemu, Tua Ashemu\nRekhes Au Sebek, Rekhes Au Sebek\nTua Ashemu, Tua Ashemu\nSebek, Neter, Ashemu\n\nWhose teeth rendeth and teareth with terrible violence\nRestore the eyes of the dead\nCollect their skulls\nJoin their bones together again\n\nLord of the temple of the mount of sunrise\nOpen the way unto the underworld\nCause the dead to rise to new life\nBring the child Horus upon the throne\n\nOf OsirisYou might also like2Embed"
+    }
+}

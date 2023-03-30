@@ -1,0 +1,58 @@
+{
+    "id": "ML149",
+    "mood": "angry",
+    "artist": "Black Sabbath",
+    "title": "Sabbath Bloody Sabbath",
+    "song": {
+        "_type": "song",
+        "annotation_count": 11,
+        "api_path": "/songs/190214",
+        "artist_names": "Black Sabbath",
+        "full_title": "Sabbath Bloody Sabbath by\u00a0Black\u00a0Sabbath",
+        "header_image_thumbnail_url": "https://images.genius.com/1dd8dcbe74150471ea91e3d29f45c269.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1dd8dcbe74150471ea91e3d29f45c269.600x600x1.jpg",
+        "id": 190214,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 217970,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1663380454,
+        "path": "/Black-sabbath-sabbath-bloody-sabbath-lyrics",
+        "pyongs_count": 10,
+        "relationships_index_url": "https://genius.com/Black-sabbath-sabbath-bloody-sabbath-sample",
+        "release_date_components": {
+            "year": 1973,
+            "month": 12,
+            "day": 1
+        },
+        "release_date_for_display": "December 1, 1973",
+        "release_date_with_abbreviated_month_for_display": "Dec. 1, 1973",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1dd8dcbe74150471ea91e3d29f45c269.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/1dd8dcbe74150471ea91e3d29f45c269.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 84391
+        },
+        "title": "Sabbath Bloody Sabbath",
+        "title_with_featured": "Sabbath Bloody Sabbath",
+        "updated_by_human_at": 1663380454,
+        "url": "https://genius.com/Black-sabbath-sabbath-bloody-sabbath-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1121",
+            "header_image_url": "https://images.genius.com/a21c82cc1f8372dba386c11ae341fbda.600x338x74.gif",
+            "id": 1121,
+            "image_url": "https://images.genius.com/46514480a048fb777f012318a43be54f.1000x1000x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Black Sabbath",
+            "slug": "Black-sabbath",
+            "url": "https://genius.com/artists/Black-sabbath"
+        },
+        "artist": "Black Sabbath",
+        "lyrics": "Sabbath Bloody Sabbath Lyrics[Verse 1]\nYou've seen right through distorted eyes, you know you had to learn\nThe execution of your mind, you really had to turn\nThe race is run, the book is read, the end begins to show\nThe truth is out, the lies are old, but you don't want to know\n\n[Chorus]\nNobody will ever let you know\nWhen you ask the reasons why\nThey just tell you that you're on your own\nFill your head all full of lies\n[Verse 2]\nThe people who have crippled you, you wanna see them burn\nThe gates of life have closed on you, and there's just no return\nYou're wishing that the hands of doom could take your mind away\nAnd you don't care if you don't see again the light of day\n\n[Chorus]\nNobody will ever let you know\nWhen you ask the reasons why\nThey just tell you that you're on your own\nFill your head all full of lies, you bastards!\n\n[Instrumental Break]\n\n[Outro]\nWhere can you run to? What more can you do?\nNo more tomorrow, life is killing you\nDreams turn to nightmares, heaven turns to Hell\nBurnt out confusion, nothing more to tell, yeah\nEverything around you, what's it coming to?\nGod knows as your dog nose, bog, blast all of you\nSabbath bloody sabbath, nothing more to do\nLiving just for dying, dying just for you, yeahYou might also like10Embed"
+    }
+}

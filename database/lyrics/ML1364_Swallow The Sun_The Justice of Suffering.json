@@ -1,0 +1,57 @@
+{
+    "id": "ML1364",
+    "mood": "sad",
+    "artist": "Swallow The Sun",
+    "title": "The Justice of Suffering",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1527956",
+        "artist_names": "Swallow the Sun",
+        "full_title": "Justice of Suffering by\u00a0Swallow\u00a0the Sun",
+        "header_image_thumbnail_url": "https://images.genius.com/a5bdadfff8b9dd8ba286ff09b7cf12bb.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/a5bdadfff8b9dd8ba286ff09b7cf12bb.1000x1000x1.jpg",
+        "id": 1527956,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 4334743,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1601540614,
+        "path": "/Swallow-the-sun-justice-of-suffering-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Swallow-the-sun-justice-of-suffering-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 2,
+            "day": 7
+        },
+        "release_date_for_display": "February 7, 2007",
+        "release_date_with_abbreviated_month_for_display": "Feb. 7, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a5bdadfff8b9dd8ba286ff09b7cf12bb.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a5bdadfff8b9dd8ba286ff09b7cf12bb.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Justice of Suffering",
+        "title_with_featured": "Justice of Suffering",
+        "updated_by_human_at": 1639941227,
+        "url": "https://genius.com/Swallow-the-sun-justice-of-suffering-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/339725",
+            "header_image_url": "https://images.genius.com/b30c9f94f8f05d4fc6334dea1e490fdc.1000x563x1.jpg",
+            "id": 339725,
+            "image_url": "https://images.genius.com/5facfe49d6a15ba7d8ea0231cec5d594.224x224x1.png",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Swallow the Sun",
+            "slug": "Swallow-the-sun",
+            "url": "https://genius.com/artists/Swallow-the-sun"
+        },
+        "artist": "Swallow the Sun",
+        "lyrics": "Justice of Suffering Lyrics[Verse 1]\nI curse the love for you\nAnd the pale souls you have tasted\nThe sings of filthy passion\nWill soon turn to cries of pain\nWhen I claim what is mine\nThrough the justice of suffering\n\n[Verse 2]\nWhen the paying of her sins come closer\nThe night will end in tears\nAnd the moment you dirt her skin with your fingers\nYou will be sentenced the same\nEvery second with her I count\nAnd for every second you will suffer too\n[Chorus]\nNo light will save them now\nWhen the words of hope have all been spoken\nAnd I wash the blood from my hands\nAnd let them lie silent and cold on the flowers\n\n[Verse 3]\nFor my anger is greater\nThan the hand that once swept your cheek\nAnd my anger is greater\nThan the human I was\nI will claim that is mine\nThrough the justice of suffering\n\n[Chorus]\nNo light will save them now\nWhen the words of hope have all been spoken\nAnd I wash the blood from my hands\nAnd let them lie silent and cold on the flowers\n\n[Bridge]\nIs this poison in your womb\nWorth of the burning flesh\nIn this pyre of ghost lovers\n\n[Verse 4]\nBut every second with her I count\nAnd for every second you will suffer too\nThe night will end\u2026\nIt will end in tears soon\nYou might also like[Chorus]\nNo light will save them now\nWhen the words of hope have all been spoken\nAnd I wash the blood from my hands\nAnd let them lie silent and cold on the flowers\n\nNo light will save them now\nWhen the words of hope have all been spoken\nAnd I wash the blood from my hands\nAnd let them lie silent and cold on the flowersEmbed"
+    }
+}

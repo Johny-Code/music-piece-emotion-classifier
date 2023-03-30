@@ -1,0 +1,53 @@
+{
+    "id": "ML1884",
+    "mood": "relaxed",
+    "artist": "Maximilian Hecker",
+    "title": "Summer Days in Bloom",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/938572",
+        "artist_names": "Maximilian Hecker",
+        "full_title": "Summer Days in Bloom by\u00a0Maximilian\u00a0Hecker",
+        "header_image_thumbnail_url": "https://images.genius.com/122d26102700d1fde2a319bcd960bea9.300x270x1.jpg",
+        "header_image_url": "https://images.genius.com/122d26102700d1fde2a319bcd960bea9.404x363x1.jpg",
+        "id": 938572,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429542145,
+        "path": "/Maximilian-hecker-summer-days-in-bloom-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Maximilian-hecker-summer-days-in-bloom-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/122d26102700d1fde2a319bcd960bea9.300x270x1.jpg",
+        "song_art_image_url": "https://images.genius.com/122d26102700d1fde2a319bcd960bea9.404x363x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Summer Days in Bloom",
+        "title_with_featured": "Summer Days in Bloom",
+        "updated_by_human_at": 1477048326,
+        "url": "https://genius.com/Maximilian-hecker-summer-days-in-bloom-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/359511",
+            "header_image_url": "https://images.genius.com/b9081b77f035cc6f9d57ff7c417a3991.476x476x1.jpg",
+            "id": 359511,
+            "image_url": "https://images.genius.com/b9081b77f035cc6f9d57ff7c417a3991.476x476x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Maximilian Hecker",
+            "slug": "Maximilian-hecker",
+            "url": "https://genius.com/artists/Maximilian-hecker"
+        },
+        "artist": "Maximilian Hecker",
+        "lyrics": "Summer Days in Bloom LyricsParalyzed by ancient delight\nAnd riding for a fall today\nI am dressed in style, so eager in mind\nBut furthermore distracted by you\nAnd it's like i lose myself\nIn dreaming of summer days in bloom\nOh, i've got no clue how i could fight that\nAll that i am is worth a dime\nWorth a dime\n\nThis liquid lunch will not stop my punch-\nDrunk quality to doze while i run\nIt is thirty-nine degrees in my mind\nIt's thirty thousand miles more to go\nCause it's like i lose myself\nIn dreaming of summer days in bloom\nFor i've got no clue whatever happened\nAll that i am is worth a dime\nWorth a dimeYou might also likeEmbed"
+    }
+}

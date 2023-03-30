@@ -1,0 +1,57 @@
+{
+    "id": "ML774",
+    "mood": "sad",
+    "artist": "Grant Lee Buffalo",
+    "title": "Rock of Ages",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1404258",
+        "artist_names": "Grant Lee Buffalo",
+        "full_title": "Rock of Ages by\u00a0Grant\u00a0Lee Buffalo",
+        "header_image_thumbnail_url": "https://images.genius.com/1a5ea0c2ec55052a81c2b32da6df006e.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1a5ea0c2ec55052a81c2b32da6df006e.640x640x1.jpg",
+        "id": 1404258,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 4566913,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1497351737,
+        "path": "/Grant-lee-buffalo-rock-of-ages-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Grant-lee-buffalo-rock-of-ages-sample",
+        "release_date_components": {
+            "year": 1994,
+            "month": 9,
+            "day": 20
+        },
+        "release_date_for_display": "September 20, 1994",
+        "release_date_with_abbreviated_month_for_display": "Sep. 20, 1994",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1a5ea0c2ec55052a81c2b32da6df006e.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/1a5ea0c2ec55052a81c2b32da6df006e.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Rock of Ages",
+        "title_with_featured": "Rock of Ages",
+        "updated_by_human_at": 1631644754,
+        "url": "https://genius.com/Grant-lee-buffalo-rock-of-ages-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/343966",
+            "header_image_url": "https://images.genius.com/4805c9cf01e5a9de89bda1285961f7f6.800x800x1.jpg",
+            "id": 343966,
+            "image_url": "https://images.genius.com/4805c9cf01e5a9de89bda1285961f7f6.800x800x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Grant Lee Buffalo",
+            "slug": "Grant-lee-buffalo",
+            "url": "https://genius.com/artists/Grant-lee-buffalo"
+        },
+        "artist": "Grant Lee Buffalo",
+        "lyrics": "Rock of Ages LyricsRock of Ages, I am tumbling down\nWhere the roots of trees embrace you\nI do fall upon my knees and ask you how\nYou can just sit there and be\n\nRock of Ages, I am crumbling now\nIn an avalanche\nI'm reaching for the Rock of Ages\nRock of Ages\n\nRock of Ages\nFather, now I have stepped beyond my bounds\nNow the pack I wear, it weighs a thousand pounds\nIt drags me down\nMake me think crazy\n\nO, my Rock of Ages I have gone astray\nI heard my brother call, I turned the other way\nNow I'm ashamed\nTo face him\n\nReach for the Rock of Ages\nRock of Ages\nIn the avalanche\nIn the avalanche\n\nHeavy rock\nAnd I reach for the rock\nI reach for the rock\nIn the avalanche it falls\n\nI reach for the rock\nI reach for the rock\nI reach for the rock\nIn the avalanche\n\nIn the avalanche\nHeavy rock\nHeavy rock\nSuch a heavy rockYou might also likeEmbed"
+    }
+}

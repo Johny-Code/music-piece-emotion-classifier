@@ -1,0 +1,59 @@
+{
+    "id": "ML530",
+    "mood": "angry",
+    "artist": "Ghostface Killah",
+    "title": "Mighty Healthy",
+    "song": {
+        "_type": "song",
+        "annotation_count": 35,
+        "api_path": "/songs/753",
+        "artist_names": "Ghostface Killah",
+        "full_title": "Mighty Healthy by\u00a0Ghostface\u00a0Killah",
+        "header_image_thumbnail_url": "https://images.genius.com/469fdc23501d689480b2d8fa549f0636.240x240x1.jpg",
+        "header_image_url": "https://images.genius.com/469fdc23501d689480b2d8fa549f0636.240x240x1.jpg",
+        "id": 753,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 506,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1667471903,
+        "path": "/Ghostface-killah-mighty-healthy-lyrics",
+        "pyongs_count": 15,
+        "relationships_index_url": "https://genius.com/Ghostface-killah-mighty-healthy-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": 2,
+            "day": 8
+        },
+        "release_date_for_display": "February 8, 2000",
+        "release_date_with_abbreviated_month_for_display": "Feb. 8, 2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/469fdc23501d689480b2d8fa549f0636.240x240x1.jpg",
+        "song_art_image_url": "https://images.genius.com/469fdc23501d689480b2d8fa549f0636.240x240x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 115767
+        },
+        "title": "Mighty Healthy",
+        "title_with_featured": "Mighty Healthy",
+        "updated_by_human_at": 1667471902,
+        "url": "https://genius.com/Ghostface-killah-mighty-healthy-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/20",
+            "header_image_url": "https://images.genius.com/c132342eb96e2bfd6acb614a550d0e14.1000x563x1.jpg",
+            "id": 20,
+            "image_url": "https://images.genius.com/227de22e535416c2ec2a6f012f37c9ef.620x400x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Ghostface Killah",
+            "slug": "Ghostface-killah",
+            "url": "https://genius.com/artists/Ghostface-killah",
+            "iq": 1779
+        },
+        "artist": "Ghostface Killah",
+        "lyrics": "Mighty Healthy Lyrics[Intro]\nMy God, so they are killers\nI've heard lots of people say once a man's a killer, they just keep on killing and killing\nThey sort of develop a taste for blood\nYeah, that's right\nThey kill one man, or kill ten\nIt's all the same (Yes)\nAfter all, they can only hang you once\n\n[Verse 1: Ghostface Killah]\nBoth hands clusty, chillin' with my man Rusty\nLow down, blew off the burner, kinda dusty\nThe world can't touch Ghost, purple tape, Rae co-host\nMonty Hall expo, intellect, you read pro\nSon's triflin' fuck, wildflower on the cycle and\nPicked up the broom thought I was Michael-in'\nWest Brighton Pool, now I'm into Iron Duels\nTurn nuns to Earths, Whoopi, she at Allah school\nInhale break beats of Hell a-alikes propel parallel\nDuracell knot, you flashed a burnt cell\nSnap out of Candyland, kids, the old rumor is\nBlacks become immune and shit, we never did\nLike eating dead birds, trust the pharmacy over herbs\nMen marrying men, ill they got the urge, pulsar\nScissor hand wig vanished in the winter, living off land\nYou god damn right I fuck fans, king me\nCheck, checkmate, props like the micro chip founder\nNeck to neck stock with Bill Gates now\n[Bridge: Ghostface Killah]\nWhen we hug these mics we get busy (Busy)\nCome and have a good time with G-O-D (G-O-D)\nMake you snap your fingers or wiggle (Wiggle)\nScream, shout, laugh or just giggle (Giggle)\nShake that body, party that body\nDon't fuck with Ghost, you'll feel sorry\nThat's word, I'm not the herb\nUnderstand what I'm saying, saying, saying?\n\n[Verse 2: Ghostface Killah]\nHit mics like Ted Koppel, rifle expert\nLet off the Eiffel, burn a flag in your grass, spiteful\nRingleader set it off, rap Derek Jeter\nCulprit, prince of the game, wish you could see us\nWe lay low, glitter wax full bangles\nPriceless ropes, lay around the God, get tangled\nWoolly hair, eyes fiery red, feet made of brass\nTwelve men following me, it be the God staff\nMove, every script's like Miramax\nSmashed the big boy, totaled it, Wilshire and Fairfax\nSun beamin', wifey on the beach sipping Zima\nWu 'binos to Latinos, we love Selena\nOvernight, God schedules, FedEx\nPretty silhouette, velvet nice, DNA scroll genetics\nToo hot to handle, one thought from scrambling the mandolin\nHundred game Wilt Chamberlain, smack 'em, say when\nHe rollin' up, face wrinkled up, hands is on his nuts\nYo kid, stop fronting on the grounds 'fore you get touched\nIt's Canada Dry sess with Allah, son\nWe want rye, we want it so bad we might cry\nYou might also like[Outro]\nFor every blow, depends on breath control\nSo it's the first thing you must learn\nFortunately it's easy\nYou'll soon learn\nMy God, so they are killers\nKilling and killing\nThey sort of develop a taste for blood\nMy God, so they are killers\nMy God\u2014 My God, so they are killers15Embed"
+    }
+}

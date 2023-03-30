@@ -1,0 +1,58 @@
+{
+    "id": "ML517",
+    "mood": "angry",
+    "artist": "Hole",
+    "title": "Gutless",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/576502",
+        "artist_names": "Hole",
+        "full_title": "Gutless by\u00a0Hole",
+        "header_image_thumbnail_url": "https://images.genius.com/a8bf1929b4ba07b83b72df7dfced71d6.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/a8bf1929b4ba07b83b72df7dfced71d6.1000x1000x1.jpg",
+        "id": 576502,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 877468,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1636030330,
+        "path": "/Hole-gutless-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Hole-gutless-sample",
+        "release_date_components": {
+            "year": 1994,
+            "month": 4,
+            "day": 12
+        },
+        "release_date_for_display": "April 12, 1994",
+        "release_date_with_abbreviated_month_for_display": "Apr. 12, 1994",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a8bf1929b4ba07b83b72df7dfced71d6.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a8bf1929b4ba07b83b72df7dfced71d6.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 17351
+        },
+        "title": "Gutless",
+        "title_with_featured": "Gutless",
+        "updated_by_human_at": 1636030835,
+        "url": "https://genius.com/Hole-gutless-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/33619",
+            "header_image_url": "https://images.genius.com/78c93db9683d598d0c67dca33ab655f7.594x458x1.jpg",
+            "id": 33619,
+            "image_url": "https://images.genius.com/23a09f6314744734e29141017cd5d1a9.499x499x1.jpg",
+            "index_character": "h",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Hole",
+            "slug": "Hole",
+            "url": "https://genius.com/artists/Hole"
+        },
+        "artist": "Hole",
+        "lyrics": "Gutless Lyrics[Verse 1]\nAll my friends are embryonic\nAll my friends are dead and gone\nAll my friends are microscopic\nAll my friends wake up alone\nGirl germs eat your little virus\nRevolution come and die\nElitists who eat the virus\nSleep with me, wake up alive\n\n[Chorus]\nGutless, you're gutless\nYou're gutless, you're gutless\n[Verse 2]\nYou can try to suck me dry\nBut there's nothing left to suck\nJust you try to hold me down\nCome on, try to shut me up\nStep and fetch, grease my hips\nI don't even have to pause\nI don't really miss God\nBut I sure miss Santa Claus\n\n[Chorus]\nGutless, you're gutless\nGutless, you're gutless\n\n[Bridge]\nI wanna drink the honey blood\nI wanna drink the honey blood\n\n[Chorus]\nGutless, you're gutless\nGutless, you're undressed\n\n[Outro]\nYou're gutless, you're gutless\nYou're gutless, you're undressedYou might also like2Embed"
+    }
+}

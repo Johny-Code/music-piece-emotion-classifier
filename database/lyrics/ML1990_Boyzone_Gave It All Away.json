@@ -1,0 +1,57 @@
+{
+    "id": "ML1990",
+    "mood": "sad",
+    "artist": "Boyzone",
+    "title": "Gave It All Away",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/986010",
+        "artist_names": "Boyzone",
+        "full_title": "Gave It All Away by\u00a0Boyzone",
+        "header_image_thumbnail_url": "https://images.genius.com/aa80706f906c93a40bb4d0463d47ba2d.220x220x1.jpg",
+        "header_image_url": "https://images.genius.com/aa80706f906c93a40bb4d0463d47ba2d.220x220x1.jpg",
+        "id": 986010,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1556712144,
+        "path": "/Boyzone-gave-it-all-away-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Boyzone-gave-it-all-away-sample",
+        "release_date_components": {
+            "year": 2010,
+            "month": 3,
+            "day": 1
+        },
+        "release_date_for_display": "March 1, 2010",
+        "release_date_with_abbreviated_month_for_display": "Mar. 1, 2010",
+        "song_art_image_thumbnail_url": "https://images.genius.com/aa80706f906c93a40bb4d0463d47ba2d.220x220x1.jpg",
+        "song_art_image_url": "https://images.genius.com/aa80706f906c93a40bb4d0463d47ba2d.220x220x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Gave It All Away",
+        "title_with_featured": "Gave It All Away",
+        "updated_by_human_at": 1556712144,
+        "url": "https://genius.com/Boyzone-gave-it-all-away-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/344536",
+            "header_image_url": "https://images.genius.com/2c86a76006add7fca6ff4ac09f08d6c3.1000x1000x1.jpg",
+            "id": 344536,
+            "image_url": "https://images.genius.com/2c86a76006add7fca6ff4ac09f08d6c3.1000x1000x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Boyzone",
+            "slug": "Boyzone",
+            "url": "https://genius.com/artists/Boyzone"
+        },
+        "artist": "Boyzone",
+        "lyrics": "Gave It All Away LyricsI \u2026 I will learn to live before I die\nWill learn to love and learn to try\nNot to give it all away (give it all away)\nShe \u2026 she may be\nThe one that\u2019s meant for me\nOr for the man that I used to be (used to be)\nTil\u2019 I gave it all away (gave it all away x2)\n\n[Chorus]\nWhy hy hy I lay my heart down on the floor\nI showed you love, you wanted more re re\nBut I gave it all away (cry ry ry ry cry ry ry ry)\nYou taught me to see the better truth\nAbout yourself but about me too (about me too)\nI was stupid over you\nWhat could I do\n\n[Chorus]\nWhy hy hy I lay my heart down on the floor\nI showed you love, you wanted more re re\nBut I gave it all away (cry ry ry ry cry ry ry ry)\n\nSome people wait a lifetime for a chance like this\nI\u2019ve waited enough\nBaby, no, I won\u2019t let you go\nI\u2019m sick of tears and being fierce\n\n(I won\u2019t let go of you, I won\u2019t let go of you, of you, of youx2)\n\n[Chorus]\nWhy hy hy I lay my heart down on the floor\nI showed you love, you wanted more re re\nBut I gave it all away (cry ry ry ry cry ry ry ry)\n\nThere\u2019s nothing left to take (cry ry ry ry cry ry ry ry ry)\n\nI gave it all awayYou might also likeEmbed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML1515",
+    "mood": "relaxed",
+    "artist": "Donald Fagen",
+    "title": "Walk Between Raindrops",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/686001",
+        "artist_names": "Donald Fagen",
+        "full_title": "Walk Between Raindrops by\u00a0Donald\u00a0Fagen",
+        "header_image_thumbnail_url": "https://images.genius.com/7f7dfd5103228d938f24ce4d50dd8e9c.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/7f7dfd5103228d938f24ce4d50dd8e9c.1000x1000x1.jpg",
+        "id": 686001,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1441548,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1599503512,
+        "path": "/Donald-fagen-walk-between-raindrops-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Donald-fagen-walk-between-raindrops-sample",
+        "release_date_components": {
+            "year": 1982,
+            "month": 10,
+            "day": 1
+        },
+        "release_date_for_display": "October 1, 1982",
+        "release_date_with_abbreviated_month_for_display": "Oct. 1, 1982",
+        "song_art_image_thumbnail_url": "https://images.genius.com/7f7dfd5103228d938f24ce4d50dd8e9c.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/7f7dfd5103228d938f24ce4d50dd8e9c.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 16600
+        },
+        "title": "Walk Between Raindrops",
+        "title_with_featured": "Walk Between Raindrops",
+        "updated_by_human_at": 1622380847,
+        "url": "https://genius.com/Donald-fagen-walk-between-raindrops-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/124113",
+            "header_image_url": "https://images.genius.com/f1c9db3f86da0dc2e9dfb74b514b77ac.1000x563x1.jpg",
+            "id": 124113,
+            "image_url": "https://images.genius.com/ca8853de44236b70a2d04869fdd61f48.388x388x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Donald Fagen",
+            "slug": "Donald-fagen",
+            "url": "https://genius.com/artists/Donald-fagen"
+        },
+        "artist": "Donald Fagen",
+        "lyrics": "Walk Between Raindrops LyricsA shadow crossed the blue Miami sky\nAs we hit the causeway by the big hotels\nWe fought\nNow I can't remember why\nAfter all the words were said and tears were gone\nWe vowed we'd never say goodbye\n\nWhen we kissed we could hear the sound of thunder\nAs we watched the regulars rush the big hotels\nWe kissed again as the showers swept the Florida shore\nYou opened your umbrella\nBut we walked between the raindrops back to your door\nOh Miami!\nIn my dreams I can hear the sound of thunder\nI can see the causeway by the big hotels\nThat happy day we'll find each other on that Florida shore\nYou'll open your umbrella\nAnd we'll walk between the raindrops back to your door\nWe'll walk between the raindrops\nBetween the raindrops\nWalk between the raindrops back to your doorYou might also likeEmbed"
+    }
+}

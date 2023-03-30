@@ -1,0 +1,58 @@
+{
+    "id": "ML1671",
+    "mood": "relaxed",
+    "artist": "Mercury Rev",
+    "title": "Holes",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/660456",
+        "artist_names": "Mercury Rev",
+        "full_title": "Holes by\u00a0Mercury\u00a0Rev",
+        "header_image_thumbnail_url": "https://images.genius.com/49ec8c702ffd57541c2903c5d95e0248.300x258x1.jpg",
+        "header_image_url": "https://images.genius.com/49ec8c702ffd57541c2903c5d95e0248.600x516x1.jpg",
+        "id": 660456,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 705048,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1670061563,
+        "path": "/Mercury-rev-holes-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Mercury-rev-holes-sample",
+        "release_date_components": {
+            "year": 1998,
+            "month": 9,
+            "day": 29
+        },
+        "release_date_for_display": "September 29, 1998",
+        "release_date_with_abbreviated_month_for_display": "Sep. 29, 1998",
+        "song_art_image_thumbnail_url": "https://images.genius.com/49ec8c702ffd57541c2903c5d95e0248.300x258x1.jpg",
+        "song_art_image_url": "https://images.genius.com/49ec8c702ffd57541c2903c5d95e0248.600x516x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 16574
+        },
+        "title": "Holes",
+        "title_with_featured": "Holes",
+        "updated_by_human_at": 1670061564,
+        "url": "https://genius.com/Mercury-rev-holes-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/302039",
+            "header_image_url": "https://images.genius.com/590d1737305b3198bcdc3087c558d8f6.1000x667x1.jpg",
+            "id": 302039,
+            "image_url": "https://images.genius.com/f54b6d9d414b1b72fc2e7fbcf02748e4.635x635x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Mercury Rev",
+            "slug": "Mercury-rev",
+            "url": "https://genius.com/artists/Mercury-rev"
+        },
+        "artist": "Mercury Rev",
+        "lyrics": "Holes LyricsTime\nAll the long red lines\nThat take control\nOf all the smoke like streams\nThat flow into your dreams\nThat big blue open sea\nThat can't be crossed\nThat can't be climbed\nJust born between\nOh, the two white lines\nDistant gods and faded signs\nOf all those blinking lights\nYou had to pick the one tonight\nHoles\nDug by little moles\nAngry jealous spies\nGot telephones for eyes\nCome to you as friends\nAll those endless ends\nThat can't be tied\nOh, they make me laugh\nAnd always make me cry\n'Til they drop like flies\nAnd sink like polished stones\nOf all the stones I throw\nHow does that old song go?\nHow does that old song go?\n\nBands\nThose funny little plans\nThat never work quite rightYou might also like4Embed"
+    }
+}

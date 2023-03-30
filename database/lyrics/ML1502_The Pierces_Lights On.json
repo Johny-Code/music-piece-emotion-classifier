@@ -1,0 +1,57 @@
+{
+    "id": "ML1502",
+    "mood": "happy",
+    "artist": "The Pierces",
+    "title": "Lights On",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/872128",
+        "artist_names": "The Pierces",
+        "full_title": "Lights On by\u00a0The\u00a0Pierces",
+        "header_image_thumbnail_url": "https://images.genius.com/dc226a87b36261380134d78d465d06eb.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/dc226a87b36261380134d78d465d06eb.1000x1000x1.jpg",
+        "id": 872128,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 7648580,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1667308500,
+        "path": "/The-pierces-lights-on-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/The-pierces-lights-on-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 3,
+            "day": 20
+        },
+        "release_date_for_display": "March 20, 2007",
+        "release_date_with_abbreviated_month_for_display": "Mar. 20, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/dc226a87b36261380134d78d465d06eb.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/dc226a87b36261380134d78d465d06eb.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Lights On",
+        "title_with_featured": "Lights On",
+        "updated_by_human_at": 1667308500,
+        "url": "https://genius.com/The-pierces-lights-on-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/79472",
+            "header_image_url": "https://images.genius.com/668a88d2e1b1e85b5c9c2870351c4e22.1000x253x1.jpg",
+            "id": 79472,
+            "image_url": "https://images.genius.com/f4cc6729428c21accb8fe77f2b40a2d5.935x935x1.jpg",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Pierces",
+            "slug": "The-pierces",
+            "url": "https://genius.com/artists/The-pierces"
+        },
+        "artist": "The Pierces",
+        "lyrics": "Lights On LyricsOh, oh, oh\nOh, oh, oh\n\nSome people say that I want you for your money\nBut I really want for your body\n(Yes, no, yes)\nPleased to meet you, baby\nI want to be your honey\nSo let's go tell your daddy and mommy\n(Yes, no, yes)\nThis won't get any easier\nNow that your heart is beating in my hand\nI'll try not to destroy you, baby\nEven though we both know I can\nOh, you know I can\n\nMake love with the lights on, baby\nTell me what you see\nClear the bed to lie on, darling\nMake a mess of me\nHere's my dress to try on, baby\nLet me be your man\nI will call you pretty, darling\nTell me what I am\n\nOh, oh, oh\nC-c-can I have your number?\nCan I have your baby?\nCan we run away together?\n(Yes, no, yes)\nI would walk on water\nI would walk on fire\nI would sell my soul to the devil\n(Yes, no, yes)\n\nAnd this won't get any easier\nNow that your heart is beating in my hand\nI'll try not to destroy you, baby\nEven though we both know I can\nOh, you know I can\nYou might also likeMake love with the lights on, baby\nTell me what you see\nClear the bed to lie on, darling\nMake a mess of me\nHere's my dress to try on, baby\nLet me be your man\nI will call you pretty, darling\nTell me what I am\n\n(Yes, no, yes)\n(Yes, no, yes)\n(Yes, no, yes)\n(Yes, no, yes)\n\nMake love with the lights on, baby\nTell me what you see\nClear the bed to lie on, darling\nMake a mess of me\nHere's my dress to try on, baby\nLet me be your man\nI will call you pretty, darling\nTell me what I am1Embed"
+    }
+}

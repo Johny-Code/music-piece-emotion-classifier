@@ -1,0 +1,58 @@
+{
+    "id": "ML940",
+    "mood": "happy",
+    "artist": "Cake",
+    "title": "Pretty Pink Ribbon",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/347998",
+        "artist_names": "CAKE",
+        "full_title": "Pretty Pink Ribbon by\u00a0CAKE",
+        "header_image_thumbnail_url": "https://images.genius.com/5b9f40afdbc2959f912b6794930bffb5.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5b9f40afdbc2959f912b6794930bffb5.1000x1000x1.jpg",
+        "id": 347998,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 414246,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1626741380,
+        "path": "/Cake-pretty-pink-ribbon-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Cake-pretty-pink-ribbon-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 7,
+            "day": 24
+        },
+        "release_date_for_display": "July 24, 2001",
+        "release_date_with_abbreviated_month_for_display": "Jul. 24, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5b9f40afdbc2959f912b6794930bffb5.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5b9f40afdbc2959f912b6794930bffb5.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 5657
+        },
+        "title": "Pretty Pink Ribbon",
+        "title_with_featured": "Pretty Pink Ribbon",
+        "updated_by_human_at": 1626741380,
+        "url": "https://genius.com/Cake-pretty-pink-ribbon-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/38835",
+            "header_image_url": "https://images.genius.com/45d38eb64a9dc1cb9a76b89c9e42717f.529x231x1.jpg",
+            "id": 38835,
+            "image_url": "https://images.genius.com/189592d784a24ab713518d8221ff16f7.286x286x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "CAKE",
+            "slug": "Cake",
+            "url": "https://genius.com/artists/Cake"
+        },
+        "artist": "CAKE",
+        "lyrics": "Pretty Pink Ribbon Lyrics[Verse 1]\nWithout the pretty pink ribbon\nYou'd end up just like me\nWithout the pretty pink ribbon\nYou'd float down to the sea\nWithout the pretty pink ribbon\nYou'd say just what you please\nWithout the sticky little kitten\nYour ticket could never be free\n\n[Chorus]\nWithout the tight little denim\nYour virtues would all go unknown\nWithout the room that you live in\nYour cancer would eat to the bone\nYour muscles would bulge underground\nYour demons would all be around\nWithout the pretty pink ribbon\nYou'd end up just like me\n[Verse 2]\nWithout the pretty pink ribbon\nYou'd end up just like me\nWithout the pretty pink ribbon\nYou'd burn all these dying leaves\nWithout the pretty pink ribbon\nYou'd lift this steaming herd\nYou would kill all the sick ones\nYou would bury them deep in the earth\n\n[Chorus]\nWithout the tight little denim\nYour virtues would all go unknown\nWithout the room that you live in\nYour cancers would eat to the bone\nYour muscles would bulge underground\nYour demons would all be around\nWithout the pretty pink ribbon\nYou'd end up just like meYou might also like1Embed"
+    }
+}

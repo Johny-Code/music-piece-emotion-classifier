@@ -1,0 +1,58 @@
+{
+    "id": "ML1952",
+    "mood": "sad",
+    "artist": "Rufus Wainwright",
+    "title": "This Love Affair",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/941862",
+        "artist_names": "Rufus Wainwright",
+        "full_title": "This Love Affair by\u00a0Rufus\u00a0Wainwright",
+        "header_image_thumbnail_url": "https://images.genius.com/9c3ded371594b9e0bb55c748dd2dd552.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/9c3ded371594b9e0bb55c748dd2dd552.1000x1000x1.jpg",
+        "id": 941862,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429543029,
+        "path": "/Rufus-wainwright-this-love-affair-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Rufus-wainwright-this-love-affair-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 11,
+            "day": 16
+        },
+        "release_date_for_display": "November 16, 2004",
+        "release_date_with_abbreviated_month_for_display": "Nov. 16, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/9c3ded371594b9e0bb55c748dd2dd552.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/9c3ded371594b9e0bb55c748dd2dd552.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "This Love Affair",
+        "title_with_featured": "This Love Affair",
+        "updated_by_human_at": 1678829965,
+        "url": "https://genius.com/Rufus-wainwright-this-love-affair-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/22436",
+            "header_image_url": "https://images.genius.com/bda5f4fe634a4c0737f8033a0bd02b44.1000x1000x1.jpg",
+            "id": 22436,
+            "image_url": "https://images.genius.com/bda5f4fe634a4c0737f8033a0bd02b44.1000x1000x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Rufus Wainwright",
+            "slug": "Rufus-wainwright",
+            "url": "https://genius.com/artists/Rufus-wainwright",
+            "iq": 706
+        },
+        "artist": "Rufus Wainwright",
+        "lyrics": "This Love Affair LyricsI don't know what I'm doin'\nI don't know what I'm sayin'\nI don't know why I'm watching all these white people dancin'\n\nI don't know where I'm goin'\nBut I do know that I'm walkin'\nWhere? I don't know\nJust away from this love affair\n\nI can't say that I'm cruisin'\nNot that I don't like cruisin'\nJust that I'm bruisin' from you\nI can't say that I'm waltzin'\nNot that I don't like waltzin'\nWould rather be waltzin' with you\n\nOoo oh ooo\n\nSo I guess that I'm goin'\nI guess that I am walkin'\nWhere? I don't know\nJust away from this love affairYou might also likeEmbed"
+    }
+}

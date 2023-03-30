@@ -1,0 +1,58 @@
+{
+    "id": "ML121",
+    "mood": "sad",
+    "artist": "George Jones",
+    "title": "He Stopped Loving Her Today",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/145523",
+        "artist_names": "George Jones",
+        "full_title": "He Stopped Loving Her Today by\u00a0George\u00a0Jones",
+        "header_image_thumbnail_url": "https://images.genius.com/2d2010ead9580f8400df760b88150307.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2d2010ead9580f8400df760b88150307.500x500x1.jpg",
+        "id": 145523,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 10380,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1679004203,
+        "path": "/George-jones-he-stopped-loving-her-today-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/George-jones-he-stopped-loving-her-today-sample",
+        "release_date_components": {
+            "year": 1980,
+            "month": 4,
+            "day": 14
+        },
+        "release_date_for_display": "April 14, 1980",
+        "release_date_with_abbreviated_month_for_display": "Apr. 14, 1980",
+        "song_art_image_thumbnail_url": "https://images.genius.com/da7126bf2668afbef4a2dd3cedddc8c2.300x298x1.jpg",
+        "song_art_image_url": "https://images.genius.com/da7126bf2668afbef4a2dd3cedddc8c2.500x496x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 80068
+        },
+        "title": "He Stopped Loving Her Today",
+        "title_with_featured": "He Stopped Loving Her Today",
+        "updated_by_human_at": 1679004203,
+        "url": "https://genius.com/George-jones-he-stopped-loving-her-today-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/47668",
+            "header_image_url": "https://images.genius.com/848ecec1b2ce7bd1ffaf301610861db0.720x321x1.jpg",
+            "id": 47668,
+            "image_url": "https://images.genius.com/359edc07f34cc74189eaec0aa62c1735.1000x1000x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "George Jones",
+            "slug": "George-jones",
+            "url": "https://genius.com/artists/George-jones"
+        },
+        "artist": "George Jones",
+        "lyrics": "He Stopped Loving Her Today Lyrics[Verse 1]\nHe said, \"I'll love you til I die\"\nShe told him, \"You'll forget in time\"\nAs the years went slowly by\nShe still preyed upon his mind\nHe kept her picture on his wall\nWent half crazy now and then\nBut he still loved her through it all\nHoping she'd come back again\n\n[Verse 2]\nHe kept some letters by his bed\nDated 1962\nHe had underlined in red\nEvery single 'I love you'\nI went to see him just today\nOh but I didn't see no tears\nAll dressed up to go away\nFirst time I'd seen him smile in years\n[Chorus]\nHe stopped loving her today\nThey placed a wreath upon his door\nAnd soon they'll carry him away\nHe stopped loving her today\n\n[Bridge]\nYou know she came to see him one last time\nOh, and we all wondered if she would\nAnd it kept runnin' through my mind\nThis time, he's over her for good\n\n[Chorus]\nHe stopped loving her today\nThey placed a wreath upon his door\nAnd soon they'll carry him away\nHe stopped loving her todayYou might also like4Embed"
+    }
+}

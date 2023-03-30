@@ -1,0 +1,57 @@
+{
+    "id": "ML846",
+    "mood": "happy",
+    "artist": "Razorlight",
+    "title": "Get It And Go",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1528605",
+        "artist_names": "Razorlight",
+        "full_title": "Get It & Go by\u00a0Razorlight",
+        "header_image_thumbnail_url": "https://images.genius.com/2bf8f04c52a1a1bfa8b467a179c4f690.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2bf8f04c52a1a1bfa8b467a179c4f690.500x500x1.jpg",
+        "id": 1528605,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 4253812,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1672782812,
+        "path": "/Razorlight-get-it-and-go-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Razorlight-get-it-and-go-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2004",
+        "release_date_with_abbreviated_month_for_display": "2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/2bf8f04c52a1a1bfa8b467a179c4f690.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2bf8f04c52a1a1bfa8b467a179c4f690.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Get It & Go",
+        "title_with_featured": "Get It & Go",
+        "updated_by_human_at": 1672782812,
+        "url": "https://genius.com/Razorlight-get-it-and-go-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/118117",
+            "header_image_url": "https://images.genius.com/5aca197eb9d1c58e5187dcff4c0e203b.468x358x1.jpg",
+            "id": 118117,
+            "image_url": "https://images.genius.com/7fe221facfad622bd6fedc3b79bb2881.503x503x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Razorlight",
+            "slug": "Razorlight",
+            "url": "https://genius.com/artists/Razorlight"
+        },
+        "artist": "Razorlight",
+        "lyrics": "Get It & Go LyricsWe talked all night about suicide\nAnd she said if this is living\nHow come I never feel alive?\n\nFirst time you're there\nWell it gets you up\nSecond time alright\nBut it's just not enough\nNo, it shoots through your veins\nTears all you nerves appart\nWell, you give it a go\nYou give it a go\nYou know it's alright\nYou know it's alright\nYou give it a go\nYou give it a go\nYou get a little high\nAnd you get a little low\n\nI've seen you there so many times\nYou had your hands in your pocket\nYou said \"I've just got this message on my phone, and it's blowing my mind\nYou know it's tearing me up inside out\"\nStrangles me, Strangles me\n\nYou know\nFirst time you're there\nWell it gets you up\nSecond time's alright\nBut it's the second circle of hell in your mind\nIt shoots through your veins\nIt tears all you nerves appart\n\nOh, just give it a go\nJust give it a go\nYou know it's alright\nYou know it's alright\nJust give it a go\nJust give it a go\nYou get a little high\nYou get a little low\nYou're giving it a go\nYou're giving it a go\nYou know it's alright\nYou know it's alright\nYou're giving it a go\nYou're giving it a go\nYou get a little high\nYou get a little low\nYou might also likeWell if it's all so hard\nWhy don't you slide on down with me\nAnd if you're hanging on my words\nWell that's alright with me\nBecause it's just so easy\nAnd we'll be alright\n\nYou're giving it a go\nYou're giving it a go\nYou know it's alright\nYou know it's alright\nYou're giving it a go\nYou're giving it a go\nYou get a little high\nYou get a little low\nYou're giving it a go\nYou're giving it a go\n\nYou're giving it a go\nYou're giving it a go\nYou get so high\nYou're so high\n\nCount your fingers to four\nOne, Two, Three, Four\nAnd that's itEmbed"
+    }
+}

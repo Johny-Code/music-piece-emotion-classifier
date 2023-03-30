@@ -1,0 +1,57 @@
+{
+    "id": "ML1469",
+    "mood": "angry",
+    "artist": "Slayer",
+    "title": "Here Comes the Pain",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/702902",
+        "artist_names": "Slayer",
+        "full_title": "Here Comes the Pain by\u00a0Slayer",
+        "header_image_thumbnail_url": "https://images.genius.com/1731153ee5e175130e4f3204905605b6.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1731153ee5e175130e4f3204905605b6.1000x1000x1.jpg",
+        "id": 702902,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1425851,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1584431262,
+        "path": "/Slayer-here-comes-the-pain-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Slayer-here-comes-the-pain-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 9,
+            "day": 11
+        },
+        "release_date_for_display": "September 11, 2001",
+        "release_date_with_abbreviated_month_for_display": "Sep. 11, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1731153ee5e175130e4f3204905605b6.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/1731153ee5e175130e4f3204905605b6.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Here Comes the Pain",
+        "title_with_featured": "Here Comes the Pain",
+        "updated_by_human_at": 1661024518,
+        "url": "https://genius.com/Slayer-here-comes-the-pain-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/6596",
+            "header_image_url": "https://images.genius.com/bc11ff5236798b16df8d0ed38ad6386d.1000x341x1.png",
+            "id": 6596,
+            "image_url": "https://images.genius.com/861966ebfefbd4e0adc83bec199c30be.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Slayer",
+            "slug": "Slayer",
+            "url": "https://genius.com/artists/Slayer"
+        },
+        "artist": "Slayer",
+        "lyrics": "Here Comes the Pain Lyrics[Verse 1]\nI am the new hell on earth\nThe lord of agony divine\nDomination, intimidation\nLives within these eyes\nReign of power\nRemorseless anarchy\nI am arrogance in the flesh\nUnleashed intensity\n\n[Chorus]\nStep aside for the nightmare\nPure destruction stands before you\nNo escape as the psycho\nBrings you misery\nThe line starts here\nThe line starts here\n[Verse 2]\nI am brutality, the face of everlasting pain\nAnnihilation, obliteration\nPulses in these veins\nSheer defiance drives my hostility\nI am merciless to the core\nChaotic fury breeds\n\n[Chorus]\nStep aside for the nightmare\nPure destruction stands before you\nNo escape as the psycho\nBrings you misery\nThe line starts here\nThe line starts here\n\n[Bridge 1]\nBring it all on\nCome and take on what you fear\nI'm the storm\nThat towers overhead\nTicking time bomb\nWith an infinite charge\nBringer of torture\nThe master is here\nEveryone falls\nYou might also like[Lead - King and Hanneman]\n\n[Bridge 2]\nHere comes the pain\nYou're no different from the rest\nVictim is your name in my vicious wasteland\nHere comes the pain\nYour destruction manifests\nLying there broken, looking up as I still stand\n\n[Bridge 1]\nBring it all on\nCome and take on what you fear\nI'm the storm\nThat towers overhead\nTicking time bomb\nWith an infinite charge\nBringer of torture\nThe master is here\nEveryone fallsEmbed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML627",
+    "mood": "happy",
+    "artist": "Touch and Go",
+    "title": "Would You...?",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1296838",
+        "artist_names": "Touch And Go",
+        "full_title": "Would You...? by\u00a0Touch\u00a0And Go",
+        "header_image_thumbnail_url": "https://images.genius.com/e9d95a8dc7fd5bbc6e574dc88baef5c4.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e9d95a8dc7fd5bbc6e574dc88baef5c4.600x600x1.jpg",
+        "id": 1296838,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429750513,
+        "path": "/Touch-and-go-would-you-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Touch-and-go-would-you-sample",
+        "release_date_components": {
+            "year": 1998,
+            "month": 10,
+            "day": 26
+        },
+        "release_date_for_display": "October 26, 1998",
+        "release_date_with_abbreviated_month_for_display": "Oct. 26, 1998",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e9d95a8dc7fd5bbc6e574dc88baef5c4.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e9d95a8dc7fd5bbc6e574dc88baef5c4.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 9295
+        },
+        "title": "Would You...?",
+        "title_with_featured": "Would You...?",
+        "updated_by_human_at": 1661890590,
+        "url": "https://genius.com/Touch-and-go-would-you-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2310885",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "id": 2310885,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Touch And Go",
+            "slug": "Touch-and-go",
+            "url": "https://genius.com/artists/Touch-and-go"
+        },
+        "artist": "Touch And Go",
+        "lyrics": "Would You...? LyricsUm...\nI've noticed you around\nI find you very attractive\nI've noticed you around, um...\nI find you very attractive\nI find you very attractive\n\nUm... Would you go to bed with me?\n\nI've noticed you around, um...\nI find you very attractive\nWould you...? Um...\nI've noticed you around\nI find you very attractive\nWould you...? Um...\n\nUm... Would you go to bed with me?\n\nI've noticed you around\nI find you very attractive\nI've noticed you around\nUm...You might also likeEmbed"
+    }
+}

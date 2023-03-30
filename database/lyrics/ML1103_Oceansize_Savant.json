@@ -1,0 +1,53 @@
+{
+    "id": "ML1103",
+    "mood": "sad",
+    "artist": "Oceansize",
+    "title": "Savant",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/694997",
+        "artist_names": "Oceansize",
+        "full_title": "Savant by\u00a0Oceansize",
+        "header_image_thumbnail_url": "https://images.genius.com/d575f0de331c9d5a4f03e709177fb341.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/d575f0de331c9d5a4f03e709177fb341.1000x1000x1.jpg",
+        "id": 694997,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1441113,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1422718485,
+        "path": "/Oceansize-savant-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Oceansize-savant-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/d575f0de331c9d5a4f03e709177fb341.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d575f0de331c9d5a4f03e709177fb341.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Savant",
+        "title_with_featured": "Savant",
+        "updated_by_human_at": 1482114887,
+        "url": "https://genius.com/Oceansize-savant-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/324970",
+            "header_image_url": "https://images.genius.com/048fe1c634c1ae4c8aabbe160104e4ab.1000x563x1.jpg",
+            "id": 324970,
+            "image_url": "https://images.genius.com/048fe1c634c1ae4c8aabbe160104e4ab.1000x563x1.jpg",
+            "index_character": "o",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Oceansize",
+            "slug": "Oceansize",
+            "url": "https://genius.com/artists/Oceansize"
+        },
+        "artist": "Oceansize",
+        "lyrics": "Savant LyricsThe future hates cast asleep but the film remains\nThis aftertaste, all I wanted is that which I gave\nMaster slave, I burn fast on sinking ships\nAnd I can talk, I place pride on tick and tock\nAnd its lonely silent until dawn, rites of passage open doors\nBut I\u2019m not frightened\nMaster slave, line and sinker take the bait\n\nWhere others float, you and I crash land\nWhere others float, you and I crash land\nWhere I see us in far away skies, I could not say\nWhere I am lost, the darkness falls upon the day\n\nWhere I see us in far away skies, I could not say\nWhere I am lost, the darkness falls upon the day\n\nWhere I see us in far away skies, I could not say\nWhere I am lost, the darkness falls upon the day\n\nWhere I see us in far away skies, I could not say\nWhere I am lost, the darkness falls upon the day\n\nWhere I see us in far away skies, I could not say\nWhere I am lost, the darkness falls upon the day\n\nWhere I see us in far away skies, I could not say\nWhere I am lost, the darkness falls upon the dayYou might also likeEmbed"
+    }
+}

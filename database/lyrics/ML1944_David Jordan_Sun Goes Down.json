@@ -1,0 +1,53 @@
+{
+    "id": "ML1944",
+    "mood": "happy",
+    "artist": "David Jordan",
+    "title": "Sun Goes Down",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1618548",
+        "artist_names": "David Jordan",
+        "full_title": "Sun Goes Down by\u00a0David\u00a0Jordan",
+        "header_image_thumbnail_url": "https://images.genius.com/23b075216bf0961bd2e89dc10f10f92d.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/23b075216bf0961bd2e89dc10f10f92d.400x400x1.jpg",
+        "id": 1618548,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2881040,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1529362751,
+        "path": "/David-jordan-sun-goes-down-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/David-jordan-sun-goes-down-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/23b075216bf0961bd2e89dc10f10f92d.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/23b075216bf0961bd2e89dc10f10f92d.400x400x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Sun Goes Down",
+        "title_with_featured": "Sun Goes Down",
+        "updated_by_human_at": 1529362751,
+        "url": "https://genius.com/David-jordan-sun-goes-down-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/369791",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "id": 369791,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "David Jordan",
+            "slug": "David-jordan",
+            "url": "https://genius.com/artists/David-jordan"
+        },
+        "artist": "David Jordan",
+        "lyrics": "Sun Goes Down Lyrics[Chorus]\nOpen your eyes 'cause another day is dawning\nChildren of the night - can you hear them all calling?\nSkies open up and an angel starts falling\nListen to their beats - can you hear them hollering?\n\nStart in the morning, through to the evening\nDance like you're the only one around\nMove like you want it\nGroove like you need it\nDancing it up 'til the sun goes down\n[Verse 1]\nFree your mind 'cause tonight we're gonna break it down\nShake it, make it funky down\nGet so high as the toxins in your body\nAre the bass and the drums and the roar, roar, roar\nWe're right on time, and all is fine\nIf you've lost your senses, here have mine\nAnd lose yourself from the time you awake\n'Til the evening time\n'Til the sunshine breaks\n\n[Chorus]\nAh, come on!\nOpen your eyes 'cause another day is dawning\nChildren of the night - can you hear them all calling?\nSkies open up and an angel starts falling\nListen to their beats - can you hear them hollering?\n\nStart in the morning, through to the evening\nDance like you're the only one around\nMove like you want it\nGroove like you need it\nDancing it up 'til the sun goes down\n'Til the sun goes down\u2026\n\n[Verse 2]\nWelcome all to the amazing, the hysteria\nAre ya feelin' what we bring to y'all?\nPeace and love\nAnd you're all getting low tonight\n(Tonight, tonight, tonight)\nFire is burning on and there's children in the forest playing\nJust come forget this too\nForget because the beast is hunting for its prey\nYeah, yeah, yeah, no, no, yeah\nYou might also like[Bridge]\n'Til the sun goes down\n'Til the sun goes\nSun goes down\nSun goes down\nSun goes down, sun goes down\n\n[Chorus & Outro]\nOpen your eyes 'cause another day is dawning\nChildren of the night - can you hear them all calling?\nSkies open up and an angel starts falling\nListen to their beats - can you hear them hollering?\n\nStart in the morning, through to the evening\nDance like you're the only one around\nMove like you want it\nGroove like you need it\nDancing it up 'til the sun goes down\n'Til the sun goes down\u2026\n\nGoes down\nSun goes down\nSun goes down\nYeah! Ha!\n\nStart in the morning, through to the evening\nDance like you're the only one around\nMove like you want it\nGroove like you need it\nDancing it up 'til the sun goes down\nYeah! Yeah!\n'Til the sun goes down\n'Til the sun goes down\n'Til the sun goes downEmbed"
+    }
+}

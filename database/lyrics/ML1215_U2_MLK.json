@@ -1,0 +1,58 @@
+{
+    "id": "ML1215",
+    "mood": "sad",
+    "artist": "U2",
+    "title": "MLK",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/138942",
+        "artist_names": "U2",
+        "full_title": "MLK by\u00a0U2",
+        "header_image_thumbnail_url": "https://images.genius.com/b4a5b4123655b1c0afdf12aef4a3c651.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b4a5b4123655b1c0afdf12aef4a3c651.1000x1000x1.jpg",
+        "id": 138942,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 33067,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675141870,
+        "path": "/U2-mlk-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/U2-mlk-sample",
+        "release_date_components": {
+            "year": 1984,
+            "month": 10,
+            "day": 1
+        },
+        "release_date_for_display": "October 1, 1984",
+        "release_date_with_abbreviated_month_for_display": "Oct. 1, 1984",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b4a5b4123655b1c0afdf12aef4a3c651.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b4a5b4123655b1c0afdf12aef4a3c651.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 14761
+        },
+        "title": "MLK",
+        "title_with_featured": "MLK",
+        "updated_by_human_at": 1675141911,
+        "url": "https://genius.com/U2-mlk-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/23895",
+            "header_image_url": "https://images.genius.com/ee67b5a6bc567af7c680ee086c2e0c8d.620x349x1.jpg",
+            "id": 23895,
+            "image_url": "https://images.genius.com/0565db2dbe447e1e79c41d785d3e6b26.819x819x1.jpg",
+            "index_character": "u",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "U2",
+            "slug": "U2",
+            "url": "https://genius.com/artists/U2"
+        },
+        "artist": "U2",
+        "lyrics": "MLK Lyrics[Verse 1]\nSleep, sleep tonight\nAnd may your dreams be realised\nIf the thunder cloud passes rain\nSo let it rain, rain down on he\nMmm, so let it be\nMmm, so let it be\n\n[Verse 2]\nSleep, sleep tonight\nAnd may your dreams be realised\nIf the thunder cloud passes rain\nSo let it rain, let it rain\nRain on heYou might also like1Embed"
+    }
+}

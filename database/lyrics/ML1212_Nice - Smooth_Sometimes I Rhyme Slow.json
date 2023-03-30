@@ -1,0 +1,58 @@
+{
+    "id": "ML1212",
+    "mood": "relaxed",
+    "artist": "Nice & Smooth",
+    "title": "Sometimes I Rhyme Slow",
+    "song": {
+        "_type": "song",
+        "annotation_count": 19,
+        "api_path": "/songs/35093",
+        "artist_names": "Nice & Smooth",
+        "full_title": "Sometimes I Rhyme Slow by\u00a0Nice\u00a0& Smooth",
+        "header_image_thumbnail_url": "https://images.genius.com/b0e82cb629d09534e3ac217b31829b3c.300x298x1.jpg",
+        "header_image_url": "https://images.genius.com/b0e82cb629d09534e3ac217b31829b3c.592x589x1.jpg",
+        "id": 35093,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 50,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1667704598,
+        "path": "/Nice-and-smooth-sometimes-i-rhyme-slow-lyrics",
+        "pyongs_count": 5,
+        "relationships_index_url": "https://genius.com/Nice-and-smooth-sometimes-i-rhyme-slow-sample",
+        "release_date_components": {
+            "year": 1991,
+            "month": 9,
+            "day": 17
+        },
+        "release_date_for_display": "September 17, 1991",
+        "release_date_with_abbreviated_month_for_display": "Sep. 17, 1991",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b0e82cb629d09534e3ac217b31829b3c.300x298x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b0e82cb629d09534e3ac217b31829b3c.592x589x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 68794
+        },
+        "title": "Sometimes I Rhyme Slow",
+        "title_with_featured": "Sometimes I Rhyme Slow",
+        "updated_by_human_at": 1667694950,
+        "url": "https://genius.com/Nice-and-smooth-sometimes-i-rhyme-slow-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/49420",
+            "header_image_url": "https://images.genius.com/d22e158bb2b6fc81bf9bb9aba651018c.407x407x1.jpg",
+            "id": 49420,
+            "image_url": "https://images.genius.com/d22e158bb2b6fc81bf9bb9aba651018c.407x407x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Nice & Smooth",
+            "slug": "Nice-and-smooth",
+            "url": "https://genius.com/artists/Nice-and-smooth"
+        },
+        "artist": "Nice & Smooth",
+        "lyrics": "Sometimes I Rhyme Slow Lyrics[Verse 1: Nice]\nSometimes I rhyme slow sometimes I rhyme quick\nSometimes I rhyme slow sometimes I rhyme quick\nSometimes I rhyme slow sometimes I rhyme quick\nI'm sweeter and thicker than a Chick-O-Stick\nHere's an ice cream cone honey take a lick\nOr go to Bay Plaza and catch a flick\nWore my Timberland boots so I can stomp ticks\nScandalous get a whiff of this, miss\nJust left the yard boys, now I'm blissed\nI feel good per say good state of mind\nDrive a red Sterling and the seats recline\nI love it when a lady treats me kind\nGo to Tavern on the Green and have a glass of wine\nHe say, she say, I heard it through the grapevine\nNo static, got an automatic\nToo much of anything makes you an addict\nTeasin, skeezin, all so pleasin\nDon't ask why I got my own reasons\nSmooth B, Greg Nice, Slick Nick clique\nSometimes I rhyme slow sometimes I rhyme quick...\n[Chorus]\nSometimes I rhyme slow sometimes I rhyme quick\nSometimes I rhyme slow sometimes I rhyme quick\nSometimes I rhyme slow sometimes I rhyme quick\n\n[Verse 2: Smooth B]\nSometimes I rhyme slow\nSometimes I rhyme quick\nI was on 125 and Saint Nick\nWaiting on a cab, standing in the rain\nUnder my heart three clouds of pain\nShe got the best of me\nWhat was her destiny?\nMaybe I should lick her with my nine millime...ter\nMy mind is in a blur\nCause you could never pay me to think this would occur\nMe and this girl Jane Doe was living together\nWe were inseparable, noone could sever\nAt least that's what I thought\nBut later I fought with her substance\nAnd almost ended up in Supreme Court\nWhen I was on the road doing shows getting ends\nShe was in my Benz getting sniffy with her friends\nAnd even when she crashed my whip I didn't flip\nMy man Slick Nick said Smooth you're starting to slip\nTime went on I started noticing weight loss\nThen I had to ask her was she riding the white horse\nAt first she said no, then she said yo Smooth I'm sorry\nBut I keep having visions of snow, I need blow\nAnd I said whoa, little hottie\nI'm not DeLorean, Gambino or Gotti\nI don't deal coke, and furthermore you're making me broke\nI'll put you in a rehab and I won't tell your folks\nAnd what do you know\nIn 18 months she came home and I let her back in\nAnd now she's sniffing again...\nYou might also like[Chorus]\nSometimes I rhyme slow sometimes I rhyme quick\nSometimes I rhyme slow sometimes I rhyme quick\nSometimes I rhyme slow sometimes I rhyme quick5Embed"
+    }
+}

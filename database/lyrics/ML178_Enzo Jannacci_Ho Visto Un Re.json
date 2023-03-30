@@ -1,0 +1,57 @@
+{
+    "id": "ML178",
+    "mood": "happy",
+    "artist": "Enzo Jannacci",
+    "title": "Ho Visto Un Re",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/1446595",
+        "artist_names": "Enzo Jannacci",
+        "full_title": "Ho visto un re by\u00a0Enzo\u00a0Jannacci",
+        "header_image_thumbnail_url": "https://images.genius.com/cad35859391b725a406fed8b9190fbf8.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/cad35859391b725a406fed8b9190fbf8.1000x1000x1.jpg",
+        "id": 1446595,
+        "instrumental": false,
+        "language": "it",
+        "lyrics_owner_id": 5818919,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1658578290,
+        "path": "/Enzo-jannacci-ho-visto-un-re-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Enzo-jannacci-ho-visto-un-re-sample",
+        "release_date_components": {
+            "year": 1968,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1968",
+        "release_date_with_abbreviated_month_for_display": "1968",
+        "song_art_image_thumbnail_url": "https://images.genius.com/cad35859391b725a406fed8b9190fbf8.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/cad35859391b725a406fed8b9190fbf8.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false
+        },
+        "title": "Ho visto un re",
+        "title_with_featured": "Ho visto un re",
+        "updated_by_human_at": 1658578290,
+        "url": "https://genius.com/Enzo-jannacci-ho-visto-un-re-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/355052",
+            "header_image_url": "https://images.genius.com/e26044b779ac3d11bcdff93c612f5ac3.1000x500x1.jpg",
+            "id": 355052,
+            "image_url": "https://images.genius.com/ba210fafe5c61ed5178e76b41b9334d3.1000x1000x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Enzo Jannacci",
+            "slug": "Enzo-jannacci",
+            "url": "https://genius.com/artists/Enzo-jannacci"
+        },
+        "artist": "Enzo Jannacci",
+        "lyrics": "Ho visto un re Lyrics[Testo di \"Ho visto un re\"]\n\n(Dai dai, conta su... ah beh, s\u00ec beh...)\nHo visto un re\n(Sa l'ha vist cus'\u00e8?)\n(Ha visto un re!)\n(Ah, beh; s\u00ec, beh...)\nUn re che piangeva seduto sulla sella\nPiangeva tante lacrime\n(Ma tante che)\nBagnava anche il cavallo!\n(Povero re!)\nE povero anche il cavallo!\n(S\u00ec, beh; ah, beh...)\n\u00c8 l'imperatore che gli ha portato via un bel castello...\n(Ohi che baloss!)\n...di trentadue che lui ce n'ha\n(Povero re!)\nE povero anche il cavallo!\n(S\u00ec, beh; ah, beh...)\n\nHo visto un vesc\n(Sa l'ha vist cus'\u00e8?)\n(Ha visto un vescovo!)\n(Ah, beh; s\u00ec, beh...)\nAnche lui, lui, piangeva, faceva un gran baccano, mordeva anche una mano\n(La mano di chi?)\nLa mano del sacrestano!\n(Povero vescovo!)\nE povero anche il sacrista!\n(S\u00ec, beh; ah, beh...)\n\n\u00c8 il cardinale che gli ha portato via un'abbazia...\n(Oh poer crist!)\n...di trentadue che lui ce n'ha\n(Povero vescovo!)\nE povero anche il sacrista!\n(S\u00ec, beh; ah, beh...)\n\nHo visto un ric\n(Sa l'ha vist cus'\u00e8?)\n(Ha visto un ricco! Un sciur!)\n(Ah, beh; s\u00ec, beh...)\nIl tapino lacrimava su un calice di vino\nEd ogni go-, ed ogni goccia andava...\n(Deren't al vin?)\nS\u00ec, che tutto l'annacquava!\n(Pover tapin!)\nE povero anche il vin!\n(S\u00ec, beh; ah, beh...)\nYou might also likeIl vescovo, il re, l'imperatore l'han mezzo rovinato\nGli han portato via tre case e un caseggiato\n...di trentadue che lui ce n'ha\n(Pover tapin!)\nE povero anche il vin!\n(S\u00ec, beh; ah, beh...)\n\nHo vist un villan\n(Sa l'ha vist cus'\u00e8?)\n(Un contadino!)\n(Ah, beh; s\u00ec, beh...)\nIl vescovo, il re, il ricco, l'imperatore, persino il cardinale\nL'han mezzo rovinato, gli han portato via:\nLa casa\nIl cascinale\nLa mucca\nIl violino\nUna scatola di cachi\nLa radio a transistor\nI dischi di Little Tony\nLa moglie!\n(E po', cus'\u00e8?)\nUn figlio militare... gli hanno ammazzato anche il maiale...\n(Pover purscel!)\nNel senso del maiale...\n(S\u00ec, beh; ah, beh...)\nMa lui no, lui, non piangeva, anzi ridacchiava! Ah! Ah! Ah!\n(Sa l'\u00e8, matt?)\nNo! Il fatto \u00e8 che noi villan...\n(Noi villan...)\nE sempre allegri bisogna stare\nChe il nostro piangere fa male al re\nFa male al ricco e al cardinale\nDiventan tristi se noi piangiam\nE sempre allegri bisogna stare\nChe il nostro piangere fa male al re\nFa male al ricco e al cardinale\nDiventan tristi se noi piangiam!\nAh, beh!1Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML523",
+    "mood": "relaxed",
+    "artist": "Iron & Wine",
+    "title": "Peace Beneath the City",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/506791",
+        "artist_names": "Iron & Wine",
+        "full_title": "Peace Beneath the City by\u00a0Iron\u00a0& Wine",
+        "header_image_thumbnail_url": "https://images.genius.com/15085045f1f07e1f6f6464fceb14be55.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/15085045f1f07e1f6f6464fceb14be55.1000x1000x1.jpg",
+        "id": 506791,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1050636,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1464326443,
+        "path": "/Iron-and-wine-peace-beneath-the-city-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Iron-and-wine-peace-beneath-the-city-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 9,
+            "day": 25
+        },
+        "release_date_for_display": "September 25, 2007",
+        "release_date_with_abbreviated_month_for_display": "Sep. 25, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/15085045f1f07e1f6f6464fceb14be55.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/15085045f1f07e1f6f6464fceb14be55.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Peace Beneath the City",
+        "title_with_featured": "Peace Beneath the City",
+        "updated_by_human_at": 1499356235,
+        "url": "https://genius.com/Iron-and-wine-peace-beneath-the-city-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/32064",
+            "header_image_url": "https://images.genius.com/d482bb727f3feb2b4308c3b4853e3a9d.1000x562x1.jpg",
+            "id": 32064,
+            "image_url": "https://images.genius.com/8bc1db14a54b071420804ba54d87d681.1000x1000x1.jpg",
+            "index_character": "i",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Iron & Wine",
+            "slug": "Iron-and-wine",
+            "url": "https://genius.com/artists/Iron-and-wine"
+        },
+        "artist": "Iron & Wine",
+        "lyrics": "Peace Beneath the City LyricsHere's a prayer for the body buried by the interstate\nMother of a soldier\nA tree in a forest up in flames\nBlack valley, peace beneath the city\nWhere the women hear the washboard rhythm in their bosom when they say\n\"Give me good legs\nAnd a Japanese car\nAnd show me a road\"\n\nSing a song for the bodies buried by the riverbank\nA well-dressed boy\nAnd a pig with a bullet in the brain\nBlack valley, peace beneath the city\nWhere the white girls wander the strip mall, singing all day\n\"Give me a juggernaut heart\nAnd a Japanese car\nAnd someone to free\"\nSay something for the body buried like a keepsake\nMother of million mouths with the very same name\nBlack valley, peace beneath the city\nWhere the women tell the weather\nBut never ever tell you what they pray\nThey pray\n\"Give me a yellow brick road\nAnd a Japanese car\nAnd benevolent change\"You might also likeEmbed"
+    }
+}

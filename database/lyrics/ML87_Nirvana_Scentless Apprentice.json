@@ -1,0 +1,58 @@
+{
+    "id": "ML87",
+    "mood": "angry",
+    "artist": "Nirvana",
+    "title": "Scentless Apprentice",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/75232",
+        "artist_names": "Nirvana",
+        "full_title": "Scentless Apprentice by\u00a0Nirvana",
+        "header_image_thumbnail_url": "https://images.genius.com/d9ef02454ce461d44ab828cc8e9a6061.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/d9ef02454ce461d44ab828cc8e9a6061.1000x1000x1.jpg",
+        "id": 75232,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 48951,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1662574340,
+        "path": "/Nirvana-scentless-apprentice-lyrics",
+        "pyongs_count": 22,
+        "relationships_index_url": "https://genius.com/Nirvana-scentless-apprentice-sample",
+        "release_date_components": {
+            "year": 1993,
+            "month": 9,
+            "day": 21
+        },
+        "release_date_for_display": "September 21, 1993",
+        "release_date_with_abbreviated_month_for_display": "Sep. 21, 1993",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d9ef02454ce461d44ab828cc8e9a6061.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d9ef02454ce461d44ab828cc8e9a6061.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 143837
+        },
+        "title": "Scentless Apprentice",
+        "title_with_featured": "Scentless Apprentice",
+        "updated_by_human_at": 1662574340,
+        "url": "https://genius.com/Nirvana-scentless-apprentice-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/12712",
+            "header_image_url": "https://images.genius.com/21582890ee8ccaf088aeff7aeb1d9d78.728x455x1.jpg",
+            "id": 12712,
+            "image_url": "https://images.genius.com/19be845aaf0127cef4c745bb333b3516.600x600x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Nirvana",
+            "slug": "Nirvana",
+            "url": "https://genius.com/artists/Nirvana"
+        },
+        "artist": "Nirvana",
+        "lyrics": "Scentless Apprentice Lyrics[Verse 1]\nLike most babies smell like butter\nHis smell smelled like no other\nHe was born scentless and senseless\nHe was born a scentless apprentice\n\n[Chorus]\nHey, away\nGo away\nGo away\n[Verse 2]\nEvery wet nurse refused to feed him\nElectrolytes smell like semen\nI promise not to sell your perfumed secrets\nThere are countless formulas for pressing flowers\n\n[Chorus]\nHey, away\nGo away\nGo away\n\n[Guitar Solo]\n\n[Verse 3]\nI lie in the soil and fertilize mushrooms\nLeaking out gas fumes are made into perfume\nYou can't fire me 'cause I quit\nThrow me in the fire and I won't throw a fit\n\n[Chorus]\nHey, away\nGo away\nGo away\nGo away\nGo away\nGo awayYou might also like22Embed"
+    }
+}

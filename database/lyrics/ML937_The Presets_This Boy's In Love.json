@@ -1,0 +1,57 @@
+{
+    "id": "ML937",
+    "mood": "happy",
+    "artist": "The Presets",
+    "title": "This Boy's In Love",
+    "song": {
+        "_type": "song",
+        "annotation_count": 11,
+        "api_path": "/songs/522633",
+        "artist_names": "The Presets",
+        "full_title": "This Boy's In Love by\u00a0The\u00a0Presets",
+        "header_image_thumbnail_url": "https://images.genius.com/7859c09ed7f5ad6acc426a9bfb7dce5a.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/7859c09ed7f5ad6acc426a9bfb7dce5a.1000x1000x1.jpg",
+        "id": 522633,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 810662,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1554306218,
+        "path": "/The-presets-this-boys-in-love-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-presets-this-boys-in-love-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 3,
+            "day": 21
+        },
+        "release_date_for_display": "March 21, 2008",
+        "release_date_with_abbreviated_month_for_display": "Mar. 21, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/04a4a4dd5bcb00e146dc706c411acf74.300x259x1.jpg",
+        "song_art_image_url": "https://images.genius.com/04a4a4dd5bcb00e146dc706c411acf74.600x518x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 10,
+            "hot": false
+        },
+        "title": "This Boy\u2019s In Love",
+        "title_with_featured": "This Boy's In Love",
+        "updated_by_human_at": 1554306218,
+        "url": "https://genius.com/The-presets-this-boys-in-love-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/25681",
+            "header_image_url": "https://images.genius.com/2406e5da6b5be83604c14e7b4598353c.900x600x1.jpg",
+            "id": 25681,
+            "image_url": "https://images.genius.com/ef3d9a43c57252adba8871823121ef83.1000x1000x1.jpg",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Presets",
+            "slug": "The-presets",
+            "url": "https://genius.com/artists/The-presets"
+        },
+        "artist": "The Presets",
+        "lyrics": "This Boy\u2019s In Love Lyrics[Verse 1]\nI stole the keys to the skies\nAnd we'll leave this place for the final time\nNo crying words, no goodbyes\nYet tonight we're burning all the dark times\nDrown all the fears that we had\nThese are the things that we'll never understand\nThis time, fight fire with fire\n'Cause, baby, tonight the world belongs to you and I\n\n[Chorus]\nThis boy's in love, love\nThis boy's in love\nUnder the city\nUnder the city lights\n[Verse 2]\nDon't tell the world what we've known\nWe've come so far, but there's still a way to go\nIt's dark, there's no need for light\nWhen the fire in his eyes is so bright\n\n[Chorus]\nThis boy's in love, love\nThis boy's in love\nUnder the city\nUnder the city lights\n\n[Bridge]\nTonight, turn out the lights\nDon't wait, too late to die\nLook out, hold on, hold tight\nTonight, alright, I'm getting ready so\n\n[Chorus]\nLove, love, love, love\nThis boy's in love\n\n[Verse 3]\nThis town, these streets, your friends\nWe'll never see this place again\nThey'll think about you now and then\nThey'll never see our faces again\nGoodbye this town, these streets, your friends\nWe'll never see this place again\nThey'll think about you now and then\nThey'll never see our faces againYou might also likeEmbed"
+    }
+}

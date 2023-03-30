@@ -1,0 +1,57 @@
+{
+    "id": "ML1187",
+    "mood": "angry",
+    "artist": "Yardbirds",
+    "title": "I'm a Man",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/692957",
+        "artist_names": "The Yardbirds",
+        "full_title": "I\u2019m a Man by\u00a0The\u00a0Yardbirds",
+        "header_image_thumbnail_url": "https://images.genius.com/39eb1aa3be34d87653abe864008e6d67.300x300x1.png",
+        "header_image_url": "https://images.genius.com/39eb1aa3be34d87653abe864008e6d67.1000x1000x1.png",
+        "id": 692957,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6967786,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1663106508,
+        "path": "/The-yardbirds-im-a-man-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-yardbirds-im-a-man-sample",
+        "release_date_components": {
+            "year": 1965,
+            "month": 10,
+            "day": 6
+        },
+        "release_date_for_display": "October 6, 1965",
+        "release_date_with_abbreviated_month_for_display": "Oct. 6, 1965",
+        "song_art_image_thumbnail_url": "https://images.genius.com/39eb1aa3be34d87653abe864008e6d67.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/39eb1aa3be34d87653abe864008e6d67.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "I\u2019m a Man",
+        "title_with_featured": "I\u2019m a Man",
+        "updated_by_human_at": 1668507495,
+        "url": "https://genius.com/The-yardbirds-im-a-man-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/134224",
+            "header_image_url": "https://images.genius.com/95e9b8a146141a644ba330e567ebce66.800x310x1.png",
+            "id": 134224,
+            "image_url": "https://images.genius.com/8764129f0ba116f55c8060a7d31d8d29.600x600x1.png",
+            "index_character": "y",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Yardbirds",
+            "slug": "The-yardbirds",
+            "url": "https://genius.com/artists/The-yardbirds"
+        },
+        "artist": "The Yardbirds",
+        "lyrics": "I\u2019m a Man Lyrics[Verse 1]\nWill you pretty women\nStand in line?\nMake love to you, baby\nIn an hour's time\n\n[Chorus]\nNow I'm a man\nI spell M-A-N\n\n[Verse 2]\nOh, line I shoot\nWill never miss\nMake love to you, baby\nYou can't resist\n[Chorus]\nNow I'm a man\nI spell M-A-N\nMan\n\n[Verse 3]\nGoing back down\nTo Kansas to\nBring back a little girl\nJust like you\n\n[Chorus]\nNow I'm a man\nI spell M-A-N\nManYou might also likeEmbed"
+    }
+}

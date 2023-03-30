@@ -1,0 +1,57 @@
+{
+    "id": "ML691",
+    "mood": "happy",
+    "artist": "Deep Dish",
+    "title": "Flashdance",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1348271",
+        "artist_names": "Deep Dish",
+        "full_title": "Flashdance by\u00a0Deep\u00a0Dish",
+        "header_image_thumbnail_url": "https://images.genius.com/ceec19303475622139f8c1f979228742.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/ceec19303475622139f8c1f979228742.1000x1000x1.jpg",
+        "id": 1348271,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429775590,
+        "path": "/Deep-dish-flashdance-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Deep-dish-flashdance-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 11,
+            "day": 8
+        },
+        "release_date_for_display": "November 8, 2004",
+        "release_date_with_abbreviated_month_for_display": "Nov. 8, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ceec19303475622139f8c1f979228742.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ceec19303475622139f8c1f979228742.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Flashdance",
+        "title_with_featured": "Flashdance",
+        "updated_by_human_at": 1582753098,
+        "url": "https://genius.com/Deep-dish-flashdance-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/348275",
+            "header_image_url": "https://images.genius.com/7a5c7739e784617adeca54de3edabb28.560x315x1.jpg",
+            "id": 348275,
+            "image_url": "https://images.genius.com/d7d9d2f32f281f78733b08e9b2628d4c.400x400x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Deep Dish",
+            "slug": "Deep-dish",
+            "url": "https://genius.com/artists/Deep-dish"
+        },
+        "artist": "Deep Dish",
+        "lyrics": "Flashdance LyricsHe doesn't mean a thing to me\nJust another pretty face to see\n'Cos all of the time, not that I doubt ya honey\nAnd I'd never let him next to me\n\nHe's the kind of guy who thinks he's smart\nHe's the type that always looks the part\nHe's on the make, he's on the take\nAnd I'd never let him touch my heart\n\nHe didn't mean to catch my eye\nWell, he's lucky he just walked on by\nIf he ever met, a girl like me, are you kidding?\nWell, I'd tell him that I'd rather die\nHe doesn't mean a thing to me\nJust another pretty face to see\n'Cos all of the time, not that I doubt ya honey\nAnd I'd never let him next to me\n\nWell, he's the kind of guy who thinks he's smart\nHe's the type that always looks the part\nHe's on the make, he's on the take\nAnd I'd never let him touch my heart\n\nHe didn't mean to catch my eye\nWell, he's lucky he just walked on by\nIf he ever met, a girl like me, are you kidding?\nWell, I'd tell him that I'd rather dieYou might also likeEmbed"
+    }
+}

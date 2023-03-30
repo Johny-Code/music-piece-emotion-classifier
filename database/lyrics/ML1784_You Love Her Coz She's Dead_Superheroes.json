@@ -1,0 +1,57 @@
+{
+    "id": "ML1784",
+    "mood": "angry",
+    "artist": "You Love Her Coz She's Dead",
+    "title": "Superheroes",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/342994",
+        "artist_names": "You Love Her Coz She's Dead",
+        "full_title": "Superheroes by\u00a0You\u00a0Love Her Coz She's Dead",
+        "header_image_thumbnail_url": "https://images.genius.com/b4ee8bbd8838470ee93ff72ee1e21036.300x300x1.png",
+        "header_image_url": "https://images.genius.com/b4ee8bbd8838470ee93ff72ee1e21036.700x700x1.png",
+        "id": 342994,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 4079752,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1637623912,
+        "path": "/You-love-her-coz-shes-dead-superheroes-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/You-love-her-coz-shes-dead-superheroes-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 11,
+            "day": 17
+        },
+        "release_date_for_display": "November 17, 2008",
+        "release_date_with_abbreviated_month_for_display": "Nov. 17, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b4ee8bbd8838470ee93ff72ee1e21036.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/b4ee8bbd8838470ee93ff72ee1e21036.700x700x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Superheroes",
+        "title_with_featured": "Superheroes",
+        "updated_by_human_at": 1637623912,
+        "url": "https://genius.com/You-love-her-coz-shes-dead-superheroes-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/162698",
+            "header_image_url": "https://images.genius.com/e7d82ca0c0a0e969fcde3aeee7967d4f.513x513x1.jpg",
+            "id": 162698,
+            "image_url": "https://images.genius.com/e7d82ca0c0a0e969fcde3aeee7967d4f.513x513x1.jpg",
+            "index_character": "y",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "You Love Her Coz She\u2019s Dead",
+            "slug": "You-love-her-coz-shes-dead",
+            "url": "https://genius.com/artists/You-love-her-coz-shes-dead"
+        },
+        "artist": "You Love Her Coz She\u2019s Dead",
+        "lyrics": "Superheroes Lyrics[Intro]\nWhen dawn breaks see it in your eyes\nThis seems fake, superheroes disguise\nWhen dawn breaks see it in your eyes\nThis seems fake, superheroes disguise\nWhen dawn breaks see it in your eyes\nThis seems fake, superheroes disguise\nWhen dawn breaks see it in your eyes\nThis seems fake, superheroes disguise\n\n[Chorus]\nYou can go to sleep now, baby\nI've got the world outside\nYou can go to sleep now, girl\nI've got the world outside\nYou can go to sleep now, baby\nI've got the world outside\nYou can go to sleep now, girl\nI've got the world outside\n[Break]\nI'm sleeping, sleeping, don't know, don't like, don't like\nSleeping, sleeping, don't know, don't like, don't like\nWait, sleeping, sleeping, don't know, don't like, don't like\nWait, sleeping, sleeping, don't know, don't like like like, don't like like like\n\n[Chorus]\nYou can go to sleep now, baby\nI've got the world outside\nYou can go to sleep now, girl\nI've got the world outside\n\n[Outro]\n'Cause I'm sleeping, but you're still awake\n'Cause I'm sleeping, but you're still awake\n'Cause I'm sleeping, but you're still awake\n'Cause I'm sleeping, but you're still awake\nI'm sleeping but you're still awake\nI'm sleeping but you're still awake\nI'm sleeping but you're still awake\nI'm sleeping but you're still awake\nI'm sleeping but you're still awake\nI'm sleeping but you're still awakeYou might also likeEmbed"
+    }
+}

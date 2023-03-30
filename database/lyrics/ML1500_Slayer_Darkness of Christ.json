@@ -1,0 +1,57 @@
+{
+    "id": "ML1500",
+    "mood": "angry",
+    "artist": "Slayer",
+    "title": "Darkness of Christ",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/702892",
+        "artist_names": "Slayer",
+        "full_title": "Darkness of Christ by\u00a0Slayer",
+        "header_image_thumbnail_url": "https://images.genius.com/1731153ee5e175130e4f3204905605b6.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1731153ee5e175130e4f3204905605b6.1000x1000x1.jpg",
+        "id": 702892,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1425851,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1665318402,
+        "path": "/Slayer-darkness-of-christ-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Slayer-darkness-of-christ-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 9,
+            "day": 11
+        },
+        "release_date_for_display": "September 11, 2001",
+        "release_date_with_abbreviated_month_for_display": "Sep. 11, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1731153ee5e175130e4f3204905605b6.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/1731153ee5e175130e4f3204905605b6.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Darkness of Christ",
+        "title_with_featured": "Darkness of Christ",
+        "updated_by_human_at": 1665318402,
+        "url": "https://genius.com/Slayer-darkness-of-christ-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/6596",
+            "header_image_url": "https://images.genius.com/bc11ff5236798b16df8d0ed38ad6386d.1000x341x1.png",
+            "id": 6596,
+            "image_url": "https://images.genius.com/861966ebfefbd4e0adc83bec199c30be.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Slayer",
+            "slug": "Slayer",
+            "url": "https://genius.com/artists/Slayer"
+        },
+        "artist": "Slayer",
+        "lyrics": "Darkness of Christ Lyrics[Intro]\nMankind, in his insatiable search for divine knowledge\nHas discarded all Biblical teachings\nRealizing that the strength of religion\nIs the repression of knowledge\nAll structures of religion have collapsed\nLife prays for death\nIn the wake of the horror of these revelations\nIt was never imagined how graphic the reality\nThat would be known as the end of creation\nWould manifest itself\nWe believe all this chaos and atrocity can be traced\nBack to one single event\n[Outro]\nWe hold these truths to be painfully self-evident\nAll men are not created equal\nOnly the strong will prosper\nOnly the strong will conquer\nOnly in the darkness of Christ have I realized\nGod hates us all\nGod hates us allYou might also likeEmbed"
+    }
+}

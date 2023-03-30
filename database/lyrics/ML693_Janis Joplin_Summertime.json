@@ -1,0 +1,58 @@
+{
+    "id": "ML693",
+    "mood": "sad",
+    "artist": "Janis Joplin",
+    "title": "Summertime",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1954189",
+        "artist_names": "Janis Joplin",
+        "full_title": "Summertime by\u00a0Janis\u00a0Joplin",
+        "header_image_thumbnail_url": "https://images.genius.com/2023d27fe644faeff5592d620f73f36f.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2023d27fe644faeff5592d620f73f36f.600x600x1.jpg",
+        "id": 1954189,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5187614,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1505530841,
+        "path": "/Janis-joplin-summertime-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Janis-joplin-summertime-sample",
+        "release_date_components": {
+            "year": 1968,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1968",
+        "release_date_with_abbreviated_month_for_display": "1968",
+        "song_art_image_thumbnail_url": "https://images.genius.com/2023d27fe644faeff5592d620f73f36f.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2023d27fe644faeff5592d620f73f36f.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 6546
+        },
+        "title": "Summertime",
+        "title_with_featured": "Summertime",
+        "updated_by_human_at": 1654167940,
+        "url": "https://genius.com/Janis-joplin-summertime-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/24360",
+            "header_image_url": "https://images.genius.com/ae853e0f601fe67de9f086843a36dc6e.500x333x1.jpg",
+            "id": 24360,
+            "image_url": "https://images.genius.com/28ce4a2c316ee99e1afecd1bc3243a7a.655x655x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Janis Joplin",
+            "slug": "Janis-joplin",
+            "url": "https://genius.com/artists/Janis-joplin"
+        },
+        "artist": "Janis Joplin",
+        "lyrics": "Summertime LyricsSummertime, time, time\nChild, the living's easy\nFish are jumping out\nAnd the cotton, Lord\nCotton's high, Lord, so high\n\nYour daddy's rich\nAnd your ma is so good-looking, baby\nShe's looking good now\nHush, baby, baby, baby, baby, baby\nNo, no, no, no, don't you cry\nDon't you cry!\nOne of these mornings\nYou're gonna rise, rise up singing\nYou're gonna spread your wings\nAnd take, take to the sky\nLord, the sky\n\nBut until that morning\nHoney, n-n-nothing's going to harm ya\nNo, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no\nNo, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no\nNo, no, no, no, no, no, no, no, no\nDon't you cry\nCryYou might also likeEmbed"
+    }
+}

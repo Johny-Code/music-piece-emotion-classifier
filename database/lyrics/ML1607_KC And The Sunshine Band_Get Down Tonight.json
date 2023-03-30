@@ -1,0 +1,58 @@
+{
+    "id": "ML1607",
+    "mood": "happy",
+    "artist": "KC And The Sunshine Band",
+    "title": "Get Down Tonight",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/638014",
+        "artist_names": "KC and the Sunshine Band",
+        "full_title": "Get Down Tonight by\u00a0KC\u00a0and the Sunshine Band",
+        "header_image_thumbnail_url": "https://images.rapgenius.com/1c6d701c88db4d84e949d28aad4ca0b0.280x280x1.jpg",
+        "header_image_url": "https://images.rapgenius.com/1c6d701c88db4d84e949d28aad4ca0b0.280x280x1.jpg",
+        "id": 638014,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1106295,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1633724545,
+        "path": "/Kc-and-the-sunshine-band-get-down-tonight-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Kc-and-the-sunshine-band-get-down-tonight-sample",
+        "release_date_components": {
+            "year": 1975,
+            "month": 2,
+            "day": 11
+        },
+        "release_date_for_display": "February 11, 1975",
+        "release_date_with_abbreviated_month_for_display": "Feb. 11, 1975",
+        "song_art_image_thumbnail_url": "https://images.genius.com/fbbe3a4b673267ddec6ee45741afb899.300x299x1.jpg",
+        "song_art_image_url": "https://images.genius.com/fbbe3a4b673267ddec6ee45741afb899.640x637x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 42468
+        },
+        "title": "Get Down Tonight",
+        "title_with_featured": "Get Down Tonight",
+        "updated_by_human_at": 1633724545,
+        "url": "https://genius.com/Kc-and-the-sunshine-band-get-down-tonight-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/69362",
+            "header_image_url": "https://images.genius.com/e9712eceb90946ad24c8272bad87e225.450x391x1.jpg",
+            "id": 69362,
+            "image_url": "https://images.genius.com/e9712eceb90946ad24c8272bad87e225.450x391x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "KC and the Sunshine Band",
+            "slug": "Kc-and-the-sunshine-band",
+            "url": "https://genius.com/artists/Kc-and-the-sunshine-band"
+        },
+        "artist": "KC and the Sunshine Band",
+        "lyrics": "Get Down Tonight Lyrics[Verse 1]\nBaby, baby\nLet's get together\nHoney, honey, me and you\nAnd do the things\nAh, do the things\nThat we like to do\n\n[Chorus]\nOh, do a little dance\nMake a little love\nGet down tonight, get down tonight\nDo a little dance\nMake a little love\nGet down tonight, get down tonight\n[Verse 2]\nBaby, baby\nI'll meet you\nSame place, same time\nWhere we can all get together\nAnd ease up our mind\n\n[Chorus]\nOh, do a little dance\nMake a little love\nGet down tonight, (Whoo) get down tonight (Hey)\nDo a little dance\nMake a little love\nGet down tonight, get down tonight (Baby)\n\n[Instrumental Interlude]\n\n[Chorus]\nOh, do a little dance\nMake a little love\nGet down tonight, (Whoo) get down tonight (Hey)\nDo a little dance\nMake a little love\nGet down tonight (Whoo), get down tonight (Baby)\n\n[Instrumental Bridge]\nYou might also like[Interlude]\n(Get down, get down)\n\n[Outrp]\nGet down, get down, get down\nGet down, get down tonight, baby (Oh-oh-oh-oh-oh-oh)\nGet down, get down, get down\nGet down, get down tonight, baby (Oh no-no-no-no-no)\nGet down, get down, get down\nGet down, get down tonight, baby (Oh-oh-oh-oh-oh-oh)\nGet down, get down, get down\nGet down, get down tonight, baby [?]\nGet down, get down, get down\nGet down, get down tonight, baby (Oh-oh-oh-oh-oh-oh)\nGet down, get down, get down\nGet down, get down tonight, baby (Come on, come on, come on child)\nGet down, get down..1Embed"
+    }
+}

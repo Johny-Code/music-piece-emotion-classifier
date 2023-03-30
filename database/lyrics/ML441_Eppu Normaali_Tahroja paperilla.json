@@ -1,0 +1,58 @@
+{
+    "id": "ML441",
+    "mood": "sad",
+    "artist": "Eppu Normaali",
+    "title": "Tahroja paperilla",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1494742",
+        "artist_names": "Eppu Normaali",
+        "full_title": "Tahroja paperilla by\u00a0Eppu\u00a0Normaali",
+        "header_image_thumbnail_url": "https://images.genius.com/b7c18b27b32312f514ffb1693c12939e.300x297x1.jpg",
+        "header_image_url": "https://images.genius.com/b7c18b27b32312f514ffb1693c12939e.640x633x1.jpg",
+        "id": 1494742,
+        "instrumental": false,
+        "language": "fi",
+        "lyrics_owner_id": 4334743,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1622019608,
+        "path": "/Eppu-normaali-tahroja-paperilla-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Eppu-normaali-tahroja-paperilla-sample",
+        "release_date_components": {
+            "year": 1990,
+            "month": 6,
+            "day": 14
+        },
+        "release_date_for_display": "June 14, 1990",
+        "release_date_with_abbreviated_month_for_display": "Jun. 14, 1990",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b7c18b27b32312f514ffb1693c12939e.300x297x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b7c18b27b32312f514ffb1693c12939e.640x633x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 25068
+        },
+        "title": "Tahroja paperilla",
+        "title_with_featured": "Tahroja paperilla",
+        "updated_by_human_at": 1662304768,
+        "url": "https://genius.com/Eppu-normaali-tahroja-paperilla-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/353357",
+            "header_image_url": "https://images.genius.com/7f543d0add1fc7ab478eec3ed8bff8ef.400x400x1.jpg",
+            "id": 353357,
+            "image_url": "https://images.genius.com/7f543d0add1fc7ab478eec3ed8bff8ef.400x400x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Eppu Normaali",
+            "slug": "Eppu-normaali",
+            "url": "https://genius.com/artists/Eppu-normaali"
+        },
+        "artist": "Eppu Normaali",
+        "lyrics": "Tahroja paperilla Lyrics[Verse 1]\nTied\u00e4n ett\u00e4 on y\u00f6, kun saavut kotiisi pime\u00e4\u00e4n\nYksin\u00e4isyys ly\u00f6, sanomatta nime\u00e4\u00e4n\nKun luet kirjeeni kaiun kuulet\nTahrat n\u00e4et joita sateeksi luulet\n\n[Verse 2]\nKuljen ulkona valossa, kasvoillani voin tuntea tuulen\nEi sit\u00e4 tuntunut talossa, johon palaa en koskaan, luulen\nEn ole menossa minnekk\u00e4\u00e4n\nEi miss\u00e4\u00e4n tule minun luokseni, minun vuokseni\n[Chorus]\nVain tahroja paperilla, \u00e4l\u00e4 siis suutu\nEi niist\u00e4 asiat miksik\u00e4\u00e4n muutu\nEi se ett\u00e4 meill\u00e4 oli retkemme\nEik\u00e4 se ett\u00e4 meill\u00e4 oli hetkemme\nVoi tuuli kylm\u00e4sti kutittaa selk\u00e4\u00e4\nSe eteenp\u00e4in ty\u00f6nt\u00e4\u00e4, \u00e4l\u00e4 siis pelk\u00e4\u00e4\n\u00c4l\u00e4 huoli siit\u00e4, sill\u00e4 meill\u00e4 oli retkemme, aa aa\nMuista, ett\u00e4 meill\u00e4 oli hetkemme\n\n[Verse 3]\nKutsun saaneena tulin, l\u00e4hdin kuin varas, s\u00e4ik\u00e4hdin viimein\nKun itseeni tarttuneen, tajusin varttuneen\nImin sut kuiviin, tarttui mun huiviin tuoksusi\nTeit saman minulle, juoksusi annan anteeksi sinulle\n\n[Chorus]\nVain tahroja paperilla, \u00e4l\u00e4 siis suutu\nEi niist\u00e4 asiat miksik\u00e4\u00e4n muutu\nEi se ett\u00e4 meill\u00e4 oli retkemme\nEik\u00e4 se ett\u00e4 meill\u00e4 oli hetkemme\nVoi tuuli kylm\u00e4sti kutittaa selk\u00e4\u00e4\nSe eteenp\u00e4in ty\u00f6nt\u00e4\u00e4, \u00e4l\u00e4 siis pelk\u00e4\u00e4\n\u00c4l\u00e4 huoli siit\u00e4, sill\u00e4 meill\u00e4 oli hetkemme, aa aa\n\nVain tahroja paperilla, \u00e4l\u00e4 siis suutu\nEi niist\u00e4 asiat miksik\u00e4\u00e4n muutu\nEi se ett\u00e4 meill\u00e4 oli retkemme\nEik\u00e4 se ett\u00e4 meill\u00e4 oli hetkemme\nVoi tuuli kylm\u00e4sti kutittaa selk\u00e4\u00e4\nSe eteenp\u00e4in ty\u00f6nt\u00e4\u00e4, \u00e4l\u00e4 siis pelk\u00e4\u00e4\n\u00c4l\u00e4 huoli siit\u00e4, sill\u00e4 meill\u00e4 oli hetkemme, aa aa\nYou might also like[Chorus]\nVain tahroja paperilla, \u00e4l\u00e4 siis suutu\nEi niist\u00e4 asiat miksik\u00e4\u00e4n muutu\nEi se ett\u00e4 meill\u00e4 oli retkemme\nEik\u00e4 se ett\u00e4 meill\u00e4 oli hetkemme\nVoi tuuli kylm\u00e4sti kutittaa selk\u00e4\u00e4\nSe eteenp\u00e4in ty\u00f6nt\u00e4\u00e4, \u00e4l\u00e4 siis pelk\u00e4\u00e4\n\u00c4l\u00e4 huoli siit\u00e4, sill\u00e4 meill\u00e4 oli hetkemme, aa aa\n\nVain tahroja paperilla, \u00e4l\u00e4 siis suutu\nEi niist\u00e4 asiat miksik\u00e4\u00e4n muutu...1Embed"
+    }
+}

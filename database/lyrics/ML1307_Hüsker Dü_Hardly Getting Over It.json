@@ -1,0 +1,57 @@
+{
+    "id": "ML1307",
+    "mood": "sad",
+    "artist": "H\u00fcsker D\u00fc",
+    "title": "Hardly Getting Over It",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1707871",
+        "artist_names": "H\u00fcsker D\u00fc",
+        "full_title": "Hardly Getting Over It by\u00a0H\u00fcsker\u00a0D\u00fc",
+        "header_image_thumbnail_url": "https://images.genius.com/7c820b98390af170d491a6fdf6f23977.300x299x1.jpg",
+        "header_image_url": "https://images.genius.com/7c820b98390af170d491a6fdf6f23977.1000x998x1.jpg",
+        "id": 1707871,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1495512300,
+        "path": "/Husker-du-hardly-getting-over-it-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Husker-du-hardly-getting-over-it-sample",
+        "release_date_components": {
+            "year": 1986,
+            "month": 3,
+            "day": null
+        },
+        "release_date_for_display": "March 1986",
+        "release_date_with_abbreviated_month_for_display": "Mar. 1986",
+        "song_art_image_thumbnail_url": "https://images.genius.com/7c820b98390af170d491a6fdf6f23977.300x299x1.jpg",
+        "song_art_image_url": "https://images.genius.com/7c820b98390af170d491a6fdf6f23977.1000x998x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Hardly Getting Over It",
+        "title_with_featured": "Hardly Getting Over It",
+        "updated_by_human_at": 1625427498,
+        "url": "https://genius.com/Husker-du-hardly-getting-over-it-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/354055",
+            "header_image_url": "https://images.genius.com/fe28978c6b66a6cec8f682841ee98217.590x290x1.jpg",
+            "id": 354055,
+            "image_url": "https://images.genius.com/3809bd4c909bc7c3af9abff75af49f07.397x397x1.jpg",
+            "index_character": "h",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "H\u00fcsker D\u00fc",
+            "slug": "Husker-du",
+            "url": "https://genius.com/artists/Husker-du"
+        },
+        "artist": "H\u00fcsker D\u00fc",
+        "lyrics": "Hardly Getting Over It LyricsTwenty years ago, saw a friend was walking by\nAnd I stopped him on the street to ask him how it went, and all he did was cry\nI looked him in the face, but I couldn't see past his eyes\nAsked him what the problem was, he says \"Here is your disguise\"\n\nNow he's hardly getting over it\nHe's hardly getting used to getting by\nNow he's hardly getting over it\nHe's hardly getting used to getting by\n\nOld man lays down by the railroad tracks\nGot no paper in his pocket, got no paper on his back\nI asked him what the time was, he says \"To hit the road now, Jack\"\nWent back to see him next week, he died of a heart attack and died away\nNow he's hardly getting over it\nHe's hardly getting used to getting by\nNow he's hardly getting over it\nHe's hardly getting used to getting by\n\nGrandma, she got sick, she is going to die\nAnd Grandpa had a seizure, moved into a hotel cell and died away\nMy parents, they just wonder when they both are going to die\nAnd what do I do when they die?\n\nNow I'm hardly getting over it\nHardly getting used to getting by\nHardly getting over it\nHardly getting used to getting by\n\nNow I'm hardly getting over it\nHardly getting by\nHardly getting over it\nHardly getting by\nHardly getting over it\nHardly getting by\nHardly getting over it, ha\nCan't hardly get by, by, goodbyeYou might also likeEmbed"
+    }
+}

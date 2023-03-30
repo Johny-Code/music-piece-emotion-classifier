@@ -1,0 +1,59 @@
+{
+    "id": "ML605",
+    "mood": "happy",
+    "artist": "Gwen Stefani",
+    "title": "Wind It Up",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/423090",
+        "artist_names": "Gwen Stefani",
+        "full_title": "Wind it Up by\u00a0Gwen\u00a0Stefani",
+        "header_image_thumbnail_url": "https://images.genius.com/fa155796b8c00e5ab96957b4886d9a1f.300x300x1.webp",
+        "header_image_url": "https://images.genius.com/fa155796b8c00e5ab96957b4886d9a1f.300x300x1.webp",
+        "id": 423090,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 848925,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1653867993,
+        "path": "/Gwen-stefani-wind-it-up-lyrics",
+        "pyongs_count": 9,
+        "relationships_index_url": "https://genius.com/Gwen-stefani-wind-it-up-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 10,
+            "day": 31
+        },
+        "release_date_for_display": "October 31, 2006",
+        "release_date_with_abbreviated_month_for_display": "Oct. 31, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/24c27db33c837380419138a4e3e5db5c.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/24c27db33c837380419138a4e3e5db5c.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 27976
+        },
+        "title": "Wind it Up",
+        "title_with_featured": "Wind it Up",
+        "updated_by_human_at": 1660369401,
+        "url": "https://genius.com/Gwen-stefani-wind-it-up-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1893",
+            "header_image_url": "https://images.genius.com/3e60b120afdaf32da8b3e0716b779554.1000x333x1.jpg",
+            "id": 1893,
+            "image_url": "https://images.genius.com/a922b5f056c67f38128424bc8c308a87.661x661x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Gwen Stefani",
+            "slug": "Gwen-stefani",
+            "url": "https://genius.com/artists/Gwen-stefani",
+            "iq": 262
+        },
+        "artist": "Gwen Stefani",
+        "lyrics": "Wind it Up Lyrics[Intro: Gwen Stefani]\nHigh on the hill with the lonely goatherd\nLay-od-lay-od-lay-he-hoo\nHe yodelled back with the girl and goatherd\nLay-od-lay-od-low\n\n[Chorus: Gwen Stefani, (Pharrell Williams)]\nWind it up (Uh)\nWind it up (Uh, uh, uh)\nWind it up (Uh, uh, uh, uh-uh, uh)\nYodellay, yodallay, yodel-low (Yeah)\n[Verse 1: Gwen Stefani, (Pharrell Williams)]\nThis is the key that makes us wind up\nWhen the beat comes on, the girls all line up\nAnd the boys all look, but no, they can't touch\nBut the girls want to know why boys like us so much\nThey like way we dance, they like the way we work\nThey like the way that L.A.M.B. is going 'cross my shirt\nThey like the way my pants, it compliments my shape (She's crazy, right?)\nThey like the way we react every time we hear the...\n\n[Pre-Chorus: Gwen Stefani]\nEvery time the bass bang, realize it calls your name\nLet the beat wind you up, and don't stop 'til your time is up\n(Get in line now)\n\n[Chorus: Gwen Stefani, (Pharrell Williams)]\n(Uh, uh, uh) Wind it up (Uh, uh, uh, uh-uh, uh)\nWind it up  (Uh, uh, uh, uh-uh) (C'mon) (Uh-uh)\nWind it up (Uh, uh, uh, uh-uh, uh)\nYodelay, yodelay, yodal-low\n\n[Verse 2: Gwen Stefani]\nYou've got to let the beat get under your skin\nYou've got to open up and let it all in\nBut see, once it gets in, the popping begins\nThen you find out why all the boys stare\nSee, they're trying to bite our style\nTrying to study our approach\nThey like the way we do it, so original\nI guess that they are slow, so they should leave the room\nThis beat is for the clubs and cars that go\nYou might also like[Pre-Chorus: Gwen Stefani]\nEvery time the bass bangs, realize it calls your name\nLet the beat wind you up, and don't stop 'til your time is up\n(Get in line now)\n\n[Chorus: Gwen Stefani, (Pharrell Williams)]\n(Uh, uh, uh) Wind it up (Uh, uh, uh, uh)\n(Whenever you're ready) (Uh, uh)\nWind it up (Uh, uh, uh, uh, uh)\nWind it up (Uh, uh, uh, uh-uh, uh)\nWind it up (Uh, uh, uh)\nYodelay, yodelay, yodal-low\n\n[Bridge: Gwen Stefani, (Pharrell Williams)]\n(Uh-huh) This is your moment\n(Uh-huh) Come on girl, you know you own it\n(Uh-huh) you know your key is still tick-tocking\n(Hell yeah) But you know they're watching\nGet it, girl, get it, get it, girl\nGet it, girl, get it, get it, girl\nTo the front, to the side, to the back, but don't let him ride\nKeep going, girl, it's your night\nDon't let him steal your light\nI know he thinks you're fine and stuff\nBut does he know how to wind you up? (C'mon)\n[Chorus: Gwen Stefani]\n(Uh, uh, uh) Wind it up (Uh, uh, uh, uh-uh, uh)\nWind it up (Uh, uh, uh, uh-uh, uh)\nWind it up (Uh, uh, uh, uh-uh, uh)\nWind it up\nYodelay, yodelay, yodelay, hey!9Embed"
+    }
+}

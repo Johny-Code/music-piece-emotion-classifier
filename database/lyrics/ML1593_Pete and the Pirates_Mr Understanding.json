@@ -1,0 +1,57 @@
+{
+    "id": "ML1593",
+    "mood": "happy",
+    "artist": "Pete and the Pirates",
+    "title": "Mr Understanding",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/847363",
+        "artist_names": "Pete & The Pirates",
+        "full_title": "Mr. Understanding by\u00a0Pete\u00a0& The Pirates",
+        "header_image_thumbnail_url": "https://images.genius.com/68195fac580d02c5a5f2b02db9106e1f.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/68195fac580d02c5a5f2b02db9106e1f.500x500x1.jpg",
+        "id": 847363,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1293157,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1605993475,
+        "path": "/Pete-and-the-pirates-mr-understanding-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/Pete-and-the-pirates-mr-understanding-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 1,
+            "day": null
+        },
+        "release_date_for_display": "January 2008",
+        "release_date_with_abbreviated_month_for_display": "Jan. 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/68195fac580d02c5a5f2b02db9106e1f.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/68195fac580d02c5a5f2b02db9106e1f.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Mr. Understanding",
+        "title_with_featured": "Mr. Understanding",
+        "updated_by_human_at": 1605993475,
+        "url": "https://genius.com/Pete-and-the-pirates-mr-understanding-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/349472",
+            "header_image_url": "https://images.genius.com/c995e751c42adc93026f4364d08f9d45.618x265x1.jpg",
+            "id": 349472,
+            "image_url": "https://images.genius.com/19f7557c5618d2dedc62fc47c0657936.299x299x1.jpg",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Pete & The Pirates",
+            "slug": "Pete-and-the-pirates",
+            "url": "https://genius.com/artists/Pete-and-the-pirates"
+        },
+        "artist": "Pete & The Pirates",
+        "lyrics": "Mr. Understanding Lyrics[Verse 1]\nCould it be I'm alive after all that?\nPicking pennies off the floor with my cold, cold hands\n\nLook at me, no hands, ain't it cool yeah?\nLook at her falling out of a taxi cab\n\n[Chorus]\nIf you really want some understanding\nYou will learn it can be quite frustrating\nIf you really want to understand it\nYou will learn it can be quite demanding\n[Verse 2]\nYou and me trying hard to remember\nHow we ever started out with our sights so high\n\nLooking down, seeing your yellow fingers\nAnd if you don't understand then at least that's why\n\n[Chorus]\nIf you really want some understanding\nYou will learn it can be quite frustrating\nIf you really want to understand it\nYou will learn it can be quite demanding\n\n[Verse 1]\nCould it be I'm alive after all that?\nPicking pennies off the floor with my cold hands\n\nLook at me, no hands, ain't it cool yeah?\nLook at her falling out of a taxi cab\n\n[Chorus]\nIf you really want some understanding\nYou will learn it can be quite frustrating\nIf you really want to understand it\nYou should talk to Mr UnderstandingYou might also like3Embed"
+    }
+}

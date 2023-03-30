@@ -1,0 +1,59 @@
+{
+    "id": "ML1820",
+    "mood": "sad",
+    "artist": "Interpol",
+    "title": "Rest My Chemistry",
+    "song": {
+        "_type": "song",
+        "annotation_count": 11,
+        "api_path": "/songs/371234",
+        "artist_names": "Interpol",
+        "full_title": "Rest My Chemistry by\u00a0Interpol",
+        "header_image_thumbnail_url": "https://images.genius.com/a1a8d32abf57cb1affd6d4b620cb8a39.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/a1a8d32abf57cb1affd6d4b620cb8a39.1000x1000x1.jpg",
+        "id": 371234,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 12093,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1609380248,
+        "path": "/Interpol-rest-my-chemistry-lyrics",
+        "pyongs_count": 19,
+        "relationships_index_url": "https://genius.com/Interpol-rest-my-chemistry-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 4,
+            "day": 25
+        },
+        "release_date_for_display": "April 25, 2007",
+        "release_date_with_abbreviated_month_for_display": "Apr. 25, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a1a8d32abf57cb1affd6d4b620cb8a39.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a1a8d32abf57cb1affd6d4b620cb8a39.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 95887
+        },
+        "title": "Rest My Chemistry",
+        "title_with_featured": "Rest My Chemistry",
+        "updated_by_human_at": 1665216072,
+        "url": "https://genius.com/Interpol-rest-my-chemistry-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/21128",
+            "header_image_url": "https://images.genius.com/ce728cd488d8a95aac6599c43fba99bc.1000x635x1.jpg",
+            "id": 21128,
+            "image_url": "https://images.genius.com/a8b7c56064fe148663aa5c5cf2a0fbc9.960x960x1.jpg",
+            "index_character": "i",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Interpol",
+            "slug": "Interpol",
+            "url": "https://genius.com/artists/Interpol",
+            "iq": 633
+        },
+        "artist": "Interpol",
+        "lyrics": "Rest My Chemistry Lyrics[Verse 1]\nI haven't slept for two days\nI've bathed in nothing but sweat\nAnd I've made hallways scenes for things to regret\nMy friends they come\nAnd the lines they go by\n\n[Chorus]\nTonight I'm gonna rest my chemistry\nTonight I'm gonna rest my chemistry\n[Verse 2]\nI live my life filled with no pain\nJust some rage and three kinds of yes\nAnd I've made stairways such scenes for things that I regret\nOh, those days in the sun\nThey bring a tear to my eye\n\n[Chorus]\nTonight I'm gonna rest my chemistry\nTonight I'm gonna rest my chemistry\n\n[Bridge]\nBut you're so young\nYou're so young\nYou look in my eyes\nYou're so young, so sweet, so surprised\n\n[Verse 3]\nI saw a sign it says \"OK\"\nGotta take a ride, just recline in the faraway\nGotta take some time to realize\nThat my friends they come\nAnd the lines they go by\n\n[Chorus]\nTonight I'm gonna rest my chemistry\nTonight I'm gonna rest my chemistry\nYou might also like[Bridge 2]\nBut you're so young\nYou're so young\nYou look in my eyes\nSo young, so sweet, so surprised\nYou look so young like a daisy in my lazy eye\n\n[Chorus]\nTonight I'm gonna rest my chemistry\nTonight I'm gonna rest my chemistry\n\nTonight I'm gonna rest my chemistry\nTonight I'm gonna rest my chemistry19Embed"
+    }
+}

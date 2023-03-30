@@ -1,0 +1,58 @@
+{
+    "id": "ML1721",
+    "mood": "relaxed",
+    "artist": "Syd Barrett",
+    "title": "Terrapin",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/713909",
+        "artist_names": "Syd Barrett",
+        "full_title": "Terrapin by\u00a0Syd\u00a0Barrett",
+        "header_image_thumbnail_url": "https://images.genius.com/93c732c8acb0600c66272d0211e4865b.300x301x1.jpg",
+        "header_image_url": "https://images.genius.com/93c732c8acb0600c66272d0211e4865b.637x640x1.jpg",
+        "id": 713909,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1288366,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1656836147,
+        "path": "/Syd-barrett-terrapin-lyrics",
+        "pyongs_count": 5,
+        "relationships_index_url": "https://genius.com/Syd-barrett-terrapin-sample",
+        "release_date_components": {
+            "year": 1970,
+            "month": 1,
+            "day": 3
+        },
+        "release_date_for_display": "January 3, 1970",
+        "release_date_with_abbreviated_month_for_display": "Jan. 3, 1970",
+        "song_art_image_thumbnail_url": "https://images.genius.com/93c732c8acb0600c66272d0211e4865b.300x301x1.jpg",
+        "song_art_image_url": "https://images.genius.com/93c732c8acb0600c66272d0211e4865b.637x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false,
+            "pageviews": 22589
+        },
+        "title": "Terrapin",
+        "title_with_featured": "Terrapin",
+        "updated_by_human_at": 1656826938,
+        "url": "https://genius.com/Syd-barrett-terrapin-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/62540",
+            "header_image_url": "https://images.genius.com/8a7a567e0017728cb296d90b77ecced7.1000x1000x1.jpg",
+            "id": 62540,
+            "image_url": "https://images.genius.com/8a7a567e0017728cb296d90b77ecced7.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Syd Barrett",
+            "slug": "Syd-barrett",
+            "url": "https://genius.com/artists/Syd-barrett"
+        },
+        "artist": "Syd Barrett",
+        "lyrics": "Terrapin LyricsI really love you and I mean you\nThe star above you, crystal blue\nWell, oh baby, my hair's on end about you\nI wouldn't see you and I love to\nI fly above you, yes I do\nWell, oh baby, my hair's on end about you\n\nFloating, bumping, noses dodge a tooth, the fins aluminous\nFangs all 'round, the clam is dark, below the boulders hiding all\nThe sunlight's good for us\n'Cause we're the fishes and all we do\nThe move about is all we do\nWell, oh baby, my hair's on end about you\nFloating, bumping, noses dodge a tooth, the fins aluminous\nFangs all 'round, the clam is dark, below the boulders hiding all\nThe sunlight's good for us\n'Cause we're the fishes and all we do\nThe move about is all we do\nWell, oh baby, my hair's on end about you\n\nI really love you and I mean you\nThe star above you, crystal blue\nWell, oh baby, my hair's on end about youYou might also like5Embed"
+    }
+}

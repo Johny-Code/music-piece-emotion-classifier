@@ -1,0 +1,57 @@
+{
+    "id": "ML1355",
+    "mood": "angry",
+    "artist": "Birthday Party",
+    "title": "Dead Joe",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/826927",
+        "artist_names": "The Birthday Party",
+        "full_title": "Dead Joe by\u00a0The\u00a0Birthday Party",
+        "header_image_thumbnail_url": "https://images.genius.com/0fe0245306ba854a6a1a358cf1a1883d.300x295x1.jpg",
+        "header_image_url": "https://images.genius.com/0fe0245306ba854a6a1a358cf1a1883d.924x908x1.jpg",
+        "id": 826927,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2790115,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1644146604,
+        "path": "/The-birthday-party-dead-joe-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-birthday-party-dead-joe-sample",
+        "release_date_components": {
+            "year": 1982,
+            "month": 5,
+            "day": 10
+        },
+        "release_date_for_display": "May 10, 1982",
+        "release_date_with_abbreviated_month_for_display": "May. 10, 1982",
+        "song_art_image_thumbnail_url": "https://images.genius.com/0fe0245306ba854a6a1a358cf1a1883d.300x295x1.jpg",
+        "song_art_image_url": "https://images.genius.com/0fe0245306ba854a6a1a358cf1a1883d.924x908x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Dead Joe",
+        "title_with_featured": "Dead Joe",
+        "updated_by_human_at": 1644146604,
+        "url": "https://genius.com/The-birthday-party-dead-joe-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/349198",
+            "header_image_url": "https://images.genius.com/d076bdf2ca901489953cfe5d2f8ccb0e.550x373x1.jpg",
+            "id": 349198,
+            "image_url": "https://images.genius.com/d076bdf2ca901489953cfe5d2f8ccb0e.550x373x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Birthday Party",
+            "slug": "The-birthday-party",
+            "url": "https://genius.com/artists/The-birthday-party"
+        },
+        "artist": "The Birthday Party",
+        "lyrics": "Dead Joe Lyrics[Chorus]\nDead Joe Joe... Joe Joe\nOh-ho-ho-ho-ho-ho-ho-ho-ho-ho Dead Joe\nOh-ho-ho-ho-ho-ho-ho-ho-ho-ho Dead Joe\n\n[Verse 1]\nWelcome to the car smash\nWelcome to the car smash\nWelcome to the car smash\nA-a-a-a-a-smash\nDead Joe\n[Verse 2]\nJunk-Sculpture turning back to JUNK\nJunk-Sculpture turning back to JUNK\nJunk-Sculpture turning back to JUNK\nJu-ju-ju-ju-junk\nDead Joe\nOh Joe no-o-o-o-o-o! It's Christmas time Joe\nIt's Christmas time now for you\nAnd all the little bells are hanging two-by-two\nThe holly and the nativity\nOh now speak to me Joe, speak to me Joe, speak to me Joe\nOh-oh-oh---oh--oh--oh--oh--oh--oh--oh\nDe-e-e-e-e-e-e-e-e-e-e--e-e-e-ead Joe\n\n[Chorus]\nOh-ho-ho-ho-ho-ho-ho-ho-ho-ho Dead Joe\nOh-ho-ho-ho-ho-ho-ho-ho-ho-ho Dead Joe\n\n[Verse 3]\nWelcome to the car smash\nWelcome to the car smash\nWelcome to the car crash\nYou can't tell the girls from the boys anymore\nYou can't tell the girls from the boys anymore\nYou can't tell the girls from the boys anymore\nYou can't tell the girls from the boys anymore\nHo-Oh-Oh-OH-Oh-Oh---Oh--Oh--Oh---Oh---Oh---Oh\nDe-e-e-e-e-e-e-e-e-e---e-e-e-e-ead JoeYou might also likeEmbed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML225",
+    "mood": "happy",
+    "artist": "The Blackbyrds",
+    "title": "Walking In Rhythm",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/891558",
+        "artist_names": "The Blackbyrds",
+        "full_title": "Walking in Rhythm by\u00a0The\u00a0Blackbyrds",
+        "header_image_thumbnail_url": "https://images.genius.com/c34edc3f267f375fd1232c5ab83df6a5.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/c34edc3f267f375fd1232c5ab83df6a5.1000x1000x1.jpg",
+        "id": 891558,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 12195618,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1658846192,
+        "path": "/The-blackbyrds-walking-in-rhythm-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-blackbyrds-walking-in-rhythm-sample",
+        "release_date_components": {
+            "year": 1974,
+            "month": 11,
+            "day": null
+        },
+        "release_date_for_display": "November 1974",
+        "release_date_with_abbreviated_month_for_display": "Nov. 1974",
+        "song_art_image_thumbnail_url": "https://images.genius.com/c34edc3f267f375fd1232c5ab83df6a5.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/c34edc3f267f375fd1232c5ab83df6a5.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Walking in Rhythm",
+        "title_with_featured": "Walking in Rhythm",
+        "updated_by_human_at": 1671600482,
+        "url": "https://genius.com/The-blackbyrds-walking-in-rhythm-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/23435",
+            "header_image_url": "https://images.genius.com/a1c859376cbd36338e85c55c393f7036.316x316x1.jpg",
+            "id": 23435,
+            "image_url": "https://images.genius.com/a1c859376cbd36338e85c55c393f7036.316x316x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Blackbyrds",
+            "slug": "The-blackbyrds",
+            "url": "https://genius.com/artists/The-blackbyrds"
+        },
+        "artist": "The Blackbyrds",
+        "lyrics": "Walking in Rhythm Lyrics[Chorus]\nWalking in rhythm\nMoving in sound\nHumming to the music\nTryna move on\nI'm walking in rhythm\nSinging my song\nThinking 'bout my baby\nTryna get home\nWalking in rhythm\nMoving in sound\nHumming to the music\nTryna move on\nI'm walking in rhythm\nSinging my song\nThinking 'bout my baby\nTryna get home\n[Verse]\nIt's been so long since I've seen her\nI'm tired and so all alone\nI've traveled so very far\nI've got to get back home\nIt's been so long since I've kissed her\nAnd held her tight in my arms\nI've got so far to go now\nI've got to get back home\nGot to get back home\n\n[Instrumental Break]\n\n[Refrain]\nIt's been so long since I've seen her\nI'm tired and so all alone\nI've traveled so very far\nI've got to get back home\nIt's been so long since I've kissed her\nAnd held her tight in my arms\nI've got so far to go now\nI've got to get back home\nGot to get back home\n\n[Chorus]\nWalking in rhythm\nMoving in sound\nHumming to the music\nTryna move on\nI'm walking in rhythm (Walking in rhythm)\nSinging my song (Singing my song)\nThinking 'bout my baby (Thinking 'bout my baby)\nTryna get home (Tryna get home)\nI'm walking in rhythm (Walking in rhythm)\nSinging my song (Singing my song)\nThinking 'bout my baby (Thinking 'bout my baby)\nTryna get home (Tryna get home)\nYou might also like[Outro]\nI'm walking in rhythm (Walking in rhythm)\nSinging my song (Singing my song)\nThinking 'bout my baby (Thinking 'bout my baby)\nTryna get home (Tryna get home)Embed"
+    }
+}

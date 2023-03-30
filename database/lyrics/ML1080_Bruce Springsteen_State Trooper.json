@@ -1,0 +1,58 @@
+{
+    "id": "ML1080",
+    "mood": "sad",
+    "artist": "Bruce Springsteen",
+    "title": "State Trooper",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/391438",
+        "artist_names": "Bruce Springsteen",
+        "full_title": "State Trooper by\u00a0Bruce\u00a0Springsteen",
+        "header_image_thumbnail_url": "https://images.genius.com/3f74818666ee0a5dcab1ffcd8aa687d2.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3f74818666ee0a5dcab1ffcd8aa687d2.1000x1000x1.jpg",
+        "id": 391438,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 714915,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1633498916,
+        "path": "/Bruce-springsteen-state-trooper-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Bruce-springsteen-state-trooper-sample",
+        "release_date_components": {
+            "year": 1982,
+            "month": 9,
+            "day": 30
+        },
+        "release_date_for_display": "September 30, 1982",
+        "release_date_with_abbreviated_month_for_display": "Sep. 30, 1982",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3f74818666ee0a5dcab1ffcd8aa687d2.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3f74818666ee0a5dcab1ffcd8aa687d2.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 39599
+        },
+        "title": "State Trooper",
+        "title_with_featured": "State Trooper",
+        "updated_by_human_at": 1678327852,
+        "url": "https://genius.com/Bruce-springsteen-state-trooper-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/19041",
+            "header_image_url": "https://images.genius.com/165db399fee32f0fcaf8e66bfd2dcd12.500x331x1.jpg",
+            "id": 19041,
+            "image_url": "https://images.genius.com/d6f0b4a599f183a9a74251a0033f786b.908x908x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Bruce Springsteen",
+            "slug": "Bruce-springsteen",
+            "url": "https://genius.com/artists/Bruce-springsteen"
+        },
+        "artist": "Bruce Springsteen",
+        "lyrics": "State Trooper Lyrics[Verse 1]\nNew Jersey turnpike, ridin' on a wet night\n'Neath the refinery's glow, out where the great black rivers flow\nLicense, registration, I ain't got none\nBut I got a clear conscience 'bout the things that I done\n\n[Chorus]\nMister State Trooper, please don't stop me\nPlease don't stop me, please don't stop me\n\n[Verse 2]\nMaybe you got a kid, maybe you got a pretty wife\nThe only thing that I got's been botherin' me my whole life\n[Chorus]\nMister State Trooper, please don't stop me\nPlease don't stop me, please don't stop me\n\n[Verse 3]\nIn the wee, wee hours, your mind gets hazy\nRadio relay towers gonna lead me to my baby\nRadio's jammed up with talk show stations\nIt's just talk, talk, talk, talk till you lose your patience\n\n[Chorus]\nMister State Trooper, please don't stop me\n\n[Outro]\nHey, somebody out there, listen to my last prayer\nHi ho silver-o, deliver me from nowhere\nHi hoYou might also like1Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML22",
+    "mood": "relaxed",
+    "artist": "David Sylvian",
+    "title": "September",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/742671",
+        "artist_names": "David Sylvian",
+        "full_title": "September by\u00a0David\u00a0Sylvian",
+        "header_image_thumbnail_url": "https://images.genius.com/d9f6e008edbd05b3ef82f3d17b1195cd.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/d9f6e008edbd05b3ef82f3d17b1195cd.1000x1000x1.jpg",
+        "id": 742671,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2726776,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1529192399,
+        "path": "/David-sylvian-september-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/David-sylvian-september-sample",
+        "release_date_components": {
+            "year": 1987,
+            "month": 11,
+            "day": 7
+        },
+        "release_date_for_display": "November 7, 1987",
+        "release_date_with_abbreviated_month_for_display": "Nov. 7, 1987",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d9f6e008edbd05b3ef82f3d17b1195cd.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d9f6e008edbd05b3ef82f3d17b1195cd.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "September",
+        "title_with_featured": "September",
+        "updated_by_human_at": 1594235986,
+        "url": "https://genius.com/David-sylvian-september-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/343879",
+            "header_image_url": "https://images.genius.com/5a27dde081a96c57f6b1476c02bbfcfb.786x514x1.jpg",
+            "id": 343879,
+            "image_url": "https://images.genius.com/dc9b5bab3cf355723525d75387195331.379x379x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "David Sylvian",
+            "slug": "David-sylvian",
+            "url": "https://genius.com/artists/David-sylvian"
+        },
+        "artist": "David Sylvian",
+        "lyrics": "September Lyrics[Verse]\nThe sun shines high above\nThe sounds of laughter\nThe birds swoop down upon\nThe crosses of old grey churches\nWe say that we're in love\nWhile secretly wishing for rain\nSipping Coke and playing games\nSeptember's here again\nSeptember's here againYou might also likeEmbed"
+    }
+}

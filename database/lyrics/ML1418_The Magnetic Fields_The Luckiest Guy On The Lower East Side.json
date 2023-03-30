@@ -1,0 +1,59 @@
+{
+    "id": "ML1418",
+    "mood": "happy",
+    "artist": "The Magnetic Fields",
+    "title": "The Luckiest Guy On The Lower East Side",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/134045",
+        "artist_names": "The Magnetic Fields",
+        "full_title": "The Luckiest Guy on the Lower East Side by\u00a0The\u00a0Magnetic Fields",
+        "header_image_thumbnail_url": "https://images.genius.com/d29f35e2932566c7a0e542b676563a4f.180x180x1.jpg",
+        "header_image_url": "https://images.genius.com/d29f35e2932566c7a0e542b676563a4f.180x180x1.jpg",
+        "id": 134045,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 82384,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1679095931,
+        "path": "/The-magnetic-fields-the-luckiest-guy-on-the-lower-east-side-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-magnetic-fields-the-luckiest-guy-on-the-lower-east-side-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 9,
+            "day": 7
+        },
+        "release_date_for_display": "September 7, 1999",
+        "release_date_with_abbreviated_month_for_display": "Sep. 7, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d29f35e2932566c7a0e542b676563a4f.180x180x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d29f35e2932566c7a0e542b676563a4f.180x180x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 15847
+        },
+        "title": "The Luckiest Guy on the Lower East Side",
+        "title_with_featured": "The Luckiest Guy on the Lower East Side",
+        "updated_by_human_at": 1679095931,
+        "url": "https://genius.com/The-magnetic-fields-the-luckiest-guy-on-the-lower-east-side-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/21130",
+            "header_image_url": "https://images.genius.com/c49cc84929c98836502507e157378fcc.1000x1000x1.jpg",
+            "id": 21130,
+            "image_url": "https://images.genius.com/c49cc84929c98836502507e157378fcc.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "The Magnetic Fields",
+            "slug": "The-magnetic-fields",
+            "url": "https://genius.com/artists/The-magnetic-fields",
+            "iq": 1234
+        },
+        "artist": "The Magnetic Fields",
+        "lyrics": "The Luckiest Guy on the Lower East Side Lyrics[Verse 1]\nAndy would bicycle across town\nIn the rain to bring you candy\nAnd John would buy the gown\nFor you to wear to the prom\nWith Tom the astronomer\nWho'd name a star for you\n\n[Chorus]\nBut I'm the luckiest guy\nOn the Lower East Side\n'Cause I've got wheels\nAnd you wanna go for a ride\n[Verse 2]\nHarry is the one I think you'll marry\nBut it's Chris that you kissed after school\nWell, I'm a fool, there's no doubt\nBut when the sun comes out\nAnd only when the sun comes out\n\n[Chorus]\nI'm the luckiest guy\nOn the Lower East Side\n'Cause I've got wheels\nAnd you wanna go for a ride\n\n[Bridge]\nThe day is beautiful and so are you\nMy car is ugly but then, I'm ugly too\nI know you'd never give me a second glance\nBut when the weather's nice all the other guys\nDon't stand a chance\n\n[Verse 3]\nI know Professor Blumen\nMakes you feel like a woman\nBut when the wind is in your hair\nYou laugh like a little girl\nYou might also likeSo you share secrets with Lou\nBut we've got secrets too\nWell, one\nI only keep this heap for you\n\n[Chorus]\n'Cause I'm the ugliest guy\nOn the Lower East Side\nBut I've got wheels\nAnd you wanna go for a ride\n\nWanna go for a ride?\nWanna go for a ride?\nWanna go for a ride?Embed"
+    }
+}

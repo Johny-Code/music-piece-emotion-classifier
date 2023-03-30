@@ -1,0 +1,59 @@
+{
+    "id": "ML1678",
+    "mood": "happy",
+    "artist": "Katy Perry",
+    "title": "I Kissed A Girl",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/130024",
+        "artist_names": "Katy Perry",
+        "full_title": "I Kissed a Girl by\u00a0Katy\u00a0Perry",
+        "header_image_thumbnail_url": "https://images.genius.com/ac9751c6f99b4dc1d70d1c0ca805b664.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/ac9751c6f99b4dc1d70d1c0ca805b664.1000x1000x1.jpg",
+        "id": 130024,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 134437,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1678953870,
+        "path": "/Katy-perry-i-kissed-a-girl-lyrics",
+        "pyongs_count": 43,
+        "relationships_index_url": "https://genius.com/Katy-perry-i-kissed-a-girl-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 4,
+            "day": 28
+        },
+        "release_date_for_display": "April 28, 2008",
+        "release_date_with_abbreviated_month_for_display": "Apr. 28, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ce1d7809847ba4ed072c48e684f774b9.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/ce1d7809847ba4ed072c48e684f774b9.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 361342
+        },
+        "title": "I Kissed a Girl",
+        "title_with_featured": "I Kissed a Girl",
+        "updated_by_human_at": 1678953870,
+        "url": "https://genius.com/Katy-perry-i-kissed-a-girl-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1195",
+            "header_image_url": "https://images.genius.com/c2ad3c36d9e393ed8c041bbdcdd30be7.1000x333x1.jpg",
+            "id": 1195,
+            "image_url": "https://images.genius.com/cd6cb423632e3fcf3f17798f749e2a23.399x399x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Katy Perry",
+            "slug": "Katy-perry",
+            "url": "https://genius.com/artists/Katy-perry",
+            "iq": 149
+        },
+        "artist": "Katy Perry",
+        "lyrics": "TranslationsEspa\u00f1olPortugu\u00easItalianoI Kissed a Girl Lyrics[Verse 1]\nThis was never the way I planned\nNot my intention\nI got so brave, drink in hand\nLost my discretion\nIt's not what I'm used to\nJust wanna try you on\nI'm curious for you\nCaught my attention\n\n[Chorus]\nI kissed a girl and I liked it\nThe taste of her cherry chapstick\nI kissed a girl just to try it\nI hope my boyfriend don't mind it\nIt felt so wrong, it felt so right\nDon't mean I'm in love tonight\nI kissed a girl and I liked it\nI liked it\n[Verse 2]\nNo, I don't even know your name\nIt doesn't matter\nYou're my experimental game\nJust human nature\nIt's not what good girls do\nNot how they should behave\nMy head gets so confused\nHard to obey\n\n[Chorus]\nI kissed a girl and I liked it\nThe taste of her cherry chapstick\nI kissed a girl just to try it\nI hope my boyfriend don't mind it\nIt felt so wrong, it felt so right\nDon't mean I'm in love tonight\nI kissed a girl and I liked it\nI liked it\n\n[Bridge]\nUs girls, we are so magical\nSoft skin, red lips, so kissable\nHard to resist, so touchable\nToo good to deny it\nAin't no big deal, it's innocent\nYou might also like[Chorus]\nI kissed a girl and I liked it\nThe taste of her cherry chapstick\nI kissed a girl just to try it\nI hope my boyfriend don't mind it\nIt felt so wrong, it felt so right\nDon't mean I'm in love tonight\nI kissed a girl and I liked it\nI liked it43Embed"
+    }
+}

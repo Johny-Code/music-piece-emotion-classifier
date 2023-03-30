@@ -1,0 +1,57 @@
+{
+    "id": "ML1015",
+    "mood": "angry",
+    "artist": "Nevermore",
+    "title": "All Play Dead",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/2278556",
+        "artist_names": "Nevermore",
+        "full_title": "All Play Dead by\u00a0Nevermore",
+        "header_image_thumbnail_url": "https://images.genius.com/d042d127513ea0b9207b716136fcae6f.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/d042d127513ea0b9207b716136fcae6f.1000x1000x1.jpg",
+        "id": 2278556,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 751711,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1640271941,
+        "path": "/Nevermore-all-play-dead-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Nevermore-all-play-dead-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 1,
+            "day": 25
+        },
+        "release_date_for_display": "January 25, 1999",
+        "release_date_with_abbreviated_month_for_display": "Jan. 25, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/d042d127513ea0b9207b716136fcae6f.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/d042d127513ea0b9207b716136fcae6f.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "All Play Dead",
+        "title_with_featured": "All Play Dead",
+        "updated_by_human_at": 1643199957,
+        "url": "https://genius.com/Nevermore-all-play-dead-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/355878",
+            "header_image_url": "https://images.genius.com/b468c78ae5241b1b33163f316dca4a62.500x150x1.jpg",
+            "id": 355878,
+            "image_url": "https://images.genius.com/10da9311d198c0783baad4099b59cb95.479x479x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Nevermore",
+            "slug": "Nevermore",
+            "url": "https://genius.com/artists/Nevermore"
+        },
+        "artist": "Nevermore",
+        "lyrics": "All Play Dead Lyrics[Intro]\nYou are the wine of intoxicating faith\nYou are the axis of time, I am so blind\n\n[Verse 1]\nBear witness to freedom's fall\nTomorrow, kiss goodbye a little more\nAs they watch us all\nAll play dead\n\n[Chorus]\nI'll sleep in this quiet room\nWhere no one sees\nI'll play dead\nAll play dead\n[Verse 2]\nPlay dead, never speak; just assign the blame\nAccording to their game\nAnd chase them down the drain\nAll play dead\n\n[Chorus]\nI'll sleep in this quiet room\nWhere no one sees\nI'll play dead\nI'll just sit here quietly\nAnd watch them feed\nAll play dead\nAll play dead\n\n[Solo: Tim Calvert]\n\n[Verse 1]\nBear witness to freedom's fall\nTomorrow, kiss goodbye a little more\nAs they watch us all\nAll play dead\n\n[Chorus]\nI'll sleep in this quiet room\nWhere no one sees\nI'll play dead\nI'll just sit here quietly\nAnd watch them feed\nAll play dead\nAll play dead\nYou might also like[Outro]\nAll play dead\nAll play dead\nAll play dead\nAll play deadEmbed"
+    }
+}

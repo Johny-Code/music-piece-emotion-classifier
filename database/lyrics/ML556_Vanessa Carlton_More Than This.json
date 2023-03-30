@@ -1,0 +1,57 @@
+{
+    "id": "ML556",
+    "mood": "relaxed",
+    "artist": "Vanessa Carlton",
+    "title": "More Than This",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1379256",
+        "artist_names": "Vanessa Carlton",
+        "full_title": "More Than This by\u00a0Vanessa\u00a0Carlton",
+        "header_image_thumbnail_url": "https://images.genius.com/6bee6d290ec9e25e7832a627338cf27b.300x296x1.jpg",
+        "header_image_url": "https://images.genius.com/6bee6d290ec9e25e7832a627338cf27b.600x592x1.jpg",
+        "id": 1379256,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2736049,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1674277538,
+        "path": "/Vanessa-carlton-more-than-this-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Vanessa-carlton-more-than-this-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2007",
+        "release_date_with_abbreviated_month_for_display": "2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/6bee6d290ec9e25e7832a627338cf27b.300x296x1.jpg",
+        "song_art_image_url": "https://images.genius.com/6bee6d290ec9e25e7832a627338cf27b.600x592x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "More Than This",
+        "title_with_featured": "More Than This",
+        "updated_by_human_at": 1674277538,
+        "url": "https://genius.com/Vanessa-carlton-more-than-this-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/32552",
+            "header_image_url": "https://images.genius.com/9454aa5cafa6c5b2e877b0912548ec01.1000x667x1.jpg",
+            "id": 32552,
+            "image_url": "https://images.genius.com/2c3ef88b1bd4481b9c27795e2cb00c19.1000x1000x1.jpg",
+            "index_character": "v",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Vanessa Carlton",
+            "slug": "Vanessa-carlton",
+            "url": "https://genius.com/artists/Vanessa-carlton"
+        },
+        "artist": "Vanessa Carlton",
+        "lyrics": "More Than This Lyrics[Verse 1]\nCradling stones, hold fire bright\nAs crickets call out to the moonlight\nAnd as you lean in to steal a kiss\nI'll never need more than this\n\n[Verse 2]\nWe all share the pain of our histories\nBut the ache goes away, if you could see\nThis night under stars, well I call it peace\nIf you say, \"I'll never need more than this\"\n[Bridge]\nAnd the trees grow so thick\nYou can barely see through\nAnd the forest bestows\nAll the simplest of truths\n\nAnd you think you'll be happy\nIf granted one more wish\nBut the truth is, you'll never need more\nYou'll never need more, you'll never need more than this\n\n[Verse 3]\nWant so much in this life, there's so much to be\nAnd we sail through our youth so impatiently\nUntil we see\n\n[Pre-Chorus]\nThat the years move along\nAnd soldiers and heroes come home\nAnd they carry a song\n\n[Chorus 1]\nDon't live in forgotten times\nMay this always remind\nYou of the sea under the sky's\nBlue looking glass\nYou might also like[Chorus 2]\nLet's make this our story\nLet's live in the glory\nTime, it fades away precious as a song\n'Cause someday we'll be gone\n\n[Verse 4]\nCradling stones hold fire bright\nAs we watch the glow of the morning light\nSomeday our bones here they will lie\nAnd so we sing\n\n[Pre-Chorus 2]\nAs the years move along\nAnd soldiers and heroes come home\nAnd they carry a song\n\n[Chorus 2]\nLet's make this our story\nLet's live in the glory\nTime it fades away precious as a song\n'Cause someday we'll be goneEmbed"
+    }
+}

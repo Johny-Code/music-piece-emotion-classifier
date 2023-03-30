@@ -1,0 +1,58 @@
+{
+    "id": "ML315",
+    "mood": "sad",
+    "artist": "Brooks & Dunn",
+    "title": "Neon Moon",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/317435",
+        "artist_names": "Brooks & Dunn",
+        "full_title": "Neon Moon by\u00a0Brooks\u00a0& Dunn",
+        "header_image_thumbnail_url": "https://images.genius.com/a176d1e877063b95cb22b15f71825bf2.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/a176d1e877063b95cb22b15f71825bf2.1000x1000x1.jpg",
+        "id": 317435,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 358677,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1651164765,
+        "path": "/Brooks-and-dunn-neon-moon-lyrics",
+        "pyongs_count": 8,
+        "relationships_index_url": "https://genius.com/Brooks-and-dunn-neon-moon-sample",
+        "release_date_components": {
+            "year": 1992,
+            "month": 2,
+            "day": 24
+        },
+        "release_date_for_display": "February 24, 1992",
+        "release_date_with_abbreviated_month_for_display": "Feb. 24, 1992",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b2dc2694099a0845c281fdae98699075.300x289x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b2dc2694099a0845c281fdae98699075.322x310x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 87601
+        },
+        "title": "Neon Moon",
+        "title_with_featured": "Neon Moon",
+        "updated_by_human_at": 1651164765,
+        "url": "https://genius.com/Brooks-and-dunn-neon-moon-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/50113",
+            "header_image_url": "https://images.genius.com/5a6c642de3c9399a38a5117499e3f122.1000x541x1.jpg",
+            "id": 50113,
+            "image_url": "https://images.genius.com/a80cf7d81ca94b5c9c49217a8daa0479.761x761x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Brooks & Dunn",
+            "slug": "Brooks-and-dunn",
+            "url": "https://genius.com/artists/Brooks-and-dunn"
+        },
+        "artist": "Brooks & Dunn",
+        "lyrics": "Neon Moon Lyrics[Verse 1]\nWhen the sun goes down on my side of town\nThat lonesome feelin' comes to my door\nAnd the whole world turns\nBlue\n\n[Verse 2]\nThere's a rundown bar 'cross the railroad tracks\nI've got a table for two, way in the back\nWhere I sit alone\nAnd think of losin' you\n[Pre-Chorus]\nI spend most every night\nBeneath the light of a neon moon\n\n[Chorus]\nNow if you lose your one and only\nThere's always room here for the lonely\nTo watch your broken dreams dance\nIn and out of the beams of a neon moon\n\n[Verse 3]\nI think of two young lovers, runnin' wild and free\nI close my eyes and sometimes see\nYou in the shadows\nOf this smoke-filled room\n\n[Verse 4]\nNo tellin' how many tears I've sat here and cried\nOr how many lies that I've lied\nTellin' my poor heart\nShe'll come back someday\n\n[Pre-Chorus]\nOh, but I'll be alright\nAs long as there's light from a neon moon\nYou might also like[Chorus]\nOh, if you lose your one and only\nThere's always room here for the lonely\nTo watch your broken dreams dance\nIn and out of the beams of a neon moon\n\n[Verse 5]\nThe jukebox plays on, drink by drink\nAnd the words of every sad song seem to say what I think\nAnd this hurt inside of me\nAin't never gonna end\n\n[Pre-Chorus]\nOh, but I'll be alright\nAs long as there's light from a neon moon\n\n[Chorus]\nOh, if you lose your one and only\nThere's always room here for the lonely\nTo watch your broken dreams dance in and out of the beams\nOf a neon moon\n\n[Outro]\nCome watch your broken dreams dance\nIn and out of the beams of a neon moon\nOh, watch your broken dreams dance\nIn and out of the beams of a neon moon8Embed"
+    }
+}

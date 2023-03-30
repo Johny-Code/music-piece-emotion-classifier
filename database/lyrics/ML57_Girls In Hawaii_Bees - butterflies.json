@@ -1,0 +1,53 @@
+{
+    "id": "ML57",
+    "mood": "relaxed",
+    "artist": "Girls In Hawaii",
+    "title": "Bees & butterflies",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/915443",
+        "artist_names": "Girls In Hawaii",
+        "full_title": "Bees & Butterflies by\u00a0Girls\u00a0In Hawaii",
+        "header_image_thumbnail_url": "https://images.genius.com/98540ff60eef1a0d0d393dbb02fe87ab.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/98540ff60eef1a0d0d393dbb02fe87ab.1000x1000x1.jpg",
+        "id": 915443,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429535942,
+        "path": "/Girls-in-hawaii-bees-and-butterflies-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Girls-in-hawaii-bees-and-butterflies-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/98540ff60eef1a0d0d393dbb02fe87ab.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/98540ff60eef1a0d0d393dbb02fe87ab.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Bees & Butterflies",
+        "title_with_featured": "Bees & Butterflies",
+        "updated_by_human_at": 1477095609,
+        "url": "https://genius.com/Girls-in-hawaii-bees-and-butterflies-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/365035",
+            "header_image_url": "https://images.genius.com/cfc4be36f931825f8dbfb5a5786d5dc4.635x635x1.jpg",
+            "id": 365035,
+            "image_url": "https://images.genius.com/cfc4be36f931825f8dbfb5a5786d5dc4.635x635x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Girls In Hawaii",
+            "slug": "Girls-in-hawaii",
+            "url": "https://genius.com/artists/Girls-in-hawaii"
+        },
+        "artist": "Girls In Hawaii",
+        "lyrics": "Bees & Butterflies LyricsWhen the feelings are right\nMy hands start to reach very high\nWhen I'm feeling so right\nMy hands start to reach very high\n\nSorry for it\nSorry for me\nCause bees and butterflies down in my hands\nNow I have to teach them\nHow to fly\nHow to fly\nWhen the feelings are right\nPut down together in round\nWhen I'm feeling the right\nHolding to catch the stars\n\nSorry for it\nSorry for me\nCause bees and butterflies they are now my slaves\nNow I have to teach them\nHow to fly\nHow to flyYou might also likeEmbed"
+    }
+}

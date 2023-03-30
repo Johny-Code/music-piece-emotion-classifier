@@ -1,0 +1,58 @@
+{
+    "id": "ML198",
+    "mood": "happy",
+    "artist": "Ricky Martin",
+    "title": "Livin' La Vida Loca",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/420298",
+        "artist_names": "Ricky Martin",
+        "full_title": "Livin' la Vida Loca by\u00a0Ricky\u00a0Martin",
+        "header_image_thumbnail_url": "https://images.genius.com/c19be4658b521a31855ece45084ffb63.180x184x1.png",
+        "header_image_url": "https://images.genius.com/c19be4658b521a31855ece45084ffb63.180x184x1.png",
+        "id": 420298,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 396158,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1679671203,
+        "path": "/Ricky-martin-livin-la-vida-loca-lyrics",
+        "pyongs_count": 21,
+        "relationships_index_url": "https://genius.com/Ricky-martin-livin-la-vida-loca-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 3,
+            "day": 23
+        },
+        "release_date_for_display": "March 23, 1999",
+        "release_date_with_abbreviated_month_for_display": "Mar. 23, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/c19be4658b521a31855ece45084ffb63.180x184x1.png",
+        "song_art_image_url": "https://images.genius.com/c19be4658b521a31855ece45084ffb63.180x184x1.png",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 340594
+        },
+        "title": "Livin\u2019 la Vida Loca",
+        "title_with_featured": "Livin' la Vida Loca",
+        "updated_by_human_at": 1679671203,
+        "url": "https://genius.com/Ricky-martin-livin-la-vida-loca-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/828",
+            "header_image_url": "https://images.genius.com/6cc0b1a9147548e7e3f4367e3526a460.680x444x1.jpg",
+            "id": 828,
+            "image_url": "https://images.genius.com/abc5538475ab927161752dd6cadaaaa2.1000x1000x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Ricky Martin",
+            "slug": "Ricky-martin",
+            "url": "https://genius.com/artists/Ricky-martin"
+        },
+        "artist": "Ricky Martin",
+        "lyrics": "Livin\u2019 la Vida Loca Lyrics[Verse 1]\nShe's into superstitions\nBlack cats and voodoo dolls\nI feel a premonition\nThat girl's gonna make me fall\n\n[Verse 2]\nShe's into new sensations\nNew kicks in the candlelight\nShe's got a new addiction\nFor every day and night\n[Pre-Chorus 1]\nShe'll make you take your clothes off and go dancing in the rain\nShe'll make you live her crazy life, but she'll take away your pain\nLike a bullet to your brain, come on\n\n[Chorus]\nUpside, inside out\nShe's livin' la vida loca\nShe'll push and pull you down\nLivin' la vida loca\nHer lips are devil red\nAnd her skin's the color mocha\nShe will wear you out\nLivin' la vida loca (Come on)\nLivin' la vida loca (Come on)\nShe's livin' la vida loca\n\n[Verse 3]\nWoke up in New York City\nIn a funky cheap hotel\nShe took my heart and she took my money\nShe must've slipped me a sleeping pill\n\n[Pre-Chorus 2]\nShe never drinks the water, makes you order French champagne\nOnce you've had a taste of her, you'll never be the same\nYeah, she'll make you go insane (Come on)\nYou might also like[Chorus]\nUpside, inside out\nShe's livin' la vida loca\nShe'll push and pull you down\nLivin' la vida loca\nHer lips are devil red\nAnd her skin's the color mocha\nShe will wear you out\nLivin' la vida loca (Come on)\nShe's livin' la vida loca (Come on)\nShe's livin' la vida loca\n\n[Pre-Chorus 1]\nShe'll make you take your clothes off and go dancing in the rain\nShe'll make you live her crazy life, but she'll take away your pain\nLike a bullet to your brain (Come on)\n\n[Chorus]\nUpside, inside out\nShe's livin' la vida loca\nShe'll push and pull you down\nLivin' la vida loca\nHer lips are devil red\nAnd her skin's the color mocha\nShe will wear you out\nLivin' la vida loca (Come on)\nUpside, inside out\nShe's livin la vida loca\nShe'll push and pull you down\nLivin' la vida loca\nHer lips are devil red\nAnd her skin's the color mocha\nShe will wear you out\nLivin' la vida loca (Come on)\nShe's livin' la vida loca (Come on)\nShe's livin' la vida loca (Come on)\n[Outro]\n(Come on)\nLa vida loca\nLa vida loca\nLa vi21Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML753",
+    "mood": "happy",
+    "artist": "The Fratellis",
+    "title": "Vince The Loveable Stoner",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1132921",
+        "artist_names": "The Fratellis",
+        "full_title": "Vince the Loveable Stoner by\u00a0The\u00a0Fratellis",
+        "header_image_thumbnail_url": "https://images.genius.com/224daa1b2cc24b284841d91959b0f32a.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/224daa1b2cc24b284841d91959b0f32a.1000x1000x1.jpg",
+        "id": 1132921,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 13460179,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675913928,
+        "path": "/The-fratellis-vince-the-loveable-stoner-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/The-fratellis-vince-the-loveable-stoner-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 9,
+            "day": 11
+        },
+        "release_date_for_display": "September 11, 2006",
+        "release_date_with_abbreviated_month_for_display": "Sep. 11, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/224daa1b2cc24b284841d91959b0f32a.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/224daa1b2cc24b284841d91959b0f32a.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 8196
+        },
+        "title": "Vince the Loveable Stoner",
+        "title_with_featured": "Vince the Loveable Stoner",
+        "updated_by_human_at": 1676287227,
+        "url": "https://genius.com/The-fratellis-vince-the-loveable-stoner-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/23288",
+            "header_image_url": "https://images.genius.com/3f39fb493da9aec907a54694450a6982.1000x667x1.jpg",
+            "id": 23288,
+            "image_url": "https://images.genius.com/5f08140fc482a9d1bc7a6dd5cf8ea9d2.1000x1000x1.jpg",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Fratellis",
+            "slug": "The-fratellis",
+            "url": "https://genius.com/artists/The-fratellis"
+        },
+        "artist": "The Fratellis",
+        "lyrics": "Vince the Loveable Stoner Lyrics[Verse 1]\nNow Vince was a loner, a lovable stoner, ah-ah\nHe lived in a Bluebird, spelled his name backward, ah-ah\nHe's so pretty, he always looks shitty, ah-ah\nBorn on a Monday, such a very good day, ah-ah\n\n[Pre-Chorus]\nAnd I haven't seen a pupil in his eyes for sixteen days\nThe Catholic girls love him in a hundred million different ways\nAnd he's been up for days, in a thick malaise\nHe's only listening to the salad days\n[Chorus]\nA-rock-a-honey, rock-a-honey, woo-hoo\nSleeps all day and he dreams of you\nA-rock-a-honey, rock-a-honey, wee-hee\nDinin' in the city where the girls are free, oh\n\n[Verse 2]\nNow Vince got a big crush on the girl from Redrush, ah-ah\nHe took her out for tacos, said she liked burritos, ah-ah\nAnd he said she's so easy, brought up in the country, ah-ah\nShe gets naked for a living, she ain't afraid of giving, ah-ah\n\n[Pre-Chorus]\nAnd I haven't seen a pupil in his eyes for sixteen days\nAh, the Catholic girls love him in a hundred million different ways\nAnd he's been up for days, in a thick malaise\nHe's only listening to the salad days\n\n[Chorus]\nA-rock-a-honey, rock-a-honey, woo-hoo\nSleeps all day and he dreams of you\nA-rock-a-honey, rock-a-honey, wee-hee\nDinin' in the city where the girls are free\n\n[Interlude]\nShhh...\nOh!\nWoo!\nYou might also like[Pre-Chorus]\nAnd I haven't seen a pupil in his eyes for sixteen days\nAh, the Catholic girls love him in a hundred million different ways\nAnd he's been up for days, in a thick malaise\nHe's only listening to the salad days\n\n[Chorus]\nA-rock-a-honey, rock-a-honey, woo-hoo\nSleeps all day and he dreams of you\nA-rock-a-honey, rock-a-honey, wee-hee\nDinin' in the city where the girls are free\n\n[Outro]\nA-rock-a-honey, rock-a-honey, woo-hoo\nSleeps all day and dreams of you\nA-rock-a-honey, rock-a-honey, woo-hoo!\nDinin' in the city and he don't touch me, don't touch me, don't touch me1Embed"
+    }
+}

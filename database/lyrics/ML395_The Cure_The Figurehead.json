@@ -1,0 +1,58 @@
+{
+    "id": "ML395",
+    "mood": "sad",
+    "artist": "The Cure",
+    "title": "The Figurehead",
+    "song": {
+        "_type": "song",
+        "annotation_count": 13,
+        "api_path": "/songs/389034",
+        "artist_names": "The Cure",
+        "full_title": "The Figurehead by\u00a0The\u00a0Cure",
+        "header_image_thumbnail_url": "https://images.genius.com/178daa4e376a6a73f82e36b0f04dde7d.220x220x1.png",
+        "header_image_url": "https://images.genius.com/178daa4e376a6a73f82e36b0f04dde7d.220x220x1.png",
+        "id": 389034,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 396158,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1677798928,
+        "path": "/The-cure-the-figurehead-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/The-cure-the-figurehead-sample",
+        "release_date_components": {
+            "year": 1982,
+            "month": 5,
+            "day": 4
+        },
+        "release_date_for_display": "May 4, 1982",
+        "release_date_with_abbreviated_month_for_display": "May. 4, 1982",
+        "song_art_image_thumbnail_url": "https://images.genius.com/178daa4e376a6a73f82e36b0f04dde7d.220x220x1.png",
+        "song_art_image_url": "https://images.genius.com/178daa4e376a6a73f82e36b0f04dde7d.220x220x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 31921
+        },
+        "title": "The Figurehead",
+        "title_with_featured": "The Figurehead",
+        "updated_by_human_at": 1677789077,
+        "url": "https://genius.com/The-cure-the-figurehead-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/15758",
+            "header_image_url": "https://images.genius.com/cd329cd267a717821150770e9f47e920.1000x600x1.jpg",
+            "id": 15758,
+            "image_url": "https://images.genius.com/a0eeac26e313b49cc558102ed0a5622b.640x640x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Cure",
+            "slug": "The-cure",
+            "url": "https://genius.com/artists/The-cure"
+        },
+        "artist": "The Cure",
+        "lyrics": "The Figurehead Lyrics[Verse 1]\nSharp and open, leave me alone\nAnd sleeping less every night\nAs the days become heavier and weighted\nWaiting in the cold light\nA noise, a scream tears my clothes as the figurines tighten\nWith spiders inside them\nAnd dust on the lips of a vision of hell\nI laughed in the mirror for the first time in a year\n\n[Verse 2]\nA hundred other words blind me with your purity\nLike an old painted doll in the throes of dance\nI think about tomorrow, please let me sleep\nAs I slip down the window, freshly squashed fly\nYou mean nothing\nYou mean nothing\n[Verse 3]\nI can lose myself in Chinese art and American girls\nAll the time, lose me in the dark, please do it right\nRun into the night, I will lose myself tomorrow\nCrimson pain, my heart explodes\nMy memory in a fire, and someone will listen\nAt least for a short while\n\n[Bridge]\n(I can never say no)\nI can never say no to anyone but you\n\n[Verse 4]\nToo many secrets, too many lies\nWrithing with hatred\nToo many secrets, please make it good tonight\nBut the same image haunts me, in sequence, in despair of time\nI will never be clean again\nI touched her eyes, pressed my stained face\nI will never be clean again\n\n[Outro]\nTouched her eyes, pressed my stained face\nI will never be clean again\nI will never be clean again\nI will never be clean againYou might also like4Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML52",
+    "mood": "relaxed",
+    "artist": "Fourplay",
+    "title": "Fields Of Gold",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1474446",
+        "artist_names": "Fourplay",
+        "full_title": "Fields Of Gold by\u00a0Fourplay",
+        "header_image_thumbnail_url": "https://images.genius.com/e0375ee6e99c21b21530a6af2b96c149.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e0375ee6e99c21b21530a6af2b96c149.953x953x1.jpg",
+        "id": 1474446,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429885923,
+        "path": "/Fourplay-fields-of-gold-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Fourplay-fields-of-gold-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 6,
+            "day": 22
+        },
+        "release_date_for_display": "June 22, 2004",
+        "release_date_with_abbreviated_month_for_display": "Jun. 22, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e0375ee6e99c21b21530a6af2b96c149.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e0375ee6e99c21b21530a6af2b96c149.953x953x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Fields Of Gold",
+        "title_with_featured": "Fields Of Gold",
+        "updated_by_human_at": 1673740787,
+        "url": "https://genius.com/Fourplay-fields-of-gold-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/360962",
+            "header_image_url": "https://images.genius.com/063b4bf325bd7c51ba70e4c542144a06.761x761x1.jpg",
+            "id": 360962,
+            "image_url": "https://images.genius.com/063b4bf325bd7c51ba70e4c542144a06.761x761x1.jpg",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Fourplay",
+            "slug": "Fourplay",
+            "url": "https://genius.com/artists/Fourplay"
+        },
+        "artist": "Fourplay",
+        "lyrics": "Fields Of Gold LyricsYou'll remember me when the west wind moves upon the fields of barley\nYou'll forget the sun in his jealous sky as we walk in fields of gold\nSo she took her love for to gaze awhile upon the fields of barley\nIn his arms she fell as her hair came down among the fields of gold\n\nWill you stay with me, will you be my love among the fields of barley?\nWe'll forget the sun in his jealous sky as we lie in fields of gold\nSee the west wind move like a lover so upon the fields of barley\nFeel her body rise when you kiss her mouth among the fields of gold\n\nI never made promises lightly and there have been some that I've broken\nBut I swear in the days still left we'll walk in fields of gold\nWe'll walk in fields of gold\nMany years have passed since those summer days among the fields of barley\nSee the children run as the sun goes down among the fields of gold\nYou'll remember me when the west wind moves upon the fields of barley\nYou can tell the sun in his jealous sky when we walked in fields of gold\nWhen we walked in fields of gold, when we walked in fields of goldYou might also likeEmbed"
+    }
+}

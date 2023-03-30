@@ -1,0 +1,57 @@
+{
+    "id": "ML191",
+    "mood": "sad",
+    "artist": "My Dying Bride",
+    "title": "The Cry of Mankind",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/1108769",
+        "artist_names": "My Dying Bride",
+        "full_title": "The Cry of Mankind by\u00a0My\u00a0Dying Bride",
+        "header_image_thumbnail_url": "https://images.genius.com/ba0524340c218db09ea0bdf3b07136f9.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/ba0524340c218db09ea0bdf3b07136f9.583x583x1.jpg",
+        "id": 1108769,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6538891,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1617971282,
+        "path": "/My-dying-bride-the-cry-of-mankind-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/My-dying-bride-the-cry-of-mankind-sample",
+        "release_date_components": {
+            "year": 1995,
+            "month": 5,
+            "day": 22
+        },
+        "release_date_for_display": "May 22, 1995",
+        "release_date_with_abbreviated_month_for_display": "May. 22, 1995",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ba0524340c218db09ea0bdf3b07136f9.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ba0524340c218db09ea0bdf3b07136f9.583x583x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false
+        },
+        "title": "The Cry of Mankind",
+        "title_with_featured": "The Cry of Mankind",
+        "updated_by_human_at": 1644255257,
+        "url": "https://genius.com/My-dying-bride-the-cry-of-mankind-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/353360",
+            "header_image_url": "https://images.genius.com/f61e6432c375c7d321dc3354fe59423d.951x951x1.jpg",
+            "id": 353360,
+            "image_url": "https://images.genius.com/f61e6432c375c7d321dc3354fe59423d.951x951x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "My Dying Bride",
+            "slug": "My-dying-bride",
+            "url": "https://genius.com/artists/My-dying-bride"
+        },
+        "artist": "My Dying Bride",
+        "lyrics": "The Cry of Mankind LyricsYou can't expect to see him and survive\nYou'll swallow his tongue of thorns\nHis mouth, dripping with flies\nIn his glorious kingdom of fire\nBut I believe he wept\nI will make them all lie down\nDown where hope lies dying\nWith lust, you're kicking mankind to death\nWe live and die without hope\nYou trample us down in a river of death\nAs I stand here now, my heart is black\nI don't want to die a lonely man\nThis is a weary hour\nThis is a weary hourYou might also likeEmbed"
+    }
+}

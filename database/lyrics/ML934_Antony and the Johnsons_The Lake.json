@@ -1,0 +1,57 @@
+{
+    "id": "ML934",
+    "mood": "sad",
+    "artist": "Antony and the Johnsons",
+    "title": "The Lake",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/797369",
+        "artist_names": "Antony and the Johnsons",
+        "full_title": "The Lake by\u00a0Antony\u00a0and the Johnsons",
+        "header_image_thumbnail_url": "https://images.genius.com/e1d32ca4bacd38703d692ba65c8b6141.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e1d32ca4bacd38703d692ba65c8b6141.1000x1000x1.jpg",
+        "id": 797369,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429199486,
+        "path": "/Antony-and-the-johnsons-the-lake-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Antony-and-the-johnsons-the-lake-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 11,
+            "day": 2
+        },
+        "release_date_for_display": "November 2, 2004",
+        "release_date_with_abbreviated_month_for_display": "Nov. 2, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e1d32ca4bacd38703d692ba65c8b6141.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e1d32ca4bacd38703d692ba65c8b6141.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "The Lake",
+        "title_with_featured": "The Lake",
+        "updated_by_human_at": 1485265635,
+        "url": "https://genius.com/Antony-and-the-johnsons-the-lake-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/284983",
+            "header_image_url": "https://images.genius.com/bbcad86ae91d4b3b25b60cc0b4b9fa82.576x360x1.jpg",
+            "id": 284983,
+            "image_url": "https://images.genius.com/bbcad86ae91d4b3b25b60cc0b4b9fa82.576x360x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Antony and the Johnsons",
+            "slug": "Antony-and-the-johnsons",
+            "url": "https://genius.com/artists/Antony-and-the-johnsons"
+        },
+        "artist": "Antony and the Johnsons",
+        "lyrics": "The Lake LyricsIn youth's spring, it was my lot\nTo haunt of the wide earth a spot\nTo which I could not love the less\nSo lovely was the loneliness\n\nOf a wild lake, with black rock bound\nAnd the tall trees that towered around\n\nBut when the night had thrown her pall\nUpon that spot as upon all\nAnd the wind would pass me by\nIn its stilly melody\nMy infant spirit would awake\nTo the terror of the lone lake\nMy infant spirit would awake\nTo the terror of the lone lake\n\nYet that terror was not fright\nBut a tremulous delight\nAnd a feeling undefined\nSpringing from a darkened mind\n\nDeath was in that poisoned wave\nAnd in its gulf, a fitting grave\nFor him who thence could solace bring\nTo his dark imagining\n\nWhose wildering thought could even make\nAn Eden of that dim lake\n\nBut when the night had thrown her pall\nUpon that spot as upon all\nAnd the wind would pass me by\nIn its stilly melody\n\nMy infant spirit would awake\nTo the terror of the lone lake\nMy infant spirit would awake\nTo the terror of the lone lake\nMy infant spirit would awake\nTo the terror of the lake\nYou might also likeSpringing from a darkened mind\nSo lovely was the loneliness\nIn youth's spring, it was my lot\nIn its stilly melody\n\nAn Eden of that dim lake\nAn Eden of that dim lake\nLone, lone, lonely\nLone, lone, lonely\nLone, lone, lonelyEmbed"
+    }
+}

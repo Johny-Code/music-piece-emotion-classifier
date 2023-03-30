@@ -1,0 +1,53 @@
+{
+    "id": "ML1078",
+    "mood": "happy",
+    "artist": "Stephen Lynch",
+    "title": "Gay",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1310393",
+        "artist_names": "Stephen Lynch",
+        "full_title": "Gay by\u00a0Stephen\u00a0Lynch",
+        "header_image_thumbnail_url": "https://images.genius.com/0d3dfd26ca208af583613c720d7b23b3.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/0d3dfd26ca208af583613c720d7b23b3.351x351x1.jpg",
+        "id": 1310393,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 5195840,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1613488480,
+        "path": "/Stephen-lynch-gay-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Stephen-lynch-gay-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/0d3dfd26ca208af583613c720d7b23b3.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/0d3dfd26ca208af583613c720d7b23b3.351x351x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Gay",
+        "title_with_featured": "Gay",
+        "updated_by_human_at": 1613488480,
+        "url": "https://genius.com/Stephen-lynch-gay-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/87515",
+            "header_image_url": "https://images.genius.com/ede0930693602871e8ec8809d9f18818.300x300x1.jpg",
+            "id": 87515,
+            "image_url": "https://images.genius.com/ede0930693602871e8ec8809d9f18818.300x300x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Stephen Lynch",
+            "slug": "Stephen-lynch",
+            "url": "https://genius.com/artists/Stephen-lynch"
+        },
+        "artist": "Stephen Lynch",
+        "lyrics": "Gay LyricsHere we are dear old friend\nYou and I drunk again\nLaughs have been had and and tears have been shed\nMaybe the whiskey's gone to my head\n\nBut if I were gay\nI would give you my heart\nAnd if I were gay\nYou'd be my work of art\nAnd if I were gay\nWe would swim in romance\nBut I'm not gay\nSo get your hand out of my pants\nIt's not that I dont care - I do\nI just don't see myself in you\nAnother time, another scene\nI'd be right behind you, if you know what I mean\n\n'Cause if I were gay\nI would give you my soul\nAnd if I were gay\nI would give you my whole being\nAnd if I were gay\nWe would tear down the walls\nBut I'm not gay\nSo won't you stop cupping my ... hand\n\nWe've never hugged\nWe've never kissed\nI've never been intimate with your fist\nBut you have opened brand new doors\nGet over here and drop your drawersYou might also likeEmbed"
+    }
+}

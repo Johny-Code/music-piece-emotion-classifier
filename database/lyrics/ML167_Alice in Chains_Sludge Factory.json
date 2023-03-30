@@ -1,0 +1,58 @@
+{
+    "id": "ML167",
+    "mood": "sad",
+    "artist": "Alice in Chains",
+    "title": "Sludge Factory",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/113950",
+        "artist_names": "Alice in Chains",
+        "full_title": "Sludge Factory by\u00a0Alice\u00a0in Chains",
+        "header_image_thumbnail_url": "https://images.genius.com/c3e0a9b9ea2101fde05e1d5928e11c72.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/c3e0a9b9ea2101fde05e1d5928e11c72.1000x1000x1.jpg",
+        "id": 113950,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 120957,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1663746890,
+        "path": "/Alice-in-chains-sludge-factory-lyrics",
+        "pyongs_count": 16,
+        "relationships_index_url": "https://genius.com/Alice-in-chains-sludge-factory-sample",
+        "release_date_components": {
+            "year": 1995,
+            "month": 11,
+            "day": 7
+        },
+        "release_date_for_display": "November 7, 1995",
+        "release_date_with_abbreviated_month_for_display": "Nov. 7, 1995",
+        "song_art_image_thumbnail_url": "https://images.genius.com/c3e0a9b9ea2101fde05e1d5928e11c72.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/c3e0a9b9ea2101fde05e1d5928e11c72.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 80934
+        },
+        "title": "Sludge Factory",
+        "title_with_featured": "Sludge Factory",
+        "updated_by_human_at": 1663746891,
+        "url": "https://genius.com/Alice-in-chains-sludge-factory-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/32179",
+            "header_image_url": "https://images.genius.com/6db2f8a49892418b67cf311d200425cd.1000x165x1.jpg",
+            "id": 32179,
+            "image_url": "https://images.genius.com/40bcb40f347bf31d53aa335a5020da70.960x960x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Alice in Chains",
+            "slug": "Alice-in-chains",
+            "url": "https://genius.com/artists/Alice-in-chains"
+        },
+        "artist": "Alice in Chains",
+        "lyrics": "Sludge Factory Lyrics[Intro]\nOoh, oh yeah\nOoh, oh yeah\nOoh, oh Yeah\n\n[Verse 1]\nYou insult me in my home, you're forgiven this time\nThings go well, your eyes dilate, you shake and \"I'm high\"\nLook in my eyes deep and watch the clouds change with time\nTwenty hours won't print my picture milk carton size\nCarton size, carton size, carton size\n[Verse 2]\nCall me up, congratulations ain't the real why\nThere's no pressure besides brilliance let's say by day nine\nEndless corporate ignorance lets me control time\n\"By the way\", \"by the way\", \"by the way\", \"by the way\"\n\n[Chorus]\nOnce again, you see an in\nDiscolored skin gives you away\nSo afraid, you kindly gurgle\nOut a date for me\n\n[Verse 3]\nNow the body of one soul I adore wants to die\nYou have always told me you'd not live past twenty-five\nI say stay long enough to repay all who caused strife\n\n[Chorus]\nOnce again, you see an in\nDiscolored skin gives you away\nSo afraid, you kindly gurgle\nOut a date for me\nOnce again, you see an in\nDiscolored skin gives you away\nSo afraid, you kindly gurgle\nOut a date for me\nYou might also like[Outro]\nI bear true and an existing witness\nTo this barrel of monkeys\nA self-proclaimed immoral success\nPerfected by each whereof\nIndividually deadly, and equally so\nAnd spread about the surrendered troops\nFor even thousands of miles\nWill not tear apart their communication\nOr the lack thereof\nVultures, liars, thieves, each proclaim their innocence\nIn no suggestion or rhyme\nYour weapon is contained\nIn the wrecking of the keeping the desired effect\nThe breaking of the spirit thwarts the whole being\nYour weapon is guilt\nYour weapon is guilt\nYour weapon is guilt\nGuilt16Embed"
+    }
+}

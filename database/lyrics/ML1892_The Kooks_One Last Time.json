@@ -1,0 +1,58 @@
+{
+    "id": "ML1892",
+    "mood": "sad",
+    "artist": "The Kooks",
+    "title": "One Last Time",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/428804",
+        "artist_names": "The Kooks",
+        "full_title": "One Last Time by\u00a0The\u00a0Kooks",
+        "header_image_thumbnail_url": "https://images.genius.com/da5e8bd46b78509492da2aef7ff85378.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/da5e8bd46b78509492da2aef7ff85378.1000x1000x1.jpg",
+        "id": 428804,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 875720,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1491916156,
+        "path": "/The-kooks-one-last-time-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/The-kooks-one-last-time-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 4,
+            "day": 11
+        },
+        "release_date_for_display": "April 11, 2008",
+        "release_date_with_abbreviated_month_for_display": "Apr. 11, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/da5e8bd46b78509492da2aef7ff85378.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/da5e8bd46b78509492da2aef7ff85378.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "One Last Time",
+        "title_with_featured": "One Last Time",
+        "updated_by_human_at": 1615044048,
+        "url": "https://genius.com/The-kooks-one-last-time-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/25678",
+            "header_image_url": "https://images.genius.com/5d6a00938afea22d0a8d579c44c949a5.851x315x1.jpg",
+            "id": 25678,
+            "image_url": "https://images.genius.com/d0bee00e5b1afb20885f368ea2ba60f9.467x467x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "The Kooks",
+            "slug": "The-kooks",
+            "url": "https://genius.com/artists/The-kooks",
+            "iq": 100
+        },
+        "artist": "The Kooks",
+        "lyrics": "One Last Time Lyrics[Verse 1]\nCan I hold you one last time?\nTo fight the fear that is growing in my mind\nI know I did us both all so wrong\nI know I'm not always all that strong\nA, B, C, D, E, F and G\nOh, that reminds me of when we were free\nBefore life began to tear us apart\nRemember those classes when we thought we were so smart?\n\n[Chorus]\nOoooooooh\nOoooooooh\n[Verse 2]\nWe were lovers in every way\nLeft school together, went back to my place\nNow I can hardly remember her face\nBefore I met her I was sad\n\n[Chorus]\nOoooooooh\nOoooooooh\n\n[Outro]\nAnd can I hold you one last time?\nTo fight this fear that is growing in my mindYou might also like2Embed"
+    }
+}

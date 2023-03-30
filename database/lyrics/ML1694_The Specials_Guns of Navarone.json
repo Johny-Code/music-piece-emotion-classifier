@@ -1,0 +1,53 @@
+{
+    "id": "ML1694",
+    "mood": "happy",
+    "artist": "The Specials",
+    "title": "Guns of Navarone",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1376339",
+        "artist_names": "The Specials",
+        "full_title": "Guns Of Navarone by\u00a0The\u00a0Specials",
+        "header_image_thumbnail_url": "https://images.genius.com/56d15887b26a27bb134c3c2bfc3bb43a.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/56d15887b26a27bb134c3c2bfc3bb43a.900x900x1.jpg",
+        "id": 1376339,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429796446,
+        "path": "/The-specials-guns-of-navarone-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-specials-guns-of-navarone-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/56d15887b26a27bb134c3c2bfc3bb43a.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/56d15887b26a27bb134c3c2bfc3bb43a.900x900x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Guns Of Navarone",
+        "title_with_featured": "Guns Of Navarone",
+        "updated_by_human_at": 1476750134,
+        "url": "https://genius.com/The-specials-guns-of-navarone-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/33876",
+            "header_image_url": "https://images.genius.com/b4f83f6f15dc5c6cf2b6cf494af2c4f1.900x600x1.jpg",
+            "id": 33876,
+            "image_url": "https://images.genius.com/56d15887b26a27bb134c3c2bfc3bb43a.900x900x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Specials",
+            "slug": "The-specials",
+            "url": "https://genius.com/artists/The-specials"
+        },
+        "artist": "The Specials",
+        "lyrics": "Guns Of Navarone LyricsGuns of Navarone\nGuns, guns of Navarone\nMusic and your singing a song, you've got to go...\n??????????\nAs long as you wane beat the jungle jive, this is called \"The Shark Attack\"\nDesigned to blow your mind\nCall me a raga bum, it's gonna blow your mind in a minute\nGuns of Navarone, lets see you...\nI could tell you??????????\nGuns of Navarone\nOne kilo, send shark in harbour\nAlright, blow, Mister Rico, blow\n\nAlright\n\nCome on in\nMusical vibrations sound is shaking the nation\nWe will become the noise of tomorrow\nShake it up\nShake it baby, mamma don't break it\nYou want another Nazi number baby boomer, shake it now or never\nSeparation, real life\nBaby don't forget about that\nWednesday, send someYou might also likeEmbed"
+    }
+}

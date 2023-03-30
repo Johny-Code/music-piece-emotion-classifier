@@ -1,0 +1,58 @@
+{
+    "id": "ML1359",
+    "mood": "relaxed",
+    "artist": "The Stone Roses",
+    "title": "(Song For My) Sugar Spun Sister",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/128679",
+        "artist_names": "The Stone Roses",
+        "full_title": "(Song For My) Sugar Spun Sister by\u00a0The\u00a0Stone Roses",
+        "header_image_thumbnail_url": "https://images.genius.com/ae5be6e3ecb801990a43303a20345d66.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/ae5be6e3ecb801990a43303a20345d66.1000x1000x1.jpg",
+        "id": 128679,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 27699,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1639850244,
+        "path": "/The-stone-roses-song-for-my-sugar-spun-sister-lyrics",
+        "pyongs_count": 7,
+        "relationships_index_url": "https://genius.com/The-stone-roses-song-for-my-sugar-spun-sister-sample",
+        "release_date_components": {
+            "year": 1989,
+            "month": 5,
+            "day": 2
+        },
+        "release_date_for_display": "May 2, 1989",
+        "release_date_with_abbreviated_month_for_display": "May. 2, 1989",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ae5be6e3ecb801990a43303a20345d66.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ae5be6e3ecb801990a43303a20345d66.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 28191
+        },
+        "title": "(Song For My) Sugar Spun Sister",
+        "title_with_featured": "(Song For My) Sugar Spun Sister",
+        "updated_by_human_at": 1664555897,
+        "url": "https://genius.com/The-stone-roses-song-for-my-sugar-spun-sister-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/24415",
+            "header_image_url": "https://images.genius.com/34a619ea078c854fafe5ae723ce411c0.908x605x1.jpg",
+            "id": 24415,
+            "image_url": "https://images.genius.com/850d6c1d34937a7f46028e88434b65bc.609x768x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Stone Roses",
+            "slug": "The-stone-roses",
+            "url": "https://genius.com/artists/The-stone-roses"
+        },
+        "artist": "The Stone Roses",
+        "lyrics": "(Song For My) Sugar Spun Sister Lyrics[Verse 1]\nHer hair, soft drifted snow\nDeath white, I'd like to know\nWhy she hates all that she does\nBut she gives it all that she's got\n\n[Pre-Chorus 1]\nUntil the sky turns green\nThe grass is several shades of blue\nEvery member of Parliament trips on glue\nUntil the sky turns green\nAnd the grass is several shades of blue\nEvery member of Parliament trips on glue\n[Chorus]\nIt takes all these things and all that time\nTill my sugar spun sister's happy with this love of mine\nIt'll take all these things and, oh, much more\n\n[Verse 2]\nI've paid for fifteen or more\nBut my guts can't take many more\nMy hands are stuck to my jeans (Stuck to my jeans)\nAnd she knows, she knows what this must mean\n\n[Pre-Chorus 2]\nShe wakes up with the sun\nShe asked me, \"What is all the fuss?\"\nAs she gave me more than she thought she should\nShe wakes up with the sun\nI think, \"What have I done?\"\nAs I gave her more than I thought I would\n\n[Chorus]\nOh, it takes all these things and all that time\nTill my sugar spun sister's happy with this love of mine\n\n[Outro]\nYeah, yeah, yeah, the candy floss girl\nThe sticky fingered boy\nOh, that sister of mine, yeahYou might also like7Embed"
+    }
+}

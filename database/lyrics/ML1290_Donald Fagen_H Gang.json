@@ -1,0 +1,58 @@
+{
+    "id": "ML1290",
+    "mood": "relaxed",
+    "artist": "Donald Fagen",
+    "title": "H Gang",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1423098",
+        "artist_names": "Donald Fagen",
+        "full_title": "H Gang by\u00a0Donald\u00a0Fagen",
+        "header_image_thumbnail_url": "https://images.genius.com/1cfb5115aa216479cdb301e65d67eb57.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/1cfb5115aa216479cdb301e65d67eb57.500x500x1.jpg",
+        "id": 1423098,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429835182,
+        "path": "/Donald-fagen-h-gang-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Donald-fagen-h-gang-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 3,
+            "day": 7
+        },
+        "release_date_for_display": "March 7, 2006",
+        "release_date_with_abbreviated_month_for_display": "Mar. 7, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1cfb5115aa216479cdb301e65d67eb57.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/1cfb5115aa216479cdb301e65d67eb57.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 5004
+        },
+        "title": "H Gang",
+        "title_with_featured": "H Gang",
+        "updated_by_human_at": 1604780774,
+        "url": "https://genius.com/Donald-fagen-h-gang-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/124113",
+            "header_image_url": "https://images.genius.com/f1c9db3f86da0dc2e9dfb74b514b77ac.1000x563x1.jpg",
+            "id": 124113,
+            "image_url": "https://images.genius.com/ca8853de44236b70a2d04869fdd61f48.388x388x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Donald Fagen",
+            "slug": "Donald-fagen",
+            "url": "https://genius.com/artists/Donald-fagen"
+        },
+        "artist": "Donald Fagen",
+        "lyrics": "H Gang LyricsI hear Denise is back on the outside\nThat she's got a wicked plan\nShe's callin' in the Gong sisters again\nTo form the ultimate five chord band\n\nFor eight months now in that freaking cell\nShe's been knockin' ideas around\nNow she's good and ready to make a big noise\nRight here in her own hometown\n\nHere comes the H-Gang\nSlammin' into Hinktown\nOh, you better get off the stage, boys\n'Cause they'll be looking for a showdown\nOn a moonless night they started off\nOn a bus called Happy Day\nTo bring their vision to cities and towns\nAcross the U.S.A\n\nAnd in every club and hall they played\nThe crowd knew every word\nEven today folks are talkin' about\nThe incredible sounds they heard\n\nHere comes the H-Gang\nTurn on the floodlights\nGet off the stage son\nUnless you're ready for a kickfight\n\nWhatever happened to the H-Gang\nSome say they were the best\nI heard they broke up, Denise got hitched\nAnd she's living in the Midwest\n\nThere's a film that's in production\nThe working title, Song of Desire\n'Bout an orphan girl with this crazy red hair\nAnd a voice and a dream and a soul on fire\n\nHere comes the H-Gang\nSlammin' into Hinktown\nOh, you better get off the stage, boys\n'Cause they'll be looking for a showdown\nYou might also likeHere comes the H-Gang\nTurn on the floodlights\nGet off the stage son\nUnless you're ready for a kickfight\n\nHere comes the H-Gang\nSlammin' into Hinktown\nOh, you better get off the stage, boys\nUnless you're looking for a showdown1Embed"
+    }
+}

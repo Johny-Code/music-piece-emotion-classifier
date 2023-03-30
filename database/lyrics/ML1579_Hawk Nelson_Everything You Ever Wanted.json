@@ -1,0 +1,57 @@
+{
+    "id": "ML1579",
+    "mood": "sad",
+    "artist": "Hawk Nelson",
+    "title": "Everything You Ever Wanted",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1663039",
+        "artist_names": "Hawk Nelson",
+        "full_title": "Everything You Ever Wanted by\u00a0Hawk\u00a0Nelson",
+        "header_image_thumbnail_url": "https://images.genius.com/58e360a737fa166b10f9fabec46e7073.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/58e360a737fa166b10f9fabec46e7073.600x600x1.jpg",
+        "id": 1663039,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1623371926,
+        "path": "/Hawk-nelson-everything-you-ever-wanted-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Hawk-nelson-everything-you-ever-wanted-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 4,
+            "day": 4
+        },
+        "release_date_for_display": "April 4, 2006",
+        "release_date_with_abbreviated_month_for_display": "Apr. 4, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/58e360a737fa166b10f9fabec46e7073.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/58e360a737fa166b10f9fabec46e7073.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Everything You Ever Wanted",
+        "title_with_featured": "Everything You Ever Wanted",
+        "updated_by_human_at": 1623371926,
+        "url": "https://genius.com/Hawk-nelson-everything-you-ever-wanted-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/262077",
+            "header_image_url": "https://images.genius.com/f2b04cfc9458f9cc737ecb70374a57de.880x586x1.jpg",
+            "id": 262077,
+            "image_url": "https://images.genius.com/3955abe3b9871dcc145e69caf6e7915d.720x720x1.jpg",
+            "index_character": "h",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Hawk Nelson",
+            "slug": "Hawk-nelson",
+            "url": "https://genius.com/artists/Hawk-nelson"
+        },
+        "artist": "Hawk Nelson",
+        "lyrics": "Everything You Ever Wanted LyricsI walked the line\nLeave it all behind\nI've been waiting forever\nLets go back in time\nWhen I could read your mind\nSo long I've been waiting\n\nIt took the seasons going by\nTo know its not my fault\n\nI tried to be perfect, tried to be honest\nTried to be everything that you ever wanted\nI tried to be stronger, tried to be smarter\nTried to be everything but you\nIts been so long\nSince youve been home\nI used to wait up forever\nI used to say a prayer\nWishing you were there\nAnd im still waiting\n\nYou told me once\nYou'd show up\nBut i fell for that\nBefore I fell to pieces\nThen I woke up\nTo no one\nJust a picture of Jesus\nAnd a house left in pieces\n\nIt took the seasons going by\nTo know its not my fault\n\nI tried to be perfect, tried to be honest\nTried to be everything that you ever wanted\nI tried to be stronger, tried to be smarter\nTried to be everything but you\n\nI wanted you\nI need you\nI want to believe you [x2]\nYou might also likeI tried to be perfect, tried to be honest\nTried to be everything but you\n\nI tried to be perfect, tried to be honest\nTried to be everything that you ever wanted\nI tried to be stronger, tried to be smarter\nTried to be everything but youEmbed"
+    }
+}

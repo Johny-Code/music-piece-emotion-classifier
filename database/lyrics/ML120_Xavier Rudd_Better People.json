@@ -1,0 +1,58 @@
+{
+    "id": "ML120",
+    "mood": "relaxed",
+    "artist": "Xavier Rudd",
+    "title": "Better People",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1045421",
+        "artist_names": "Xavier Rudd",
+        "full_title": "Better People by\u00a0Xavier\u00a0Rudd",
+        "header_image_thumbnail_url": "https://images.genius.com/5a71481052e8ce96b51346e0d03041c9.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5a71481052e8ce96b51346e0d03041c9.630x630x1.jpg",
+        "id": 1045421,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1474290884,
+        "path": "/Xavier-rudd-better-people-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Xavier-rudd-better-people-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 6,
+            "day": 2
+        },
+        "release_date_for_display": "June 2, 2007",
+        "release_date_with_abbreviated_month_for_display": "Jun. 2, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5a71481052e8ce96b51346e0d03041c9.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5a71481052e8ce96b51346e0d03041c9.630x630x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Better People",
+        "title_with_featured": "Better People",
+        "updated_by_human_at": 1648206481,
+        "url": "https://genius.com/Xavier-rudd-better-people-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/31025",
+            "header_image_url": "https://images.genius.com/53f3959c646914d0b08d570888e5ef7d.1000x667x1.jpg",
+            "id": 31025,
+            "image_url": "https://images.genius.com/dd9df14113be42ec7a6605c2c597a54d.730x405x1.png",
+            "index_character": "x",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Xavier Rudd",
+            "slug": "Xavier-rudd",
+            "url": "https://genius.com/artists/Xavier-rudd",
+            "iq": 100
+        },
+        "artist": "Xavier Rudd",
+        "lyrics": "Better People LyricsPeople saving whales\nAnd giving your thanks to our seas\nMy respect to the ones in the forest\nStanding up for our old trees\n\nThem giving food to the hungry\nHope to the needy\nGiving life to a baby\nGiving care for free\nCause there is freedom around us\nWe have everything we need\nAnd I will care for you\nCause you care for me\nAnd we all have opinions\nSome of them get through\nBut there's better people\nWith more good to do\nGood to do\nAnd what I have could be a message\nOr just some words from my heart\nMy respect to the ones making changes\nFor other lives they'll give their own\n\nLike giving food to the hungry\nGiving hope to the needy\nGiving life to a baby\nGiving care for free\nCause there is freedom around us\nWe have everything we need\nAnd I will care for you\nCause you care for me\nAnd we all have opinions\nSome of them get through\nBut there's better people\nWith more good to do\nGood to Do\n\nWell our world it keeps spinning round and round it goes\nHuman nature keeps spreading its disease\nAnd our children keep growing up with what they know\nFrom what we teach and what they see\nAnd it's only a question of the time we have\nAnd the lives that our children will lead\nCause they can only keep growing up with what they know\nAnd what we teach, and what they see\nYou might also likeLike giving food to the hungry\nGiving hope to the needy\nGiving life to a baby\nGiving care for free\nCause there is freedom around us\nWe have everything we need\nAnd I will care for you\nCause you care for me\nWe all have opinions\nSome of them get through\nBut there's better people\nWith more good to do\nGood to do\nOhh, good to doEmbed"
+    }
+}

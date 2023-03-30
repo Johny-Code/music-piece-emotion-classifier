@@ -1,0 +1,72 @@
+{
+    "id": "ML1124",
+    "mood": "relaxed",
+    "artist": "Thievery Corporation",
+    "title": "Amerimacka ",
+    "song": {
+        "_type": "song",
+        "annotation_count": 10,
+        "api_path": "/songs/349823",
+        "artist_names": "Thievery Corporation (Ft. Notch)",
+        "full_title": "Amerimacka by\u00a0Thievery\u00a0Corporation (Ft.\u00a0Notch)",
+        "header_image_thumbnail_url": "https://images.genius.com/14f7cf0207da08c1f8c1c26428c70ec7.300x276x1.jpg",
+        "header_image_url": "https://images.genius.com/14f7cf0207da08c1f8c1c26428c70ec7.600x551x1.jpg",
+        "id": 349823,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 84672,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675019248,
+        "path": "/Thievery-corporation-amerimacka-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Thievery-corporation-amerimacka-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 2,
+            "day": 22
+        },
+        "release_date_for_display": "February 22, 2005",
+        "release_date_with_abbreviated_month_for_display": "Feb. 22, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/14f7cf0207da08c1f8c1c26428c70ec7.300x276x1.jpg",
+        "song_art_image_url": "https://images.genius.com/14f7cf0207da08c1f8c1c26428c70ec7.600x551x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 10,
+            "hot": false,
+            "pageviews": 8913
+        },
+        "title": "Amerimacka",
+        "title_with_featured": "Amerimacka (Ft.\u00a0Notch)",
+        "updated_by_human_at": 1672795144,
+        "url": "https://genius.com/Thievery-corporation-amerimacka-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/9972",
+                "header_image_url": "https://images.genius.com/f19dc4e51bb7c504875dc5e08c725ed0.400x400x1.jpg",
+                "id": 9972,
+                "image_url": "https://images.genius.com/f19dc4e51bb7c504875dc5e08c725ed0.400x400x1.jpg",
+                "index_character": "n",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "Notch",
+                "slug": "Notch",
+                "url": "https://genius.com/artists/Notch"
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/50825",
+            "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/och7xamugur",
+            "id": 50825,
+            "image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/och7xamugur",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Thievery Corporation",
+            "slug": "Thievery-corporation",
+            "url": "https://genius.com/artists/Thievery-corporation"
+        },
+        "artist": "Thievery Corporation",
+        "lyrics": "Amerimacka Lyrics[Verse 1: Notch]\nMiss Liberty turn inna Jezebel\nAll of the dreams you go sell turn inna hell\nHer bed of roses are filled with thorns\nHer righteous robes are tattered and torn\nIf she had only stood for love\nThat would have been enough\nShe wouldn't have to hide in her shame\nIf she had only stood for love\nThat would have been enough\nBut now we all burn in her flame\n[Hook: Notch]\nAmerimacka\nOh what a beautiful lie\nAmerimacka\nIt's like licking honey off of a knife\nAmerimacka\nOh what a beautiful sight\nAmerimacka\nOh what a beautiful lie\n\n[Verse 2: Notch]\nThe land of the free built on slavery\nHer consciousness is in captivity\nThe promised land is in the lion's den\nYour culture of greed has got to end\nNow we're laying in the mud\nLooking up above\n'Til water just a drop from the sky\nThey try to keep us in the mud\nSeparating us from love\nBut me nah go let dem conquer de I\n\n[Hook: Notch]\nAmerimacka\nOh what a beautiful lie\nAmerimacka\nIt's like licking honey off of a knife\nAmerimacka\nOh what a beautiful sight\nAmerimacka\nOh what a beautiful lie\nYou might also like[Verse 3: Notch]\nSay Amerimacka, gonna miss Amerimacka-macka\nAmerimacka, we've seen the sound of choppa-choppa\nAmerimacka, this one is like a tanka-tanka\nSay Amerimacka, me know dem are... sing-ah\nSay Amerimacka, me know dem are the attacker\nMe see the world of them and man that world is shattered-shattered\nSay Amerimacka, me see the dreams are shattered\nMe look up on the sky and man me see a little altar-altar2Embed"
+    }
+}

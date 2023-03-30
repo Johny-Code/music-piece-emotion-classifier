@@ -1,0 +1,57 @@
+{
+    "id": "ML546",
+    "mood": "happy",
+    "artist": "Suburban Kids With Biblical Names",
+    "title": "Seems To Be on My Mind",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1226755",
+        "artist_names": "Suburban Kids With Biblical Names",
+        "full_title": "Seems to Be on My Mind by\u00a0Suburban\u00a0Kids With Biblical Names",
+        "header_image_thumbnail_url": "https://images.genius.com/10876c80315971ad6ad3f3639764156e.300x266x1.jpg",
+        "header_image_url": "https://images.genius.com/10876c80315971ad6ad3f3639764156e.400x355x1.jpg",
+        "id": 1226755,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 11090074,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1596783233,
+        "path": "/Suburban-kids-with-biblical-names-seems-to-be-on-my-mind-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Suburban-kids-with-biblical-names-seems-to-be-on-my-mind-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 10,
+            "day": 12
+        },
+        "release_date_for_display": "October 12, 2005",
+        "release_date_with_abbreviated_month_for_display": "Oct. 12, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/10876c80315971ad6ad3f3639764156e.300x266x1.jpg",
+        "song_art_image_url": "https://images.genius.com/10876c80315971ad6ad3f3639764156e.400x355x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Seems to Be on My Mind",
+        "title_with_featured": "Seems to Be on My Mind",
+        "updated_by_human_at": 1596783233,
+        "url": "https://genius.com/Suburban-kids-with-biblical-names-seems-to-be-on-my-mind-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/353411",
+            "header_image_url": "https://images.genius.com/7378fd0f37903f7f57bab420d4dd5307.185x185x1.jpg",
+            "id": 353411,
+            "image_url": "https://images.genius.com/7378fd0f37903f7f57bab420d4dd5307.185x185x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Suburban Kids With Biblical Names",
+            "slug": "Suburban-kids-with-biblical-names",
+            "url": "https://genius.com/artists/Suburban-kids-with-biblical-names"
+        },
+        "artist": "Suburban Kids With Biblical Names",
+        "lyrics": "Seems to Be on My Mind Lyrics[Verse 1]\nLost track of what I had to get done\nNot meeting anyone\nStuck in one place while the snowflakes all come down\nOh, they're coming down\nYeah, they're coming down now\nPoke fun at my incompetence\nDoesn't make that much sense\nMy qualification shrinks as I'm getting old\nAs I'm getting old\nAs I'm getting older\nAll the while\n[Chorus]\nLove seems to be on my mind\nSeems to be all the time\nThis is the way I always start my songs\nSinging and swinging along\nSinging and swinging along\n\n[Verse 2]\nOh no, that anonymous feeling is true\nSo vague and pale, that blue\nSpending all my quality time with the T.V\nIs the last thing I should do\nIt's the last thing I should do\nSo long for respectable thoughts\nI roam\nPlus forty-four long distance call\nMaking me wish I was not here at home\nNow tell me all about Rome\nTell me all about Rome\n\n[Bridge]\nLove seems to be on my mind\nSeems to be all the time\nOh what a lovely way to spend your life\nNot needing anything\nJust walk around and sing\nYou might also like[Verse 3]\nI took a train\nI took a plane\nI had to get out of this place\nAnd find my love\nWhere had she gone?\nShe was lost in all this stress\nWhy must I work when I can just travel the world and have fun?\nI'm a young boy with a lot of things on my mind\n\n[Chorus]\nLove seems to be on my mind\nSeems to be all the time\nThis is the way I always end my songs\nSinging and swinging along\nSinging and swinging along\n\n[Chorus]\nLove seems to be on my mind\nSeems to be all the time\nThis is the way I always end my songs\nSinging and swinging along\nSinging and swinging alongEmbed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML616",
+    "mood": "sad",
+    "artist": "Opeth",
+    "title": "White Cluster",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/1224241",
+        "artist_names": "Opeth",
+        "full_title": "White Cluster by\u00a0Opeth",
+        "header_image_thumbnail_url": "https://images.genius.com/da17eb8970f15c03c512d5b517c07581.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/da17eb8970f15c03c512d5b517c07581.1000x1000x1.jpg",
+        "id": 1224241,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2129808,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1624214912,
+        "path": "/Opeth-white-cluster-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Opeth-white-cluster-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": 10,
+            "day": 18
+        },
+        "release_date_for_display": "October 18, 1999",
+        "release_date_with_abbreviated_month_for_display": "Oct. 18, 1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/da17eb8970f15c03c512d5b517c07581.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/da17eb8970f15c03c512d5b517c07581.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 11181
+        },
+        "title": "White Cluster",
+        "title_with_featured": "White Cluster",
+        "updated_by_human_at": 1661207619,
+        "url": "https://genius.com/Opeth-white-cluster-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/59420",
+            "header_image_url": "https://images.genius.com/8b4f52d1ecc384d81d2da6648f18ae28.450x450x1.jpg",
+            "id": 59420,
+            "image_url": "https://images.genius.com/8b4f52d1ecc384d81d2da6648f18ae28.450x450x1.jpg",
+            "index_character": "o",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Opeth",
+            "slug": "Opeth",
+            "url": "https://genius.com/artists/Opeth"
+        },
+        "artist": "Opeth",
+        "lyrics": "White Cluster Lyrics[Verse 1]\nStill it came passing by\nThe pieces weaved together rose the sun\nAnd fooled me with another day\nThe knocking message called for my life\n\n[Verse 2]\nSealed the spell of my scrawny body\nSoil to skin, my next of kin\nDamp air grasped, stole the words\nAnd greeted me with a hiss\n[Verse 3]\nThis is forgiveness, so I know\nOnce I repent I seal the lid\nI slither for you and I'm dying\nI find trust in hate\n\n[Chorus]\nThey wear white for me\nSeemingly jaded and lost\nI forge myself into your dreams\nAnd here I am your life\n\n[Bridge]\nHangman, clutching at his tools\nI will come for you\n\n[Chorus]\nThey wear white for me\nSeemingly jaded and lost\nI forge myself into your dreams\nAnd here I am your life\n\n[Guitar Solo]\n\n[Verse 4]\nThe noose is tied\nMurmur through the crowd\nPlunging into\nAnywhere but here\nYou might also like[Chorus 2]\nCloak-captured sighs of relief\nAs the primal touch brought me back\nAnd the last sight I did see is still here\nBeckoning right behind me\n\n[Guitar Solo]Embed"
+    }
+}

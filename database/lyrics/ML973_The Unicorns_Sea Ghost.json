@@ -1,0 +1,58 @@
+{
+    "id": "ML973",
+    "mood": "happy",
+    "artist": "The Unicorns",
+    "title": "Sea Ghost",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/159890",
+        "artist_names": "The Unicorns",
+        "full_title": "Sea Ghost by\u00a0The\u00a0Unicorns",
+        "header_image_thumbnail_url": "https://images.genius.com/a386d25191ef96ab0d64a01facc66d28.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/a386d25191ef96ab0d64a01facc66d28.600x600x1.jpg",
+        "id": 159890,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 125524,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1629674778,
+        "path": "/The-unicorns-sea-ghost-lyrics",
+        "pyongs_count": 3,
+        "relationships_index_url": "https://genius.com/The-unicorns-sea-ghost-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 10,
+            "day": 24
+        },
+        "release_date_for_display": "October 24, 2003",
+        "release_date_with_abbreviated_month_for_display": "Oct. 24, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/a386d25191ef96ab0d64a01facc66d28.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/a386d25191ef96ab0d64a01facc66d28.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false,
+            "pageviews": 10817
+        },
+        "title": "Sea Ghost",
+        "title_with_featured": "Sea Ghost",
+        "updated_by_human_at": 1638667030,
+        "url": "https://genius.com/The-unicorns-sea-ghost-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/53347",
+            "header_image_url": "https://images.genius.com/568a3e85f52936d746c374d0d3985c8c.400x250x1.jpg",
+            "id": 53347,
+            "image_url": "https://images.genius.com/568a3e85f52936d746c374d0d3985c8c.400x250x1.jpg",
+            "index_character": "u",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Unicorns",
+            "slug": "The-unicorns",
+            "url": "https://genius.com/artists/The-unicorns"
+        },
+        "artist": "The Unicorns",
+        "lyrics": "Sea Ghost LyricsI dove into that freezing sea\nWith the parasite attached to me\nI had hoped the salt below\nWould divorce what was wed above\n\nBut league after league\nIt yet remained\nFor the fleshy vessel I\nKept it sustained\nAnd so we froze a while surrounded by one big tear\nWhich only reminded me of a former home\nBut we weren't welcome\nThe sea made that clear\nBy filling us with saline\nAnd sailing us blue blue back into\nThe atmosphere\n\n\"You choked as you surfaced, tangled in seaweed\"\n\nBut what remained?\nOf the driving intent?\nThat led me to tract such watery depths\nMany things have betrayed me\nBetween there and here\nAnd my memory is so fucking unclear\n\nWho was I with? What time was it? Where did you go?You might also like3Embed"
+    }
+}

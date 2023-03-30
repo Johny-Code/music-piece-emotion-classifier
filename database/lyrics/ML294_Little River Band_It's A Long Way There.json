@@ -1,0 +1,57 @@
+{
+    "id": "ML294",
+    "mood": "relaxed",
+    "artist": "Little River Band",
+    "title": "It's A Long Way There",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/987041",
+        "artist_names": "Little River Band",
+        "full_title": "It's a Long Way There by\u00a0Little\u00a0River Band",
+        "header_image_thumbnail_url": "https://images.genius.com/5dfe095662c185ff971a80f20e2c9a6d.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5dfe095662c185ff971a80f20e2c9a6d.600x600x1.jpg",
+        "id": 987041,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429574271,
+        "path": "/Little-river-band-its-a-long-way-there-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Little-river-band-its-a-long-way-there-sample",
+        "release_date_components": {
+            "year": 1975,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1975",
+        "release_date_with_abbreviated_month_for_display": "1975",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5dfe095662c185ff971a80f20e2c9a6d.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5dfe095662c185ff971a80f20e2c9a6d.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "It\u2019s a Long Way There",
+        "title_with_featured": "It's a Long Way There",
+        "updated_by_human_at": 1663253745,
+        "url": "https://genius.com/Little-river-band-its-a-long-way-there-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/67151",
+            "header_image_url": "https://images.genius.com/f5592bbb2b35d587d1dff9c779e7ca9d.1000x563x1.jpg",
+            "id": 67151,
+            "image_url": "https://images.genius.com/b6f5589904fedde03b7b3d49cac185c3.214x214x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Little River Band",
+            "slug": "Little-river-band",
+            "url": "https://genius.com/artists/Little-river-band"
+        },
+        "artist": "Little River Band",
+        "lyrics": "It\u2019s a Long Way There LyricsHey, everybody, yeah, don't you feel that there's something\n\nPeople on their own are getting nowhere\nI'm on the road to see\nIf anything is anywhere or waiting, just for me\n\nEverynight I walk around the city\nSeems like I'll never know\nThat feeling of being together when I go\n\nAnd it's a long way there\nIt's a long way to where I'm going\nAnd it's a long way there\nIt's a long way to where I'm going\nHey, everybody, don't you feel that there's something\nBut you know in a moment it is gone\nI live for the day when I can hear people saying\nThat they know and they care for everyone\n\nBut I feel like I've been here for the whole of my life\nNever knowing home\n\nIt's a long way, it's a long, long, long way there\nI'm gonna keep on tryin', I'm gonna keep on tryin', yeah\nI'm gonna keep on tryin', keep on tryin'\n\nBeen away from home for such a long time\nAnd got to know this town\nBut I don't seem to matter much to anyone who's around\nIs there anybody around\n\nEverynight I walk around the city\nSeems like I'll never know\nThe feeling of being together when I go\n\nAnd it's a long way there\nIt's a long way to where I'm going\nAnd it's a long way there\nIt's a long way to where I'm going\nYou might also likeEverybody knows it's a long way there\nOh, everybody knows it's a long way there\nMmm, it's a long way\n\nDriving around's kind of getting me down and I know, and I know\nIt's a long long way there\nIt's such a long long way, long way\n\nHey, everybody, yeah, don't you feel that there's something\nFeel it, feel it\nHey, everybody, yeah, don't you feel that there's somethingEmbed"
+    }
+}

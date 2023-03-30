@@ -1,0 +1,58 @@
+{
+    "id": "ML1219",
+    "mood": "angry",
+    "artist": "Godsmack",
+    "title": "Cryin' Like a Bitch",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/273332",
+        "artist_names": "Godsmack",
+        "full_title": "Cryin' Like a Bitch by\u00a0Godsmack",
+        "header_image_thumbnail_url": "https://images.genius.com/c20b2be1a3d32d8aa852abd369ef6493.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/c20b2be1a3d32d8aa852abd369ef6493.500x500x1.jpg",
+        "id": 273332,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 308849,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1650912114,
+        "path": "/Godsmack-cryin-like-a-bitch-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Godsmack-cryin-like-a-bitch-sample",
+        "release_date_components": {
+            "year": 2010,
+            "month": 2,
+            "day": 23
+        },
+        "release_date_for_display": "February 23, 2010",
+        "release_date_with_abbreviated_month_for_display": "Feb. 23, 2010",
+        "song_art_image_thumbnail_url": "https://images.genius.com/c20b2be1a3d32d8aa852abd369ef6493.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/c20b2be1a3d32d8aa852abd369ef6493.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 12897
+        },
+        "title": "Cryin\u2019 Like a Bitch",
+        "title_with_featured": "Cryin' Like a Bitch",
+        "updated_by_human_at": 1669670763,
+        "url": "https://genius.com/Godsmack-cryin-like-a-bitch-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/67595",
+            "header_image_url": "https://images.genius.com/83146ccec670a81fdae6e8a001d153f5.1000x750x1.jpg",
+            "id": 67595,
+            "image_url": "https://images.genius.com/903414dd633e351b825bcb9ccfeac370.1000x1000x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Godsmack",
+            "slug": "Godsmack",
+            "url": "https://genius.com/artists/Godsmack"
+        },
+        "artist": "Godsmack",
+        "lyrics": "Cryin\u2019 Like a Bitch Lyrics[Intro]\n\n[Verse 1]\nStrut on by like a king\nTelling everybody they know nothing\nAnd long-lived what you thought you were\nTime ain't on your side anymore, anymore\n\n[Chorus 1]\nAnd so you tell me I can't take my chances\nBut I've told you one too many times\nAnd you were cryin' like a bitch\n[Verse 2]\nI'm tougher than nails, I can promise you that\nStep outta line and you'll get bitch-slapped back\nAnd you can run your little mouth all-day\nBut the hand of God just smacked you back into yesterday\n\n[Chorus 2]\nAnd so you tell me I can't take my chances\nBut I've told you one too many times\nAnd you were cryin' like a bitch\nAnd you wonder why no one can stand you\nThere's no denying you were cryin' like a bitch\nYou were cryin' like a bitch\n\n[Bridge]\nBlinded by your sacred faded past times, only time is your enemy\nGranted a second chance\nTo prove that your arrogance is stronger than you'll ever be\nIt's stronger than you can be\n\nOh, stronger than you can be\nOh, stronger than you can\nBe\n\n[Outro]\nAnd so you tell me I can't take my chances\nBut I've told you one too many times\nAnd you were cryin' like a bitch\nAnd you wonder why no one can stand you\nThere's no denyin' you were cryin' like a bitch\nYou might also likeYou were cryin' like a bitch\nYou were cryin' like a bitch\nYou were cryin' like a bitch\nOh, bitch4Embed"
+    }
+}

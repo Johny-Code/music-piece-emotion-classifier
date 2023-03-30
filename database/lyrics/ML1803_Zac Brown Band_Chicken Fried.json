@@ -1,0 +1,59 @@
+{
+    "id": "ML1803",
+    "mood": "happy",
+    "artist": "Zac Brown Band",
+    "title": "Chicken Fried",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/82215",
+        "artist_names": "Zac Brown Band",
+        "full_title": "Chicken Fried by\u00a0Zac\u00a0Brown Band",
+        "header_image_thumbnail_url": "https://images.genius.com/90e9d864e1cfa6ffa357e23477ea75bc.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/90e9d864e1cfa6ffa357e23477ea75bc.1000x1000x1.jpg",
+        "id": 82215,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 48951,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675096192,
+        "path": "/Zac-brown-band-chicken-fried-lyrics",
+        "pyongs_count": 28,
+        "relationships_index_url": "https://genius.com/Zac-brown-band-chicken-fried-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 11,
+            "day": 18
+        },
+        "release_date_for_display": "November 18, 2008",
+        "release_date_with_abbreviated_month_for_display": "Nov. 18, 2008",
+        "song_art_image_thumbnail_url": "https://i.imgur.com/yDjLlRN.jpg",
+        "song_art_image_url": "https://i.imgur.com/yDjLlRN.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 100407
+        },
+        "title": "Chicken Fried",
+        "title_with_featured": "Chicken Fried",
+        "updated_by_human_at": 1675096192,
+        "url": "https://genius.com/Zac-brown-band-chicken-fried-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/22928",
+            "header_image_url": "https://images.genius.com/54ec614e14f81601026afc7f84d45c8e.582x181x1.jpg",
+            "id": 22928,
+            "image_url": "https://images.genius.com/3fd9a550c2ef2b6b8d28050ee3242d58.1000x1000x1.jpg",
+            "index_character": "z",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Zac Brown Band",
+            "slug": "Zac-brown-band",
+            "url": "https://genius.com/artists/Zac-brown-band",
+            "iq": 403
+        },
+        "artist": "Zac Brown Band",
+        "lyrics": "Chicken Fried Lyrics[Intro]\nYou know I like my chicken fried\nCold beer on a Friday night\nA pair of jeans that fit just right\nAnd the radio up\n\n[Verse 1]\nWell I was raised up beneath the shade of a Georgia Pine\nAnd that's home you know\nSweet tea, pecan pie, and homemade wine where the peaches grow\nAnd my house it's not much to talk about\nBut it's filled with love that's grown in southern ground\n[Chorus]\nAnd a little bit of chicken fried\nCold beer on a Friday night\nA pair of jeans that fit just right\nAnd the radio up\nWell I've seen the sun rise\nSee the love in my woman's eyes\nFeel the touch of a precious child\nAnd know a mother's love\n\n[Verse 2]\nIt's funny how it's the little things in life that mean the most\nNot where you live, what you drive, or the price tag on your clothes\nThere's no dollar sign on a piece of mind\nThis I've come to know\nSo if you agree, have a drink with me\nRaise your glasses for a toast\n\n[Chorus]\nTo a little bit of chicken fried\nCold beer on a Friday night\nA pair of jeans that fit just right\nAnd the radio up\nWell I've seen the sun rise\nSee the love in my woman's eyes\nFeel the touch of a precious child\nAnd know a mother's love\nYou might also like[Interlude]\n\n[Verse 3]\nI thank God for my life\nAnd for the stars and stripes\nMay freedom forever fly, let it ring\nSalute the ones who died\nThe ones that give their lives so we don't have to sacrifice\nAll the things we love\n\n[Chorus]\nLike our chicken fried\nAnd cold beer on a Friday night\nA pair of jeans that fit just right\nAnd the radio up\nWell I've seen the sun rise\nSee the love in my woman's eyes\nFeel the touch of a precious child\nAnd know a mother's love\nGet your little chicken fried\nCold beer on a Friday night\nA pair of jeans that fit just right\nAnd the radio up\nWell I've done seen the sun rise\nSee the love in my woman's eyes\nFeel the touch of a precious child\nAnd know a mother's love28Embed"
+    }
+}

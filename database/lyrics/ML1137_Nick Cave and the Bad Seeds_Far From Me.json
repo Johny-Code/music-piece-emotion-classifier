@@ -1,0 +1,58 @@
+{
+    "id": "ML1137",
+    "mood": "sad",
+    "artist": "Nick Cave and the Bad Seeds",
+    "title": "Far From Me",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/309063",
+        "artist_names": "Nick Cave & The Bad Seeds",
+        "full_title": "Far From Me by\u00a0Nick\u00a0Cave & The Bad Seeds",
+        "header_image_thumbnail_url": "https://images.genius.com/8d394ed3bf32fb712ecbd1369fc77561.300x300x1.png",
+        "header_image_url": "https://images.genius.com/8d394ed3bf32fb712ecbd1369fc77561.999x999x1.png",
+        "id": 309063,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 320866,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1650752555,
+        "path": "/Nick-cave-and-the-bad-seeds-far-from-me-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Nick-cave-and-the-bad-seeds-far-from-me-sample",
+        "release_date_components": {
+            "year": 1997,
+            "month": 3,
+            "day": 3
+        },
+        "release_date_for_display": "March 3, 1997",
+        "release_date_with_abbreviated_month_for_display": "Mar. 3, 1997",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8d394ed3bf32fb712ecbd1369fc77561.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/8d394ed3bf32fb712ecbd1369fc77561.999x999x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 16851
+        },
+        "title": "Far From Me",
+        "title_with_featured": "Far From Me",
+        "updated_by_human_at": 1645731215,
+        "url": "https://genius.com/Nick-cave-and-the-bad-seeds-far-from-me-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/39212",
+            "header_image_url": "https://images.genius.com/06be42daeb2e6171f9060573a3118add.1000x476x1.jpg",
+            "id": 39212,
+            "image_url": "https://images.genius.com/fda40d71a232dcbf296fef998e6c7d9d.478x478x1.png",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Nick Cave & The Bad Seeds",
+            "slug": "Nick-cave-and-the-bad-seeds",
+            "url": "https://genius.com/artists/Nick-cave-and-the-bad-seeds"
+        },
+        "artist": "Nick Cave & The Bad Seeds",
+        "lyrics": "Far From Me Lyrics[Verse 1]\nFor you, dear, I was born\nFor you I was raised up\nFor you I've lived and for you I will die\nFor you I am dying now\nYou were my mad little lover\nIn a world where everybody fucks everybody else over\n\n[Chorus]\nYou who are so far from me\nSo far from me\nWay across some cold neurotic sea\nFar from me\n[Verse 2]\nI would talk to you of all matter of things\nWith a smile you would reply\nThen the sun would leave your pretty face\nAnd you'd retreat from the front of your eyes\nI keep hearing that you're doing your best\nI hope your heart beats happy in your infant breast\n\n[Chorus]\nYou are so far from me\nFar from me\nFar from me\n\n[Verse 3]\nThere is no knowledge but I know it\nThere's nothing to learn from that vacant voice\nThat sails to me across the line\nFrom the ridiculous to the sublime\nIt's good to hear you're doing so well\nBut really can't you find somebody else that you can ring and tell?\n\n[Chorus]\nDid you ever care for me?\nWere you ever there for me?\nSo far from me\nYou might also like[Verse 4]\nYou told me you'd stick by me\nThrough the thick and through the thin\nThose were your very words\nMy fair-weather friend\nYou were my brave-hearted lover\nAt the first taste of trouble went running back to mother\n\n[Chorus]\nSo far from me\nFar from me\nSuspended in your bleak and fishless sea\nFar from me\nFar from me2Embed"
+    }
+}

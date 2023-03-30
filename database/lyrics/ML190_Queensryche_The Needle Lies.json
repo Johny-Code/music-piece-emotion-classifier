@@ -1,0 +1,72 @@
+{
+    "id": "ML190",
+    "mood": "angry",
+    "artist": "Queensryche",
+    "title": "The Needle Lies",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/697039",
+        "artist_names": "Queensr\u00ffche (Ft. Anthony Valentine)",
+        "full_title": "The Needle Lies by\u00a0Queensr\u00ffche (Ft.\u00a0Anthony\u00a0Valentine)",
+        "header_image_thumbnail_url": "https://images.genius.com/3f9034a7bad09ed6df522a446fd54d68.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3f9034a7bad09ed6df522a446fd54d68.1000x1000x1.jpg",
+        "id": 697039,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1496509,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1622375274,
+        "path": "/Queensryche-the-needle-lies-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Queensryche-the-needle-lies-sample",
+        "release_date_components": {
+            "year": 1988,
+            "month": 5,
+            "day": 3
+        },
+        "release_date_for_display": "May 3, 1988",
+        "release_date_with_abbreviated_month_for_display": "May. 3, 1988",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3f9034a7bad09ed6df522a446fd54d68.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3f9034a7bad09ed6df522a446fd54d68.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 5849
+        },
+        "title": "The Needle Lies",
+        "title_with_featured": "The Needle Lies (Ft.\u00a0Anthony\u00a0Valentine)",
+        "updated_by_human_at": 1631900576,
+        "url": "https://genius.com/Queensryche-the-needle-lies-lyrics",
+        "featured_artists": [
+            {
+                "_type": "artist",
+                "api_path": "/artists/2035687",
+                "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+                "id": 2035687,
+                "image_url": "https://assets.genius.com/images/default_avatar_300.png?1679675825",
+                "index_character": "a",
+                "is_meme_verified": false,
+                "is_verified": false,
+                "name": "Anthony Valentine",
+                "slug": "Anthony-valentine",
+                "url": "https://genius.com/artists/Anthony-valentine"
+            }
+        ],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/106538",
+            "header_image_url": "https://images.genius.com/5a40261019d9d3dace853c11285e0f4e.800x310x1.png",
+            "id": 106538,
+            "image_url": "https://images.genius.com/79afb29d92f796dd53795e4636923b04.848x848x1.jpg",
+            "index_character": "q",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Queensr\u00ffche",
+            "slug": "Queensryche",
+            "url": "https://genius.com/artists/Queensryche"
+        },
+        "artist": "Queensr\u00ffche",
+        "lyrics": "The Needle Lies Lyrics[Intro, spoken]\n[Nikki]\nI've had enough, and I want out!\n\n[Metal box thrown off table, hits floor]\n\n[Dr. X]\nYou can't walk away now. [Laughs]\n\n[Instrumentation begins, Verse 1]\nI looked back once\nAnd all I saw was his face\nSmiling, the needle crying\nWalking out of his room with mirrors\nAfraid, I heard him scream\n'You'll never get away'\n[Verse 2]\nCold and shaking\nI crawled down alleys to try\nAnd scrape away the tracks that marked me\nSlammed my face into walls of concrete\nI stared, amazed at the words written on the wall\n\n[Chorus]\nDon't ever trust\nDon't ever trust the needle, it lies\nDon't ever trust\nDon't ever trust the needle when it cries\nCries your name\n\n[Guitar solo]\n\n[Verse 3]\nWet and raving\nThe needle keeps calling me back\nTo bloody my hands forever\nCarved my cure with the blade\nThat left me in scars\nNow every time I'm weak\nWords scream from my arm\n\n[Extended Chorus]\nDon't ever trust\nDon't ever trust the needle, it lies\nDon't ever trust\nDon't ever trust the needle when it cries\nCries your name\nYou might also likeDon't ever trust\nDon't ever trust the needle, it lies\nDon't ever trust\nDon't ever trust the needle when it cries\nCries your nameEmbed"
+    }
+}

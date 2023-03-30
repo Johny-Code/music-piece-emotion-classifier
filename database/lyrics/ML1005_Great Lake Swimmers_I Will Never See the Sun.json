@@ -1,0 +1,53 @@
+{
+    "id": "ML1005",
+    "mood": "relaxed",
+    "artist": "Great Lake Swimmers",
+    "title": "I Will Never See the Sun",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/79889",
+        "artist_names": "Great Lake Swimmers",
+        "full_title": "I Will Never See the Sun by\u00a0Great\u00a0Lake Swimmers",
+        "header_image_thumbnail_url": "https://images.genius.com/118b45f27c298ad38b81a564e1e3a6d2.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/118b45f27c298ad38b81a564e1e3a6d2.316x316x1.jpg",
+        "id": 79889,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 83101,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1428358017,
+        "path": "/Great-lake-swimmers-i-will-never-see-the-sun-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Great-lake-swimmers-i-will-never-see-the-sun-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/118b45f27c298ad38b81a564e1e3a6d2.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/118b45f27c298ad38b81a564e1e3a6d2.316x316x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false
+        },
+        "title": "I Will Never See the Sun",
+        "title_with_featured": "I Will Never See the Sun",
+        "updated_by_human_at": 1473271891,
+        "url": "https://genius.com/Great-lake-swimmers-i-will-never-see-the-sun-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/223995",
+            "header_image_url": "https://images.genius.com/94e782b0be116cc270261c2d22be2e75.1000x563x1.jpg",
+            "id": 223995,
+            "image_url": "https://images.genius.com/b15535cfc4a8d8ff810ec57d3e279d7c.395x395x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Great Lake Swimmers",
+            "slug": "Great-lake-swimmers",
+            "url": "https://genius.com/artists/Great-lake-swimmers"
+        },
+        "artist": "Great Lake Swimmers",
+        "lyrics": "I Will Never See the Sun Lyrics[Chorus]\nI will never see the sun\nSpadina, St. George, Bay, and Yonge\nOne for nothing, all for one\nSpadina, St. George, Bay and Yonge\nHey you look like royalty\nWeren't you born with muddy feet?\nHoarse, in high tops, totally lost\nThose two streets will never meet\n[Chorus]\n\nSo the map says 'you are here'\nWaltzing in a garbage pile\nSweating like a weather's vein\nCoughing thunder, sneezing rain\n\n[Chorus]\n\nThere's a rag just up the street\nEats his history to keep warm\nGot some blankets, got some bags\nScreams confessions, shouts in vainYou might also likeEmbed"
+    }
+}

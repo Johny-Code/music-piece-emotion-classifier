@@ -1,0 +1,59 @@
+{
+    "id": "ML419",
+    "mood": "sad",
+    "artist": "Marilyn Manson",
+    "title": "A Place In The Dirt",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/336052",
+        "artist_names": "Marilyn Manson",
+        "full_title": "A Place in the Dirt by\u00a0Marilyn\u00a0Manson",
+        "header_image_thumbnail_url": "https://images.genius.com/961eb293a9b23fdf6ded027b2ee5c910.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/961eb293a9b23fdf6ded027b2ee5c910.905x905x1.jpg",
+        "id": 336052,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 354385,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1634645288,
+        "path": "/Marilyn-manson-a-place-in-the-dirt-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Marilyn-manson-a-place-in-the-dirt-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": 11,
+            "day": 11
+        },
+        "release_date_for_display": "November 11, 2000",
+        "release_date_with_abbreviated_month_for_display": "Nov. 11, 2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/961eb293a9b23fdf6ded027b2ee5c910.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/961eb293a9b23fdf6ded027b2ee5c910.905x905x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 11124
+        },
+        "title": "A Place in the Dirt",
+        "title_with_featured": "A Place in the Dirt",
+        "updated_by_human_at": 1648415221,
+        "url": "https://genius.com/Marilyn-manson-a-place-in-the-dirt-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/2065",
+            "header_image_url": "https://images.genius.com/5a0db97e404d399703cc63eb9b803415.1000x333x1.jpg",
+            "id": 2065,
+            "image_url": "https://images.genius.com/11eb5a9520882f2f0891cd7d4cd462d0.900x900x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Marilyn Manson",
+            "slug": "Marilyn-manson",
+            "url": "https://genius.com/artists/Marilyn-manson",
+            "iq": 869
+        },
+        "artist": "Marilyn Manson",
+        "lyrics": "A Place in the Dirt Lyrics[Verse 1]\nWe are damned, we are dead\nAll God's children to be sent\nTo our perfect place\nIn the sun, in the dirt\nThere's a windshield in my heart\nWe are bugs so smeared and scarred\nCould you stop the meat from thinking 'fore I swallow all of it?\nCould you, please?\n\n[Chorus]\nPut me in the motorcade\nPut me in the death parade\nDress me up and take me\nDress me up and make me your dying God\n[Verse 2]\nAngels with needles poked through our eyes\nLet the ugly light world in\nWe were no longer blind\nWe were no longer blind\n\n[Chorus]\nPut me in the motorcade\nPut me in the death parade\nDress me up and take me\nDress me up and make me your dying God\n\n[Outro]\nNow we hold the \"ugly head\"\nThe Mary-whore is at the bed\nThey cast the shadow of our perfect death\nIn the sun and in the dirtYou might also like1Embed"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "id": "ML1345",
+    "mood": "sad",
+    "artist": "Keri Noble",
+    "title": "Bartender",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1166634",
+        "artist_names": "Keri Noble",
+        "full_title": "Bartender by\u00a0Keri\u00a0Noble",
+        "header_image_thumbnail_url": "https://images.genius.com/8d623bc5b261cd3670f057be24f30b00.272x272x1.jpg",
+        "header_image_url": "https://images.genius.com/8d623bc5b261cd3670f057be24f30b00.272x272x1.jpg",
+        "id": 1166634,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429677739,
+        "path": "/Keri-noble-bartender-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Keri-noble-bartender-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/8d623bc5b261cd3670f057be24f30b00.272x272x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8d623bc5b261cd3670f057be24f30b00.272x272x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Bartender",
+        "title_with_featured": "Bartender",
+        "updated_by_human_at": 1477021218,
+        "url": "https://genius.com/Keri-noble-bartender-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/353314",
+            "header_image_url": "https://images.genius.com/9a522b303ba72be63522420321bf536f.904x218x1.jpg",
+            "id": 353314,
+            "image_url": "https://images.genius.com/3f48467e250100ddf6948a74a3a97537.1000x1000x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Keri Noble",
+            "slug": "Keri-noble",
+            "url": "https://genius.com/artists/Keri-noble"
+        },
+        "artist": "Keri Noble",
+        "lyrics": "Bartender LyricsBartender another\nAnd make it a double\nI can't go home\nI'm in some kind of trouble\n\nWhat started so innocently\nTurned to sin\nAnd I can't get out\nI am too deep in\n\nHave you ever had everything you'd ever wanted\nA good life, good friends and a loving companion\nWell take a hard look and pay real close attention\nI threw it all away with reckless abandon\nOn a pair of caramel eyes\nI found out how quickly I'd learned to lie\nDon't judge me til you've walked a mile in my shoes\nThings aren't always as they seem\nCause being with him was like falling asleep\nGoing home was like waking from some kind of dream\nThe kind that you hope never ends\nBut real life is not something I can suspend\n\nBartender another\nAnd make it a double\nI can't go home\nI'm in some kind of trouble\n\nWhat started so innocently\nTurned to sin\nAnd I can't get out\nI am too deep\n\nToo deep\nToo deep\nInYou might also likeEmbed"
+    }
+}

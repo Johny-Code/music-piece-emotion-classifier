@@ -1,0 +1,58 @@
+{
+    "id": "ML1043",
+    "mood": "happy",
+    "artist": "Blink-182",
+    "title": "Man Overboard",
+    "song": {
+        "_type": "song",
+        "annotation_count": 11,
+        "api_path": "/songs/174045",
+        "artist_names": "\u200b\u200bblink-182",
+        "full_title": "Man Overboard by\u00a0\u200b\u200bblink-182",
+        "header_image_thumbnail_url": "https://images.genius.com/b1b08d57fec774023ac86947932f909c.300x299x1.jpg",
+        "header_image_url": "https://images.genius.com/b1b08d57fec774023ac86947932f909c.577x575x1.jpg",
+        "id": 174045,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 125524,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1670302234,
+        "path": "/Blink-182-man-overboard-lyrics",
+        "pyongs_count": 14,
+        "relationships_index_url": "https://genius.com/Blink-182-man-overboard-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": 9,
+            "day": 2
+        },
+        "release_date_for_display": "September 2, 2000",
+        "release_date_with_abbreviated_month_for_display": "Sep. 2, 2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b1b08d57fec774023ac86947932f909c.300x299x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b1b08d57fec774023ac86947932f909c.577x575x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 43693
+        },
+        "title": "Man Overboard",
+        "title_with_featured": "Man Overboard",
+        "updated_by_human_at": 1670302234,
+        "url": "https://genius.com/Blink-182-man-overboard-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/13373",
+            "header_image_url": "https://images.genius.com/fd6717e00817baa6560e755f5815d682.666x1000x1.jpg",
+            "id": 13373,
+            "image_url": "https://images.genius.com/862e771ca4c0623957c33ea5a4b1b0e8.1000x1000x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "\u200b\u200bblink-182",
+            "slug": "Blink-182",
+            "url": "https://genius.com/artists/Blink-182"
+        },
+        "artist": "\u200b\u200bblink-182",
+        "lyrics": "Man Overboard Lyrics[Intro: Tom DeLonge (Mark Hoppus)]\n(So sorry it's over)\n(So sorry it's over)\n(So sorry it's over) There's so much more that I wanted and\n(So sorry it's over) There's so much more that I needed and\nTime keeps moving on and on and on\nSoon we'll all be gone\n\n[Verse 1: Mark Hoppus]\nLet's take some time to talk this over\nYou're out of line and rarely sober\nWe can't depend on your excuses\n'Cause in the end it's fucking useless\n[Chorus: Tom DeLonge]\nYou can only lean on me for so long\nBring the ship about to watch a friend drown\nSit out on the ledge, begged you to come down\nYou can only lean on me for so long\n\n[Verse 2: Mark Hoppus]\nI remember shots without a chaser\nAbsentminded thoughts, now you're a stranger\nCover up the scars, put on your game face\nLeft you in the bar to try and save face\n\n[Chorus: Tom DeLonge]\nYou can only lean on me for so long\nBring the ship about to watch a friend drown\nSit out on the ledge, begged you to come down\nYou can only lean on me for so long\n\n[Bridge: Tom DeLonge (Mark Hoppus)]\n(So sorry it's over)\n(So sorry it's over)\n(So sorry it's over) There's so much more that I wanted and\n(So sorry it's over) There's so much more that I needed and\nTime keeps moving on and on and on\nSoon we'll all be gone\nYou might also like[Outro: Mark Hoppus]\nMan on a mission, can't say I miss him around\nInsider information, hand in your resignation\nLoss of a good friend, best of intentions I found\nTight-lipped procrastination, yeah later, see you around14Embed"
+    }
+}

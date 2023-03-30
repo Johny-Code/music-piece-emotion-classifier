@@ -1,0 +1,57 @@
+{
+    "id": "ML882",
+    "mood": "angry",
+    "artist": "Cradle of Filth",
+    "title": "Lovesick for Mina",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/1547796",
+        "artist_names": "Cradle of Filth",
+        "full_title": "Lovesick for Mina by\u00a0Cradle\u00a0of Filth",
+        "header_image_thumbnail_url": "https://images.genius.com/b2aac60a35e09e2037f8f294d8c57477.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b2aac60a35e09e2037f8f294d8c57477.600x600x1.jpg",
+        "id": 1547796,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3543367,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1651067749,
+        "path": "/Cradle-of-filth-lovesick-for-mina-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Cradle-of-filth-lovesick-for-mina-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 10,
+            "day": 17
+        },
+        "release_date_for_display": "October 17, 2006",
+        "release_date_with_abbreviated_month_for_display": "Oct. 17, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b2aac60a35e09e2037f8f294d8c57477.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b2aac60a35e09e2037f8f294d8c57477.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false
+        },
+        "title": "Lovesick for Mina",
+        "title_with_featured": "Lovesick for Mina",
+        "updated_by_human_at": 1665610943,
+        "url": "https://genius.com/Cradle-of-filth-lovesick-for-mina-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/74196",
+            "header_image_url": "https://s3.amazonaws.com/rapgenius/cof1.jpg",
+            "id": 74196,
+            "image_url": "https://s3.amazonaws.com/rapgenius/cof1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Cradle of Filth",
+            "slug": "Cradle-of-filth",
+            "url": "https://genius.com/artists/Cradle-of-filth"
+        },
+        "artist": "Cradle of Filth",
+        "lyrics": "Lovesick for Mina LyricsOne might see in Mina my disease\nBut it was She who has infected me for all eternity\n\nAs the sun slips the tearaway stars\nInto the scented scheme of night\nI kissed her mouth like a dark red rose\nSet upon a marbled dream of white\nSo pure of thought like a Vestal statue\nJewelled with a God-lent grace\nI was close to coming when she bid adieu\nFuelled by heartache rent upon her face there\nOh Mina, obscener\nThoughts obsess my days\nOh Mina, obscener\nThoughts possess me\nThat I must now obey\n\nThey say the darkest hour is that before the dawn\nWhen nothing in one's power can dissipate the great forlorn\nShadows of fire that haunt me\nLike risen whispers of her name\nFor dawn is a dusk wherein needs must\nErupt from the grave, aflame\n\nWritten in the dead of night, dead of night\nAnd riding on the burning wind\nSmitten by her read delight, read delight\nMy words alight like leaves of sin\n\nStepping through a mirror\nThe princess of the emerald glass\nBrought me one step nearer\nLove's infernal past\n\nThey say Hell hath no furies like a woman scorned by life\nWhen the Heavenly Judge and juries participate to chain this wife\nWith forced virtue Her secret needs drew on my foreign blood\nOn warm we nights with storm-wracked bites I gave her Eden after the flood\nYou might also likeWritten in the dead of night, dead of night\nAnd riding on the burning wind\nSmitten by her read delight, read delight\nMy words alight like leaves of sin\n\nVerona, Marishka, Aleera\nBrides of old and goddesses all\nForgive my wishes to be always near her\nForever or whenever seas recall\n\nThe Aphrodite from my embrace\nFor as Mars whom her lips placate\nI tore these shores with wars of hatred\nBefore our Paris set his fate\nIn Helen, one might find mistake\nIn winning tragedy for all eternity\n\nI am still lovesick for Mina\nI am still so lovesick for her\nI am still lovesick for Mina\nI am still so lovesick for herEmbed"
+    }
+}

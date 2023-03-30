@@ -1,0 +1,53 @@
+{
+    "id": "ML1806",
+    "mood": "happy",
+    "artist": "The Little Willies",
+    "title": "Lou Reed",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1377057",
+        "artist_names": "The Little Willies",
+        "full_title": "Lou Reed by\u00a0The\u00a0Little Willies",
+        "header_image_thumbnail_url": "https://images.genius.com/3eb35cf09aaae6a4ea3b3925fc912f4a.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3eb35cf09aaae6a4ea3b3925fc912f4a.1000x1000x1.jpg",
+        "id": 1377057,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429796818,
+        "path": "/The-little-willies-lou-reed-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-little-willies-lou-reed-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/3eb35cf09aaae6a4ea3b3925fc912f4a.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3eb35cf09aaae6a4ea3b3925fc912f4a.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Lou Reed",
+        "title_with_featured": "Lou Reed",
+        "updated_by_human_at": 1581163679,
+        "url": "https://genius.com/The-little-willies-lou-reed-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/364506",
+            "header_image_url": "https://images.genius.com/6124fddcfb46f4ee55c861511f7eb547.600x600x1.jpg",
+            "id": 364506,
+            "image_url": "https://images.genius.com/6124fddcfb46f4ee55c861511f7eb547.600x600x1.jpg",
+            "index_character": "l",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Little Willies",
+            "slug": "The-little-willies",
+            "url": "https://genius.com/artists/The-little-willies"
+        },
+        "artist": "The Little Willies",
+        "lyrics": "Lou Reed LyricsWe were drivin through West Texas\nThe land of beef and pork\nWhere they tend the hides of leather\nWe wear back in New York\nIn a pasture, along a roadside\nBehind a brokedown shack\nOn a dusky side of evening\nWe saw a figure dressed in black\n\nAnd we don't mean to sound like we're trippin\nBut we swear to God\nWe saw Lou Reed cow tippin\nCow tippin\nHey Lou, \"Is that you?\"\nShe said as we pulled to the shoulder\nHe just said, \"Go screw.\"\nAnd then he turned and tipped one over\nUnder a spitshine Western sky\nThe color of blue varnish\nHey it's like Fellini\nActually I'm thinkin more like Jim Jarmusch\n\nAnd we can't say how much we've been sippin\nBut we swear to God\nWe saw Lou Reed cow tippin\nCow tippin\n\nI got cops on the cell\nI said I got a little story to tell\nLou Reed is in the cow pen\nThey said, Oh no! Not again!\n\nAnd we hope our perceptions isn't slippin\nBut we swear to God\nWe saw Lou Reed cow tippin\nCow tippin\n\nCow tippin\nCow tippin\nCow tippin\nYou really think that was Lou Reed?\nCow tippin\nI'm sure it was, he was wearing black Levis\nCow tippin\nI thought he was a vegetarian\nCow tippin\nHe's just tippin them over, he wasn't eating them\nCow tippin\nOh\nCow tippinYou might also likeEmbed"
+    }
+}

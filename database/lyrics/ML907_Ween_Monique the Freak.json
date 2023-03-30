@@ -1,0 +1,57 @@
+{
+    "id": "ML907",
+    "mood": "happy",
+    "artist": "Ween",
+    "title": "Monique the Freak",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1125000",
+        "artist_names": "Ween",
+        "full_title": "Monique the Freak by\u00a0Ween",
+        "header_image_thumbnail_url": "https://images.genius.com/74d9642c0206bcfe9005b6c4c47f0223.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/74d9642c0206bcfe9005b6c4c47f0223.1000x1000x1.jpg",
+        "id": 1125000,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2149106,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1622053007,
+        "path": "/Ween-monique-the-freak-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Ween-monique-the-freak-sample",
+        "release_date_components": {
+            "year": 1999,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1999",
+        "release_date_with_abbreviated_month_for_display": "1999",
+        "song_art_image_thumbnail_url": "https://images.genius.com/74d9642c0206bcfe9005b6c4c47f0223.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/74d9642c0206bcfe9005b6c4c47f0223.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Monique the Freak",
+        "title_with_featured": "Monique the Freak",
+        "updated_by_human_at": 1622053007,
+        "url": "https://genius.com/Ween-monique-the-freak-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/30607",
+            "header_image_url": "https://images.genius.com/0610a06629e5171b9ecaf2f1c3b1ce96.1000x421x1.jpg",
+            "id": 30607,
+            "image_url": "https://images.genius.com/fd8de174f16a783c2c60e23078da163a.519x519x1.jpg",
+            "index_character": "w",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Ween",
+            "slug": "Ween",
+            "url": "https://genius.com/artists/Ween"
+        },
+        "artist": "Ween",
+        "lyrics": "Monique the Freak LyricsOh mercy\nGirl you lookin' sexy\nMovin' on across the floor\nOh mercy\nGirl you look so sexy\nSaw you comin' through the door\n\nOh baby, such a fine lady\nTalkin' and your voice is deep\nOh baby, such a fine lady\nI can hardly speak - Monique!\nShe's a freak, Monique\nI think I'm gonna tweek\nShe's a freak, Monique\nI can hardly speak\nShe's a freak, Monique\nI think I'm gonna tweek\nShe's a freak, Monique\nI can hardly speak\n\nSexy baby, girl you drive me crazy\nLet me take you for a drive\nSexy baby, girl you drive me crazy\nMy body comes alive (body comes alive)\n\nGot to make you mine\nGirl, you so divine\nOh, there's no use tryin'\nMake ya feel so fine\nGot to have you girl\nTake you 'round the world\nMake ya start to swirl\nSuch a lovely girl\n\nShe's a freak, Monique\nI think I'm gonna tweak\nShe's a freak, Monique\nI can hardly speak\nShe's a freak, Monique\nI think I'm gonna tweak\nShe's a freak, Monique\nI can hardly speak\nYou might also likeOooooooh... Freak!\nOooooooh... Freak!\nFreaky girl, freaky girl, freaky girl (Oooooooh... Freak!)\nFreaky girl, freaky girl, alright\nFreaky girl, freaky girl, freaky girl (Oooooooh... Freak!)\nFreaky girl, freaky girl -\n\nSexy baby, girl you drive me crazy\nLet me take you for a drive (let me take you for a drive)\nSexy baby, girl you drive me crazy\nMy body comes alive\n\nGot to make you mine\nGirl, you so divine\nOh, there's no use tryin'\nMake ya feel so fine\nGot to have you girl\nTake you 'round the world\nMake ya start to swirl\nSuch a lovely girl\n\nShe's a freak, Monique\nI think I'm gonna tweak\nShe's a freak, Monique\nI can hardly speak\nShe's a freak, Monique\nI think I'm gonna tweak (I think I'm gonna tweak)\nShe's a freak, Monique\nI can hardly speak (I can hardly speak)Embed"
+    }
+}

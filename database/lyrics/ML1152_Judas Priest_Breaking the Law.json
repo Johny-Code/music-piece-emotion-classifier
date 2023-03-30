@@ -1,0 +1,58 @@
+{
+    "id": "ML1152",
+    "mood": "angry",
+    "artist": "Judas Priest",
+    "title": "Breaking the Law",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/73842",
+        "artist_names": "Judas Priest",
+        "full_title": "Breaking the Law by\u00a0Judas\u00a0Priest",
+        "header_image_thumbnail_url": "https://images.genius.com/442f47816b8f7de78eba2c67bab6b105.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/442f47816b8f7de78eba2c67bab6b105.1000x1000x1.jpg",
+        "id": 73842,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 89768,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1671895932,
+        "path": "/Judas-priest-breaking-the-law-lyrics",
+        "pyongs_count": 8,
+        "relationships_index_url": "https://genius.com/Judas-priest-breaking-the-law-sample",
+        "release_date_components": {
+            "year": 1980,
+            "month": 4,
+            "day": 14
+        },
+        "release_date_for_display": "April 14, 1980",
+        "release_date_with_abbreviated_month_for_display": "Apr. 14, 1980",
+        "song_art_image_thumbnail_url": "https://images.genius.com/c246ab43f9116ffc798e418b05842f79.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/c246ab43f9116ffc798e418b05842f79.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 53665
+        },
+        "title": "Breaking the Law",
+        "title_with_featured": "Breaking the Law",
+        "updated_by_human_at": 1671898268,
+        "url": "https://genius.com/Judas-priest-breaking-the-law-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/17236",
+            "header_image_url": "https://images.genius.com/47671fa3334ba2e1e328cb4617586b8f.1000x500x1.jpg",
+            "id": 17236,
+            "image_url": "https://images.genius.com/73afa8be496db02bd26310405f47e003.1000x1000x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Judas Priest",
+            "slug": "Judas-priest",
+            "url": "https://genius.com/artists/Judas-priest"
+        },
+        "artist": "Judas Priest",
+        "lyrics": "Breaking the Law Lyrics[Verse 1]\nThere I was completely wasting, out of work and down\nAll inside it's so frustrating as I drift from town to town\nFeel as though nobody cares if I live or die\nSo I might as well begin to put some action in my life\n\n[Chorus]\nBreaking the law, breaking the law\nBreaking the law, breaking the law\nBreaking the law, breaking the law\nBreaking the law, breaking the law\n[Verse 2]\nSo much for the golden future, I can't even start\nI've had every promise broken, there's anger in my heart\nYou don't know what it's like, you don't have a clue\nIf you did you'd find yourselves doing the same thing too\n\n[Chorus]\nBreaking the law, breaking the law\nBreaking the law, breaking the law\nBreaking the law, breaking the law\nBreaking the law, breaking the law\n\n[Bridge]\nYou don't know what it's like\n\n[Instrumental Break]\n\n[Chorus]\nBreaking the law, breaking the law\nBreaking the law, breaking the law\nBreaking the law, breaking the law\nBreaking the law, breaking the law\n\n[Outro]\nBreaking the law, breaking the law\nBreaking the law, breaking the law\nBreaking the law, breaking the law\nBreaking the law, breaking the lawYou might also like8Embed"
+    }
+}

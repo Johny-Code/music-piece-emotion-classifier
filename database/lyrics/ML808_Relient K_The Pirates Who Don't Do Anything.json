@@ -1,0 +1,58 @@
+{
+    "id": "ML808",
+    "mood": "happy",
+    "artist": "Relient K",
+    "title": "The Pirates Who Don't Do Anything",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1546581",
+        "artist_names": "Relient K",
+        "full_title": "The Pirates Who Don't Do Anything by\u00a0Relient\u00a0K",
+        "header_image_thumbnail_url": "https://images.genius.com/1ccfdd1210c707d31d9e771cf5ea5287.300x300x1.png",
+        "header_image_url": "https://images.genius.com/1ccfdd1210c707d31d9e771cf5ea5287.500x500x1.png",
+        "id": 1546581,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1643308238,
+        "path": "/Relient-k-the-pirates-who-dont-do-anything-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Relient-k-the-pirates-who-dont-do-anything-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 3,
+            "day": 9
+        },
+        "release_date_for_display": "March 9, 2004",
+        "release_date_with_abbreviated_month_for_display": "Mar. 9, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/1ccfdd1210c707d31d9e771cf5ea5287.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/1ccfdd1210c707d31d9e771cf5ea5287.500x500x1.png",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 7545
+        },
+        "title": "The Pirates Who Don\u2019t Do Anything",
+        "title_with_featured": "The Pirates Who Don't Do Anything",
+        "updated_by_human_at": 1643308239,
+        "url": "https://genius.com/Relient-k-the-pirates-who-dont-do-anything-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/18124",
+            "header_image_url": "https://images.genius.com/dc5457f4186c0a49ec4ed8500e0be8df.960x960x1.jpg",
+            "id": 18124,
+            "image_url": "https://images.genius.com/d23f9b72f4b481960496763cb046709e.1000x1000x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Relient K",
+            "slug": "Relient-k",
+            "url": "https://genius.com/artists/Relient-k"
+        },
+        "artist": "Relient K",
+        "lyrics": "The Pirates Who Don\u2019t Do Anything LyricsArr! Arr! ARr! ARR!\n\nWe are the pirates who don't do anything\nWe just stay at home and lie around\nAnd if you ask us to do anything\nWe'll just tell you we don't do anything!\n\nWell, I've never been to Greenland\nAnd I've never been to Denver\nAnd I've never buried treasure in St. Louie or St. Paul\nAnd I've never been to Moscow\nAnd I've never been to Tampa\nAnd I've never been to Boston in the fall!\n'Cause We're the pirates who don't do anything\nWe just stay at home and lie around\nAnd if you ask us to do anything\nWe'll just tell you we don't do anything!\n\nAnd I never hoist the mainstay\nAnd I've never swabbed the poop deck\nAnd I never veer to starboard\nCause I never sail at all\n\nAnd I've never walked the gangplank\nAnd I've never owned a parrot\nAnd I've never been to Boston in the fall!\n\n'Cause were the pirates who don't do anything\nWe just stay at home and lie around\nAnd if you ask us to do anything\nWe'll just tell you we don't do anything!\n\nWell, I've never plucked a rooster\nAnd I'm not too good at ping pong\nAnd I've never thrown my mashed potatos\nUp against the wall\n\nAnd I've never kissed a chipmunk\nAnd I've never gotten head lice\nAnd I've never been to Boston in the Fall!\nYou might also like(Spoken part)\nPirate Captain's Log, 2002\nWho be this band Relient K?\nAnd why be they so full of contradictions?\n\nWe don't know, what he did\nBut we're down with Captain Kidd\nWe don't wake up before lunch\nBut we all eat Captain Crunch\nWe don't smoke\nWe don't chew\nWe watch Captain Kangaroo!\n\nAnd I've never licked a spark plug\nAnd I've never sniffed a stinkbug\nAnd I've never painted daisies\nOn a big red rubber ball\n\nAnd I've never bathed in yogurt\nAnd I don't look good in leggings\nAnd I've never been to Boston in the fall!\n\n(Ladies and Gentlemen, let's give 'em a big hand!)\nWe are the pirates who don't do anything\nWe just stay at home and lie around\nAnd if you ask us to do anything\nWe'll just tell you we don't do anything!\nWe're the pirates who don't do anything\nWe just stay at home and lie around\nAnd if you ask us to do anything\nWe'll just tell you we don't do anything!Embed"
+    }
+}

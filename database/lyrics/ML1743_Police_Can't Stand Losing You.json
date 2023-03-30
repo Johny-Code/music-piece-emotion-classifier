@@ -1,0 +1,58 @@
+{
+    "id": "ML1743",
+    "mood": "angry",
+    "artist": "Police",
+    "title": "Can't Stand Losing You",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/129802",
+        "artist_names": "The Police",
+        "full_title": "Can't Stand Losing You by\u00a0The\u00a0Police",
+        "header_image_thumbnail_url": "https://images.genius.com/c67046ed286998224b5a45a3a81c4ba4.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/c67046ed286998224b5a45a3a81c4ba4.300x300x1.jpg",
+        "id": 129802,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 10380,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1676969245,
+        "path": "/The-police-cant-stand-losing-you-lyrics",
+        "pyongs_count": 8,
+        "relationships_index_url": "https://genius.com/The-police-cant-stand-losing-you-sample",
+        "release_date_components": {
+            "year": 1978,
+            "month": 8,
+            "day": 14
+        },
+        "release_date_for_display": "August 14, 1978",
+        "release_date_with_abbreviated_month_for_display": "Aug. 14, 1978",
+        "song_art_image_thumbnail_url": "https://images.genius.com/c67046ed286998224b5a45a3a81c4ba4.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/c67046ed286998224b5a45a3a81c4ba4.300x300x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 36029
+        },
+        "title": "Can\u2019t Stand Losing You",
+        "title_with_featured": "Can't Stand Losing You",
+        "updated_by_human_at": 1676969245,
+        "url": "https://genius.com/The-police-cant-stand-losing-you-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/16735",
+            "header_image_url": "https://images.genius.com/47f71eace435f25e4487745f99aaa1ab.768x768x1.jpg",
+            "id": 16735,
+            "image_url": "https://images.genius.com/d79b9ddbd01ce0dbf02524f3c6cbea26.570x570x1.jpg",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Police",
+            "slug": "The-police",
+            "url": "https://genius.com/artists/The-police"
+        },
+        "artist": "The Police",
+        "lyrics": "Can\u2019t Stand Losing You Lyrics[Verse 1]\nI've called you so many times today\nAnd I guess it's all true, what your girlfriends say\nThat you don't ever want to see me again\nAnd your brother's gonna kill me and he's six feet ten\n\n[Pre-Chorus 1]\nI guess you'd call it cowardice\nBut I'm not prepared to go on like this\n\n[Chorus]\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't\nI can't stand losing you\nI can't stand losing you\nI can't stand losing you\nI can't stand losing you\n[Verse 2]\nI see you've sent my letters back\nAnd my LP records and they're all scratched\nI can't see the point in another day\nWhen nobody listens to a word I say\n\n[Pre-Chorus 2]\nYou can call it lack of confidence\nBut to carry on living doesn't make no sense\n\n[Chorus]\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\n\n[Verse 3]\nI guess this is our last goodbye\nAnd you don't care so I won't cry\nBut you'll be sorry when I'm dead\nAnd all this guilt will be on your head\n\n[Pre-Chorus 3]\nI guess you'd call it suicide\nBut I'm too full to swallow my pride\nYou might also like[Outro]\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand losing\nI can't, I can't, I can't stand\nCan't stand losing you8Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML900",
+    "mood": "sad",
+    "artist": "Scott Walker",
+    "title": "If You Go Away",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/694365",
+        "artist_names": "Scott Walker",
+        "full_title": "If You Go Away by\u00a0Scott\u00a0Walker",
+        "header_image_thumbnail_url": "https://images.genius.com/5d23386e92f80d2820d399eafc8f50e2.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/5d23386e92f80d2820d399eafc8f50e2.1000x1000x1.jpg",
+        "id": 694365,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1192960,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1666131229,
+        "path": "/Scott-walker-if-you-go-away-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Scott-walker-if-you-go-away-sample",
+        "release_date_components": {
+            "year": 1969,
+            "month": 3,
+            "day": 1
+        },
+        "release_date_for_display": "March 1, 1969",
+        "release_date_with_abbreviated_month_for_display": "Mar. 1, 1969",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5d23386e92f80d2820d399eafc8f50e2.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5d23386e92f80d2820d399eafc8f50e2.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "If You Go Away",
+        "title_with_featured": "If You Go Away",
+        "updated_by_human_at": 1666131526,
+        "url": "https://genius.com/Scott-walker-if-you-go-away-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/53293",
+            "header_image_url": "https://images.genius.com/215abf4179ab4b743519cfc5455cda2c.1000x562x1.jpg",
+            "id": 53293,
+            "image_url": "https://images.genius.com/b3ec3cffe164dceff166d9462b2295d0.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Scott Walker",
+            "slug": "Scott-walker",
+            "url": "https://genius.com/artists/Scott-walker",
+            "iq": 100
+        },
+        "artist": "Scott Walker",
+        "lyrics": "If You Go Away Lyrics[Verse 1]\nIf you go away, on this summer day\nThen you might as well take the sun away\nAll the birds that flew in the summer sky\nWhen our love was new and our hearts were high\nAnd the day was young and the night was long\nAnd the moon stood still for the night bird's song\n\n[Refrain]\nIf you go away\nIf you go away\nIf you go away\n[Chorus]\nBut, if you stay, I'll make you a day\nLike no day has been or will be again\nWe'll sail the sun, we'll ride on the rain\nAnd talk to the trees, and worship the wind\nThen if you go, I'll understand\nLeave me just enough love to fill up my hand\n\n[Refrain]\nIf you go away\nIf you go away\nIf you go away\n\n[Verse 2]\nIf you go away, as I know you will\nYou must tell the world to stop turning, turning\n'Til you return again, if you ever do\nFor what good is love without loving you?\nCan I tell you now, as you turn to go\nI'll be dying slowly, till the next hello\n\n[Refrain]\nIf you go away\nIf you go away\nIf you go away\nYou might also like[Chorus]\nBut, if you stay, I'll make you a night\nLike no night has been or will be again\nI'll sail on your smile, I'll glide on your touch\nI'll talk to your eyes that I love so much\nBut, if you go, I won't cry\nThough the good is gone from the word goodbye\n\n[Refrain]\nIf you go away\nIf you go away\nIf you go away\n\n[Verse 3]\nIf you go away, as I know you must\nThere'd be nothing left in this world to trust\nJust an empty room full of empty space\nLike the empty look I see on your face\nAnd I'd have been the shadow of your shadow\nIf you might have kept me by your side\n\n[Refrain]\nIf you go away\nIf you go away\nIf you go away1Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML717",
+    "mood": "sad",
+    "artist": "Nine Days",
+    "title": "Bitter",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1646486",
+        "artist_names": "Nine Days",
+        "full_title": "Bitter by\u00a0Nine\u00a0Days",
+        "header_image_thumbnail_url": "https://images.genius.com/bce63accb7afec2900917202ce2b3d79.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/bce63accb7afec2900917202ce2b3d79.1000x1000x1.jpg",
+        "id": 1646486,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3499648,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1592631923,
+        "path": "/Nine-days-bitter-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Nine-days-bitter-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": 5,
+            "day": 16
+        },
+        "release_date_for_display": "May 16, 2000",
+        "release_date_with_abbreviated_month_for_display": "May. 16, 2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/bce63accb7afec2900917202ce2b3d79.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/bce63accb7afec2900917202ce2b3d79.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Bitter",
+        "title_with_featured": "Bitter",
+        "updated_by_human_at": 1592632157,
+        "url": "https://genius.com/Nine-days-bitter-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/18125",
+            "header_image_url": "https://images.genius.com/8c9260344e2e8e64422258ca5c2ab7ce.1000x373x1.jpg",
+            "id": 18125,
+            "image_url": "https://images.genius.com/3cff5a2af573b855611590a2500e3409.345x345x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Nine Days",
+            "slug": "Nine-days",
+            "url": "https://genius.com/artists/Nine-days"
+        },
+        "artist": "Nine Days",
+        "lyrics": "Bitter Lyrics[Verse 1]\nIn my heart sent\nMy confession, my condolence\nYou're indefinite\nYou're incompetent, inconsiderate\nYou're so childish\nI will push you\nOut of what is real, out of my head\nYou can stick and drown\nAt your residence of disappointments\nAre of yours to come\nSo embrace them\nOh, my shallow one, today\n[Chorus]\nIf I could change anything\nThen I would change everything\nThese bitter days shall remain\n\n[Verse 2]\nI don't ask for your forgiveness\nI don't care much for your actress\nThat's just you, though\nShallow and selfish\nSo, I go now\nOh, my hollow one, today\n\n[Chorus]\nIf I could change anything\nThen I would change everything\nThese bitter days shall remain\n\n[Verse 3]\nYou carry your blues behind your eyes\nDon't flatter yourself, I will survive\nSo carry your blues, your own denial\nYour feathers are gone, you'll never fly\n\n[Chorus]\nIf I could change anything\nThen I would wipe the years away\nIf I could change anything\nThen I would brush the time away\nIf I could change anything\nThen I would change everything\nThese bitter days shall remain\nYou might also like[Outro]\nSince you're gone, I'm much better than you\nYou carry your blues behind your eyes\nDon't flatter yourself I will survive\nSo carry your blues, your own denial\nYour feathers are gone you'll never fly\nShe'll never flyEmbed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML133",
+    "mood": "happy",
+    "artist": "Howard Jones",
+    "title": "Things Can Only Get Better",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/792073",
+        "artist_names": "Howard Jones",
+        "full_title": "Things Can Only Get Better by\u00a0Howard\u00a0Jones",
+        "header_image_thumbnail_url": "https://images.genius.com/bc0ad32cc6773233eb94d2dff42bd9c5.220x220x1.jpg",
+        "header_image_url": "https://images.genius.com/bc0ad32cc6773233eb94d2dff42bd9c5.220x220x1.jpg",
+        "id": 792073,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6578,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1612883221,
+        "path": "/Howard-jones-things-can-only-get-better-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Howard-jones-things-can-only-get-better-sample",
+        "release_date_components": {
+            "year": 1985,
+            "month": 2,
+            "day": 9
+        },
+        "release_date_for_display": "February 9, 1985",
+        "release_date_with_abbreviated_month_for_display": "Feb. 9, 1985",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3fdd4e34343fe0d69dc8e3c331bee581.300x299x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3fdd4e34343fe0d69dc8e3c331bee581.600x597x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 19958
+        },
+        "title": "Things Can Only Get Better",
+        "title_with_featured": "Things Can Only Get Better",
+        "updated_by_human_at": 1612883231,
+        "url": "https://genius.com/Howard-jones-things-can-only-get-better-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/188641",
+            "header_image_url": "https://images.genius.com/1f147d0cae30f8002403c2ff8a4b1e83.960x540x1.jpg",
+            "id": 188641,
+            "image_url": "https://images.genius.com/62b51fd52140c9ae2fcbdf6ff4bfccbf.380x380x1.jpg",
+            "index_character": "h",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Howard Jones",
+            "slug": "Howard-jones",
+            "url": "https://genius.com/artists/Howard-jones"
+        },
+        "artist": "Howard Jones",
+        "lyrics": "Things Can Only Get Better Lyrics[Verse 1]\nWe're not scared to lose it all, security thrown through the wall\nFuture dreams we have to realise\nA thousand sceptic hands won't keep us from the things we plan\nUnless we're clinging to the things we prize\n\n[Chorus]\nAnd do you feel scared? I do\nBut I won't stop and falter\nAnd if we threw it all away\nThings can only get better\n[Post-Chorus]\nWhoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh\n(Whoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh)\nWhoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh\n(Whoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh)\n\n[Verse 2]\nTreating today as though it was the last, the final show\nGet to 60 and feel no regret\nIt may take a little time, a lonely path, an uphill climb\nSuccess or failure will not alter it\n\n[Chorus]\nAnd do you feel scared? I do\nBut I won't stop and falter\nAnd if we threw it all away\nThings can only get better\n\n[Post-Chorus]\nWhoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh\n(Whoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh)\nWhoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh\n(Whoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh)\n\n[Chorus]\nAnd do you feel scared? I do\nBut I won't stop and falter\nAnd if we threw it all away\nThings can only get better\nAh!\nYou might also like[Outro]\nWhoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh\n(Whoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh)\nWhoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh\n(Whoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh)\nWhoa, whoa, whoa-oh-oh, whoa-whoa, oh-oh-oh-oh\n(Whoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh)\nWhoa, whoa, whoa-whoa, oh-oh-oh\n(Whoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh)\nWhoa, whoa, whoa-oh-oh, whoa-whoa, whoa-oh-oh\n(Whoa, whoa, whoa)4Embed"
+    }
+}

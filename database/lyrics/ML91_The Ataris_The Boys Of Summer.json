@@ -1,0 +1,58 @@
+{
+    "id": "ML91",
+    "mood": "happy",
+    "artist": "The Ataris",
+    "title": "The Boys Of Summer",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/832025",
+        "artist_names": "The Ataris",
+        "full_title": "The Boys of Summer by\u00a0The\u00a0Ataris",
+        "header_image_thumbnail_url": "https://images.genius.com/b2671844a1e85569f977ce4b299244c5.300x297x1.jpg",
+        "header_image_url": "https://images.genius.com/b2671844a1e85569f977ce4b299244c5.599x594x1.jpg",
+        "id": 832025,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3499648,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1665114546,
+        "path": "/The-ataris-the-boys-of-summer-lyrics",
+        "pyongs_count": 5,
+        "relationships_index_url": "https://genius.com/The-ataris-the-boys-of-summer-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 3,
+            "day": 4
+        },
+        "release_date_for_display": "March 4, 2003",
+        "release_date_with_abbreviated_month_for_display": "Mar. 4, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b2671844a1e85569f977ce4b299244c5.300x297x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b2671844a1e85569f977ce4b299244c5.599x594x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 62643
+        },
+        "title": "The Boys of Summer",
+        "title_with_featured": "The Boys of Summer",
+        "updated_by_human_at": 1665114575,
+        "url": "https://genius.com/The-ataris-the-boys-of-summer-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/65950",
+            "header_image_url": "https://s3.amazonaws.com/rapgenius/theataris-1344462271.jpg",
+            "id": 65950,
+            "image_url": "https://s3.amazonaws.com/rapgenius/theataris-1344462271.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Ataris",
+            "slug": "The-ataris",
+            "url": "https://genius.com/artists/The-ataris"
+        },
+        "artist": "The Ataris",
+        "lyrics": "The Boys of Summer Lyrics[Verse 1]\nNobody on the road\nNobody on the beach\nI feel it in the air\nThe summer's out of reach\nEmpty lake, empty streets\nThe sun goes down alone\nI'm drivin' by your house\nThough I know you're not home\n\n[Chorus]\nI can see you\nYour brown skin shinin' in the sun\nYou got your hair combed back and your\nSunglasses on, baby\nAnd I can tell you, my love for you will still be strong\nAfter the boys of summer have gone\n[Verse 2]\nI never will forget those nights\nI wonder if it was a dream\nRemember how you made me crazy? (Crazy)\nRemember how I made you scream?\nBut I don't understand what happened to our love\nBut baby, when I get you back\nI'm gonna show you what I'm made of\n\n[Chorus]\nI can see you\nYour brown skin shinin' in the sun\nI see you walkin' real slow and you're\nSmilin' at everyone\nBut I can tell you my love for you will still be strong\nAfter the boys of summer have gone\n\n[Guitar Solo]\n\n[Verse 3]\nOut on the road today\nI saw a Black Flag sticker on a Cadillac\nA little voice inside my head said:\n\"Don't look back, you can never look back.\"\nI thought I knew what love was, what did I know?\nThose days are gone forever\nI should just let 'em go, but\nYou might also like[Chorus]\nI can see you\nYour brown skin shinin' in the sun\nYou got that top pulled down and that\nRadio on, baby\nNow I can tell you my love for you will still be strong\nAfter the boys of summer have gone\nI can see you\nYour brown skin shinin' in the sun\nYou got that hair slicked back and those\nWayfarers on, baby\nI can tell you my love for you will still be strong\nAfter the boys of summer have gone5Embed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML1025",
+    "mood": "sad",
+    "artist": "Manic Street Preachers",
+    "title": "I'm Not Working",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/463117",
+        "artist_names": "Manic Street Preachers",
+        "full_title": "I'm Not Working by\u00a0Manic\u00a0Street Preachers",
+        "header_image_thumbnail_url": "https://images.genius.com/092d65bd69e38b43473a662029d74f87.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/092d65bd69e38b43473a662029d74f87.640x640x1.jpg",
+        "id": 463117,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 397025,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1569003479,
+        "path": "/Manic-street-preachers-im-not-working-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Manic-street-preachers-im-not-working-sample",
+        "release_date_components": {
+            "year": 1998,
+            "month": 9,
+            "day": 14
+        },
+        "release_date_for_display": "September 14, 1998",
+        "release_date_with_abbreviated_month_for_display": "Sep. 14, 1998",
+        "song_art_image_thumbnail_url": "https://images.genius.com/092d65bd69e38b43473a662029d74f87.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/092d65bd69e38b43473a662029d74f87.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "I\u2019m Not Working",
+        "title_with_featured": "I'm Not Working",
+        "updated_by_human_at": 1569071429,
+        "url": "https://genius.com/Manic-street-preachers-im-not-working-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/38489",
+            "header_image_url": "https://images.genius.com/f85a340009bffa8e40c559337aa3e16a.1000x303x1.jpg",
+            "id": 38489,
+            "image_url": "https://images.genius.com/0363116aa544f7c993e32a4dedfed20b.494x494x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Manic Street Preachers",
+            "slug": "Manic-street-preachers",
+            "url": "https://genius.com/artists/Manic-street-preachers"
+        },
+        "artist": "Manic Street Preachers",
+        "lyrics": "I\u2019m Not Working Lyrics[Verse 1]\nPetrified for the millionth time\nSlowly my soul evaporates\nNo parachutes no dismal clouds\nJust this fucking space\n\n[Chorus]\nI know what's coming\nI'm not working\nI know what's coming\nI'm not working\n[Verse 2]\nSweating out intelligence\nLike I don't know what it is\nClinging to the microwaves\nAnd singing with the sound waves\n\n[Chorus]\nI know what's coming\nI'm not working\nI know what's coming\nI'm not working\n\n[Bridge]\nDelirium on helium\nI am my own experience\n\n[Chorus]\nI know what's coming\nI'm not working\nI know what's coming\nI'm not working\n\n[Outro]\nI'm not working\nI'm not working\nI'm not workingYou might also likeEmbed"
+    }
+}

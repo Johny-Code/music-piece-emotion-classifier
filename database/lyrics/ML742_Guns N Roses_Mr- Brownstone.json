@@ -1,0 +1,58 @@
+{
+    "id": "ML742",
+    "mood": "angry",
+    "artist": "Guns N Roses",
+    "title": "Mr. Brownstone",
+    "song": {
+        "_type": "song",
+        "annotation_count": 12,
+        "api_path": "/songs/1972",
+        "artist_names": "Guns N' Roses",
+        "full_title": "Mr. Brownstone by\u00a0Guns\u00a0N' Roses",
+        "header_image_thumbnail_url": "https://images.genius.com/56a3f4069f12b791f87876d78e04ea0e.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/56a3f4069f12b791f87876d78e04ea0e.999x1000x1.jpg",
+        "id": 1972,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 135,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1656914446,
+        "path": "/Guns-n-roses-mr-brownstone-lyrics",
+        "pyongs_count": 13,
+        "relationships_index_url": "https://genius.com/Guns-n-roses-mr-brownstone-sample",
+        "release_date_components": {
+            "year": 1987,
+            "month": 6,
+            "day": 15
+        },
+        "release_date_for_display": "June 15, 1987",
+        "release_date_with_abbreviated_month_for_display": "Jun. 15, 1987",
+        "song_art_image_thumbnail_url": "https://images.genius.com/5d256d1bf8c814a27fc169e6a8090709.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/5d256d1bf8c814a27fc169e6a8090709.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 105977
+        },
+        "title": "Mr. Brownstone",
+        "title_with_featured": "Mr. Brownstone",
+        "updated_by_human_at": 1656914446,
+        "url": "https://genius.com/Guns-n-roses-mr-brownstone-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/637",
+            "header_image_url": "https://images.genius.com/83c4b54659d674bd377801af8b2a3932.500x158x8.gif",
+            "id": 637,
+            "image_url": "https://images.genius.com/53ddc7640957b4279d9c234ab200adf4.1000x1000x1.jpg",
+            "index_character": "g",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Guns N\u2019 Roses",
+            "slug": "Guns-n-roses",
+            "url": "https://genius.com/artists/Guns-n-roses"
+        },
+        "artist": "Guns N\u2019 Roses",
+        "lyrics": "Mr. Brownstone Lyrics[Guitar Intro]\n\n[Verse 1]\nI get up around seven\nGet outta bed around nine\nAnd I don't worry about nothin', no\nBecause worrying's a waste of my time\nShow usually starts around seven\nWe go on stage around nine\nGet on the bus about eleven\nSippin' a drink and feelin' fine\n[Chorus]\nWe've been dancing with Mr. Brownstone\nHe's been knocking, he won't leave me alone\nNo, no, no, he won't leave me alone\n\n[Bridge]\nI used to do a little but a little wouldn't do it\nSo the little got more and more\nI just keep tryna get a little better\nSaid, a little better than before\n\nI used to do a little but a little wouldn't do it\nSo the little got more and more\nI just keep tryna get a little better\nSaid, a little better than before\n\n[Chorus]\nWe've been dancing with Mr. Brownstone\nHe's been knocking, he won't leave me alone\nNo, no, no, he won't leave me alone\n\n[Guitar Solo]\n\n[Verse 2]\nNow I get up around whenever\nI used to get up on time\nBut that old man he's a real motherfucker\nGonna kick him on down the line\nYou might also like[Bridge]\nI used to do a little but a little wouldn't do it\nSo the little got more and more\nI just keep tryna get a little better\nSaid, a little better than before\n\nI used to do a little but a little wouldn't do it\nSo the little got more and more\nI just keep tryna get a little better\nSaid, a little better than before\n\n[Chorus]\nWe've been dancing with Mr. Brownstone\nHe's been knocking, he won't leave me alone\nNo, no, no, he won't leave me alone, never\nOh, leave me alone\n\n[Outro]\nStuck it in the middle and I shot it in the middle\nAnd it, it drove outta my mind\nI shoulda known better, said I wish I never met her\nSaid I, I leave it all behind\nYowza13Embed"
+    }
+}

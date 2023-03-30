@@ -1,0 +1,58 @@
+{
+    "id": "ML1309",
+    "mood": "angry",
+    "artist": "Split Enz",
+    "title": "I Got You",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/1763314",
+        "artist_names": "Split Enz",
+        "full_title": "I Got You by\u00a0Split\u00a0Enz",
+        "header_image_thumbnail_url": "https://images.genius.com/f7c554cedeb1b9c0517b269d1d964b48.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/f7c554cedeb1b9c0517b269d1d964b48.600x600x1.jpg",
+        "id": 1763314,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 9261408,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1673298369,
+        "path": "/Split-enz-i-got-you-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Split-enz-i-got-you-sample",
+        "release_date_components": {
+            "year": 1979,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1979",
+        "release_date_with_abbreviated_month_for_display": "1979",
+        "song_art_image_thumbnail_url": "https://images.genius.com/097b543994e966ed6870c2a8b99b129f.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/097b543994e966ed6870c2a8b99b129f.316x316x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 9,
+            "hot": false,
+            "pageviews": 14921
+        },
+        "title": "I Got You",
+        "title_with_featured": "I Got You",
+        "updated_by_human_at": 1673298368,
+        "url": "https://genius.com/Split-enz-i-got-you-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/214120",
+            "header_image_url": "https://images.genius.com/eda30e4174fccc3dff816f6f118d0c56.720x471x1.jpg",
+            "id": 214120,
+            "image_url": "https://images.genius.com/ae2ae8dceade0680801fbe0a28c7a28c.768x768x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Split Enz",
+            "slug": "Split-enz",
+            "url": "https://genius.com/artists/Split-enz"
+        },
+        "artist": "Split Enz",
+        "lyrics": "I Got You Lyrics[Verse 1]\nI got you\nThat's all I want!\nI won't forget\nThat's a whole lot!\nI don't go out\nNot now that you're in\nSometimes, we shout\nBut, that's no problem!\n\n[Chorus]\nI don't know why sometimes I get frightened?\nYou can see my eyes\nYou can tell that I'm not lying\n[Verse 2]\nLook at you\nYou're a pageant\nYou're everything\nThat I've imagined\nBut, something's wrong\nI feel uneasy\nYou show me\nTell me, you're not teasing!\n\n[Chorus]\nI don't know why sometimes I get frightened?\nYou can see my eyes\nYou can tell that I'm not lying\nI don't know why sometimes I get frightened?\nYou can see my eyes\nYou can tell me you're not lying\n\n[Verse 3]\nThere's no doubt\nNot when I'm with you\nWhen I'm without\nI stay in my room\nWhere do you go?\nI get no answer\nYou're always out\nIt gets on my nerves\nYou might also like[Outro]\nI don't know why sometimes I get frightened?\nYou can see my eyes\nYou can tell that I'm not lying\nBut I don't know why sometimes I get frightened?\nYou can see my eyes\nYou can tell me you're not lying\nI don't know why sometimes I get frightened?\nYou can see my eyes\nYou can tell that I'm not lying1Embed"
+    }
+}

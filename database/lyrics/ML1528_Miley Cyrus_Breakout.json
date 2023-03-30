@@ -1,0 +1,58 @@
+{
+    "id": "ML1528",
+    "mood": "happy",
+    "artist": "Miley Cyrus",
+    "title": "Breakout",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/186000",
+        "artist_names": "Miley Cyrus",
+        "full_title": "Breakout by\u00a0Miley\u00a0Cyrus",
+        "header_image_thumbnail_url": "https://images.genius.com/ef8c2673e006aa36324fcccf4f4c920c.300x300x1.png",
+        "header_image_url": "https://images.genius.com/ef8c2673e006aa36324fcccf4f4c920c.1000x1000x1.png",
+        "id": 186000,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 933617,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1609805445,
+        "path": "/Miley-cyrus-breakout-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Miley-cyrus-breakout-sample",
+        "release_date_components": {
+            "year": 2008,
+            "month": 7,
+            "day": 22
+        },
+        "release_date_for_display": "July 22, 2008",
+        "release_date_with_abbreviated_month_for_display": "Jul. 22, 2008",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ef8c2673e006aa36324fcccf4f4c920c.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/ef8c2673e006aa36324fcccf4f4c920c.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 6562
+        },
+        "title": "Breakout",
+        "title_with_featured": "Breakout",
+        "updated_by_human_at": 1675670404,
+        "url": "https://genius.com/Miley-cyrus-breakout-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/805",
+            "header_image_url": "https://images.genius.com/1332f3be0c7c87bdf674e206d736842e.1000x370x1.jpg",
+            "id": 805,
+            "image_url": "https://images.genius.com/9082e527369435d9a9f4b8f18092c795.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Miley Cyrus",
+            "slug": "Miley-cyrus",
+            "url": "https://genius.com/artists/Miley-cyrus"
+        },
+        "artist": "Miley Cyrus",
+        "lyrics": "Breakout Lyrics[Verse 1]\nEvery week's the same\nStuck in school, so lame\nMy parents say that I'm lazy\nGettin' up at 8AM's crazy\nTired of bein' told what to do\nSo unfair, so uncool\n\n[Pre-Chorus]\nThe day's too long\nAnd I'm holding on\n'Til I hear the bell ring\n'Cause that's time when we're gonna\n(Time when we're gonna)\n[Chorus]\nBreakout, let the party start\nWe're gonna stay out, gonna break some hearts\nWe're gonna dance 'til the dance floor falls apart\nUh-oh, all over again\nWe're gonna wake up everyone we know\nWe're gonna have some fun, gonna lose control\nIt feels so good\nTo let go, oh, oh (Go, oh, oh)\n\n[Verse 2]\nHanging out's just something we like to do\nMy friends, and the mess we get into\nThese are the lessons that we choose\nNot a book full of things we'll never use\n\n[Pre-Chorus]\nThe day's too long\nAnd I'm holding on\n'Til I hear the bell ring\n'Cause that's time when we're gonna\n(Time when we're gonna)\n\n[Chorus]\nBreakout, let the party start\nWe're gonna stay out, gonna break some hearts\nWe're gonna dance 'til the dance floor falls apart\nUh-oh, all over again\nWe're gonna wake up everyone we know\nWe're gonna have some fun, gonna lose control\nIt feels so good\nTo let go, oh, oh (Go, oh, oh)\nYou might also like[Bridge]\nWish it would never end\nSpendin' time with my friends\nOh, with my friends\n\n[Chorus]\nBreakout, let the party start\nWe're gonna stay out, gonna break some hearts\nWe're gonna dance 'til the dance floor falls apart\nUh-oh, all over again\nWe're gonna wake up everyone we know\nWe're gonna have some fun, gonna lose control\nIt feels so good\nTo let go\n\n[Chorus]\nBreakout, let the party start\nWe're gonna stay out, gonna break some hearts\nWe're gonna dance 'til the dance floor falls apart\nUh-oh, all over again\nWe're gonna wake up everyone we know\nWe're gonna have some fun, gonna lose control\nIt feels so good\nTo let go, oh, oh (Go, oh, oh)1Embed"
+    }
+}

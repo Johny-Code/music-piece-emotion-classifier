@@ -1,0 +1,58 @@
+{
+    "id": "ML636",
+    "mood": "angry",
+    "artist": "The Dillinger Escape Plan",
+    "title": "Milk Lizard",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/162567",
+        "artist_names": "The Dillinger Escape Plan",
+        "full_title": "Milk Lizard by\u00a0The\u00a0Dillinger Escape Plan",
+        "header_image_thumbnail_url": "https://images.genius.com/27f57b321c232f7faae70ed612c8ed67.300x300x1.png",
+        "header_image_url": "https://images.genius.com/27f57b321c232f7faae70ed612c8ed67.1000x1000x1.png",
+        "id": 162567,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 220707,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1679075008,
+        "path": "/The-dillinger-escape-plan-milk-lizard-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/The-dillinger-escape-plan-milk-lizard-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 11,
+            "day": 5
+        },
+        "release_date_for_display": "November 5, 2007",
+        "release_date_with_abbreviated_month_for_display": "Nov. 5, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/27f57b321c232f7faae70ed612c8ed67.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/27f57b321c232f7faae70ed612c8ed67.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 8,
+            "hot": false,
+            "pageviews": 18790
+        },
+        "title": "Milk Lizard",
+        "title_with_featured": "Milk Lizard",
+        "updated_by_human_at": 1679075008,
+        "url": "https://genius.com/The-dillinger-escape-plan-milk-lizard-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/53795",
+            "header_image_url": "https://images.genius.com/1030390d7c21060ea98dc2b48287b0ed.600x600x1.jpg",
+            "id": 53795,
+            "image_url": "https://images.genius.com/0cd58186efd4deefdf1d08764ec86b3a.400x400x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Dillinger Escape Plan",
+            "slug": "The-dillinger-escape-plan",
+            "url": "https://genius.com/artists/The-dillinger-escape-plan"
+        },
+        "artist": "The Dillinger Escape Plan",
+        "lyrics": "Milk Lizard LyricsWoah!\nMy thick tongue hangs down low to the ground\nLicking up the sweat coming off of her heels\nShe wants my teeth to wear, she wants\nMy hell to bear\nWell, Missy, it's a lock for load\nIf you wanna grind hips don't do it alone\nDon't save no dance, no not for me\nJust cut me out\n\nYou crept up like a disease\nLooking like a girl who was trying to be saved\nYour heart was trying to bleed\nYou're taking the road if you're talking to me\nWell, you thought you'd tear my skin from bone\nJust 'cause it was cold and you needed a coat\nDon't tease me, just start digging the hole\nStart digging, oh, you're getting so sleepy tonight\nWhen you want to go home but you don't have a ride\nNo time, just taste, won't touch for free\nMy salt, your sweet\nYou crept up like a disease\nLooking like a girl who was trying to be saved\nYour heart was trying to bleed\nYou're taking the road if you're talking to me\n\nAnd you were there\nAnd I was every question that never had an answer\nI see right through you\nWe never even noticed that there always was a reason\nThat we were never meant to be left alone\nMy thick tongue hangs down low to the ground\nLicking up the sweat coming off of her heels\nShe wants my teeth to wear, she wants\nMy hell to bear\nWell, Missy, it's a lock for load\nIf you wanna grind hips don't do it alone\nDon't save no dance, no not for me\nJust cut me out\nYou might also likeAnd you were there\nAnd I was every question that never had an answer\nI see right through you\nWe never even noticed that there always was a reason\nThat we were never meant to be left alone\n\nThis feels like never ending...\nThis feels like never ending...\nThis feels like never ending...\nThis feels like never ending...4Embed"
+    }
+}

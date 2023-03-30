@@ -1,0 +1,58 @@
+{
+    "id": "ML1586",
+    "mood": "sad",
+    "artist": "Dr. Hook",
+    "title": "Sylvia's Mother",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/1691132",
+        "artist_names": "Dr. Hook",
+        "full_title": "Sylvia's Mother by\u00a0Dr.\u00a0Hook",
+        "header_image_thumbnail_url": "https://images.genius.com/964998c50bcbf07f6589e1281d56abe1.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/964998c50bcbf07f6589e1281d56abe1.1000x1000x1.jpg",
+        "id": 1691132,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 8664184,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1673282297,
+        "path": "/Dr-hook-sylvias-mother-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Dr-hook-sylvias-mother-sample",
+        "release_date_components": {
+            "year": 1972,
+            "month": 3,
+            "day": null
+        },
+        "release_date_for_display": "March 1972",
+        "release_date_with_abbreviated_month_for_display": "Mar. 1972",
+        "song_art_image_thumbnail_url": "https://images.genius.com/e0e62c7b71a5d91488da882413b3cabd.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/e0e62c7b71a5d91488da882413b3cabd.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 55301
+        },
+        "title": "Sylvia\u2019s Mother",
+        "title_with_featured": "Sylvia's Mother",
+        "updated_by_human_at": 1673282297,
+        "url": "https://genius.com/Dr-hook-sylvias-mother-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/353334",
+            "header_image_url": "https://images.genius.com/5313db5d96bbc71cc374f93a7cf102a3.1000x635x1.jpg",
+            "id": 353334,
+            "image_url": "https://images.genius.com/5313db5d96bbc71cc374f93a7cf102a3.1000x635x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Dr. Hook",
+            "slug": "Dr-hook",
+            "url": "https://genius.com/artists/Dr-hook"
+        },
+        "artist": "Dr. Hook",
+        "lyrics": "Sylvia\u2019s Mother Lyrics[Verse 1]\nSylvia's mother says \"Sylvia's busy\nToo busy to come to the phone\"\nSylvia's mother says \"Sylvia's trying\nTo start a new life of her own\"\nSylvia's mother says \"Sylvia's happy\nSo why don't you leave her alone?\"\nAnd the operator says \"forty cents more\nFor the next three minutes\"\n\n[Chorus]\nPlease, Mrs. Avery, I just gotta talk to her\nI'll only keep her a while\nPlease, Mrs. Avery, I just want to tell her goodbye\n[Verse 2]\nSylvia's mother says Sylvia's packing\nShe's gonna be leaving today\nSylvia's mother says Sylvia's marrying\nA fella down Galveston way\nSylvia's mother says please don't say nothing\nTo make her start crying and stay\nAnd the operator says forty cents more\nFor the next three minutes\n\n[Chorus]\nPlease, Mrs. Avery, I just gotta talk to her\nI'll only keep her a while\nPlease, Mrs. Avery, I just want to tell her goodbye\n\n[Verse 3]\nSylvia's mother says Sylvia's hurrying\nShe's catching the nine o'clock train\nSylvia's mother says take your umbrella\n'Cause, Sylvie, it's starting to rain\nAnd Sylvia's mother says thank you for calling\nAnd, sir, won't you call back again?\nAnd the operator says forty cents more\nFor the next three minutes\n\n[Chorus]\nPlease, Mrs. Avery, I just gotta talk to her\nI'll only keep her a while\nPlease, Mrs. Avery, I just want to tell her goodbye\nTell her goodbye\nPlease, tell her goodbyeYou might also like1Embed"
+    }
+}

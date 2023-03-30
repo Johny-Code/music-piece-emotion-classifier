@@ -1,0 +1,58 @@
+{
+    "id": "ML544",
+    "mood": "sad",
+    "artist": "Nightwish",
+    "title": "Angels Fall First",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/866849",
+        "artist_names": "Nightwish",
+        "full_title": "Angels Fall First by\u00a0Nightwish",
+        "header_image_thumbnail_url": "https://images.genius.com/ca19ccc1c41d4bee6ce277f94471c4b9.300x253x1.jpg",
+        "header_image_url": "https://images.genius.com/ca19ccc1c41d4bee6ce277f94471c4b9.1000x842x1.jpg",
+        "id": 866849,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1546522118,
+        "path": "/Nightwish-angels-fall-first-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Nightwish-angels-fall-first-sample",
+        "release_date_components": {
+            "year": 1997,
+            "month": 11,
+            "day": 1
+        },
+        "release_date_for_display": "November 1, 1997",
+        "release_date_with_abbreviated_month_for_display": "Nov. 1, 1997",
+        "song_art_image_thumbnail_url": "https://images.genius.com/ca19ccc1c41d4bee6ce277f94471c4b9.300x253x1.jpg",
+        "song_art_image_url": "https://images.genius.com/ca19ccc1c41d4bee6ce277f94471c4b9.1000x842x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Angels Fall First",
+        "title_with_featured": "Angels Fall First",
+        "updated_by_human_at": 1648594996,
+        "url": "https://genius.com/Nightwish-angels-fall-first-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/135153",
+            "header_image_url": "https://images.genius.com/c40190d808a832771133ed43b4e748de.640x640x1.jpg",
+            "id": 135153,
+            "image_url": "https://images.genius.com/c40190d808a832771133ed43b4e748de.640x640x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Nightwish",
+            "slug": "Nightwish",
+            "url": "https://genius.com/artists/Nightwish",
+            "iq": 602
+        },
+        "artist": "Nightwish",
+        "lyrics": "Angels Fall First LyricsAn angelface smiles to me\nUnder a headline of tragedy\nThat smile used to give me warmth\nFarewell, no words to say\nBeside the cross on your grave\nAnd those forever burning candles\n\nNeeded elsewhere\nTo remind us of the shortness of our time\nTears laid for them\nTears of love, tears of fear\nBury my dreams, dig up my sorrows\nOh Lord why\nThe angels fall first?\nNot relieved by thoughts of Shangri-La\nNor enlightened by the lessons of Christ\nI'll never understand the meaning of the right\nIgnorance lead me into the light\n\nNeeded elsewhere\nTo remind us of the shortness of our time\nTears laid for them\nTears of love, tears of fear\nBury my dreams, dig up my sorrows\nOh Lord why\nThe angels fall first?\n\nSing me a song\nOf your beauty\nOf your kingdom\nLet the melodies of your harps\nCaress those whom we still need\n\nYesterday we shook hands\nMy friend\nToday a moonbeam lightens my path\nMy guardianYou might also likeEmbed"
+    }
+}

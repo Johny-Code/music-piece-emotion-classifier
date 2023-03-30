@@ -1,0 +1,57 @@
+{
+    "id": "ML827",
+    "mood": "angry",
+    "artist": "Slayer",
+    "title": "Supremist",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/702928",
+        "artist_names": "Slayer",
+        "full_title": "Supremist by\u00a0Slayer",
+        "header_image_thumbnail_url": "https://images.genius.com/21d617a95f1532858eb4b8d0e816764e.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/21d617a95f1532858eb4b8d0e816764e.1000x1000x1.jpg",
+        "id": 702928,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1425851,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1664515720,
+        "path": "/Slayer-supremist-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Slayer-supremist-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 8,
+            "day": 8
+        },
+        "release_date_for_display": "August 8, 2006",
+        "release_date_with_abbreviated_month_for_display": "Aug. 8, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/21d617a95f1532858eb4b8d0e816764e.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/21d617a95f1532858eb4b8d0e816764e.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Supremist",
+        "title_with_featured": "Supremist",
+        "updated_by_human_at": 1664515720,
+        "url": "https://genius.com/Slayer-supremist-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/6596",
+            "header_image_url": "https://images.genius.com/bc11ff5236798b16df8d0ed38ad6386d.1000x341x1.png",
+            "id": 6596,
+            "image_url": "https://images.genius.com/861966ebfefbd4e0adc83bec199c30be.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Slayer",
+            "slug": "Slayer",
+            "url": "https://genius.com/artists/Slayer"
+        },
+        "artist": "Slayer",
+        "lyrics": "Supremist Lyrics[Verse 1]\nCrushing all your worthless goals\nI define control\nYour pain's my fucking ecstasy\nSo putrid is my world of tyranny\n\n[Bridge 1]\nTo accentuate your desperation\nFlesh from bone, I'll rip and tear\nI hate the fact that we breathe the same air\n[Verse 2]\nHelpless as I dominate\nI won't celebrate\nUntil you've all been crucified\nI cannot rest till everyone has died\n\n[Bridge 2]\nI can't stand the victim in you\nInfecting everything that I do\nI will eradicate\nObliterate, depopulate\nDivine, atrocious suffering\nCleansation of the weak\nSupremacy\n\n[Bridge 3]\nPissing on your faith\nIncinerate God's whore\nPerpetual is my reign\nI will eat your soul\n\n[Lead \u2013 King]\n\n[Refrain]\nMust maintain control of the weak\nYou might also like[Lead \u2013 Hanneman]\n\n[Outro]\nMust maintain control of the weak\nMust contain the minds of the free\nMust maintain control of the weak\nMust contain the minds of the free\nMust maintain control of the weakEmbed"
+    }
+}

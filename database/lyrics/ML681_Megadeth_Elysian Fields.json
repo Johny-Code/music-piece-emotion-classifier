@@ -1,0 +1,58 @@
+{
+    "id": "ML681",
+    "mood": "angry",
+    "artist": "Megadeth",
+    "title": "Elysian Fields",
+    "song": {
+        "_type": "song",
+        "annotation_count": 3,
+        "api_path": "/songs/109917",
+        "artist_names": "Megadeth",
+        "full_title": "Elysian Fields by\u00a0Megadeth",
+        "header_image_thumbnail_url": "https://images.genius.com/3e5617d6fe7ecf0e993acf6a9d190362.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3e5617d6fe7ecf0e993acf6a9d190362.1000x1000x1.jpg",
+        "id": 109917,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3928785,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1668343085,
+        "path": "/Megadeth-elysian-fields-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Megadeth-elysian-fields-sample",
+        "release_date_components": {
+            "year": 1994,
+            "month": 11,
+            "day": 1
+        },
+        "release_date_for_display": "November 1, 1994",
+        "release_date_with_abbreviated_month_for_display": "Nov. 1, 1994",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3e5617d6fe7ecf0e993acf6a9d190362.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3e5617d6fe7ecf0e993acf6a9d190362.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 10098
+        },
+        "title": "Elysian Fields",
+        "title_with_featured": "Elysian Fields",
+        "updated_by_human_at": 1668989786,
+        "url": "https://genius.com/Megadeth-elysian-fields-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/19444",
+            "header_image_url": "https://images.genius.com/ed7f0a9b8b87c0d2325b050eeebcc068.1000x530x1.png",
+            "id": 19444,
+            "image_url": "https://images.genius.com/9bdc3d3ea88da0c065c94aee4f13d943.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Megadeth",
+            "slug": "Megadeth",
+            "url": "https://genius.com/artists/Megadeth"
+        },
+        "artist": "Megadeth",
+        "lyrics": "Elysian Fields Lyrics[Verse 1]\nUneasy feeling, burning out my eyes\nI hope the end is less painful than my life\nI stand on trial before the gods on Judgement Day\nA blink of an eye between the cradle and the grave\n\n[Pre-Chorus]\nOne last look at visions of flesh\nThe last best hope of man on earth\nPontius Pilate still washin' his hands\nThe world don't want to be saved, only left alone\n[Chorus]\n(Elysian fields) We are storming the heavens\n(Elysian fields) To raise the swords and shields\n(Elysian fields) We ascend to our destiny\n(Elysian fields) To the Elysian fields\n\n[Verse 2]\nSoaring to the sun with blood upon their wings\nSuperstitious dust left twisting in the wind\nMan still has one belief, one decree that stands alone\nThe laying down of arms is like cancer to their bones\n\n[Pre-Chorus]\nOne last look at visions of flesh\nThe last blessed hope of man on earth\nPontius Pilate still washin' his hands\nThe world don't want to be saved, only left alone\n\n[Chorus]\n(Elysian fields) We are storming the heavens\n(Elysian fields) To raise the swords and shields\n(Elysian fields) We ascend to our destiny\n(Elysian fields) To the Elysian fields\n\n[Harmonica Solo: Jimmie Wood]\nYou might also like[Chorus]\n(Elysian fields) We are storming the heavens\n(Elysian fields) To raise the swords and shields\n(Elysian fields) We ascend to our destiny\n(Elysian fields) To the Elysian fields\n\n[Guitar Solo: Marty Friedman]\n\n[Outro]\n(Elysian fields) We are storming the heavens\n(We are storming the heavens)\n(Elysian fields) To raise the swords and shields\n(To raise the swords and shields)\n(Elysian fields) We ascend to our destiny\n(We ascend to our destiny)\n(Elysian fields) To the Elysian fields2Embed"
+    }
+}

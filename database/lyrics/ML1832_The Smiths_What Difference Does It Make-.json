@@ -1,0 +1,58 @@
+{
+    "id": "ML1832",
+    "mood": "sad",
+    "artist": "The Smiths",
+    "title": "What Difference Does It Make?",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/156213",
+        "artist_names": "The Smiths",
+        "full_title": "What Difference Does It Make? by\u00a0The\u00a0Smiths",
+        "header_image_thumbnail_url": "https://images.genius.com/4953d010c1ca198d7535ed5b1ddeab98.300x300x1.png",
+        "header_image_url": "https://images.genius.com/4953d010c1ca198d7535ed5b1ddeab98.1000x1000x1.png",
+        "id": 156213,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 67630,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1662909316,
+        "path": "/The-smiths-what-difference-does-it-make-lyrics",
+        "pyongs_count": 10,
+        "relationships_index_url": "https://genius.com/The-smiths-what-difference-does-it-make-sample",
+        "release_date_components": {
+            "year": 1984,
+            "month": 1,
+            "day": 16
+        },
+        "release_date_for_display": "January 16, 1984",
+        "release_date_with_abbreviated_month_for_display": "Jan. 16, 1984",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8bc3a4558fed0491e885310302ff5704.220x217x1.gif",
+        "song_art_image_url": "https://images.genius.com/8bc3a4558fed0491e885310302ff5704.220x217x1.gif",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 98482
+        },
+        "title": "What Difference Does It Make?",
+        "title_with_featured": "What Difference Does It Make?",
+        "updated_by_human_at": 1674575160,
+        "url": "https://genius.com/The-smiths-what-difference-does-it-make-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/16669",
+            "header_image_url": "https://images.genius.com/bc2a15aa8f90d86c5d76be3d40ed7a0c.770x584x1.jpg",
+            "id": 16669,
+            "image_url": "https://images.genius.com/3fc6cae07767241ae2d54c14abc0ea8e.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Smiths",
+            "slug": "The-smiths",
+            "url": "https://genius.com/artists/The-smiths"
+        },
+        "artist": "The Smiths",
+        "lyrics": "What Difference Does It Make? Lyrics[Verse 1]\nAll men have secrets and here is mine\nSo let it be known\nFor we have been through hell and high tide\nI can surely rely on you\nAnd yet you start to recoil\nHeavy words are so lightly thrown\nBut still I'd leap in front of a flying bullet for you\n\n[Chorus 1]\nSo, what difference does it make?\nSo, what difference does it make?\nIt makes none\nBut now you have gone\nAnd you must be looking very old tonight\n[Verse 2]\nThe devil will find work for idle hands to do\nI stole and I lied, and why?\nBecause you asked me to!\nBut now you make me feel so ashamed\nBecause I've only got two hands\nBut I'm still fond of you, oh-ho-oh\n\n[Chorus 2]\nSo, what difference does it make? (Oooooh)\nWhat difference does it make? (Oooooh)\nIt makes none\nBut now you have gone\nAnd your prejudice won't keep you warm tonight\n\n[Verse 3]\nOh, the devil will find work for idle hands to do\nI stole, and then I lied\nJust because you asked me to\nBut now you know the truth about me\nYou won't see me anymore\nWell, I'm still fond of you, oh-ho-oh\nBut no more apologies\nNo more, no more apologies\nOh, I'm too tired\nI'm so sick and tired\nAnd I'm feeling very sick and ill today\nBut I'm still fond of you, oh-ho-oh\nOh, my sacred one...\nOh...You might also like10Embed"
+    }
+}

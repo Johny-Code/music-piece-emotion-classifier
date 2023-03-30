@@ -1,0 +1,57 @@
+{
+    "id": "ML1024",
+    "mood": "angry",
+    "artist": "Cradle of Filth",
+    "title": "Tonight in Flames",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/879036",
+        "artist_names": "Cradle of Filth",
+        "full_title": "Tonight in Flames by\u00a0Cradle\u00a0of Filth",
+        "header_image_thumbnail_url": "https://images.genius.com/b2aac60a35e09e2037f8f294d8c57477.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b2aac60a35e09e2037f8f294d8c57477.600x600x1.jpg",
+        "id": 879036,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3543367,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1651066059,
+        "path": "/Cradle-of-filth-tonight-in-flames-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Cradle-of-filth-tonight-in-flames-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 10,
+            "day": 17
+        },
+        "release_date_for_display": "October 17, 2006",
+        "release_date_with_abbreviated_month_for_display": "Oct. 17, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b2aac60a35e09e2037f8f294d8c57477.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b2aac60a35e09e2037f8f294d8c57477.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Tonight in Flames",
+        "title_with_featured": "Tonight in Flames",
+        "updated_by_human_at": 1666221144,
+        "url": "https://genius.com/Cradle-of-filth-tonight-in-flames-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/74196",
+            "header_image_url": "https://s3.amazonaws.com/rapgenius/cof1.jpg",
+            "id": 74196,
+            "image_url": "https://s3.amazonaws.com/rapgenius/cof1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Cradle of Filth",
+            "slug": "Cradle-of-filth",
+            "url": "https://genius.com/artists/Cradle-of-filth"
+        },
+        "artist": "Cradle of Filth",
+        "lyrics": "Tonight in Flames LyricsI will give to drink without cost from the spring of the water of life\nHe who overcomes will inherit all this\nAnd I will be his God and he will be my son\n\nWhen contrary winds blow across the sands\nTheir murmurs can be easily swayed\nBut when storms quicken one cannot placate\nThe howling of their murderous rages\n\nWinged seraphim hold love's trembling hand\nBeside our waiting graves\nAs war roars about out precious land\nSeeking cause to subjugate\nTonight in flames\nTonight the world will fear our names\nTonight in flames\nStay my feeble heart\nOur deaths will be the start\nOf something glorious and vain\nTonight in flames\n\nThere is no fanaticism as virile as faith\nTo the blind his words are clear\nSuffer not the infidel, suffer not the infidel!\nAssure your place in paradise here\n\nWinged seraphim hold love's trembling hand\nBeside her tiny grave\nI will avenge her, do or damned\nHer sacred mother did the same\n\nTonight in flames\nTonight the world will fear our names\nTonight in flames\nStay my feeble heart\nOur deaths will be the start\nOf something glorious and vain\nTonight in flames\nYou might also likeI went to see her dance one day\nIn a play by a wailing wall\nNow she is gone but the song lives on\nZealous and maniacal\n\nThe Eastern sword must fall\n\nThe cowardly, the unbelieving, the vile, the murderers, the idolaters and all liars\nTheir place will be in the fiery lake of burning sulfur\n\nWinged seraphim hold love's trembling hand\nBeside her waiting grave\nAs war roars about our precious land\nSeeking cause to subjugate\n\nTonight in flames\nTonight the world will fear our names\nTonight in flames\nStay my feeble heart\nOur deaths will be the start\nOf something glorious and vain\nTonight in flames1Embed"
+    }
+}

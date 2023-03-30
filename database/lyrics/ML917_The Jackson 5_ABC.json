@@ -1,0 +1,58 @@
+{
+    "id": "ML917",
+    "mood": "happy",
+    "artist": "The Jackson 5",
+    "title": "ABC",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/1603797",
+        "artist_names": "The Jackson 5",
+        "full_title": "ABC by\u00a0The\u00a0Jackson 5",
+        "header_image_thumbnail_url": "https://images.genius.com/3200bc2f96585b38ca4682988678e146.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/3200bc2f96585b38ca4682988678e146.1000x1000x1.jpg",
+        "id": 1603797,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1113012,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1630617518,
+        "path": "/The-jackson-5-abc-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/The-jackson-5-abc-sample",
+        "release_date_components": {
+            "year": 1970,
+            "month": 2,
+            "day": 24
+        },
+        "release_date_for_display": "February 24, 1970",
+        "release_date_with_abbreviated_month_for_display": "Feb. 24, 1970",
+        "song_art_image_thumbnail_url": "https://images.genius.com/f4d1e96e04907786ae6fb2c7ac5b89b4.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f4d1e96e04907786ae6fb2c7ac5b89b4.720x720x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 3,
+            "hot": false,
+            "pageviews": 226796
+        },
+        "title": "ABC",
+        "title_with_featured": "ABC",
+        "updated_by_human_at": 1674485460,
+        "url": "https://genius.com/The-jackson-5-abc-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/8662",
+            "header_image_url": "https://images.genius.com/2dc88c6e1ad7c45a366dc85c6d377afb.1000x661x1.jpg",
+            "id": 8662,
+            "image_url": "https://images.genius.com/246f15d55b276fd2d696bde4020ad436.948x711x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Jackson 5",
+            "slug": "The-jackson-5",
+            "url": "https://genius.com/artists/The-jackson-5"
+        },
+        "artist": "The Jackson 5",
+        "lyrics": "ABC Lyrics[Intro: Michael Jackson]\nA buh-buh buh buh\nA buh-buh buh buh\n\n[Verse 1: Michael Jackson & Jermaine Jackson]\nYou went to school to learn, girl\nThings you never, never knew before\nLike \"I before E, except after C\"\nAnd why two plus two makes four\nNow now now, I'm gonna teach you (Teach you, teach you)\nAll about love, yeah! (All about love!)\nSit yourself down, take a seat\nAll you gotta do is repeat after me\n[Chorus: Michael Jackson]\nA, B, C\nEasy as 1, 2, 3\nOr simple as Do-Re-Mi\nA, B, C, 1, 2, 3, baby you and me, girl!\nA, B, C\nEasy as 1, 2, 3\nOr simple as Do-Re-Mi\nA, B, C, 1, 2, 3, baby you and me, girl!\n\n[Bridge: Tito Jackson, Jackie Jackson, Jermaine Jackson & Michael Jackson]\nCome on, let me love you just a little bit!\nCome on, let me love you just a little bit!\nI'ma gonna teach how to sing it out!\nCome on, come on, come on\nLet me show you what it's all about!\n\n[Verse 2: Michael Jackson & Jermaine Jackson]\nReading, writing, arithmetic\nAre the branches of the learning tree\nBut without the roots of love every day, girl\nYour education ain't complete\nT-t-t-teachers gonna show you (Show you, show you)\nHow to get an \"A\"! (Nyah nyah nyah nyah!)\nSpell me, you (You add the two)\nListen to me baby, that's all you gotta do!\nYou might also like[Chorus: Michael Jackson]\nA, B, C\nIt's easy as 1, 2, 3\nOr simple as Do-Re-Mi\nA, B, C, 1, 2, 3, baby you and me, girl!\n\n[Refrain: Michael Jackson]\nA, B, C, it's easy, it's like counting up to three\nSing a simple melody\nThat's how easy love can be\nNow, that's how easy love can be\nSing a simple melody\n1, 2, 3, you and me (Yeah)\n\n[Bridge 2: Michael Jackson]\nSit down, girl!\nI think I love you!\nNo!\nGet up, girl!\nShow me what you can do!\nShake it, shake it, baby, come on now!\nShake it, shake it, baby, ooh-ooh!\nShake it, shake it, baby, huh!\n1, 2, 3, baby, ooh-ooh\nA, B, C, baby, nah nah!\nDo-Re-Mi, baby, huh!\nThat's how easy love can be\n[Refrain: Michael Jackson]\nA, B, C, it's easy, it's like counting up to three\nSing a simple melody\nThat's how easy love can be\nThat's how easy love can be\n\n[Outro: Jermaine Jackson & Michael Jackson]\nI'm-a gonna teach you how to sing it out!\nCome on, come on, come on\nLet me show you what it's all about!\nA, B, C, it's easy, it's like counting up to three\nSing a simple melody\nThat's how easy love can be\nI'ma gonna teach you how to sing it out, sing it out, sing it out! (Oh! Oh! Oh, baby!)\nA, B, C, it's easy, it's like counting up to three\nSing a simple melody\nThat's how easy...6Embed"
+    }
+}

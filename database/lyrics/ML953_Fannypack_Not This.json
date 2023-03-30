@@ -1,0 +1,53 @@
+{
+    "id": "ML953",
+    "mood": "relaxed",
+    "artist": "Fannypack",
+    "title": "Not This",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1696603",
+        "artist_names": "Fannypack",
+        "full_title": "Not This by\u00a0Fannypack",
+        "header_image_thumbnail_url": "https://images.genius.com/319adcccfa3e53cd2500c82892533858.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/319adcccfa3e53cd2500c82892533858.640x640x1.jpg",
+        "id": 1696603,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429904423,
+        "path": "/Fannypack-not-this-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Fannypack-not-this-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/319adcccfa3e53cd2500c82892533858.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/319adcccfa3e53cd2500c82892533858.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Not This",
+        "title_with_featured": "Not This",
+        "updated_by_human_at": 1480535131,
+        "url": "https://genius.com/Fannypack-not-this-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/26745",
+            "header_image_url": "https://images.genius.com/f1116ae8f08199dc665c71f3433a527f.330x350x1.jpg",
+            "id": 26745,
+            "image_url": "https://images.genius.com/5345ec3e0ce583fe8c24b8266da6b0cf.330x330x1.jpg",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Fannypack",
+            "slug": "Fannypack",
+            "url": "https://genius.com/artists/Fannypack"
+        },
+        "artist": "Fannypack",
+        "lyrics": "Not This LyricsI'm still takin the train and\nMy metro card's empty\nThe windows of the stores when I walk by tempt me\nI was on MTV but I don't have a Bently\nF*** it in my pockets I barely gotta twenty\nDollar bill but I go to shows\nAnd make you holla still\nI gotta pay my bills and it's not like Prada will\nI go to the check cashing spot\nWill I always be a have not\nNever gonna live in no lavish spot\nAlways gonna live at home with mom and pop\nShop at Old Navy and Payless\nI'm just tryna be honest that why I say this\nHopefully radio plays this I doubt it though\nYo pass that Olde English\nYeah I be rockin the discotech\nEvery single night no self respect\nSometimes I feel like I party way too much\nPremieres openings and shows and such but\nWhat else is a girl to do\nGo home by myself at 2\nIn the AM I'm sayin I'm not playin\nI'm doin the same stupid shit and it's day in day out\nI know that there's gotta be a way out\nBut I keep drinking and I just stay out\nAt the hot spots with superstars and the hardrocks\nI wish that I could disappear to the boondocks\nWhy not, maybe I'll hire me a pilot\nTo take me away to the shade and I'll stay\nGet a slice at Ray's like we did when we was kids\nSomething's gotta give real soon but it's not this\n\nOn the real I be hatin myself sometimes\nI know you do too but it's okay sometimes\nI'm tryin to escape the grind sometimes\nIt ain't gonna get better if I do some lines so\nEnough with the parties and bullshit\nI go to the parties and bullshit\nIt never gets better when I do this shit\nSo stressed I wanna get up and quit\nIt's like maybe tonight's the night and\nMaybe if I socialize I'll feel alright but those\nNever seem to be the best laid plans\nNever did I dream I'd go to foreign lands I just\nWanna lay in creamy sands\nDoing nothin all day with my dreamy man maybe\nBuy that house across from the projects\nSo I can stay trading gossip like stock tips\nYou might also likeIt's not at the after party\nIt's not in the hotel lobby\nIt's not in magazines\nAnd It's not even in my dreams\nThe things that I need\nAin't in the vip\nDont know what it is\nIt's definitely not thisEmbed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML1050",
+    "mood": "angry",
+    "artist": "Soulfly",
+    "title": "Back to the Primitive",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1197583",
+        "artist_names": "Soulfly",
+        "full_title": "Back to the Primitive by\u00a0Soulfly",
+        "header_image_thumbnail_url": "https://images.genius.com/3f876573969240fe796a48fca0d36e28.220x220x1.jpg",
+        "header_image_url": "https://images.genius.com/3f876573969240fe796a48fca0d36e28.220x220x1.jpg",
+        "id": 1197583,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 4872770,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1520521931,
+        "path": "/Soulfly-back-to-the-primitive-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Soulfly-back-to-the-primitive-sample",
+        "release_date_components": {
+            "year": 2000,
+            "month": 9,
+            "day": 26
+        },
+        "release_date_for_display": "September 26, 2000",
+        "release_date_with_abbreviated_month_for_display": "Sep. 26, 2000",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3f876573969240fe796a48fca0d36e28.220x220x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3f876573969240fe796a48fca0d36e28.220x220x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Back to the Primitive",
+        "title_with_featured": "Back to the Primitive",
+        "updated_by_human_at": 1564611247,
+        "url": "https://genius.com/Soulfly-back-to-the-primitive-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/301317",
+            "header_image_url": "https://images.genius.com/de04293cb6eea5a0efeb6e935c2b49d2.1000x528x1.png",
+            "id": 301317,
+            "image_url": "https://images.genius.com/76f7b668858d421ba5067488231d04ab.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Soulfly",
+            "slug": "Soulfly",
+            "url": "https://genius.com/artists/Soulfly"
+        },
+        "artist": "Soulfly",
+        "lyrics": "Back to the Primitive Lyrics[Intro]\nUm, Dois, Tr\u00eas, Quatro\n\n[Verse]\nBack to the primitive\nFuck all your politics\nWe got our life to live\nThe way we want to be\nBack to the primitive\nFuck all your politics\nWho feels it, knows it\nThe god will guide me\nBack to the primitive\nFuck all your bullshit\nWe're back to set it free\nConfronting the negative\nBack to the primitive\nFuck all you wannabe's\nYou don't mean shit to me\nLet it bleed!\n[Chorus]\nPrimitive\nPrimitive\nPrimitive\nPrimitive\n\n[Verse]\nBack to the primitive\nFuck all your politics\nWe got our life to live\nThe way we want to be\nBack to the primitive\nFuck all your politics\nHow it used to be\nCheck your reality\nBack to the primitive\nFuck all your politics\nFuck all your wannabes\nAaaaaarggghhh!\nBack to the primitive\nFuck all your politics\nForever we will be\nWhat we want to be\n\n[Chorus]\nPrimitive\nPrimitive\nPrimitive\nPrimitive\nYou might also like[Chorus]\nPrimitive\nPrimitive\nPrimitive\nPrimitive\nPrimitive\nPrimitive\nPrimitive\nPrimitive\nPrimitive\nPrimitive\nPrimitive\n\n[Outro]\nPrimitivo\nPrimitivo\nPrimitivo\nPrimitivo\nPrimitivo\nPrimitivo\nPrimitivoEmbed"
+    }
+}

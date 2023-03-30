@@ -1,0 +1,57 @@
+{
+    "id": "ML292",
+    "mood": "sad",
+    "artist": "The Jacksons",
+    "title": "This Place Hotel",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/5713784",
+        "artist_names": "The Jacksons",
+        "full_title": "This Place Hotel (Live) by\u00a0The\u00a0Jacksons",
+        "header_image_thumbnail_url": "https://images.genius.com/0f29c8237b2ec472220d6a3dcf994122.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/0f29c8237b2ec472220d6a3dcf994122.1000x1000x1.jpg",
+        "id": 5713784,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 3492882,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1596504486,
+        "path": "/The-jacksons-this-place-hotel-live-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-jacksons-this-place-hotel-live-sample",
+        "release_date_components": {
+            "year": 1981,
+            "month": 11,
+            "day": 11
+        },
+        "release_date_for_display": "November 11, 1981",
+        "release_date_with_abbreviated_month_for_display": "Nov. 11, 1981",
+        "song_art_image_thumbnail_url": "https://images.genius.com/0f29c8237b2ec472220d6a3dcf994122.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/0f29c8237b2ec472220d6a3dcf994122.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "This Place Hotel (Live)",
+        "title_with_featured": "This Place Hotel (Live)",
+        "updated_by_human_at": 1639164873,
+        "url": "https://genius.com/The-jacksons-this-place-hotel-live-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/92169",
+            "header_image_url": "https://images.genius.com/e999862087f879c2e6d563602a443cf6.1000x561x1.jpg",
+            "id": 92169,
+            "image_url": "https://images.genius.com/004075bd6fb798b96aa15bebb1c5a079.951x951x1.jpg",
+            "index_character": "j",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Jacksons",
+            "slug": "The-jacksons",
+            "url": "https://genius.com/artists/The-jacksons"
+        },
+        "artist": "The Jacksons",
+        "lyrics": "This Place Hotel (Live) Lyrics[Verse 1: Michael Jackson]\nLive in sin\nTen years ago on this day\nMy heart was yearning\nI promised I would never\u2005ever\u2005be returning\nWhen my\u2005baby broke my heart and left\u2005me yearning\nAs we walked into the room\nThere were faces staring\nGlaring,\u205ftearing\u205fthrough\u205fme\nSomeone said welcome\u205fto your doom\nThen\u205fthey smiled with eyes\nThat looked as if they knew me\nThis is scaring me\n[Pre-Chorus: The Jacksons]\nWe walked up the stairs\nStill concealing gloom\nThere were two girls\nSitting in my room\nShe walked up to my face\nSaid this is the place\nYou said meet you right here at noon\n\n[Chorus: Michael Jackson & The Jacksons]\nThis is Heartbreak Hotel\nWelcome to Heartbreak Hotel\nSo this is Heartbreak Hotel\nSo evil Heartbreak Hotel\n\n[Verse 2: Michael Jackson]\nHope is dead\nShe thought that I had cheated for another lover\nI turn my back to see that I'm undercover\nNow I can't convince this girl there ain't no other\nSomeone's evil to hurt my soul\nEvery smile's a trial thought\nIn beguile to hurt me\nThen the man next door had told\nShe's been here in tears for fifteen years\nThis is scaring me, woo\nYou might also like[Pre-Chorus: The Jacksons]\nWe came to this place\nWhere the vicious dwell\nFound that wicked women\nRun this strange hotel\nThere was Sefra and Sue\nEvery girl that I knew\nAnd my baby said love is through\n\n[Chorus: Michael Jackson & The Jacksons]\nThis is Heartbreak Hotel\nWelcome to Heartbreak Hotel\nSo evil Heartbreak Hotel\nThis place is Heartbreak Hotel\nSomeone's stabbin' my heart\n(Heartbreak Hotel)\nThis is Heartbreak Hotel\n(Heartbreak Hotel)\nTen years ago today\n(Heartbreak Hotel)\nYes, you break my baby's heart\n(Heartbreak Hotel)\n\n[Outro: Michael Jackson & The Jacksons]\nSomeone's stabbin' my heart\n(Heartbreak Hotel)\nThis is Heartbreak Hotel\n(Heartbreak Hotel)\nTen years ago today\n(Heartbreak Hotel)\nYes, you break my baby's heart, yeah\n(Heartbreak Hotel)\nThis is heartbreak\n(Heartbreak Hotel)\n(Heartbreak Hotel)Embed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML1115",
+    "mood": "angry",
+    "artist": "Bikini Kill",
+    "title": "Suck My Left One",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/99421",
+        "artist_names": "Bikini Kill",
+        "full_title": "Suck My Left One by\u00a0Bikini\u00a0Kill",
+        "header_image_thumbnail_url": "https://images.genius.com/607dc244ebd2a5d787b681c2f6f814e7.300x295x1.jpg",
+        "header_image_url": "https://images.genius.com/607dc244ebd2a5d787b681c2f6f814e7.550x540x1.jpg",
+        "id": 99421,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6706,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1659023675,
+        "path": "/Bikini-kill-suck-my-left-one-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Bikini-kill-suck-my-left-one-sample",
+        "release_date_components": {
+            "year": 1992,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1992",
+        "release_date_with_abbreviated_month_for_display": "1992",
+        "song_art_image_thumbnail_url": "https://images.genius.com/607dc244ebd2a5d787b681c2f6f814e7.300x295x1.jpg",
+        "song_art_image_url": "https://images.genius.com/607dc244ebd2a5d787b681c2f6f814e7.550x540x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 22224
+        },
+        "title": "Suck My Left One",
+        "title_with_featured": "Suck My Left One",
+        "updated_by_human_at": 1659023675,
+        "url": "https://genius.com/Bikini-kill-suck-my-left-one-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/29871",
+            "header_image_url": "https://images.genius.com/ade9e0688850e348696d64ace70a36e8.1000x704x1.jpg",
+            "id": 29871,
+            "image_url": "https://images.genius.com/f50a53ef54e655ba86545c980d1343ef.400x400x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Bikini Kill",
+            "slug": "Bikini-kill",
+            "url": "https://genius.com/artists/Bikini-kill"
+        },
+        "artist": "Bikini Kill",
+        "lyrics": "Suck My Left One Lyrics[Intro: Kathleen Hanna & Unknown]\nSuck my left one, take one\nSuck my left one!\n\n[Verse 1]\nSister, sister, where did we go wrong?\nTell me what the fuck we're doing here\nWhy are all the boys acting strange?\nWe've got to show them we're worse than queer, 1, 2, 3, 4\n\n[Chorus]\nSuck my left one\nSuck my left one\n[Verse 2]\nDaddy comes into her room at night\nHe's got more than talking on his mind\nMy sister pulls the covers down\nShe reaches over, flicks on the light, she says to him\n\n[Chorus]\n\"Suck my left one\"\n\"Suck my left one\"\n\n[Bridge]\nMama says, \"You've got to be polite, girl\"\n\"You've got to be polite, girl\"\n\"Show a little respect for your father\"\n\"Wait until your father gets home\"\n\n[Outro]\nFine, fine, fine, fine\nFine, fine, fine, fineYou might also like2Embed"
+    }
+}

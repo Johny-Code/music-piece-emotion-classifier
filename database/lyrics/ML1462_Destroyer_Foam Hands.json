@@ -1,0 +1,57 @@
+{
+    "id": "ML1462",
+    "mood": "sad",
+    "artist": "Destroyer",
+    "title": "Foam Hands",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/2307172",
+        "artist_names": "Destroyer",
+        "full_title": "Foam Hands by\u00a0Destroyer",
+        "header_image_thumbnail_url": "https://images.genius.com/be9524e3c009d0198fa07b879a75bc36.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/be9524e3c009d0198fa07b879a75bc36.900x900x1.jpg",
+        "id": 2307172,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 2175978,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1442345828,
+        "path": "/Destroyer-foam-hands-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Destroyer-foam-hands-sample",
+        "release_date_components": {
+            "year": 2007,
+            "month": 12,
+            "day": 4
+        },
+        "release_date_for_display": "December 4, 2007",
+        "release_date_with_abbreviated_month_for_display": "Dec. 4, 2007",
+        "song_art_image_thumbnail_url": "https://images.genius.com/be9524e3c009d0198fa07b879a75bc36.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/be9524e3c009d0198fa07b879a75bc36.900x900x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Foam Hands",
+        "title_with_featured": "Foam Hands",
+        "updated_by_human_at": 1476142951,
+        "url": "https://genius.com/Destroyer-foam-hands-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/16351",
+            "header_image_url": "https://images.genius.com/15a761be3a0b057663b9b8e5abfa4007.596x596x1.jpg",
+            "id": 16351,
+            "image_url": "https://images.genius.com/15a761be3a0b057663b9b8e5abfa4007.596x596x1.jpg",
+            "index_character": "d",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Destroyer",
+            "slug": "Destroyer",
+            "url": "https://genius.com/artists/Destroyer"
+        },
+        "artist": "Destroyer",
+        "lyrics": "Foam Hands LyricsTrue love regrets to inform you\nThere are certain things you must do\nTo perceive his face In the stains on the wall\n\nI didn't know what time it was at all\nI didn't know what time it was at all\n\nFoam hands\n\nSince you've been gone\nSince you've been gone\nMe and the King have been steadily growing apart\nHe lives down the hall\nI didn't know what time it was at all\nI didn't know what time it was at all\n\nFoam hands\n\nI'm not the kind\nTo tell you what is true\nAnd what is totally out of control\n\nI didn't know what time it was at all\nI didn't know what time it was at all\n\n[OUTRO]\nFoam hands\nFoam hands\nFoam hands\nFoam handsYou might also likeEmbed"
+    }
+}

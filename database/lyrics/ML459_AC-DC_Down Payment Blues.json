@@ -1,0 +1,58 @@
+{
+    "id": "ML459",
+    "mood": "angry",
+    "artist": "AC/DC",
+    "title": "Down Payment Blues",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/307424",
+        "artist_names": "AC/DC",
+        "full_title": "Down Payment Blues by\u00a0AC/DC",
+        "header_image_thumbnail_url": "https://images.genius.com/05f90eb439ae3e129e06c1ab220f1c10.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/05f90eb439ae3e129e06c1ab220f1c10.1000x1000x1.jpg",
+        "id": 307424,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 354608,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1623425453,
+        "path": "/Ac-dc-down-payment-blues-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Ac-dc-down-payment-blues-sample",
+        "release_date_components": {
+            "year": 1978,
+            "month": 5,
+            "day": 5
+        },
+        "release_date_for_display": "May 5, 1978",
+        "release_date_with_abbreviated_month_for_display": "May. 5, 1978",
+        "song_art_image_thumbnail_url": "https://images.genius.com/05f90eb439ae3e129e06c1ab220f1c10.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/05f90eb439ae3e129e06c1ab220f1c10.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false,
+            "pageviews": 7289
+        },
+        "title": "Down Payment Blues",
+        "title_with_featured": "Down Payment Blues",
+        "updated_by_human_at": 1639001073,
+        "url": "https://genius.com/Ac-dc-down-payment-blues-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/20268",
+            "header_image_url": "https://images.genius.com/abc9e559fbb4a6d6ef9e638e23bec856.500x329x36.gif",
+            "id": 20268,
+            "image_url": "https://images.genius.com/0a52d9aa22947ee598b08b7773c7db51.1000x1000x1.jpg",
+            "index_character": "a",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "AC/DC",
+            "slug": "Ac-dc",
+            "url": "https://genius.com/artists/Ac-dc"
+        },
+        "artist": "AC/DC",
+        "lyrics": "Down Payment Blues Lyrics[Verse 1]\nI know that it's evil\nI know that it's got to be\nNo, I ain't doing much\nDoing nothing means a lot to me\nLiving on a shoestring\nA fifty cent millionaire\nOpen to charity\nRock 'n' roller welfare\n\nSittin' in my Cadillac\nListenin' to my radio\nSuzie, baby, get on in\nTell me where she want to go\nI'm living in a nightmare\nShe's looking like a wet dream\nI got myself a Cadillac\nBut I can't afford the gasoline\n[Chorus]\nI got holes in my shoe\nAnd I'm way overdue\nDown payment blues\n\n[Solo]\n\n[Verse 2]\nGet myself a steady job\nSome responsibility\nCan't even feed my cat\nOn social security\nHidin' from the rent man\nOh, it make me want to cry\nSheriff knockin' on my door\nAin't it funny how the time fly?\n\nSittin' on my sailin' boat\nSippin' on my champagne\nSuzie, baby, all at sea\nSay she want to come again\nFeelin' like a paper cup\nFloatin' down the storm drain\nGot myself a sailin' boat\nBut I can't afford a drop of rain\nYou might also like[Chorus]\nI got holes in my shoes\nAnd I'm way overdue\nDown payment blues\n\nDown payment blues\nDown payment blues\nDown payment blues\n\nI got holes in my shoe\nAnd I'm way overdue\nI got the down payment blues4Embed"
+    }
+}

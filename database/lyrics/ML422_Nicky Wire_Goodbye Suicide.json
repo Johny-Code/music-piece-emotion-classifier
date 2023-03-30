@@ -1,0 +1,57 @@
+{
+    "id": "ML422",
+    "mood": "sad",
+    "artist": "Nicky Wire",
+    "title": "Goodbye Suicide",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1071240",
+        "artist_names": "Nicky Wire",
+        "full_title": "Goodbye Suicide by\u00a0Nicky\u00a0Wire",
+        "header_image_thumbnail_url": "https://images.genius.com/45c05ade6b83df8a504efd4436bcb56d.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/45c05ade6b83df8a504efd4436bcb56d.300x300x1.jpg",
+        "id": 1071240,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 8613973,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1630912589,
+        "path": "/Nicky-wire-goodbye-suicide-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Nicky-wire-goodbye-suicide-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 9,
+            "day": 25
+        },
+        "release_date_for_display": "September 25, 2006",
+        "release_date_with_abbreviated_month_for_display": "Sep. 25, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/45c05ade6b83df8a504efd4436bcb56d.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/45c05ade6b83df8a504efd4436bcb56d.300x300x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Goodbye Suicide",
+        "title_with_featured": "Goodbye Suicide",
+        "updated_by_human_at": 1630914628,
+        "url": "https://genius.com/Nicky-wire-goodbye-suicide-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/376337",
+            "header_image_url": "https://images.genius.com/d8119948fe7e2e7b5030ce99c0bfef5a.512x512x1.jpg",
+            "id": 376337,
+            "image_url": "https://images.genius.com/d8119948fe7e2e7b5030ce99c0bfef5a.512x512x1.jpg",
+            "index_character": "n",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Nicky Wire",
+            "slug": "Nicky-wire",
+            "url": "https://genius.com/artists/Nicky-wire"
+        },
+        "artist": "Nicky Wire",
+        "lyrics": "Goodbye Suicide LyricsGoodbye suicide\nWipe the tears down from your eyes\nTake my hand\nHold back pride - goodbye suicide\n\nGoodbye suicide\nNot for real but for this life\nAu revoir\nAuf wiedersehen - goodbye suicide\n\nGoodbye suicide\nBeautiful to be so kind\nForever been\nBut never seen - goodbye suicide\nGoodbye suicide\nNever thought I'd tell a lie\nSee you later\nSayonara - goodbye suicide\n\nIf the ending fits the words\nIf you struggle to be heard\nYou can only try so, so hard\nYou can only try so fucking hard\n\nSo goodbye suicide\nInnocence is not a crime\nHold back fear\nDon't let it near - goodbye suicideYou might also likeEmbed"
+    }
+}

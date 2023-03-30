@@ -1,0 +1,57 @@
+{
+    "id": "ML1348",
+    "mood": "happy",
+    "artist": "Madness",
+    "title": "Shut Up",
+    "song": {
+        "_type": "song",
+        "annotation_count": 5,
+        "api_path": "/songs/107217",
+        "artist_names": "Madness",
+        "full_title": "Shut Up by\u00a0Madness",
+        "header_image_thumbnail_url": "https://images.genius.com/3fa381a04d5c5e401faff2e33c7723ab.300x302x1.jpg",
+        "header_image_url": "https://images.genius.com/3fa381a04d5c5e401faff2e33c7723ab.597x600x1.jpg",
+        "id": 107217,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 70799,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1621906315,
+        "path": "/Madness-shut-up-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Madness-shut-up-sample",
+        "release_date_components": {
+            "year": 1981,
+            "month": 9,
+            "day": 11
+        },
+        "release_date_for_display": "September 11, 1981",
+        "release_date_with_abbreviated_month_for_display": "Sep. 11, 1981",
+        "song_art_image_thumbnail_url": "https://images.genius.com/3fa381a04d5c5e401faff2e33c7723ab.300x302x1.jpg",
+        "song_art_image_url": "https://images.genius.com/3fa381a04d5c5e401faff2e33c7723ab.597x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 4,
+            "hot": false
+        },
+        "title": "Shut Up",
+        "title_with_featured": "Shut Up",
+        "updated_by_human_at": 1634301445,
+        "url": "https://genius.com/Madness-shut-up-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/353230",
+            "header_image_url": "https://images.genius.com/7874cb690ccc0913a2ccd86941be39af.1000x625x1.jpg",
+            "id": 353230,
+            "image_url": "https://images.genius.com/d71d99dd17695bcaf546e4b8b2f33602.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Madness",
+            "slug": "Madness",
+            "url": "https://genius.com/artists/Madness"
+        },
+        "artist": "Madness",
+        "lyrics": "Shut Up LyricsI tell you I didn't do it, cause I wasn't there\nDon't blame me, it just isn't fair\nYou listen to their side, now listen to mine\nCan't think of a story, sure you'll find me sometime\n\n[Hook]\nNow pass the blame and don't blame me\nJust close your eyes and count to three\n(One two three)\nThen I'll be gone and you'll forget\nThe broken window, T.V. set\nIt wasn't me either, I'm just his mate\nHe told me to stand here and watch the gate\nI've got a wife and three kids you know\nThey'll tell you I'm straight, at least I think so\nI'm as honest as the day is long\nThe longer the daylight, the less I do wrong\n\n[Hook]\nNow pass the blame and don't blame me\nJust close your eyes and count to three\n(One two three)\nThen I'll be gone and you'll forget\nThe broken window, T.V. set\n\nPass the blame and don't blame me\nJust close your eyes and count to three\n(One two three)\nThen I'll be gone and I'll forget\nThat what you give is what you get...You might also like1Embed"
+    }
+}

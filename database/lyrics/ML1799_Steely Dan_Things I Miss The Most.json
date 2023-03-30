@@ -1,0 +1,58 @@
+{
+    "id": "ML1799",
+    "mood": "relaxed",
+    "artist": "Steely Dan",
+    "title": "Things I Miss The Most",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/938239",
+        "artist_names": "Steely Dan",
+        "full_title": "Things I Miss the Most by\u00a0Steely\u00a0Dan",
+        "header_image_thumbnail_url": "https://images.genius.com/8ee2bb623232a7a561c11e0df3308ab6.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/8ee2bb623232a7a561c11e0df3308ab6.800x800x1.jpg",
+        "id": 938239,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 13517274,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1673496429,
+        "path": "/Steely-dan-things-i-miss-the-most-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Steely-dan-things-i-miss-the-most-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 6,
+            "day": 10
+        },
+        "release_date_for_display": "June 10, 2003",
+        "release_date_with_abbreviated_month_for_display": "Jun. 10, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8ee2bb623232a7a561c11e0df3308ab6.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/8ee2bb623232a7a561c11e0df3308ab6.800x800x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 9,
+            "hot": false,
+            "pageviews": 9227
+        },
+        "title": "Things I Miss the Most",
+        "title_with_featured": "Things I Miss the Most",
+        "updated_by_human_at": 1673496440,
+        "url": "https://genius.com/Steely-dan-things-i-miss-the-most-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/25769",
+            "header_image_url": "https://images.genius.com/763c2ee601488967edcff23d068300eb.500x330x1.gif",
+            "id": 25769,
+            "image_url": "https://s3.amazonaws.com/rapgenius/Steely%20Dan%20thedan.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Steely Dan",
+            "slug": "Steely-dan",
+            "url": "https://genius.com/artists/Steely-dan"
+        },
+        "artist": "Steely Dan",
+        "lyrics": "Things I Miss the Most Lyrics[Verse 1]\nI don't mind the quiet\nOr the lonely nights\nI don't miss the funky attitudes and I, I don't miss the fights\nI lie on the couch 'til suppertime\nAnd hunker down and read the Post\nAnd that's when I remember the things I miss the most\n\n[Chorus]\nThe talk\nThe sex\nSomebody to trust\nThe Audi TT\nThe house on the Vineyard\nThe house on the Gulf Coast\nThese are the things I miss the most\n[Verse 2]\nI kinda like frying up\nMy sad cuisine\nGetting in bed and curling up with a girlie magazine\nSometimes in the corner of my eye\nI see that adorable ghost\nAnd then ba-boom I remember the things I miss the most\n\n[Chorus]\nThe talk\nAnd the sex\nSomebody to trust\nThe comfy Eames chair\nThe good copper pans\nThe '54 Strat\nThese are the things I miss the most\n\n[Bridge]\nI had a little birdy friend\nBy morning she was gone\nBirdy goodbye\nBirdy bye bye\n\n[Verse 3]\nI'm learning how to meditate\nSo far so good\nI'm building the Andrea Doria out of balsa wood\nThe days really don't last forever\nBut it's getting pretty damn close\nAnd that's when I remember the things I miss the most\nYou might also like[Chorus]\nThe talk\nAnd the sex\nSomebody to trust\nThe Audi TT\nThe house on the Vineyard\nThe house on the Gulf Coast\nThese are the things I miss the mostEmbed"
+    }
+}

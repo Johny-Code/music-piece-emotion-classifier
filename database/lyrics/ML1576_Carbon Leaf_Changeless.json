@@ -1,0 +1,57 @@
+{
+    "id": "ML1576",
+    "mood": "relaxed",
+    "artist": "Carbon Leaf",
+    "title": "Changeless",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1687389",
+        "artist_names": "Carbon Leaf",
+        "full_title": "Changeless by\u00a0Carbon\u00a0Leaf",
+        "header_image_thumbnail_url": "https://images.genius.com/143d8b943f7a9f5f761bcd3e150decfc.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/143d8b943f7a9f5f761bcd3e150decfc.640x640x1.jpg",
+        "id": 1687389,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429903927,
+        "path": "/Carbon-leaf-changeless-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Carbon-leaf-changeless-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": 7,
+            "day": 13
+        },
+        "release_date_for_display": "July 13, 2004",
+        "release_date_with_abbreviated_month_for_display": "Jul. 13, 2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/143d8b943f7a9f5f761bcd3e150decfc.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/143d8b943f7a9f5f761bcd3e150decfc.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Changeless",
+        "title_with_featured": "Changeless",
+        "updated_by_human_at": 1632645185,
+        "url": "https://genius.com/Carbon-leaf-changeless-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/61616",
+            "header_image_url": "https://images.genius.com/24c7e5663143f7c2a3d4806c67ef99d0.1000x1000x1.jpg",
+            "id": 61616,
+            "image_url": "https://images.genius.com/24c7e5663143f7c2a3d4806c67ef99d0.1000x1000x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Carbon Leaf",
+            "slug": "Carbon-leaf",
+            "url": "https://genius.com/artists/Carbon-leaf"
+        },
+        "artist": "Carbon Leaf",
+        "lyrics": "Changeless LyricsCall my friends\nTo share some wine\nTo share some laughs\nAnd last goodbyes\nMy photographs\nOf these years\nWill make me laugh\nThrough the tears\n\nAnd what are the odds?\nWhat are the odds this ends and we don't meet again?\nWhat are the odds?\nWhat are the odds that I will miss your smile?\nTake a while, take a while\nTake care and\nFly away and see the world\nTake a while, take a while\nTake time and\nIf you need rest I'll keep your nest\nChangeless\n\nLet fondness be our souvenir\nTo keep it warm it we'll keep it near\nOtherwise with no heart to recall\nA memory's just a memory after all\n\nI will not leave this pulse alone\nThought it may take the long way home\nI will not wait til the end\nFor my applause for you my friend\n\nAnd what are the odds?\nWhat are the odds this ends and we don't meet again?\nWhat are the odds?\nWhat are the odds that I will miss your smile?\n\nTake a while, take a while\nTake care and\nFly away and see the world\nTake a while, take a while\nTake time and\nIf you need rest I'll keep your nest\nChangelessYou might also likeEmbed"
+    }
+}

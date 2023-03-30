@@ -1,0 +1,58 @@
+{
+    "id": "ML491",
+    "mood": "happy",
+    "artist": "Stephen Lynch",
+    "title": "Baby",
+    "song": {
+        "_type": "song",
+        "annotation_count": 6,
+        "api_path": "/songs/360647",
+        "artist_names": "Stephen Lynch",
+        "full_title": "Baby by\u00a0Stephen\u00a0Lynch",
+        "header_image_thumbnail_url": "https://images.genius.com/2998f725b9ab391369157810e86ba479.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/2998f725b9ab391369157810e86ba479.640x640x1.jpg",
+        "id": 360647,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 84379,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1649000162,
+        "path": "/Stephen-lynch-baby-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Stephen-lynch-baby-sample",
+        "release_date_components": {
+            "year": 2005,
+            "month": 1,
+            "day": 1
+        },
+        "release_date_for_display": "January 1, 2005",
+        "release_date_with_abbreviated_month_for_display": "Jan. 1, 2005",
+        "song_art_image_thumbnail_url": "https://images.genius.com/2998f725b9ab391369157810e86ba479.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/2998f725b9ab391369157810e86ba479.640x640x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 6,
+            "hot": false,
+            "pageviews": 6249
+        },
+        "title": "Baby",
+        "title_with_featured": "Baby",
+        "updated_by_human_at": 1649000162,
+        "url": "https://genius.com/Stephen-lynch-baby-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/87515",
+            "header_image_url": "https://images.genius.com/ede0930693602871e8ec8809d9f18818.300x300x1.jpg",
+            "id": 87515,
+            "image_url": "https://images.genius.com/ede0930693602871e8ec8809d9f18818.300x300x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Stephen Lynch",
+            "slug": "Stephen-lynch",
+            "url": "https://genius.com/artists/Stephen-lynch"
+        },
+        "artist": "Stephen Lynch",
+        "lyrics": "Baby LyricsThis is for my little girl\n\n[Verse 1]\nMy lady gives birth today\nI run to her room right away\nShe smiles with glee, then hands her to me\nI look at my newborn and say\n\n[Chorus 1]\nDamn that\u2019s a ugly baby\nDamn that\u2019s a ugly ass baby\nI\u2019m feeling quite concerned, my semen must\u2019ve turned\n\u2018Cause damn that\u2019s an ugly baby\n[Verse 2]\nI can\u2019t believe this came from me\nI think her mom did too much LSD\nShe\u2019s skinny like a twig\nAt least her nuts are big\nBut the placenta is cuter than she\n\n[Chorus 2]\nDamn that\u2019s a ugly baby\nGod Damn that\u2019s a ugly ass baby\nI can\u2019t take her home today, she\u2019ll scare the dog away\n\u2018Cause damn that\u2019s a ugly baby\n\n[Verse 3]\nAnd when she smiles I find\nShane McGowan comes to mind\nIt makes me want to cry\nWhen I look into her good eye\nI always wanted kids\nIs it wrong to hope for sids?\nFuck you it\u2019s my fucking baby\n\nThen the doctor calls me in\nMr. Lynch she has a twin\nYou might also like[Chorus 3]\nDamn that\u2019s a good looking baby\nOne for two on the good looking babies\nI almost start to weep, now this one we can keep\n\u2018Cause that was an ugly ass\n\n[Bridge]\nDamn that\u2019s an ugly baby\nDamn that\u2019s an ugly ba- SING FUCKERS C\u2019MON\nDamn that\u2019s an ugly baby WOOOH\nDamn that\u2019s an ugly baby\n\n[Verse 4]\nShe\u2019s got one good tooth and one ear and one eye\nAnd thank god just one nose but it\u2019s on her left thigh\nNow doctor I\u2019m asking you guy to guy\nWould a really really really late term abortion still fly\n\n[Outro]\nOh no my baby not me\nI don\u2019t want no ugly baby\nI said damn that\u2019s an ugly baby\nDamn that\u2019s an ugly ass baby\n\nThank you, good nightEmbed"
+    }
+}

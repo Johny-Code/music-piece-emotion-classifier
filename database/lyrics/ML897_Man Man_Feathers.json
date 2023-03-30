@@ -1,0 +1,57 @@
+{
+    "id": "ML897",
+    "mood": "sad",
+    "artist": "Man Man",
+    "title": "Feathers",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1223820",
+        "artist_names": "Man Man",
+        "full_title": "Feathers by\u00a0Man\u00a0Man",
+        "header_image_thumbnail_url": "https://images.genius.com/381cbdc5502fe54fa30eb4c716ab9a76.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/381cbdc5502fe54fa30eb4c716ab9a76.500x500x1.jpg",
+        "id": 1223820,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 9162253,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1605101532,
+        "path": "/Man-man-feathers-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Man-man-feathers-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 2,
+            "day": 21
+        },
+        "release_date_for_display": "February 21, 2006",
+        "release_date_with_abbreviated_month_for_display": "Feb. 21, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/381cbdc5502fe54fa30eb4c716ab9a76.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/381cbdc5502fe54fa30eb4c716ab9a76.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Feathers",
+        "title_with_featured": "Feathers",
+        "updated_by_human_at": 1647418818,
+        "url": "https://genius.com/Man-man-feathers-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/55472",
+            "header_image_url": "https://images.genius.com/e48f7eb32e5baef8c925124880793fbb.612x612x1.jpg",
+            "id": 55472,
+            "image_url": "https://images.genius.com/e48f7eb32e5baef8c925124880793fbb.612x612x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Man Man",
+            "slug": "Man-man",
+            "url": "https://genius.com/artists/Man-man"
+        },
+        "artist": "Man Man",
+        "lyrics": "Feathers LyricsShe feels like\nA stranger has come in the night\nAnd stolen her life\nAnd left her with this\n\nAnd boughs break on ebony toothaches\nShe's just a flask trapped inside a fall\n\nAnd I know you need to find\nWhat you thought you left behind in a past life\nI won't question why\nThe only light that you have you give away\nI know you need to find\nWhat you thought you left behind in a past life\nI won't question why\nThe only light that you have you give away\n\nShe feels like\nA stranger has come in the night\nAnd stolen her life\nAnd left her with thisYou might also likeEmbed"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ML1714",
+    "mood": "happy",
+    "artist": "Mando Diao",
+    "title": "Clean Town",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1010983",
+        "artist_names": "Mando Diao",
+        "full_title": "Clean Town by\u00a0Mando\u00a0Diao",
+        "header_image_thumbnail_url": "https://images.genius.com/f3baedd418286752797443e18f54d25f.300x298x1.jpg",
+        "header_image_url": "https://images.genius.com/f3baedd418286752797443e18f54d25f.640x636x1.jpg",
+        "id": 1010983,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 6014779,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1534137904,
+        "path": "/Mando-diao-clean-town-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Mando-diao-clean-town-sample",
+        "release_date_components": {
+            "year": 2004,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "2004",
+        "release_date_with_abbreviated_month_for_display": "2004",
+        "song_art_image_thumbnail_url": "https://images.genius.com/f3baedd418286752797443e18f54d25f.300x298x1.jpg",
+        "song_art_image_url": "https://images.genius.com/f3baedd418286752797443e18f54d25f.640x636x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Clean Town",
+        "title_with_featured": "Clean Town",
+        "updated_by_human_at": 1665666928,
+        "url": "https://genius.com/Mando-diao-clean-town-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/214953",
+            "header_image_url": "https://images.genius.com/127a90200d063fc5a555466c2bb6cc5a.898x600x1.jpg",
+            "id": 214953,
+            "image_url": "https://images.genius.com/123eb2e40907a664f8388ee3f7450cee.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Mando Diao",
+            "slug": "Mando-diao",
+            "url": "https://genius.com/artists/Mando-diao"
+        },
+        "artist": "Mando Diao",
+        "lyrics": "Clean Town LyricsYou wanna worship its feelings\nThe ones who's squeezing the shame from every man\nAnd if mama says it's dinner time, if she ruins your love, run away\nSo you live in a prison\nSo you're wasting your life\nOn a system you never will understand\nAre you the one I dreamed of, man!\n\nClean town if you want to get away\nYou pack your cases and you hope for a better day\nMama's alright she said she didn't want your love\nClean town if you want to get away\nYou pack your cases and you hope for a better day\nJoni's alright she said she didn't want your love\nWon't you walk down the main street\nTake the bridge over never ending rails\nAnd even if you're falling down\nThat's an open door to the outside world\nSo you live in a bubble\nSo you've wasting your life\nOn a system you never will understand\nAre you the one I dreamed of, man!\n\nClean town if you want to get away\nYou pack your cases and you hope for a better day\nMama's alright she said she didn't want your love\nClean town if you want to get away\nYou pack your cases and you hope for a better day\nJoni's alright she said she didn't want your love\n\nYou can drive to the east coast\nDisappear for a while\nPut the band-echo on, then we'll give him a ride\nAre you the one I dreamed of. Man!\n\nClean town if you want to get away\nYou pack your cases and you hope for a better day\nMama's alright she said she didn't want your love\nClean town if you want to get away\nYou pack your cases and you hope for a better day\nJoni's alright she said she didn't want your love\nYou might also likeWon't you get away\nWon't you get away\nWon't you get away\nWon't you get away\nWon't you get away\nWon't you get away\nWon't you get away\nWon't you get awayEmbed"
+    }
+}

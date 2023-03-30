@@ -1,0 +1,58 @@
+{
+    "id": "ML263",
+    "mood": "happy",
+    "artist": "Pixies",
+    "title": "Gigantic",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/352796",
+        "artist_names": "Pixies",
+        "full_title": "Gigantic by\u00a0Pixies",
+        "header_image_thumbnail_url": "https://images.genius.com/3646a9bb976cae5c14e6ca67a57e8800.300x65x1.png",
+        "header_image_url": "https://images.genius.com/3646a9bb976cae5c14e6ca67a57e8800.812x176x1.png",
+        "id": 352796,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 361377,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1679055124,
+        "path": "/Pixies-gigantic-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Pixies-gigantic-sample",
+        "release_date_components": {
+            "year": 1988,
+            "month": 8,
+            "day": 22
+        },
+        "release_date_for_display": "August 22, 1988",
+        "release_date_with_abbreviated_month_for_display": "Aug. 22, 1988",
+        "song_art_image_thumbnail_url": "https://images.genius.com/65b25d2bafb8d27b167858b77722e862.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/65b25d2bafb8d27b167858b77722e862.600x600x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 93186
+        },
+        "title": "Gigantic",
+        "title_with_featured": "Gigantic",
+        "updated_by_human_at": 1679055124,
+        "url": "https://genius.com/Pixies-gigantic-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/1787",
+            "header_image_url": "https://images.genius.com/865b6c3ea5adbfb24e4e014d62c9ab63.960x233x1.jpg",
+            "id": 1787,
+            "image_url": "https://images.genius.com/ef9ff4e2395990732def6abc4ae8da63.770x770x1.jpg",
+            "index_character": "p",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Pixies",
+            "slug": "Pixies",
+            "url": "https://genius.com/artists/Pixies"
+        },
+        "artist": "Pixies",
+        "lyrics": "Gigantic Lyrics[Verse 1]\nAnd this I know, his teeth as white as snow\nWhat a gas it was to see him\nWalk her every day into a shady place\nWith her lips she said\nShe said\n\n[Pre-Chorus]\n\"Hey Paul, hey Paul, hey Paul\"\n\"Let's have a ball\"\n\"Hey Paul, hey Paul, hey Paul\"\n\"Let's have a ball\"\n\"Hey Paul, hey Paul, hey Paul\"\n\"Let's have a ball\"\n[Chorus]\nGigantic, gigantic, gigantic\nA big, big love\nGigantic, gigantic, gigantic\nA big, big love\n\n[Verse 2]\nLovely legs, they're a...\nWhat a big black mess, what a hunk of love\nHe'd walk her every day into a shady place\nHe's like the dark, but I'd want him\n\n[Pre-Chorus]\n\"Hey Paul, hey Paul, hey Paul\"\n\"Let's have a ball\"\n\"Hey Paul, hey Paul, hey Paul\"\n\"Let's have a ball\"\n\"Hey Paul, hey Paul, hey Paul\"\n\"Let's have a ball\"\n\n[Chorus]\nGigantic, gigantic, gigantic\nA big, big love\nGigantic, gigantic, gigantic\nA big, big love\n[Instrumental Break 01:50-02:16]\n\n[Chorus]\nGigantic, gigantic, gigantic\nA big, big love\nGigantic, gigantic, gigantic\nA big, big love\nA big, big love\nA big, big love\nA big, big love\nA big, big love\nA big, big love\nA big, big love\nA big, big love\nA big, big love\n\n[Instrumental Outro]You might also like6Embed"
+    }
+}

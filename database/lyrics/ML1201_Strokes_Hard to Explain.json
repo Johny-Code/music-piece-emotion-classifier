@@ -1,0 +1,59 @@
+{
+    "id": "ML1201",
+    "mood": "angry",
+    "artist": "Strokes",
+    "title": "Hard to Explain",
+    "song": {
+        "_type": "song",
+        "annotation_count": 13,
+        "api_path": "/songs/77061",
+        "artist_names": "The Strokes",
+        "full_title": "Hard to Explain by\u00a0The\u00a0Strokes",
+        "header_image_thumbnail_url": "https://images.genius.com/e2f9f5c0b787828112285e2820ce3165.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/e2f9f5c0b787828112285e2820ce3165.1000x1000x1.jpg",
+        "id": 77061,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1850,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1677898882,
+        "path": "/The-strokes-hard-to-explain-lyrics",
+        "pyongs_count": 49,
+        "relationships_index_url": "https://genius.com/The-strokes-hard-to-explain-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 6,
+            "day": 25
+        },
+        "release_date_for_display": "June 25, 2001",
+        "release_date_with_abbreviated_month_for_display": "Jun. 25, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/8c2c9fe6e4606dcf1317866541482206.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/8c2c9fe6e4606dcf1317866541482206.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 8,
+            "hot": false,
+            "pageviews": 206598
+        },
+        "title": "Hard to Explain",
+        "title_with_featured": "Hard to Explain",
+        "updated_by_human_at": 1677898882,
+        "url": "https://genius.com/The-strokes-hard-to-explain-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/12524",
+            "header_image_url": "https://images.genius.com/382ae86addc1e06ae4bebad904b69c2b.640x348x1.jpg",
+            "id": 12524,
+            "image_url": "https://images.genius.com/b5237c13de1a05f92ca6327d854cbfc8.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "The Strokes",
+            "slug": "The-strokes",
+            "url": "https://genius.com/artists/The-strokes",
+            "iq": 105
+        },
+        "artist": "The Strokes",
+        "lyrics": "Hard to Explain Lyrics[Verse 1]\nWas an honest man\nAsked me for the phone\nTried to take control\n\n[Refrain]\nOh, I don't see it that way\nI don't see it that way\n\n[Verse 2]\nWe shared some ideas\nAll obsessed with fame\nSays we're all the same\n[Refrain]\nOh, I don't see it that way\nI don't see it that way\n\n[Pre-Chorus]\nRaised in Carolina\nI'm not like that\nTryin' to remind her\nWhen we go back\n\n[Chorus]\nI missed the last bus, I'll take the next train\nI'll try, but you see, it's hard to explain\nI say the right thing, but act the wrong way\nI like it right here, but I cannot stay\nI watch the TV, forget what I'm told\nWell, I am too young and they are too old\nThe joke is on you, this place is a zoo\nYou're right, it's true\n\n[Verse 3]\nHe says he can't decide\nI shake my head to say\n\"Everything's just great\"\n\n[Refrain]\nOh, I just can't remember\nI just can't remember\nYou might also like[Pre-Chorus]\nRaised in Carolina\nShe says, \"I'm not like that\"\nTryin' to remind her\nWhen we go back\n\n[Chorus]\nI say the right thing, but act the wrong way\nI like it right here, but I cannot stay\nI watch the TV, forget what I'm told\nWell, I am too young and they are too old\nOh, man, can't you see I'm nervous, so please\nPretend to be nice so I can be mean\nI missed the last bus, we'll take the next train\nI'll try, but you see, it's hard to explain49Embed"
+    }
+}

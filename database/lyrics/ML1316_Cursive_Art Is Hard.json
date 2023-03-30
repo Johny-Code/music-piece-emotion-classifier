@@ -1,0 +1,58 @@
+{
+    "id": "ML1316",
+    "mood": "angry",
+    "artist": "Cursive",
+    "title": "Art Is Hard",
+    "song": {
+        "_type": "song",
+        "annotation_count": 9,
+        "api_path": "/songs/80333",
+        "artist_names": "Cursive",
+        "full_title": "Art Is Hard by\u00a0Cursive",
+        "header_image_thumbnail_url": "https://images.genius.com/c86e38d588976b172ec427982d0fcd6f.300x258x1.jpg",
+        "header_image_url": "https://images.genius.com/c86e38d588976b172ec427982d0fcd6f.1000x861x1.jpg",
+        "id": 80333,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 81493,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1671557427,
+        "path": "/Cursive-art-is-hard-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Cursive-art-is-hard-sample",
+        "release_date_components": {
+            "year": 2003,
+            "month": 3,
+            "day": 4
+        },
+        "release_date_for_display": "March 4, 2003",
+        "release_date_with_abbreviated_month_for_display": "Mar. 4, 2003",
+        "song_art_image_thumbnail_url": "https://images.genius.com/c86e38d588976b172ec427982d0fcd6f.300x258x1.jpg",
+        "song_art_image_url": "https://images.genius.com/c86e38d588976b172ec427982d0fcd6f.1000x861x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 7475
+        },
+        "title": "Art Is Hard",
+        "title_with_featured": "Art Is Hard",
+        "updated_by_human_at": 1671557427,
+        "url": "https://genius.com/Cursive-art-is-hard-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/22297",
+            "header_image_url": "https://images.genius.com/8641cde21928400db30c4cd64c9c04a3.1000x667x1.jpg",
+            "id": 22297,
+            "image_url": "https://images.genius.com/c1253b88c0632b5c032ae5996a64b974.400x400x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Cursive",
+            "slug": "Cursive",
+            "url": "https://genius.com/artists/Cursive"
+        },
+        "artist": "Cursive",
+        "lyrics": "Art Is Hard Lyrics[Verse 1]\nCut it out\nYour self-inflicted pain\nIs getting too routine\nThe crowds are catching on\nTo the self-inflicted song\nWell, here we go again\nThe art of acting weak\nFall in love to fail\nTo boost your CD sales\nAnd that CD sells (Yeah, what a hit)\nYou've got to repeat it\nYou gotta sink to swim\n[Chorus]\nIf at first you don't, you don't succeed\nYou gotta recreate your misery\n'Cause we all know art is hard\nYoung artists have gotta starve\nTry, and fail, and try again\nThe comforts of repetition\nKeep churning out those hits\nTill it's all the same old shit\n\n[Verse 2]\nOh, a second verse!\nWell, color me fatigued\nI'm hiding in the leaves\nIn the CD jacket sleeves\nTired of entertaining\nSome double-dipped meaning\nA soft serve analogy\nThis drunken angry slur\nIn thirty-one flavors\n\n[Bridge]\nYou gotta' sink, gotta sink\nGotta sink to swim\nImmerse yourself in rejection\nRegurgitate some sorry tale\nAbout a boy who sells his love affairs\nYou gotta' fake, fake, fake the pain\nYou better make, make, make it sting\nYou're gonna' break, break, break a leg\nWhen you get on stage\nAnd they scream your name\n\"Oh, Cursive is so cool!\"\nYou might also like[Outro]\n(\"Oh, Cursive is so cool!\")\nYou gotta' sink, gotta sink\nGotta sink to swim\nImpersonate greater persons\n'Cause we all know art is hard\nWhen we don't know who we are\nHey, hey!\nHey, hey!Embed"
+    }
+}

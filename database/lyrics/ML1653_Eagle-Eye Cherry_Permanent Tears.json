@@ -1,0 +1,57 @@
+{
+    "id": "ML1653",
+    "mood": "relaxed",
+    "artist": "Eagle-Eye Cherry",
+    "title": "Permanent Tears",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1027468",
+        "artist_names": "Eagle-Eye Cherry",
+        "full_title": "Permanent Tears by\u00a0Eagle-Eye\u00a0Cherry",
+        "header_image_thumbnail_url": "https://images.genius.com/12475bb251abda94a21a7ed61e53a89c.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/12475bb251abda94a21a7ed61e53a89c.800x800x1.jpg",
+        "id": 1027468,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429595038,
+        "path": "/Eagle-eye-cherry-permanent-tears-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Eagle-eye-cherry-permanent-tears-sample",
+        "release_date_components": {
+            "year": 1997,
+            "month": null,
+            "day": null
+        },
+        "release_date_for_display": "1997",
+        "release_date_with_abbreviated_month_for_display": "1997",
+        "song_art_image_thumbnail_url": "https://images.genius.com/12475bb251abda94a21a7ed61e53a89c.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/12475bb251abda94a21a7ed61e53a89c.800x800x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "Permanent Tears",
+        "title_with_featured": "Permanent Tears",
+        "updated_by_human_at": 1675371377,
+        "url": "https://genius.com/Eagle-eye-cherry-permanent-tears-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/80093",
+            "header_image_url": "https://images.genius.com/b6eac0c83cddaac109add5ddb2efe6c9.640x427x1.jpg",
+            "id": 80093,
+            "image_url": "https://images.genius.com/ad0df0e8aa8af9112be7bce5148bb1a1.427x427x1.jpg",
+            "index_character": "e",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Eagle-Eye Cherry",
+            "slug": "Eagle-eye-cherry",
+            "url": "https://genius.com/artists/Eagle-eye-cherry"
+        },
+        "artist": "Eagle-Eye Cherry",
+        "lyrics": "Permanent Tears LyricsOn the day of her arrival\nNo one is there to meet her\nSomething of a sad one\nA girl with permanent tears\nBorn without a family\nBorn without a name\nAnd all she ever wanted\nWas to wipe her tears away\n\nWipe her tears away\nAway.........away\nIf someone came to love her\nAnd if someone came to be\nThe one that will protect her\nBe a family\nNow we will see a smile again\nAnd tears like dreams can be\nSomething we will never see\nLost in her memory\n\nWipe her tears away\nAway.........away\nWipe her tears away\nTears away......away......away\n\nShe's something of a tragedy\nStands in the shade of despair\nI want to cast some light onto her world\nA world of permanent tears\nBorn without a family\nBorn without a name\nFree this weeping willow\nFrom drowning in a flood of tears\n\nWipe her tears away\nTears away......away......away (REPEAT)You might also likeEmbed"
+    }
+}

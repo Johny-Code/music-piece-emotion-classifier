@@ -1,0 +1,57 @@
+{
+    "id": "ML713",
+    "mood": "relaxed",
+    "artist": "Carbon Based Lifeforms",
+    "title": "PhotoSynthesis",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/1983924",
+        "artist_names": "Carbon Based Lifeforms",
+        "full_title": "Photosynthesis by\u00a0Carbon\u00a0Based Lifeforms",
+        "header_image_thumbnail_url": "https://images.genius.com/c5f76be8415113042a4cd168a435f813.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/c5f76be8415113042a4cd168a435f813.500x500x1.jpg",
+        "id": 1983924,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1528310130,
+        "path": "/Carbon-based-lifeforms-photosynthesis-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/Carbon-based-lifeforms-photosynthesis-sample",
+        "release_date_components": {
+            "year": 2006,
+            "month": 12,
+            "day": 2
+        },
+        "release_date_for_display": "December 2, 2006",
+        "release_date_with_abbreviated_month_for_display": "Dec. 2, 2006",
+        "song_art_image_thumbnail_url": "https://images.genius.com/c5f76be8415113042a4cd168a435f813.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/c5f76be8415113042a4cd168a435f813.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false
+        },
+        "title": "Photosynthesis",
+        "title_with_featured": "Photosynthesis",
+        "updated_by_human_at": 1529216087,
+        "url": "https://genius.com/Carbon-based-lifeforms-photosynthesis-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/352252",
+            "header_image_url": "https://images.genius.com/2f1b23844232b0bde87082a2702ed791.982x431x1.png",
+            "id": 352252,
+            "image_url": "https://images.genius.com/55c736a88b0db927af13fa51acc8b0e6.600x600x1.jpg",
+            "index_character": "c",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Carbon Based Lifeforms",
+            "slug": "Carbon-based-lifeforms",
+            "url": "https://genius.com/artists/Carbon-based-lifeforms"
+        },
+        "artist": "Carbon Based Lifeforms",
+        "lyrics": "Photosynthesis LyricsWhat about the forests?\n\nWhat about the forests\nNo\nWhat about the forests\nGuess again\nNo\nGuess againYou might also likeEmbed"
+    }
+}

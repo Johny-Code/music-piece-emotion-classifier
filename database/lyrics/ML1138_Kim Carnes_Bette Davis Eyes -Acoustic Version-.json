@@ -1,0 +1,58 @@
+{
+    "id": "ML1138",
+    "mood": "relaxed",
+    "artist": "Kim Carnes",
+    "title": "Bette Davis Eyes (Acoustic Version)",
+    "song": {
+        "_type": "song",
+        "annotation_count": 16,
+        "api_path": "/songs/622946",
+        "artist_names": "Kim Carnes",
+        "full_title": "Bette Davis Eyes by\u00a0Kim\u00a0Carnes",
+        "header_image_thumbnail_url": "https://images.genius.com/8a5c1d74cf0f0d637c332b50c4614821.300x303x1.jpg",
+        "header_image_url": "https://images.genius.com/8a5c1d74cf0f0d637c332b50c4614821.360x363x1.jpg",
+        "id": 622946,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1106295,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1651686318,
+        "path": "/Kim-carnes-bette-davis-eyes-lyrics",
+        "pyongs_count": 10,
+        "relationships_index_url": "https://genius.com/Kim-carnes-bette-davis-eyes-sample",
+        "release_date_components": {
+            "year": 1981,
+            "month": 3,
+            "day": null
+        },
+        "release_date_for_display": "March 1981",
+        "release_date_with_abbreviated_month_for_display": "Mar. 1981",
+        "song_art_image_thumbnail_url": "https://images.rapgenius.com/0f2ba5a7e840938a260ea1b564fb124e.300x300x1.jpg",
+        "song_art_image_url": "https://images.rapgenius.com/0f2ba5a7e840938a260ea1b564fb124e.500x500x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 182404
+        },
+        "title": "Bette Davis Eyes",
+        "title_with_featured": "Bette Davis Eyes",
+        "updated_by_human_at": 1678539171,
+        "url": "https://genius.com/Kim-carnes-bette-davis-eyes-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/141663",
+            "header_image_url": "https://images.genius.com/e142df9c156566ac7cc0bab1be1fc8da.571x571x1.jpg",
+            "id": 141663,
+            "image_url": "https://images.genius.com/e142df9c156566ac7cc0bab1be1fc8da.571x571x1.jpg",
+            "index_character": "k",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Kim Carnes",
+            "slug": "Kim-carnes",
+            "url": "https://genius.com/artists/Kim-carnes"
+        },
+        "artist": "Kim Carnes",
+        "lyrics": "Bette Davis Eyes Lyrics[Verse 1]\nHer hair is Harlow gold\nHer lips sweet surprise\nHer hands are never cold\nShe's got Bette Davis eyes\n\n[Verse 2]\nShe'll turn her music on you\nYou won't have to think twice\nShe's pure as New York snow\nShe got Bette Davis eyes\n[Chorus 1]\nAnd she'll tease you\nShe'll unease you\nAll the better just to please you\nShe's precocious and she knows just\nWhat it takes to make a pro blush\nShe got Greta Garbo stand off sighs\nShe's got Bette Davis eyes\n\n[Verse 3]\nShe'll let you take her home\nIt whets her appetite\nShe'll lay you on her throne\nShe got Bette Davis eyes\n\n[Verse 4]\nShe'll take a tumble on you\nRoll you like you were dice\nUntil you come up blue\nShe's got Bette Davis eyes\n\n[Chorus 2]\nShe'll expose you\nWhen she snows you\nOff your feet with the crumbs she throws you\nShe's ferocious and she knows just\nWhat it takes to make a pro blush\nAll the boys think she's a spy\nShe's got Bette Davis eyes\nYou might also like[Chorus 1]\nAnd she'll tease you\nShe'll unease you\nAll the better just to please you\nShe's precocious and she knows just\nWhat it takes to make a pro blush\nAll the boys think she's a spy\nShe's got Bette Davis eyes\n\n[Outro]\nShe'll tease you\nShe'll unease you\nJust to please ya\nShe's got Bette Davis eyes\nShe'll expose you\nWhen she snows you\nShe knows ya\nShe's got Bette Davis eyes10Embed"
+    }
+}

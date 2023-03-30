@@ -1,0 +1,58 @@
+{
+    "id": "ML455",
+    "mood": "angry",
+    "artist": "Skinny Puppy",
+    "title": "Assimilate",
+    "song": {
+        "_type": "song",
+        "annotation_count": 7,
+        "api_path": "/songs/486918",
+        "artist_names": "Skinny Puppy",
+        "full_title": "Assimilate by\u00a0Skinny\u00a0Puppy",
+        "header_image_thumbnail_url": "https://images.genius.com/b53086d00204c00a6dee015446b0fd60.300x300x1.png",
+        "header_image_url": "https://images.genius.com/b53086d00204c00a6dee015446b0fd60.1000x1000x1.png",
+        "id": 486918,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 83631,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1678601669,
+        "path": "/Skinny-puppy-assimilate-lyrics",
+        "pyongs_count": 6,
+        "relationships_index_url": "https://genius.com/Skinny-puppy-assimilate-sample",
+        "release_date_components": {
+            "year": 1985,
+            "month": 8,
+            "day": null
+        },
+        "release_date_for_display": "August 1985",
+        "release_date_with_abbreviated_month_for_display": "Aug. 1985",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b53086d00204c00a6dee015446b0fd60.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/b53086d00204c00a6dee015446b0fd60.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 14419
+        },
+        "title": "Assimilate",
+        "title_with_featured": "Assimilate",
+        "updated_by_human_at": 1678601669,
+        "url": "https://genius.com/Skinny-puppy-assimilate-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/227260",
+            "header_image_url": "https://images.genius.com/85673328379044ba759026766125cc3a.1000x563x1.jpg",
+            "id": 227260,
+            "image_url": "https://images.genius.com/cea389e3feaeea566fb7c2caf5c2a3cd.1000x1000x1.jpg",
+            "index_character": "s",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Skinny Puppy",
+            "slug": "Skinny-puppy",
+            "url": "https://genius.com/artists/Skinny-puppy"
+        },
+        "artist": "Skinny Puppy",
+        "lyrics": "Assimilate LyricsOil remove shred and tear\nRadiation vapor air\nIt's the fear so unclear\nMan in motion going nowhere\nIn our homes stuck in the face\nSpread the word to the populace\nYellow journal, yellow journal\nSet the pace, feel the rage\nManifestations of a sort\nSo insidious off the point\nSimple solution, never confusion\nSport a gun, kill a cop\nCrazy world of weary thought\nSo receive me had enough\nLock me up, lock me up\nRot and assimilate\nHot to annihilate\n(Tear your face)\nRot and assimilate\nSo hot to annihilate\n(Hit with mace)\n\nIs it safe?\n\nDeviation tonic mess\nProlonged existence innocence\nIs he who speaks isn't weak\nWheelchair virtue so to speak\nBubonic plague, the truth of aids\nImmunity avoid decay\nIn the trench of pestilence\nThe bible screams announce your faith\nMutterings of death to bring\nSuffocate a newborn thing\nDegradation of an age\nVenereal, it's all sensation\nProtect design the moral plan\nInflatable as propaganda\nCompletely black\nWith no steps back\nYou might also likeHot to assimilate\n(Go nowhere)\nRot or annihilate\n(Tell yourself)\nHot to assimilate\n(Search your soul)\nWe'll rot or annihilate\n\nAgony\nInner thinking brain\nClanking chains\nGrowing pain\n\nIs it safe?\n\nBloodshot\n\nMutterings of death to bring\nSuffocate a newborn thing\nDegradation of an age\nVenereal, it's all sensation\nProtect design the moral plan\nInfallible as propaganda\nCompletely black\nWith no steps back\nAgony profusely stains\nThe inner thinking of the brain\nAccusations, clanking chains\nExperiments with the groans of pain\nAll prefer no one blames\nThe terror in an animal's screams\nIn cages our future\nThe answers insane\nRot and assimilate\n(Show no faith)\nSo hot to annihilate\n(Each adds assimilate)\nRot and assimilate\n(Each one assimilates)\nSo hot to annihilate\n\nReach for an air way\nReach for an air way\nReach for an air way\nReach for an air way\nReach for an air way\n\nOh, death, death, death, death, death, death, death, death, death, death, death, death, death6Embed"
+    }
+}

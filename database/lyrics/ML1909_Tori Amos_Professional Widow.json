@@ -1,0 +1,58 @@
+{
+    "id": "ML1909",
+    "mood": "angry",
+    "artist": "Tori Amos",
+    "title": "Professional Widow",
+    "song": {
+        "_type": "song",
+        "annotation_count": 14,
+        "api_path": "/songs/439047",
+        "artist_names": "Tori Amos",
+        "full_title": "Professional Widow by\u00a0Tori\u00a0Amos",
+        "header_image_thumbnail_url": "https://images.genius.com/7562dd068949450dd5bd86282b6787f3.300x300x1.png",
+        "header_image_url": "https://images.genius.com/7562dd068949450dd5bd86282b6787f3.498x498x1.png",
+        "id": 439047,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 910362,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1641905378,
+        "path": "/Tori-amos-professional-widow-lyrics",
+        "pyongs_count": 2,
+        "relationships_index_url": "https://genius.com/Tori-amos-professional-widow-sample",
+        "release_date_components": {
+            "year": 1996,
+            "month": 7,
+            "day": 2
+        },
+        "release_date_for_display": "July 2, 1996",
+        "release_date_with_abbreviated_month_for_display": "Jul. 2, 1996",
+        "song_art_image_thumbnail_url": "https://images.genius.com/f464d13285c3ba3b9bf66d39a7122eee.300x300x1.png",
+        "song_art_image_url": "https://images.genius.com/f464d13285c3ba3b9bf66d39a7122eee.1000x1000x1.png",
+        "stats": {
+            "unreviewed_annotations": 5,
+            "hot": false,
+            "pageviews": 73271
+        },
+        "title": "Professional Widow",
+        "title_with_featured": "Professional Widow",
+        "updated_by_human_at": 1641905378,
+        "url": "https://genius.com/Tori-amos-professional-widow-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/34286",
+            "header_image_url": "https://images.genius.com/9447e2afe19c52266918cf95322e32c9.1000x562x1.jpg",
+            "id": 34286,
+            "image_url": "https://images.genius.com/32983383f528af9160481bdfa4f9e6c8.667x667x1.png",
+            "index_character": "t",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Tori Amos",
+            "slug": "Tori-amos",
+            "url": "https://genius.com/artists/Tori-amos"
+        },
+        "artist": "Tori Amos",
+        "lyrics": "Professional Widow Lyrics[Verse 1]\nSlag pit, stag shit\nHoney bring it close to my lips, yes\nDon't blow those brains yet\nWe gotta be big, boy, we gotta be big\n\n[Chorus]\nStarfucker just like my daddy, yes\nStarfucker just like my daddy, yes\nSelling his baby, yes\nJust like my daddy, yes\nGonna strike a deal\nMake him feel like a congressman\nRunning in the family\nIt's running a family\n[Bridge]\nRest your shoulders, peaches and cream\nEverywhere a Judas as far as you can see\nBeautiful angel calling\nWe got every re-run of Muhammad Ali\n\n[Verse 2]\nPrism perfect\nHoney bring it close to your lips, yes\nWhat is termed a landslide of principle proportion, boy?\nIt's gotta be big, I said it better be big, hey, hey\n\n[Chorus]\nStarfucker just like my daddy, yes\nStarfucker just like my daddy, yes\nSelling his baby, yes\nJust like your daddy, yes\nSelling his baby\nGonna strike a deal\nMake him feel like a congressman\nIt's running in the family\nIt's running a family, hey\nIt's running in the family, hey baby\nIt's running a family, hey yeah\n\n[Outro]\nMother Mary, China white\nBrown may be sweeter, may be sweeter\nMother Mary, China white\nBrown may be sweeter\nShe will supply, she will supply\nShe will supply, she will supply, supply, supply\nGive me peace, love, peace, love\nGive me peace, love and a hard cockYou might also like2Embed"
+    }
+}

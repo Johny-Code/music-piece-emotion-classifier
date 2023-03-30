@@ -1,0 +1,53 @@
+{
+    "id": "ML277",
+    "mood": "happy",
+    "artist": "The Black Crowes",
+    "title": "Walk Believer Walk",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/1575412",
+        "artist_names": "The Black Crowes",
+        "full_title": "Walk Believer Walk by\u00a0The\u00a0Black Crowes",
+        "header_image_thumbnail_url": "https://images.genius.com/84d0154a71338f2d20c6d06a3b11022b.300x266x1.jpg",
+        "header_image_url": "https://images.genius.com/84d0154a71338f2d20c6d06a3b11022b.338x300x1.jpg",
+        "id": 1575412,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1549345,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1429898022,
+        "path": "/The-black-crowes-walk-believer-walk-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-black-crowes-walk-believer-walk-sample",
+        "release_date_components": null,
+        "release_date_for_display": null,
+        "release_date_with_abbreviated_month_for_display": null,
+        "song_art_image_thumbnail_url": "https://images.genius.com/84d0154a71338f2d20c6d06a3b11022b.300x266x1.jpg",
+        "song_art_image_url": "https://images.genius.com/84d0154a71338f2d20c6d06a3b11022b.338x300x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false
+        },
+        "title": "Walk Believer Walk",
+        "title_with_featured": "Walk Believer Walk",
+        "updated_by_human_at": 1477041455,
+        "url": "https://genius.com/The-black-crowes-walk-believer-walk-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/78085",
+            "header_image_url": "https://images.genius.com/ce4f23b084203040ebfffbc9f469870c.1000x688x1.jpg",
+            "id": 78085,
+            "image_url": "https://images.genius.com/ce4f23b084203040ebfffbc9f469870c.1000x688x1.jpg",
+            "index_character": "b",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Black Crowes",
+            "slug": "The-black-crowes",
+            "url": "https://genius.com/artists/The-black-crowes"
+        },
+        "artist": "The Black Crowes",
+        "lyrics": "Walk Believer Walk LyricsGo down, go down you stranger\nThere's something waiting for you\nAngels, dolls and honey\nTemples and harpoons\n\nYou want your main line Jesus\nYour want your diamond God\nYou want to pull the trigger\nAnd kill the autumn home\n\nSo walk believer walk\nStraight into the sun\nWalk believer walk\nYour work ain't ever done\nPray on, pray on my brother\nNow's the time for truth\nBlack shadow come a-creeping\nTake the soul right out of you\n\nCan you feel the demons pulling?\nCan you hear the devil sing?\nCan you taste the poison in your mouth?\nFeel the weight of his chains\n\nSo walk believer walk\nStraight into the sun\nWalk believer walk\nYour work ain't ever done\n\nAh, ah, ah\nAh, ah, ah\nAh, ah, ah, ah, ah\nWoah, ah, ah\n\nYeah, so walk believer walk\nStraight into the sun\nWalk believer walk\nYour work ain't ever done\n\nYeah, walk believer walk\nStraight into the sun\nYeah, walk believer walk\nYour work ain't ever done\nYou might also likeAh, ah, ah\nAh, ah, ah\nAh, ah, ah\nAh, ah, ahEmbed"
+    }
+}

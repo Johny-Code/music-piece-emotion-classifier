@@ -1,0 +1,58 @@
+{
+    "id": "ML1798",
+    "mood": "angry",
+    "artist": "Rammstein",
+    "title": "Eifersucht",
+    "song": {
+        "_type": "song",
+        "annotation_count": 1,
+        "api_path": "/songs/70869",
+        "artist_names": "Rammstein",
+        "full_title": "Eifersucht by\u00a0Rammstein",
+        "header_image_thumbnail_url": "https://images.genius.com/6a09aa942e9027986e773820f43bd394.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/6a09aa942e9027986e773820f43bd394.1000x1000x1.jpg",
+        "id": 70869,
+        "instrumental": false,
+        "language": "de",
+        "lyrics_owner_id": 33985,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1674347449,
+        "path": "/Rammstein-eifersucht-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Rammstein-eifersucht-sample",
+        "release_date_components": {
+            "year": 1997,
+            "month": 8,
+            "day": 25
+        },
+        "release_date_for_display": "August 25, 1997",
+        "release_date_with_abbreviated_month_for_display": "Aug. 25, 1997",
+        "song_art_image_thumbnail_url": "https://images.genius.com/6a09aa942e9027986e773820f43bd394.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/6a09aa942e9027986e773820f43bd394.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 23386
+        },
+        "title": "Eifersucht",
+        "title_with_featured": "Eifersucht",
+        "updated_by_human_at": 1674347449,
+        "url": "https://genius.com/Rammstein-eifersucht-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/16045",
+            "header_image_url": "https://images.genius.com/435f4fec0109f9045045051aee384728.1000x495x1.jpg",
+            "id": 16045,
+            "image_url": "https://images.genius.com/29cedf8dd30a7458f4fca47d1c0f0eab.1000x1000x1.jpg",
+            "index_character": "r",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Rammstein",
+            "slug": "Rammstein",
+            "url": "https://genius.com/artists/Rammstein"
+        },
+        "artist": "Rammstein",
+        "lyrics": "TranslationsEnglishEifersucht Lyrics[Strophe 1]\nBin ich sch\u00f6ner, zerschneid mir das Gesicht\nBin ich st\u00e4rker, brich und feige mein Genick\nBin ich kl\u00fcger, t\u00f6te mich und iss mein Hirn\nHab' ich dein Weib, t\u00f6te mich und iss mich ganz auf\nDann iss mich ganz auf\nBin ich ehrlicher, bei\u00df mir die Zunge ab\nBin ich reicher, dann nimm mir alles\nBin ich mutiger, t\u00f6te mich und iss mein Herz\nHab' ich dein Weib, t\u00f6te mich und iss mich ganz auf\nDann iss mich ganz auf, doch leck den Teller ab\n[Refrain]\nEs kocht die Eifersucht\nEifersucht\nEifersucht\nE-e-e-eifersucht\nEifersucht\nEifersucht\nEifersucht\nE-e-e-eifersucht\n\n[Strophe 2]\nHab' ich so glatte Haut, zieh sie in Streifen ab\nHab' ich die klaren Augen, nimm mir das Licht\nHab' ich die reine Seele, t\u00f6te sie in Flammen\nHabe ich dein Weib dann t\u00f6te mich und iss mich ganz auf\nDann iss mich ganz auf, doch leck den Teller ab\n\n[Refrain]\nEs kocht die Eifersucht\nEifersucht\nEifersucht\nE-e-e-eifersucht\nEifersucht\nEifersucht\nEifersucht\nE-e-e-eifersucht\nEifersucht\nEifersucht\nEifersucht\nEifersuchtYou might also like4Embed"
+    }
+}

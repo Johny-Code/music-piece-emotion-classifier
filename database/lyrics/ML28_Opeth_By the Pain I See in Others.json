@@ -1,0 +1,58 @@
+{
+    "id": "ML28",
+    "mood": "sad",
+    "artist": "Opeth",
+    "title": "By the Pain I See in Others",
+    "song": {
+        "_type": "song",
+        "annotation_count": 21,
+        "api_path": "/songs/1152474",
+        "artist_names": "Opeth",
+        "full_title": "By the Pain I See in Others by\u00a0Opeth",
+        "header_image_thumbnail_url": "https://images.genius.com/4ef7c989a8796bdad5d538c89cc05a88.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/4ef7c989a8796bdad5d538c89cc05a88.1000x1000x1.jpg",
+        "id": 1152474,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 14710789,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675857551,
+        "path": "/Opeth-by-the-pain-i-see-in-others-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Opeth-by-the-pain-i-see-in-others-sample",
+        "release_date_components": {
+            "year": 2002,
+            "month": 11,
+            "day": 12
+        },
+        "release_date_for_display": "November 12, 2002",
+        "release_date_with_abbreviated_month_for_display": "Nov. 12, 2002",
+        "song_art_image_thumbnail_url": "https://images.genius.com/4ef7c989a8796bdad5d538c89cc05a88.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/4ef7c989a8796bdad5d538c89cc05a88.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 20,
+            "hot": false,
+            "pageviews": 8102
+        },
+        "title": "By the Pain I See in Others",
+        "title_with_featured": "By the Pain I See in Others",
+        "updated_by_human_at": 1675857551,
+        "url": "https://genius.com/Opeth-by-the-pain-i-see-in-others-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/59420",
+            "header_image_url": "https://images.genius.com/8b4f52d1ecc384d81d2da6648f18ae28.450x450x1.jpg",
+            "id": 59420,
+            "image_url": "https://images.genius.com/8b4f52d1ecc384d81d2da6648f18ae28.450x450x1.jpg",
+            "index_character": "o",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Opeth",
+            "slug": "Opeth",
+            "url": "https://genius.com/artists/Opeth"
+        },
+        "artist": "Opeth",
+        "lyrics": "By the Pain I See in Others Lyrics[Instrumental Intro]\n\nLet me taste\nLet me feel\nI need to know what you keep inside\nNo need to speak\nJust let it be\nCarry out this wish for me\nLet nothing interfere\nRise to submission\nI'm still beneath in the soil\nDiscard your clothes\nLet loose your hair\nWe're intertwined forever and have always been\nSay the word\nAnd I'll depart\nUpon your lips dwells nothing but the meaning of my cause\n\nRise to submission\nI'm still beneath in the soil\n\n[Instrumental Break]\n\nAnd so comes the dark\nVibrant as ever before\nFlowers already withered\nIn this endless winter of souls\n\n[Instrumental Break]\n\nOutside in the park\nThe days move along\nAnd nothing ever changes\nThey have nothing on us\nAnd we've always knew\nThat nothing ever changes\nYou might also like[Instrumental Break]\n\nRise to submission\nI'm still beneath in the soil\nThis is ours alone\nFeeding off the warmth\nLured out from the inside\n\nDepending on the life blood\n\nRise to submission\nI'm still beneath in the soil\nThis is ours alone\nFeeding off the warmth\nLured out from the inside\nSilently\nWhispering\nMove in me and set me free\n\n[Instrumental Outro]\n\n\"htaed otni yaw eht daeL\nWon resolC\nPeels rof gnoL\nGnivael dnA\nYawa gnidaF\nTuohtiw od nac I tahW\nEm gniwohS\nThgil laerehtE\nRaeppasid dnA\nEdaf sruoloC\nEcnart gnihtooS\"1Embed"
+    }
+}

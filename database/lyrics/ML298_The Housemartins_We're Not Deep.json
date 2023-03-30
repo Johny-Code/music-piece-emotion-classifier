@@ -1,0 +1,57 @@
+{
+    "id": "ML298",
+    "mood": "happy",
+    "artist": "The Housemartins",
+    "title": "We're Not Deep",
+    "song": {
+        "_type": "song",
+        "annotation_count": 0,
+        "api_path": "/songs/1225385",
+        "artist_names": "The Housemartins",
+        "full_title": "We're Not Deep by\u00a0The\u00a0Housemartins",
+        "header_image_thumbnail_url": "https://images.genius.com/55612f1c5c730608adb29882a5447572.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/55612f1c5c730608adb29882a5447572.592x592x1.jpg",
+        "id": 1225385,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1909156,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1641785957,
+        "path": "/The-housemartins-were-not-deep-lyrics",
+        "pyongs_count": null,
+        "relationships_index_url": "https://genius.com/The-housemartins-were-not-deep-sample",
+        "release_date_components": {
+            "year": 1986,
+            "month": 10,
+            "day": null
+        },
+        "release_date_for_display": "October 1986",
+        "release_date_with_abbreviated_month_for_display": "Oct. 1986",
+        "song_art_image_thumbnail_url": "https://images.genius.com/55612f1c5c730608adb29882a5447572.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/55612f1c5c730608adb29882a5447572.592x592x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+        },
+        "title": "We\u2019re Not Deep",
+        "title_with_featured": "We're Not Deep",
+        "updated_by_human_at": 1659075660,
+        "url": "https://genius.com/The-housemartins-were-not-deep-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/75975",
+            "header_image_url": "https://images.genius.com/71d70c8e1b5de07cc5894307409d0463.1000x1000x1.jpg",
+            "id": 75975,
+            "image_url": "https://images.genius.com/b0ab244428372be5662ef63fa5f30938.1000x1000x1.jpg",
+            "index_character": "h",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "The Housemartins",
+            "slug": "The-housemartins",
+            "url": "https://genius.com/artists/The-housemartins"
+        },
+        "artist": "The Housemartins",
+        "lyrics": "We\u2019re Not Deep Lyrics[Verse 1]\nYou can put it down to lack of patience\nPut it down to lack of sleep\nBut it's in my head to stay in bed\nTucked under the sheets\n\n[Pre-Chorus 1]\nThey said if I tried to get on, I'd get on\nThey said there were chances, but now my chance has gone\n\n[Chorus]\nAnd I know what you think\nWhat you think about me\nThoughts like that sink home;\nTo you, we're not deep\nBa ba ba-ba ba-ba\nBa ba ba-ba ba-ba\nBa ba ba-ba ba-ba\nBa ba ba-ba ba-ba\n\n[Verse 2]\nNow it may be a sad reflection\nOn the way young people feel\nBut early Monday morning\nIs losing its appeal\n\n[Pre-Chorus 2]\nI open my curtains at 7am\nJust so you think I'm up with the rest of the men\n\n[Chorus]\nAnd I know what you think\nWhat you think about me\nThoughts like that sink home;\nTo you, we're not deep\n\nBa ba ba-ba ba-ba\nBa ba ba-ba ba-ba\nBa ba ba-ba ba-ba\nBa ba ba-ba ba-ba\nYou might also like[Bridge]\nYou'd do yourself a favour if you gave yourself a break\nBut that's one risk you'd never take\nThe evening's yours, the morning's mine\nBut don't knock me, I'm doing fine\n\nYou'd do yourself a favour if you gave yourself a rest\nBut just for now, you know what's best\nAh, ah!\n\n[Chorus]\nAnd I know what you think\nWhat you think about me\nThoughts like that sink home;\nTo you, we're not deep\n\nBa ba ba-ba ba-ba\nBa ba ba-ba ba-ba\nBa ba ba-ba ba-ba\nBa ba ba-ba ba-baEmbed"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "ML1276",
+    "mood": "sad",
+    "artist": "Opeth",
+    "title": "Blackwater Park",
+    "song": {
+        "_type": "song",
+        "annotation_count": 4,
+        "api_path": "/songs/670335",
+        "artist_names": "Opeth",
+        "full_title": "Blackwater Park by\u00a0Opeth",
+        "header_image_thumbnail_url": "https://images.genius.com/09acba93727a483f8ed0579ba60dce61.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/09acba93727a483f8ed0579ba60dce61.715x715x1.jpg",
+        "id": 670335,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 1112222,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1675771514,
+        "path": "/Opeth-blackwater-park-lyrics",
+        "pyongs_count": 16,
+        "relationships_index_url": "https://genius.com/Opeth-blackwater-park-sample",
+        "release_date_components": {
+            "year": 2001,
+            "month": 2,
+            "day": 27
+        },
+        "release_date_for_display": "February 27, 2001",
+        "release_date_with_abbreviated_month_for_display": "Feb. 27, 2001",
+        "song_art_image_thumbnail_url": "https://images.genius.com/09acba93727a483f8ed0579ba60dce61.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/09acba93727a483f8ed0579ba60dce61.715x715x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 39872
+        },
+        "title": "Blackwater Park",
+        "title_with_featured": "Blackwater Park",
+        "updated_by_human_at": 1675771514,
+        "url": "https://genius.com/Opeth-blackwater-park-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/59420",
+            "header_image_url": "https://images.genius.com/8b4f52d1ecc384d81d2da6648f18ae28.450x450x1.jpg",
+            "id": 59420,
+            "image_url": "https://images.genius.com/8b4f52d1ecc384d81d2da6648f18ae28.450x450x1.jpg",
+            "index_character": "o",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Opeth",
+            "slug": "Opeth",
+            "url": "https://genius.com/artists/Opeth"
+        },
+        "artist": "Opeth",
+        "lyrics": "Blackwater Park Lyrics[Instrumental Intro 00:00-02:20]\n\nConfessor of the tragedies in man\nLurking in the core of us all\nThe last dying call for the ever lost\nBrief encounters, bleeding pain\n\n[Instrumental Interlude 02:42-05:38]\n\nLepers coiled neath the trees\nDying men in bewildered soliloquies\nPerversions bloom around the bend\nSeekers, lost in their quest\nGhosts of friends frolic under the waning moon\n[Instrumental Break]\n\nIt is the year of death\nWielding his instruments\nStealth sovereign reaper\nTouching us with ease\n\n[Guitar Solo]\n\nInfecting the roots in an instant\nBurning crop of disease\nI am just a spectator\nAn advocate documenting the loss\nFluttering with conceit\nThis doesn't concern me yet\nStill far from the knell\nTaunting their bereavement\n\n[Instrumental Break]\n\nMob round the dead\nPoint fingers at the details\nProbing vomits for more\nCaught in unbridled suspense\n\n[Instrumental Break]\nYou might also likeWe have all lost it now\nCatching the flakes of dismay\nBorn the travesty of man\nRegular pulse midst pandemonium\nYou're plucked to the mass\nParched with thirst for the wicked\nSick liaisons raised this monumental mark\nThe sun sets forever over Blackwater Park\n\n[Acoustic Outro]16Embed"
+    }
+}

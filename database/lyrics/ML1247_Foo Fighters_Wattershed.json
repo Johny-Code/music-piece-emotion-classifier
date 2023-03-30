@@ -1,0 +1,58 @@
+{
+    "id": "ML1247",
+    "mood": "angry",
+    "artist": "Foo Fighters",
+    "title": "Wattershed",
+    "song": {
+        "_type": "song",
+        "annotation_count": 8,
+        "api_path": "/songs/210783",
+        "artist_names": "Foo Fighters",
+        "full_title": "Wattershed by\u00a0Foo\u00a0Fighters",
+        "header_image_thumbnail_url": "https://images.genius.com/9c3b7cf8df1a39a3c97fdde6edcad206.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/9c3b7cf8df1a39a3c97fdde6edcad206.1000x1000x1.jpg",
+        "id": 210783,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 113726,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1679011048,
+        "path": "/Foo-fighters-wattershed-lyrics",
+        "pyongs_count": 1,
+        "relationships_index_url": "https://genius.com/Foo-fighters-wattershed-sample",
+        "release_date_components": {
+            "year": 1995,
+            "month": 7,
+            "day": 4
+        },
+        "release_date_for_display": "July 4, 1995",
+        "release_date_with_abbreviated_month_for_display": "Jul. 4, 1995",
+        "song_art_image_thumbnail_url": "https://images.genius.com/9c3b7cf8df1a39a3c97fdde6edcad206.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/9c3b7cf8df1a39a3c97fdde6edcad206.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 7,
+            "hot": false,
+            "pageviews": 11616
+        },
+        "title": "Wattershed",
+        "title_with_featured": "Wattershed",
+        "updated_by_human_at": 1679011049,
+        "url": "https://genius.com/Foo-fighters-wattershed-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/17237",
+            "header_image_url": "https://images.genius.com/84497e6ea704702a48489f3e414207b5.1000x208x1.jpg",
+            "id": 17237,
+            "image_url": "https://images.genius.com/17366eba809cf358cd3d607f5c0d50e1.1000x1000x1.jpg",
+            "index_character": "f",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Foo Fighters",
+            "slug": "Foo-fighters",
+            "url": "https://genius.com/artists/Foo-fighters"
+        },
+        "artist": "Foo Fighters",
+        "lyrics": "Wattershed Lyrics[Verse 1]\nStick it to the mailman\nPinned against a pot plant\nSick of all the suntan\nOily with the Ray-Ban\n\n[Hook]\nTake that to the bank and call it a check\nMasked without a weapon\n\n[Verse 2]\nSkinny as a spit pan\nDealing with the shit plan\nPlaying with my bad hand\nJust another rock band\n[Hook]\nTake that to the man and call it a check\nTrapped within a contract\n\n[Pre-Chorus]\nHey there boy, while you were catching the black widow\nThe rest of us were watching Melrose\n\n[Chorus]\nI wanna swim in the wattershed\nI wanna listen to the flowerhead\nI lost a gallon and still I bled\nI keep on thinking I get ahead\n\n[Verse 3]\nI'm so pissed at all the disc jam\nPissed about the 5-ham\nPissed about the green state\nMiss it and I can't wait\n\n[Hook]\nTake that to the man and call it a check\nTrapped within a contract\n\n[Pre-Chorus]\nHey man, can't you tell it's still a problem?\nSee you at the devil's tower\nYou might also like[Chorus]\nI wanna swim in the wattershed\nI wanna listen to the flowerhead\nI lost a gallon and still I bled\nI keep on thinking I get ahead\n\n[Outro]\nI'm so pissed at all the disc jam\nPissed about the 5-ham\nPissed about the green state\nI miss it and I can't wait1Embed"
+    }
+}

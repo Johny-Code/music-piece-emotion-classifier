@@ -1,0 +1,58 @@
+{
+    "id": "ML9",
+    "mood": "angry",
+    "artist": "Megadeth",
+    "title": "Architecture of Aggression",
+    "song": {
+        "_type": "song",
+        "annotation_count": 2,
+        "api_path": "/songs/107960",
+        "artist_names": "Megadeth",
+        "full_title": "Architecture of Aggression by\u00a0Megadeth",
+        "header_image_thumbnail_url": "https://images.genius.com/b54ecc314ed5138bdc905ad8f38dab95.300x300x1.jpg",
+        "header_image_url": "https://images.genius.com/b54ecc314ed5138bdc905ad8f38dab95.1000x1000x1.jpg",
+        "id": 107960,
+        "instrumental": false,
+        "language": "en",
+        "lyrics_owner_id": 22533,
+        "lyrics_state": "complete",
+        "lyrics_updated_at": 1665755033,
+        "path": "/Megadeth-architecture-of-aggression-lyrics",
+        "pyongs_count": 4,
+        "relationships_index_url": "https://genius.com/Megadeth-architecture-of-aggression-sample",
+        "release_date_components": {
+            "year": 1992,
+            "month": 7,
+            "day": 14
+        },
+        "release_date_for_display": "July 14, 1992",
+        "release_date_with_abbreviated_month_for_display": "Jul. 14, 1992",
+        "song_art_image_thumbnail_url": "https://images.genius.com/b54ecc314ed5138bdc905ad8f38dab95.300x300x1.jpg",
+        "song_art_image_url": "https://images.genius.com/b54ecc314ed5138bdc905ad8f38dab95.1000x1000x1.jpg",
+        "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 12084
+        },
+        "title": "Architecture of Aggression",
+        "title_with_featured": "Architecture of Aggression",
+        "updated_by_human_at": 1665755033,
+        "url": "https://genius.com/Megadeth-architecture-of-aggression-lyrics",
+        "featured_artists": [],
+        "primary_artist": {
+            "_type": "artist",
+            "api_path": "/artists/19444",
+            "header_image_url": "https://images.genius.com/ed7f0a9b8b87c0d2325b050eeebcc068.1000x530x1.png",
+            "id": 19444,
+            "image_url": "https://images.genius.com/9bdc3d3ea88da0c065c94aee4f13d943.1000x1000x1.jpg",
+            "index_character": "m",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Megadeth",
+            "slug": "Megadeth",
+            "url": "https://genius.com/artists/Megadeth"
+        },
+        "artist": "Megadeth",
+        "lyrics": "Architecture of Aggression Lyrics[Verse 1]\nBorn from the dark in the black cloak of night\nTo envelop its prey below, deliver to the light\nTo eliminate your enemy, hit them in their sleep\nAnd when all is won and lost, the spoils of wars are yours to keep, aw!\n\n[Chorus]\nGreat nations built from the bones of the dead\nWith mud and straw - blood and sweat\nYou know your worth when your enemies\nPraise your architecture of aggression\n[Guitar Solo]\n\n[Post-Chorus]\nPraise your architecture of aggression, ah, huh!\n\n[Verse 2]\nEnsuing power vacuum, a toppled leader dies\nHis body fuels the power fire and the flames rise to the sky\nOne side of his face, a kiss - the other, genocide\nTime to pay with your ass, a worldwide suicide\n\n[Chorus]\nGreat nations built from the bones of the dead\nWith mud and straw - blood and sweat\nYou know your worth when your enemies\nPraise your architecture of aggression\n\n[Interlude]\n\"Fight for America\"\n\"Fight for America\"\n\"Fight for America\"\n\"Fight for America\"\n\"Fight for America\"\n\"Fight for America\"\n\"Everybody knew that the 15th\nOf January was the deadline date\nBy kicking the war off, once the war was over\nPeople would be able to go home.\"\nYou might also like[Guitar Solo]\n\n[Verse 1]\nBorn from the dark in the black cloak of night\nTo envelop its prey below, deliver to the light\nTo eliminate your enemy, hit them in their sleep\nAnd when all is won and lost, the spoils of wars are yours to keep\n\n[Chorus]\nGreat nations built from the bones of the dead\nWith mud and straw - blood and sweat\nYou know your worth when your enemies\nPraise your architecture of aggression\nGreat nations built from the bones of the dead\nWith mud and straw - blood and sweat\nYou know your worth when your enemies...\nPraise your architecture of aggression\n\n[Outro]\n\"They looked like big long snakes (\"Fight for America\")\nComing up in the air\"\n\"Medium sized triple a, um, just (\"Fight for America\")\nAh tracer bullets\"\n\"They looked like big long snakes (\"Fight for America\")\nComing up in the air\"\n\"Fight for America\"4Embed"
+    }
+}
