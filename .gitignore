@@ -1,6 +1,5 @@
 # Secrets
 secrets.json
-genius_secrets.json
 
 # Songs
 database/songs/*
@@ -29,11 +28,6 @@ MANIFEST
 *.manifest
 *.spec
 
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
-*.log
