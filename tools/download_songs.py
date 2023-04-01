@@ -3,6 +3,7 @@ import googleapiclient.discovery
 import pandas as pd
 import os
 import json
+import sys
 from moviepy.editor import *
 
 
@@ -85,12 +86,13 @@ def main(start_id):
             except googleapiclient.errors.HttpError:
                 print("Number of YT API calls has been exceeded.")
                 remove_all_mp4_files("./")
+                sys.exit(1)
 
     remove_all_mp4_files("./")
     print("DONE") 
     
     
 if __name__=="__main__":
-    START_ID = 237
+    START_ID = 444
     main(START_ID)
     
