@@ -87,12 +87,15 @@ def main(start_id):
                 print("Number of YT API calls has been exceeded.")
                 remove_all_mp4_files("./")
                 sys.exit(1)
+            except Exception:
+                print("Could not download song {id}")
+                save_index_name_and_link('../database/songs/downloaded.txt', id, title, "", opt="failed")
 
     remove_all_mp4_files("./")
     print("DONE") 
     
     
 if __name__=="__main__":
-    START_ID = 444
+    START_ID = 505
     main(START_ID)
     
