@@ -5,6 +5,7 @@ import numpy as np
 import scipy
 import os
 from sklearn.preprocessing import MinMaxScaler
+from tqdm import tqdm
 
 
 def cut_musical_piece(x, sr):
@@ -12,12 +13,6 @@ def cut_musical_piece(x, sr):
     lower = int(middle - sr*time/2)
     upper = int(middle + sr*time/2)
     return x[lower:upper]
-
-
-def absolute_maximum_scale(series, columns):
-    for column in columns:
-       series[column] = absolute_maximum_scale(series[column])
-    return series / series.abs().max()
 
 
 def min_max_scale(series, columns):
@@ -110,6 +105,8 @@ def extract_chromagram(x, sr, hop_length):
 
 
 def extract_all_features(output_dfs):
+    nb = len(os.listdir(filedir))
+    pbar = tqdm(total=nb, unit="file")
     for file in os.listdir(filedir):
         if(file.endswith(".mp3")):
             x, sr = librosa.load(filedir+file)
@@ -121,6 +118,8 @@ def extract_all_features(output_dfs):
             all_features = [spectral_df, mfccs_df, ocs_df, chroma_df]
             all_features_df=pd.concat(all_features, axis=1)
             output_dfs.append(pd.concat([all_features_df], ignore_index = True, axis=0))
+        pbar.update()
+    pbar.close()
 
 
 def write_into_csv_file(filepath, dataframe):
@@ -132,8 +131,8 @@ def write_into_csv_file(filepath, dataframe):
 if __name__=="__main__":
     hop_length = 512
     time = 30
-    filepath = "../database/features/5.csv"
-    filedir = '../database/songs_new/'
+    filepath = "../database/features/1002_absolute_max.csv"
+    filedir = '../database/songs/'
     output_dfs = []
     
     extract_all_features(output_dfs)
