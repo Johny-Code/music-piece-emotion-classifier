@@ -4,8 +4,8 @@ import sklearn
 import numpy as np
 import scipy
 import os
-from sklearn.preprocessing import MinMaxScaler
 from tqdm import tqdm
+from sklearn.preprocessing import MinMaxScaler
 
 
 def cut_musical_piece(x, sr):
@@ -128,16 +128,34 @@ def write_into_csv_file(filepath, dataframe):
     dataframe.to_csv(filepath, index=True)
 
 
+def read_mood(filename):
+    df = pd.read_csv(filename)
+    return df['mood']
+
+
+def join_emotion_with_features(database_filepath, csv_filepath, nb):
+    mood = read_mood(database_filepath)
+    df = pd.read_csv(csv_filepath, index_col=0)
+    df['emotion'] = mood[:nb]
+    return df
+
+
 if __name__=="__main__":
+    records_nb = 1002
     hop_length = 512
     time = 30
-    filepath = "../database/features/1002_absolute_max.csv"
+    feature_path = "../database/features/1002_min_max.csv"
+    original_database_path = "../database/MoodyLyrics4Q.csv"
     filedir = '../database/songs/'
     output_dfs = []
     
     extract_all_features(output_dfs)
     final_df = pd.concat(output_dfs, ignore_index=True)
+    
     normalized_df = final_df.copy()
     normalized_df = min_max_scale(normalized_df, final_df.columns)
-    write_into_csv_file(filepath, normalized_df)
+    write_into_csv_file(feature_path, normalized_df)
+    
+    joined_df = join_emotion_with_features(original_database_path, feature_path, records_nb)
+    write_into_csv_file(feature_path, joined_df)
     
