@@ -14,7 +14,9 @@ def cut_musical_piece(x, sr):
     return x[lower:upper]
 
 
-def absolute_maximum_scale(series):
+def absolute_maximum_scale(series, columns):
+    for column in columns:
+       series[column] = absolute_maximum_scale(series[column])
     return series / series.abs().max()
 
 
@@ -137,8 +139,6 @@ if __name__=="__main__":
     extract_all_features(output_dfs)
     final_df = pd.concat(output_dfs, ignore_index=True)
     normalized_df = final_df.copy()
-    # for column in final_df.columns:
-    #     normalized_df[column] = absolute_maximum_scale(normalized_df[column])
     normalized_df = min_max_scale(normalized_df, final_df.columns)
     write_into_csv_file(filepath, normalized_df)
     
