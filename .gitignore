@@ -1,8 +1,12 @@
 # Secrets
 secrets.json
+genius_secrets.json
 
 # Songs
 database/songs/*
+database/songs_new/*
+database/songs/to_be_converted/*
+database/lyrics/*
 
 # Distribution / packaging
 .Python
@@ -28,6 +32,11 @@ MANIFEST
 *.manifest
 *.spec
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+*.log
