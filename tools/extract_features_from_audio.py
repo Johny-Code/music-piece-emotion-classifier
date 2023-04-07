@@ -5,7 +5,7 @@ import numpy as np
 import scipy
 import os
 from tqdm import tqdm
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 
 def cut_musical_piece(x, sr):
@@ -17,6 +17,14 @@ def cut_musical_piece(x, sr):
 
 def min_max_scale(series, columns):
     scaler = MinMaxScaler()
+    scaler.fit(series)
+    scaled = scaler.fit_transform(series)
+    scaled_df = pd.DataFrame(scaled, columns=columns)
+    return scaled_df
+
+
+def standard_scaler(series, columns):
+    scaler = StandardScaler()
     scaler.fit(series)
     scaled = scaler.fit_transform(series)
     scaled_df = pd.DataFrame(scaled, columns=columns)
@@ -144,7 +152,7 @@ if __name__=="__main__":
     records_nb = 1002
     hop_length = 512
     time = 30
-    feature_path = "../database/features/1002_min_max.csv"
+    feature_path = "../database/features/1002_stand_norm.csv"
     original_database_path = "../database/MoodyLyrics4Q.csv"
     filedir = '../database/songs/'
     output_dfs = []
@@ -153,7 +161,7 @@ if __name__=="__main__":
     final_df = pd.concat(output_dfs, ignore_index=True)
     
     normalized_df = final_df.copy()
-    normalized_df = min_max_scale(normalized_df, final_df.columns)
+    normalized_df = standard_scaler(normalized_df, final_df.columns)
     write_into_csv_file(feature_path, normalized_df)
     
     joined_df = join_emotion_with_features(original_database_path, feature_path, records_nb)
