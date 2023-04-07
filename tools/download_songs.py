@@ -3,6 +3,7 @@ import googleapiclient.discovery
 import pandas as pd
 import os
 import json
+import sys
 from moviepy.editor import *
 
 
@@ -74,19 +75,27 @@ def main(start_id):
         if int(id[2:]) < start_id:
             continue
         else:
-            link = scrape_link(f'{artist}, {title}', config)
             try:
-                filename = download_video(link)
-                convert_to_mp3_and_change_name(filename, id)
-                save_index_name_and_link('../database/songs/downloaded.txt', id, title, link)
-            except:
-                save_index_name_and_link('../database/songs/downloaded.txt', id, title, link, opt="failed")
+                link = scrape_link(f'{artist}, {title}', config)
+                try:
+                    filename = download_video(link)
+                    convert_to_mp3_and_change_name(filename, id)
+                    save_index_name_and_link('../database/songs/downloaded.txt', id, title, link)
+                except:
+                    save_index_name_and_link('../database/songs/downloaded.txt', id, title, link, opt="failed")
+            except googleapiclient.errors.HttpError:
+                print("Number of YT API calls has been exceeded.")
+                remove_all_mp4_files("./")
+                sys.exit(1)
+            except Exception:
+                print(f"Could not download song {id}")
+                save_index_name_and_link('../database/songs/downloaded.txt', id, title, "", opt="failed")
 
     remove_all_mp4_files("./")
     print("DONE") 
     
     
 if __name__=="__main__":
-    START_ID = 94
+    START_ID = 554
     main(START_ID)
     
