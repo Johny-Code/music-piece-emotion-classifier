@@ -9,7 +9,7 @@ def read_data(filepath):
 
 
 if __name__ == "__main__":
-    filepath = "../../database/features/1002_min_max.csv"
+    filepath = "../../database/features/1002_stand_norm.csv"
     target_dict = {'happy': 0, 'angry': 1, 'sad': 2, 'relaxed': 3}
     
     df = read_data(filepath)
