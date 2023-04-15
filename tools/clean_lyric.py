@@ -8,7 +8,7 @@ def clean_lyric(lyric, title):
     #remove title and genius annotation
     lyric = re.sub(".+Lyrics.+\]", '',  lyric)
 
-    #removing title (exception)
+    #removing title (exception detected)
     lyric = re.sub(f'{title}.+Lyrics', '', lyric)
 
     #remove exery anotation like [Verse 1], [Chorus], [Bridge], [Part 1] etc.
@@ -26,17 +26,13 @@ def clean_lyric(lyric, title):
         if lyric[-1].isdigit():
             lyric = re.sub('\d', '', lyric)
 
-    print('-'*50)
-    print(lyric)
-    print('-'*50)
     return lyric
 
 def main():
     path_dataset = os.path.join('..', '..', 'database', 'lyrics')
     
-    for i, file in enumerate(os.listdir(path_dataset)):
-        if i == 10:
-            break
+    for file in os.listdir(path_dataset):
+
         if file.endswith('.json'):
             path_file = os.path.join(path_dataset, file)
             with open(path_file, 'r') as f:
@@ -50,7 +46,6 @@ def main():
 
             lyric = clean_lyric(lyric, title)
             print(f'Cleaned {file}')
-
 
 if __name__ == '__main__':
     main()
