@@ -40,8 +40,8 @@ def generate_mean_std(data):
 
 
 def extract_tempo(x, sr):
-    onset_env = librosa.onset.onset_strength(x, sr=sr)
-    tempo = librosa.beat.tempo(onset_envelope=onset_env, sr=sr)
+    onset_env = librosa.onset.onset_strength(y=x, sr=sr)
+    tempo = librosa.feature.tempo(onset_envelope=onset_env, sr=sr)
     return pd.DataFrame(data=[tempo[0]], columns=["tempo"])
 
 
@@ -49,13 +49,13 @@ def extract_zero_crossing_rate(x, hop_length, frame_length):
     zrate=librosa.feature.zero_crossing_rate(x, hop_length=hop_length, frame_length=frame_length)
     zrate_mean=np.mean(zrate)
     zrate_std=np.std(zrate)
-    return pd.DataFrame(data=[zrate_mean, zrate_std], columns=["zcr_mean", "zcs_std"])
+    return pd.DataFrame({'zcr_mean': [zrate_mean], 'zcr_std': [zrate_std]})
 
 
 def extract_spectral_features(x, sr, hop_length, n_fft):
     spectral_centroids = librosa.feature.spectral_centroid(y=x, sr=sr, hop_length=hop_length, n_fft=n_fft)[0]
     spectral_rolloff = librosa.feature.spectral_rolloff(y=x, sr=sr, hop_length=hop_length, n_fft = n_fft)[0]
-    spectral_flux = librosa.onset.onset_strength(y=x, sr=sr, hop_length=hop_length)
+    spectral_flux = librosa.onset.onset_strength(y=x, sr=sr)
     spectral_flatness = librosa.feature.spectral_flatness(y=x, hop_length=hop_length, n_fft=n_fft)[0]
     collist_centroids=['cent_mean','cent_std']
     collist_rolloff=['rolloff_mean','rolloff_std']
@@ -74,7 +74,7 @@ def extract_spectral_features(x, sr, hop_length, n_fft):
     return pd.DataFrame(data=spectral_dict)
 
 
-def extract_MFCCs(x, sr, hop_length=int(512/2), mfcc_features_nb = 13, n_fft=512):
+def extract_MFCCs(x, sr, hop_length=int(512/2), mfcc_features_nb = 40, n_fft=512):
     mfccs = librosa.feature.mfcc(y=x, sr=sr, hop_length=hop_length, n_mfcc=mfcc_features_nb, n_fft=n_fft)
     mfccs_mean=np.mean(mfccs,axis=1)
     mfccs_std=np.std(mfccs,axis=1)
@@ -86,7 +86,7 @@ def extract_MFCCs(x, sr, hop_length=int(512/2), mfcc_features_nb = 13, n_fft=512
     mfccs_df.loc[0]=np.concatenate((mfccs_mean,mfccs_std),axis=0)  
     
     #1s length
-    mfccs = librosa.feature.mfcc(y=x, sr=sr, hop_length=int(22050/2), n_mfcc=mfcc_features_nb, n_fft=22050)
+    mfccs = librosa.feature.mfcc(y=x, sr=sr, hop_length=int(sr/2), n_mfcc=mfcc_features_nb, n_fft=sr)
     mfccs_mean=np.mean(mfccs,axis=1)
     mfccs_std=np.std(mfccs,axis=1)
     mfccs_df_2=pd.DataFrame()
@@ -97,7 +97,7 @@ def extract_MFCCs(x, sr, hop_length=int(512/2), mfcc_features_nb = 13, n_fft=512
     mfccs_df_2.loc[0]=np.concatenate((mfccs_mean,mfccs_std),axis=0) 
      
     #30s length
-    mfccs = librosa.feature.mfcc(y=x, sr=sr, hop_length=22050*30, n_mfcc=mfcc_features_nb, n_fft=22050*30)
+    mfccs = librosa.feature.mfcc(y=x, sr=sr, hop_length=sr*30, n_mfcc=mfcc_features_nb, n_fft=sr*30)
     mfccs_mean=np.mean(mfccs,axis=1)
     mfccs_std=np.std(mfccs,axis=1)
     mfccs_df_3=pd.DataFrame()
@@ -151,12 +151,12 @@ def extract_all_features(output_dfs, hop_length, n_fft):
     for file in os.listdir(filedir):
         if(file.endswith(".mp3")):
             x, sr = librosa.load(filedir+file, sr=44100)
-            x = cut_musical_piece(x, sr)
             x = librosa.util.normalize(x)
+            x = cut_musical_piece(x, sr)
             zero_crossing_rate = extract_zero_crossing_rate(x, hop_length, n_fft)
             tempo = extract_tempo(x, sr)
             spectral_df = extract_spectral_features(x, sr, hop_length, n_fft)
-            mfccs_df = extract_MFCCs(x, sr, hop_length, 13, n_fft)
+            mfccs_df = extract_MFCCs(x, sr, hop_length, 40, n_fft)
             ocs_df = extract_OCS(x, sr, hop_length, n_fft)
             chroma_df = extract_chromagram(x, sr, hop_length, n_fft)
             
@@ -186,11 +186,11 @@ def join_emotion_with_features(database_filepath, csv_filepath, nb):
 
 
 if __name__=="__main__":
-    records_nb = 1402
-    n_fft = 1024
+    records_nb = 1902
+    n_fft = 2048
     hop_length = int(n_fft/2)
     time = 30
-    feature_path = "../database/features/1402_stand_norm_with_loudness_with_win_length_normalized.csv"
+    feature_path = "../database/features/1600_2048_nfft_norm_40_mfcc.csv"
     original_database_path = "../database/MoodyLyrics4Q.csv"
     filedir = '../database/songs/'
     output_dfs = []

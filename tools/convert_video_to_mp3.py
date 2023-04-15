@@ -3,7 +3,7 @@ from moviepy.editor import *
 
 def convert_to_mp3_and_change_name(filename):
     video = VideoFileClip(filename)
-    video.audio.write_audiofile(f"../database/songs/{file[:-3]}mp3")
+    video.audio.write_audiofile(f"../database/songs_new/{file[:-3]}mp3")
 
 
 if __name__=="__main__":
