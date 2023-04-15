@@ -47,24 +47,29 @@ def extract_tempo(x, sr):
 
 def extract_zero_crossing_rate(x, hop_length, frame_length):
     zrate=librosa.feature.zero_crossing_rate(x, hop_length=hop_length, frame_length=frame_length)
-    zrate_mean=np.mean(zrate)
-    zrate_std=np.std(zrate)
+    zrate_mean, zrate_std = generate_mean_std(zrate)
     return pd.DataFrame({'zcr_mean': [zrate_mean], 'zcr_std': [zrate_std]})
+
+
+def extract_rms(x, hop_length, frame_length):
+    rms = librosa.feature.rms(x, frame_length=frame_length, hop_length=hop_length)
+    rms_mean, rms_std = generate_mean_std(rms)
+    return pd.DataFrame({'rms_mean': [rms_mean], 'rms_std': [rms_std]})
 
 
 def extract_spectral_features(x, sr, hop_length, n_fft):
     spectral_centroids = librosa.feature.spectral_centroid(y=x, sr=sr, hop_length=hop_length, n_fft=n_fft)[0]
     spectral_rolloff = librosa.feature.spectral_rolloff(y=x, sr=sr, hop_length=hop_length, n_fft = n_fft)[0]
-    spectral_flux = librosa.onset.onset_strength(y=x, sr=sr)
+    #spectral_flux = librosa.onset.onset_strength(y=x, sr=sr) #mostly is not included
     spectral_flatness = librosa.feature.spectral_flatness(y=x, hop_length=hop_length, n_fft=n_fft)[0]
     collist_centroids=['cent_mean','cent_std']
     collist_rolloff=['rolloff_mean','rolloff_std']
-    collist_flux = ['flux_mean','flux_std']
+    #collist_flux = ['flux_mean','flux_std']
     collist_flatness=['flatness_mean','flatness_std']
-    all_spect_columns = collist_centroids+collist_rolloff+collist_flux+collist_flatness
+    all_spect_columns = collist_centroids+collist_rolloff+collist_flatness
     
     spectral_dict = {}
-    features = [spectral_centroids, spectral_rolloff, spectral_flux, spectral_flatness]
+    features = [spectral_centroids, spectral_rolloff, spectral_flatness]
     j=0
     for feature in features:
         mss = generate_mean_std(feature)
@@ -80,9 +85,9 @@ def extract_MFCCs(x, sr, hop_length=int(512/2), mfcc_features_nb = 40, n_fft=512
     mfccs_std=np.std(mfccs,axis=1)
     mfccs_df=pd.DataFrame()
     for i in range(0,mfcc_features_nb):
-        mfccs_df['mfccs_mean_'+str(i)]=mfccs_mean[i]
+        mfccs_df['mfccs_mean_43ms_'+str(i)]=mfccs_mean[i]
     for i in range(0,mfcc_features_nb):
-        mfccs_df['mfccs_std_'+str(i)]=mfccs_std[i]       
+        mfccs_df['mfccs_std_43ms_'+str(i)]=mfccs_std[i]       
     mfccs_df.loc[0]=np.concatenate((mfccs_mean,mfccs_std),axis=0)  
     
     #1s length
@@ -91,9 +96,9 @@ def extract_MFCCs(x, sr, hop_length=int(512/2), mfcc_features_nb = 40, n_fft=512
     mfccs_std=np.std(mfccs,axis=1)
     mfccs_df_2=pd.DataFrame()
     for i in range(0,mfcc_features_nb):
-        mfccs_df_2['mfccs_mean_1_'+str(i)]=mfccs_mean[i]
+        mfccs_df_2['mfccs_mean_1s_'+str(i)]=mfccs_mean[i]
     for i in range(0,mfcc_features_nb):
-        mfccs_df_2['mfccs_std_1_'+str(i)]=mfccs_std[i]       
+        mfccs_df_2['mfccs_std_1s_'+str(i)]=mfccs_std[i]       
     mfccs_df_2.loc[0]=np.concatenate((mfccs_mean,mfccs_std),axis=0) 
      
     #30s length
@@ -102,9 +107,9 @@ def extract_MFCCs(x, sr, hop_length=int(512/2), mfcc_features_nb = 40, n_fft=512
     mfccs_std=np.std(mfccs,axis=1)
     mfccs_df_3=pd.DataFrame()
     for i in range(0,mfcc_features_nb):
-        mfccs_df_3['mfccs_mean_30_'+str(i)]=mfccs_mean[i]
+        mfccs_df_3['mfccs_mean_30s_'+str(i)]=mfccs_mean[i]
     for i in range(0,mfcc_features_nb):
-        mfccs_df_3['mfccs_std_30_'+str(i)]=mfccs_std[i]       
+        mfccs_df_3['mfccs_std_30s_'+str(i)]=mfccs_std[i]       
     mfccs_df_3.loc[0]=np.concatenate((mfccs_mean,mfccs_std),axis=0) 
      
     return pd.concat([mfccs_df, mfccs_df_2, mfccs_df_3], axis=1)
@@ -153,14 +158,16 @@ def extract_all_features(output_dfs, hop_length, n_fft):
             x, sr = librosa.load(filedir+file, sr=44100)
             x = librosa.util.normalize(x)
             x = cut_musical_piece(x, sr)
+            x, _ = librosa.effects.hpss(x)
             zero_crossing_rate = extract_zero_crossing_rate(x, hop_length, n_fft)
+            rms = extract_rms(x, hop_length, n_fft)
             tempo = extract_tempo(x, sr)
             spectral_df = extract_spectral_features(x, sr, hop_length, n_fft)
             mfccs_df = extract_MFCCs(x, sr, hop_length, 40, n_fft)
             ocs_df = extract_OCS(x, sr, hop_length, n_fft)
             chroma_df = extract_chromagram(x, sr, hop_length, n_fft)
             
-            all_features = [zero_crossing_rate, tempo, spectral_df, mfccs_df, ocs_df, chroma_df]
+            all_features = [zero_crossing_rate, rms, tempo, spectral_df, mfccs_df, ocs_df, chroma_df]
             all_features_df=pd.concat(all_features, axis=1)
             output_dfs.append(pd.concat([all_features_df], ignore_index = True, axis=0))
         pbar.update()
@@ -190,7 +197,7 @@ if __name__=="__main__":
     n_fft = 2048
     hop_length = int(n_fft/2)
     time = 30
-    feature_path = "../database/features/1600_2048_nfft_norm_40_mfcc.csv"
+    feature_path = "../database/features/1900_2048_nfft_norm_40_mfcc_harmonic.csv"
     original_database_path = "../database/MoodyLyrics4Q.csv"
     filedir = '../database/songs/'
     output_dfs = []
