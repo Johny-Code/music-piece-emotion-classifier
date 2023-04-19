@@ -1,0 +1,41 @@
+Duplicated rows from MoodyLirics4Q:
+
+ML992,The Helio Sequence,Back to This,relaxed
+ML1056,The Helio Sequence,Back To This,relaxed
+
+ML186,Lykke Li,Sadness Is a Blessing,sad
+ML1439,Lykke Li,Sadness Is A Blessing,sad
+
+ML1816,Slayer,Ghosts of War,angry
+ML1912,Slayer,Ghosts Of War,angry
+
+ML1539,Shenandoah,Ghost In This House,sad
+ML1945,Shenandoah,Ghost In this House,sad
+ML1957,Alison Krauss,Ghost in This House,sad
+
+ML239,IVY,Edge of the Ocean,relaxed
+ML1697,Ivy,Edge Of The Ocean,relaxed
+
+ML312,Rage Against the Machine,Sleep Now In The Fire,angry
+ML526,Rage Against the Machine,Sleep Now in the Fire,angry
+
+ML291,Common,Faithful ,relaxed
+ML659,Common,Faithful,relaxed
+
+ML613,Jazzanova,Look What You're Doin' To Me ,relaxed
+ML817,Jazzanova,Look What You're Doin' To Me,relaxed
+
+---------------------------------------------------------------------
+
+Removed rows:
+ML186,Lykke Li,Sadness Is a Blessing,sad
+ML291,Common,Faithful ,relaxed
+ML312,Rage Against the Machine,Sleep Now In The Fire,angry
+ML613,Jazzanova,Look What You're Doin' To Me ,relaxed
+ML1056,The Helio Sequence,Back To This,relaxed
+ML1697,Ivy,Edge Of The Ocean,relaxed
+ML1816,Slayer,Ghosts of War,angry
+ML1945,Shenandoah,Ghost In this House,sad
+ML1957,Alison Krauss,Ghost in This House,sad
+
+Cleaned dataset - MoodyLirics4Q_cleaned.csv
