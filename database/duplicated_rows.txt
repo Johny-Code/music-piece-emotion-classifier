@@ -25,6 +25,9 @@ ML659,Common,Faithful,relaxed
 ML613,Jazzanova,Look What You're Doin' To Me ,relaxed
 ML817,Jazzanova,Look What You're Doin' To Me,relaxed
 
+ML629,Rage Against the Machine,Killing In The Name,angry
+ML894,Rage Against The Machine,Killing in the Name,angry
+
 ---------------------------------------------------------------------
 
 Removed rows:
@@ -32,6 +35,7 @@ ML186,Lykke Li,Sadness Is a Blessing,sad
 ML291,Common,Faithful ,relaxed
 ML312,Rage Against the Machine,Sleep Now In The Fire,angry
 ML613,Jazzanova,Look What You're Doin' To Me ,relaxed
+ML629,Rage Against the Machine,Killing In The Name,angry
 ML1056,The Helio Sequence,Back To This,relaxed
 ML1697,Ivy,Edge Of The Ocean,relaxed
 ML1816,Slayer,Ghosts of War,angry
