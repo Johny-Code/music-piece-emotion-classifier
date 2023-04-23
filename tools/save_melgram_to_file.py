@@ -3,7 +3,7 @@ import numpy as np
 import librosa
 from tqdm import tqdm
 from scipy import signal
-from sort_lyrics import read_excel_database
+from sort_songs import read_excel_database
 from extract_features_from_audio import cut_musical_piece
 
 
