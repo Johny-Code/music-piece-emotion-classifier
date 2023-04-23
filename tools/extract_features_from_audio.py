@@ -6,7 +6,7 @@ from tqdm import tqdm
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 
-def cut_musical_piece(x, sr):
+def cut_musical_piece(x, sr, time):
     middle = int(x.shape[0]/2)
     lower = int(middle - sr*time/2)
     upper = int(middle + sr*time/2)
@@ -157,8 +157,8 @@ def extract_all_features(output_dfs, hop_length, n_fft):
         if(file.endswith(".mp3")):
             x, sr = librosa.load(filedir+file, sr=44100)
             x = librosa.util.normalize(x)
-            x = cut_musical_piece(x, sr)
-            x, _ = librosa.effects.hpss(x)
+            x = cut_musical_piece(x, sr, 30)
+            #x, _ = librosa.effects.hpss(x)
             zero_crossing_rate = extract_zero_crossing_rate(x, hop_length, n_fft)
             rms = extract_rms(x, hop_length, n_fft)
             tempo = extract_tempo(x, sr)
@@ -172,7 +172,7 @@ def extract_all_features(output_dfs, hop_length, n_fft):
             output_dfs.append(pd.concat([all_features_df], ignore_index = True, axis=0))
         pbar.update()
     pbar.close()
-
+    
 
 def write_into_csv_file(filepath, dataframe):
     filedir, _ = os.path.split(filepath)
