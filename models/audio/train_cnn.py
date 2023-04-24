@@ -6,12 +6,10 @@ import matplotlib.pyplot as plt
 import librosa
 import librosa.display
 from keras.models import Sequential, Model
-from keras.layers import Input, Dense, TimeDistributed, LSTM, Dropout, Activation, ELU, ReLU
+from keras.layers import Input, Dense, Dropout, Activation, ELU
 from keras.layers import Convolution2D, MaxPooling2D, Flatten
 from keras.layers import BatchNormalization
 from keras.callbacks import ModelCheckpoint
-from keras import backend
-from keras.utils import np_utils
 from os.path import isfile
 
 
