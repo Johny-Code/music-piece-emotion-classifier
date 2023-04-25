@@ -99,11 +99,11 @@ if __name__ == "__main__":
     model = define_fine_tuned_VGG_model((IMG_WIDTH, IMG_HEIGHT, 3), 4, best_model_path)
     
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
-    train,test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT))
-
-    history = model.fit_generator(generator=train, 
-                                  epochs=NUM_EPOCHS,
-                                  steps_per_epoch=STEPS_PER_EPOCH, 
-                                  validation_data=test,
-                                  validation_steps=VAL_STEPS,
-                                  callbacks=[checkpoint])
+    train, val = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT))
+    
+    history = model.fit(train, 
+                        epochs=NUM_EPOCHS,
+                        steps_per_epoch=STEPS_PER_EPOCH, 
+                        validation_data=val,
+                        validation_steps=VAL_STEPS,
+                        callbacks=[checkpoint])
