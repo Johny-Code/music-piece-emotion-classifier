@@ -269,13 +269,15 @@ def extract_all_features(df):
         lyric, lines = clean_lyric(row['lyric'], title)
         
         #features
-        lyrics_vector = get_lyrics_vector(lyric, nlp)
-        echoisms = get_echoisms(lines, nlp)
+        lyrics_vector = get_lyrics_vector(lyric, nlp)                   #The lyrics vector created using spacy en_core_web_lg model. 
+        echoisms = get_echoisms(lines, nlp)                             # Percentage of echoism over the total number of words, where an echoism is either a sequence of two subsequent repeated words or the repetition of a vowel in a word.
         duplicate_lines = get_duplicate_lines(lines)
         title_in_lyric = is_title_in_lyric(title, lines)
         verb_present_freq, verb_past_freq, verb_future_freq = get_verb_tense_freq(lyric, nlp)
         pos_tags_count = get_pos_tags_count(lines, nlp)
-        sentiment_polarity, sentiment_subjectivity = get_sentiment(lyric)
+        sentiment_polarity, sentiment_subjectivity = get_sentiment(lyric) #TextBlob returns polarity and subjectivity of a sentence. 
+        #Polarity lies between [-1,1], -1 defines a negative sentiment and 1 defines a positive sentiment.
+        #Subjectivity quantifies the amount of personal opinion and factual information contained in the text. lies between [0,1]
 
         row = [lyrics_vector, echoisms, duplicate_lines, title_in_lyric, verb_present_freq, verb_past_freq, verb_future_freq,
                 pos_tags_count['ADJ'], pos_tags_count['PUNCT'], sentiment_polarity, sentiment_subjectivity]
@@ -283,21 +285,9 @@ def extract_all_features(df):
         rows.append(row)
         ids.append(index)
 
-        #In the end, we obtained the best results just by using the following features: 
-        ## Lyrics vector, -> The lyrics vector created using spacy en_core_web_lg model. 
-        ## Echoisms, -> Percentage of echoism over the total number of words, where an echoism is either a sequence of two subsequent repeated words or the repetition of a vowel in a word.
-        ## Duplicate Lines, 
-        ## isTitleInLyrics, 
-        ## Past tense verbs,
-        ## Present tense verbs, 
-        ## Future tense verbs, 
-        ## ADJ, -> Adjective
-        ## PUNCT, -> Punctuation
-        ## Sentiment -> TextBlob returns polarity and subjectivity of a sentence. Polarity lies between [-1,1], -1 defines a negative sentiment and 1 defines a positive sentiment.
-        ## Subjectivity degree -> Subjectivity quantifies the amount of personal opinion and factual information contained in the text. lies between [0,1]
-    
-    features_df = pd.DataFrame(rows, columns=['lyrics_vector', 'echoisms', 'duplicate_lines', 'title_in_lyric', 'verb_present_freq', 'verb_past_freq', 'verb_future_freq',
-                                              'count_ADJ', 'count_PUNCT', 'sentiment_polarity', 'sentiment_subjectivity'], index=ids)
+    features_df = pd.DataFrame(rows, columns=['lyrics_vector', 'echoisms', 'duplicate_lines', 'title_in_lyric', 
+                                              'verb_present_freq', 'verb_past_freq', 'verb_future_freq', 'count_ADJ', 
+                                              'count_PUNCT', 'sentiment_polarity', 'sentiment_subjectivity'], index=ids)
 
     return features_df
 
