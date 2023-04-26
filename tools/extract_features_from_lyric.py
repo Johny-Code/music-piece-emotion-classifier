@@ -10,6 +10,7 @@ from langdetect import detect
 INSTRUMENTAL_COMMENT = "This song is an instrumental"
 VOWELS = ['a', 'e', 'i', 'o', 'u', 'y']
 
+
 def detect_language(text):
     try:
         language = detect(text)
@@ -144,6 +145,7 @@ def remove_stopwords(doc, nlp):
     tks = list(filter(lambda tk: not tk.is_stop, doc))
     return spacy.tokens.Doc(nlp.vocab, words=[tk.text for tk in tks])
 
+
 def get_lyrics_vector(lyric, nlp):
     doc = nlp(lyric)
     doc = remove_stopwords(doc, nlp)
@@ -261,7 +263,6 @@ def extract_all_features(df):
 
     rows = list()
     ids = list()
-    i = 0
     for index, row in df.iterrows():
         
         title = row['title']
@@ -276,18 +277,11 @@ def extract_all_features(df):
         pos_tags_count = get_pos_tags_count(lines, nlp)
         sentiment_polarity, sentiment_subjectivity = get_sentiment(lyric)
 
-        #---------------------------------------
-        
-        
         row = [lyrics_vector, echoisms, duplicate_lines, title_in_lyric, verb_present_freq, verb_past_freq, verb_future_freq,
                 pos_tags_count['ADJ'], pos_tags_count['PUNCT'], sentiment_polarity, sentiment_subjectivity]
 
         rows.append(row)
         ids.append(index)
-        
-        #to be removed after testing
-        if i == 2: break
-        i += 1
 
         #In the end, we obtained the best results just by using the following features: 
         ## Lyrics vector, -> The lyrics vector created using spacy en_core_web_lg model. 
@@ -306,7 +300,6 @@ def extract_all_features(df):
                                               'count_ADJ', 'count_PUNCT', 'sentiment_polarity', 'sentiment_subjectivity'], index=ids)
 
     return features_df
-
 
 
 if __name__ == '__main__':
