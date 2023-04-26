@@ -7,6 +7,7 @@ database/songs/*
 database/songs_new/*
 database/songs/to_be_converted/*
 database/lyrics/*
+database/lyrics_features/*
 
 # Distribution / packaging
 .Python

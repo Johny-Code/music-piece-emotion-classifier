@@ -4,6 +4,7 @@ import json
 import spacy
 import textblob
 import pandas as pd
+import numpy as np
 from langdetect import detect
 
 
@@ -150,7 +151,7 @@ def get_lyrics_vector(lyric, nlp):
     doc = nlp(lyric)
     doc = remove_stopwords(doc, nlp)
     if len(doc.vector) == 300:
-        return doc.vector
+        return np.array(doc.vector)
     else:
         print("Error in vector")
         return None
@@ -278,14 +279,15 @@ def extract_all_features(df):
         sentiment_polarity, sentiment_subjectivity = get_sentiment(lyric) #TextBlob returns polarity and subjectivity of a sentence. 
         #Polarity lies between [-1,1], -1 defines a negative sentiment and 1 defines a positive sentiment.
         #Subjectivity quantifies the amount of personal opinion and factual information contained in the text. lies between [0,1]
+        emotion = row['mood']
 
-        row = [lyrics_vector, echoisms, duplicate_lines, title_in_lyric, verb_present_freq, verb_past_freq, verb_future_freq,
+        row = [emotion, lyrics_vector, echoisms, duplicate_lines, title_in_lyric, verb_present_freq, verb_past_freq, verb_future_freq,
                 pos_tags_count['ADJ'], pos_tags_count['PUNCT'], sentiment_polarity, sentiment_subjectivity]
 
         rows.append(row)
         ids.append(index)
 
-    features_df = pd.DataFrame(rows, columns=['lyrics_vector', 'echoisms', 'duplicate_lines', 'title_in_lyric', 
+    features_df = pd.DataFrame(rows, columns=['emotion', 'lyrics_vector', 'echoisms', 'duplicate_lines', 'title_in_lyric', 
                                               'verb_present_freq', 'verb_past_freq', 'verb_future_freq', 'count_ADJ', 
                                               'count_PUNCT', 'sentiment_polarity', 'sentiment_subjectivity'], index=ids)
 
@@ -297,4 +299,5 @@ if __name__ == '__main__':
     en_dataset = load_en_dataset(input_path)
 
     features_df = extract_all_features(en_dataset)
-    print(features_df.head())
+
+    features_df.to_csv(path = '../database/lyrics_features/ML4Q_english_features.csv', index=True, header=True)
