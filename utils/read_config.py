@@ -1,5 +1,6 @@
 import json
 
+
 def read_config(*config_files):
     data = {}
     for file in config_files:

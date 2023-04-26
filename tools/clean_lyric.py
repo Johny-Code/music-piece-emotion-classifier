@@ -5,32 +5,33 @@ import re
 
 def clean_lyric(lyric, title):
     
-    #remove title and genius annotation
-    lyric = re.sub(".+Lyrics.+\]", '',  lyric)
+    # remove title and genius annotation
+    lyric = re.sub(".+Lyrics.+\\]", '', lyric)
 
-    #removing title (exception detected)
+    # removing title (exception detected)
     lyric = re.sub(f'{title}.+Lyrics', '', lyric)
 
-    #remove exery anotation like [Verse 1], [Chorus], [Bridge], [Part 1] etc.
-    lyric = re.sub('\[.+\]', '', lyric)
+    # remove exery anotation like [Verse 1], [Chorus], [Bridge], [Part 1] etc.
+    lyric = re.sub('\\[.+\\]', '', lyric)
 
-    #remove every ********* in the lyric
-    lyric = re.sub('\*.+\*', '', lyric)
+    # remove every ********* in the lyric
+    lyric = re.sub('\\*.+\\*', '', lyric)
 
-    #remove Genius anotation "You might also like"
+    # remove Genius anotation "You might also like"
     lyric = re.sub('You might also like', '', lyric)
 
-    #remove Embed exist in every lyric in the end
+    # remove Embed exist in every lyric in the end
     if lyric[-5:] == 'Embed':
         lyric = re.sub('Embed', '', lyric)
         if lyric[-1].isdigit():
-            lyric = re.sub('\d', '', lyric)
+            lyric = re.sub('\\d', '', lyric)
 
     return lyric
 
+
 def main():
     path_dataset = os.path.join('..', '..', 'database', 'lyrics')
-    
+
     for file in os.listdir(path_dataset):
 
         if file.endswith('.json'):
@@ -46,6 +47,7 @@ def main():
 
             lyric = clean_lyric(lyric, title)
             print(f'Cleaned {file}')
+
 
 if __name__ == '__main__':
     main()
