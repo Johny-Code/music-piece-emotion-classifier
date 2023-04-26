@@ -5,12 +5,11 @@ import numpy as np
 from tqdm import tqdm
 from scipy import signal
 from matplotlib import cm
-from sort_songs import read_excel_database
-from extract_features_from_audio import cut_musical_piece
+from utils import read_database, cut_musical_piece
 
 
 def save_melgram(filedir, database_filepath, outpath, file_format='mp3'):
-    name, emotion = read_excel_database(database_filepath)
+    name, emotion = read_database.read_excel_database(database_filepath)
     name_emotion_dict = {name[i]: emotion[i] for i in range(len(name))}
     nb = len(os.listdir(filedir))
     pbar = tqdm(total=nb, unit="file")
@@ -21,7 +20,7 @@ def save_melgram(filedir, database_filepath, outpath, file_format='mp3'):
             emotion = name_emotion_dict[name_]
             x, sr = librosa.load(filedir+file, sr=44100)
             x = librosa.util.normalize(x)
-            x = cut_musical_piece(x, sr, 30)
+            x = cut_musical_piece.cut_musical_piece(x, sr, 30)
             if (file_format == 'mp3'):
                 melspectogram = librosa.feature.melspectrogram(y=x, sr=sr, n_mels=96, n_fft=2048, hop_length=512)
                 melgram = librosa.amplitude_to_db(melspectogram, ref=1)[np.newaxis,np.newaxis,:,:]

@@ -5,8 +5,11 @@ genius_secrets.json
 # Songs
 database/songs/*
 database/songs_new/*
+database/songs_divided/*
 database/songs/to_be_converted/*
 database/lyrics/*
+database/melgrams/*
+database/features/*
 
 # Distribution / packaging
 .Python

@@ -4,13 +4,7 @@ import numpy as np
 import os
 from tqdm import tqdm
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
-
-
-def cut_musical_piece(x, sr, time):
-    middle = int(x.shape[0]/2)
-    lower = int(middle - sr*time/2)
-    upper = int(middle + sr*time/2)
-    return x[lower:upper]
+from utils import read_database, cut_musical_piece
 
 
 def min_max_scale(series, columns):
@@ -157,7 +151,7 @@ def extract_all_features(output_dfs, hop_length, n_fft):
         if(file.endswith(".mp3")):
             x, sr = librosa.load(filedir+file, sr=44100)
             x = librosa.util.normalize(x)
-            x = cut_musical_piece(x, sr, 30)
+            x = cut_musical_piece.cut_musical_piece(x, sr, 30)
             #x, _ = librosa.effects.hpss(x)
             zero_crossing_rate = extract_zero_crossing_rate(x, hop_length, n_fft)
             rms = extract_rms(x, hop_length, n_fft)
@@ -180,13 +174,8 @@ def write_into_csv_file(filepath, dataframe):
     dataframe.to_csv(filepath, index=True)
 
 
-def read_mood(filename):
-    df = pd.read_csv(filename)
-    return df['mood']
-
-
 def join_emotion_with_features(database_filepath, csv_filepath, nb):
-    mood = read_mood(database_filepath)
+    _, _, _, mood = read_database.read_excel_database(database_filepath)
     df = pd.read_csv(csv_filepath, index_col=0)
     df['emotion'] = mood[:nb]
     return df

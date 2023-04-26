@@ -5,8 +5,7 @@ import pandas as pd
 from lyricsgenius import Genius 
 from requests.exceptions import HTTPError, Timeout
 from http import HTTPStatus
-
-from download_songs import read_config, read_excel_database
+from utils import read_config, read_database
 
 
 ILLEGAL_FILENAME_CHARAKTERS = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "[", "]", "{", "}", ";", 
@@ -61,8 +60,8 @@ def log_error(id, artist, title, error):
 
 
 def main(start_id):
-    config = read_config(os.path.join('..', 'config', 'genius_secrets.json'))
-    ids, artists, titles, mood = read_excel_database(os.path.join('..', 'database', 'MoodyLyrics4Q.csv'))
+    config = read_config.read_config(os.path.join('..', 'config', 'genius_secrets.json'))
+    ids, artists, titles, mood = read_database.read_excel_database(os.path.join('..', 'database', 'MoodyLyrics4Q.csv'))
 
     genius = authorize_genius(config)
 

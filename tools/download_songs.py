@@ -2,26 +2,9 @@ import pafy
 import googleapiclient.discovery
 import pandas as pd
 import os
-import json
 import sys
 from moviepy.editor import *
-
-
-def read_config(*config_files):
-    data = {}
-    for file in config_files:
-        config = open(file)
-        data.update(json.load(config))
-    return data
-
-
-def read_excel_database(filename):
-    df = pd.read_csv(filename)
-    id = df["index"]
-    artist = df['artist']
-    title = df['title']
-    mood = df['mood']
-    return id, artist, title, mood
+from utils import read_database, read_config
 
 
 def scrape_link(phrase, config):
@@ -70,8 +53,8 @@ def remove_all_mp4_files(directory):
     
     
 def main(start_id):
-    config = read_config("../config/secrets.json", "../config/youtube.json")
-    ids, artists, titles, _ = read_excel_database("../database/MoodyLyrics4Q.csv")
+    config = read_config.read_config("../config/secrets.json", "../config/youtube.json")
+    ids, artists, titles, _ = read_database.read_excel_database("../database/MoodyLyrics4Q.csv")
     for id, artist, title in zip(ids, artists, titles):
         if int(id[2:]) < start_id:
             continue
