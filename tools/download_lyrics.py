@@ -1,29 +1,28 @@
 import os
 import json
 import pandas as pd
-
-from lyricsgenius import Genius 
+from lyricsgenius import Genius
 from requests.exceptions import HTTPError, Timeout
 from http import HTTPStatus
+from utils import read_config, read_database
 
-from download_songs import read_config, read_excel_database
 
-
-ILLEGAL_FILENAME_CHARAKTERS = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "[", "]", "{", "}", ";", 
+ILLEGAL_FILENAME_CHARAKTERS = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "[", "]", "{", "}", ";",
                                ":", "=", ".", "/", "<", ">", "?", "|", "`", "~", "-", "=", "+", "\""]
+
 
 def authorize_genius(config):
     try:
         genius = Genius(config['access_token'])
         return genius
-    except:
+    except BaseException:
         print("Error with authetication")
         exit(1)
 
 
 def download_lyric(genius, title, artist):
     try:
-        downloaded_song = genius.search_song(title = title, artist = artist, get_full_info = True)
+        downloaded_song = genius.search_song(title=title, artist=artist, get_full_info=True)
         return downloaded_song, HTTPStatus.OK.value
     except HTTPError as e:
         print(e.args[1])
@@ -40,9 +39,9 @@ def replace_illegal_chars(input_string):
 
 
 def save_lyric(id, artist, title, mood, song_info):
-    filename =  f"{id}_{artist}_{title}"
+    filename = f"{id}_{artist}_{title}"
     filename = replace_illegal_chars(filename)
-    
+
     song = {
         'id': id,
         'mood': mood,
@@ -61,8 +60,8 @@ def log_error(id, artist, title, error):
 
 
 def main(start_id):
-    config = read_config(os.path.join('..', 'config', 'genius_secrets.json'))
-    ids, artists, titles, mood = read_excel_database(os.path.join('..', 'database', 'MoodyLyrics4Q.csv'))
+    config = read_config.read_config(os.path.join('..', 'config', 'genius_secrets.json'))
+    ids, artists, titles, mood = read_database.read_excel_database(os.path.join('..', 'database', 'MoodyLyrics4Q.csv'))
 
     genius = authorize_genius(config)
 
@@ -74,7 +73,7 @@ def main(start_id):
             if status_code == HTTPStatus.OK.value:
                 try:
                     song_info = downloaded_song.to_dict()
-                except:
+                except BaseException:
                     song_info = {}
                     print("downloaded_song is empty")
                     log_error(id, artist, title, 'empty')
