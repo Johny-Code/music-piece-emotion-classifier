@@ -4,6 +4,7 @@ import json
 import spacy
 import textblob
 import pandas as pd
+import numpy as np
 from langdetect import detect
 
 
@@ -22,7 +23,7 @@ def detect_language(text):
     return language
 
 
-def load_lyric_dataset(input_path):
+def load_lyric_dataset(input_path, rows_to_remove):
 
     rows = list()
     ids = list()
@@ -35,8 +36,12 @@ def load_lyric_dataset(input_path):
 
         try:
             id = song_info['id']
-            id = id.replace("ML", "")
-            id = int(id)
+            if id in rows_to_remove:
+                print(f"Song {id} is duplicated. ")
+                continue
+            else:
+                id = id.replace("ML", "")
+                id = int(id)
         except BaseException:
             id = None
             print(f"For {file_path} there is no id")
@@ -89,13 +94,26 @@ def load_lyric_dataset(input_path):
     return df
 
 
-def load_en_dataset(path):
+def get_duplicated_rows(file_path):
+    with open(file_path) as f:
+        duplicated_info = json.load(f)
 
-    dataset = load_lyric_dataset(path)
+        try:
+            rows_to_remove = duplicated_info['removed_rows']
+        except:
+            rows_to_remove = []
+    
+    return rows_to_remove
+
+def load_en_dataset(dataset_path, duplicated_path):
+
+    rows_to_remove = get_duplicated_rows(duplicated_path)
+
+    dataset = load_lyric_dataset(dataset_path, rows_to_remove) 
 
     dataset = dataset.loc[dataset['language'] == "en"]
     en_dataset = dataset.loc[dataset['instrumental'] == False]
-
+    
     return en_dataset
 
 
@@ -278,23 +296,26 @@ def extract_all_features(df):
         sentiment_polarity, sentiment_subjectivity = get_sentiment(lyric)  # TextBlob returns polarity and subjectivity of a sentence.
         # Polarity lies between [-1,1], -1 defines a negative sentiment and 1 defines a positive sentiment.
         # Subjectivity quantifies the amount of personal opinion and factual information contained in the text. lies between [0,1]
+        emotion = row['mood']
 
-        row = [lyrics_vector, echoisms, duplicate_lines, title_in_lyric, verb_present_freq, verb_past_freq, verb_future_freq,
+        row = [emotion, lyrics_vector, echoisms, duplicate_lines, title_in_lyric, verb_present_freq, verb_past_freq, verb_future_freq,
                pos_tags_count['ADJ'], pos_tags_count['PUNCT'], sentiment_polarity, sentiment_subjectivity]
 
         rows.append(row)
         ids.append(index)
 
-    features_df = pd.DataFrame(rows, columns=['lyrics_vector', 'echoisms', 'duplicate_lines', 'title_in_lyric',
-                                              'verb_present_freq', 'verb_past_freq', 'verb_future_freq', 'count_ADJ',
+    features_df = pd.DataFrame(rows, columns=['emotion', 'lyrics_vector', 'echoisms', 'duplicate_lines', 'title_in_lyric', 
+                                              'verb_present_freq', 'verb_past_freq', 'verb_future_freq', 'count_ADJ', 
                                               'count_PUNCT', 'sentiment_polarity', 'sentiment_subjectivity'], index=ids)
 
     return features_df
 
 
 if __name__ == '__main__':
-    input_path = os.path.join('..', '..', 'database', 'lyrics_cleaned')
-    en_dataset = load_en_dataset(input_path)
+    dataset_path = os.path.join('..', '..', 'database', 'lyrics')
+    duplicate_path = os.path.join('..', 'database', 'removed_rows.json') 
+
+    en_dataset = load_en_dataset(dataset_path, duplicate_path)
 
     features_df = extract_all_features(en_dataset)
     print(features_df.head())
