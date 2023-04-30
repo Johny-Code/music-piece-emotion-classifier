@@ -7,7 +7,6 @@ from keras.optimizers import Adam
 from keras.regularizers import L2
 from keras.callbacks import ModelCheckpoint
 from keras import models
-from train_cnn import get_class_names
 import tensorflow as tf
 
 
@@ -100,9 +99,9 @@ if __name__ == "__main__":
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
     train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT))
 
-    history = model.fit_generator(generator=train,
-                                  epochs=NUM_EPOCHS,
-                                  steps_per_epoch=STEPS_PER_EPOCH,
-                                  validation_data=test,
-                                  validation_steps=VAL_STEPS,
-                                  callbacks=[checkpoint])
+    history = model.fit(train,
+                        epochs=NUM_EPOCHS,
+                        steps_per_epoch=STEPS_PER_EPOCH,
+                        validation_data=test,
+                        validation_steps=VAL_STEPS,
+                        callbacks=[checkpoint])

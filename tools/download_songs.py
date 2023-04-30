@@ -53,7 +53,7 @@ def remove_all_mp4_files(directory):
 
 
 def main(start_id):
-    config = read_config.read_config("../config/secrets.json", "../config/youtube.json")
+    config = read_config.read_json_config("../config/secrets.json", "../config/youtube.json")
     ids, artists, titles, _ = read_database.read_excel_database("../database/MoodyLyrics4Q.csv")
     for id, artist, title in zip(ids, artists, titles):
         if int(id[2:]) < start_id:
