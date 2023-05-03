@@ -1,3 +1,9 @@
+import matplotlib.pyplot as plt
+import tensorflow as tf
+import sys
+import os
+sys.path.append("../../utils/")
+
 from keras.models import Sequential, Model
 from keras.layers import Input, Dense, TimeDistributed, LSTM, Dropout, Activation, ELU, ReLU
 from keras.layers import Convolution2D, MaxPooling2D, Flatten, GlobalAveragePooling2D
@@ -6,9 +12,8 @@ from keras.applications import ResNet50
 from keras.optimizers import Adam
 from keras.regularizers import L2
 from keras.callbacks import ModelCheckpoint
-import matplotlib.pyplot as plt
-import tensorflow as tf
-from utils.train_network import plot_acc_loss, train_val_split
+
+from train_network import train_val_split, plot_acc_loss
 
 
 def define_Resnet50_partial_model(input_shape, nb_classes):
