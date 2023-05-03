@@ -10,6 +10,7 @@ database/songs/to_be_converted/*
 database/lyrics/*
 database/melgrams/*
 database/features/*
+database/lyric_features/*
 
 # Distribution / packaging
 .Python

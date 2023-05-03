@@ -281,7 +281,10 @@ def extract_all_features(df):
 
     rows = list()
     ids = list()
+    i = 0
     for index, row in df.iterrows():
+        if i > 5: break
+        else: i += 1
 
         title = row['title']
         lyric, lines = clean_lyric(row['lyric'], title)
@@ -318,4 +321,7 @@ if __name__ == '__main__':
     en_dataset = load_en_dataset(dataset_path, duplicate_path)
 
     features_df = extract_all_features(en_dataset)
-    print(features_df.head())
+    
+    #save features df tp csv
+    output_path = os.path.join('..', 'database', 'lyric_features','features.csv')
+    features_df.to_csv(output_path, index=False)
