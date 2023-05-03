@@ -1,7 +1,7 @@
 import json
 
 
-def read_config(*config_files):
+def read_json_config(*config_files):
     data = {}
     for file in config_files:
         config = open(file)
