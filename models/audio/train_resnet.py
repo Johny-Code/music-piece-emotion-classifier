@@ -8,7 +8,7 @@ from keras.regularizers import L2
 from keras.callbacks import ModelCheckpoint
 import matplotlib.pyplot as plt
 import tensorflow as tf
-import os
+from utils.train_network import plot_acc_loss, train_val_split
 
 
 def define_Resnet50_partial_model(input_shape, nb_classes):
@@ -53,39 +53,8 @@ def define_Resnet50_full_model(input_shape, nb_classes):
     model.add(Dense(256, name='dense_3', kernel_regularizer=L2(0.001), activation="relu"))
     model.add(Dropout(0.3))
     model.add(Dense(nb_classes, activation='softmax', name='dense_output'))
-        
+      
     return model
-
-
-def process(image, label):
-    image = tf.cast(image / 255., tf.float32)
-    return image, label
-
-
-def train_val_split(path, batch_size, img_shape):
-    train_ds, validation_ds = image_dataset_from_directory(
-        path,
-        labels="inferred",
-        validation_split=0.2,
-        seed=123,
-        subset='both',
-        color_mode='rgb',
-        image_size=img_shape,
-        batch_size=batch_size)
-    return train_ds.map(process), validation_ds.map(process)
-
-
-def plot_acc_loss(history):
-    os.makedirs("./history", exist_ok=True)
-    plt.plot(history.history['loss'], label='train loss')
-    plt.plot(history.history['val_loss'], label='val loss')
-    plt.legend()
-    plt.savefig('./history/LossVal_loss.png')
-    plt.clf()
-    plt.plot(history.history['sparse_categorical_accuracy'], label='train acc')
-    plt.plot(history.history['val_sparse_categorical_accuracy'], label='val acc')
-    plt.legend()
-    plt.savefig('./history/AccVal_acc.png')
 
 
 if __name__ == "__main__":
@@ -102,7 +71,6 @@ if __name__ == "__main__":
     VAL_STEPS = int(files_nb * 0.2) // BATCH_SIZE
 
     optimizer = Adam(lr=1e-5)
-
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
     filepath = "./transfer_learning_epoch_{epoch:02d}_{sparse_categorical_accuracy:.4f}.h5"
