@@ -1,13 +1,12 @@
 from keras.models import Sequential, Model
 from keras.layers import Input, Dense, TimeDistributed, LSTM, Dropout, Activation, ELU, ReLU
 from keras.layers import Convolution2D, MaxPooling2D, Flatten
-from keras.utils import image_dataset_from_directory
 from keras.applications import VGG16
 from keras.optimizers import Adam
 from keras.regularizers import L2
 from keras.callbacks import ModelCheckpoint
 from keras import models
-import tensorflow as tf
+from utils.train_network import train_val_split, plot_acc_loss
 
 
 def define_VGG_model(input_shape, nb_classes):
@@ -41,34 +40,6 @@ def define_fine_tuned_VGG_model(input_shape, nb_classes, model_path):
     return model
 
 
-def process(image, label):
-    image = tf.cast(image / 255., tf.float32)
-    return image, label
-
-
-def train_val_split(path, batch_size, img_shape):
-    train_ds = image_dataset_from_directory(
-        path,
-        labels="inferred",
-        validation_split=0.2,
-        subset="training",
-        seed=123,
-        color_mode='rgb',
-        image_size=img_shape,
-        batch_size=batch_size)
-
-    validation_ds = image_dataset_from_directory(
-        path,
-        labels="inferred",
-        validation_split=0.2,
-        subset="validation",
-        color_mode='rgb',
-        seed=123,
-        image_size=img_shape,
-        batch_size=batch_size)
-    return train_ds.map(process), validation_ds.map(process)
-
-
 if __name__ == "__main__":
     path = "../../database/melgrams/melgrams_2048_nfft_512_hop_jpg/"
     best_model_path = "vgg_63.19acc_transfer_learning.h5"
@@ -83,7 +54,6 @@ if __name__ == "__main__":
     VAL_STEPS = int(files_nb * 0.2) // BATCH_SIZE
 
     optimizer = Adam(lr=1e-5)
-
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
     filepath = "./transfer_learning_epoch_{epoch:02d}_{sparse_categorical_accuracy:.4f}.h5"
@@ -97,7 +67,7 @@ if __name__ == "__main__":
     model = define_fine_tuned_VGG_model((IMG_WIDTH, IMG_HEIGHT, 3), 4, best_model_path)
 
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
-    train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT))
+    train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT), 0.2)
 
     history = model.fit(train,
                         epochs=NUM_EPOCHS,
@@ -105,3 +75,4 @@ if __name__ == "__main__":
                         validation_data=test,
                         validation_steps=VAL_STEPS,
                         callbacks=[checkpoint])
+    plot_acc_loss(history)

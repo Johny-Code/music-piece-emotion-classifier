@@ -1,14 +1,11 @@
 from keras.models import Sequential, Model
 from keras.layers import Input, Dense, TimeDistributed, LSTM, Dropout, Activation, ELU, ReLU
 from keras.layers import Convolution2D, MaxPooling2D, Flatten, GlobalAveragePooling2D
-from keras.utils import image_dataset_from_directory
 from keras.applications import InceptionV3
 from keras.optimizers import Adam
 from keras.regularizers import L2
 from keras.callbacks import ModelCheckpoint
-import matplotlib.pyplot as plt
-import tensorflow as tf
-import os
+from utils.train_network import train_val_split, plot_acc_loss
 
 
 def define_InceptionV3_model(input_shape, nb_classes):
@@ -27,37 +24,6 @@ def define_InceptionV3_model(input_shape, nb_classes):
     return model
 
 
-def process(image, label):
-    image = tf.cast(image / 255., tf.float32)
-    return image, label
-
-
-def train_val_split(path, batch_size, img_shape):
-    train_ds, validation_ds = image_dataset_from_directory(
-        path,
-        labels="inferred",
-        validation_split=0.2,
-        seed=123,
-        subset='both',
-        color_mode='rgb',
-        image_size=img_shape,
-        batch_size=batch_size)
-    return train_ds.map(process), validation_ds.map(process)
-
-
-def plot_acc_loss(history):
-    os.makedirs("./history", exist_ok=True)
-    plt.plot(history.history['loss'], label='train loss')
-    plt.plot(history.history['val_loss'], label='val loss')
-    plt.legend()
-    plt.savefig('./history/LossVal_loss.png')
-    plt.clf()
-    plt.plot(history.history['sparse_categorical_accuracy'], label='train acc')
-    plt.plot(history.history['val_sparse_categorical_accuracy'], label='val acc')
-    plt.legend()
-    plt.savefig('./history/AccVal_acc.png')
-
-
 if __name__ == "__main__":
     os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
     path = "../../database/melgrams/melgrams_2048_nfft_512_hop_jpg/"
@@ -72,7 +38,6 @@ if __name__ == "__main__":
     VAL_STEPS = int(files_nb * 0.2) // BATCH_SIZE
 
     optimizer = Adam(lr=1e-5)
-
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
     filepath = "./transfer_learning_epoch_{epoch:02d}_{sparse_categorical_accuracy:.4f}.h5"
@@ -85,7 +50,7 @@ if __name__ == "__main__":
     model = define_InceptionV3_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
 
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
-    train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT))
+    train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT), 0.2)
 
     history = model.fit(train,
                         epochs=NUM_EPOCHS,
