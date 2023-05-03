@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
-import tensorflow as tf
 import sys
 import os
 sys.path.append("../../utils/")
+# os.environ["LD_LIBRARY_PATH"] = '/usr/local/cuda-12.1/lib64/'
 
 from keras.models import Sequential, Model
 from keras.layers import Input, Dense, TimeDistributed, LSTM, Dropout, Activation, ELU, ReLU
@@ -12,7 +12,6 @@ from keras.applications import ResNet50
 from keras.optimizers import Adam
 from keras.regularizers import L2
 from keras.callbacks import ModelCheckpoint
-
 from train_network import train_val_split, plot_acc_loss
 
 
@@ -20,13 +19,15 @@ def define_Resnet50_partial_model(input_shape, nb_classes):
     conv_base = ResNet50(include_top=False, weights='imagenet', input_shape=input_shape)
     model = Sequential()
     model.add(conv_base)
+    model.add(GlobalAveragePooling2D())
     model.add(Flatten())
-    model.add(Dense(256, name='dense_1', kernel_regularizer=L2(0.001), activation="relu"))
-    model.add(Dropout(0.3))
-    model.add(Dense(256, name='dense_2', kernel_regularizer=L2(0.001), activation="relu"))
-    model.add(Dropout(0.3))
-    model.add(Dense(256, name='dense_3', kernel_regularizer=L2(0.001), activation="relu"))
-    model.add(Dropout(0.3))
+    # model.add(Dense(256, name='dense_1', kernel_regularizer=L2(0.001), activation="relu"))
+    # model.add(Dropout(0.3))
+    # model.add(Dense(256, name='dense_2', kernel_regularizer=L2(0.001), activation="relu"))
+    # model.add(Dropout(0.3))
+    # model.add(Dense(256, name='dense_3', kernel_regularizer=L2(0.001), activation="relu"))
+    # model.add(Dropout(0.3))
+    model.add(Dense(1024, name='dense_1', kernel_regularizer=L2(0.001), activation="relu"))
     model.add(Dense(nb_classes, activation='softmax', name='dense_output'))
         
     for layer in conv_base.layers[0:143]:
@@ -63,19 +64,19 @@ def define_Resnet50_full_model(input_shape, nb_classes):
 
 
 if __name__ == "__main__":
-    os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+    #os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
     path = "../../database/melgrams/melgrams_2048_nfft_512_hop_jpg/"
     files_nb = 2000
     IMG_HEIGHT = 216
     IMG_WIDTH = 216
     NUM_CLASSES = 4
-    NUM_EPOCHS = 1000
+    NUM_EPOCHS = 500
     BATCH_SIZE = 32
     L2_LAMBDA = 0.001
     STEPS_PER_EPOCH = int(files_nb * 0.8) // BATCH_SIZE
     VAL_STEPS = int(files_nb * 0.2) // BATCH_SIZE
 
-    optimizer = Adam(lr=1e-5)
+    optimizer = Adam(learning_rate=1e-5)
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
     filepath = "./transfer_learning_epoch_{epoch:02d}_{sparse_categorical_accuracy:.4f}.h5"
@@ -85,11 +86,11 @@ if __name__ == "__main__":
                                  save_best_only=False)
     callbacks_list = [checkpoint]
 
-    #model = define_Resnet50_partial_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
-    model = define_Resnet50_full_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
+    model = define_Resnet50_partial_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
+    # model = define_Resnet50_full_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
 
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
-    train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT))
+    train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT), 0.2)
 
     history = model.fit(train,
                         epochs=NUM_EPOCHS,
