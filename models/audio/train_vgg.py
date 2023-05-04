@@ -2,6 +2,7 @@ import os
 import sys
 sys.path.append("../../utils/")
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
 from keras.models import Sequential, Model
 from keras.layers import Input, Dense, TimeDistributed, LSTM, Dropout, Activation, ELU, ReLU
 from keras.layers import Convolution2D, MaxPooling2D, Flatten
