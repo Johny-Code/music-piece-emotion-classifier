@@ -20,12 +20,12 @@ def define_fine_tuned_Resnet50_partial_model(input_shape, nb_classes):
     model = Sequential()
     model.add(conv_base)
     model.add(Flatten())
-    #model.add(Dense(256, name='dense_1', kernel_regularizer=L2(0.001), activation="relu"))
-    # model.add(Dropout(0.3))
-    # model.add(Dense(128, name='dense_2', kernel_regularizer=L2(0.001), activation="relu"))
-    # model.add(Dense(256, name='dense_3', kernel_regularizer=L2(0.001), activation="relu"))
-    # model.add(Dropout(0.3))
-    # model.add(Dense(1024, name='dense_1', kernel_regularizer=L2(0.001), activation="relu"))
+    model.add(Dense(1024, name='dense_1', kernel_regularizer=L2(0.001), activation="relu"))
+    model.add(Dropout(0.3))
+    model.add(Dense(512, name='dense_2', kernel_regularizer=L2(0.001), activation="relu"))
+    model.add(Dropout(0.3))
+    model.add(Dense(256, name='dense_3', kernel_regularizer=L2(0.001), activation="relu"))
+    model.add(Dropout(0.3))
     model.add(Dense(nb_classes, activation='softmax', name='dense_output'))
         
     for layer in conv_base.layers[0:143]:
@@ -70,10 +70,6 @@ def define_fine_tuned_Resnet152V2_partial_model(input_shape, nb_classes, non_tra
     model = Sequential()
     model.add(conv_base)
     model.add(Flatten())
-    # model.add(Dense(1024, name='dense_1', kernel_regularizer=L2(0.001), activation="relu"))
-    # model.add(Dropout(0.3))
-    # model.add(Dense(512, name='dense_2', kernel_regularizer=L2(0.001), activation="relu"))
-    # model.add(Dropout(0.3))
     model.add(Dense(nb_classes, activation='softmax', name='dense_output'))
         
     for layer in conv_base.layers[0:non_trainable_layers_nb]:
