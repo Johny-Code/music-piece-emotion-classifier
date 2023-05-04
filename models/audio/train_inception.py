@@ -1,3 +1,7 @@
+import os
+import sys
+sys.path.append("../../utils/")
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 from keras.models import Sequential, Model
 from keras.layers import Input, Dense, TimeDistributed, LSTM, Dropout, Activation, ELU, ReLU
 from keras.layers import Convolution2D, MaxPooling2D, Flatten, GlobalAveragePooling2D
@@ -5,7 +9,7 @@ from keras.applications import InceptionV3
 from keras.optimizers import Adam
 from keras.regularizers import L2
 from keras.callbacks import ModelCheckpoint
-from utils.train_network import train_val_split, plot_acc_loss
+from train_network import train_val_split, plot_acc_loss
 
 
 def define_InceptionV3_model(input_shape, nb_classes):
