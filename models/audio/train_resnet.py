@@ -119,7 +119,7 @@ if __name__ == "__main__":
     model = define_fine_tuned_Resnet152V2_partial_model((IMG_WIDTH, IMG_HEIGHT, 3), 4, 250)
     #model = define_fine_tuned_Resnet152V2_full_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
     #model = define_transfer_learning_Resnet50_full_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
-    # model = define_Resnet50_full_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
+    #model = define_Resnet50_full_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
 
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
     train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT), 0.2)
@@ -128,6 +128,6 @@ if __name__ == "__main__":
                         epochs=NUM_EPOCHS,
                         steps_per_epoch=STEPS_PER_EPOCH,
                         validation_data=test,
-                        validation_steps=VAL_STEPS
+                        validation_steps=VAL_STEPS,
                         callbacks=[checkpoint])
     plot_acc_loss(history)
