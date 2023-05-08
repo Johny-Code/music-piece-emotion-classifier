@@ -27,7 +27,7 @@ def save_melgram(filedir, database_filepath, outpath, file_format='mp3'):
                 outfile = outpath + emotion + '/' + name_ + '.npy'
                 np.save(outfile, melgram)
             if (file_format == 'jpg'):
-                melspectogram = librosa.feature.melspectrogram(y=x, sr=sr, n_mels=96, n_fft=2048, hop_length=512, power=2)
+                melspectogram = librosa.feature.melspectrogram(y=x, sr=sr, n_mels=126, n_fft=2048, hop_length=1024, power=2)
                 log_power = librosa.power_to_db(melspectogram, ref=np.max)
                 pylab.figure(figsize=(5, 5))
                 pylab.axis('off')
