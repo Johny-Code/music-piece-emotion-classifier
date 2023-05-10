@@ -1,5 +1,6 @@
 import os
 import re
+import csv
 import json
 import spacy
 import textblob
@@ -187,8 +188,12 @@ def get_echoisms(lines, nlp):
                 if token.text[j] == token.text[j + 1] and token.text in VOWELS:
                     echoism_count += 1
                     break
+    try:
+        echocism = echoism_count / get_word_count(lines)
+    except ZeroDivisionError:
+        echocism = 0
 
-    return echoism_count / get_word_count(lines)
+    return echocism
 
 
 def get_line_count(tokens):
@@ -274,15 +279,16 @@ def get_sentiment(lyric):
     return polarity, subjectivity
 
 
-def extract_all_features(df):
+def extract_all_features(df, temp_save_path):
 
     nlp = spacy.load('en_core_web_lg')
     nlp.vocab.add_flag(lambda s: s.lower() in spacy.lang.en.stop_words.STOP_WORDS, spacy.attrs.IS_STOP)
 
     rows = list()
     ids = list()
+    i = 0
     for index, row in df.iterrows():
-        
+        print(i)
         title = row['title']
         lyric, lines = clean_lyric(row['lyric'], title)
 
@@ -304,21 +310,34 @@ def extract_all_features(df):
         rows.append(row)
         ids.append(index)
 
+        if i == 0:
+            features_df = pd.DataFrame(rows, columns=['emotion', 'echoisms', 'duplicate_lines', 'title_in_lyric', 
+                                              'verb_present_freq', 'verb_past_freq', 'verb_future_freq', 'count_ADJ', 
+                                              'count_PUNCT', 'sentiment_polarity', 'sentiment_subjectivity', 'lyric_vector'], index=ids)
+            features_df.to_csv(temp_save_path, index=False)
+        else:
+            with open(temp_save_path, 'a') as f:
+                writer = csv.writer(f)
+                writer.writerow(row)
+
+        i += 1
+
     features_df = pd.DataFrame(rows, columns=['emotion', 'echoisms', 'duplicate_lines', 'title_in_lyric', 
                                               'verb_present_freq', 'verb_past_freq', 'verb_future_freq', 'count_ADJ', 
                                               'count_PUNCT', 'sentiment_polarity', 'sentiment_subjectivity', 'lyric_vector'], index=ids)
-
+    
     return features_df
 
 
 if __name__ == '__main__':
     dataset_path = os.path.join('..', '..', 'database', 'lyrics')
     duplicate_path = os.path.join('..', 'database', 'removed_rows.json') 
+    path_to_temp_save = os.path.join('..', 'database', 'features', 'temp_features.csv')
+    path_to_save = os.path.join('..', 'database', 'features', 'features.csv')
+
 
     en_dataset = load_en_dataset(dataset_path, duplicate_path)
 
-    features_df = extract_all_features(en_dataset)
-    # print(features_df.head())
+    features_df = extract_all_features(en_dataset, path_to_temp_save)
 
-    path_to_save = os.path.join('..', 'database', 'features', 'features.csv')
     features_df.to_csv(path_to_save, index=False)

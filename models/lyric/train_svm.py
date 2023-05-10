@@ -3,7 +3,7 @@ import pandas as pd
 
 from sklearn import svm
 from sklearn.model_selection import GridSearchCV
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+# from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.model_selection import cross_val_score
 
 def read_clean_featuers(path):
@@ -41,16 +41,13 @@ def read_clean_featuers(path):
     
     return X, y
 
-def train_svm(X, y):
-    k = 10
+def train_svm(X, y, k):
 
     clf = svm.SVC(kernel='linear', C=0.01)
     scores = cross_val_score(clf, X, y, cv=k)
+    print(f"Accuracy for k={k}: {round(scores.mean(), 3)} (+/- {round((scores.std() * 1.96), 3)})")
 
-    print(scores)
-
-def grid_search(X, y):
-    k = 10
+def grid_search(X, y, k):
 
     params = [{ 'kernel': ['linear'], 'C': [0.01, 0.05, 1, 10, 100]},
               { 'kernel': ['rbf', 'sigmoid'], 'C': [0.01, 0.05, 0.1, 0.3, 0.8, 1, 3, 10, 50, 100, 150, 200]}]
@@ -60,20 +57,25 @@ def grid_search(X, y):
 
     svm_best = gs.best_estimator_
     best_params = gs.best_params_
-    print('Best parameters:', best_params)
+    print('\nBest parameters:')
+    for key, value in best_params.items():
+        print(f'{key}: {value}')
 
     scores = cross_val_score(svm_best, X, y, cv=k)
-    print(f"Accuracy for k={k}: {round(scores.mean(), 2)} (+/- {round((scores.std() * 1.96), 2)})")
+    print(f"Accuracy for k={k}: {round(scores.mean(), 3)} (+/- {round((scores.std() * 1.96), 3)})")
 
 def main():
 
-    path_to_features = os.path.join('..', '..', 'database', 'features', 'features.csv')
+    # path_to_features = os.path.join('..', '..', 'database', 'features', 'features.csv')
+    path_to_features = os.path.join('..', '..', 'database', 'features', 'temp_features.csv')
+
+    k_fold = 2
 
     X, y = read_clean_featuers(path_to_features)
 
-    train_svm(X, y)
+    train_svm(X, y, k_fold)
 
-    grid_search(X, y)
+    grid_search(X, y, k_fold)
 
 if __name__ == '__main__':
     main()
