@@ -14,6 +14,7 @@ database/features/*
 # Models and history
 models/audio/history/*
 models/audio/best_models/*
+models/lyric/svm_text_features_models/*
 
 # Distribution / packaging
 .Python

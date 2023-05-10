@@ -282,7 +282,7 @@ def extract_all_features(df):
     rows = list()
     ids = list()
     for index, row in df.iterrows():
-
+        
         title = row['title']
         lyric, lines = clean_lyric(row['lyric'], title)
 
@@ -298,15 +298,15 @@ def extract_all_features(df):
         # Subjectivity quantifies the amount of personal opinion and factual information contained in the text. lies between [0,1]
         emotion = row['mood']
 
-        row = [emotion, lyrics_vector, echoisms, duplicate_lines, title_in_lyric, verb_present_freq, verb_past_freq, verb_future_freq,
-               pos_tags_count['ADJ'], pos_tags_count['PUNCT'], sentiment_polarity, sentiment_subjectivity]
+        row = [emotion, echoisms, duplicate_lines, title_in_lyric, verb_present_freq, verb_past_freq, verb_future_freq,
+               pos_tags_count['ADJ'], pos_tags_count['PUNCT'], sentiment_polarity, sentiment_subjectivity, lyrics_vector]
 
         rows.append(row)
         ids.append(index)
 
-    features_df = pd.DataFrame(rows, columns=['emotion', 'lyrics_vector', 'echoisms', 'duplicate_lines', 'title_in_lyric', 
+    features_df = pd.DataFrame(rows, columns=['emotion', 'echoisms', 'duplicate_lines', 'title_in_lyric', 
                                               'verb_present_freq', 'verb_past_freq', 'verb_future_freq', 'count_ADJ', 
-                                              'count_PUNCT', 'sentiment_polarity', 'sentiment_subjectivity'], index=ids)
+                                              'count_PUNCT', 'sentiment_polarity', 'sentiment_subjectivity', 'lyric_vector'], index=ids)
 
     return features_df
 
@@ -318,4 +318,7 @@ if __name__ == '__main__':
     en_dataset = load_en_dataset(dataset_path, duplicate_path)
 
     features_df = extract_all_features(en_dataset)
-    print(features_df.head())
+    # print(features_df.head())
+
+    path_to_save = os.path.join('..', 'database', 'features', 'features.csv')
+    features_df.to_csv(path_to_save, index=False)
