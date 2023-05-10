@@ -148,6 +148,7 @@ def clean_lyric(lyric, title):
 
     # Delete empty lines
     lines = [ln for ln in temp_lines if ln != '']
+    lyric = '\n '.join(lines)
 
     return lyric, lines
 
