@@ -12,6 +12,13 @@ from keras.optimizers import Adam
 from keras.regularizers import L2
 from keras.callbacks import ModelCheckpoint
 from train_network import train_val_split, plot_acc_loss
+from implementation.ResNet18 import ResNet18
+
+
+def define_Resnet18_model(input_shape, nb_classes):
+    model = ResNet18(nb_classes)
+    model.build(input_shape = (None, input_shape[0], input_shape[1], input_shape[2]))
+    return model
 
 
 #transfer learning + fine-tuning
@@ -113,7 +120,8 @@ if __name__ == "__main__":
                                  save_best_only=False)
     callbacks_list = [checkpoint]
 
-    model = define_fine_tuned_Resnet152V2_partial_model((IMG_WIDTH, IMG_HEIGHT, 3), 4, 250)
+    model = define_Resnet18_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
+    #model = define_fine_tuned_Resnet152V2_partial_model((IMG_WIDTH, IMG_HEIGHT, 3), 4, 250)
     #model = define_fine_tuned_Resnet152V2_full_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
     #model = define_transfer_learning_Resnet50_full_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
     #model = define_Resnet50_full_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
@@ -125,6 +133,6 @@ if __name__ == "__main__":
                         epochs=NUM_EPOCHS,
                         steps_per_epoch=STEPS_PER_EPOCH,
                         validation_data=test,
-                        validation_steps=VAL_STEPS,
-                        callbacks=[checkpoint])
+                        validation_steps=VAL_STEPS,)
+                        # callbacks=[checkpoint])
     plot_acc_loss(history)
