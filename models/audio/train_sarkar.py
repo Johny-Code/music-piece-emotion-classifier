@@ -45,16 +45,17 @@ def define_sarkar_VGG_customized_architecture(input_shape, nb_classes):
 
 
 if __name__ == "__main__":
-    path = "../../database/melgrams/melgrams_2048_nfft_512_hop_jpg/"
+    path = "../../database/melgrams/melgrams_2048_nfft_1024_hop_128_mel_jpg/"
     files_nb = 2000
     IMG_HEIGHT = 216
     IMG_WIDTH = 216
     NUM_CLASSES = 4
-    NUM_EPOCHS = 500
+    NUM_EPOCHS = 750
     BATCH_SIZE = 32
     L2_LAMBDA = 0.001
-    STEPS_PER_EPOCH = int(files_nb * 0.8) // BATCH_SIZE
-    VAL_STEPS = int(files_nb * 0.2) // BATCH_SIZE
+    TRAIN_SPLIT = 0.8
+    STEPS_PER_EPOCH = int(files_nb * TRAIN_SPLIT) // BATCH_SIZE
+    VAL_STEPS = int(files_nb * (1-TRAIN_SPLIT)) // BATCH_SIZE
 
     optimizer = Adam(learning_rate=1e-5)
     loss = 'sparse_categorical_crossentropy'
@@ -69,7 +70,7 @@ if __name__ == "__main__":
     model = define_sarkar_VGG_customized_architecture((IMG_WIDTH, IMG_HEIGHT, 3), 4)
 
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
-    train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT), 0.2)
+    train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT), (1-TRAIN_SPLIT))
 
     history = model.fit(train,
                         epochs=NUM_EPOCHS,
