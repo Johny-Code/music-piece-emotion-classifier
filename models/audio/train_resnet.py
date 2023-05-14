@@ -2,27 +2,26 @@ import os
 import sys
 sys.path.append("../../utils/")
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-# os.environ["LD_LIBRARY_PATH"] = '/usr/local/cuda-12.1/lib64/'
 
-from keras.models import Sequential, Model
-from keras.layers import Input, Dense, TimeDistributed, LSTM, Dropout, Activation, ELU, ReLU
-from keras.layers import Convolution2D, Flatten, GlobalAveragePooling2D
-from keras.applications import ResNet50, ResNet152V2
-from keras.optimizers import Adam
-from keras.regularizers import L2
-from keras.callbacks import ModelCheckpoint
-from train_network import train_val_split, plot_acc_loss
 from implementation.ResNet18 import ResNet18
+from train_network import train_val_split, plot_acc_loss
+from keras.callbacks import ModelCheckpoint
+from keras.regularizers import L2
+from keras.optimizers import Adam
+from keras.applications import ResNet50, ResNet152V2
+from keras.layers import Convolution2D, Flatten, GlobalAveragePooling2D
+from keras.layers import Input, Dense, TimeDistributed, LSTM, Dropout, Activation, ELU, ReLU
+from keras.models import Sequential, Model
 
 
 def define_Resnet18_model(input_shape, nb_classes):
     model = ResNet18(nb_classes)
-    model.build(input_shape = (None, input_shape[0], input_shape[1], input_shape[2]))
+    model.build(input_shape=(None, input_shape[0], input_shape[1], input_shape[2]))
     return model
 
 
-#transfer learning + fine-tuning
-def define_fine_tuned_Resnet50_partial_model(input_shape, nb_classes):
+#fine-tuning
+def define_Resnet50_partial_model(input_shape, nb_classes):
     conv_base = ResNet50(include_top=False, weights='imagenet', input_shape=input_shape)
     model = Sequential()
     model.add(conv_base)
@@ -34,14 +33,15 @@ def define_fine_tuned_Resnet50_partial_model(input_shape, nb_classes):
     model.add(Dense(256, name='dense_3', kernel_regularizer=L2(0.001), activation="relu"))
     model.add(Dropout(0.3))
     model.add(Dense(nb_classes, activation='softmax', name='dense_output'))
-        
+
     for layer in conv_base.layers[0:143]:
-      layer.trainable = False
+        layer.trainable = False
     for layer in conv_base.layers[143:]:
         layer.trainable = True
     return model
 
 
+#transfer-learning
 def define_fine_tuned_Resnet50_full_model(input_shape, nb_classes):
     conv_base = ResNet50(include_top=False, weights='imagenet', input_shape=input_shape)
     model = Sequential()
@@ -60,7 +60,8 @@ def define_fine_tuned_Resnet50_full_model(input_shape, nb_classes):
     return model
 
 
-def define_transfer_learning_Resnet50_full_model(input_shape, nb_classes):
+#transfer-learning
+def define_Resnet50_full_model(input_shape, nb_classes):
     conv_base = ResNet50(include_top=False, weights='imagenet', input_shape=input_shape)
     model = Sequential()
     model.add(conv_base)
@@ -71,21 +72,22 @@ def define_transfer_learning_Resnet50_full_model(input_shape, nb_classes):
     return model
 
 
-#transfer learning + fine-tuning
+#fine-tuning
 def define_fine_tuned_Resnet152V2_partial_model(input_shape, nb_classes, non_trainable_layers_nb):
     conv_base = ResNet152V2(include_top=False, weights='imagenet', input_shape=input_shape, pooling="avg")
     model = Sequential()
     model.add(conv_base)
     model.add(Flatten())
     model.add(Dense(nb_classes, activation='softmax', name='dense_output'))
-        
+
     for layer in conv_base.layers[0:non_trainable_layers_nb]:
-      layer.trainable = False
+        layer.trainable = False
     for layer in conv_base.layers[non_trainable_layers_nb:]:
         layer.trainable = True
     return model
 
 
+#transfer-learning
 def define_fine_tuned_Resnet152V2_full_model(input_shape, nb_classes):
     conv_base = ResNet152V2(include_top=False, weights='imagenet', input_shape=input_shape)
     model = Sequential()
@@ -121,11 +123,6 @@ if __name__ == "__main__":
     callbacks_list = [checkpoint]
 
     model = define_Resnet18_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
-    #model = define_fine_tuned_Resnet152V2_partial_model((IMG_WIDTH, IMG_HEIGHT, 3), 4, 250)
-    #model = define_fine_tuned_Resnet152V2_full_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
-    #model = define_transfer_learning_Resnet50_full_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
-    #model = define_Resnet50_full_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
-
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
     train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT), 0.2)
 

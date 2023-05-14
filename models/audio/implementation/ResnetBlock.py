@@ -1,8 +1,8 @@
+import tensorflow as tf
 from keras.callbacks import EarlyStopping
-from keras.layers import Dense, Conv2D,  MaxPool2D, Flatten, GlobalAveragePooling2D,  BatchNormalization, Layer, Add
+from keras.layers import Dense, Conv2D, MaxPool2D, Flatten, GlobalAveragePooling2D, BatchNormalization, Layer, Add
 from keras.models import Sequential
 from keras.models import Model
-import tensorflow as tf
 
 
 class ResnetBlock(Model):
@@ -11,7 +11,7 @@ class ResnetBlock(Model):
         self.__channels = channels
         self.__down_sample = down_sample
         self.__strides = [2, 1] if down_sample else [1, 1]
-        
+
         KERNEL_SIZE = (3, 3)
         INIT_SCHEME = "he_normal"
 
@@ -27,6 +27,7 @@ class ResnetBlock(Model):
             self.res_conv = Conv2D(
                 self.__channels, strides=2, kernel_size=(1, 1), kernel_initializer=INIT_SCHEME, padding="same")
             self.res_bn = BatchNormalization()
+
 
     def call(self, inputs):
         res = inputs

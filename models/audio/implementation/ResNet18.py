@@ -1,7 +1,6 @@
 import tensorflow as tf
-
 from keras.callbacks import EarlyStopping
-from keras.layers import Dense, Conv2D,  MaxPool2D, Flatten, GlobalAveragePooling2D,  BatchNormalization, Layer, Add
+from keras.layers import Dense, Conv2D, MaxPool2D, Flatten, GlobalAveragePooling2D, BatchNormalization, Layer, Add
 from keras.models import Sequential
 from keras.models import Model
 from implementation.ResnetBlock import ResnetBlock
@@ -37,4 +36,3 @@ class ResNet18(Model):
         out = self.flat(out)
         out = self.fc(out)
         return out
-    
