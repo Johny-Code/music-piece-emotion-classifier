@@ -2,7 +2,6 @@ import os
 import sys
 sys.path.append("../../utils/")
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-# os.environ["LD_LIBRARY_PATH"] = '/usr/local/cuda-12.1/lib64/'
 
 from keras.models import Sequential, Model
 from keras.layers import Input, Dense, TimeDistributed, LSTM, Dropout, Activation, ELU, ReLU
@@ -45,19 +44,20 @@ def define_sarkar_VGG_customized_architecture(input_shape, nb_classes):
 
 
 if __name__ == "__main__":
-    path = "../../database/melgrams/melgrams_2048_nfft_1024_hop_128_mel_jpg/"
-    files_nb = 2000
+    path = "../../database/melgrams/melgrams_2048_nfft_512_hop_96_mel_jpg/"
+    files_nb = 200
     IMG_HEIGHT = 216
     IMG_WIDTH = 216
     NUM_CLASSES = 4
-    NUM_EPOCHS = 750
-    BATCH_SIZE = 32
+    NUM_EPOCHS = 1250
+    BATCH_SIZE = 64
     L2_LAMBDA = 0.001
     TRAIN_SPLIT = 0.8
+    LEARNING_RATE = 1e-5
     STEPS_PER_EPOCH = int(files_nb * TRAIN_SPLIT) // BATCH_SIZE
     VAL_STEPS = int(files_nb * (1-TRAIN_SPLIT)) // BATCH_SIZE
 
-    optimizer = Adam(learning_rate=1e-5)
+    optimizer = Adam(learning_rate=LEARNING_RATE)
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
     filepath = "./transfer_learning_epoch_{epoch:02d}_{sparse_categorical_accuracy:.4f}.h5"
@@ -74,8 +74,8 @@ if __name__ == "__main__":
 
     history = model.fit(train,
                         epochs=NUM_EPOCHS,
-                        steps_per_epoch=STEPS_PER_EPOCH,
-                        validation_data=test,
-                        validation_steps=VAL_STEPS,)
+                        # steps_per_epoch=STEPS_PER_EPOCH,
+                        validation_data=test,)
+                        # validation_steps=VAL_STEPS,)
                         # callbacks=[checkpoint])
     plot_acc_loss(history)
