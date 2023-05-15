@@ -6,15 +6,15 @@ from keras.layers.merge import concatenate
 InceptionDepthwise(Model)
     def __init__(self):
         super().__init__()
-        self.conv1 = Conv2D(filters=32, kernel_size=(1,1), padding='same', strides=(1, 1), activation='relu')
-        
+        self.conv1 = Conv2D(filters=32, kernel_size=(1, 1), padding='same', strides=(1, 1), activation='relu')
+
         self.avg_pool1 = AveragePooling2D(pool_size=(3, 3), strides=(1, 1), padding='same')
         self.conv2 = Conv2D(filters=32, kernel_size=(1, 1), padding='same', strides=(1, 1), activation='relu')
-        
+
         self.conv3 = Conv2D(filters=32, kernel_size=(1, 1), padding='same', strides=(1, 1), activation='relu')
         self.batch_norm1 = BatchNormalization()
         self.depth_conv1 = DepthwiseConv2D(filters=32, kernel_size=(3, 3), padding='same', strides=(1, 1), activation='relu')
-        
+
         self.conv4 = Conv2D(filters=32, kernel_size=(1, 1), padding='same', strides=(1, 1), activation='relu')
         self.batch_norm2 = BatchNormalization()
         self.depth_conv2 = DepthwiseConv2D(filters=32, kernel_size=(3, 3), padding='same', strides=(1, 1), activation='relu')
