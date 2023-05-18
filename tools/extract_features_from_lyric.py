@@ -211,7 +211,11 @@ def get_duplicate_lines(lines):
             if set(current_line) == set(next_line):
                 duplicate_lines += 1
 
-    return duplicate_lines / len(lines)
+    try:
+        percent_duplicated = duplicate_lines / len(lines)
+    except ZeroDivisionError:
+        return 0
+    return percent_duplicated
 
 
 def is_title_in_lyric(title, lines):
@@ -286,7 +290,7 @@ def extract_all_features(df, temp_save_path):
 
     rows = list()
     ids = list()
-    i = 0
+    i = 1703
     for index, row in df.iterrows():
         print(i)
         title = row['title']
