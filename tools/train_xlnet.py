@@ -80,7 +80,9 @@ def tokenize_lyric(texts):
     #update max lyric length
         if len(tokens_a) > max_lyric_length: max_lyric_length = len(tokens_a)
     
-    max_len = max_lyric_length
+    max_len = max_lyric_length + 2
+
+    print(f"Max input len {max_len}")
 
     for i, lyric in enumerate(lyrics):
 
