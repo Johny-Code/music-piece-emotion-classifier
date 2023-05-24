@@ -53,11 +53,9 @@ def tokenize_lyric(texts):
     lyrics = texts.to_list() 
 
     # The vocabulary can download from "https://s3.amazonaws.com/models.huggingface.co/bert/xlnet-base-cased-spiece.model"
-    vocabulary = os.path.join('..', 'models', 'lyric', 'xlnet_models', 'vocabluary', 'xlnet-base-cased-spiece.model')
+    # vocabulary = os.path.join('..', 'models', 'lyric', 'xlnet_models', 'vocabluary', 'xlnet-base-cased-spiece.model')
     
-    
-
-    tokenizer = XLNetTokenizer(vocab_file=vocabulary,do_lower_case=False)
+    tokenizer = XLNetTokenizer.from_pretrained('xlnet-base-cased')
 
     full_input_ids = []
     full_input_masks = []
@@ -175,8 +173,9 @@ def fine_tune_xlnet(tr_inputs, val_inputs, tr_tags, val_tags,tr_masks, val_masks
     print(f'num of gpu: {n_gpu}')
 
     model_file_address = os.path.join('..', 'models', 'lyric', 'xlnet_models', 'pretrained')
-
-    model = XLNetForSequenceClassification.from_pretrained(model_file_address, num_labels = 4)
+    num_labels = 4
+    # model = XLNetForSequenceClassification.from_pretrained(model_file_address, num_labels = 4)
+    model = XLNetForSequenceClassification.from_pretrained("xlnet-base-cased", num_labels=num_labels, problem_type="multi_label_classification")
 
     model.to(device)
 
