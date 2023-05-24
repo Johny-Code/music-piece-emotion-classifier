@@ -55,14 +55,7 @@ def tokenize_lyric(texts):
     # The vocabulary can download from "https://s3.amazonaws.com/models.huggingface.co/bert/xlnet-base-cased-spiece.model"
     vocabulary = os.path.join('..', 'models', 'lyric', 'xlnet_models', 'vocabluary', 'xlnet-base-cased-spiece.model')
     
-    max_lyric_length = 0
-
-    for i, lyric in enumerate(lyrics):
-        tokens_a = tokenizer.encode(lyric)
-    #update max lyric length
-        if len(tokens_a) > max_lyric_length: max_lyric_length = len(tokens_a)
     
-    max_len = max_lyric_length
 
     tokenizer = XLNetTokenizer(vocab_file=vocabulary,do_lower_case=False)
 
@@ -82,7 +75,14 @@ def tokenize_lyric(texts):
     # MASK_ID = tokenizer.encode("<mask>")[0]
     # EOD_ID = tokenizer.encode("<eod>")[0]
     
+    max_lyric_length = 0
+
+    for i, lyric in enumerate(lyrics):
+        tokens_a = tokenizer.encode(lyric)
+    #update max lyric length
+        if len(tokens_a) > max_lyric_length: max_lyric_length = len(tokens_a)
     
+    max_len = max_lyric_length
 
     for i, lyric in enumerate(lyrics):
 
