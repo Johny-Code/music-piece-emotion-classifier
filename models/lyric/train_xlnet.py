@@ -21,7 +21,7 @@ from torch.utils.data import TensorDataset, DataLoader, RandomSampler, Sequentia
 from torch.optim import Adam
 import torch.nn.functional as F
 
-from extract_features_from_lyric import load_en_dataset, clean_lyric
+from tools.extract_features_from_lyric import load_en_dataset, clean_lyric
 
 SEED = 100
 
