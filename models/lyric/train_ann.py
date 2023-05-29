@@ -11,7 +11,7 @@ from train_svm import read_data, TARGET_NAMES, SEED
 from utils.draw_plot import draw_confusion_matrix, plot_acc_loss
 
 
-def build_4_dense_ann(input_size = 321, dense_size = 128, output_size = 4, activation = 'relu', dropout = 0.2, optimizer = 'adam'):
+def build_4_dense_ann(input_size=321, dense_size=128, output_size=4, activation='relu', dropout=0.2, optimizer='adam'):
 
     model = keras.models.Sequential(
         keras.layers.Dense(dense_size, input_dim=input_size, activation=activation),
@@ -26,13 +26,14 @@ def build_4_dense_ann(input_size = 321, dense_size = 128, output_size = 4, activ
     )
 
     model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
-                                                                          
+
     return model
+
 
 def train_ann(X_train, y_train, X_test, y_test, params):
 
     X_test, y_test, X_val, y_val = train_test_split(X_test, y_test, test_size=0.5, random_state=SEED)
-    
+
     params = {
         'lr': 0.01,
         'epochs': 100,
@@ -45,7 +46,7 @@ def train_ann(X_train, y_train, X_test, y_test, params):
 
     input_size = len(X_train[0])
     output_size = len(TARGET_NAMES)
-    
+
     model = build_4_dense_ann(input_size, params['dense_size'], output_size, params['activation'], params['dropout'], params['optimizer'])
 
     history = model.fit(X_train, y_train, epochs=params['epochs'], batch_size=params['batch_size'], validation_data=(X_val, y_val))
@@ -70,6 +71,7 @@ def train_ann(X_train, y_train, X_test, y_test, params):
 
 def grid_search_ann():
     pass
+
 
 if __name__ == '__main__':
 
@@ -96,4 +98,3 @@ if __name__ == '__main__':
         print('For simple run: python train_ann.py --simple_run')
         print('For grid search: python train_ann.py --grid_search')
         sys.exit(0)
-

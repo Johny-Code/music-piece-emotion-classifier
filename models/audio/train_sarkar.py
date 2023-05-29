@@ -78,4 +78,4 @@ if __name__ == "__main__":
                         validation_data=test,)
                         # validation_steps=VAL_STEPS,)
                         # callbacks=[checkpoint])
-    plot_acc_loss(history)
+    plot_acc_loss (history, "./history")

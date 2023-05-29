@@ -13,16 +13,18 @@ from sklearn import svm
 SEED = 100
 TARGET_NAMES = ['happy', 'angry', 'sad', 'relaxed']
 
+
 def read_data(filepath):
     df = pd.read_csv(filepath, index_col=0)
     return df
 
+
 def train_svm(svm_params, X_train, y_train, X_test, y_test):
 
     print(f'\nSVM parameters: \n'
-            f'kernel: {svm_params["kernel"]} \n'
-            f'gamma: {svm_params["gamma"]} \n'
-            )
+          f'kernel: {svm_params["kernel"]} \n'
+          f'gamma: {svm_params["gamma"]} \n'
+          )
 
     start = time.time()
 
@@ -40,21 +42,22 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
 
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
-    
+
     # output_path = os.path.join('models', 'lyric', 'history', 'svm')
-    
+
     # draw_confusion_matrix(cm, TARGET_NAMES, output_path)
 
     return svm_clf
 
+
 def grid_search_svm(X_train, y_train, X_test, y_test):
-    
+
     params = [
-    { 'kernel': ['linear'], 'C': [0.001, 0.01, 1, 10, 100]},
-    { 'kernel': ['rbf', 'sigmoid'], 'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000] }
+        {'kernel': ['linear'], 'C': [0.001, 0.01, 1, 10, 100]},
+        {'kernel': ['rbf', 'sigmoid'], 'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000]}
     ]
 
-    cross_validation = 10     
+    cross_validation = 10
     svm_clf = svm.SVC()
 
     gs = GridSearchCV(estimator=svm_clf, param_grid=params, cv=cross_validation, scoring='accuracy', verbose=10, n_jobs=10)
@@ -69,18 +72,18 @@ def grid_search_svm(X_train, y_train, X_test, y_test):
 
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
-    
+
     # output_path = os.path.join('models', 'lyric', 'history', 'svm')
 
     # draw_confusion_matrix(cm, TARGET_NAMES, output_path)
 
+
 def clean_features(df):
-    
+
     target_dict = {'happy': 0, 'angry': 1, 'sad': 2, 'relaxed': 3}
 
     X = []
     y = []
-
 
     for row in df.iterrows():
         y.append(target_dict[row[0]])
@@ -106,25 +109,26 @@ def clean_features(df):
                 elif ele == 'False':
                     temp.append(0)
                 temp.append(ele)
-        
+
         temp.extend(vector_cleaned)
 
         X.append(temp)
 
-    return X, y  
-        
+    return X, y
+
 
 def load_data():
-    
+
     # input_path = os.path.join('..', '..','database', 'features', 'lyric_features.csv')
     input_path = os.path.join('database', 'features', 'features.csv')
     df = read_data(input_path)
 
     X, y = clean_features(df)
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = SEED)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=SEED)
 
     return X_train, X_test, y_train, y_test
+
 
 if __name__ == '__main__':
 
@@ -137,11 +141,11 @@ if __name__ == '__main__':
         X_train, X_test, y_train, y_test = load_data()
         svm_params = {'kernel': 'rbf', 'gamma': 0.3}
         _ = train_svm(svm_params, X_train, y_train, X_test, y_test)
-    
+
     elif args.grid_search:
         X_train, X_test, y_train, y_test = load_data()
         grid_search_svm(X_train, y_train, X_test, y_test)
-    
+
     else:
         print('Please specify --simple_run or --grid_search')
         print('For simple run: python train_svm.py --simple_run')

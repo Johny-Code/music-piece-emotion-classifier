@@ -14,22 +14,23 @@ from utils.draw_plot import draw_confusion_matrix
 
 SEED = 100
 
+
 def fasttext_preprocess(dataset, save_path, remove_newline=False):
 
-    for index, row in dataset.iterrows(): 
+    for index, row in dataset.iterrows():
         lyric, _ = clean_lyric(row['lyric'], row['title'])
-        
+
         if remove_newline:
             lyric = lyric.replace('\n', ' ')
 
         dataset.at[index, 'lyric'] = lyric
-        dataset.at[index, 'mood'] = '__label__' + row['mood'] 
-    
+        dataset.at[index, 'mood'] = '__label__' + row['mood']
+
     dataset = dataset[['mood', 'lyric']]
 
-    dataset[['mood', 'lyric']].to_csv(save_path, 
-                                      sep=' ', 
-                                      index=False, 
+    dataset[['mood', 'lyric']].to_csv(save_path,
+                                      sep=' ',
+                                      index=False,
                                       header=False,
                                       quoting=QUOTE_NONE,
                                       quotechar="",
@@ -37,15 +38,16 @@ def fasttext_preprocess(dataset, save_path, remove_newline=False):
 
     return dataset
 
+
 def train_fasttext(hyperparams):
 
-    model = fasttext.train_supervised(input=hyperparams['train'], 
-                                     autotuneValidationFile=hyperparams['valid'],
-                                     autotuneDuration=120)
+    model = fasttext.train_supervised(input=hyperparams['train'],
+                                      autotuneValidationFile=hyperparams['valid'],
+                                      autotuneDuration=120)
 
     now = datetime.now()
     path_to_model = os.path.join('..', 'models', 'lyric', 'fasttext_models', f'fasttext_model_{now.strftime("%d%m%Y_%H%M%S")}.bin')
-    model.save_model(path_to_model) 
+    model.save_model(path_to_model)
 
     print(f'\nModel best parameters: \n'
           f'size of the context window: {model.ws} \n'
@@ -61,8 +63,8 @@ def train_fasttext(hyperparams):
     print(f'Test set recall: {recall}')
     print(f'Test set F1-score: {2 * (precision * recall) / (precision + recall)}')
 
+    return path_to_model
 
-    return path_to_model  
 
 def test_fasttext(test_dataset, path_to_model, remove_newline):
 
@@ -75,10 +77,9 @@ def test_fasttext(test_dataset, path_to_model, remove_newline):
 
     test = []
     for lyric in test_dataset['lyric'].tolist():
-        
+
         lyric = lyric.replace('\n', ' ') if remove_newline else lyric
         test.append(lyric)
-        
 
     score = model.predict(test)
     i = 0
@@ -92,10 +93,11 @@ def test_fasttext(test_dataset, path_to_model, remove_newline):
     cm = confusion_matrix(y_true, y_pred)
     draw_confusion_matrix(cm, target_names)
 
+
 def main():
 
     dataset_path = os.path.join('..', '..', 'database', 'lyrics')
-    duplicate_path = os.path.join('..', 'database', 'removed_rows.json') 
+    duplicate_path = os.path.join('..', 'database', 'removed_rows.json')
 
     en_dataset = load_en_dataset(dataset_path, duplicate_path)
 
@@ -106,20 +108,20 @@ def main():
 
     output_path_train = os.path.join('..', 'database', 'fasttext', 'lyric.train')
     _ = fasttext_preprocess(train, output_path_train, remove_newline)
-    
+
     output_path_valid = os.path.join('..', 'database', 'fasttext', 'lyric.test')
     test_dataset = fasttext_preprocess(valid, output_path_valid, remove_newline)
 
     output_path_test = os.path.join('..', 'database', 'fasttext', 'lyric.valid')
     _ = fasttext_preprocess(test, output_path_test, remove_newline)
-    
+
     hyperparams = {'train': output_path_train,
-                   'valid': output_path_valid, 
+                   'valid': output_path_valid,
                    'test': output_path_test}
 
     path_to_model = train_fasttext(hyperparams)
-    
-    test_fasttext(test_dataset, path_to_model, remove_newline)  
+
+    test_fasttext(test_dataset, path_to_model, remove_newline)
 
 
 if __name__ == '__main__':

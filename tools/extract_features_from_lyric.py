@@ -101,20 +101,21 @@ def get_duplicated_rows(file_path):
 
         try:
             rows_to_remove = duplicated_info['removed_rows']
-        except:
+        except BaseException:
             rows_to_remove = []
-    
+
     return rows_to_remove
+
 
 def load_en_dataset(dataset_path, duplicated_path):
 
     rows_to_remove = get_duplicated_rows(duplicated_path)
 
-    dataset = load_lyric_dataset(dataset_path, rows_to_remove) 
+    dataset = load_lyric_dataset(dataset_path, rows_to_remove)
 
     dataset = dataset.loc[dataset['language'] == "en"]
     en_dataset = dataset.loc[dataset['instrumental'] == False]
-    
+
     return en_dataset
 
 
@@ -306,8 +307,8 @@ def extract_all_features(df):
         rows.append(row)
         ids.append(index)
 
-    features_df = pd.DataFrame(rows, columns=['emotion', 'lyrics_vector', 'echoisms', 'duplicate_lines', 'title_in_lyric', 
-                                              'verb_present_freq', 'verb_past_freq', 'verb_future_freq', 'count_ADJ', 
+    features_df = pd.DataFrame(rows, columns=['emotion', 'lyrics_vector', 'echoisms', 'duplicate_lines', 'title_in_lyric',
+                                              'verb_present_freq', 'verb_past_freq', 'verb_future_freq', 'count_ADJ',
                                               'count_PUNCT', 'sentiment_polarity', 'sentiment_subjectivity'], index=ids)
 
     return features_df
@@ -315,7 +316,7 @@ def extract_all_features(df):
 
 if __name__ == '__main__':
     dataset_path = os.path.join('..', 'database', 'lyrics')
-    duplicate_path = os.path.join('database', 'removed_rows.json') 
+    duplicate_path = os.path.join('database', 'removed_rows.json')
 
     en_dataset = load_en_dataset(dataset_path, duplicate_path)
 
