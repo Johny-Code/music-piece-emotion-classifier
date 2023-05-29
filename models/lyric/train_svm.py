@@ -8,13 +8,13 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn import svm
 
-from utils.draw_plot import draw_confusion_matrix
+# from utils.draw_plot import draw_confusion_matrix
 
 SEED = 100
 TARGET_NAMES = ['happy', 'angry', 'sad', 'relaxed']
 
 def read_data(filepath):
-    df = pd.read_csv(filepath, index_col=0)
+    df = pd.read_csv(filepath)
     return df
 
 def train_svm(svm_params, X_train, y_train, X_test, y_test):
@@ -25,6 +25,12 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
             )
 
     start = time.time()
+
+    print(f"Type of svm_params['kernel']: {type(svm_params['kernel'])}")
+    print(f"Type of svm_params['gamma']: {type(svm_params['gamma'])}")
+    print(f"Type of X_train: {type(X_train)}")
+    print(f"Type of y_train: {type(y_train)}")
+
     svm_clf = svm.SVC(kernel=svm_params['kernel'], gamma=svm_params['gamma'])
     svm_clf.fit(X_train, y_train)
     end = time.time()
@@ -40,8 +46,9 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
     
-    output_path = os.path.join('models', 'lyric', 'history', 'svm')
-    draw_confusion_matrix(cm, TARGET_NAMES, output_path)
+    # output_path = os.path.join('models', 'lyric', 'history', 'svm')
+    
+    # draw_confusion_matrix(cm, TARGET_NAMES, output_path)
 
     return svm_clf
 
@@ -68,15 +75,17 @@ def grid_search_svm(X_train, y_train, X_test, y_test):
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
     
-    output_path = os.path.join('models', 'lyric', 'history', 'svm')
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)
+    # output_path = os.path.join('models', 'lyric', 'history', 'svm')
 
-    draw_confusion_matrix(cm, TARGET_NAMES, output_path)
+    # draw_confusion_matrix(cm, TARGET_NAMES, output_path)
 
-def read_data():
-    input_path = os.path.join('..', '..','database', 'features', 'lyric_features.csv')
+def load_data():
+    
+    # input_path = os.path.join('..', '..','database', 'features', 'lyric_features.csv')
+    input_path = os.path.join('database', 'features', 'features.csv')
     df = read_data(input_path)
+
+    print(df.head())
 
     target_dict = {'happy': 0, 'angry': 1, 'sad': 2, 'relaxed': 3}
     title_in_lyric_dict = {'True': 1, 'False': 0}
@@ -84,12 +93,21 @@ def read_data():
     df.replace({"emotion": target_dict}, inplace=True)
     df.replace({"title_in_lyric": title_in_lyric_dict}, inplace=True)
 
-    df['lyrics_vector'] = df['lyrics_vector'].apply(lambda x: x[1:-1].split(','))
+    df['lyric_vector'] = df['lyric_vector'].apply(lambda x: x[1:-1].split(','))
 
-    y = df['emotion']
-    X = df.drop(['emotion'], axis=1)
+    y = df["emotion"]
+    X = df.drop(["emotion"], axis=1)
+    lyric_vector = X['lyric_vector']
+
+    print(f'lyric_vector: {lyric_vector[0]}')
+
+    # for row in X.iterrows():
+        
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = SEED)
+
+    print(f'X_train shape: {X_train.shape}')
+
 
     return X_train, X_test, y_train, y_test
 
@@ -101,12 +119,12 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.simple_run:
-        X_train, X_test, y_train, y_test = read_data()
+        X_train, X_test, y_train, y_test = load_data()
         svm_params = {'kernel': 'rbf', 'gamma': 0.3}
         _ = train_svm(svm_params, X_train, y_train, X_test, y_test)
     
     elif args.grid_search:
-        X_train, X_test, y_train, y_test = read_data()
+        X_train, X_test, y_train, y_test = load_data()
         grid_search_svm(X_train, y_train, X_test, y_test)
     
     else:
