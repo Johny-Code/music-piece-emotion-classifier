@@ -13,4 +13,4 @@
 # activate python venv
 source .././emotion_env/bin/activate
 
-python3 models/lyric/fasttext.py --simple_run
+python3 models/lyric/train_fasttext.py --simple_run
