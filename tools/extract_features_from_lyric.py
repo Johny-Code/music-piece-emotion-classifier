@@ -3,6 +3,7 @@ import re
 import json
 import spacy
 import textblob
+import time
 import pandas as pd
 import numpy as np
 from langdetect import detect
@@ -318,5 +319,17 @@ if __name__ == '__main__':
 
     en_dataset = load_en_dataset(dataset_path, duplicate_path)
 
+    start = time.time()
     features_df = extract_all_features(en_dataset)
+
+    end = time.time()
+
+    feature_extraction_time = end - start
+    print(f"\n\n Feature extraction took {round(feature_extraction_time, 2)} s")
+
     print(features_df.head())
+
+    feature_output_path = os.path.join('..', 'database', 'features', 'lyric_features.csv')
+    features_df.to_csv(feature_output_path)
+
+    print(f"Features saved to {feature_output_path}")
