@@ -14,4 +14,4 @@
 source .././emotion_env/bin/activate
 
 # simple svm run
-python models/lyric/train_svm.py --simple_run
+python3 models/lyric/train_svm.py --simple_run

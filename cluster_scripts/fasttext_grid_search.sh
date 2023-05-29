@@ -13,5 +13,4 @@
 # activate python venv
 source .././emotion_env/bin/activate
 
-# simple svm run
-python models/lyric/fasttest.py --grid_search
+python3 models/lyric/fasttest.py --grid_search
