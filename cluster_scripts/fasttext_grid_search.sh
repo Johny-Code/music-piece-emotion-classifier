@@ -1,8 +1,8 @@
 #!/bin/bash -l
 #
-#SBATCH -J feature_based_simple_svm
-#SBATCH -o logs/feature_based_simple_svm."%j".out
-#SBATCH -e logs/feature_based_simple_svm."%j".err
+#SBATCH -J fasttext_gridsearch
+#SBATCH -o logs/fasttext_gridsearch."%j".out
+#SBATCH -e logs/fasttext_gridsearch."%j".err
 #
 #SBATCH --mail-user s175502@student.pg.edu.pl
 #SBATCH --mail-type=ALL
