@@ -4,7 +4,8 @@ sys.path.append("../../utils/")
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 from implementation.ResNet18 import ResNet18
-from train_network import train_val_split, plot_acc_loss
+from train_network import train_val_split 
+fromutils.draw_plot import plot_acc_loss
 from keras.callbacks import ModelCheckpoint
 from keras.regularizers import L2
 from keras.optimizers import Adam
