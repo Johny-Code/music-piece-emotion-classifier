@@ -1,10 +1,7 @@
-from train_svm import TARGET_NAMES
-from draw_plot import draw_confusion_matrix
-from extract_features_from_lyric import load_en_dataset, clean_lyric
+import sys
 import os
 import argparse
 import fasttext
-import sys
 import time
 import pandas as pd
 
@@ -13,8 +10,11 @@ from csv import QUOTE_NONE
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
 
-sys.path.append("tools/")
+from train_svm import TARGET_NAMES
 sys.path.append("utils/")
+from draw_plot import draw_confusion_matrix
+sys.path.append("tools/")
+from extract_features_from_lyric import load_en_dataset, clean_lyric
 
 
 SEED = 100
