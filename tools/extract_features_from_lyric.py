@@ -191,7 +191,10 @@ def get_echoisms(lines, nlp):
                     echoism_count += 1
                     break
 
-    return echoism_count / get_word_count(lines)
+    try:
+        return echoism_count / get_word_count(lines)
+    except ZeroDivisionError:
+        return 0
 
 
 def get_line_count(tokens):
@@ -208,8 +211,10 @@ def get_duplicate_lines(lines):
             next_line = lines[i + 1]
             if set(current_line) == set(next_line):
                 duplicate_lines += 1
-
-    return duplicate_lines / len(lines)
+    try:
+        return duplicate_lines / len(lines)
+    except ZeroDivisionError:
+        return 0
 
 
 def is_title_in_lyric(title, lines):
