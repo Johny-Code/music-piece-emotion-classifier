@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+import argparse
 import pandas as pd
 
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -9,10 +10,8 @@ from sklearn import svm
 
 from utils.draw_plot import draw_confusion_matrix
 
-
 SEED = 100
 TARGET_NAMES = ['happy', 'angry', 'sad', 'relaxed']
-
 
 def read_data(filepath):
     df = pd.read_csv(filepath, index_col=0)
@@ -40,7 +39,9 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
 
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
-    draw_confusion_matrix(cm, TARGET_NAMES)
+    
+    output_path = os.path.join('models', 'lyric', 'history', 'svm')
+    draw_confusion_matrix(cm, TARGET_NAMES, output_path)
 
     return svm_clf
 
@@ -66,11 +67,14 @@ def grid_search_svm(X_train, y_train, X_test, y_test):
 
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
-    draw_confusion_matrix(cm, TARGET_NAMES, 'svm_best_grid_search.png')
-
-
-def main():
     
+    output_path = os.path.join('models', 'lyric', 'history', 'svm')
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
+
+    draw_confusion_matrix(cm, TARGET_NAMES, output_path)
+
+def read_data():
     input_path = os.path.join('..', '..','database', 'features', 'lyric_features.csv')
     df = read_data(input_path)
 
@@ -85,16 +89,28 @@ def main():
     y = df['emotion']
     X = df.drop(['emotion'], axis=1)
 
-    #single experiment
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = SEED)
 
-    svm_params = {'kernel': 'rbf', 'gamma': 0.3}
-    
-    _ = train_svm(svm_params, X_train, y_train, X_test, y_test)
-
-    #grid search
-    grid_search_svm(X_train, y_train, X_test, y_test)
-
+    return X_train, X_test, y_train, y_test
 
 if __name__ == '__main__':
-    main()
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--simple_run', action='store_true')
+    parser.add_argument('--grid_search', action='store_true')
+    args = parser.parse_args()
+
+    if args.simple_run:
+        X_train, X_test, y_train, y_test = read_data()
+        svm_params = {'kernel': 'rbf', 'gamma': 0.3}
+        _ = train_svm(svm_params, X_train, y_train, X_test, y_test)
+    
+    elif args.grid_search:
+        X_train, X_test, y_train, y_test = read_data()
+        grid_search_svm(X_train, y_train, X_test, y_test)
+    
+    else:
+        print('Please specify --simple_run or --grid_search')
+        print('For simple run: python train_svm.py --simple_run')
+        print('For grid search: python train_svm.py --grid_search')
+        sys.exit(0)
