@@ -17,4 +17,4 @@ source .././emotion_env/bin/activate
 python3 tools/extract_features_from_lyrics.py
 
 # train model
-python3 models/lyric/train_svm.py
+# python3 models/lyric/train_svm.py
