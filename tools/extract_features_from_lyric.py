@@ -314,7 +314,7 @@ def extract_all_features(df):
 
 
 if __name__ == '__main__':
-    dataset_path = os.path.join('..', '..', 'database', 'lyrics')
+    dataset_path = os.path.join('..', 'database', 'lyrics')
     duplicate_path = os.path.join('database', 'removed_rows.json') 
 
     en_dataset = load_en_dataset(dataset_path, duplicate_path)
