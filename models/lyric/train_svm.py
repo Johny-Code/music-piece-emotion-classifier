@@ -11,7 +11,7 @@ def read_data(filepath):
 
 def main():
     
-    input_path = os.path.join('../../database/lyrics_features/ML4Q_english_features.csv')
+    input_path = os.path.join('..', '..','database', 'features', 'lyric_features.csv')
     df = read_data(input_path)
 
     target_dict = {'happy': 0, 'angry': 1, 'sad': 2, 'relaxed': 3}

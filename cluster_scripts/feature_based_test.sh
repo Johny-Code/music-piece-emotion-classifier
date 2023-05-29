@@ -1,8 +1,8 @@
 #!/bin/bash -l
 #
-#SBATCH -J my-hello-world
-#SBATCH -o my-hello-world."%j".out
-#SBATCH -e my-hello-world."%j".err
+#SBATCH -J feature_based_approach_test
+#SBATCH -o logs/feature_based_approach_test."%j".out
+#SBATCH -e logs/feature_based_approach_test."%j".err
 #
 #SBATCH --mail-user s175502@student.pg.edu.pl
 #SBATCH --mail-type=ALL
