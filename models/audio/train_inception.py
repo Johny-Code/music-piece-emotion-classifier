@@ -10,7 +10,8 @@ from keras.applications import InceptionV3
 from keras.optimizers import Adam
 from keras.regularizers import L2
 from keras.callbacks import ModelCheckpoint
-from train_network import train_val_split, plot_acc_loss
+from train_network import train_val_split
+from draw_plot import plot_acc_loss
 
 
 def define_InceptionV3_model(input_shape, nb_classes):
@@ -63,4 +64,4 @@ if __name__ == "__main__":
                         validation_data=test,
                         validation_steps=VAL_STEPS,
                         callbacks=[checkpoint])
-    plot_acc_loss(history)
+    plot_acc_loss (history, "./history")

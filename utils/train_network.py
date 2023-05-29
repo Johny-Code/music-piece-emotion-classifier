@@ -31,16 +31,3 @@ def train_val_split(path, batch_size, img_shape, val_split=0.2):
         batch_size=batch_size)
     
     return train_ds.map(preprocess_image), validation_ds.map(preprocess_image)
-
-
-def plot_acc_loss(history, directory="./history"):
-    os.makedirs(f"{directory}", exist_ok=True)
-    plt.plot(history.history['loss'], label='train loss')
-    plt.plot(history.history['val_loss'], label='val loss')
-    plt.legend()
-    plt.savefig(f"{directory}/LossVal_loss.png")
-    plt.clf()
-    plt.plot(history.history['sparse_categorical_accuracy'], label='train acc')
-    plt.plot(history.history['val_sparse_categorical_accuracy'], label='val acc')
-    plt.legend()
-    plt.savefig(f"{directory}/AccVal_acc.png")

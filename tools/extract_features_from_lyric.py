@@ -3,6 +3,7 @@ import re
 import json
 import spacy
 import textblob
+import time
 import pandas as pd
 import numpy as np
 from langdetect import detect
@@ -100,20 +101,21 @@ def get_duplicated_rows(file_path):
 
         try:
             rows_to_remove = duplicated_info['removed_rows']
-        except:
+        except BaseException:
             rows_to_remove = []
-    
+
     return rows_to_remove
+
 
 def load_en_dataset(dataset_path, duplicated_path):
 
     rows_to_remove = get_duplicated_rows(duplicated_path)
 
-    dataset = load_lyric_dataset(dataset_path, rows_to_remove) 
+    dataset = load_lyric_dataset(dataset_path, rows_to_remove)
 
     dataset = dataset.loc[dataset['language'] == "en"]
     en_dataset = dataset.loc[dataset['instrumental'] == False]
-    
+
     return en_dataset
 
 
@@ -189,7 +191,10 @@ def get_echoisms(lines, nlp):
                     echoism_count += 1
                     break
 
-    return echoism_count / get_word_count(lines)
+    try:
+        return echoism_count / get_word_count(lines)
+    except ZeroDivisionError:
+        return 0
 
 
 def get_line_count(tokens):
@@ -206,8 +211,10 @@ def get_duplicate_lines(lines):
             next_line = lines[i + 1]
             if set(current_line) == set(next_line):
                 duplicate_lines += 1
-
-    return duplicate_lines / len(lines)
+    try:
+        return duplicate_lines / len(lines)
+    except ZeroDivisionError:
+        return 0
 
 
 def is_title_in_lyric(title, lines):
@@ -305,18 +312,30 @@ def extract_all_features(df):
         rows.append(row)
         ids.append(index)
 
-    features_df = pd.DataFrame(rows, columns=['emotion', 'lyrics_vector', 'echoisms', 'duplicate_lines', 'title_in_lyric', 
-                                              'verb_present_freq', 'verb_past_freq', 'verb_future_freq', 'count_ADJ', 
+    features_df = pd.DataFrame(rows, columns=['emotion', 'lyrics_vector', 'echoisms', 'duplicate_lines', 'title_in_lyric',
+                                              'verb_present_freq', 'verb_past_freq', 'verb_future_freq', 'count_ADJ',
                                               'count_PUNCT', 'sentiment_polarity', 'sentiment_subjectivity'], index=ids)
 
     return features_df
 
 
 if __name__ == '__main__':
-    dataset_path = os.path.join('..', '..', 'database', 'lyrics')
-    duplicate_path = os.path.join('..', 'database', 'removed_rows.json') 
+    dataset_path = os.path.join('..', 'database', 'lyrics')
+    duplicate_path = os.path.join('database', 'removed_rows.json')
 
     en_dataset = load_en_dataset(dataset_path, duplicate_path)
 
+    start = time.time()
     features_df = extract_all_features(en_dataset)
+
+    end = time.time()
+
+    feature_extraction_time = end - start
+    print(f"\n\n Feature extraction took {round(feature_extraction_time, 2)} s \n\n")
+
     print(features_df.head())
+
+    feature_output_path = os.path.join('..', 'database', 'features', 'lyric_features.csv')
+    features_df.to_csv(feature_output_path)
+
+    print(f"Features saved to {feature_output_path}")
