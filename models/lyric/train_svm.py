@@ -14,7 +14,7 @@ SEED = 100
 TARGET_NAMES = ['happy', 'angry', 'sad', 'relaxed']
 
 def read_data(filepath):
-    df = pd.read_csv(filepath)
+    df = pd.read_csv(filepath, index_col=0)
     return df
 
 def train_svm(svm_params, X_train, y_train, X_test, y_test):
@@ -25,11 +25,6 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
             )
 
     start = time.time()
-
-    print(f"Type of svm_params['kernel']: {type(svm_params['kernel'])}")
-    print(f"Type of svm_params['gamma']: {type(svm_params['gamma'])}")
-    print(f"Type of X_train: {type(X_train)}")
-    print(f"Type of y_train: {type(y_train)}")
 
     svm_clf = svm.SVC(kernel=svm_params['kernel'], gamma=svm_params['gamma'])
     svm_clf.fit(X_train, y_train)
@@ -79,35 +74,55 @@ def grid_search_svm(X_train, y_train, X_test, y_test):
 
     # draw_confusion_matrix(cm, TARGET_NAMES, output_path)
 
+def clean_features(df):
+    
+    target_dict = {'happy': 0, 'angry': 1, 'sad': 2, 'relaxed': 3}
+
+    X = []
+    y = []
+
+
+    for row in df.iterrows():
+        y.append(target_dict[row[0]])
+
+        features = row[1]
+        vector = features['lyric_vector']
+        vector = vector.replace('[', '')
+        vector = vector.replace(']', '')
+        vector = vector.replace('\n', '')
+        vector = vector.replace('   ', ' ')
+        vector = vector.split(' ')
+
+        vector_cleaned = []
+        for value in vector:
+            if value != '':
+                vector_cleaned.append(float(value))
+
+        temp = []
+        for i, ele in enumerate(features):
+            if i < 10:
+                if ele == 'True':
+                    temp.append(1)
+                elif ele == 'False':
+                    temp.append(0)
+                temp.append(ele)
+        
+        temp.extend(vector_cleaned)
+
+        X.append(temp)
+
+    return X, y  
+        
+
 def load_data():
     
     # input_path = os.path.join('..', '..','database', 'features', 'lyric_features.csv')
     input_path = os.path.join('database', 'features', 'features.csv')
     df = read_data(input_path)
 
-    print(df.head())
-
-    target_dict = {'happy': 0, 'angry': 1, 'sad': 2, 'relaxed': 3}
-    title_in_lyric_dict = {'True': 1, 'False': 0}
-
-    df.replace({"emotion": target_dict}, inplace=True)
-    df.replace({"title_in_lyric": title_in_lyric_dict}, inplace=True)
-
-    df['lyric_vector'] = df['lyric_vector'].apply(lambda x: x[1:-1].split(','))
-
-    y = df["emotion"]
-    X = df.drop(["emotion"], axis=1)
-    lyric_vector = X['lyric_vector']
-
-    print(f'lyric_vector: {lyric_vector[0]}')
-
-    # for row in X.iterrows():
-        
+    X, y = clean_features(df)
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = SEED)
-
-    print(f'X_train shape: {X_train.shape}')
-
 
     return X_train, X_test, y_train, y_test
 
