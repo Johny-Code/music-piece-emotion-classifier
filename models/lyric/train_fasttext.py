@@ -110,10 +110,14 @@ def create_dataset(replace_newline):
 
     train, test = train_test_split(en_dataset, test_size=0.3, random_state=SEED)
 
-    output_path_train = os.path.join('database', 'fasttext', 'lyric.train')
+    dataset_path = os.path.join('database', 'fasttext')
+    if not os.path.exists(os.path.join(dataset_path)):
+        os.makedirs(os.path.join(dataset_path))
+
+    output_path_train = os.path.join(dataset_path, 'lyric.train')
     _ = fasttext_preprocess(train, output_path_train, replace_newline)
 
-    output_path_test = os.path.join('database', 'fasttext', 'lyric.test')
+    output_path_test = os.path.join(dataset_path, 'lyric.test')
     test_dataset = fasttext_preprocess(test, output_path_test, replace_newline)
 
     return output_path_train, output_path_test, test_dataset
