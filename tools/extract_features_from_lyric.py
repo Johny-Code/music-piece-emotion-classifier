@@ -325,7 +325,7 @@ if __name__ == '__main__':
     end = time.time()
 
     feature_extraction_time = end - start
-    print(f"\n\n Feature extraction took {round(feature_extraction_time, 2)} s")
+    print(f"\n\n Feature extraction took {round(feature_extraction_time, 2)} s \n\n")
 
     print(features_df.head())
 

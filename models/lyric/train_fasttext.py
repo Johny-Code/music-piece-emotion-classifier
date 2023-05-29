@@ -3,8 +3,6 @@ import re
 import random
 import fasttext
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 from datetime import datetime
 from csv import QUOTE_NONE
@@ -12,12 +10,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
 
 from tools.extract_features_from_lyric import load_en_dataset, clean_lyric
+from utils.draw_plot import draw_confusion_matrix
 
 SEED = 100
 
 def fasttext_preprocess(dataset, save_path, remove_newline=False):
 
-    for index, row in dataset.iterrows():
+    for index, row in dataset.iterrows(): 
         lyric, _ = clean_lyric(row['lyric'], row['title'])
         
         if remove_newline:
@@ -65,13 +64,6 @@ def train_fasttext(hyperparams):
 
     return path_to_model  
 
-def draw_confusion_matrix(cm, target_names, cmap=None, normalize=True):
-    plt.figure(figsize=(8, 6))
-    sns.heatmap(cm, annot=True, fmt='d', cmap=cmap, xticklabels=target_names, yticklabels=target_names)
-    plt.ylabel('True label')
-    plt.xlabel('Predicted label')
-    plt.show()
-
 def test_fasttext(test_dataset, path_to_model, remove_newline):
 
     model = fasttext.load_model(path_to_model)
@@ -99,7 +91,6 @@ def test_fasttext(test_dataset, path_to_model, remove_newline):
 
     cm = confusion_matrix(y_true, y_pred)
     draw_confusion_matrix(cm, target_names)
-
 
 def main():
 
@@ -129,7 +120,6 @@ def main():
     path_to_model = train_fasttext(hyperparams)
     
     test_fasttext(test_dataset, path_to_model, remove_newline)  
-     
 
 
 if __name__ == '__main__':
