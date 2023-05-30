@@ -335,7 +335,7 @@ if __name__ == '__main__':
 
     print(features_df.head())
 
-    feature_output_path = os.path.join('..', 'database', 'features', 'lyric_features.csv')
+    feature_output_path = os.path.join('database', 'features', 'lyric_features.csv')
     features_df.to_csv(feature_output_path)
 
     print(f"Features saved to {feature_output_path}")
