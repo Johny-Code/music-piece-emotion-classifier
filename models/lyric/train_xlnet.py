@@ -7,7 +7,6 @@ import numpy as np
 from transformers import XLNetTokenizer, XLNetForSequenceClassification
 from sklearn.model_selection import train_test_split
 from torch.utils.data import TensorDataset, RandomSampler, DataLoader, SequentialSampler
-from tqdm import trange
 from sklearn.metrics import classification_report
 
 from train_svm import SEED
@@ -52,16 +51,14 @@ def tokenize_lyric(texts):
     CLS_ID = tokenizer.encode("<cls>")[0]
     SEP_ID = tokenizer.encode("<sep>")[0]
 
-    max_len = 32
-
     for i, lyric in enumerate(lyrics):
 
         tokens_a = tokenizer.encode(lyric)
 
         # trim the len of text to max_len
-        if len(tokens_a) > max_len - 2:
+        if len(tokens_a) > hyperparameters['max_seq_length'] - 2:
             print(f'lyric {i} is too long, len = {len(tokens_a)}')
-            tokens_a = tokens_a[:max_len - 2]
+            tokens_a = tokens_a[:hyperparameters['max_seq_length'] - 2]
 
         tokens = []
         segment_ids = []
@@ -82,15 +79,15 @@ def tokenize_lyric(texts):
         input_mask = [0] * len(input_ids)
         
         # Zero-pad up to the sequence length at fornt
-        if len(input_ids) < max_len:
-            delta_len = max_len - len(input_ids)
+        if len(input_ids) < hyperparameters['max_seq_length']:
+            delta_len = hyperparameters['max_seq_length'] - len(input_ids)
             input_ids = [0] * delta_len + input_ids
             input_mask = [1] * delta_len + input_mask
             segment_ids = [SEG_ID_PAD] * delta_len + segment_ids
 
-        assert len(input_ids) == max_len
-        assert len(input_mask) == max_len
-        assert len(segment_ids) == max_len
+        assert len(input_ids) == hyperparameters['max_seq_length']
+        assert len(input_mask) == hyperparameters['max_seq_length']
+        assert len(segment_ids) == hyperparameters['max_seq_length']
         
         full_input_ids.append(input_ids)
         full_input_masks.append(input_mask)
@@ -153,7 +150,7 @@ def fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_m
     print(f"  Num steps = {hyperparameters['epochs']}")
 
 
-    for _ in trange(hyperparameters['epochs'], desc = "Epoch"):
+    for _ in range(hyperparameters['epochs']):
         tr_loss = 0
         nb_tr_examples = 0
         nb_tr_steps = 0
@@ -253,6 +250,19 @@ if __name__ == '__main__':
         
         tr_inputs, test_inputs, tr_tags, test_tags, tr_masks, test_masks, tr_segs, test_segs = train_test_split(full_input_ids, tags, full_input_masks, full_segment_ids, random_state=SEED, test_size=0.3)
         
+        #print shape of each trainin and test vectors
+        print('tr_inputs.shape = ', np.array(tr_inputs).shape)
+        print('test_inputs.shape = ', np.array(test_inputs).shape)
+        print('tr_tags.shape = ', np.array(tr_tags).shape)
+        print('test_tags.shape = ', np.array(test_tags).shape)
+        print('tr_masks.shape = ', np.array(tr_masks).shape)
+        print('test_masks.shape = ', np.array(test_masks).shape)
+        print('tr_segs.shape = ', np.array(tr_segs).shape)
+        print('test_segs.shape = ', np.array(test_segs).shape)
+
+        exit(0)
+
+
         val_inputs, test_inputs, val_tags, test_tags, val_masks, test_masks, val_segs, test_segs = train_test_split(test_inputs, test_tags, test_masks, test_segs, random_state=SEED, test_size=0.5)    
         
         hyperparameters = {'batch_size': 32,
@@ -262,7 +272,8 @@ if __name__ == '__main__':
                             'max_grad_norm': 1.0, 
                             'warmup_steps': 0, 
                             'weight_decay': 0.0,
-                            'max_grad_norm': 1.0
+                            'max_grad_norm': 1.0,
+                            'max_seq_length': 32,
                             }
         
         print('hyperparameters:')
