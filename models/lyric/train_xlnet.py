@@ -312,8 +312,8 @@ def fine_tune_xlnet(tr_inputs, val_inputs, tr_tags, val_tags,tr_masks, val_masks
         writer.write(report)
 
 def main():
-    dataset_path = os.path.join('..', '..', 'database', 'lyrics')
-    duplicate_path = os.path.join('..', 'database', 'removed_rows.json') 
+    dataset_path = os.path.join('..', 'database', 'lyrics')
+    duplicate_path = os.path.join('database', 'removed_rows.json') 
 
     en_dataset = load_en_dataset(dataset_path, duplicate_path)
     
