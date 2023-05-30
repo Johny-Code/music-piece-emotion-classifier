@@ -26,7 +26,7 @@ def preprocess(dataset, remove_newline):
             lyric = lyric.replace('\n', ' ')
         
         dataset.at[index, 'lyric'] = lyric
-        dataset.at[index, 'target'] = target_dict[dataset.at[index, 'mood']]
+        dataset.at[index, 'mood'] = target_dict[dataset.at[index, 'mood']]
 
     dataset = dataset[['mood', 'lyric']]
 
