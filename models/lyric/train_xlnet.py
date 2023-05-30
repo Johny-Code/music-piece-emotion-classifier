@@ -1,4 +1,5 @@
 import os
+import sys
 import math
 import torch 
 
@@ -12,7 +13,8 @@ from torch.utils.data import TensorDataset, DataLoader, RandomSampler, Sequentia
 from torch.optim import Adam
 import torch.nn.functional as F
 
-from tools.extract_features_from_lyric import load_en_dataset, clean_lyric
+sys.path.append("tools/")
+from extract_features_from_lyric import load_en_dataset, clean_lyric
 
 SEED = 100
 
