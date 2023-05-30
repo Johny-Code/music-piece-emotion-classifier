@@ -111,6 +111,9 @@ def vec_to_tensor(inputs, tags, masks, segs):
 
 def fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_masks, val_segs, hyperparameters):
 
+    print('Start fine-tuning...')
+    print(tr_tags[:10])
+
     tr_inputs, tr_tags, tr_masks, tr_segs = vec_to_tensor(tr_inputs, tr_tags, tr_masks, tr_segs)
     val_inputs, val_tags, val_masks, val_segs = vec_to_tensor(val_inputs, val_tags, val_masks, val_segs)
 
