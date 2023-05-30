@@ -74,7 +74,7 @@ def tokenize_lyric(texts):
     
     print(f'Max lyric length is {max_lyric_length}')
 
-    max_len = 512
+    max_len = 32
 
     print(f"Max input len {max_len}")
 
