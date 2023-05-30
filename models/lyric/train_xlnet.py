@@ -72,7 +72,9 @@ def tokenize_lyric(texts):
     #update max lyric length
         if len(tokens_a) > max_lyric_length: max_lyric_length = len(tokens_a)
     
-    max_len = max_lyric_length + 2
+    print(f'Max lyric length is {max_lyric_length}')
+
+    max_len = 512
 
     print(f"Max input len {max_len}")
 
@@ -80,10 +82,10 @@ def tokenize_lyric(texts):
 
         tokens_a = tokenizer.encode(lyric)
 
-        # # Trim the len of text
-        # if(len(tokens_a)>max_len-2):
-        #     # print(f'The lyric {i} currently in process is sa long - {len(tokens_a)}! End of it has been trimed.')
-        #     tokens_a = tokens_a[:max_len-2]
+        # Trim the len of text
+        if(len(tokens_a)>max_len-2):
+            print(f'The lyric {i} currently in process is sa long - {len(tokens_a)}! End of it has been trimed.')
+            tokens_a = tokens_a[:max_len-2]
 
         tokens = []
         segment_ids = []

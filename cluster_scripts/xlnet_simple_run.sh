@@ -7,7 +7,7 @@
 #SBATCH --mail-user s175502@student.pg.edu.pl
 #SBATCH --mail-type=ALL
 #
-#SBATCH --nodelist=node101 OR node302 OR node108
+#SBATCH --nodelist=node302
 #SBATCH -p short
 
 # activate python venv
