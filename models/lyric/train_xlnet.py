@@ -2,7 +2,7 @@ import argparse
 import sys
 
 sys.path.append('tools/')
-from extract_features_from_lyric import load_dataset, clean_lyric
+from extract_features_from_lyric import load_en_dataset, clean_lyric
 
 def preprocess(dataset, remove_newline):
 
@@ -32,7 +32,7 @@ if __name__ == '__main__':
 
     if args.simple_run:
         
-        en_dataset = load_dataset()
+        en_dataset = load_en_dataset()
 
         remove_newline = True
         dataset = preprocess(en_dataset, remove_newline)
