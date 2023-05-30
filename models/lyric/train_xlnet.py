@@ -1,5 +1,6 @@
 import argparse
 import sys
+import os
 
 sys.path.append('tools/')
 from extract_features_from_lyric import load_en_dataset, clean_lyric
@@ -32,7 +33,10 @@ if __name__ == '__main__':
 
     if args.simple_run:
         
-        en_dataset = load_en_dataset()
+        dataset_path = os.path.join('..', 'database', 'lyrics')
+        duplicated_path = os.path.join('database', 'removed_rows.json') 
+
+        en_dataset = load_en_dataset(dataset_path, duplicated_path)
 
         remove_newline = True
         dataset = preprocess(en_dataset, remove_newline)
