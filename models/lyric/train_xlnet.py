@@ -2,16 +2,15 @@ import os
 import sys
 import math
 import torch 
+import argparse
 
 import numpy as np
-from tqdm import tqdm, trange
+from tqdm import trange
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-from transformers import (XLNetConfig, XLNetForSequenceClassification, XLNetTokenizer)
-
+from transformers import XLNetForSequenceClassification, XLNetTokenizer
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 from torch.optim import Adam
-import torch.nn.functional as F
 
 sys.path.append("tools/")
 from extract_features_from_lyric import load_en_dataset, clean_lyric
@@ -313,11 +312,16 @@ def fine_tune_xlnet(tr_inputs, val_inputs, tr_tags, val_tags,tr_masks, val_masks
         writer.write("\n\n")  
         writer.write(report)
 
-def main():
+def load_dataset():
+
     dataset_path = os.path.join('..', 'database', 'lyrics')
     duplicate_path = os.path.join('database', 'removed_rows.json') 
 
-    en_dataset = load_en_dataset(dataset_path, duplicate_path)
+    return load_en_dataset(dataset_path, duplicate_path)
+
+def main():
+    
+    en_dataset = load_dataset()
     
     remove_newline = True
     dataset = preprocess(en_dataset, remove_newline)
@@ -344,4 +348,24 @@ def main():
 
 
 if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--simple_run', action='store_true')
+    parser.add_argument('--grid_search', action='store_true')
+    args = parser.parse_args()
+
+    if args.simple_run:
+        
+        pass
+
+    elif args.grid_search:
+        
+        pass
+
+    else:
+        print('Please specify --simple_run or --grid_search')
+        print('For simple run: python train_svm.py --simple_run')
+        print('For grid search: python train_svm.py --grid_search')
+        sys.exit(0)
+
     main()
