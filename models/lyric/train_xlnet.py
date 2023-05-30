@@ -14,10 +14,11 @@ from train_svm import SEED
 sys.path.append('tools/')
 from extract_features_from_lyric import load_en_dataset, clean_lyric
 
-
 def preprocess(dataset, remove_newline):
 
-    target_dict = {'happy': 0, 'angry': 1, 'sad': 2, 'relaxed': 3}
+    # target_dict = {'happy': 0, 'angry': 1, 'sad': 2, 'relaxed': 3}
+    target_dict = {'happy': [1.,0.,0.,0.], 'angry': [0.,1.,0.,0.], 'sad': [0.,0.,1.,0.], 'relaxed': [0.,0.,0.,1.]}
+
 
     for index, row in dataset.iterrows():
         lyric, _ = clean_lyric(row['lyric'], row['title'])
@@ -108,11 +109,9 @@ def vec_to_tensor(inputs, tags, masks, segs):
 
     return inputs, tags, masks, segs
 
-
 def fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_masks, val_segs, hyperparameters):
 
     print('Start fine-tuning...')
-    print(tr_tags[:10])
 
     tr_inputs, tr_tags, tr_masks, tr_segs = vec_to_tensor(tr_inputs, tr_tags, tr_masks, tr_segs)
     val_inputs, val_tags, val_masks, val_segs = vec_to_tensor(val_inputs, val_tags, val_masks, val_segs)
@@ -124,9 +123,7 @@ def fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_m
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     n_gpu = torch.cuda.device_count()
 
-    num_labels = 4  
-
-    model = XLNetForSequenceClassification.from_pretrained('xlnet-base-cased', num_labels=num_labels, problem_type="multi_label_classification")
+    model = XLNetForSequenceClassification.from_pretrained('xlnet-base-cased', num_labels=4, problem_type="multi_label_classification")
     model.to(device)
     if n_gpu > 1:
         model = torch.nn.DataParallel(model)
@@ -146,25 +143,27 @@ def fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_m
 
     optimizer = torch.optim.Adam(optimizer_grouped_parameters, lr=hyperparameters['lr'], eps=hyperparameters['eps'])
 
+    print(model)
+
     model.train()
     print("***** Running training *****")
     print(f"  Num examples = {len(tr_inputs)}")
     print(f"  Batch size = {hyperparameters['batch_size']}")
     print(f"  Num steps = {hyperparameters['epochs']}")
-
+    
 
     for _ in range(hyperparameters['epochs']):
         tr_loss = 0
         nb_tr_examples = 0
         nb_tr_steps = 0
 
-        for step, batch in enumerate(train_dataloader):
+        for batch in train_dataloader:
             batch = tuple(t.to(device) for t in batch)
-            b_input_ids, b_input_mask, b_segs,b_labels = batch
+            b_input_ids, b_input_mask, b_segs, b_labels = batch
 
             # forward pass
-            outputs = model(input_ids =b_input_ids,token_type_ids=b_segs, input_mask = b_input_mask,labels=b_labels)
-            loss, logits = outputs[:2]
+            outputs = model(input_ids =b_input_ids, token_type_ids=b_segs, input_mask = b_input_mask, labels=b_labels)
+            loss, _ = outputs[:2]
             if n_gpu>1:
                 loss = loss.mean()
 
@@ -197,7 +196,6 @@ def test_model(model, test_inputs, test_tags, test_masks, test_segs):
     model.eval()
 
     eval_loss = 0
-    eval_accuracy = 0
     nb_eval_steps = 0
     
     y_true = []

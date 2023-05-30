@@ -355,7 +355,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.simple_run:
-        
+        main()
         pass
 
     elif args.grid_search:
@@ -368,4 +368,4 @@ if __name__ == '__main__':
         print('For grid search: python train_svm.py --grid_search')
         sys.exit(0)
 
-    main()
+    
