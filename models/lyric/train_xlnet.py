@@ -34,7 +34,7 @@ def preprocess(dataset, remove_newline):
 
     return dataset
 
-def tokenize_lyric(texts):
+def tokenize_lyric(texts, hyperparameters):
 
     lyrics = texts.to_list() 
 
@@ -245,7 +245,18 @@ if __name__ == '__main__':
         remove_newline = True
         dataset = preprocess(en_dataset, remove_newline)
 
-        full_input_ids, full_input_masks, full_segment_ids = tokenize_lyric(dataset['lyric'])
+        hyperparameters = {'batch_size': 32,
+                           'epochs': 10,
+                            'lr': 2e-5, 
+                            'eps': 1e-8, 
+                            'max_grad_norm': 1.0, 
+                            'warmup_steps': 0, 
+                            'weight_decay': 0.0,
+                            'max_grad_norm': 1.0,
+                            'max_seq_length': 32,
+                            }
+        
+        full_input_ids, full_input_masks, full_segment_ids = tokenize_lyric(dataset['lyric'], hyperparameters)
         tags = dataset['mood'].to_list()
         
         tr_inputs, test_inputs, tr_tags, test_tags, tr_masks, test_masks, tr_segs, test_segs = train_test_split(full_input_ids, tags, full_input_masks, full_segment_ids, random_state=SEED, test_size=0.3)
@@ -265,16 +276,7 @@ if __name__ == '__main__':
 
         val_inputs, test_inputs, val_tags, test_tags, val_masks, test_masks, val_segs, test_segs = train_test_split(test_inputs, test_tags, test_masks, test_segs, random_state=SEED, test_size=0.5)    
         
-        hyperparameters = {'batch_size': 32,
-                           'epochs': 10,
-                            'lr': 2e-5, 
-                            'eps': 1e-8, 
-                            'max_grad_norm': 1.0, 
-                            'warmup_steps': 0, 
-                            'weight_decay': 0.0,
-                            'max_grad_norm': 1.0,
-                            'max_seq_length': 32,
-                            }
+        
         
         print('hyperparameters:')
         for key, value in hyperparameters.items():
