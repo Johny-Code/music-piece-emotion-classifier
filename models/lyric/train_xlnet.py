@@ -145,7 +145,7 @@ def fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_m
 
     print(model)
 
-    model.train()
+    
     print("***** Running training *****")
     print(f"  Num examples = {len(tr_inputs)}")
     print(f"  Batch size = {hyperparameters['batch_size']}")
@@ -156,6 +156,8 @@ def fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_m
         tr_loss = 0
         nb_tr_examples = 0
         nb_tr_steps = 0
+
+        model.train()
 
         for batch in train_dataloader:
             batch = tuple(t.to(device) for t in batch)
@@ -182,6 +184,10 @@ def fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_m
             optimizer.zero_grad()
 
         print(f"Train loss: {tr_loss/nb_tr_steps}")
+
+        #TODO
+        # validation loop here
+
 
     return model
 
@@ -229,6 +235,27 @@ def test_model(model, test_inputs, test_tags, test_masks, test_segs):
 
     print(classification_report(y_true, y_pred))
 
+def simple_run(hyperparameters):
+    
+    dataset_path = os.path.join('..', 'database', 'lyrics')
+    duplicated_path = os.path.join('database', 'removed_rows.json') 
+
+    en_dataset = load_en_dataset(dataset_path, duplicated_path)
+
+    remove_newline = True
+    dataset = preprocess(en_dataset, remove_newline)
+    
+    full_input_ids, full_input_masks, full_segment_ids = tokenize_lyric(dataset['lyric'], hyperparameters)
+    tags = dataset['mood'].to_list()
+    
+    tr_inputs, test_inputs, tr_tags, test_tags, tr_masks, test_masks, tr_segs, test_segs = train_test_split(full_input_ids, tags, full_input_masks, full_segment_ids, random_state=SEED, test_size=0.3)
+    
+    val_inputs, test_inputs, val_tags, test_tags, val_masks, test_masks, val_segs, test_segs = train_test_split(test_inputs, test_tags, test_masks, test_segs, random_state=SEED, test_size=0.5)    
+    
+    model = fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_masks, val_segs, hyperparameters)
+    
+    test_model(model, test_inputs, test_tags, test_masks, test_segs)
+
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
@@ -237,15 +264,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.simple_run:
-        
-        dataset_path = os.path.join('..', 'database', 'lyrics')
-        duplicated_path = os.path.join('database', 'removed_rows.json') 
-
-        en_dataset = load_en_dataset(dataset_path, duplicated_path)
-
-        remove_newline = True
-        dataset = preprocess(en_dataset, remove_newline)
-
+    
         hyperparameters = {'batch_size': 32,
                            'epochs': 10,
                             'lr': 2e-5, 
@@ -261,20 +280,38 @@ if __name__ == '__main__':
         for key, value in hyperparameters.items():
             print(key, ' : ', value)
 
-        
-        full_input_ids, full_input_masks, full_segment_ids = tokenize_lyric(dataset['lyric'], hyperparameters)
-        tags = dataset['mood'].to_list()
-        
-        tr_inputs, test_inputs, tr_tags, test_tags, tr_masks, test_masks, tr_segs, test_segs = train_test_split(full_input_ids, tags, full_input_masks, full_segment_ids, random_state=SEED, test_size=0.3)
-        
-        val_inputs, test_inputs, val_tags, test_tags, val_masks, test_masks, val_segs, test_segs = train_test_split(test_inputs, test_tags, test_masks, test_segs, random_state=SEED, test_size=0.5)    
-        
-        model = fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_masks, val_segs, hyperparameters)
-        
-        test_model(model, test_inputs, test_tags, test_masks, test_segs)
+        simple_run(hyperparameters)
 
     elif args.grid_search:
-        pass
+        
+        print('grid search')
+
+        params = {'batch_size': [16, 32, 64],
+                  'epochs': [10, 20, 30],
+                  'lr': [1e-5, 1e-4, 0.001, 0.01, 0.1],
+                  'max_seq_length': [32, 128, 256, 512, 1024] }            
+        
+        for batch in params['batch_size']:
+            for epoch in params['epochs']:
+                for lr in params['lr']:
+                    for max_seq_length in params['max_seq_length']:
+
+                        hyperparameters = {'batch_size': batch,
+                                           'epochs': epoch,
+                                            'lr': lr, 
+                                            'eps': 1e-8, 
+                                            'max_grad_norm': 1.0, 
+                                            'warmup_steps': 0, 
+                                            'weight_decay': 0.0,
+                                            'max_grad_norm': 1.0,
+                                            'max_seq_length': max_seq_length,
+                                            }
+
+                        print('hyperparameters:')
+                        for key, value in hyperparameters.items():
+                            print(key, ' : ', value)
+
+                        simple_run(hyperparameters)
 
     else:
         print('Please specify --simple_run or --grid_search')
