@@ -211,7 +211,7 @@ def get_duplicate_lines(lines):
             try:
                 next_line = lines[i + 1]
             except IndexError:
-                next_line = None
+                next_line = ' '
             if set(current_line) == set(next_line):
                 duplicate_lines += 1
     try:
