@@ -208,7 +208,10 @@ def get_duplicate_lines(lines):
             break
         else:
             current_line = line
-            next_line = lines[i + 1]
+            try:
+                next_line = lines[i + 1]
+            except IndexError:
+                next_line = None
             if set(current_line) == set(next_line):
                 duplicate_lines += 1
     try:
