@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-def draw_confusion_matrix(cm, target_names, cmap=None, output_path=None):
+def draw_confusion_matrix(cm, target_names, output_path = None, cmap = None):
 
     if not os.path.exists(output_path):
         os.makedirs(output_path)
@@ -18,7 +18,7 @@ def draw_confusion_matrix(cm, target_names, cmap=None, output_path=None):
         actual_date = datetime.datetime.now()
         output_path_name = os.path.join(output_path,
                                         f'{actual_date.year}-{actual_date.month}-{actual_date.day}_{actual_date.hour}-{actual_date.minute}-{actual_date.second}_cm.png')
-        plt.savefig(f"{output_path}_cm.png")
+        plt.savefig(f"{output_path_name}_cm.png")
     else:
         plt.show()
 

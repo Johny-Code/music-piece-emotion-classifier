@@ -1,7 +1,8 @@
+import sys
 import os
-import re
-import random
+import argparse
 import fasttext
+import time
 import pandas as pd
 
 from datetime import datetime
@@ -9,19 +10,23 @@ from csv import QUOTE_NONE
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
 
-from tools.extract_features_from_lyric import load_en_dataset, clean_lyric
-from utils.draw_plot import draw_confusion_matrix
+from train_svm import TARGET_NAMES
+sys.path.append("utils/")
+from draw_plot import draw_confusion_matrix
+sys.path.append("tools/")
+from extract_features_from_lyric import load_en_dataset, clean_lyric
+
 
 SEED = 100
 
 
-def fasttext_preprocess(dataset, save_path, remove_newline=False):
+def fasttext_preprocess(dataset, save_path, replace_newline):
 
     for index, row in dataset.iterrows():
         lyric, _ = clean_lyric(row['lyric'], row['title'])
 
-        if remove_newline:
-            lyric = lyric.replace('\n', ' ')
+        if replace_newline:
+            lyric = lyric.replace('\n', replace_newline)
 
         dataset.at[index, 'lyric'] = lyric
         dataset.at[index, 'mood'] = '__label__' + row['mood']
@@ -41,13 +46,18 @@ def fasttext_preprocess(dataset, save_path, remove_newline=False):
 
 def train_fasttext(hyperparams):
 
+    start = time.time()
     model = fasttext.train_supervised(input=hyperparams['train'],
-                                      autotuneValidationFile=hyperparams['valid'],
-                                      autotuneDuration=120)
+                                      wordNgrams=hyperparams['wordNgrams'],
+                                      lr=hyperparams['lr'],
+                                      ws=hyperparams['ws'],  # size of the context window
+                                      epoch=hyperparams['epoch'],
+                                      loss=hyperparams['loss'],
+                                      thread=hyperparams['thread'])
+    end = time.time()
+    print(f'Training time: {round((end - start), 2)} seconds')
 
     now = datetime.now()
-    path_to_model = os.path.join('..', 'models', 'lyric', 'fasttext_models', f'fasttext_model_{now.strftime("%d%m%Y_%H%M%S")}.bin')
-    model.save_model(path_to_model)
 
     print(f'\nModel best parameters: \n'
           f'size of the context window: {model.ws} \n'
@@ -63,12 +73,10 @@ def train_fasttext(hyperparams):
     print(f'Test set recall: {recall}')
     print(f'Test set F1-score: {2 * (precision * recall) / (precision + recall)}')
 
-    return path_to_model
+    return model
 
 
-def test_fasttext(test_dataset, path_to_model, remove_newline):
-
-    model = fasttext.load_model(path_to_model)
+def test_fasttext(test_dataset, model):
 
     labels = {'__label__angry': 0, '__label__happy': 1, '__label__relaxed': 2, '__label__sad': 3}
 
@@ -77,8 +85,6 @@ def test_fasttext(test_dataset, path_to_model, remove_newline):
 
     test = []
     for lyric in test_dataset['lyric'].tolist():
-
-        lyric = lyric.replace('\n', ' ') if remove_newline else lyric
         test.append(lyric)
 
     score = model.predict(test)
@@ -87,42 +93,100 @@ def test_fasttext(test_dataset, path_to_model, remove_newline):
         y_true.append(labels[true_label])
         y_pred.append(labels[pred_label[0]])
 
-    target_names = ['angry', 'happy', 'relaxed', 'sad']
-    print(classification_report(y_true, y_pred, target_names=target_names))
+    print(classification_report(y_true, y_pred, target_names=TARGET_NAMES))
 
     cm = confusion_matrix(y_true, y_pred)
-    draw_confusion_matrix(cm, target_names)
+    print(cm)
+
+    output_path = os.path.join('models', 'lyric', 'history', 'svm')
+    draw_confusion_matrix(cm, TARGET_NAMES, output_path)
 
 
-def main():
-
-    dataset_path = os.path.join('..', '..', 'database', 'lyrics')
-    duplicate_path = os.path.join('..', 'database', 'removed_rows.json')
+def create_dataset(replace_newline):
+    dataset_path = os.path.join('..', 'database', 'lyrics')
+    duplicate_path = os.path.join('database', 'removed_rows.json')
 
     en_dataset = load_en_dataset(dataset_path, duplicate_path)
 
     train, test = train_test_split(en_dataset, test_size=0.3, random_state=SEED)
-    valid, test = train_test_split(test, test_size=0.5, random_state=SEED)
 
-    remove_newline = True
+    dataset_path = os.path.join('database', 'fasttext')
+    if not os.path.exists(os.path.join(dataset_path)):
+        os.makedirs(os.path.join(dataset_path))
 
-    output_path_train = os.path.join('..', 'database', 'fasttext', 'lyric.train')
-    _ = fasttext_preprocess(train, output_path_train, remove_newline)
+    output_path_train = os.path.join(dataset_path, 'lyric.train')
+    _ = fasttext_preprocess(train, output_path_train, replace_newline)
 
-    output_path_valid = os.path.join('..', 'database', 'fasttext', 'lyric.test')
-    test_dataset = fasttext_preprocess(valid, output_path_valid, remove_newline)
+    output_path_test = os.path.join(dataset_path, 'lyric.test')
+    test_dataset = fasttext_preprocess(test, output_path_test, replace_newline)
 
-    output_path_test = os.path.join('..', 'database', 'fasttext', 'lyric.valid')
-    _ = fasttext_preprocess(test, output_path_test, remove_newline)
+    return output_path_train, output_path_test, test_dataset
 
-    hyperparams = {'train': output_path_train,
-                   'valid': output_path_valid,
-                   'test': output_path_test}
 
-    path_to_model = train_fasttext(hyperparams)
+def simple_run(hyperparams):
 
-    test_fasttext(test_dataset, path_to_model, remove_newline)
+    start = time.time()
+    hyperparams['train'], hyperparams['test'], test_dataset = create_dataset(hyperparams['replace_newline'])
+    end = time.time()
+    print(f'Creating dataset took {round((end - start), 2)} seconds')
+
+    model = train_fasttext(hyperparams)
+
+    test_fasttext(test_dataset, model)
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--simple_run', action='store_true')
+    parser.add_argument('--grid_search', action='store_true')
+    args = parser.parse_args()
+
+    if args.simple_run:
+
+        hyperparams = {'train': '',
+                       'test': '',
+                       'wordNgrams': 2,
+                       'lr': 0.1,
+                       'ws': 5,
+                       'epoch': 5,
+                       'loss': 'softmax',
+                       'thread': 4,
+                       'replace_newline': ' '
+                       }
+
+        simple_run(hyperparams)
+
+    elif args.grid_search:
+
+        params = {'wordNgrams': [2, 3, 4],
+                  'lr': [0.001, 0.01, 0.1],
+                  'ws': [5, 10, 15],
+                  'epoch': [20, 50, 100],
+                  'loss': ['softmax', 'hs', 'ns'],
+                  'thread': [16],
+                  'replace_newline': [' ', 'newline', '_']}
+
+        for wordNgrams in params['wordNgrams']:
+            for lr in params['lr']:
+                for ws in params['ws']:
+                    for epoch in params['epoch']:
+                        for loss in params['loss']:
+                            for thread in params['thread']:
+                                for replace_newline in params['replace_newline']:
+                                    hyperparams = {'train': '',
+                                                   'test': '',
+                                                   'wordNgrams': wordNgrams,
+                                                   'lr': lr,
+                                                   'ws': ws,
+                                                   'epoch': epoch,
+                                                   'loss': loss,
+                                                   'thread': thread,
+                                                   'replace_newline': replace_newline
+                                                   }
+                                    simple_run(hyperparams)
+
+    else:
+        print('Please specify --simple_run or --grid_search')
+        print('For simple run: python train_svm.py --simple_run')
+        print('For grid search: python train_svm.py --grid_search')
+        sys.exit(0)
