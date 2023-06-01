@@ -87,6 +87,10 @@ def clean_features(df):
     y = []
 
     for row in df.iterrows():
+
+        print(row[0])
+        print[row[1]]
+
         y.append(target_dict[row[0]])
 
         features = row[1]
