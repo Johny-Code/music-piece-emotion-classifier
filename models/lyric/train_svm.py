@@ -87,9 +87,26 @@ def clean_features(df):
     y = []
 
     for row in df.iterrows():
-        emotion = row[1]
-        print('------------------')
-        print(emotion['emotion'])
+        
+        # emotion                                                             relaxed
+        # lyrics_vector             [ 4.99442816e-01  9.21062171e-01 -1.70907545e+...
+        # echoisms                                                                  0
+        # duplicate_lines                                                           0
+        # title_in_lyric                                                         True
+        # verb_present_freq                                                        61
+        # verb_past_freq                                                            0
+        # verb_future_freq                                                          0
+        # count_ADJ                                                                 9
+        # count_PUNCT                                                               0
+        # sentiment_polarity                                                0.0788333
+        # sentiment_subjectivity                                             0.521861
+        # Name: 1483, dtype: object
+
+        print(f"row: {row}")
+        print("---------------")
+        print(f"row[0] = {row[0]}")
+        print("---------------")
+        print(f"row[1] = {row[1]}")
 
         # y.append(target_dict[row[1]])
 
