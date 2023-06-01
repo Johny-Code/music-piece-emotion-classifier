@@ -89,9 +89,14 @@ def clean_features(df):
     for row in df.iterrows():
         emotion = row[1]
         print(emotion)
+        print('------------------')
 
         y.append(target_dict[row[1]])
         
+        print(y)
+        print('------------------')
+
+
         vector = row[2]
         print(vector)
         exit(0)
