@@ -108,6 +108,7 @@ def clean_features(df):
         y.append(target_dict[emotion])
 
         vector = row[1][1]
+        print(f"vector = {vector}")
         vector = vector.replace('[', '')
         vector = vector.replace(']', '')
         vector = vector.replace('\n', '')
