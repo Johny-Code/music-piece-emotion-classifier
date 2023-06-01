@@ -130,6 +130,9 @@ def clean_features(df):
 
         temp.extend(vector_cleaned)
 
+        print(temp[0])
+        exit(0)
+
         if len(temp) != 310: print(f"Length of input vector is {len(temp)}")
 
         X.append(temp)
