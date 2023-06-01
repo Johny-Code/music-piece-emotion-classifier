@@ -107,6 +107,8 @@ def clean_features(df):
         print(f"row[0] = {row[0]}")
         print("---------------")
         print(f"row[1] = {row[1]}")
+        print("---------------")
+        print(f"row[2] = {row[2]}")
 
         # y.append(target_dict[row[1]])
 
