@@ -102,13 +102,9 @@ def clean_features(df):
         # sentiment_subjectivity                                             0.521861
         # Name: 1483, dtype: object
 
-        print(f"row: {row}")
-        print("---------------")
-        print(f"row[0] = {row[0]}")
-        print("---------------")
         print(f"row[1] = {row[1]}")
         print("---------------")
-        print(f"row[2] = {row[2]}")
+        print(f"row[1][0] {row[1][0]}")
 
         # y.append(target_dict[row[1]])
 
