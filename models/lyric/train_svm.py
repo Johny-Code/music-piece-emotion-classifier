@@ -103,6 +103,8 @@ def clean_features(df):
         # Name: 1483, dtype: object
 
         emotion = row[1][0]
+        print(emotion)
+        print(target_dict[emotion])
         y.append(target_dict[emotion])
 
         vector = row[1][1]
