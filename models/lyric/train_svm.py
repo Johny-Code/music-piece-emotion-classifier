@@ -89,7 +89,7 @@ def clean_features(df):
     for row in df.iterrows():
 
         print(row[0])
-        print[row[1]]
+        print(row[1])
 
         y.append(target_dict[row[0]])
 
