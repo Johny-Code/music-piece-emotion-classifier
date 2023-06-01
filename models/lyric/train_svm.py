@@ -29,7 +29,7 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
 
     start = time.time()
 
-    svm_clf = svm.SVC(kernel=svm_params['kernel'], gamma=svm_params['gamma'])
+    svm_clf = svm.SVC(kernel=svm_params['kernel'], gamma=svm_params['gamma'], C=svm_params['C'])
     svm_clf.fit(X_train, y_train)
     end = time.time()
     print(f'Training time: {end - start}')
@@ -88,27 +88,10 @@ def clean_features(df):
 
     for row in df.iterrows():
         
-        # emotion                                                             relaxed
-        # lyrics_vector             [ 4.99442816e-01  9.21062171e-01 -1.70907545e+...
-        # echoisms                                                                  0
-        # duplicate_lines                                                           0
-        # title_in_lyric                                                         True
-        # verb_present_freq                                                        61
-        # verb_past_freq                                                            0
-        # verb_future_freq                                                          0
-        # count_ADJ                                                                 9
-        # count_PUNCT                                                               0
-        # sentiment_polarity                                                0.0788333
-        # sentiment_subjectivity                                             0.521861
-        # Name: 1483, dtype: object
-
         emotion = row[1][0]
-        print(emotion)
-        print(target_dict[emotion])
         y.append(target_dict[emotion])
 
         vector = row[1][1]
-        print(f"vector = {vector}")
         vector = vector.replace('[', '')
         vector = vector.replace(']', '')
         vector = vector.replace('\n', '')
@@ -120,8 +103,6 @@ def clean_features(df):
             if value != '':
                 vector_cleaned.append(float(value))
 
-        print(f"Vector cleaned: {vector_cleaned}")
-
         temp = []
         for i, ele in enumerate(row[1][2:11]):
             print(ele)
@@ -132,16 +113,7 @@ def clean_features(df):
                     temp.append(0)
                 temp.append(ele)
 
-        temp.extend(vector_cleaned)
-
-
-        if len(temp) != 309: print(f"Length of input vector is {len(temp)}")
-
-
         X.append(temp)
-
-        print(X[0])
-        exit(0)
 
     return X, y
 
@@ -167,7 +139,7 @@ if __name__ == '__main__':
 
     if args.simple_run:
         X_train, X_test, y_train, y_test = load_data()
-        svm_params = {'kernel': 'rbf', 'gamma': 0.3}
+        svm_params = {'kernel': 'rbf', 'gamma': 0.3, 'C': 220}
         _ = train_svm(svm_params, X_train, y_train, X_test, y_test)
 
     elif args.grid_search:
