@@ -120,8 +120,11 @@ def clean_features(df):
             if value != '':
                 vector_cleaned.append(float(value))
 
+        print(f"Vector cleaned: {vector_cleaned}")
+
         temp = []
         for i, ele in enumerate(row[1][2:11]):
+            print(ele)
             if i < 10:
                 if ele == 'True':
                     temp.append(1)
