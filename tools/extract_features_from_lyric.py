@@ -60,6 +60,15 @@ def load_lyric_dataset(input_path, rows_to_remove):
             print(f"For {file_path} there is no title")
 
         try:
+            title_genius = song_info['song']['title']
+            if set(title_genius) != set(title):
+                print(f"For {file_path} title in genius is different than in dataset")
+                print(f"{title} != {title_genius}")
+
+        except BaseException:
+            title_genius = None
+            print(f"For {file_path} there is no title in genius")
+        try:
             lyric = song_info['song']['lyrics']
             if lyric == '':
                 print(f"For {file_path} lyric is empty")
@@ -70,9 +79,11 @@ def load_lyric_dataset(input_path, rows_to_remove):
         try:
             language = song_info['song']['language']
             if language is None:
+                print(f"Song id = {id}")
                 language = detect_language(lyric)
         except BaseException:
             print(f"For {file_path} there is no language info in dataset")
+            print(f"Song id = {id}")
             language = detect_language(lyric)
 
         try:
@@ -106,17 +117,79 @@ def get_duplicated_rows(file_path):
 
     return rows_to_remove
 
+def language_summary(dataset):
+    languages = {
+                'en' : 0,       #english
+                'None' :0,      #none
+                'de' : 0,       #german
+                'es' : 0,       #spanish
+                'fi' : 0,       #finish
+                'fr' : 0,       #french
+                'ga' : 0,       #irish
+                'gd' : 0,       #gealish/scotish
+                'id' : 0,       #indonesian
+                'it' : 0,       #italian
+                'ja' : 0,       #japaniese
+                'no' : 0,       #norwegian
+                'pl' : 0,       #polish
+                'pt' : 0,       #portuguese
+                'ro' : 0,       #romanian
+                'sv' : 0,       #swedish
+                'tr' : 0,       #turkish
+                'so' : 0,
+                'cs' : 0,
+                'sw' : 0}       
+    
+    languages_abreviation = {
+                'en' : 'english',
+                'None' : 'none',
+                'de' : 'german',
+                'es' : 'spanish',
+                'fi' : 'finish',
+                'fr' : 'french',
+                'ga' : 'irish',
+                'gd' : 'gealish/scotish',
+                'id' : 'indonesian',
+                'it' : 'italian',
+                'ja' : 'japaniese',
+                'no' : 'norwegian',
+                'pl' : 'polish',
+                'pt' : 'portuguese',
+                'ro' : 'romanian',
+                'sv' : 'swedish',
+                'tr' : 'turkish',
+                'so' : 'somali',
+                'cs' : 'czech' ,
+                'sw' : 'swahili'}
+    
+    for _, row in dataset.iterrows():
+        languages[str(row['language'])] += 1
+
+    sorted_languages = sorted(languages.items(), key=lambda x:x[1])
+
+    sum = 0
+
+    print('Languages summary:')
+    for key, value in sorted_languages:
+        print(f'Detected {value} songs in {languages_abreviation[key]}')
+        sum += value
+
+    print(f'Total number of songs: {sum}')
 
 def load_en_dataset(dataset_path, duplicated_path):
 
     rows_to_remove = get_duplicated_rows(duplicated_path)
-
+    
     dataset = load_lyric_dataset(dataset_path, rows_to_remove)
 
-    dataset = dataset.loc[dataset['language'] == "en"]
-    en_dataset = dataset.loc[dataset['instrumental'] == False]
+    
+    dataset = dataset.loc[dataset['instrumental'] == False]
+    
+    language_summary(dataset)
 
-    return en_dataset
+    dataset = dataset.loc[dataset['language'] == "en"]
+    
+    return dataset
 
 
 def clean_lyric(lyric, title):
@@ -320,11 +393,12 @@ def extract_all_features(df):
 
 
 if __name__ == '__main__':
-    dataset_path = os.path.join('..', 'database', 'lyrics')
-    duplicate_path = os.path.join('database', 'removed_rows.json')
+    dataset_path = os.path.join('..', '..', 'database', 'lyrics')
+    duplicate_path = os.path.join('..', 'database', 'removed_rows.json')
 
     en_dataset = load_en_dataset(dataset_path, duplicate_path)
 
+    exit(0)
     start = time.time()
     features_df = extract_all_features(en_dataset)
 
