@@ -103,8 +103,7 @@ def clean_features(df):
         # Name: 1483, dtype: object
 
         emotion = row[1][0]
-        print(f"row[1][0] {row[1][0]}")
-
+        y.append(target_dict[emotion])
 
         vector = row[1][1]
         vector = vector.replace('[', '')
@@ -128,6 +127,8 @@ def clean_features(df):
                 temp.append(ele)
 
         temp.extend(vector_cleaned)
+
+        if len(temp) != 310: print(f"Length of input vector is {len(temp)}")
 
         X.append(temp)
 
