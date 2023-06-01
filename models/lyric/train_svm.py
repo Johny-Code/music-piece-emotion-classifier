@@ -88,8 +88,8 @@ def clean_features(df):
 
     for row in df.iterrows():
         features = row
-        print(features['emotion'])
-        print(features['lyrics_vector'])
+        print(features[0])
+        print(features[1])
         exit(0)
         y.append(target_dict[features['emotion']])
         
