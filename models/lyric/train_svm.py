@@ -91,15 +91,10 @@ def clean_features(df):
         print(emotion)
         print('------------------')
 
-        y.append(target_dict[row[1]])
-        
-        print(y)
-        print('------------------')
+        # y.append(target_dict[row[1]])
 
-
-        vector = row[2]
-        print(vector)
         exit(0)
+        vector = row[2]
         vector = vector.replace('[', '')
         vector = vector.replace(']', '')
         vector = vector.replace('\n', '')
