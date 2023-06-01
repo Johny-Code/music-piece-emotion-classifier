@@ -102,14 +102,11 @@ def clean_features(df):
         # sentiment_subjectivity                                             0.521861
         # Name: 1483, dtype: object
 
-        print(f"row[1] = {row[1]}")
-        print("---------------")
+        emotion = row[1][0]
         print(f"row[1][0] {row[1][0]}")
 
-        # y.append(target_dict[row[1]])
 
-        exit(0)
-        vector = row[2]
+        vector = row[1][1]
         vector = vector.replace('[', '')
         vector = vector.replace(']', '')
         vector = vector.replace('\n', '')
@@ -122,7 +119,7 @@ def clean_features(df):
                 vector_cleaned.append(float(value))
 
         temp = []
-        for i, ele in enumerate(features):
+        for i, ele in enumerate(row[1][2:11]):
             if i < 10:
                 if ele == 'True':
                     temp.append(1)
