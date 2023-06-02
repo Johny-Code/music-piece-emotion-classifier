@@ -56,7 +56,10 @@ def train_fasttext(hyperparams):
                                             loss=hyperparams['loss'],
                                             thread=hyperparams['thread'])
     else:
-        model = fasttext.train_supervised(input=hyperparams['train'], autotuneValidationFile=hyperparams['valid'], autotuneDuration=hyperparams['autotune_duration'])
+        model = fasttext.train_supervised(input=hyperparams['train'], 
+                                          autotuneValidationFile=hyperparams['valid'], 
+                                          autotuneDuration=hyperparams['autotune_duration'],
+                                          loss = hyperparams['loss'])
 
     end = time.time()
     print(f'Training time: {round((end - start), 2)} seconds')
@@ -158,7 +161,7 @@ if __name__ == '__main__':
                        'lr': 0.1,
                        'ws': 5,
                        'epoch': 5,
-                       'loss': 'softmax',
+                       'loss': 'ova',
                        'thread': 4,
                        'replace_newline': ' ',
                         'autotune_duration': None 
@@ -172,7 +175,7 @@ if __name__ == '__main__':
                   'lr': [0.001, 0.01, 0.1],
                   'ws': [5, 10, 15],
                   'epoch': [20, 50, 100],
-                  'loss': ['softmax', 'hs', 'ns'],
+                  'loss': ['ova'],
                   'thread': [16],
                   'replace_newline': [' ', 'newline', '_']}
 
@@ -203,7 +206,7 @@ if __name__ == '__main__':
                        'lr': 0.1,
                        'ws': 5,
                        'epoch': 5,
-                       'loss': 'softmax',
+                       'loss': 'ova',
                        'thread': 4,
                        'replace_newline': ' ',
                         'autotune_duration': 600
