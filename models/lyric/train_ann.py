@@ -17,7 +17,11 @@ def clean_features(df):
 
     target_dict = {'happy': 0, 'angry': 1, 'sad': 2, 'relaxed': 3}
 
-    ohe = OneHotEncoder()
+    ohe = OneHotEncoder( categories='auto',  # Categories per feature
+            drop=None, # Whether to drop one of the features
+            sparse=True, # Will return sparse matrix if set True
+            handle_unknown='error' # Whether to raise an error 
+        ) 
 
     X = []
     y = []
