@@ -81,10 +81,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.simple_run:
-
-        run = wandb.init(project='feature-based-ann',
-                   
-                   config={'lr': 0.02,
+        
+        config={'lr': 0.02,
                            'epochs': 100,
                            'batch_size': 32,
                            'dense_size': 128,
@@ -92,12 +90,18 @@ if __name__ == '__main__':
                            'dropout': 0.2,
                            'optimizer': 'adam'
                            }
+        
+        run = wandb.init(project='feature-based-ann',
+                   
+                   config=config
                     
                 )
                     
         X_train, X_test, y_train, y_test = load_data()
 
-        train_ann(X_train, y_train, X_test, y_test, run.config)
+        train_ann(X_train, y_train, X_test, y_test, config)
+
+        wandb.finish()
 
     elif args.grid_search:
         pass
