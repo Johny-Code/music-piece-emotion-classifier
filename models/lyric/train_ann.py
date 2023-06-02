@@ -36,8 +36,8 @@ def train_ann(X_train, y_train, X_test, y_test, params):
 
     X_test, y_test, X_val, y_val = train_test_split(X_test, y_test, test_size=0.5, random_state=SEED)
 
-    input_size = len(X_train[0])
-    output_size = len(TARGET_NAMES)
+    input_size = 309
+    output_size = 4
 
     model = build_4_dense_ann(input_size, params['dense_size'], output_size, params['activation'], params['dropout'], params['optimizer'])
 
@@ -83,13 +83,13 @@ if __name__ == '__main__':
     if args.simple_run:
         
         config={'lr': 0.02,
-                           'epochs': 100,
-                           'batch_size': 32,
-                           'dense_size': 128,
-                           'activation': 'relu',
-                           'dropout': 0.2,
-                           'optimizer': 'adam'
-                           }
+                'epochs': 100,
+                'batch_size': 32,
+                'dense_size': 128,
+                'activation': 'relu',
+                'dropout': 0.2,
+                'optimizer': 'adam'
+                }
         
         run = wandb.init(project='feature-based-ann',
                    
