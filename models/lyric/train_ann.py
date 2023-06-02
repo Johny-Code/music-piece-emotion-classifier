@@ -15,7 +15,7 @@ from train_svm import load_data, TARGET_NAMES, SEED
 
 def build_4_dense_ann(input_size=309, dense_size=128, output_size=4, activation='relu', dropout=0.2, optimizer='adam'):
 
-    model = keras.models.Sequential(
+    model = keras.models.Sequential([
         keras.layers.Dense(dense_size, input_dim=input_size, activation=activation),
         keras.layers.Dropout(dropout),
         keras.layers.Dense(dense_size, activation=activation),
@@ -25,7 +25,7 @@ def build_4_dense_ann(input_size=309, dense_size=128, output_size=4, activation=
         keras.layers.Dense(dense_size, activation=activation),
         keras.layers.Dropout(dropout),
         keras.layers.Dense(output_size, activation='softmax')
-    )
+    ])
 
     model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
 
