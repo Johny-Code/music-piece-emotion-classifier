@@ -184,7 +184,7 @@ if __name__ == '__main__':
     elif args.grid_search:
         
         params = {'lr': [0.02, 0.01, 0.001, 0.005, 0.01],
-                  'epochs': [4, 6, 8, 10, 12],
+                  'epochs': [5, 10, 15, 20, 25],
                   'batch_size': [32, 64, 128],
                   'dense_size': [128, 256, 512],
                   'dropout': [0.2, 0.3, 0.4]}
