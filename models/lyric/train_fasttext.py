@@ -152,7 +152,8 @@ if __name__ == '__main__':
                        'epoch': 5,
                        'loss': 'softmax',
                        'thread': 4,
-                       'replace_newline': ' '
+                       'replace_newline': ' ',
+                        'autotune_duration': None 
                        }
 
         simple_run(hyperparams)
@@ -182,7 +183,8 @@ if __name__ == '__main__':
                                                    'epoch': epoch,
                                                    'loss': loss,
                                                    'thread': thread,
-                                                   'replace_newline': replace_newline
+                                                   'replace_newline': replace_newline,
+                                                   'autotune_duration': None
                                                    }
                                     simple_run(hyperparams)
                                     

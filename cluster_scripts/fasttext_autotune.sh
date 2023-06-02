@@ -1,8 +1,8 @@
 #!/bin/bash -l
 #
-#SBATCH -J fasttext_simple_run
-#SBATCH -o logs/fasttext_simple_run."%j".out
-#SBATCH -e logs/fasttext_simple_run."%j".err
+#SBATCH -J fasttext_autotune
+#SBATCH -o logs/fasttext_autotune."%j".out
+#SBATCH -e logs/fasttext_autotune."%j".err
 #
 #SBATCH --mail-user s175502@student.pg.edu.pl
 #SBATCH --mail-type=ALL
@@ -13,4 +13,4 @@
 # activate python venv
 source .././emotion_env/bin/activate
 
-python3 models/lyric/train_fasttext.py --simple_run
+python3 models/lyric/train_fasttext.py --autotune
