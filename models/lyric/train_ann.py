@@ -15,7 +15,10 @@ from train_svm import read_data, TARGET_NAMES, SEED
 
 def clean_features(df):
 
-    target_dict = {'happy': 0, 'angry': 1, 'sad': 2, 'relaxed': 3}
+    target_dict = {'happy': [1., 0., 0., 0.], 
+                   'angry': [0., 1., 0., 0.],
+                    'sad':  [0., 0., 1., 0.],
+                    'relaxed': [0., 0., 0., 1.]}
 
     ohe = OneHotEncoder( categories='auto',  # Categories per feature
             drop=None, # Whether to drop one of the features
@@ -56,10 +59,8 @@ def clean_features(df):
 
         X.append(temp)    
 
-    y_transformed = ohe.fit_transform(np.array(y).reshape(-1, 1))
-    X_transformed = np.array(X)
 
-    return X_transformed, y_transformed
+    return X, y
 
 def load_data():
 
