@@ -124,13 +124,17 @@ def create_dataset(replace_newline):
         os.makedirs(os.path.join(dataset_path))
 
     output_path_train = os.path.join(dataset_path, 'lyric.train')
-    _ = fasttext_preprocess(train, output_path_train, replace_newline)
+    train_dataset = fasttext_preprocess(train, output_path_train, replace_newline)
 
     output_path_valid = os.path.join(dataset_path, 'lyric.valid')
-    _ = fasttext_preprocess(valid, output_path_valid, replace_newline)
+    valid_dataset = fasttext_preprocess(valid, output_path_valid, replace_newline)
 
     output_path_test = os.path.join(dataset_path, 'lyric.test')
     test_dataset = fasttext_preprocess(test, output_path_test, replace_newline)
+
+    print(f'Train dataset size: {len(train_dataset)}')
+    print(f'Valid dataset size: {len(valid_dataset)}')
+    print(f'Test dataset size: {len(test_dataset)}')
 
     return output_path_train, output_path_valid, output_path_test, test_dataset
 
