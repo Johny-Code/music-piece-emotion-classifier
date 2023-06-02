@@ -188,6 +188,7 @@ if __name__ == '__main__':
                                 for replace_newline in params['replace_newline']:
                                     hyperparams = {'train': '',
                                                    'test': '',
+                                                   'valid': '',
                                                    'wordNgrams': wordNgrams,
                                                    'lr': lr,
                                                    'ws': ws,
@@ -202,6 +203,7 @@ if __name__ == '__main__':
     elif args.autotune:
         hyperparams = {'train': '',
                        'test': '',
+                       'valid': '',
                        'wordNgrams': 2,
                        'lr': 0.1,
                        'ws': 5,
