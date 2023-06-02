@@ -192,7 +192,7 @@ if __name__ == '__main__':
             for batch_size in params['batch_size']:
                 for dense_size in params['dense_size']:
                     for dropout in params['dropout']:
-                        for epochs in epochs['epochs']:
+                        for epochs in params['epochs']:
                             config={'lr': lr,
                                     'batch_size': batch_size,
                                     'dense_size': dense_size,
