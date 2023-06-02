@@ -144,11 +144,12 @@ def train_ann(X_train, y_train, X_test, y_test, params):
                 "macro_support":    report['macro avg']['support'],
                 "weighted_precision":  report['weighted avg']['precision'],
                 "weighted_recall":     report['weighted avg']['recall'],
-                "weighted_f1":         report['weighted avg']['f1-score']})
+                "weighted_f1":         report['weighted avg']['f1-score'],
+                "accuracy":            report['accuracy']})
 
 def simple_run(config):
 
-    wandb.init(project='feature-based-4-dense-ann-grid-search_v1',
+    wandb.init(project='feature-based-4-dense-ann-grid-search_v3',
                 config=config)
                 
     X_train, X_test, y_train, y_test = load_data()
@@ -183,7 +184,7 @@ if __name__ == '__main__':
     elif args.grid_search:
         
         params = {'lr': [0.02, 0.01, 0.001, 0.005, 0.01],
-                  'epochs': [5, 10, 30, 50, 100],
+                  'epochs': [4, 6, 8, 10, 12],
                   'batch_size': [32, 64, 128],
                   'dense_size': [128, 256, 512],
                   'dropout': [0.2, 0.3, 0.4]}
