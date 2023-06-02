@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, classification_report
 from wandb.keras import WandbMetricsLogger
 
-from train_svm import read_data, TARGET_NAMES, SEED
+from train_svm import load_data, TARGET_NAMES, SEED
 # from utils.draw_plot import draw_confusion_matrix, plot_acc_loss
 
 
@@ -95,7 +95,7 @@ if __name__ == '__main__':
                     
                 )
                     
-        X_train, X_test, y_train, y_test = read_data()
+        X_train, X_test, y_train, y_test = load_data()
 
         train_ann(X_train, y_train, X_test, y_test, run.config)
 
