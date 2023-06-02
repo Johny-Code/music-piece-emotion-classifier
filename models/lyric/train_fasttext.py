@@ -53,7 +53,8 @@ def train_fasttext(hyperparams):
                                       ws=hyperparams['ws'],  # size of the context window
                                       epoch=hyperparams['epoch'],
                                       loss=hyperparams['loss'],
-                                      thread=hyperparams['thread'])
+                                      thread=hyperparams['thread'],
+                                      autotune_duration=hyperparams['autotune_duration'])
     end = time.time()
     print(f'Training time: {round((end - start), 2)} seconds')
 
@@ -134,11 +135,11 @@ def simple_run(hyperparams):
 
     test_fasttext(test_dataset, model)
 
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--simple_run', action='store_true')
     parser.add_argument('--grid_search', action='store_true')
+    parser.add_argument('--autotune', action='store_true')
     args = parser.parse_args()
 
     if args.simple_run:
@@ -184,6 +185,21 @@ if __name__ == '__main__':
                                                    'replace_newline': replace_newline
                                                    }
                                     simple_run(hyperparams)
+                                    
+    elif args.autotune:
+        hyperparams = {'train': '',
+                       'test': '',
+                       'wordNgrams': 2,
+                       'lr': 0.1,
+                       'ws': 5,
+                       'epoch': 5,
+                       'loss': 'softmax',
+                       'thread': 4,
+                       'replace_newline': ' ',
+                        'autotune_duration': 600
+                       }
+
+        simple_run(hyperparams)
 
     else:
         print('Please specify --simple_run or --grid_search')
