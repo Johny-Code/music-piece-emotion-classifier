@@ -84,7 +84,7 @@ def build_4_dense_ann(input_size=309, dense_size=128, output_size=4, activation=
 
 def train_ann(X_train, y_train, X_test, y_test, params):
 
-    X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.5, random_state=SEED)
+    X_test, X_val, y_test, y_val = train_test_split(X_test, y_test, test_size=0.5, random_state=SEED)
 
     print(f"X_train shape: {X_train.shape}")
     print(f"y_train shape: {y_train.shape}")
@@ -116,9 +116,35 @@ def train_ann(X_train, y_train, X_test, y_test, params):
     print(cm)
     wandb.log({"conf_mat": cm})
 
-    print(classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES))
+    report = classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES, output_dict=True)
+    print(report)
 
-    wandb.log({"Classification report": classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES)})
+    wandb.log({"raw_report": report})
+
+    wandb.log({"happy_precision":  report['happy']['precision'],
+                "happy_recall":     report['happy']['recall'],
+                "happy_f1":         report['happy']['f1-score'],
+                "happy_support":    report['happy']['support'],
+                "angry_precision":  report['angry']['precision'],
+                "angry_recall":     report['angry']['recall'],
+                "angry_f1":         report['angry']['f1-score'],
+                "angry_support":    report['angry']['support'],
+                "sad_precision":    report['sad']['precision'],
+                "sad_recall":       report['sad']['recall'],
+                "sad_f1":           report['sad']['f1-score'],
+                "sad_support":      report['sad']['support'],
+                "relaxed_precision":  report['relaxed']['precision'],
+                "relaxed_recall":     report['relaxed']['recall'],
+                "relaxed_f1":         report['relaxed']['f1-score'],
+                "relaxed_support":    report['relaxed']['support']})
+    
+    wandb.log({"macro_precision":  report['macro avg']['precision'],
+                "macro_recall":     report['macro avg']['recall'],
+                "macro_f1":         report['macro avg']['f1-score'],
+                "macro_support":    report['macro avg']['support'],
+                "weighted_precision":  report['weighted avg']['precision'],
+                "weighted_recall":     report['weighted avg']['recall'],
+                "weighted_f1":         report['weighted avg']['f1-score']})
 
 def simple_run(config):
 
