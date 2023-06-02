@@ -52,7 +52,6 @@ def clean_features(df):
 
         X.append(temp)    
 
-    #y has shape (1, n)
     y_transformed = ohe.fit_transform(np.array(y).reshape(-1, 1))
     X_transformed = np.array(X)
 
@@ -68,7 +67,9 @@ def load_data():
     print(f"input data shape: {X.shape}")
     print(f"output data shape: {y.shape}")
 
-    exit(0)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=SEED)
+
+    return X_train, X_test, y_train, y_test
 
 def build_4_dense_ann(input_size=309, dense_size=128, output_size=4, activation='relu', dropout=0.2, optimizer='adam'):
 
