@@ -53,6 +53,8 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
 
 def grid_search_svm(X_train, y_train, X_test, y_test):
 
+    X_test, X_val, y_test, y_val = train_test_split(X_test, y_test, test_size=0.5, random_state=SEED)
+
     print('Grid search for SVM')
     
     params = [
