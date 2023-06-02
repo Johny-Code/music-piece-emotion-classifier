@@ -117,7 +117,7 @@ def create_dataset(replace_newline):
 
     train, test = train_test_split(en_dataset, test_size=0.3, random_state=SEED)
 
-    train, valid = train_test_split(train, test_size=0.5, random_state=SEED)
+    test, valid = train_test_split(test, test_size=0.5, random_state=SEED)
 
     dataset_path = os.path.join('database', 'fasttext')
     if not os.path.exists(os.path.join(dataset_path)):
