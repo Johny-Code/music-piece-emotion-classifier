@@ -69,9 +69,6 @@ def load_data():
 
     X, y = clean_features(df)
 
-    print(f"input data shape: {X.shape}")
-    print(f"output data shape: {y.shape}")
-
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=SEED)
 
     return X_train, X_test, y_train, y_test
