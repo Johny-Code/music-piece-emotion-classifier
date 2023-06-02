@@ -148,7 +148,7 @@ def train_ann(X_train, y_train, X_test, y_test, params):
 
 def simple_run(config):
 
-    wandb.init(project='feature-based-4-dense-ann',
+    wandb.init(project='feature-based-4-dense-ann-grid-search',
                 config=config)
                 
     X_train, X_test, y_train, y_test = load_data()
@@ -181,7 +181,25 @@ if __name__ == '__main__':
         
 
     elif args.grid_search:
-        pass
+        
+        params = {'lr': [0.02, 0.01, 0.001, 0.005, 0.01],
+                  'epochs': [5, 10, 30, 50, 100],
+                  'batch_size': [32, 64, 128],
+                  'dense_size': [128, 256, 512],
+                  'dropout': [0.2, 0.3, 0.4]}
+        
+        for lr in params['lr']:
+            for batch_size in params['batch_size']:
+                for dense_size in params['dense_size']:
+                    for dropout in params['dropout']:
+                        for epochs in epochs['epochs']:
+                            config={'lr': lr,
+                                    'batch_size': batch_size,
+                                    'dense_size': dense_size,
+                                    'dropout': dropout,
+                                    'epochs': epochs}
+                            
+                            simple_run(config)
 
     else:
         print('Please specify a flag.')
