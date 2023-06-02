@@ -53,15 +53,17 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
 
 def grid_search_svm(X_train, y_train, X_test, y_test):
 
+    print('Grid search for SVM')
+    
     params = [
-        {'kernel': ['linear'], 'C': [0.001, 0.01, 1, 10, 100]},
-        {'kernel': ['rbf', 'sigmoid'], 'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000]}
+    { 'kernel': ['linear'], 'C': [ 0.01, 0.05, 1, 10, 100 ]},
+    { 'kernel': ['rbf', 'sigmoid'], 'C': [ 0.01, 0.05, 0.1, 0.3, 0.8, 1, 3, 10, 50, 100, 150, 200 ] }
     ]
 
     cross_validation = 10
     svm_clf = svm.SVC()
 
-    gs = GridSearchCV(estimator=svm_clf, param_grid=params, cv=cross_validation, scoring='accuracy', verbose=10, n_jobs=10)
+    gs = GridSearchCV(estimator=svm_clf, param_grid=params, cv=cross_validation, scoring='accuracy', verbose=False, n_jobs=-1)
     gs.fit(X_train, y_train)
 
     print(f'Best score: {gs.best_score_}')
@@ -74,9 +76,9 @@ def grid_search_svm(X_train, y_train, X_test, y_test):
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
 
-    output_path = os.path.join('models', 'lyric', 'history', 'svm')
+    # output_path = os.path.join('models', 'lyric', 'history', 'svm')
 
-    draw_confusion_matrix(cm, TARGET_NAMES, output_path)
+    # draw_confusion_matrix(cm, TARGET_NAMES, output_path)
 
 
 def clean_features(df):
