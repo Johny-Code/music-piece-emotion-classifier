@@ -121,7 +121,7 @@ def clean_features(df):
 def load_data():
 
     # input_path = os.path.join('..', '..','database', 'features', 'lyric_features.csv')
-    input_path = os.path.join('database', 'features', 'features.csv')
+    input_path = os.path.join('database', 'features', 'lyric_features.csv')
     df = read_data(input_path)
 
     X, y = clean_features(df)
