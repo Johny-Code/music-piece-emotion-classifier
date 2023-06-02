@@ -215,7 +215,7 @@ if __name__ == '__main__':
                        'loss': 'ova',
                        'thread': 4,
                        'replace_newline': ' ',
-                        'autotune_duration': 600
+                        'autotune_duration': 60
                        }
 
         simple_run(hyperparams)
