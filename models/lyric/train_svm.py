@@ -8,9 +8,6 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn import svm
 
-sys.path.append("utils/")
-from draw_plot import draw_confusion_matrix
-
 SEED = 100
 TARGET_NAMES = ['happy', 'angry', 'sad', 'relaxed']
 
@@ -44,16 +41,12 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
 
-    # output_path = os.path.join('models', 'lyric', 'history', 'svm')
-
-    # draw_confusion_matrix(cm, TARGET_NAMES, output_path)
-
     return svm_clf
 
 
 def grid_search_svm(X_train, y_train, X_test, y_test):
 
-    X_test, X_val, y_test, y_val = train_test_split(X_test, y_test, test_size=0.5, random_state=SEED)
+    X_test, _, y_test, _ = train_test_split(X_test, y_test, test_size=0.5, random_state=SEED)
 
     print('Grid search for SVM')
     
@@ -77,11 +70,6 @@ def grid_search_svm(X_train, y_train, X_test, y_test):
 
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
-
-    # output_path = os.path.join('models', 'lyric', 'history', 'svm')
-
-    # draw_confusion_matrix(cm, TARGET_NAMES, output_path)
-
 
 def clean_features(df):
 
