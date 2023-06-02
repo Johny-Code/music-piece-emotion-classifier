@@ -29,7 +29,7 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
 
     start = time.time()
 
-    svm_clf = svm.SVC(kernel=svm_params['kernel'], gamma=svm_params['gamma'])
+    svm_clf = svm.SVC(kernel=svm_params['kernel'], gamma=svm_params['gamma'], C=svm_params['C'])
     svm_clf.fit(X_train, y_train)
     end = time.time()
     print(f'Training time: {end - start}')
@@ -53,15 +53,17 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
 
 def grid_search_svm(X_train, y_train, X_test, y_test):
 
+    print('Grid search for SVM')
+    
     params = [
-        {'kernel': ['linear'], 'C': [0.001, 0.01, 1, 10, 100]},
-        {'kernel': ['rbf', 'sigmoid'], 'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000]}
+    { 'kernel': ['linear'], 'C': [ 0.01, 0.05, 1, 10, 100 ]},
+    { 'kernel': ['rbf', 'sigmoid'], 'C': [ 0.01, 0.05, 0.1, 0.3, 0.8, 1, 3, 10, 50, 100, 150, 200 ] }
     ]
 
     cross_validation = 10
     svm_clf = svm.SVC()
 
-    gs = GridSearchCV(estimator=svm_clf, param_grid=params, cv=cross_validation, scoring='accuracy', verbose=10, n_jobs=10)
+    gs = GridSearchCV(estimator=svm_clf, param_grid=params, cv=cross_validation, scoring='accuracy', verbose=False, n_jobs=-1)
     gs.fit(X_train, y_train)
 
     print(f'Best score: {gs.best_score_}')
@@ -74,9 +76,9 @@ def grid_search_svm(X_train, y_train, X_test, y_test):
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
 
-    output_path = os.path.join('models', 'lyric', 'history', 'svm')
+    # output_path = os.path.join('models', 'lyric', 'history', 'svm')
 
-    draw_confusion_matrix(cm, TARGET_NAMES, output_path)
+    # draw_confusion_matrix(cm, TARGET_NAMES, output_path)
 
 
 def clean_features(df):
@@ -87,10 +89,11 @@ def clean_features(df):
     y = []
 
     for row in df.iterrows():
-        y.append(target_dict[row[0]])
+        
+        emotion = row[1][0]
+        y.append(target_dict[emotion])
 
-        features = row[1]
-        vector = features['lyric_vector']
+        vector = row[1][1]
         vector = vector.replace('[', '')
         vector = vector.replace(']', '')
         vector = vector.replace('\n', '')
@@ -103,15 +106,13 @@ def clean_features(df):
                 vector_cleaned.append(float(value))
 
         temp = []
-        for i, ele in enumerate(features):
+        for i, ele in enumerate(row[1][2:11]):
             if i < 10:
                 if ele == 'True':
                     temp.append(1)
                 elif ele == 'False':
                     temp.append(0)
                 temp.append(ele)
-
-        temp.extend(vector_cleaned)
 
         X.append(temp)
 
@@ -120,7 +121,6 @@ def clean_features(df):
 
 def load_data():
 
-    # input_path = os.path.join('..', '..','database', 'features', 'lyric_features.csv')
     input_path = os.path.join('database', 'features', 'lyric_features.csv')
     df = read_data(input_path)
 
@@ -140,7 +140,7 @@ if __name__ == '__main__':
 
     if args.simple_run:
         X_train, X_test, y_train, y_test = load_data()
-        svm_params = {'kernel': 'rbf', 'gamma': 0.3}
+        svm_params = {'kernel': 'rbf', 'gamma': 0.3, 'C': 220}
         _ = train_svm(svm_params, X_train, y_train, X_test, y_test)
 
     elif args.grid_search:
