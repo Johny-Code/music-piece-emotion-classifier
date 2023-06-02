@@ -10,7 +10,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 from wandb.keras import WandbMetricsLogger
 
 from train_svm import read_data, TARGET_NAMES, SEED
-from utils.draw_plot import draw_confusion_matrix, plot_acc_loss
+# from utils.draw_plot import draw_confusion_matrix, plot_acc_loss
 
 
 def build_4_dense_ann(input_size=309, dense_size=128, output_size=4, activation='relu', dropout=0.2, optimizer='adam'):
