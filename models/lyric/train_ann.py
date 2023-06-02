@@ -197,7 +197,9 @@ if __name__ == '__main__':
                                     'batch_size': batch_size,
                                     'dense_size': dense_size,
                                     'dropout': dropout,
-                                    'epochs': epochs}
+                                    'epochs': epochs,
+                                    'optimizer': 'adam',
+                                    'activation': 'relu'}
                             
                             simple_run(config)
 
