@@ -41,6 +41,7 @@ def clean_features(df):
                 vector_cleaned.append(float(value))
 
         temp = []
+        temp += vector_cleaned
         for i, ele in enumerate(row[1][2:11]):
             if i < 10:
                 if ele == 'True':
