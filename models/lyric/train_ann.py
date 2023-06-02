@@ -130,7 +130,8 @@ def train_ann(X_train, y_train, X_test, y_test, params):
 
     print(classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES))
 
-    wandb.log(f"Classification report {classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES)}")
+    # wandb.log(f"Classification report {classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES)}")
+    wandb.log("Classification report", classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES))
 
     # output_path = os.path.join('models', 'lyric', 'history', 'ann')
     # draw_confusion_matrix(cm, TARGET_NAMES, )
