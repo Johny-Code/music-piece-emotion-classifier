@@ -100,7 +100,7 @@ def test_fasttext(test_dataset, model):
         y_true.append(labels[true_label])
         y_pred.append(labels[pred_label[0]])
 
-    print(classification_report(y_true, y_pred, target_names=TARGET_NAMES))
+    print(classification_report(y_true, y_pred, target_names=TARGET_NAMES, digits=3))
 
     cm = confusion_matrix(y_true, y_pred)
     print(cm)
