@@ -34,6 +34,9 @@ def build_4_dense_ann(input_size=309, dense_size=128, output_size=4, activation=
 
 def train_ann(X_train, y_train, X_test, y_test, params):
 
+    print(f"input data shape: {X_train.shape}")
+    print(f"output data shape: {y_train.shape}")
+    
     X_test, y_test, X_val, y_val = train_test_split(X_test, y_test, test_size=0.5, random_state=SEED)
 
     input_size = 309
