@@ -148,7 +148,7 @@ def train_ann(X_train, y_train, X_test, y_test, params):
 
 def simple_run(config):
 
-    wandb.init(project='feature-based-4-dense-ann-grid-search',
+    wandb.init(project='feature-based-4-dense-ann-grid-search_v1',
                 config=config)
                 
     X_train, X_test, y_train, y_test = load_data()
