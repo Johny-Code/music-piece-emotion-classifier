@@ -66,7 +66,7 @@ def grid_search_svm(X_train, y_train, X_test, y_test):
 
     y_pred = gs.predict(X_test)
 
-    print(classification_report(y_test, y_pred))
+    print(classification_report(y_test, y_pred, target_names=TARGET_NAMES, digits=3))
 
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
