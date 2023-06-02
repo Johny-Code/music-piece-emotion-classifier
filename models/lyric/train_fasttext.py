@@ -47,14 +47,17 @@ def fasttext_preprocess(dataset, save_path, replace_newline):
 def train_fasttext(hyperparams):
 
     start = time.time()
-    model = fasttext.train_supervised(input=hyperparams['train'],
-                                      wordNgrams=hyperparams['wordNgrams'],
-                                      lr=hyperparams['lr'],
-                                      ws=hyperparams['ws'],  # size of the context window
-                                      epoch=hyperparams['epoch'],
-                                      loss=hyperparams['loss'],
-                                      thread=hyperparams['thread'],
-                                      autotune_duration=hyperparams['autotune_duration'])
+    if hyperparams['autotune_duration'] == None:
+        model = fasttext.train_supervised(input=hyperparams['train'],
+                                            wordNgrams=hyperparams['wordNgrams'],
+                                            lr=hyperparams['lr'],
+                                            ws=hyperparams['ws'],  # size of the context window
+                                            epoch=hyperparams['epoch'],
+                                            loss=hyperparams['loss'],
+                                            thread=hyperparams['thread'])
+    else:
+        model = fasttext.train_supervised(input=hyperparams['train'], autotuneValidationFile=hyperparams['valid'], autotuneDuration=hyperparams['autotune_duration'])
+
     end = time.time()
     print(f'Training time: {round((end - start), 2)} seconds')
 
@@ -111,6 +114,8 @@ def create_dataset(replace_newline):
 
     train, test = train_test_split(en_dataset, test_size=0.3, random_state=SEED)
 
+    train, valid = train_test_split(train, test_size=0.5, random_state=SEED)
+
     dataset_path = os.path.join('database', 'fasttext')
     if not os.path.exists(os.path.join(dataset_path)):
         os.makedirs(os.path.join(dataset_path))
@@ -118,16 +123,18 @@ def create_dataset(replace_newline):
     output_path_train = os.path.join(dataset_path, 'lyric.train')
     _ = fasttext_preprocess(train, output_path_train, replace_newline)
 
+    output_path_valid = os.path.join(dataset_path, 'lyric.valid')
+    _ = fasttext_preprocess(valid, output_path_valid, replace_newline)
+
     output_path_test = os.path.join(dataset_path, 'lyric.test')
     test_dataset = fasttext_preprocess(test, output_path_test, replace_newline)
 
-    return output_path_train, output_path_test, test_dataset
-
+    return output_path_train, output_path_valid, output_path_test, test_dataset
 
 def simple_run(hyperparams):
 
     start = time.time()
-    hyperparams['train'], hyperparams['test'], test_dataset = create_dataset(hyperparams['replace_newline'])
+    hyperparams['train'], hyperparams['valid'], hyperparams['test'], test_dataset = create_dataset(hyperparams['replace_newline'])
     end = time.time()
     print(f'Creating dataset took {round((end - start), 2)} seconds')
 
@@ -146,6 +153,7 @@ if __name__ == '__main__':
 
         hyperparams = {'train': '',
                        'test': '',
+                       'valid': '',
                        'wordNgrams': 2,
                        'lr': 0.1,
                        'ws': 5,
