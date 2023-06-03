@@ -47,13 +47,20 @@ def fasttext_preprocess(dataset, save_path, replace_newline):
 def train_fasttext(hyperparams):
 
     start = time.time()
-    model = fasttext.train_supervised(input=hyperparams['train'],
-                                      wordNgrams=hyperparams['wordNgrams'],
-                                      lr=hyperparams['lr'],
-                                      ws=hyperparams['ws'],  # size of the context window
-                                      epoch=hyperparams['epoch'],
-                                      loss=hyperparams['loss'],
-                                      thread=hyperparams['thread'])
+    if hyperparams['autotune_duration'] == None:
+        model = fasttext.train_supervised(input=hyperparams['train'],
+                                            wordNgrams=hyperparams['wordNgrams'],
+                                            lr=hyperparams['lr'],
+                                            ws=hyperparams['ws'],  # size of the context window
+                                            epoch=hyperparams['epoch'],
+                                            loss=hyperparams['loss'],
+                                            thread=hyperparams['thread'])
+    else:
+        model = fasttext.train_supervised(input=hyperparams['train'], 
+                                          autotuneValidationFile=hyperparams['valid'], 
+                                          autotuneDuration=hyperparams['autotune_duration'],
+                                          loss = hyperparams['loss'])
+
     end = time.time()
     print(f'Training time: {round((end - start), 2)} seconds')
 
@@ -93,7 +100,7 @@ def test_fasttext(test_dataset, model):
         y_true.append(labels[true_label])
         y_pred.append(labels[pred_label[0]])
 
-    print(classification_report(y_true, y_pred, target_names=TARGET_NAMES))
+    print(classification_report(y_true, y_pred, target_names=TARGET_NAMES, digits=3))
 
     cm = confusion_matrix(y_true, y_pred)
     print(cm)
@@ -110,23 +117,30 @@ def create_dataset(replace_newline):
 
     train, test = train_test_split(en_dataset, test_size=0.3, random_state=SEED)
 
+    test, valid = train_test_split(test, test_size=0.5, random_state=SEED)
+
     dataset_path = os.path.join('database', 'fasttext')
-    if not os.path.exists(os.path.join(dataset_path)):
-        os.makedirs(os.path.join(dataset_path))
+    os.makedirs(os.path.join(dataset_path), exist_ok=True)
 
     output_path_train = os.path.join(dataset_path, 'lyric.train')
-    _ = fasttext_preprocess(train, output_path_train, replace_newline)
+    train_dataset = fasttext_preprocess(train, output_path_train, replace_newline)
+
+    output_path_valid = os.path.join(dataset_path, 'lyric.valid')
+    valid_dataset = fasttext_preprocess(valid, output_path_valid, replace_newline)
 
     output_path_test = os.path.join(dataset_path, 'lyric.test')
     test_dataset = fasttext_preprocess(test, output_path_test, replace_newline)
 
-    return output_path_train, output_path_test, test_dataset
+    print(f'Train dataset size: {len(train_dataset)}')
+    print(f'Valid dataset size: {len(valid_dataset)}')
+    print(f'Test dataset size: {len(test_dataset)}')
 
+    return output_path_train, output_path_valid, output_path_test, test_dataset
 
 def simple_run(hyperparams):
 
     start = time.time()
-    hyperparams['train'], hyperparams['test'], test_dataset = create_dataset(hyperparams['replace_newline'])
+    hyperparams['train'], hyperparams['valid'], hyperparams['test'], test_dataset = create_dataset(hyperparams['replace_newline'])
     end = time.time()
     print(f'Creating dataset took {round((end - start), 2)} seconds')
 
@@ -134,24 +148,26 @@ def simple_run(hyperparams):
 
     test_fasttext(test_dataset, model)
 
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--simple_run', action='store_true')
     parser.add_argument('--grid_search', action='store_true')
+    parser.add_argument('--autotune', action='store_true')
     args = parser.parse_args()
 
     if args.simple_run:
 
         hyperparams = {'train': '',
                        'test': '',
+                       'valid': '',
                        'wordNgrams': 2,
                        'lr': 0.1,
                        'ws': 5,
                        'epoch': 5,
-                       'loss': 'softmax',
+                       'loss': 'ova',
                        'thread': 4,
-                       'replace_newline': ' '
+                       'replace_newline': ' ',
+                        'autotune_duration': None 
                        }
 
         simple_run(hyperparams)
@@ -162,7 +178,7 @@ if __name__ == '__main__':
                   'lr': [0.001, 0.01, 0.1],
                   'ws': [5, 10, 15],
                   'epoch': [20, 50, 100],
-                  'loss': ['softmax', 'hs', 'ns'],
+                  'loss': ['ova'],
                   'thread': [16],
                   'replace_newline': [' ', 'newline', '_']}
 
@@ -175,15 +191,33 @@ if __name__ == '__main__':
                                 for replace_newline in params['replace_newline']:
                                     hyperparams = {'train': '',
                                                    'test': '',
+                                                   'valid': '',
                                                    'wordNgrams': wordNgrams,
                                                    'lr': lr,
                                                    'ws': ws,
                                                    'epoch': epoch,
                                                    'loss': loss,
                                                    'thread': thread,
-                                                   'replace_newline': replace_newline
+                                                   'replace_newline': replace_newline,
+                                                   'autotune_duration': None
                                                    }
                                     simple_run(hyperparams)
+                                    
+    elif args.autotune:
+        hyperparams = {'train': '',
+                       'test': '',
+                       'valid': '',
+                       'wordNgrams': 2,
+                       'lr': 0.1,
+                       'ws': 5,
+                       'epoch': 5,
+                       'loss': 'ova',
+                       'thread': 4,
+                       'replace_newline': ' ',
+                        'autotune_duration': 1800
+                       }
+
+        simple_run(hyperparams)
 
     else:
         print('Please specify --simple_run or --grid_search')
