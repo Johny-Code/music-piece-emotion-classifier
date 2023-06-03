@@ -17,6 +17,7 @@ models/audio/history/*
 models/audio/best_models/*
 models/lyric/fasttext_models/*
 models/lyric/history/*
+models/lyric/feature_based/*
 logs/*
 
 # Distribution / packaging
