@@ -2,7 +2,7 @@ import os
 import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+import argparse
 
 def draw_confusion_matrix(cm, target_names, output_path = None, cmap = None):
 
@@ -10,7 +10,13 @@ def draw_confusion_matrix(cm, target_names, output_path = None, cmap = None):
         os.makedirs(output_path)
 
     plt.figure(figsize=(8, 6))
-    sns.heatmap(cm, annot=True, fmt='d', cmap=cmap, xticklabels=target_names, yticklabels=target_names)
+    sns.heatmap(cm, 
+                annot=True,
+                cbar=True, 
+                fmt='d', 
+                cmap=cmap, 
+                xticklabels=target_names, 
+                yticklabels=target_names)
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
 
@@ -66,3 +72,45 @@ def plot_acc_loss(history, output_path=None):
         plt.savefig(output_path_name)
     else:
         plt.show()
+
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--cm', action='store_true')
+
+    args = parser.parse_args()
+
+    if args.cm:
+
+        #feature-based svm best approach
+        cm =   [[41,  7,  8, 15],
+                [10, 44,13,  4],
+                [ 5,  9, 35, 18],
+                [12,  6, 21, 34]]
+        
+        output_path = os.path.join('models', 'lyric', 'feature_based', 'svm')
+        
+        #feature-based ann best approach
+        # cm = [[48,  4,  6, 13],
+        #       [11, 42, 17,  1],
+        #       [ 5,  5, 32, 25],
+        #       [15,  4, 18, 36]]
+
+        # output_path = os.path.join('models', 'lyric', 'feature_based', 'ann')
+
+        #fasttext-based autotune 30 minut 
+        # cm = [[45, 15,  2,  9],
+        #       [15, 39, 12,  5],
+        #       [ 6, 14, 31, 22],
+        #       [14,  6, 18, 29]]
+
+        # output_path = os.path.join('models', 'lyric', 'fasttext')
+
+        TARGET_NAMES = ['happy', 'angry', 'sad', 'relaxed']
+
+        draw_confusion_matrix(cm, TARGET_NAMES, output_path, cmap='Blues')
+
+
+    else:
+        print("Use --cm to draw confusion matrix")
