@@ -113,16 +113,17 @@ def clean_features(df):
     return X, y
 
 
-def load_data():
+def load_data(scaling=False):
 
     input_path = os.path.join('database', 'features', 'lyric_features.csv')
     df = read_data(input_path)
 
     X, y = clean_features(df)
 
-    scaler = StandardScaler()
-    scaler.fit(X)
-    X = scaler.transform(X)
+    if scaling:
+        scaler = StandardScaler()
+        scaler.fit(X)
+        X = scaler.transform(X)
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=SEED)
 
