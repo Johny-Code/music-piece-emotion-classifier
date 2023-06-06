@@ -32,7 +32,7 @@ def load_lyric_dataset(input_path, rows_to_remove):
     lyric_files = [os.path.join(input_path, pos_json) for pos_json in os.listdir(input_path) if pos_json.endswith('.json')]
 
     for file_path in lyric_files:
-        with open(file_path) as f:
+        with open(file_path, encoding="utf8") as f:
             song_info = json.load(f)
 
         try:
