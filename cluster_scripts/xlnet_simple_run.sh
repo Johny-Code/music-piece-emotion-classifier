@@ -14,4 +14,4 @@
 source .././emotion_env/bin/activate
 
 # train model
-python3 models/lyric/train_xlnet.py --simple_run
+python3 models/lyric/train_xlnet.py --fine_tune

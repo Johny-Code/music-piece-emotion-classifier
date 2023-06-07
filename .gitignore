@@ -19,6 +19,7 @@ models/lyric/fasttext_models/*
 models/lyric/history/*
 models/lyric/feature_based/*
 models/lyric/fasttext/*
+models/lyric/xlnet/*
 logs/*
 
 # Distribution / packaging
