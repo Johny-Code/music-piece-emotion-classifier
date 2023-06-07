@@ -7,8 +7,8 @@
 #SBATCH --mail-user s175502@student.pg.edu.pl
 #SBATCH --mail-type=ALL
 #
-#SBATCH --nodelist=node801
-#SBATCH -p short
+#SBATCH --nodelist=node800 OR node801
+#SBATCH -p gpu
 
 # activate python venv
 source .././emotion_env/bin/activate
