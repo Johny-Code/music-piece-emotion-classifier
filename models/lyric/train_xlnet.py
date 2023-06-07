@@ -141,7 +141,7 @@ def format_time(elapsed):
 def save_model(model, output_dir, epochs, lowest_eval_loss, train_loss_set, valid_loss_set):
     
     now = datetime.datetime.now()
-    file_name = now.strftime("%Y-%m-%d_%H-%M-%S") + f'after_{epochs}_epoch' + '.pt'
+    file_name = now.strftime("%Y-%m-%d_%H-%M-%S") + f'_after_{epochs}_epoch' + '.pt'
     output_path = os.path.join(output_dir, file_name)
 
     torch.save({
@@ -169,12 +169,14 @@ def load_model(path_to_model):
     return model, epochs, lowest_eval_loss, train_loss_set, valid_loss_set
 
 def train(model, optimizer, train_dataloader, validation_dataloader, hyperparameters, train_loss_set = [], valid_loss_set = [],
-          start_epoch = 0, device = 'cpu', lowest_eval_loss = None):
+          start_epoch = 0, lowest_eval_loss = None):
 
     training_stats = []
 
     total_t0 = time.time()
 
+    torch.cuda.empty_cache()
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model.to(device)
 
     for i in range(hyperparameters['model']['epochs']):
@@ -287,7 +289,10 @@ def train(model, optimizer, train_dataloader, validation_dataloader, hyperparame
 
     return model, train_loss_set, valid_loss_set, training_stats
 
-def test_model(model,test_dataloader, hyperparemeters, device = 'cpu'):
+def test_model(model,test_dataloader):
+    
+    torch.cuda.empty_cache()
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     model.eval()
 
@@ -363,7 +368,7 @@ def simple_run(hyperparemeters):
 
     print(df_stats)
 
-    test_model(model, test_dataloader, hyperparemeters)
+    test_model(model, test_dataloader)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -390,7 +395,7 @@ if __name__ == '__main__':
                                 'lr': 2e-5,
                                 'weight_decay': 0.01,
                                 'correct_bias': False,
-                                'epochs': 3,
+                                'epochs': 5,
                             },
                             'model_save_path': model_save_folder
                         }
@@ -447,6 +452,7 @@ if __name__ == '__main__':
 
         do_lower_case = [True, False]
         num_embeddings = [256, 512]
+        
 
         for lower_case in do_lower_case:
             for num_embedding in num_embeddings:
