@@ -8,10 +8,9 @@ import math
 
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 from transformers import XLNetTokenizer, XLNetModel, AdamW
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 from tqdm import trange
 
@@ -273,33 +272,35 @@ def train(model, optimizer, train_dataloader, validation_dataloader, hyperparame
 
     return model, train_loss_set, valid_loss_set, training_stats
 
-def test_model(model, test_df, hyperparameters, device = 'cpu'):
+def test_model(model,test_dataloader, hyperparemeters, device = 'cpu'):
 
-    num_iter = math.celi(test_df.shape[0]/hyperparameters['model']['batch_size'])
-
-    pred_probs = []
-
-    model.to(device)
     model.eval()
 
-    for i in range(num_iter):
-        df_subset = test_df.iloc[i*hyperparameters['model']['batch_size']:(i+1)*hyperparameters['model']['batch_size'], :]
-        X = df_subset['test_input_ids'].values.tolist()
-        masks = df_subset['test_attention_masks'].values.tolist()
+    y_pred = []
+    y_true = []
 
-        X = torch.tensor(X)
-        masks = torch.tensor(masks)
+    print("")
+    print("Running Testing...")
 
-        X = X.to(device)
-        masks = masks.to(device)
+    for batch in test_dataloader:
+        batch = tuple(t.to(device) for t in batch)
+        b_input_ids, b_input_mask, b_labels = batch
 
         with torch.no_grad():
-            logits = model(input_ids=X, attention_mask=masks)
+            logits = model(b_input_ids, attention_mask=b_input_mask)
             logits = logits.sigmoid().detach().cpu().numpy()
-            pred_probs.extend(logits.tolist())
 
-    test_df['pred_probs'] = pred_probs     
-    return test_df
+        for predict in np.argmax(logits, axis=1):
+            y_pred.append(predict)
+
+        labels_ids = b_labels.to('cpu').numpy()        
+        for label in labels_ids:
+            y_true.append(label)
+
+    print("Testing complete!")
+    print("")
+    print("Classification Report:")
+    print(classification_report(y_true, y_pred, digits=3))
 
 def simple_run(hyperparemeters):
 
@@ -326,11 +327,11 @@ def simple_run(hyperparemeters):
 
     train_input_ids, train_attention_masks, train_labels = to_tensor(train_input_ids, train_attention_masks, train_labels)
     val_input_ids, val_attention_masks, val_labels = to_tensor(val_input_ids, val_attention_masks, val_labels)
-    # test_input_ids, test_attention_masks, test_labels = to_tensor(test_input_ids, test_attention_masks, test_labels)
+    test_input_ids, test_attention_masks, test_labels = to_tensor(test_input_ids, test_attention_masks, test_labels)
 
     train_dataloader = to_DataLoader(train_input_ids, train_attention_masks, train_labels, hyperparemeters)
     val_dataloader = to_DataLoader(val_input_ids, val_attention_masks, val_labels, hyperparemeters)
-    # test_dataloader = to_DataLoader(test_input_ids, test_attention_masks, test_labels, hyperparemeters)
+    test_dataloader = to_DataLoader(test_input_ids, test_attention_masks, test_labels, hyperparemeters)
 
     model = XLNetForMultiLabelSequenceClassification(num_labels=hyperparemeters['model']['num_labels'])
 
@@ -348,14 +349,7 @@ def simple_run(hyperparemeters):
 
     print(df_stats)
 
-    #create df for test set with:  test_input_ids, test_attention_masks, test_labels, predicted labels, lyrics
-    test_df = pd.DataFrame({test_input_ids, test_attention_masks, test_labels, np.zeros(test_labels.shape), lyrics},
-                           columns = ['test_input_ids', 'test_attention_masks', 'test_labels', 'predicted_labels', 'lyrics'])
-
-    test_df = test_model(model, test_df, hyperparameters, device = 'cpu')   
-
-    print(test_df.head())
-
+    test_model(model, test_dataloader, hyperparemeters)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
