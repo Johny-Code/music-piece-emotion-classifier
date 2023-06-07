@@ -1,13 +1,12 @@
 #!/bin/bash -l
 #
-#SBATCH -J xlnet_simple_run
+#SBATCH -J xlnet_fine_tune_gpu
 #SBATCH -o logs/xlnet_simple_run."%j".out
 #SBATCH -e logs/xlnet_simple_run."%j".err
 #
 #SBATCH --mail-user s175502@student.pg.edu.pl
 #SBATCH --mail-type=ALL
 #
-#SBATCH --nodelist=node101
 #SBATCH -p short
 
 # activate python venv
