@@ -1,0 +1,399 @@
+import os
+import sys
+import argparse
+import torch
+import time
+import datetime
+import math
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from transformers import XLNetTokenizer, XLNetModel, AdamW
+from sklearn.model_selection import train_test_split
+from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
+from tqdm import trange
+
+sys.path.append('tools/')
+from extract_features_from_lyric import load_en_dataset, clean_lyric
+
+SEED = 100
+torch.manual_seed(SEED)
+
+def preprocess(dataset, remove_newline):
+
+    target_dict = {'happy': 0, 'angry': 1, 'sad': 2, 'relaxed': 3}
+    # target_dict = {'happy': [1.,0.,0.,0.], 'angry': [0.,1.,0.,0.], 'sad': [0.,0.,1.,0.], 'relaxed': [0.,0.,0.,1.]}
+
+    for index, row in dataset.iterrows():
+        lyric, _ = clean_lyric(row['lyric'], row['title'])
+
+        if remove_newline:
+            lyric = lyric.replace('\n', ' ')
+        
+        dataset.at[index, 'lyric'] = lyric
+        dataset.at[index, 'mood'] = target_dict[dataset.at[index, 'mood']]
+
+    dataset = dataset[['mood', 'lyric']]
+
+    labels = dataset['mood'].tolist()
+    lyrics = dataset['lyric'].tolist()
+
+    return labels, lyrics
+
+def load_dataset(dataset_path, duplicated_path):
+    en_dataset = load_en_dataset(dataset_path, duplicated_path)
+
+    remove_newline = True
+    labels, lyrics = preprocess(en_dataset, remove_newline) 
+
+    return np.array(labels), np.array(lyrics)
+
+def tokenize_inputs(hyperparameters, lyrics, tokenizer):
+
+    tokenized_texts = []
+    input_ids = []
+    for lyric in lyrics:
+        tokens = tokenizer.tokenize(lyric)[:hyperparameters['tokenizer']['num_embeddings']-2]
+        tokenized_texts.append(tokens)
+
+        ids = tokenizer.convert_tokens_to_ids(tokens)
+
+        if len(ids) < hyperparameters['tokenizer']['num_embeddings']:
+            delta_len = hyperparameters['tokenizer']['num_embeddings'] - len(ids)
+            ids = ids + [0] * delta_len    
+
+        input_ids.append(ids)
+
+    return np.array(input_ids)
+
+def create_attention_masks(input_ids):
+
+    attention_mask = []
+
+    for seq in input_ids:
+        seq_mask = [float(i>0) for i in seq]
+        attention_mask.append(seq_mask)
+
+    return np.array(attention_mask)
+
+def to_tensor(input_ids, attention_masks, labels):
+    input_ids = torch.tensor(input_ids)
+    attention_masks = torch.tensor(attention_masks)
+    labels = torch.tensor(labels)
+    return input_ids, attention_masks, labels
+
+def to_DataLoader(input_ids, attention_masks, labels, hyperparemeters):
+    dataset = TensorDataset(input_ids, attention_masks, labels)
+
+    dataloader = DataLoader(dataset, sampler=RandomSampler(dataset), 
+                            batch_size=hyperparemeters['model']['batch_size'])
+    
+    return dataloader
+
+class XLNetForMultiLabelSequenceClassification(torch.nn.Module):
+    
+    def __init__(self, num_labels=4):
+        super(XLNetForMultiLabelSequenceClassification, self).__init__()
+        self.num_labels = num_labels
+        self.xlnet = XLNetModel.from_pretrained('xlnet-base-cased')
+        self.classifier = torch.nn.Linear(768, num_labels)
+
+        torch.nn.init.xavier_normal_(self.classifier.weight)
+    
+    def forward(self, input_ids, token_type_ids=None, attention_mask=None, labels=None):
+
+        #last hidden layer
+        last_hidden_state = self.xlnet(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+
+        #pool the outputs into a mean vector
+        mean_last_hidden_state = self.pool_hidden_state(last_hidden_state)
+        logits = self.classifier(mean_last_hidden_state)
+
+        logits = logits[:, 1] - logits[:, 0]
+        if labels is not None:
+            loss = torch.nn.BCEWithLogitsLoss()(logits, labels.float())
+            return loss
+        else:
+            return logits
+        
+    def freeze_xlnet_decoder(self):
+        """
+        Freeze XLNet weight parameters. They will not be updated during training.
+        """
+        for param in self.xlnet.parameters():
+            param.requires_grad = True
+    
+    def pool_hidden_state(self, last_hidden_state):
+        """
+        Pool the output vectors into a single mean vector 
+        """
+        last_hidden_state = last_hidden_state[0]
+        # TODO it can be done in different ways, not only mean
+        mean_last_hidden_state = torch.mean(last_hidden_state, 1)
+        return mean_last_hidden_state
+
+def format_time(elapsed):
+    elapsed_rounded = int(round((elapsed)))
+    return str(datetime.timedelta(seconds=elapsed_rounded))
+
+def save_model(model, output_dir, epochs, lowest_eval_loss, train_loss_set, valid_loss_set):
+    
+    model_to_save = model.module if hasattr(model, 'module') else model
+
+    checkpoint = {'epochs': epochs,
+                  'lowest_eval_loss': lowest_eval_loss,
+                  'state_dict': model_to_save.state_dict(),
+                  'train_loss_set': train_loss_set,
+                  'valid_loss_set': valid_loss_set}
+
+    torch.save(checkpoint, output_dir)
+    print(f'Saving model at epoch {epochs} with validation loss of {lowest_eval_loss}')
+    print(f'Model saved to ==> {output_dir}')
+
+    return
+
+def train(model, optimizer, train_dataloader, validation_dataloader, hyperparameters, train_loss_set = [], valid_loss_set = [],
+          start_epoch = 0, device = 'cpu', lowest_eval_loss = None):
+
+    training_stats = []
+
+    total_t0 = time.time()
+
+    model.to(device)
+
+    for i in trange(hyperparameters['model']['epochs'], desc="Epoch"):
+        # if continue training from saved model
+        actual_epoch = start_epoch + i
+
+        # ========================================
+        #               Training
+        # ========================================
+
+        print("")
+        print(f"Epoch {actual_epoch}/{hyperparameters['model']['epochs']}")
+        print('Training...')
+
+        t0 = time.time()
+
+        model.train()
+
+        tr_loss = 0
+        num_train_samples = 0
+
+        for step, batch in enumerate(train_dataloader):
+            if step % 3 == 0 and not step == 0:
+                elapsed = format_time(time.time() - t0)
+                print(f'  Batch {step}  of  {len(train_dataloader)}.    Elapsed: {elapsed}.')
+
+            batch = tuple(t.to(device) for t in batch)
+            b_input_ids, b_input_mask, b_labels = batch
+
+            # Clear out the gradients (by default they accumulate)
+            optimizer.zero_grad()
+            
+            # Forward pass
+            loss = model(b_input_ids, attention_mask=b_input_mask, labels=b_labels)
+
+            tr_loss += loss.item()
+            num_train_samples += b_labels.size(0)
+
+            # Backward pass
+            loss.backward()
+            # Update parameters and take a step using the computed gradient
+            optimizer.step()
+
+        epoch_train_loss = tr_loss/num_train_samples
+        train_loss_set.append(epoch_train_loss)
+
+        training_time = format_time(time.time() - t0)
+
+        print("")
+        print(f"  Average training loss: {round(epoch_train_loss, 3)}")
+        print(f"  Training epcoh took: {training_time}")
+
+        # ========================================
+        #               Validation
+        # ========================================
+
+        print("")
+        print("Running Validation...")
+        
+        t0 = time.time()
+
+        model.eval()
+
+        eval_loss = 0
+        num_eval_samples = 0
+
+        for batch in validation_dataloader:
+            batch = tuple(t.to(device) for t in batch)
+            b_input_ids, b_input_mask, b_labels = batch
+
+            with torch.no_grad():
+                loss = model(b_input_ids, attention_mask=b_input_mask, labels=b_labels)
+
+                eval_loss += loss.item()
+                num_eval_samples += b_labels.size(0)
+        
+        epoch_eval_loss = eval_loss/num_eval_samples
+        valid_loss_set.append(epoch_eval_loss)
+
+        validation_time = format_time(time.time() - t0)
+
+        print(f"  Validation Loss: {epoch_eval_loss}")
+        print(f"  Validation took: {validation_time}")
+
+        training_stats.append(
+            {
+                'epoch': actual_epoch,
+                'Training Loss': epoch_train_loss,
+                'Valid. Loss': epoch_eval_loss,
+                'Training Time': training_time,
+                'Validation Time': validation_time
+            }
+        )
+
+        if lowest_eval_loss == None:
+            lowest_eval_loss = epoch_eval_loss
+            print(f'Best performance achived at epoch {actual_epoch} with validation loss of {lowest_eval_loss}')
+            # save_model(model, hyperparameters['model_save_path'],
+                    #    actual_epoch, lowest_eval_loss, train_loss_set, valid_loss_set)
+        else:
+            if epoch_eval_loss < lowest_eval_loss:
+                lowest_eval_loss = epoch_eval_loss
+                print(f'Best performance achived at epoch {actual_epoch} with validation loss of {lowest_eval_loss}')
+                # save_model(model, hyperparameters['model_save_path'],
+                        #    actual_epoch, lowest_eval_loss, train_loss_set, valid_loss_set)
+    
+    print("")
+    print("Training complete!")
+    print(f"Total training took {format_time(time.time()-total_t0)}")
+
+    return model, train_loss_set, valid_loss_set, training_stats
+
+def test_model(model, test_df, hyperparameters, device = 'cpu'):
+
+    num_iter = math.celi(test_df.shape[0]/hyperparameters['model']['batch_size'])
+
+    pred_probs = []
+
+    model.to(device)
+    model.eval()
+
+    for i in range(num_iter):
+        df_subset = test_df.iloc[i*hyperparameters['model']['batch_size']:(i+1)*hyperparameters['model']['batch_size'], :]
+        X = df_subset['test_input_ids'].values.tolist()
+        masks = df_subset['test_attention_masks'].values.tolist()
+
+        X = torch.tensor(X)
+        masks = torch.tensor(masks)
+
+        X = X.to(device)
+        masks = masks.to(device)
+
+        with torch.no_grad():
+            logits = model(input_ids=X, attention_mask=masks)
+            logits = logits.sigmoid().detach().cpu().numpy()
+            pred_probs.extend(logits.tolist())
+
+    test_df['pred_probs'] = pred_probs     
+    return test_df
+
+def simple_run(hyperparemeters):
+
+    dataset_path = os.path.join('..', 'database', 'lyrics')
+    duplicated_path = os.path.join('database', 'removed_rows.json') 
+
+    labels, lyrics = load_dataset(dataset_path, duplicated_path)
+
+    tokienizer = XLNetTokenizer.from_pretrained('xlnet-base-cased', do_lower_case = hyperparameters['tokenizer']['do_lower_case'])
+
+    input_ids = tokenize_inputs(hyperparemeters, lyrics, tokienizer)
+    attention_masks = create_attention_masks(input_ids)
+    
+    train_input_ids, test_input_ids, train_attention_masks, test_attention_masks, train_labels, test_labels = train_test_split(input_ids, 
+                                                                                                                               attention_masks,
+                                                                                                                               labels, 
+                                                                                                                               random_state=SEED, test_size=0.3)
+    
+
+    test_input_ids, val_input_ids, test_attention_masks, val_attention_masks, test_labels, val_labels = train_test_split(test_input_ids, 
+                                                                                                                         test_attention_masks,
+                                                                                                                         test_labels, 
+                                                                                                                         random_state=SEED, test_size=0.5)
+
+    train_input_ids, train_attention_masks, train_labels = to_tensor(train_input_ids, train_attention_masks, train_labels)
+    val_input_ids, val_attention_masks, val_labels = to_tensor(val_input_ids, val_attention_masks, val_labels)
+    # test_input_ids, test_attention_masks, test_labels = to_tensor(test_input_ids, test_attention_masks, test_labels)
+
+    train_dataloader = to_DataLoader(train_input_ids, train_attention_masks, train_labels, hyperparemeters)
+    val_dataloader = to_DataLoader(val_input_ids, val_attention_masks, val_labels, hyperparemeters)
+    # test_dataloader = to_DataLoader(test_input_ids, test_attention_masks, test_labels, hyperparemeters)
+
+    model = XLNetForMultiLabelSequenceClassification(num_labels=hyperparemeters['model']['num_labels'])
+
+    optimizer = AdamW(model.parameters(), 
+                      lr=hyperparemeters['model']['lr'], 
+                      weight_decay=hyperparameters['model']['weight_decay'],
+                      correct_bias=hyperparameters['model']['correct_bias']
+                      )
+    
+    model, train_loss_set, valid_loss_set, training_stats = train(model, optimizer, train_dataloader, val_dataloader, hyperparemeters)
+
+    pd.set_option('precision', 2)
+    df_stats = pd.DataFrame(data=training_stats)
+    df_stats = df_stats.set_index('epoch')
+
+    print(df_stats)
+
+    #create df for test set with:  test_input_ids, test_attention_masks, test_labels, predicted labels, lyrics
+    test_df = pd.DataFrame({test_input_ids, test_attention_masks, test_labels, np.zeros(test_labels.shape), lyrics},
+                           columns = ['test_input_ids', 'test_attention_masks', 'test_labels', 'predicted_labels', 'lyrics'])
+
+    test_df = test_model(model, test_df, hyperparameters, device = 'cpu')   
+
+    print(test_df.head())
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--fine_tune', action='store_true')
+    
+    args = parser.parse_args()
+
+    if args.fine_tune:
+        
+        #actual date and time
+        model_save_folder = os.path.join('models', 'lyric', 'xlnet')
+        os.makedirs(model_save_folder, exist_ok=True)
+
+        now = datetime.datetime.now()
+        model_save_path = os.path.join(model_save_folder, f'{now.year}-{now.month}-{now.day}-{now.hour}-{now.minute}-{now.second}.bin')
+
+        hyperparameters = {
+                            'tokenizer':{
+                                'do_lower_case': True,
+                                'num_embeddings': 128,
+                            },
+                            'model':{
+                                'num_labels': 4,
+                                'batch_size': 32,
+                                'lr': 2e-5,
+                                'weight_decay': 0.01,
+                                'correct_bias': False,
+                                'epochs': 2,
+                            },
+                            'model_save_path': model_save_path
+                        }
+        
+        simple_run(hyperparameters)
+
+        
+
+
+
+
+        
+        

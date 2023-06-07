@@ -4,7 +4,7 @@ import os
 import torch
 import numpy as np
 
-from transformers import XLNetTokenizer, XLNetForSequenceClassification
+from transformers import XLNetTokenizer, XLNetForSequenceClassification, XLNetModel
 from sklearn.model_selection import train_test_split
 from torch.utils.data import TensorDataset, RandomSampler, DataLoader, SequentialSampler
 from sklearn.metrics import classification_report
@@ -119,9 +119,15 @@ def fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_m
     train_data = TensorDataset(tr_inputs, tr_masks,tr_segs, tr_tags)
     train_sampler = RandomSampler(train_data)
     train_dataloader = DataLoader(train_data, sampler=train_sampler, batch_size=hyperparameters['batch_size'], drop_last=True)
+
+    valid_data = TensorDataset(val_inputs, val_masks, val_segs, val_tags)
+    valid_sampler = SequentialSampler(valid_data)
+    valid_dataloader = DataLoader(valid_data, sampler=valid_sampler, batch_size=hyperparameters['batch_size'], drop_last=True)
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f'Using device: {device}')
     n_gpu = torch.cuda.device_count()
+    print(f'Number of gpu: {n_gpu}')
 
     model = XLNetForSequenceClassification.from_pretrained('xlnet-base-cased', num_labels=4, problem_type="multi_label_classification")
     model.to(device)
@@ -151,8 +157,9 @@ def fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_m
     print(f"  Batch size = {hyperparameters['batch_size']}")
     print(f"  Num steps = {hyperparameters['epochs']}")
     
+    for epoch in range(hyperparameters['epochs']):
+        print(f'Epoch: {epoch}')
 
-    for _ in range(hyperparameters['epochs']):
         tr_loss = 0
         nb_tr_examples = 0
         nb_tr_steps = 0
@@ -185,6 +192,15 @@ def fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_m
 
         print(f"Train loss: {tr_loss/nb_tr_steps}")
 
+        model.eval()
+
+        for batch in valid_dataloader:
+            batch = tuple(t.to(device) for t in batch)
+            b_input_ids, b_input_mask, b_segs, b_labels = batch
+
+            with torch.no_grad():
+                outputs = model(input_ids=b_input_ids, token_type_ids=b_segs, input_mask=b_input_mask, labels=b_labels)
+                tmp_eval_loss, logits = outputs[:2]
         #TODO
         # validation loop here
 
@@ -247,7 +263,7 @@ def simple_run(hyperparameters):
     
     full_input_ids, full_input_masks, full_segment_ids = tokenize_lyric(dataset['lyric'], hyperparameters)
     tags = dataset['mood'].to_list()
-    
+
     tr_inputs, test_inputs, tr_tags, test_tags, tr_masks, test_masks, tr_segs, test_segs = train_test_split(full_input_ids, tags, full_input_masks, full_segment_ids, random_state=SEED, test_size=0.3)
     
     val_inputs, test_inputs, val_tags, test_tags, val_masks, test_masks, val_segs, test_segs = train_test_split(test_inputs, test_tags, test_masks, test_segs, random_state=SEED, test_size=0.5)    
