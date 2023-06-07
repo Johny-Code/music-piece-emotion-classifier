@@ -141,7 +141,7 @@ def format_time(elapsed):
 def save_model(model, output_dir, epochs, lowest_eval_loss, train_loss_set, valid_loss_set):
     
     now = datetime.datetime.now()
-    file_name = now.strftime("%Y-%m-%d_%H-%M-%S") + '.pt'
+    file_name = now.strftime("%Y-%m-%d_%H-%M-%S") + f'after_{epochs}_epoch' + '.pt'
     output_path = os.path.join(output_dir, file_name)
 
     torch.save({
@@ -333,7 +333,7 @@ def simple_run(hyperparemeters):
                                                                                                                                attention_masks,
                                                                                                                                labels, 
                                                                                                                                random_state=SEED, test_size=0.3)
-    
+
 
     test_input_ids, val_input_ids, test_attention_masks, val_attention_masks, test_labels, val_labels = train_test_split(test_input_ids, 
                                                                                                                          test_attention_masks,
@@ -369,6 +369,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--fine_tune', action='store_true')
     parser.add_argument('--test_model', action='store_true')
+    parser.add_argument('--grid_search', action='store_true')
     
     args = parser.parse_args()
 
@@ -380,8 +381,8 @@ if __name__ == '__main__':
 
         hyperparameters = {
                             'tokenizer':{
-                                'do_lower_case': True,
-                                'num_embeddings': 128,
+                                'do_lower_case': False,
+                                'num_embeddings': 256,
                             },
                             'model':{
                                 'num_labels': 4,
@@ -389,7 +390,7 @@ if __name__ == '__main__':
                                 'lr': 2e-5,
                                 'weight_decay': 0.01,
                                 'correct_bias': False,
-                                'epochs': 2,
+                                'epochs': 3,
                             },
                             'model_save_path': model_save_folder
                         }
@@ -440,8 +441,31 @@ if __name__ == '__main__':
 
         test_dataloader = to_DataLoader(test_input_ids, test_attention_masks, test_labels, hyperparameters)
 
-        test_model(model, test_dataloader, hyperparameters)
+        test_model(model, test_dataloader, hyperparameters)    
+    
+    elif args.grid_search:
 
+        do_lower_case = [True, False]
+        num_embeddings = [256, 512]
 
-        
-        
+        for lower_case in do_lower_case:
+            for num_embedding in num_embeddings:
+
+                hyperparameters = {
+                                    'tokenizer':{
+                                        'do_lower_case': lower_case,
+                                        'num_embeddings': num_embedding,
+                                    },
+                                    'model':{
+                                        'num_labels': 4,
+                                        'batch_size': 32,
+                                        'lr': 2e-5,
+                                        'weight_decay': 0.01,
+                                        'correct_bias': False,
+                                        'epochs': 3,
+                                    },
+                                }
+
+                simple_run(hyperparameters)
+           
+    
