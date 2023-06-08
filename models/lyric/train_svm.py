@@ -4,7 +4,7 @@ import time
 import argparse
 import pandas as pd
 
-from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn import svm
 from sklearn.preprocessing import StandardScaler
@@ -54,7 +54,6 @@ def grid_search_svm(X_train, y_train, X_test, y_test):
 
     print(len(X_train))
     print(len(y_train))
-    exit(0)
 
     print('Grid search for SVM')
 
@@ -82,23 +81,43 @@ def grid_search_svm(X_train, y_train, X_test, y_test):
 
     k_fold = 10
 
+    print('Linear kernel')
+    for C in linear_kernel_params['C']:
+        for gamma in linear_kernel_params['gamma']:
+            print('\n *********************************** \n')
+            print(f'C: {C}, gamma: {gamma}')
+            svm_clf = svm.SVC(kernel='linear', C=C, gamma=gamma)
+            scores = cross_val_score(svm_clf, X_train, y_train, cv=k_fold, scoring='accuracy', n_jobs=-1)
+            print(f'Accuracy: {scores.mean():.3f} (+/- {scores.std():.3f})')
 
-    svm_clf = svm.SVC()
+    print('Polynomial kernel')
+    for degree in poly_kernel_params['degree']:
+        for C in poly_kernel_params['C']:
+            for gamma in poly_kernel_params['gamma']:
+                print('\n *********************************** \n')
+                print(f'degree: {degree}, C: {C}, gamma: {gamma}')
+                svm_clf = svm.SVC(kernel='poly', degree=degree, C=C, gamma=gamma)
+                scores = cross_val_score(svm_clf, X_train, y_train, cv=k_fold, scoring='accuracy', n_jobs=-1)
+                print(f'Accuracy: {scores.mean():.3f} (+/- {scores.std():.3f})')
+            
+    print('RBF kernel')
+    for C in rbf_kernel_params['C']:
+        for gamma in rbf_kernel_params['gamma']:
+            print('\n *********************************** \n')
+            print(f'C: {C}, gamma: {gamma}')
+            svm_clf = svm.SVC(kernel='rbf', C=C, gamma=gamma)
+            scores = cross_val_score(svm_clf, X_train, y_train, cv=k_fold, scoring='accuracy', n_jobs=-1)
+            print(f'Accuracy: {scores.mean():.3f} (+/- {scores.std():.3f})')
 
 
-
-    gs = GridSearchCV(estimator=svm_clf, param_grid=params, cv=cross_validation, scoring='accuracy', verbose=False, n_jobs=-1)
-    gs.fit(X_train, y_train)
-
-    print(f'Best score: {gs.best_score_}')
-    print(f'Best parameters: {gs.best_params_}')
-
-    y_pred = gs.predict(X_test)
-
-    print(classification_report(y_test, y_pred, target_names=TARGET_NAMES, digits=3))
-
-    cm = confusion_matrix(y_test, y_pred)
-    print(cm)
+    print('Sigmoid kernel')
+    for C in kernel_sigmoid_params['C']:
+        for gamma in kernel_sigmoid_params['gamma']:
+            print('\n *********************************** \n')
+            print(f'C: {C}, gamma: {gamma}')
+            svm_clf = svm.SVC(kernel='sigmoid', C=C, gamma=gamma)
+            scores = cross_val_score(svm_clf, X_train, y_train, cv=k_fold, scoring='accuracy', n_jobs=-1)
+            print(f'Accuracy: {scores.mean():.3f} (+/- {scores.std():.3f})')
 
 def clean_features(df):
 
