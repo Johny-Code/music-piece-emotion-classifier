@@ -5,7 +5,6 @@ import torch
 import time
 import datetime
 import math
-# import logging
 
 import numpy as np
 import pandas as pd
@@ -326,8 +325,6 @@ def test_model(model,test_dataloader):
     print("Classification Report:")
     print(classification_report(y_true, y_pred, target_names=TARGET_NAMES, digits=3))
 
-    # logging.info(classification_report(y_true, y_pred, target_names=TARGET_NAMES, digits=3))
-
 def simple_run(hyperparemeters):
 
     dataset_path = os.path.join('..', 'database', 'lyrics')
@@ -383,8 +380,6 @@ if __name__ == '__main__':
     parser.add_argument('--grid_search', action='store_true')
     
     args = parser.parse_args()
-
-    # logging.basicConfig(filename='models/lyric/logs/metrics.log', level=logging.INFO)
 
     if args.fine_tune:
         
@@ -458,11 +453,9 @@ if __name__ == '__main__':
     
     elif args.grid_search:
 
-        # logging.info('Start grid search')
-
         do_lower_case = [True, False]
-        num_embeddings = [32, 64, 128, 256]
-        batch_sizes = [8, 16, 32, 64, 128]
+        num_embeddings = [128, 256, 512]
+        batch_sizes = [32, 64, 128]
         
         iteration = 0
         for lower_case in do_lower_case:
@@ -482,7 +475,7 @@ if __name__ == '__main__':
                                             'lr': 2e-5,
                                             'weight_decay': 0.01,
                                             'correct_bias': False,
-                                            'epochs': 4,
+                                            'epochs': 5,
                                         },
                                     }
 
@@ -490,6 +483,8 @@ if __name__ == '__main__':
 
                     for key, value in hyperparameters.items():
                         print(f"{key} : {value}")
-                        logging.info(f"{key} : {value}")
+
+                    print('***************************************************\n\n')
+                    
            
     
