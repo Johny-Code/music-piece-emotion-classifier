@@ -7,6 +7,7 @@
 #SBATCH --mail-user s175502@student.pg.edu.pl
 #SBATCH --mail-type=ALL
 #
+#SBATCH --mem=10G
 #SBATCH --nodelist=node101
 #SBATCH -p short
 
