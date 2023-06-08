@@ -116,8 +116,11 @@ def create_dataset(replace_newline):
     en_dataset = load_en_dataset(dataset_path, duplicate_path)
 
     train, test = train_test_split(en_dataset, test_size=0.3, random_state=SEED)
+    print(f'Train dataset size: {len(train)}')
 
     test, valid = train_test_split(test, test_size=0.5, random_state=SEED)
+    print(f'Test dataset size: {len(test)}')
+    exit(0)
 
     dataset_path = os.path.join('database', 'fasttext')
     os.makedirs(os.path.join(dataset_path), exist_ok=True)
