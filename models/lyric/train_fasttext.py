@@ -165,7 +165,7 @@ if __name__ == '__main__':
                        'ws': 5,
                        'epoch': 5,
                        'loss': 'ova',
-                       'thread': 4,
+                       'thread': 50,
                        'replace_newline': ' ',
                         'autotune_duration': None 
                        }
@@ -174,35 +174,31 @@ if __name__ == '__main__':
 
     elif args.grid_search:
 
-        params = {'wordNgrams': [2, 3, 4],
-                  'lr': [0.001, 0.01, 0.1],
-                  'ws': [5, 10, 15],
-                  'epoch': [20, 50, 100],
-                  'loss': ['ova'],
-                  'thread': [16],
-                  'replace_newline': [' ', 'newline', '_']}
+        params = {'wordNgrams': [1, 2, 3, 4, 5],
+                  'lr': [0.1, 0.3, 0.5, 0.8],
+                  'epoch': [5, 20, 50]}
 
         for wordNgrams in params['wordNgrams']:
             for lr in params['lr']:
-                for ws in params['ws']:
-                    for epoch in params['epoch']:
-                        for loss in params['loss']:
-                            for thread in params['thread']:
-                                for replace_newline in params['replace_newline']:
-                                    hyperparams = {'train': '',
-                                                   'test': '',
-                                                   'valid': '',
-                                                   'wordNgrams': wordNgrams,
-                                                   'lr': lr,
-                                                   'ws': ws,
-                                                   'epoch': epoch,
-                                                   'loss': loss,
-                                                   'thread': thread,
-                                                   'replace_newline': replace_newline,
-                                                   'autotune_duration': None
-                                                   }
-                                    simple_run(hyperparams)
-                                    
+                for epoch in params['epoch']:
+                    hyperparams = {'train': '',
+                                    'test': '',
+                                    'valid': '',
+                                    'wordNgrams': wordNgrams,
+                                    'lr': lr,
+                                    'ws': 5,
+                                    'epoch': epoch,
+                                    'loss': 'softmax',
+                                    'thread': 50,
+                                    'replace_newline': ' ',
+                                    'autotune_duration': None
+                                    }
+                    print('\n**************************************************')
+                    for key, value in hyperparams.items():
+                        print(f'{key}: {value}')
+                              
+                    simple_run(hyperparams)
+                        
     elif args.autotune:
         hyperparams = {'train': '',
                        'test': '',

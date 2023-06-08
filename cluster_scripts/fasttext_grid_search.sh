@@ -1,5 +1,6 @@
 #!/bin/bash -l
 #
+#SBATCH -A eixam_users2
 #SBATCH -J fasttext_gridsearch
 #SBATCH -o logs/fasttext_gridsearch."%j".out
 #SBATCH -e logs/fasttext_gridsearch."%j".err
@@ -7,7 +8,7 @@
 #SBATCH --mail-user s175502@student.pg.edu.pl
 #SBATCH --mail-type=ALL
 #
-#SBATCH --nodelist=node101 OR node302 OR node108
+#SBATCH --nodelist=node101
 #SBATCH -p short
 
 # activate python venv
