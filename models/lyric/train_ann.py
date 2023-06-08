@@ -98,11 +98,16 @@ def train_ann(X_train, y_train, X_test, y_test, params):
 
     model = build_4_dense_ann(input_size, params['dense_size'], output_size, params['activation'], params['dropout'], params['optimizer'])
 
-    _ = model.fit(X_train, y_train, 
+    history = model.fit(X_train, y_train, 
                         epochs=params['epochs'], 
                         batch_size=params['batch_size'], 
                         validation_data=(X_val, y_val),
                         callbacks=[WandbMetricsLogger()])
+
+    print(f"Accuracy on training set: {history.history['accuracy']}")
+    print(f"Accuracy on validation set: {history.history['val_accuracy']}")
+    print(f"Loss on training set: {history.history['loss']}")
+    print(f"Loss on validation set: {history.history['val_loss']}")
 
     score = model.evaluate(X_test, y_test, batch_size=params['batch_size'])
 
@@ -149,7 +154,7 @@ def train_ann(X_train, y_train, X_test, y_test, params):
 
 def simple_run(config):
 
-    wandb.init(project='feature-based-4-dense-ann-grid-search_v3',
+    wandb.init(project='feature-based-4-dense-ann-grid-search_appendix',
                 config=config)
                 
     X_train, X_test, y_train, y_test = load_data()
@@ -183,9 +188,9 @@ if __name__ == '__main__':
 
     elif args.grid_search:
         
-        params = {'lr': [0.02, 0.01, 0.001, 0.005, 0.01],
-                  'epochs': [5, 10, 15, 20, 25],
-                  'batch_size': [32, 64, 128],
+        params = {'lr': [0.005, 0.01, 0.05],
+                  'epochs': [10, 15, 20],
+                  'batch_size': [64, 128],
                   'dense_size': [128, 256, 512],
                   'dropout': [0.2, 0.3, 0.4]}
         
@@ -203,6 +208,11 @@ if __name__ == '__main__':
                                     'activation': 'relu'}
                             
                             simple_run(config)
+
+                            for key, value in config.items():
+                                print(f'{key}: {value}')
+
+                            print('*******************************************************\n')
 
     else:
         print('Please specify a flag.')

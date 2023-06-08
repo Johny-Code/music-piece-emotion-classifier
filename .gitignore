@@ -16,6 +16,7 @@ database/fasttext/*
 models/audio/history/*
 models/audio/best_models/*
 models/lyric/fasttext_models/*
+models/lyric/features_based/*
 models/lyric/history/*
 logs/*
 
