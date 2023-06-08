@@ -399,11 +399,11 @@ if __name__ == '__main__':
                             },
                             'model':{
                                 'num_labels': 4,
-                                'batch_size': 64,
+                                'batch_size': 1024,
                                 'lr': 5e-6,
                                 'weight_decay': 0.01,
                                 'correct_bias': False,
-                                'epochs': 6,
+                                'epochs': 1,
                             },
                             'model_save_path': model_save_folder
                         }
