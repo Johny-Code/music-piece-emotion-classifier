@@ -1,5 +1,6 @@
 #!/bin/bash -l
 #
+#SBATCG -A eixam_users2
 #SBATCH -J xlnet_simple_run
 #SBATCH -o logs/xlnet_simple_run."%j".out
 #SBATCH -e logs/xlnet_simple_run."%j".err
@@ -7,7 +8,7 @@
 #SBATCH --mail-user s175502@student.pg.edu.pl
 #SBATCH --mail-type=ALL
 #
-#SBATCH --mem=30G
+#SBATCH --mem=100G
 #SBATCH --nodelist=node122
 #SBATCH -p short
 
