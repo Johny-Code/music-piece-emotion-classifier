@@ -74,7 +74,7 @@ def train_fasttext(hyperparams):
           f'number of epochs: {model.epoch} \n'
           )
 
-    _, precision, recall = model.test(hyperparams['test'])
+    _, precision, recall = model.test(hyperparams['valid'])
 
     print(f'Test set precision: {precision}')
     print(f'Test set recall: {recall}')
