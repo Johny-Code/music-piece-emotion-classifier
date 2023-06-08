@@ -86,12 +86,12 @@ def train_ann(X_train, y_train, X_test, y_test, params):
 
     X_test, X_val, y_test, y_val = train_test_split(X_test, y_test, test_size=0.5, random_state=SEED)
 
-    print(f"X_train shape: {X_train.shape}")
-    print(f"y_train shape: {y_train.shape}")
-    print(f"X_test shape: {X_test.shape}")
-    print(f"y_test shape: {y_test.shape}")
-    print(f"X_val shape: {X_val.shape}")
-    print(f"y_val shape: {y_val.shape}")
+    # print(f"X_train shape: {X_train.shape}")
+    # print(f"y_train shape: {y_train.shape}")
+    # print(f"X_test shape: {X_test.shape}")
+    # print(f"y_test shape: {y_test.shape}")
+    # print(f"X_val shape: {X_val.shape}")
+    # print(f"y_val shape: {y_val.shape}")
 
     input_size = 309
     output_size = 4
@@ -104,25 +104,25 @@ def train_ann(X_train, y_train, X_test, y_test, params):
                         validation_data=(X_val, y_val),
                         callbacks=[WandbMetricsLogger()])
 
-    print(f"Accuracy on training set: {history.history['accuracy']}")
-    print(f"Accuracy on validation set: {history.history['val_accuracy']}")
-    print(f"Loss on training set: {history.history['loss']}")
-    print(f"Loss on validation set: {history.history['val_loss']}")
+    print(f"Acc: {round(history.history['accuracy'][-1], 3)}")
+    print(f"Val_acc: {round(history.history['val_accuracy'][-1], 3)}")
+    print(f"Loss: {round(history.history['loss'][-1], 3)}")
+    print(f"Val_loss: {round(history.history['val_loss'][-1], 3) }")
 
     score = model.evaluate(X_test, y_test, batch_size=params['batch_size'])
 
-    print(f'Test accuracy: {score[1]}')
+    # print(f'Test accuracy: {score[1]}')
 
     y_pred = model.predict(X_test)
 
     y_pred = model.predict(X_test)
 
     cm = confusion_matrix(y_test.argmax(axis=1), y_pred.argmax(axis=1))
-    print(cm)
+    # print(cm)
     wandb.log({"conf_mat": cm})
 
     report = classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES, output_dict=True)
-    print(report)
+    # print(report)
 
     wandb.log({"raw_report": report})
 
