@@ -160,11 +160,11 @@ if __name__ == '__main__':
         hyperparams = {'train': '',
                        'test': '',
                        'valid': '',
-                       'wordNgrams': 2,
+                       'wordNgrams': 1,
                        'lr': 0.1,
                        'ws': 5,
                        'epoch': 5,
-                       'loss': 'ova',
+                       'loss': 'softmax',
                        'thread': 50,
                        'replace_newline': ' ',
                         'autotune_duration': None 
