@@ -8,7 +8,7 @@
 #SBATCH --mail-user s175502@student.pg.edu.pl
 #SBATCH --mail-type=ALL
 #
-#SBATCH -p medium
+#SBATCH -p short
 
 # activate python venv
 source .././emotion_env/bin/activate
