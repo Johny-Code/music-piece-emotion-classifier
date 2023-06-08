@@ -8,7 +8,7 @@
 #SBATCH --mail-type=ALL
 #
 #SBATCH --mem=30G
-#SBATCH --nodelist=node101
+#SBATCH --nodelist=node122
 #SBATCH -p short
 
 # activate python venv
