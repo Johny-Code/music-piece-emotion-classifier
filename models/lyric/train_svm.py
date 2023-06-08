@@ -47,19 +47,45 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
 
 def grid_search_svm(X_train, y_train, X_test, y_test):
 
-    X_test, _, y_test, _ = train_test_split(X_test, y_test, test_size=0.5, random_state=SEED)
+    X_test, X_valid, y_test, y_valid = train_test_split(X_test, y_test, test_size=0.5, random_state=SEED)
+
+    X_train = X_train + X_valid
+    y_train = y_train + y_valid
+
+    print(len(X_train))
+    print(len(y_train))
+    exit(0)
 
     print('Grid search for SVM')
-    
-    params = [
-    { 'kernel': ['linear'], 'C': [ 0.01, 0.05, 1, 10, 100 ], 'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ]},
-    { 'kernel': ['poly'], 'degree': [ 2, 3, 4, 5, 6 ], 'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ], 'C': [ 0.01, 0.05, 1, 10, 100 ]},
-    {'kernel': ['rbf'], 'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ], 'C': [ 0.01, 0.05, 1, 10, 100 ], 'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ],},
-    {'kernel': ['sigmoid'], 'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ], 'C': [ 0.01, 0.05, 1, 10, 100 ], 'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ],}
-    ]
 
-    cross_validation = 10
+    linear_kernel_params = {
+        'C': [ 0.01, 0.05, 1, 10, 100 ], 
+        'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ]
+    }
+
+    poly_kernel_params = {
+        'degree': [ 2, 3, 4, 5, 6 ], 
+        'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ], 
+        'C': [ 0.01, 0.05, 1, 10, 100 ]
+    }
+
+    rbf_kernel_params = {
+        'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ], 
+        'C': [ 0.01, 0.05, 1, 10, 100 ]
+    }
+
+    kernel_sigmoid_params = {
+        'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ], 
+        'C': [ 0.01, 0.05, 1, 10, 100 ]
+    }
+
+
+    k_fold = 10
+
+
     svm_clf = svm.SVC()
+
+
 
     gs = GridSearchCV(estimator=svm_clf, param_grid=params, cv=cross_validation, scoring='accuracy', verbose=False, n_jobs=-1)
     gs.fit(X_train, y_train)
