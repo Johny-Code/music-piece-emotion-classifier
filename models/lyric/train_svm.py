@@ -58,24 +58,24 @@ def grid_search_svm(X_train, y_train, X_test, y_test):
     print('Grid search for SVM')
 
     linear_kernel_params = {
-        'C': [ 0.01, 0.05, 1, 10, 100 ], 
+        'C': [ 0.01, 0.1, 1, 10, 100 ], 
         'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ]
     }
 
     poly_kernel_params = {
         'degree': [ 2, 3, 4, 5, 6 ], 
         'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ], 
-        'C': [ 0.01, 0.05, 1, 10, 100 ]
+        'C': [ 0.01, 0.1, 1, 10, 100 ]
     }
 
     rbf_kernel_params = {
         'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ], 
-        'C': [ 0.01, 0.05, 1, 10, 100 ]
+        'C': [ 0.01, 0.1, 1, 10, 100 ]
     }
 
     kernel_sigmoid_params = {
         'gamma': [ 0.01, 0.05, 0.1, 0.3, 0.5, 1 ], 
-        'C': [ 0.01, 0.05, 1, 10, 100 ]
+        'C': [ 0.01, 0.1, 1, 10, 100 ]
     }
 
 
