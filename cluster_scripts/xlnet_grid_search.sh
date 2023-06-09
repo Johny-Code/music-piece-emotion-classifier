@@ -9,6 +9,8 @@
 #SBATCH --mail-type=ALL
 #
 #SBATCH -p short
+#
+#SBATCH --constraint=avx
 
 # activate python venv
 source .././emotion_env/bin/activate
