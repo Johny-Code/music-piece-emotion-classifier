@@ -8,9 +8,10 @@
 #SBATCH --mail-user s175502@student.pg.edu.pl
 #SBATCH --mail-type=ALL
 #
-#SBATCH -p short
+#SBATCH -p medium
 #SBATCH --nodelist=node122
 #SBATCH --constraint=avx
+#SBATCH --mem=64G
 
 # activate python venv
 source .././emotion_env/bin/activate
