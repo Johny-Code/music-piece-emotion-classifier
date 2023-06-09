@@ -9,7 +9,7 @@
 #SBATCH --mail-type=ALL
 #
 #SBATCH -p short
-#
+#SBATCH --nodelist=node122
 #SBATCH --constraint=avx
 
 # activate python venv
