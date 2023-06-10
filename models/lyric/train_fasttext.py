@@ -64,8 +64,6 @@ def train_fasttext(hyperparams):
     end = time.time()
     print(f'Training time: {round((end - start), 2)} seconds')
 
-    now = datetime.now()
-
     print(f'\nModel best parameters: \n'
           f'size of the context window: {model.ws} \n'
           f'wordNgrams: {model.wordNgrams} \n'
@@ -94,11 +92,15 @@ def test_fasttext(test_dataset, model):
     for lyric in test_dataset['lyric'].tolist():
         test.append(lyric)
 
+    start = datetime.now()
+
     score = model.predict(test)
     i = 0
     for pred_label, true_label in zip(score[0], test_dataset['mood'].tolist()):
         y_true.append(labels[true_label])
         y_pred.append(labels[pred_label[0]])
+
+    end = time.time()
 
     print(classification_report(y_true, y_pred, target_names=TARGET_NAMES, digits=3))
 
@@ -108,6 +110,7 @@ def test_fasttext(test_dataset, model):
     # output_path = os.path.join('models', 'lyric', 'history', 'svm')
     # draw_confusion_matrix(cm, TARGET_NAMES, output_path)
 
+    print(f'Testing time: {round((end - start), 2)} seconds')
 
 def create_dataset(replace_newline):
     dataset_path = os.path.join('..', 'database', 'lyrics')
