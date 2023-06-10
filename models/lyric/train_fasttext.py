@@ -92,7 +92,7 @@ def test_fasttext(test_dataset, model):
     for lyric in test_dataset['lyric'].tolist():
         test.append(lyric)
 
-    start = datetime.now()
+    start = time.time()
 
     score = model.predict(test)
     i = 0
