@@ -105,8 +105,8 @@ def test_fasttext(test_dataset, model):
     cm = confusion_matrix(y_true, y_pred)
     print(cm)
 
-    output_path = os.path.join('models', 'lyric', 'history', 'svm')
-    draw_confusion_matrix(cm, TARGET_NAMES, output_path)
+    # output_path = os.path.join('models', 'lyric', 'history', 'svm')
+    # draw_confusion_matrix(cm, TARGET_NAMES, output_path)
 
 
 def create_dataset(replace_newline):
@@ -160,10 +160,10 @@ if __name__ == '__main__':
         hyperparams = {'train': '',
                        'test': '',
                        'valid': '',
-                       'wordNgrams': 1,
-                       'lr': 0.1,
+                       'wordNgrams': 3,
+                       'lr': 0.8,
                        'ws': 5,
-                       'epoch': 5,
+                       'epoch': 20,
                        'loss': 'softmax',
                        'thread': 50,
                        'replace_newline': ' ',
