@@ -1,18 +1,26 @@
-import argparse
-import sys
 import os
+import sys
+import argparse
 import torch
+import time
+import datetime
+import math
+
 import numpy as np
-
-from transformers import XLNetTokenizer, XLNetForSequenceClassification
+import pandas as pd
+from transformers import XLNetTokenizer, XLNetModel, AdamW
 from sklearn.model_selection import train_test_split
-from torch.utils.data import TensorDataset, RandomSampler, DataLoader, SequentialSampler
 from sklearn.metrics import classification_report
-
-from train_svm import SEED
+from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 
 sys.path.append('tools/')
 from extract_features_from_lyric import load_en_dataset, clean_lyric
+
+
+SEED = 100
+torch.manual_seed(SEED)
+
+TARGET_NAMES = ['happy', 'angry', 'sad', 'relaxed']
 
 def preprocess(dataset, remove_newline):
 
@@ -31,290 +39,452 @@ def preprocess(dataset, remove_newline):
 
     dataset = dataset[['mood', 'lyric']]
 
-    print(dataset.head())
+    labels = dataset['mood'].tolist()
+    lyrics = dataset['lyric'].tolist()
 
-    return dataset
+    return labels, lyrics
 
-def tokenize_lyric(texts, hyperparameters):
-
-    lyrics = texts.to_list() 
-
-    tokenizer = XLNetTokenizer.from_pretrained('xlnet-base-cased')
-
-    full_input_ids = []
-    full_input_masks = []
-    full_segment_ids = []
-
-    SEG_ID_A   = 0
-    SEG_ID_CLS = 2
-    SEG_ID_PAD = 4
-
-    CLS_ID = tokenizer.encode("<cls>")[0]
-    SEP_ID = tokenizer.encode("<sep>")[0]
-
-    for i, lyric in enumerate(lyrics):
-
-        tokens_a = tokenizer.encode(lyric)
-
-        # trim the len of text to max_len
-        if len(tokens_a) > hyperparameters['max_seq_length'] - 2:
-            print(f'lyric {i} is too long, len = {len(tokens_a)}')
-            tokens_a = tokens_a[:hyperparameters['max_seq_length'] - 2]
-
-        tokens = []
-        segment_ids = []
-
-        for token in tokens_a:
-            tokens.append(token)
-            segment_ids.append(SEG_ID_A)
-
-        tokens.append(SEP_ID)
-        segment_ids.append(SEG_ID_A)
-
-        tokens.append(CLS_ID)
-        segment_ids.append(SEG_ID_CLS)
-
-        input_ids = tokens
-
-        # The mask has 0 for real tokens and 1 for padding tokens. Only real tokens are attended to.
-        input_mask = [0] * len(input_ids)
-        
-        # Zero-pad up to the sequence length at fornt
-        if len(input_ids) < hyperparameters['max_seq_length']:
-            delta_len = hyperparameters['max_seq_length'] - len(input_ids)
-            input_ids = [0] * delta_len + input_ids
-            input_mask = [1] * delta_len + input_mask
-            segment_ids = [SEG_ID_PAD] * delta_len + segment_ids
-
-        assert len(input_ids) == hyperparameters['max_seq_length']
-        assert len(input_mask) == hyperparameters['max_seq_length']
-        assert len(segment_ids) == hyperparameters['max_seq_length']
-        
-        full_input_ids.append(input_ids)
-        full_input_masks.append(input_mask)
-        full_segment_ids.append(segment_ids)
-
-    return full_input_ids, full_input_masks, full_segment_ids
-
-def vec_to_tensor(inputs, tags, masks, segs):
-
-    if len(inputs) != len(tags) != len(masks) != len(segs):
-        print("Training vactors haven't got same length")
-        exit(0)
-        
-    inputs = torch.tensor(inputs)
-    tags = torch.tensor(tags)
-    masks = torch.tensor(masks)
-    segs = torch.tensor(segs)
-
-    return inputs, tags, masks, segs
-
-def fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_masks, val_segs, hyperparameters):
-
-    print('Start fine-tuning...')
-
-    tr_inputs, tr_tags, tr_masks, tr_segs = vec_to_tensor(tr_inputs, tr_tags, tr_masks, tr_segs)
-    val_inputs, val_tags, val_masks, val_segs = vec_to_tensor(val_inputs, val_tags, val_masks, val_segs)
-
-    train_data = TensorDataset(tr_inputs, tr_masks,tr_segs, tr_tags)
-    train_sampler = RandomSampler(train_data)
-    train_dataloader = DataLoader(train_data, sampler=train_sampler, batch_size=hyperparameters['batch_size'], drop_last=True)
-    
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    n_gpu = torch.cuda.device_count()
-
-    model = XLNetForSequenceClassification.from_pretrained('xlnet-base-cased', num_labels=4, problem_type="multi_label_classification")
-    model.to(device)
-    if n_gpu > 1:
-        model = torch.nn.DataParallel(model)
-
-    param_optimizer = list(model.named_parameters())
-    no_decay = ['bias', 'gamma', 'beta']
-    optimizer_grouped_parameters = [
-        {
-            'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 
-            'weight_decay_rate': hyperparameters['weight_decay']
-        },
-        {
-            'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 
-            'weight_decay_rate': 0.0
-        }
-    ]
-
-    optimizer = torch.optim.Adam(optimizer_grouped_parameters, lr=hyperparameters['lr'], eps=hyperparameters['eps'])
-
-    print(model)
-
-    
-    print("***** Running training *****")
-    print(f"  Num examples = {len(tr_inputs)}")
-    print(f"  Batch size = {hyperparameters['batch_size']}")
-    print(f"  Num steps = {hyperparameters['epochs']}")
-    
-
-    for _ in range(hyperparameters['epochs']):
-        tr_loss = 0
-        nb_tr_examples = 0
-        nb_tr_steps = 0
-
-        model.train()
-
-        for batch in train_dataloader:
-            batch = tuple(t.to(device) for t in batch)
-            b_input_ids, b_input_mask, b_segs, b_labels = batch
-
-            # forward pass
-            outputs = model(input_ids =b_input_ids, token_type_ids=b_segs, input_mask = b_input_mask, labels=b_labels)
-            loss, _ = outputs[:2]
-            if n_gpu>1:
-                loss = loss.mean()
-
-            # backward pass
-            loss.backward()
-
-            tr_loss += loss.item()
-            nb_tr_examples += b_input_ids.size(0)
-            nb_tr_steps += 1
-
-            # gradient clipping
-            torch.nn.utils.clip_grad_norm_(parameters=model.parameters(), max_norm=hyperparameters['max_grad_norm'])
-
-            # update parameters
-            optimizer.step()
-            optimizer.zero_grad()
-
-        print(f"Train loss: {tr_loss/nb_tr_steps}")
-
-        #TODO
-        # validation loop here
-
-
-    return model
-
-def test_model(model, test_inputs, test_tags, test_masks, test_segs):
-
-    test_data = TensorDataset(test_inputs, test_masks, test_segs, test_tags)
-    test_sampler = RandomSampler(test_data)
-    test_dataloader = DataLoader(test_data, sampler=test_sampler, batch_size=hyperparameters['batch_size'], drop_last=True)
-
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-    model.eval()
-
-    eval_loss = 0
-    nb_eval_steps = 0
-    
-    y_true = []
-    y_pred = []
-
-    print("***** Running evaluation *****")
-    print(f"  Num examples = {len(test_inputs)}")
-    print(f"  Batch size = {hyperparameters['batch_size']}")
-
-    for batch in test_dataloader:
-        batch = tuple(t.to(device) for t in batch)
-        b_input_ids, b_input_mask, b_segs, b_labels = batch
-
-        with torch.no_grad():
-            outputs = model(input_ids =b_input_ids,token_type_ids=b_segs, input_mask = b_input_mask,labels=b_labels)
-            tmp_eval_loss, logits = outputs[:2]
-
-        logits = logits.detach().cpu().numpy()
-        label_ids = b_labels.to('cpu').numpy()
-
-        for predict in np.argmax(logits, axis=1):
-            y_pred.append(predict)
-
-        for true in label_ids.tolist():
-            y_true.append(true)
-
-        eval_loss += tmp_eval_loss.mean().item()
-        nb_eval_steps += 1
-    
-    eval_loss = eval_loss / nb_eval_steps
-
-    print(classification_report(y_true, y_pred))
-
-def simple_run(hyperparameters):
-    
-    dataset_path = os.path.join('..', 'database', 'lyrics')
-    duplicated_path = os.path.join('database', 'removed_rows.json') 
-
+def load_dataset(dataset_path, duplicated_path):
     en_dataset = load_en_dataset(dataset_path, duplicated_path)
 
     remove_newline = True
-    dataset = preprocess(en_dataset, remove_newline)
+    labels, lyrics = preprocess(en_dataset, remove_newline) 
+
+    return np.array(labels), np.array(lyrics)
+
+def tokenize_inputs(hyperparameters, lyrics, tokenizer):
+
+    tokenized_texts = []
+    input_ids = []
+    for lyric in lyrics:
+        tokens = tokenizer.tokenize(lyric)[:hyperparameters['tokenizer']['num_embeddings']-2]
+        tokenized_texts.append(tokens)
+
+        ids = tokenizer.convert_tokens_to_ids(tokens)
+
+        if len(ids) < hyperparameters['tokenizer']['num_embeddings']:
+            delta_len = hyperparameters['tokenizer']['num_embeddings'] - len(ids)
+            ids = ids + [0] * delta_len    
+
+        input_ids.append(ids)
+
+    return np.array(input_ids)
+
+def create_attention_masks(input_ids):
+
+    attention_mask = []
+
+    for seq in input_ids:
+        seq_mask = [float(i>0) for i in seq]
+        attention_mask.append(seq_mask)
+
+    return np.array(attention_mask)
+
+def to_tensor(input_ids, attention_masks, labels):
+    input_ids = torch.tensor(input_ids)
+    attention_masks = torch.tensor(attention_masks)
+    labels = torch.tensor(labels)
+    return input_ids, attention_masks, labels
+
+def to_DataLoader(input_ids, attention_masks, labels, hyperparemeters):
+    dataset = TensorDataset(input_ids, attention_masks, labels)
+
+    dataloader = DataLoader(dataset, sampler=RandomSampler(dataset), 
+                            batch_size=hyperparemeters['model']['batch_size'])
     
-    full_input_ids, full_input_masks, full_segment_ids = tokenize_lyric(dataset['lyric'], hyperparameters)
-    tags = dataset['mood'].to_list()
+    return dataloader
+
+class XLNetForMultiLabelSequenceClassification(torch.nn.Module):
     
-    tr_inputs, test_inputs, tr_tags, test_tags, tr_masks, test_masks, tr_segs, test_segs = train_test_split(full_input_ids, tags, full_input_masks, full_segment_ids, random_state=SEED, test_size=0.3)
+    def __init__(self, num_labels=4):
+        super(XLNetForMultiLabelSequenceClassification, self).__init__()
+        self.num_labels = num_labels
+        self.xlnet = XLNetModel.from_pretrained('xlnet-base-cased')
+        self.classifier = torch.nn.Linear(768, num_labels)
+
+        torch.nn.init.xavier_normal_(self.classifier.weight)
     
-    val_inputs, test_inputs, val_tags, test_tags, val_masks, test_masks, val_segs, test_segs = train_test_split(test_inputs, test_tags, test_masks, test_segs, random_state=SEED, test_size=0.5)    
+    def forward(self, input_ids, token_type_ids=None, attention_mask=None, labels=None):
+
+        #last hidden layer
+        last_hidden_state = self.xlnet(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+
+        #pool the outputs into a mean vector
+        mean_last_hidden_state = self.pool_hidden_state(last_hidden_state)
+        output = self.classifier(mean_last_hidden_state)
+
+        if labels is not None:
+            loss_fct = torch.nn.CrossEntropyLoss()
+            loss = loss_fct(output, labels.float())
+            return loss
+        else:
+            probs = torch.softmax(output, dim=1)
+            return probs
+        
+    def freeze_xlnet_decoder(self):
+        """
+        Freeze XLNet weight parameters. They will not be updated during training.
+        """
+        for param in self.xlnet.parameters():
+            param.requires_grad = True
     
-    model = fine_tune(tr_inputs, tr_tags, tr_masks, tr_segs, val_inputs, val_tags, val_masks, val_segs, hyperparameters)
+    def pool_hidden_state(self, last_hidden_state):
+        """
+        Pool the output vectors into a single mean vector 
+        """
+        last_hidden_state = last_hidden_state[0]
+        # TODO it can be done in different ways, not only mean
+        mean_last_hidden_state = torch.mean(last_hidden_state, 1)
+        return mean_last_hidden_state
+
+def format_time(elapsed):
+    elapsed_rounded = int(round((elapsed)))
+    return str(datetime.timedelta(seconds=elapsed_rounded))
+
+def save_model(model, output_dir, epochs, lowest_eval_loss, train_loss_set, valid_loss_set):
     
-    test_model(model, test_inputs, test_tags, test_masks, test_segs)
+    now = datetime.datetime.now()
+    file_name = now.strftime("%Y-%m-%d_%H-%M-%S") + f'_after_{epochs}_epoch' + '.pt'
+    output_path = os.path.join(output_dir, file_name)
+
+    torch.save({
+        'model_state_dict': model.state_dict(),
+        'epochs': epochs,
+        'lowest_eval_loss': lowest_eval_loss,
+        'train_loss_set': train_loss_set,
+        'valid_loss_set': valid_loss_set
+    }, output_path)
+
+    print(f'Model saved to {output_path}')
+
+
+def load_model(path_to_model):
+    checkpoint = torch.load(path_to_model)
+    model_state_dict = checkpoint['model_state_dict']
+    model = XLNetForMultiLabelSequenceClassification(num_labels=model_state_dict["classifier.weight"].size()[0])
+    model.load_state_dict(model_state_dict)
+
+    epochs = checkpoint['epochs']
+    lowest_eval_loss = checkpoint['lowest_eval_loss']
+    train_loss_set = checkpoint['train_loss_set']
+    valid_loss_set = checkpoint['valid_loss_set']
+
+    return model, epochs, lowest_eval_loss, train_loss_set, valid_loss_set
+
+def train(model, optimizer, train_dataloader, validation_dataloader, hyperparameters, train_loss_set = [], valid_loss_set = [],
+          start_epoch = 0, lowest_eval_loss = None):
+
+    training_stats = []
+
+    total_t0 = time.time()
+
+    torch.cuda.empty_cache()
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    model.to(device)
+
+    for i in range(hyperparameters['model']['epochs']):
+        # if continue training from saved model
+        actual_epoch = start_epoch + i
+
+        # ========================================
+        #               Training
+        # ========================================
+
+        print("")
+        print(f"Epoch {actual_epoch}/{hyperparameters['model']['epochs']}")
+        print('Training...')
+
+        t0 = time.time()
+
+        model.train()
+
+        tr_loss = 0
+        num_train_samples = 0
+
+        for step, batch in enumerate(train_dataloader):
+            if step % 3 == 0 and not step == 0:
+                elapsed = format_time(time.time() - t0)
+                print(f'  Batch {step}  of  {len(train_dataloader)}.    Elapsed: {elapsed}.')
+
+            batch = tuple(t.to(device) for t in batch)
+            b_input_ids, b_input_mask, b_labels = batch
+
+            # Clear out the gradients (by default they accumulate)
+            optimizer.zero_grad()
+            
+            # Forward pass
+            loss = model(b_input_ids, attention_mask=b_input_mask, labels=b_labels)
+
+            tr_loss += loss.item()
+            num_train_samples += b_labels.size(0)
+
+            # Backward pass
+            loss.backward()
+            # Update parameters and take a step using the computed gradient
+            optimizer.step()
+
+        epoch_train_loss = tr_loss/num_train_samples
+        train_loss_set.append(epoch_train_loss)
+
+        training_time = format_time(time.time() - t0)
+
+        print("")
+        print(f"  Average training loss: {round(epoch_train_loss, 3)}")
+        print(f"  Training epcoh took: {training_time}")
+
+        # ========================================
+        #               Validation
+        # ========================================
+
+        print("")
+        print("Running Validation...")
+        
+        t0 = time.time()
+
+        model.eval()
+
+        eval_loss = 0
+        num_eval_samples = 0
+
+        for batch in validation_dataloader:
+            batch = tuple(t.to(device) for t in batch)
+            b_input_ids, b_input_mask, b_labels = batch
+
+            with torch.no_grad():
+                loss = model(b_input_ids, attention_mask=b_input_mask, labels=b_labels)
+
+                eval_loss += loss.item()
+                num_eval_samples += b_labels.size(0)
+        
+        epoch_eval_loss = eval_loss/num_eval_samples
+        valid_loss_set.append(epoch_eval_loss)
+
+        validation_time = format_time(time.time() - t0)
+
+        print(f"  Validation Loss: {epoch_eval_loss}")
+        print(f"  Validation took: {validation_time}")
+
+        training_stats.append(
+            {
+                'epoch': actual_epoch,
+                'Training Loss': epoch_train_loss,
+                'Valid. Loss': epoch_eval_loss,
+                'Training Time': training_time,
+                'Validation Time': validation_time
+            }
+        )
+
+        if lowest_eval_loss == None:
+            lowest_eval_loss = epoch_eval_loss
+            print(f'Best performance achived at epoch {actual_epoch} with validation loss of {lowest_eval_loss}')
+            # save_model(model, hyperparameters['model_save_path'],
+                    #    actual_epoch, lowest_eval_loss, train_loss_set, valid_loss_set)
+        else:
+            if epoch_eval_loss < lowest_eval_loss:
+                lowest_eval_loss = epoch_eval_loss
+                print(f'At epoch {actual_epoch} better performance was achived with validation loss of {lowest_eval_loss}')
+                # save_model(model, hyperparameters['model_save_path'],
+                        #    actual_epoch, lowest_eval_loss, train_loss_set, valid_loss_set)
+    
+    print("")
+    print("Training complete!")
+    print(f"Total training took {format_time(time.time()-total_t0)}")
+
+    return model, train_loss_set, valid_loss_set, training_stats
+
+def test_model(model,test_dataloader):
+    
+    torch.cuda.empty_cache()
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+    model.eval()
+
+    y_pred = []
+    y_true = []
+
+    print("")
+    print("Running Testing...")
+
+    for batch in test_dataloader:
+        batch = tuple(t.to(device) for t in batch)
+        b_input_ids, b_input_mask, b_labels = batch
+
+        with torch.no_grad():
+            output = model(b_input_ids, attention_mask=b_input_mask)
+            output = output.detach().cpu().numpy()
+
+        for predict in np.argmax(output, axis=1):
+            y_pred.append(predict)
+
+        labels_ids = b_labels.to('cpu').numpy()    
+        for label in np.argmax(labels_ids, axis=1):
+            y_true.append(label)
+
+    print("Testing complete!")
+    print("")
+    print("Classification Report:")
+    print(classification_report(y_true, y_pred, target_names=TARGET_NAMES, digits=3))
+
+def simple_run(hyperparemeters):
+
+    dataset_path = os.path.join('..', 'database', 'lyrics')
+    duplicated_path = os.path.join('database', 'removed_rows.json') 
+
+    labels, lyrics = load_dataset(dataset_path, duplicated_path)
+
+    tokienizer = XLNetTokenizer.from_pretrained('xlnet-base-cased', do_lower_case = hyperparameters['tokenizer']['do_lower_case'])
+
+    input_ids = tokenize_inputs(hyperparemeters, lyrics, tokienizer)
+    attention_masks = create_attention_masks(input_ids)
+    
+    train_input_ids, test_input_ids, train_attention_masks, test_attention_masks, train_labels, test_labels = train_test_split(input_ids, 
+                                                                                                                               attention_masks,
+                                                                                                                               labels, 
+                                                                                                                               random_state=SEED, test_size=0.3)
+
+
+    test_input_ids, val_input_ids, test_attention_masks, val_attention_masks, test_labels, val_labels = train_test_split(test_input_ids, 
+                                                                                                                         test_attention_masks,
+                                                                                                                         test_labels, 
+                                                                                                                         random_state=SEED, test_size=0.5)
+
+    train_input_ids, train_attention_masks, train_labels = to_tensor(train_input_ids, train_attention_masks, train_labels)
+    val_input_ids, val_attention_masks, val_labels = to_tensor(val_input_ids, val_attention_masks, val_labels)
+    test_input_ids, test_attention_masks, test_labels = to_tensor(test_input_ids, test_attention_masks, test_labels)
+
+    train_dataloader = to_DataLoader(train_input_ids, train_attention_masks, train_labels, hyperparemeters)
+    val_dataloader = to_DataLoader(val_input_ids, val_attention_masks, val_labels, hyperparemeters)
+    test_dataloader = to_DataLoader(test_input_ids, test_attention_masks, test_labels, hyperparemeters)
+
+    model = XLNetForMultiLabelSequenceClassification(num_labels=hyperparemeters['model']['num_labels'])
+
+    optimizer = AdamW(model.parameters(), 
+                      lr=hyperparemeters['model']['lr'], 
+                      weight_decay=hyperparameters['model']['weight_decay'],
+                      correct_bias=hyperparameters['model']['correct_bias'], 
+                      )
+    
+    model, train_loss_set, valid_loss_set, training_stats = train(model, optimizer, train_dataloader, val_dataloader, hyperparemeters)
+
+    df_stats = pd.DataFrame(data=training_stats)
+    df_stats = df_stats.set_index('epoch')
+
+    print(df_stats)
+
+    test_model(model, test_dataloader)
 
 if __name__ == '__main__':
-
     parser = argparse.ArgumentParser()
-    parser.add_argument('--simple_run', action='store_true')
+    parser.add_argument('--fine_tune', action='store_true')
+    parser.add_argument('--test_model', action='store_true')
     parser.add_argument('--grid_search', action='store_true')
+    
     args = parser.parse_args()
 
-    if args.simple_run:
-    
-        hyperparameters = {'batch_size': 32,
-                           'epochs': 10,
-                            'lr': 2e-5, 
-                            'eps': 1e-8, 
-                            'max_grad_norm': 1.0, 
-                            'warmup_steps': 0, 
-                            'weight_decay': 0.0,
-                            'max_grad_norm': 1.0,
-                            'max_seq_length': 32,
-                            }
+    if args.fine_tune:
+        
+        #actual date and time
+        model_save_folder = os.path.join('models', 'lyric', 'xlnet')
+        os.makedirs(model_save_folder, exist_ok=True)
 
-        print('hyperparameters:')
-        for key, value in hyperparameters.items():
-            print(key, ' : ', value)
-
+        hyperparameters = {
+                            'tokenizer':{
+                                'do_lower_case': True,
+                                'num_embeddings': 256,
+                            },
+                            'model':{
+                                'num_labels': 4,
+                                'batch_size': 1024,
+                                'lr': 5e-6,
+                                'weight_decay': 0.01,
+                                'correct_bias': False,
+                                'epochs': 1,
+                            },
+                            'model_save_path': model_save_folder
+                        }
+        
         simple_run(hyperparameters)
+    
+    elif args.test_model:
 
+        hyperparameters = {
+                            'tokenizer':{
+                                'do_lower_case': True,
+                                'num_embeddings': 128,
+                            },
+                            'model':{
+                                'num_labels': 4,
+                                'batch_size': 32,
+                            }
+                            }
+        
+        path_to_model = os.path.join('models', 'lyric', 'xlnet', '2023-06-07_20-05-40.pt')
+
+        model, _, _, _, _ = load_model(path_to_model)
+        
+
+        dataset_path = os.path.join('..', 'database', 'lyrics')
+        duplicated_path = os.path.join('database', 'removed_rows.json') 
+
+        labels, lyrics = load_dataset(dataset_path, duplicated_path)
+
+        tokienizer = XLNetTokenizer.from_pretrained('xlnet-base-cased', do_lower_case = hyperparameters['tokenizer']['do_lower_case'])
+
+        input_ids = tokenize_inputs(hyperparameters, lyrics, tokienizer)
+        attention_masks = create_attention_masks(input_ids)
+
+
+        _, test_input_ids, _, test_attention_masks, _, test_labels = train_test_split(input_ids, 
+                                                                                        attention_masks,
+                                                                                        labels, 
+                                                                                        random_state=SEED, test_size=0.3)
+    
+
+        test_input_ids, _, test_attention_masks, _, test_labels, _ = train_test_split(test_input_ids, 
+                                                                                        test_attention_masks,
+                                                                                        test_labels, 
+                                                                                        random_state=SEED, test_size=0.5)
+        
+        test_input_ids, test_attention_masks, test_labels = to_tensor(test_input_ids, test_attention_masks, test_labels)
+
+        test_dataloader = to_DataLoader(test_input_ids, test_attention_masks, test_labels, hyperparameters)
+
+        test_model(model, test_dataloader, hyperparameters)    
+    
     elif args.grid_search:
+
+        do_lower_case = [True, False]
+        num_embeddings = [128, 256, 512]
+        batch_sizes = [32, 64, 128]
         
-        print('grid search')
+        iteration = 0
+        for lower_case in do_lower_case:
+            for num_embedding in num_embeddings:
+                for batch_size in batch_sizes:  
 
-        params = {'batch_size': [16, 32, 64],
-                  'epochs': [10, 20, 30],
-                  'lr': [1e-5, 1e-4, 0.001, 0.01, 0.1],
-                  'max_seq_length': [32, 128, 256, 512, 1024] }            
-        
-        for batch in params['batch_size']:
-            for epoch in params['epochs']:
-                for lr in params['lr']:
-                    for max_seq_length in params['max_seq_length']:
+                    print(iteration)
+                    iteration += 1
+                    hyperparameters = {
+                                        'tokenizer':{
+                                            'do_lower_case': lower_case,
+                                            'num_embeddings': num_embedding,
+                                        },
+                                        'model':{
+                                            'num_labels': 4,
+                                            'batch_size': batch_size,
+                                            'lr': 2e-5,
+                                            'weight_decay': 0.01,
+                                            'correct_bias': False,
+                                            'epochs': 5,
+                                        },
+                                    }
 
-                        hyperparameters = {'batch_size': batch,
-                                           'epochs': epoch,
-                                            'lr': lr, 
-                                            'eps': 1e-8, 
-                                            'max_grad_norm': 1.0, 
-                                            'warmup_steps': 0, 
-                                            'weight_decay': 0.0,
-                                            'max_grad_norm': 1.0,
-                                            'max_seq_length': max_seq_length,
-                                            }
+                    simple_run(hyperparameters)
 
-                        print('hyperparameters:')
-                        for key, value in hyperparameters.items():
-                            print(key, ' : ', value)
+                    for key, value in hyperparameters.items():
+                        print(f"{key} : {value}")
 
-                        simple_run(hyperparameters)
-
-    else:
-        print('Please specify --simple_run or --grid_search')
-        print('For simple run: python train_svm.py --simple_run')
-        print('For grid search: python train_svm.py --grid_search')
-        sys.exit(0)
+                    print('***************************************************\n\n')
+                    
+           
+    
