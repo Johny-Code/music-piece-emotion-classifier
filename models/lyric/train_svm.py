@@ -184,7 +184,7 @@ if __name__ == '__main__':
 
     if args.simple_run:
         X_train, X_test, y_train, y_test = load_data()
-        svm_params = {'kernel': 'rbf', 'gamma': 0.3, 'C': 220}
+        svm_params = {'kernel': 'linear', 'gamma': 0.1, 'C': 0.01}
         _ = train_svm(svm_params, X_train, y_train, X_test, y_test)
 
     elif args.grid_search:
