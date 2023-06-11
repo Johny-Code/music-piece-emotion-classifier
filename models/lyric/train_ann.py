@@ -110,10 +110,10 @@ def train_ann(X_train, y_train, X_test, y_test, params):
     end = time.time()
     print(f"Training time: {end - start} seconds")
 
-    print(f"Acc: {round(history.history['accuracy'][-1], 3)}")
-    print(f"Val_acc: {round(history.history['val_accuracy'][-1], 3)}")
-    print(f"Loss: {round(history.history['loss'][-1], 3)}")
-    print(f"Val_loss: {round(history.history['val_loss'][-1], 3) }")
+    print(f"Acc: {history.history['accuracy']}")
+    print(f"Val_acc: {history.history['val_accuracy']}")
+    print(f"Loss: {history.history['loss']}")
+    print(f"Val_loss: {history.history['val_loss']}")
 
     score = model.evaluate(X_test, y_test, batch_size=params['batch_size'])
 
@@ -130,7 +130,7 @@ def train_ann(X_train, y_train, X_test, y_test, params):
     print(cm)
     wandb.log({"conf_mat": cm})
 
-    print(classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES))
+    print(classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES, digits=3))
     report = classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES, output_dict=True)
     # print(report)
 
@@ -184,12 +184,12 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.simple_run:
-        config={'lr': 0.005,
-                'epochs': 15,
+        config={'lr': 0.01,
+                'epochs': 20,
                 'batch_size': 64,
-                'dense_size': 512,
+                'dense_size': 128,
                 'activation': 'relu',
-                'dropout': 0.2,
+                'dropout': 0.3,
                 'optimizer': 'adam'
                 }
         
