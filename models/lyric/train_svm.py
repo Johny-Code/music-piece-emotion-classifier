@@ -39,7 +39,7 @@ def train_svm(svm_params, X_train, y_train, X_test, y_test):
     end = time.time()
     print(f'Prediction time: {end - start}')
 
-    print(classification_report(y_test, y_pred, target_names=TARGET_NAMES))
+    print(classification_report(y_test, y_pred, target_names=TARGET_NAMES, digits=3))
 
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
