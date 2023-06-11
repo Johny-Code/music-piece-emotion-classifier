@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 from transformers import XLNetTokenizer, XLNetModel, AdamW
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, confusion_matrix
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 
 sys.path.append('tools/')
@@ -324,6 +324,9 @@ def test_model(model,test_dataloader):
     print("")
     print("Classification Report:")
     print(classification_report(y_true, y_pred, target_names=TARGET_NAMES, digits=3))
+
+    cm = confusion_matrix(y_true, y_pred)
+    print(cm)
 
 def simple_run(hyperparemeters):
 
