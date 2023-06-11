@@ -84,20 +84,20 @@ if __name__ == '__main__':
     if args.cm:
 
         #feature-based svm best approach
-        cm =   [[41,  7,  8, 15],
-                [10, 44,13,  4],
-                [ 5,  9, 35, 18],
-                [12,  6, 21, 34]]
+        # cm =   [[41,  7,  8, 15],
+        #         [10, 44,13,  4],
+        #         [ 5,  9, 35, 18],
+        #         [12,  6, 21, 34]]
         
-        output_path = os.path.join('models', 'lyric', 'feature_based', 'svm')
+        # output_path = os.path.join('models', 'lyric', 'feature_based', 'svm')
         
         #feature-based ann best approach
-        # cm = [[48,  4,  6, 13],
-        #       [11, 42, 17,  1],
-        #       [ 5,  5, 32, 25],
-        #       [15,  4, 18, 36]]
+        cm = [[43, 11,  4, 13],
+              [10, 46, 10,  5],
+              [ 5, 13, 21, 28],
+             [15, 15,  7, 36]]
 
-        # output_path = os.path.join('models', 'lyric', 'feature_based', 'ann')
+        output_path = os.path.join('models', 'lyric', 'feature_based', 'ann')
 
         #fasttext-based autotune 30 minut 
         # cm = [[45, 15,  2,  9],
