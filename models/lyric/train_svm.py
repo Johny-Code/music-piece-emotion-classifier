@@ -20,6 +20,8 @@ def read_data(filepath):
 
 def train_svm(svm_params, X_train, y_train, X_test, y_test):
 
+    X_test, X_valid, y_test, y_valid = train_test_split(X_test, y_test, test_size=0.5, random_state=SEED)
+
     print(f'\nSVM parameters: \n'
           f'kernel: {svm_params["kernel"]} \n'
           f'gamma: {svm_params["gamma"]} \n'
