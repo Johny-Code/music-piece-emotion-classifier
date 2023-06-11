@@ -83,7 +83,7 @@ def train_fasttext(hyperparams):
 
 def test_fasttext(test_dataset, model):
 
-    labels = {'__label__angry': 0, '__label__happy': 1, '__label__relaxed': 2, '__label__sad': 3}
+    labels = {'__label__angry': 0, '__label__happy': 1, '__label__sad': 2, '__label__relaxed': 3}
 
     y_true = []
     y_pred = []
