@@ -3,6 +3,7 @@ import argparse
 import keras
 import os
 import wandb
+import time
 import numpy as np
 
 from sklearn.model_selection import train_test_split
@@ -98,11 +99,16 @@ def train_ann(X_train, y_train, X_test, y_test, params):
 
     model = build_4_dense_ann(input_size, params['dense_size'], output_size, params['activation'], params['dropout'], params['optimizer'])
 
+    start = time.time()
+
     history = model.fit(X_train, y_train, 
                         epochs=params['epochs'], 
                         batch_size=params['batch_size'], 
                         validation_data=(X_val, y_val),
                         callbacks=[WandbMetricsLogger()])
+
+    end = time.time()
+    print(f"Training time: {end - start} seconds")
 
     print(f"Acc: {round(history.history['accuracy'][-1], 3)}")
     print(f"Val_acc: {round(history.history['val_accuracy'][-1], 3)}")
@@ -113,9 +119,12 @@ def train_ann(X_train, y_train, X_test, y_test, params):
 
     # print(f'Test accuracy: {score[1]}')
 
-    y_pred = model.predict(X_test)
+    start = time.time()
 
     y_pred = model.predict(X_test)
+
+    end = time.time()
+    print(f"Prediction time: {end - start} seconds")
 
     cm = confusion_matrix(y_test.argmax(axis=1), y_pred.argmax(axis=1))
     # print(cm)
