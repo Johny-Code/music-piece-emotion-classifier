@@ -130,8 +130,9 @@ def train_ann(X_train, y_train, X_test, y_test, params):
     print(cm)
     wandb.log({"conf_mat": cm})
 
+    print(classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES))
     report = classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES, output_dict=True)
-    print(report)
+    # print(report)
 
     wandb.log({"raw_report": report})
 
