@@ -174,10 +174,10 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.simple_run:
-        config={'lr': 0.02,
-                'epochs': 100,
-                'batch_size': 32,
-                'dense_size': 128,
+        config={'lr': 0.005,
+                'epochs': 15,
+                'batch_size': 64,
+                'dense_size': 512,
                 'activation': 'relu',
                 'dropout': 0.2,
                 'optimizer': 'adam'
