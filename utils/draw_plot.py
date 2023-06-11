@@ -92,20 +92,20 @@ if __name__ == '__main__':
         # output_path = os.path.join('models', 'lyric', 'feature_based', 'svm')
         
         #feature-based ann best approach
-        cm = [[43, 11,  4, 13],
-              [10, 46, 10,  5],
-              [ 5, 13, 21, 28],
-             [15, 15,  7, 36]]
+        # cm = [[43, 11,  4, 13],
+        #       [10, 46, 10,  5],
+        #       [ 5, 13, 21, 28],
+        #      [15, 15,  7, 36]]
 
-        output_path = os.path.join('models', 'lyric', 'feature_based', 'ann')
+        # output_path = os.path.join('models', 'lyric', 'feature_based', 'ann')
 
-        #fasttext-based autotune 30 minut 
-        # cm = [[45, 15,  2,  9],
-        #       [15, 39, 12,  5],
-        #       [ 6, 14, 31, 22],
-        #       [14,  6, 18, 29]]
+        #fasttext best params
+        cm = [[49, 10,  7,  5],
+                [11, 29, 10, 21],
+                [11,  4, 32, 20],
+                [ 5,  8, 29, 31]]
 
-        # output_path = os.path.join('models', 'lyric', 'fasttext')
+        output_path = os.path.join('models', 'lyric', 'fasttext')
 
         TARGET_NAMES = ['happy', 'angry', 'sad', 'relaxed']
 
