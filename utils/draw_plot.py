@@ -3,6 +3,7 @@ import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
 import argparse
+import numpy as np
 
 def draw_confusion_matrix(cm, target_names, output_path = None, cmap = None):
 
@@ -75,6 +76,8 @@ def plot_acc_loss(history, output_path=None):
 
 def plot_acc_loss_v1(history, output_path=None):
 
+    size = (8, 4)
+
     if not os.path.exists(output_path):
         os.makedirs(output_path)
 
@@ -86,12 +89,13 @@ def plot_acc_loss_v1(history, output_path=None):
         acc = history['sparse_categorical_accuracy']
         val_acc = history['val_sparse_categorical_accuracy']
 
-    plt.figure(figsize=(6, 4))
+    plt.figure(figsize=size)
     plt.plot(acc)
     plt.plot(val_acc)
     # plt.title('model accuracy')
     plt.ylabel('accuracy')
     plt.xlabel('epoch')
+    plt.xticks(np.arange(len(acc)), np.arange(1, len(acc) + 1))
     plt.legend(['train', 'val'], loc='upper left')
 
     if output_path:
@@ -106,12 +110,13 @@ def plot_acc_loss_v1(history, output_path=None):
     plt.clf()
 
     # "Loss"
-    plt.figure(figsize=(8, 4))
+    plt.figure(figsize=size)
     plt.plot(history['loss'])
     plt.plot(history['val_loss'])
     # plt.title('model loss')
     plt.ylabel('loss')
     plt.xlabel('epoch')
+    plt.xticks(np.arange(len(acc)), np.arange(1, len(acc) + 1))
     plt.legend(['train', 'val'], loc='upper left')
 
     if output_path:
