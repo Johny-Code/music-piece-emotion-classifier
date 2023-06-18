@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 from transformers import XLNetTokenizer, XLNetModel, AdamW
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, accuracy_score
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 
 sys.path.append('tools/')
@@ -201,6 +201,9 @@ def train(model, optimizer, train_dataloader, validation_dataloader, hyperparame
         tr_loss = 0
         num_train_samples = 0
 
+        y_pred_train = []
+        y_true_train = []
+
         for step, batch in enumerate(train_dataloader):
             if step % 3 == 0 and not step == 0:
                 elapsed = format_time(time.time() - t0)
@@ -223,6 +226,18 @@ def train(model, optimizer, train_dataloader, validation_dataloader, hyperparame
             # Update parameters and take a step using the computed gradient
             optimizer.step()
 
+            #checking accuracy on training data
+            output = model(b_input_ids, attention_mask=b_input_mask)
+            output = output.detach().cpu().numpy()
+
+            for predict in np.argmax(output, axis=1):
+                y_pred_train.append(predict)
+
+            labels_ids = b_labels.to('cpu').numpy()    
+            for label in np.argmax(labels_ids, axis=1):
+                y_true_train.append(label)
+
+
         epoch_train_loss = tr_loss/num_train_samples
         train_loss_set.append(epoch_train_loss)
 
@@ -231,6 +246,11 @@ def train(model, optimizer, train_dataloader, validation_dataloader, hyperparame
         print("")
         print(f"  Average training loss: {round(epoch_train_loss, 3)}")
         print(f"  Training epcoh took: {training_time}")
+
+        train_acc = accuracy_score(y_true_train, y_pred_train)
+
+        print("")
+        print(f"  Training accuracy: {round(train_acc, 3)}")
 
         # ========================================
         #               Validation
@@ -246,6 +266,9 @@ def train(model, optimizer, train_dataloader, validation_dataloader, hyperparame
         eval_loss = 0
         num_eval_samples = 0
 
+        y_pred_valid = []
+        y_true_valid = []
+
         for batch in validation_dataloader:
             batch = tuple(t.to(device) for t in batch)
             b_input_ids, b_input_mask, b_labels = batch
@@ -255,6 +278,19 @@ def train(model, optimizer, train_dataloader, validation_dataloader, hyperparame
 
                 eval_loss += loss.item()
                 num_eval_samples += b_labels.size(0)
+
+                #checking accuracy on validation data
+                output = model(b_input_ids, attention_mask=b_input_mask)
+                output = output.detach().cpu().numpy()
+
+                for predict in np.argmax(output, axis=1):
+                    y_pred_valid.append(predict)
+
+                labels_ids = b_labels.to('cpu').numpy()    
+                for label in np.argmax(labels_ids, axis=1):
+                    y_true_valid.append(label)
+
+
         
         epoch_eval_loss = eval_loss/num_eval_samples
         valid_loss_set.append(epoch_eval_loss)
@@ -264,25 +300,32 @@ def train(model, optimizer, train_dataloader, validation_dataloader, hyperparame
         print(f"  Validation Loss: {epoch_eval_loss}")
         print(f"  Validation took: {validation_time}")
 
+        valid_acc = accuracy_score(y_true_valid, y_pred_valid)
+
+        print("")
+        print(f"  Validation accuracy: {valid_acc}")
+
         training_stats.append(
             {
                 'epoch': actual_epoch,
                 'Training Loss': epoch_train_loss,
                 'Valid. Loss': epoch_eval_loss,
+                'Training Accuracy': train_acc,
+                'Validation Accuracy': valid_acc,
                 'Training Time': training_time,
                 'Validation Time': validation_time
             }
         )
 
-        if lowest_eval_loss == None:
-            lowest_eval_loss = epoch_eval_loss
-            print(f'Best performance achived at epoch {actual_epoch} with validation loss of {lowest_eval_loss}')
-            # save_model(model, hyperparameters['model_save_path'],
-                    #    actual_epoch, lowest_eval_loss, train_loss_set, valid_loss_set)
-        else:
-            if epoch_eval_loss < lowest_eval_loss:
-                lowest_eval_loss = epoch_eval_loss
-                print(f'At epoch {actual_epoch} better performance was achived with validation loss of {lowest_eval_loss}')
+        # if lowest_eval_loss == None:
+        #     lowest_eval_loss = epoch_eval_loss
+        #     print(f'Best performance achived at epoch {actual_epoch} with validation loss of {lowest_eval_loss}')
+        #     # save_model(model, hyperparameters['model_save_path'],
+        #             #    actual_epoch, lowest_eval_loss, train_loss_set, valid_loss_set)
+        # else:
+        #     if epoch_eval_loss < lowest_eval_loss:
+        #         lowest_eval_loss = epoch_eval_loss
+        #         print(f'At epoch {actual_epoch} better performance was achived with validation loss of {lowest_eval_loss}')
                 # save_model(model, hyperparameters['model_save_path'],
                         #    actual_epoch, lowest_eval_loss, train_loss_set, valid_loss_set)
     
@@ -475,7 +518,7 @@ if __name__ == '__main__':
                                             'lr': 2e-5,
                                             'weight_decay': 0.01,
                                             'correct_bias': False,
-                                            'epochs': 5,
+                                            'epochs': 4,
                                         },
                                     }
 
