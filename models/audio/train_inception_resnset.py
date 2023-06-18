@@ -76,4 +76,8 @@ if __name__ == "__main__":
                         validation_data=test,
                         # validation_steps=VAL_STEPS,)
                         callbacks=callbacks_list)
+    #angry-497 happy-500 relaxed-496 sad-497
+    #dla 497 i 496 -> 347 pierwszych plikow train, 74 nastepne val, reszta train
+    #dla 500 -> 350 pierwszych train, 75 nastepnych val, reszta train
+    
     plot_acc_loss(history, "./history_inception_resnet_batch_32_lr1e-3-1e-5_360x360")

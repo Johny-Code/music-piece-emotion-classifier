@@ -2,9 +2,13 @@ import pandas as pd
 import librosa
 import numpy as np
 import os
+import sys
+sys.path.append("../utils/")
+
 from tqdm import tqdm
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
-from utils import read_database, cut_musical_piece
+from read_database import read_excel_database
+from cut_musical_piece import cut_musical_piece
 
 
 def min_max_scale(series, columns):
@@ -46,7 +50,7 @@ def extract_zero_crossing_rate(x, hop_length, frame_length):
 
 
 def extract_rms(x, hop_length, frame_length):
-    rms = librosa.feature.rms(x, frame_length=frame_length, hop_length=hop_length)
+    rms = librosa.feature.rms(y=x, frame_length=frame_length, hop_length=hop_length)
     rms_mean, rms_std = generate_mean_std(rms)
     return pd.DataFrame({'rms_mean': [rms_mean], 'rms_std': [rms_std]})
 
@@ -73,7 +77,7 @@ def extract_spectral_features(x, sr, hop_length, n_fft):
     return pd.DataFrame(data=spectral_dict)
 
 
-def extract_MFCCs(x, sr, hop_length=int(512 / 2), mfcc_features_nb=40, n_fft=512):
+def extract_MFCCs(x, sr, hop_length=int(2048 / 2), mfcc_features_nb=128, n_fft=2048):
     mfccs = librosa.feature.mfcc(y=x, sr=sr, hop_length=hop_length, n_mfcc=mfcc_features_nb, n_fft=n_fft)
     mfccs_mean = np.mean(mfccs, axis=1)
     mfccs_std = np.std(mfccs, axis=1)
@@ -151,7 +155,7 @@ def extract_all_features(output_dfs, hop_length, n_fft):
         if (file.endswith(".mp3")):
             x, sr = librosa.load(filedir + file, sr=44100)
             x = librosa.util.normalize(x)
-            x = cut_musical_piece.cut_musical_piece(x, sr, 30)
+            x = cut_musical_piece(x, sr, 30)
             # x, _ = librosa.effects.hpss(x)
             zero_crossing_rate = extract_zero_crossing_rate(x, hop_length, n_fft)
             rms = extract_rms(x, hop_length, n_fft)
@@ -175,19 +179,19 @@ def write_into_csv_file(filepath, dataframe):
 
 
 def join_emotion_with_features(database_filepath, csv_filepath, nb):
-    _, _, _, mood = read_database.read_excel_database(database_filepath)
+    _, _, _, mood = read_excel_database(database_filepath)
     df = pd.read_csv(csv_filepath, index_col=0)
     df['emotion'] = mood[:nb]
     return df
 
 
 if __name__ == "__main__":
-    records_nb = 1902
+    records_nb = 1990
     n_fft = 2048
     hop_length = int(n_fft / 2)
     time = 30
-    feature_path = "../database/features/1900_2048_nfft_norm_40_mfcc_harmonic.csv"
-    original_database_path = "../database/MoodyLyrics4Q.csv"
+    feature_path = "../database/features/2048_nfft_norm_128_mfcc.csv"
+    original_database_path = "../database/MoodyLyrics4Q_cleaned.csv"
     filedir = '../database/songs/'
     output_dfs = []
 

@@ -23,5 +23,5 @@ def copy_mp3_file(filedir, database_filepath, outpath):
 if __name__ == "__main__":
     outpath = "../database/songs_divided/"
     filedir = "../database/songs/"
-    database_filepath = "../database/MoodyLyrics4Q.csv"
+    database_filepath = "../database/MoodyLyrics4Q_cleaned.csv"
     copy_mp3_file(filedir, database_filepath, outpath)
