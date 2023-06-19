@@ -383,13 +383,13 @@ def simple_run(hyperparemeters):
     train_input_ids, test_input_ids, train_attention_masks, test_attention_masks, train_labels, test_labels = train_test_split(input_ids, 
                                                                                                                                attention_masks,
                                                                                                                                labels, 
-                                                                                                                               random_state=SEED, test_size=0.3)
+                                                                                                                               random_state=SEED, test_size=0.3, stratify=labels)
 
 
     test_input_ids, val_input_ids, test_attention_masks, val_attention_masks, test_labels, val_labels = train_test_split(test_input_ids, 
                                                                                                                          test_attention_masks,
                                                                                                                          test_labels, 
-                                                                                                                         random_state=SEED, test_size=0.5)
+                                                                                                                         random_state=SEED, test_size=0.5, stratify=test_labels)
 
     train_input_ids, train_attention_masks, train_labels = to_tensor(train_input_ids, train_attention_masks, train_labels)
     val_input_ids, val_attention_masks, val_labels = to_tensor(val_input_ids, val_attention_masks, val_labels)
