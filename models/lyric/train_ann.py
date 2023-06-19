@@ -2,13 +2,13 @@ import sys
 import argparse
 import keras
 import os
-import wandb
+# import wandb
 import time
 import numpy as np
 
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, classification_report
-from wandb.keras import WandbMetricsLogger
+# from wandb.keras import WandbMetricsLogger
 
 from train_svm import read_data, TARGET_NAMES, SEED
 
@@ -104,8 +104,8 @@ def train_ann(X_train, y_train, X_test, y_test, params):
     history = model.fit(X_train, y_train, 
                         epochs=params['epochs'], 
                         batch_size=params['batch_size'], 
-                        validation_data=(X_val, y_val),
-                        callbacks=[WandbMetricsLogger()])
+                        validation_data=(X_val, y_val))
+                        # callbacks=[WandbMetricsLogger()])
 
     end = time.time()
     print(f"Training time: {end - start} seconds")
@@ -128,50 +128,50 @@ def train_ann(X_train, y_train, X_test, y_test, params):
 
     cm = confusion_matrix(y_test.argmax(axis=1), y_pred.argmax(axis=1))
     print(cm)
-    wandb.log({"conf_mat": cm})
+    # wandb.log({"conf_mat": cm})
 
     print(classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES, digits=3))
-    report = classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES, output_dict=True)
+    # report = classification_report(y_test.argmax(axis=1), y_pred.argmax(axis=1), target_names=TARGET_NAMES, output_dict=True)
     # print(report)
 
-    wandb.log({"raw_report": report})
+    # wandb.log({"raw_report": report})
 
-    wandb.log({"happy_precision":  report['happy']['precision'],
-                "happy_recall":     report['happy']['recall'],
-                "happy_f1":         report['happy']['f1-score'],
-                "happy_support":    report['happy']['support'],
-                "angry_precision":  report['angry']['precision'],
-                "angry_recall":     report['angry']['recall'],
-                "angry_f1":         report['angry']['f1-score'],
-                "angry_support":    report['angry']['support'],
-                "sad_precision":    report['sad']['precision'],
-                "sad_recall":       report['sad']['recall'],
-                "sad_f1":           report['sad']['f1-score'],
-                "sad_support":      report['sad']['support'],
-                "relaxed_precision":  report['relaxed']['precision'],
-                "relaxed_recall":     report['relaxed']['recall'],
-                "relaxed_f1":         report['relaxed']['f1-score'],
-                "relaxed_support":    report['relaxed']['support']})
+    # wandb.log({"happy_precision":  report['happy']['precision'],
+    #             "happy_recall":     report['happy']['recall'],
+    #             "happy_f1":         report['happy']['f1-score'],
+    #             "happy_support":    report['happy']['support'],
+    #             "angry_precision":  report['angry']['precision'],
+    #             "angry_recall":     report['angry']['recall'],
+    #             "angry_f1":         report['angry']['f1-score'],
+    #             "angry_support":    report['angry']['support'],
+    #             "sad_precision":    report['sad']['precision'],
+    #             "sad_recall":       report['sad']['recall'],
+    #             "sad_f1":           report['sad']['f1-score'],
+    #             "sad_support":      report['sad']['support'],
+    #             "relaxed_precision":  report['relaxed']['precision'],
+    #             "relaxed_recall":     report['relaxed']['recall'],
+    #             "relaxed_f1":         report['relaxed']['f1-score'],
+    #             "relaxed_support":    report['relaxed']['support']})
     
-    wandb.log({"macro_precision":  report['macro avg']['precision'],
-                "macro_recall":     report['macro avg']['recall'],
-                "macro_f1":         report['macro avg']['f1-score'],
-                "macro_support":    report['macro avg']['support'],
-                "weighted_precision":  report['weighted avg']['precision'],
-                "weighted_recall":     report['weighted avg']['recall'],
-                "weighted_f1":         report['weighted avg']['f1-score'],
-                "accuracy":            report['accuracy']})
+    # wandb.log({"macro_precision":  report['macro avg']['precision'],
+    #             "macro_recall":     report['macro avg']['recall'],
+    #             "macro_f1":         report['macro avg']['f1-score'],
+    #             "macro_support":    report['macro avg']['support'],
+    #             "weighted_precision":  report['weighted avg']['precision'],
+    #             "weighted_recall":     report['weighted avg']['recall'],
+    #             "weighted_f1":         report['weighted avg']['f1-score'],
+    #             "accuracy":            report['accuracy']})
 
 def simple_run(config):
 
-    wandb.init(project='feature-based-4-dense-ann-grid-search_appendix',
-                config=config)
+    # wandb.init(project='feature-based-4-dense-ann-grid-search_appendix',
+    #             config=config)
                 
     X_train, X_test, y_train, y_test = load_data()
 
     train_ann(X_train, y_train, X_test, y_test, config)
 
-    wandb.finish()
+    # wandb.finish()
 
 def grid_search_ann():
     pass
