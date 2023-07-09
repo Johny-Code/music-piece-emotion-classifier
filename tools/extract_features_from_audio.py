@@ -152,7 +152,6 @@ def extract_all_features(output_dfs, hop_length, n_fft):
             x, sr = librosa.load(filedir + file, sr=44100)
             x = librosa.util.normalize(x)
             x = cut_musical_piece.cut_musical_piece(x, sr, 30)
-            # x, _ = librosa.effects.hpss(x)
             zero_crossing_rate = extract_zero_crossing_rate(x, hop_length, n_fft)
             rms = extract_rms(x, hop_length, n_fft)
             tempo = extract_tempo(x, sr)
@@ -182,7 +181,7 @@ def join_emotion_with_features(database_filepath, csv_filepath, nb):
 
 
 if __name__ == "__main__":
-    records_nb = 1902
+    records_nb = 1990
     n_fft = 2048
     hop_length = int(n_fft / 2)
     time = 30
