@@ -2,9 +2,13 @@ import pandas as pd
 import librosa
 import numpy as np
 import os
+import sys
+sys.path.append("../utils/")
+
 from tqdm import tqdm
+from read_database import read_excel_database
+from cut_musical_piece import cut_musical_piece
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
-from utils import read_database, cut_musical_piece
 
 
 def min_max_scale(series, columns):
@@ -46,7 +50,7 @@ def extract_zero_crossing_rate(x, hop_length, frame_length):
 
 
 def extract_rms(x, hop_length, frame_length):
-    rms = librosa.feature.rms(x, frame_length=frame_length, hop_length=hop_length)
+    rms = librosa.feature.rms(y=x, frame_length=frame_length, hop_length=hop_length)
     rms_mean, rms_std = generate_mean_std(rms)
     return pd.DataFrame({'rms_mean': [rms_mean], 'rms_std': [rms_std]})
 
@@ -73,15 +77,16 @@ def extract_spectral_features(x, sr, hop_length, n_fft):
     return pd.DataFrame(data=spectral_dict)
 
 
-def extract_MFCCs(x, sr, hop_length=int(512 / 2), mfcc_features_nb=40, n_fft=512):
+def extract_MFCCs(x, sr, hop_length, n_fft, mfcc_features_nb):
+    # 21 ms length
     mfccs = librosa.feature.mfcc(y=x, sr=sr, hop_length=hop_length, n_mfcc=mfcc_features_nb, n_fft=n_fft)
     mfccs_mean = np.mean(mfccs, axis=1)
     mfccs_std = np.std(mfccs, axis=1)
     mfccs_df = pd.DataFrame()
     for i in range(0, mfcc_features_nb):
-        mfccs_df['mfccs_mean_43ms_' + str(i)] = mfccs_mean[i]
+        mfccs_df['mfccs_mean_21ms_' + str(i)] = mfccs_mean[i]
     for i in range(0, mfcc_features_nb):
-        mfccs_df['mfccs_std_43ms_' + str(i)] = mfccs_std[i]
+        mfccs_df['mfccs_std_21ms_' + str(i)] = mfccs_std[i]
     mfccs_df.loc[0] = np.concatenate((mfccs_mean, mfccs_std), axis=0)
 
     # 1s length
@@ -151,12 +156,12 @@ def extract_all_features(output_dfs, hop_length, n_fft):
         if (file.endswith(".mp3")):
             x, sr = librosa.load(filedir + file, sr=44100)
             x = librosa.util.normalize(x)
-            x = cut_musical_piece.cut_musical_piece(x, sr, 30)
+            x = cut_musical_piece(x, sr, 30)
             zero_crossing_rate = extract_zero_crossing_rate(x, hop_length, n_fft)
             rms = extract_rms(x, hop_length, n_fft)
             tempo = extract_tempo(x, sr)
             spectral_df = extract_spectral_features(x, sr, hop_length, n_fft)
-            mfccs_df = extract_MFCCs(x, sr, hop_length, 40, n_fft)
+            mfccs_df = extract_MFCCs(x, sr, hop_length, n_fft, 40)
             ocs_df = extract_OCS(x, sr, hop_length, n_fft)
             chroma_df = extract_chromagram(x, sr, hop_length, n_fft)
 
@@ -174,7 +179,7 @@ def write_into_csv_file(filepath, dataframe):
 
 
 def join_emotion_with_features(database_filepath, csv_filepath, nb):
-    _, _, _, mood = read_database.read_excel_database(database_filepath)
+    _, _, _, mood = read_excel_database(database_filepath)
     df = pd.read_csv(csv_filepath, index_col=0)
     df['emotion'] = mood[:nb]
     return df
@@ -185,7 +190,7 @@ if __name__ == "__main__":
     n_fft = 2048
     hop_length = int(n_fft / 2)
     time = 30
-    feature_path = "../database/features/1900_2048_nfft_norm_40_mfcc_harmonic.csv"
+    feature_path = "../database/features/2048_nfft_1024_hop_40_mfcc.csv"
     original_database_path = "../database/MoodyLyrics4Q.csv"
     filedir = '../database/songs/'
     output_dfs = []
@@ -194,7 +199,7 @@ if __name__ == "__main__":
     final_df = pd.concat(output_dfs, ignore_index=True)
 
     normalized_df = final_df.copy()
-    normalized_df = standard_scaler(normalized_df, final_df.columns)
+    # normalized_df = standard_scaler(normalized_df, final_df.columns)
     write_into_csv_file(feature_path, normalized_df)
 
     joined_df = join_emotion_with_features(original_database_path, feature_path, records_nb)
