@@ -45,7 +45,7 @@ def define_sarkar_VGG_customized_architecture(input_shape, nb_classes):
 
 
 if __name__ == "__main__":
-    path = "../../database/melgrams/melgrams_2048_nfft_512_hop_96_mel_jpg/"
+    path = "../../database/melgrams/melgrams_2048_nfft_1024_hop_128_mel_jpg_divided/"
     files_nb = 200
     IMG_HEIGHT = 216
     IMG_WIDTH = 216
@@ -61,11 +61,11 @@ if __name__ == "__main__":
     optimizer = Adam(learning_rate=LEARNING_RATE)
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
-    filepath = "./transfer_learning_epoch_{epoch:02d}_{sparse_categorical_accuracy:.4f}.h5"
+    filepath = "./sarkar_{epoch:02d}_{sparse_categorical_accuracy:.4f}.h5"
     checkpoint = ModelCheckpoint(filepath,
                                  monitor='val_sparse_categorical_accuracy',
                                  verbose=0,
-                                 save_best_only=False)
+                                 save_best_only=True)
     callbacks_list = [checkpoint]
 
     model = define_sarkar_VGG_customized_architecture((IMG_WIDTH, IMG_HEIGHT, 3), 4)
