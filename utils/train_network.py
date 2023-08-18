@@ -31,3 +31,28 @@ def train_val_split(path, batch_size, img_shape, val_split=0.2):
         batch_size=batch_size)
     
     return train_ds.map(preprocess_image), validation_ds.map(preprocess_image)
+
+
+def train_val_test_split(path, batch_size, img_shape):
+    train_ds = image_dataset_from_directory(
+        os.path.join(path, 'train'),
+        labels="inferred",
+        color_mode='rgb',
+        image_size=img_shape,
+        batch_size=batch_size)
+    
+    val_ds = image_dataset_from_directory(
+        os.path.join(path, 'val'),
+        labels="inferred",
+        color_mode='rgb',
+        image_size=img_shape,
+        batch_size=batch_size)
+    
+    test_ds = image_dataset_from_directory(
+        os.path.join(path, 'test'),
+        labels="inferred",
+        color_mode='rgb',
+        image_size=img_shape,
+        batch_size=batch_size)
+
+    return train_ds.map(preprocess_image), val_ds.map(preprocess_image), test_ds.map(preprocess_image)

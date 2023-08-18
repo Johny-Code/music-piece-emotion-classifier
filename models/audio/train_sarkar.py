@@ -3,7 +3,7 @@ import sys
 sys.path.append("../../utils/")
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
-from train_network import train_val_split
+from train_network import train_val_test_split
 from draw_plot import plot_acc_loss
 from keras.callbacks import ModelCheckpoint
 from keras.regularizers import L2
@@ -45,7 +45,7 @@ def define_sarkar_VGG_customized_architecture(input_shape, nb_classes):
 
 
 if __name__ == "__main__":
-    path = "../../database/melgrams/melgrams_2048_nfft_512_hop_96_mel_jpg/"
+    path = "../../database/melgrams/melgrams_2048_nfft_1024_hop_128_mel_jpg_divided/"
     files_nb = 200
     IMG_HEIGHT = 216
     IMG_WIDTH = 216
@@ -71,7 +71,7 @@ if __name__ == "__main__":
     model = define_sarkar_VGG_customized_architecture((IMG_WIDTH, IMG_HEIGHT, 3), 4)
 
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
-    train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT), (1 - TRAIN_SPLIT))
+    train, val, test = train_val_test_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT))
 
     history = model.fit(train,
                         epochs=NUM_EPOCHS,
