@@ -10,6 +10,7 @@ from cut_musical_piece import cut_musical_piece
 from tqdm import tqdm
 from scipy import signal
 from matplotlib import cm
+from PIL import Image
 
 
 def save_melgram(filedir, database_filepath, outpath, emotions, sets, file_format='mp3'):
@@ -38,12 +39,14 @@ def save_melgram(filedir, database_filepath, outpath, emotions, sets, file_forma
                 if (file_format == 'jpg'):
                     melspectogram = librosa.feature.melspectrogram(y=x, sr=sr, n_mels=128, n_fft=2048, hop_length=1024, power=2)
                     log_power = librosa.power_to_db(melspectogram, ref=np.max)
-                    pylab.figure(figsize=(5, 5))
-                    pylab.axis('off')
-                    pylab.axes([0., 0., 1., 1.], frameon=False, xticks=[], yticks=[])  # Remove the white edge
-                    librosa.display.specshow(log_power, cmap=cm.jet)
-                    pylab.savefig(os.path.join(outpath, split, emotion, name_ + ".jpg"), bbox_inches=None, pad_inches=0)
-                    pylab.close()
+                    desired_size = 216
+                    resized_spectrogram = librosa.util.fix_length(log_power, size=desired_size, axis=1)
+                    resized_spectrogram = (resized_spectrogram - np.min(resized_spectrogram)) / (np.max(resized_spectrogram) - np.min(resized_spectrogram)) * 255
+                    resized_spectrogram = resized_spectrogram.astype(np.uint32)
+                    image = Image.fromarray(np.uint8(cm.jet(resized_spectrogram)*255))
+                    rgb_im = image.convert('RGB').rotate(180)
+                    output_image_path = os.path.join(outpath, split, emotion, name_ + ".jpg")
+                    rgb_im.save(output_image_path)
             except KeyError:
                 print(f"\nPassing {name_}")
         pbar.update()
@@ -53,7 +56,7 @@ def save_melgram(filedir, database_filepath, outpath, emotions, sets, file_forma
 if __name__ == "__main__":
     emotions = ["happy", "sad", "angry", "relaxed"]
     sets = ['train', 'test', 'val']
-    outpath = "../database/melgrams/melgrams_2048_nfft_1024_hop_128_mel_jpg_divided/"
+    outpath = "../database/melgrams/melgrams_2048_nfft_1024_hop_128_mel_jpg_divided_resized/"
     filedir = "../database/songs/"
     database_filepath = "../database/MoodyLyrics4Q_cleaned_split.csv"
     save_melgram(filedir, database_filepath, outpath, emotions, sets, 'jpg')
