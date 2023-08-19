@@ -8,8 +8,9 @@ from keras.models import load_model
 from keras.optimizers import Adam
 from keras.preprocessing import image
 from keras.utils import load_img,img_to_array
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import classification_report, confusion_matrix
 from draw_plot import draw_confusion_matrix
+from contextlib import redirect_stdout
 from itertools import chain
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -17,17 +18,16 @@ from PIL import Image
 
 
 if __name__ == "__main__":
-    MODEL_NAME = "./trained_models/new_resnet_inception_resized_59_53.tf"
-    IMG_HEIGHT = 128
-    IMG_WIDTH = 216
-    BATCH_SIZE = 32
-    LEARNING_RATE = 0.001
-    path = "../../database/melgrams/melgrams_2048_nfft_1024_hop_128_mel_jpg_divided_resized/train" #happy, relaxed ok; sad, angry sredniawo
-    optimizer = Adam(learning_rate=LEARNING_RATE)
+    MODEL_NAME = "./trained_models/new_sarkar_resized_60_20.tf"
+    metrics_file = "sarkar_resized_batch_64.txt"
+    confusion_matrix_prefix = "inception-resnet"
+    
+    path = "../../database/melgrams/melgrams_2048_nfft_1024_hop_128_mel_jpg_divided_resized/val" #happy, relaxed ok; sad, angry sredniawo
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
     label_mapping = {"angry":0, "happy": 1, "relaxed": 2, "sad": 3}
     emotions_mapping = {"sad": "sad", "happy": "happy", "angry": "angry", "relaxed": "relaxed"}
+    optimizer = Adam()
     
     img_paths = []
     input_images = []
@@ -56,9 +56,11 @@ if __name__ == "__main__":
     
     true_labels_int = [label_mapping[label] for label in true_labels]
     cfm = confusion_matrix(true_labels_int, predicted_labels)
-    draw_confusion_matrix(cfm, label_mapping.keys(), "confusion_matrices", filename_prefix="inception-resnet")
-    
+    draw_confusion_matrix(cfm, label_mapping.keys(), "confusion_matrices", filename_prefix=confusion_matrix_prefix)
 
-
-    
+    os.makedirs("./metrics", exist_ok=True)
+    with open(os.path.join("metrics", metrics_file),'w') as file:
+        with redirect_stdout(file):
+            print(classification_report(true_labels_int, predicted_labels, target_names=label_mapping.keys(), digits=4))
+            print("\n")
     

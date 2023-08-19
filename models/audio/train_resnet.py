@@ -101,6 +101,8 @@ def define_fine_tuned_Resnet152V2_full_model(input_shape, nb_classes):
     return model
 
 
+def train_
+
 if __name__ == "__main__":
     path = "../../database/melgrams/melgrams_2048_nfft_512_hop_jpg/"
     files_nb = 2000
