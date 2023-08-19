@@ -47,13 +47,13 @@ def define_fine_tuned_VGG_model(input_shape, nb_classes, model_path):
 
 
 if __name__ == "__main__":
-    path = "../../database/melgrams/melgrams_2048_nfft_1024_hop_128_mel_jpg_divided/"
+    path = "../../database/melgrams/melgrams_2048_nfft_1024_hop_128_mel_jpg_divided_resized/"
     best_model_path = "vgg_63.19acc_transfer_learning.h5"
     files_nb = 2000
-    IMG_HEIGHT = 216
+    IMG_HEIGHT = 128
     IMG_WIDTH = 216
     NUM_CLASSES = 4
-    NUM_EPOCHS = 15
+    NUM_EPOCHS = 30
     BATCH_SIZE = 32
     L2_LAMBDA = 0.001
     VAL_STEPS = int(files_nb * 0.15) // BATCH_SIZE
