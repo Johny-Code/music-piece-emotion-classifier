@@ -61,11 +61,11 @@ if __name__ == "__main__":
     optimizer = Adam(learning_rate=LEARNING_RATE)
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
-    filepath = "./transfer_learning_epoch_{epoch:02d}_{sparse_categorical_accuracy:.4f}.h5"
+    filepath = "./sarkar_{epoch:02d}_{sparse_categorical_accuracy:.4f}.h5"
     checkpoint = ModelCheckpoint(filepath,
                                  monitor='val_sparse_categorical_accuracy',
                                  verbose=0,
-                                 save_best_only=False)
+                                 save_best_only=True)
     callbacks_list = [checkpoint]
 
     model = define_sarkar_VGG_customized_architecture((IMG_WIDTH, IMG_HEIGHT, 3), 4)

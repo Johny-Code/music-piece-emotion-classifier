@@ -11,7 +11,7 @@ from keras.optimizers import Adam
 from keras.regularizers import L2
 from keras.callbacks import ModelCheckpoint
 from keras import models
-from train_network import train_val_split
+from train_network import train_val_test_split
 from draw_plot import plot_acc_loss
 
 
@@ -47,38 +47,36 @@ def define_fine_tuned_VGG_model(input_shape, nb_classes, model_path):
 
 
 if __name__ == "__main__":
-    path = "../../database/melgrams/melgrams_2048_nfft_512_hop_jpg/"
+    path = "../../database/melgrams/melgrams_2048_nfft_1024_hop_128_mel_jpg_divided_resized/"
     best_model_path = "vgg_63.19acc_transfer_learning.h5"
     files_nb = 2000
-    IMG_HEIGHT = 216
+    IMG_HEIGHT = 128
     IMG_WIDTH = 216
     NUM_CLASSES = 4
-    NUM_EPOCHS = 10
+    NUM_EPOCHS = 30
     BATCH_SIZE = 32
     L2_LAMBDA = 0.001
-    STEPS_PER_EPOCH = int(files_nb * 0.8) // BATCH_SIZE
-    VAL_STEPS = int(files_nb * 0.2) // BATCH_SIZE
+    VAL_STEPS = int(files_nb * 0.15) // BATCH_SIZE
 
     optimizer = Adam(lr=1e-5)
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
-    filepath = "./transfer_learning_epoch_{epoch:02d}_{sparse_categorical_accuracy:.4f}.h5"
+    filepath = "./new_VGG16_best.h5"
     checkpoint = ModelCheckpoint(filepath,
                                  monitor='val_sparse_categorical_accuracy',
                                  verbose=0,
-                                 save_best_only=False)
+                                 save_best_only=True)
     callbacks_list = [checkpoint]
 
-    # model = define_VGG_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
-    model = define_fine_tuned_VGG_model((IMG_WIDTH, IMG_HEIGHT, 3), 4, best_model_path)
+    model = define_VGG_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
+    # model = define_fine_tuned_VGG_model((IMG_WIDTH, IMG_HEIGHT, 3), 4, best_model_path)
 
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
-    train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT), 0.2)
+    train, val, test = train_val_test_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT))
 
     history = model.fit(train,
                         epochs=NUM_EPOCHS,
-                        steps_per_epoch=STEPS_PER_EPOCH,
-                        validation_data=test,
+                        validation_data=val,
                         validation_steps=VAL_STEPS,
                         callbacks=[checkpoint])
     plot_acc_loss (history, "./history")
