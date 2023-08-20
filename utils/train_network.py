@@ -33,25 +33,27 @@ def train_val_split(path, batch_size, img_shape, val_split=0.2):
     return train_ds.map(preprocess_image), validation_ds.map(preprocess_image)
 
 
-def train_val_test_split(path, batch_size, img_shape):
+def train_val_test_split(path, batch_size, img_shape, use_one_channel=True):
+    color = "grayscale" if use_one_channel else "rgb"
+    
     train_ds = image_dataset_from_directory(
         os.path.join(path, 'train'),
         labels="inferred",
-        color_mode='rgb',
+        color_mode=color,
         image_size=img_shape,
         batch_size=batch_size)
     
     val_ds = image_dataset_from_directory(
         os.path.join(path, 'val'),
         labels="inferred",
-        color_mode='rgb',
+        color_mode=color,
         image_size=img_shape,
         batch_size=batch_size)
     
     test_ds = image_dataset_from_directory(
         os.path.join(path, 'test'),
         labels="inferred",
-        color_mode='rgb',
+        color_mode=color,
         image_size=img_shape,
         batch_size=batch_size)
 

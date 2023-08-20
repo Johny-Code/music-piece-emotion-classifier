@@ -12,7 +12,7 @@ class InceptionResnet(Model):
         self.batch_norm1 = BatchNormalization()
 
         self.inception1 = InceptionDepthwise()
-        # self.conv2 = Conv2D(filters=32, kernel_size=(3, 3), padding='same', strides=(1, 1), activation='relu') #not described properly
+        self.conv2 = Conv2D(filters=32, kernel_size=(3, 3), padding='same', strides=(1, 1), activation='relu') #not described properly
         self.max_pool2 = MaxPooling2D(pool_size=(2, 2), strides=None, padding="same")
         self.inception2 = InceptionDepthwise()
 
@@ -24,6 +24,7 @@ class InceptionResnet(Model):
         skip_out = self.batch_norm1(skip_out)
 
         out1 = self.inception1(inputs)
+        out1 = self.conv2(out1)
         out1 = self.max_pool2(out1)
         out1 = self.inception2(out1)
 

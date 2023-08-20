@@ -18,11 +18,13 @@ from PIL import Image
 
 
 if __name__ == "__main__":
-    MODEL_NAME = "./trained_models/new_sarkar_resized_60_20.tf"
-    metrics_file = "sarkar_resized_batch_64.txt"
-    confusion_matrix_prefix = "inception-resnet"
-    
-    path = "../../database/melgrams/melgrams_2048_nfft_1024_hop_128_mel_jpg_divided_resized/val" #happy, relaxed ok; sad, angry sredniawo
+    model_name = "./trained_models/new_ravdess_gray_32_1e-05_0.5919.tf"
+    metrics_file = "new_ravdess_1292x128.txt"
+    confusion_matrix_prefix = "ravdes_1292x128"
+    SIZE = (1292, 128)
+    color = "grayscale" #"rgb" #"grayscale"
+
+    path = "../../database/melgrams/gray/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray/test"
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
     label_mapping = {"angry":0, "happy": 1, "relaxed": 2, "sad": 3}
@@ -40,16 +42,16 @@ if __name__ == "__main__":
     
     for img_path in img_paths:
         label = next((mapped_label for keyword, mapped_label in emotions_mapping.items() if keyword in img_path))
-        image = load_img(img_path)
+        image = load_img(img_path, target_size=SIZE, color_mode=color)
         input_arr = img_to_array(image)
         input_arr = input_arr / 255.0
         input_images.append(input_arr)
         true_labels.append(label)
 
     input_images = np.array(input_images)
-    fixed_input_data = np.transpose(input_images, (0, 2, 1, 3))
+    fixed_input_data = input_images
 
-    model = load_model(MODEL_NAME)
+    model = load_model(model_name)
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
     predictions = model.predict(fixed_input_data)
     predicted_labels = np.argmax(predictions, axis=1)
@@ -63,4 +65,5 @@ if __name__ == "__main__":
         with redirect_stdout(file):
             print(classification_report(true_labels_int, predicted_labels, target_names=label_mapping.keys(), digits=4))
             print("\n")
-    
+            
+    print(classification_report(true_labels_int, predicted_labels, target_names=label_mapping.keys(), digits=4))
