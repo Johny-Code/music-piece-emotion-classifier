@@ -5,6 +5,7 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 from train_network import train_val_test_split
 from draw_plot import plot_acc_loss
+from datetime import datetime
 from keras.callbacks import ModelCheckpoint
 from keras.regularizers import L2
 from keras.optimizers import Adam
@@ -49,10 +50,11 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     NUM_CLASSES = 4
     CHANNELS = 1
     
+    start_time = datetime.now()
     optimizer = Adam(learning_rate=learning_rate)
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
-    checkpoint_filepath = "./tmp/checkpoint2"
+    checkpoint_filepath = "./tmp/checkpoint"
     checkpoint = ModelCheckpoint(checkpoint_filepath,
                                  save_weights_only=True,
                                  monitor='val_sparse_categorical_accuracy',
@@ -73,15 +75,18 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
                         validation_data=val,
                         callbacks=callbacks_list)
     best_accuracy = max(history.history['val_sparse_categorical_accuracy'])
-    plot_acc_loss(history, f"./histories/different-params/new_history_sarkar_{path[-50:]}_{best_accuracy}")
+    plot_acc_loss(history, f"./histories/different-params/resized_sarkar_{path[-50:]}_{best_accuracy}")
     
-    model.load_weights(checkpoint_filepath)
-    model_path = f"./trained_models/different-params/new_sarkar_gray_{path[-50:]}_{best_accuracy}.tf"
-    model.save(model_path, overwrite=True, save_format="tf")
+    end_time = datetime.now()
+    difference_s = (end_time - start_time).total_seconds()
 
+    model.load_weights(checkpoint_filepath)
+    model_path = f"./trained_models/different-params/resized_sarkar_{path[-50:]}_{best_accuracy}_{difference_s}.tf"
+    model.save(model_path, overwrite=True, save_format="tf")
+    
 
 if __name__ == "__main__":
-    # path = "../../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray" 
+    path = "../../database/melgrams/gray/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_512_width_bicubic" 
     NUM_EPOCHS = 700
     BATCH_SIZE = 16
     L2_LAMBDA = 1e-3
@@ -89,14 +94,5 @@ if __name__ == "__main__":
     IM_WIDTH = 1292
     IM_HEIGHT = 128
     
-    paths = ["../../database/melgrams/gray/different-params/melgrams_1024_nfft_256_hop_128_mel_jpg_proper_gray",
-             "../../database/melgrams/gray/different-params/melgrams_1024_nfft_256_hop_96_mel_jpg_proper_gray",
-             "../../database/melgrams/gray/different-params/melgrams_512_nfft_256_hop_128_mel_jpg_proper_gray",
-             "../../database/melgrams/gray/different-params/melgrams_512_nfft_256_hop_96_mel_jpg_proper_gray"]
-    img_widths = [5168, 5168, 5168, 5168]
-    img_heights = [128, 96, 128, 96]
-    
-    for i,path in enumerate(paths):
-        train_network(path=path, batch_size=BATCH_SIZE, learning_rate=LEARNING_RATE, l2_lambda=L2_LAMBDA, 
-                      epochs=NUM_EPOCHS, img_width=img_widths[i], img_height=img_heights[i])
-    
+    train_network(path=path, batch_size=BATCH_SIZE, learning_rate=LEARNING_RATE, l2_lambda=L2_LAMBDA, 
+                    epochs=NUM_EPOCHS, img_width=IM_WIDTH, img_height=IM_HEIGHT)
