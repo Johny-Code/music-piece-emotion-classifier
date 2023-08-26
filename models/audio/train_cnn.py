@@ -13,7 +13,7 @@ from keras.callbacks import ModelCheckpoint
 from os.path import isfile
 
 
-def get_class_names(path="Samples/"):  # class names are subdirectory names in Preproc/ directory
+def get_class_names(path="Samples/")
     class_names = os.listdir(path)
     return class_names
 
@@ -44,7 +44,7 @@ def get_sample_dimensions(path='Samples/'):
     return melgram.shape
 
 
-def encode_class(class_name, class_names):  # makes a "one-hot" vector for each class name called
+def encode_class(class_name, class_names):
     try:
         idx = class_names.index(class_name)
         vec = np.zeros(len(class_names))
@@ -54,7 +54,7 @@ def encode_class(class_name, class_names):  # makes a "one-hot" vector for each 
         return None
 
 
-def shuffle_XY_paths(X, Y, paths):   # generates a randomized order, keeping X&Y(&paths) together
+def shuffle_XY_paths(X, Y, paths):
     assert (X.shape[0] == Y.shape[0])
     idx = np.array(range(Y.shape[0]))
     np.random.shuffle(idx)
@@ -116,37 +116,6 @@ def define_128_256_oryg_model(nb_layers, kernel_size, input_shape, pool_size, nb
     model.add(Dense(128))
     model.add(Activation('relu'))
     model.add(Dropout(0.5))
-    model.add(Dense(nb_classes))
-    model.add(Activation("softmax"))
-    return model
-
-
-def define_Szymons_CNN_model(nb_classes, input_shape):
-    model = Sequential()
-    model.add(Convolution2D(32, kernel_size=(3, 3), padding='same', input_shape=input_shape))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
-
-    model.add(Convolution2D(128, kernel_size=(3, 3), padding='same'))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
-
-    model.add(Convolution2D(256, kernel_size=(3, 3), padding='same'))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
-
-    model.add(Convolution2D(512, kernel_size=(3, 3), padding='same'))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
-
-    model.add(Convolution2D(1024, kernel_size=(3, 3), padding='same'))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
-
-    model.add(Dropout(0.5))
-    model.add(Flatten())
-    model.add(Dense(500))
-    model.add(Activation('relu'))
     model.add(Dense(nb_classes))
     model.add(Activation("softmax"))
     return model
@@ -244,8 +213,7 @@ def build_model(X, Y, nb_classes):
 
     # return define_oryg_model(nb_layers, kernel_size, input_shape, pool_size, nb_classes)
     # return define_128_256_oryg_model(nb_layers, kernel_size, input_shape, pool_size, nb_classes)
-    # return define_Szymons_CNN_model(nb_classes, input_shape)
-    return define_panotti_model(kernel_size, input_shape, pool_size, nb_classes)
+    # return define_panotti_model(kernel_size, input_shape, pool_size, nb_classes)
 
 
 if __name__ == '__main__':

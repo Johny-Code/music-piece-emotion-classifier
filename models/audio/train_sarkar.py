@@ -3,8 +3,9 @@ import sys
 sys.path.append("../../utils/")
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
-from train_network import train_val_split
+from train_network import train_val_test_split
 from draw_plot import plot_acc_loss
+from datetime import datetime
 from keras.callbacks import ModelCheckpoint
 from keras.regularizers import L2
 from keras.optimizers import Adam
@@ -14,69 +15,84 @@ from keras.layers import Input, Dense, TimeDistributed, LSTM, Dropout, Activatio
 from keras.models import Sequential, Model
 
 
-def define_sarkar_VGG_customized_architecture(input_shape, nb_classes):
+def define_sarkar_VGG_customized_architecture(input_shape, nb_classes, lambda_value):
     model = Sequential()
-    model.add(Conv2D(filters=64, kernel_size=(3, 3), strides=(1, 1)))
-    model.add(Conv2D(filters=64, kernel_size=(3, 3), strides=(1, 1)))
+    model.add(Conv2D(filters=64, kernel_size=(3, 3), strides=(1, 1), activation='relu', padding="same", input_shape=input_shape))
+    model.add(Conv2D(filters=64, kernel_size=(3, 3), strides=(1, 1), padding="same", activation='relu'))
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2), padding="same"))
-    model.add(Conv2D(filters=64, kernel_size=(3, 3), strides=(1, 1)))
-    model.add(Conv2D(filters=64, kernel_size=(3, 3), strides=(1, 1)))
+    model.add(Conv2D(filters=64, kernel_size=(3, 3), strides=(1, 1), padding="same", activation='relu'))
+    model.add(Conv2D(filters=64, kernel_size=(3, 3), strides=(1, 1), padding="same", activation='relu'))
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2), padding="same"))
 
-    model.add(Conv2D(filters=128, kernel_size=(3, 3), strides=(1, 1)))
+    model.add(Conv2D(filters=128, kernel_size=(3, 3), strides=(1, 1), padding="same", activation='relu'))
     model.add(MaxPooling2D(pool_size=(3, 3), strides=(3, 3), padding="same"))
     model.add(Dropout(0.25))
 
-    model.add(Conv2D(filters=256, kernel_size=(3, 3), strides=(1, 1)))
+    model.add(Conv2D(filters=256, kernel_size=(3, 3), strides=(1, 1), padding="same", activation='relu'))
     model.add(MaxPooling2D(pool_size=(3, 3), strides=(3, 3), padding="same"))
     model.add(Dropout(0.25))
-    model.add(Conv2D(filters=256, kernel_size=(3, 3), strides=(1, 1)))
+    model.add(Conv2D(filters=256, kernel_size=(3, 3), strides=(1, 1), padding="same", activation='relu'))
     model.add(MaxPooling2D(pool_size=(3, 3), strides=(3, 3), padding="same"))
     model.add(Dropout(0.25))
 
     model.add(Flatten())
-    model.add(Dense(256, activation="relu", kernel_regularizer=L2(0.001)))
+    model.add(Dense(256, activation="relu", kernel_regularizer=L2(lambda_value)))
     model.add(Dropout(0.5))
-    model.add(Dense(256, activation="relu", kernel_regularizer=L2(0.001)))
+    model.add(Dense(256, activation="relu", kernel_regularizer=L2(lambda_value)))
     model.add(Dropout(0.5))
 
     model.add(Dense(nb_classes, activation='softmax', name='dense_output'))
     return model
 
 
-if __name__ == "__main__":
-    path = "../../database/melgrams/melgrams_2048_nfft_512_hop_96_mel_jpg/"
-    files_nb = 200
-    IMG_HEIGHT = 216
-    IMG_WIDTH = 216
+def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height, img_width):
+    files_nb = 1900
     NUM_CLASSES = 4
-    NUM_EPOCHS = 1250
-    BATCH_SIZE = 64
-    L2_LAMBDA = 0.001
-    TRAIN_SPLIT = 0.8
-    LEARNING_RATE = 1e-5
-    STEPS_PER_EPOCH = int(files_nb * TRAIN_SPLIT) // BATCH_SIZE
-    VAL_STEPS = int(files_nb * (1 - TRAIN_SPLIT)) // BATCH_SIZE
-
-    optimizer = Adam(learning_rate=LEARNING_RATE)
+    CHANNELS = 1
+    
+    start_time = datetime.now()
+    optimizer = Adam(learning_rate=learning_rate)
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
-    filepath = "./transfer_learning_epoch_{epoch:02d}_{sparse_categorical_accuracy:.4f}.h5"
-    checkpoint = ModelCheckpoint(filepath,
+    checkpoint_filepath = "./tmp/checkpoint"
+    checkpoint = ModelCheckpoint(checkpoint_filepath,
+                                 save_weights_only=True,
                                  monitor='val_sparse_categorical_accuracy',
+                                 mode='max',
                                  verbose=0,
-                                 save_best_only=False)
+                                 save_best_only=True)
     callbacks_list = [checkpoint]
 
-    model = define_sarkar_VGG_customized_architecture((IMG_WIDTH, IMG_HEIGHT, 3), 4)
-
+    model = define_sarkar_VGG_customized_architecture((img_width, img_height, CHANNELS), NUM_CLASSES, l2_lambda)
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
-    train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT), (1 - TRAIN_SPLIT))
+    model.build(input_shape=(None, img_width, img_height, CHANNELS))
+    print(model.summary())
+    
+    train, val, _ = train_val_test_split(path, batch_size, (img_width, img_height))
 
     history = model.fit(train,
-                        epochs=NUM_EPOCHS,
-                        # steps_per_epoch=STEPS_PER_EPOCH,
-                        validation_data=test,)
-                        # validation_steps=VAL_STEPS,)
-                        # callbacks=[checkpoint])
-    plot_acc_loss (history, "./history")
+                        epochs=epochs,
+                        validation_data=val,
+                        callbacks=callbacks_list)
+    best_accuracy = max(history.history['val_sparse_categorical_accuracy'])
+    plot_acc_loss(history, f"./histories/different-params/resized_sarkar_{path[-50:]}_{best_accuracy}")
+    
+    end_time = datetime.now()
+    difference_s = (end_time - start_time).total_seconds()
+
+    model.load_weights(checkpoint_filepath)
+    model_path = f"./trained_models/different-params/resized_sarkar_{path[-50:]}_{best_accuracy}_{difference_s}.tf"
+    model.save(model_path, overwrite=True, save_format="tf")
+    
+
+if __name__ == "__main__":
+    path = "../../database/melgrams/gray/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_512_width_bicubic" 
+    NUM_EPOCHS = 700
+    BATCH_SIZE = 16
+    L2_LAMBDA = 1e-3
+    LEARNING_RATE = 1e-5
+    IM_WIDTH = 1292
+    IM_HEIGHT = 128
+    
+    train_network(path=path, batch_size=BATCH_SIZE, learning_rate=LEARNING_RATE, l2_lambda=L2_LAMBDA, 
+                    epochs=NUM_EPOCHS, img_width=IM_WIDTH, img_height=IM_HEIGHT)

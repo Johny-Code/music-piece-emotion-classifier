@@ -11,7 +11,7 @@ from keras.optimizers import Adam
 from keras.regularizers import L2
 from keras.callbacks import ModelCheckpoint
 from keras import models
-from train_network import train_val_split
+from train_network import train_val_test_split
 from draw_plot import plot_acc_loss
 
 
@@ -29,56 +29,45 @@ def define_VGG_model(input_shape, nb_classes):
     return model
 
 
-def define_fine_tuned_VGG_model(input_shape, nb_classes, model_path):
-    conv_base = VGG16(include_top=False, weights='imagenet', input_shape=input_shape)
-    model = Sequential()
-    model.add(conv_base)
-    model.add(Flatten())
-    model.add(Dense(512, name='dense_1', kernel_regularizer=L2(0.001)))
-    model.add(Dropout(rate=0.3, name='dropout_1'))
-    model.add(Activation(activation='relu', name='activation_1'))
-    model.add(Dense(nb_classes, activation='softmax', name='dense_output'))
-    conv_base.trainable = True
-    tl_model = models.load_model(filepath=model_path)  # 02 is epoch 3
-    tl_model.weights[-4:]  # The weights from the 2 dense layers have to be transferred to the new model
-    for i in range(1, len(model.layers)):  # The first layer (index = 0) is the conv base
-        model.layers[i].set_weights(tl_model.layers[i].get_weights())
-    return model
-
-
 if __name__ == "__main__":
-    path = "../../database/melgrams/melgrams_2048_nfft_512_hop_jpg/"
+    path = "../../database/melgrams/rgb/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper"
     best_model_path = "vgg_63.19acc_transfer_learning.h5"
-    files_nb = 2000
-    IMG_HEIGHT = 216
-    IMG_WIDTH = 216
+    IMG_HEIGHT = 128
+    IMG_WIDTH = 1292
     NUM_CLASSES = 4
-    NUM_EPOCHS = 10
+    NUM_EPOCHS = 30
     BATCH_SIZE = 32
-    L2_LAMBDA = 0.001
-    STEPS_PER_EPOCH = int(files_nb * 0.8) // BATCH_SIZE
-    VAL_STEPS = int(files_nb * 0.2) // BATCH_SIZE
+    LEARNING_RATE = 1e-5
+    CHANNELS = 3
 
-    optimizer = Adam(lr=1e-5)
+    optimizer = Adam(learning_rate=LEARNING_RATE)
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
-    filepath = "./transfer_learning_epoch_{epoch:02d}_{sparse_categorical_accuracy:.4f}.h5"
-    checkpoint = ModelCheckpoint(filepath,
+    checkpoint_filepath = "./tmp/checkpoint3"
+    checkpoint = ModelCheckpoint(checkpoint_filepath,
+                                 save_weights_only=True,
                                  monitor='val_sparse_categorical_accuracy',
+                                 mode='max',
                                  verbose=0,
-                                 save_best_only=False)
+                                 save_best_only=True)
     callbacks_list = [checkpoint]
 
-    # model = define_VGG_model((IMG_WIDTH, IMG_HEIGHT, 3), 4)
-    model = define_fine_tuned_VGG_model((IMG_WIDTH, IMG_HEIGHT, 3), 4, best_model_path)
+
+    model = define_VGG_model((IMG_WIDTH, IMG_HEIGHT, CHANNELS), NUM_CLASSES)
 
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
-    train, test = train_val_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT), 0.2)
+    model.build(input_shape=(None, IMG_WIDTH, IMG_HEIGHT, CHANNELS))
+    print(model.summary())
+    
+    train, val, _ = train_val_test_split(path, BATCH_SIZE, (IMG_WIDTH, IMG_HEIGHT), False)
 
     history = model.fit(train,
                         epochs=NUM_EPOCHS,
-                        steps_per_epoch=STEPS_PER_EPOCH,
-                        validation_data=test,
-                        validation_steps=VAL_STEPS,
-                        callbacks=[checkpoint])
-    plot_acc_loss (history, "./history")
+                        validation_data=val,
+                        callbacks=callbacks_list)
+    plot_acc_loss(history, "./histories/new_history_vgg16_regular_resized")
+    
+    model.load_weights(checkpoint_filepath)
+    model_path = "./trained_models/new_vgg16_regular_resized.tf"
+    model.save(model_path, overwrite=True, save_format="tf")
+    
