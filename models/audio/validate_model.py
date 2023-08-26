@@ -18,13 +18,13 @@ from PIL import Image
 
 
 if __name__ == "__main__":
-    model_name = "./trained_models/new_ravdess_gray_32_1e-05_0.5919.tf"
-    metrics_file = "new_ravdess_1292x128.txt"
-    confusion_matrix_prefix = "ravdes_1292x128"
+    model_name = "./trained_models/others/newest_resnet_inception_16_10_0.001_0.5638.tf"
+    metrics_file = "others/new_resnet-inception_trained_on_test_copy2.txt"
+    confusion_matrix_prefix = "resnet-inception_trained_on_test_copy2"
     SIZE = (1292, 128)
     color = "grayscale" #"rgb" #"grayscale"
 
-    path = "../../database/melgrams/gray/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray/test"
+    path = "../../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray/val" 
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
     label_mapping = {"angry":0, "happy": 1, "relaxed": 2, "sad": 3}
@@ -64,6 +64,12 @@ if __name__ == "__main__":
     with open(os.path.join("metrics", metrics_file),'w') as file:
         with redirect_stdout(file):
             print(classification_report(true_labels_int, predicted_labels, target_names=label_mapping.keys(), digits=4))
-            print("\n")
+    #         print("\n")
+    #         print("PREDICTED LABELS \n")
+    #         print(predicted_labels)
+    #         print("\nTRUE LABELS INT\n")
+    #         print(true_labels_int)
+    #         print("\nPATH\n")
+    #         print(img_paths)
             
     print(classification_report(true_labels_int, predicted_labels, target_names=label_mapping.keys(), digits=4))
