@@ -49,8 +49,7 @@ def plot_acc_loss(history, output_path=None):
 
 def get_current_date_string():
     actual_date = datetime.datetime.now()
-    return f"{actual_date.year}-{actual_date.month}-{actual_date.day}_" +
-        f"{actual_date.hour}-{actual_date.minute}-{actual_date.second}"
+    return f"{actual_date.year}-{actual_date.month}-{actual_date.day}_{actual_date.hour}-{actual_date.minute}-{actual_date.second}"
 
 
 def plot_tf_accuracy(history, output_path):
@@ -86,8 +85,7 @@ def plot_tf_loss(history, output_path):
     plt.legend(['train', 'val'], loc='upper left')
 
     if output_path:
-        output_path_name = os.path.join(output_path,
-                                        f'{}_loss.png')
+        output_path_name = os.path.join(output_path,'_loss.png')
         plt.savefig(output_path_name)
     else:
         plt.show()

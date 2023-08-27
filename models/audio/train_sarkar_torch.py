@@ -1,17 +1,15 @@
 import os
+import torch
+import torch.nn as nn
+import torch.optim as optim
 import sys
 sys.path += ["../../utils/", "./implementation"]
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
-import torch
-import torch.nn as nn
-import torch.optim as optim
 from torch.utils.data import DataLoader
 from torchvision.transforms import ToTensor
-from datetime import datetime
 from draw_plot import plot_acc_loss_torch
 from CustomSpectrogramDataset import CustomSpectrogramDataset
-from torchvision.models import resnet50, resnet152
 from torchsummary import summary
 
 
@@ -60,8 +58,8 @@ class SarkarVGGCustomizedArchitecture(nn.Module):
 
 
 def save_checkpoint(model, path, highest_accuracy, current_accuracy, epoch):
-    if current_accuracy > 50. and current_accuracy > highest_accuracy: 
-        torch.save(model.state_dict(), os.path.join(path, f"sarkar_{current_accuracy}_{epoch}"))
+    if current_accuracy > 55. and current_accuracy > highest_accuracy: 
+        torch.save(model.state_dict(), os.path.join(path, f"sarkar_{current_accuracy}_{epoch}.pth"))
 
 
 def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height, img_width):
@@ -70,7 +68,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     model = SarkarVGGCustomizedArchitecture(NUM_CLASSES, CHANNELS).to(device)
-    optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=l2_lambda)
+    optimizer = optim.Adam(model.parameters(), lr=learning_rate)#, weight_decay=l2_lambda)
     criterion = nn.CrossEntropyLoss()
     val_accuracy_history = []
     val_loss_history = []
@@ -124,18 +122,18 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         print(f"Epoch [{epoch+1}/{epochs}] - Train Loss: {train_loss / len(train_loader.dataset):.4f} - "
               f"Val Loss: {val_loss / len(val_loader.dataset):.4f} - Val Acc: {val_accuracy:.2f}%")
 
-        checkpoint_path = "./trained_models/torch/checkpoints/"
+        checkpoint_path = "./trained_models/torch/checkpoints2/"
         save_checkpoint(model, checkpoint_path, highest_accuracy, val_accuracy, epoch+1)
         highest_accuracy = val_accuracy if val_accuracy > highest_accuracy else highest_accuracy
         
     model_path = f"./trained_models/torch/sarkar_final_{path[-42:]}_{epochs}_{val_accuracy:.2f}.pth"
     torch.save(model.state_dict(), model_path)
-    plot_acc_loss_torch(val_accuracy_history, val_loss_history, "./histories/torch/history_700.png")
+    plot_acc_loss_torch(val_accuracy_history, val_loss_history, "./histories/torch/history_600_no_l2")
     
     
 if __name__ == "__main__":
     path = "../../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray" 
-    NUM_EPOCHS = 700
+    NUM_EPOCHS = 600
     BATCH_SIZE = 16
     L2_LAMBDA = 1e-3
     LEARNING_RATE = 1e-5
