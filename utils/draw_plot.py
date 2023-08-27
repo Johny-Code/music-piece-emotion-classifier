@@ -85,7 +85,7 @@ def plot_tf_loss(history, output_path):
     plt.legend(['train', 'val'], loc='upper left')
 
     if output_path:
-        output_path_name = os.path.join(output_path,'_loss.png')
+        output_path_name = os.path.join(output_path,f'{get_current_date_string()}_loss.png')
         plt.savefig(output_path_name)
     else:
         plt.show()

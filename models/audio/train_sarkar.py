@@ -75,18 +75,18 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
                         validation_data=val,
                         callbacks=callbacks_list)
     best_accuracy = max(history.history['val_sparse_categorical_accuracy'])
-    plot_acc_loss(history, f"./histories/different-part/sarkar_{path[-42:]}_{best_accuracy}")
+    plot_acc_loss(history, f"./histories/different-part/sarkar_last_{path[-42:]}_{best_accuracy}")
     
     end_time = datetime.now()
     difference_s = (end_time - start_time).total_seconds()
 
     model.load_weights(checkpoint_filepath)
-    model_path = f"./trained_models/different-part/sarkar_{path[-42:]}_{best_accuracy}.tf"
+    model_path = f"./trained_models/different-part/sarkar_last_{path[-42:]}_{best_accuracy}.tf"
     model.save(model_path, overwrite=True, save_format="tf")
     
 
 if __name__ == "__main__":
-    path = "../../database/melgrams/gray/different-musical-part/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray_first30s" 
+    path = "../../database/melgrams/gray/different-part/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray_last30s" 
     NUM_EPOCHS = 700
     BATCH_SIZE = 16
     L2_LAMBDA = 1e-3
