@@ -18,9 +18,9 @@ from PIL import Image
 
 
 if __name__ == "__main__":
-    model_name = "./trained_models/others/newest_resnet_inception_16_10_0.001_0.5638.tf"
-    metrics_file = "others/new_resnet-inception_trained_on_test_copy2.txt"
-    confusion_matrix_prefix = "resnet-inception_trained_on_test_copy2"
+    model_name = "./trained_models/others/newest_resnet_inception_16_15_0.001_0.6477.tf"
+    metrics_file = "others/new_resnet-inception_trained_on_test_copy3.txt"
+    confusion_matrix_prefix = "resnet-inception_trained_on_test_copy3"
     SIZE = (1292, 128)
     color = "grayscale" #"rgb" #"grayscale"
 

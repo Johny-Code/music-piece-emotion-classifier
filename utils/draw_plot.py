@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import argparse
 
-def draw_confusion_matrix(cm, target_names, output_path = None, filename_prefix="", cmap = None):
 
+def draw_confusion_matrix(cm, target_names, output_path = None, filename_prefix="", cmap = None):
     if not os.path.exists(output_path):
         os.makedirs(output_path)
 
@@ -29,8 +29,21 @@ def draw_confusion_matrix(cm, target_names, output_path = None, filename_prefix=
         plt.show()
 
 
-def plot_acc_loss(history, output_path=None):
+def plot_acc_loss_torch(accuracy, loss, output_path):
+    plt.plot(accuracy,'-o')
+    plt.plot(loss,'-o')
+    plt.xlabel('epoch')
+    plt.ylabel('accuracy')
+    plt.legend(['Accuracy','Loss'])
+    plt.title('Val accuracy and loss')
+    
+    if output_path:
+        plt.savefig(output_path)
+    else:
+        plt.show()
 
+
+def plot_acc_loss(history, output_path=None):
     if not os.path.exists(output_path):
         os.makedirs(output_path)
 
@@ -72,7 +85,6 @@ def plot_acc_loss(history, output_path=None):
         plt.savefig(output_path_name)
     else:
         plt.show()
-
 
 
 if __name__ == '__main__':

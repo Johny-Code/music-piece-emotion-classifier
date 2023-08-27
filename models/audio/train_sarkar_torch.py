@@ -9,15 +9,14 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 from torchvision.transforms import ToTensor
 from datetime import datetime
-from train_network import train_val_test_split
-from draw_plot import plot_acc_loss
+from draw_plot import plot_acc_loss_torch
 from CustomSpectrogramDataset import CustomSpectrogramDataset
 from torchvision.models import resnet50, resnet152
 from torchsummary import summary
 
 
 class SarkarVGGCustomizedArchitecture(nn.Module):
-    def __init__(self, num_classes, lambda_value, channels):
+    def __init__(self, num_classes, channels):
         super(SarkarVGGCustomizedArchitecture, self).__init__()
         self.features = nn.Sequential(
             nn.Conv2d(channels, 64, kernel_size=3, stride=1, padding=1),
@@ -53,7 +52,6 @@ class SarkarVGGCustomizedArchitecture(nn.Module):
             nn.Dropout(0.5),
             nn.Linear(256, num_classes)
         )
-        self.lambda_value = lambda_value
 
     def forward(self, x):
         x = self.features(x)
@@ -61,19 +59,25 @@ class SarkarVGGCustomizedArchitecture(nn.Module):
         return x
 
 
+def save_checkpoint(model, path, highest_accuracy, current_accuracy, epoch):
+    if current_accuracy > 50. and current_accuracy > highest_accuracy: 
+        torch.save(model.state_dict(), os.path.join(path, f"sarkar_{current_accuracy}_{epoch}"))
+
+
 def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height, img_width):
     NUM_CLASSES = 4
     CHANNELS = 1
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
-    model = SarkarVGGCustomizedArchitecture(NUM_CLASSES, l2_lambda, CHANNELS).to(device)
+    model = SarkarVGGCustomizedArchitecture(NUM_CLASSES, CHANNELS).to(device)
     optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=l2_lambda)
     criterion = nn.CrossEntropyLoss()
+    val_accuracy_history = []
+    val_loss_history = []
     
     transform = ToTensor()
     train_dataset = CustomSpectrogramDataset(os.path.join(path, "train"), transform=transform)
     val_dataset = CustomSpectrogramDataset(os.path.join(path, "val"), transform=transform)
-    
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
     val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
     
@@ -82,8 +86,11 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     for epoch in range(epochs):
         model.train()
         train_loss = 0.0
+        
         for inputs, labels in train_loader:
-            inputs, labels = inputs.to(device), labels.to(device)
+            inputs = inputs.to(device)
+            labels = labels.to(device)
+            
             optimizer.zero_grad()
             outputs = model(inputs)
             loss = criterion(outputs, labels)
@@ -92,12 +99,17 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
             train_loss += loss.item() * inputs.size(0)
         
         model.eval()
+        
         val_loss = 0.0
         correct = 0
         total = 0
+        highest_accuracy = 0.0
+        
         with torch.no_grad():
             for inputs, labels in val_loader:
-                inputs, labels = inputs.to(device), labels.to(device)
+                inputs = inputs.to(device)
+                labels = torch.argmax(labels, dim=1).to(device)
+                
                 outputs = model(inputs)
                 loss = criterion(outputs, labels)
                 val_loss += loss.item() * inputs.size(0)
@@ -106,16 +118,24 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
                 correct += predicted.eq(labels).sum().item()
         
         val_accuracy = 100 * correct / total
+        val_loss_history.append(val_loss)
+        val_accuracy_history.append(val_accuracy)
+        
         print(f"Epoch [{epoch+1}/{epochs}] - Train Loss: {train_loss / len(train_loader.dataset):.4f} - "
               f"Val Loss: {val_loss / len(val_loader.dataset):.4f} - Val Acc: {val_accuracy:.2f}%")
-    
-    model_path = f"./trained_models/torch/sarkar_{path[-50:]}_{epochs}_{val_accuracy:.2f}.pth"
+
+        checkpoint_path = "./trained_models/torch/checkpoints/"
+        save_checkpoint(model, checkpoint_path, highest_accuracy, val_accuracy, epoch+1)
+        highest_accuracy = val_accuracy if val_accuracy > highest_accuracy else highest_accuracy
+        
+    model_path = f"./trained_models/torch/sarkar_final_{path[-42:]}_{epochs}_{val_accuracy:.2f}.pth"
     torch.save(model.state_dict(), model_path)
+    plot_acc_loss_torch(val_accuracy_history, val_loss_history, "./histories/torch/history_700.png")
     
     
 if __name__ == "__main__":
     path = "../../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray" 
-    NUM_EPOCHS = 5
+    NUM_EPOCHS = 700
     BATCH_SIZE = 16
     L2_LAMBDA = 1e-3
     LEARNING_RATE = 1e-5

@@ -62,7 +62,7 @@ def train_network(path, batch_size, learning_rate, img_width, img_height, epochs
     model.build(input_shape=(None, img_width, img_height, CHANNELS))
     print(model.summary())
 
-    train, _, val = train_val_test_split(path, batch_size, (img_width, img_height))
+    train, val, _ = train_val_test_split(path, batch_size, (img_width, img_height))
 
     history = model.fit(train,
                         epochs=epochs,
