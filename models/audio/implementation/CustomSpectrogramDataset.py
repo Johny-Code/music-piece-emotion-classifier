@@ -38,6 +38,9 @@ class CustomSpectrogramDataset(Dataset):
 
         return image, torch.FloatTensor(label)
     
+    def get_sample_and_path(self, idx):
+        return self.samples[idx]
+    
 
 if __name__ == "__main__":
     root_dir = "../../../database/melgrams/gray/different-params/melgrams_2048_nfft_2048_hop_128_mel_jpg_proper_gray/train"
@@ -45,6 +48,6 @@ if __name__ == "__main__":
     
     dataset = CustomSpectrogramDataset(root_dir, transform=transform)
     print("Dataset length:", len(dataset))
-    sample, label = dataset[1391]
+    sample, label = dataset[500]
     print("Sample shape:", sample.shape)
-    print("Label:", label)
+    print("Paths:", dataset.get_sample_and_path(500))
