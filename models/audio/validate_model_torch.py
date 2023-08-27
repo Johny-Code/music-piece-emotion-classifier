@@ -33,10 +33,8 @@ def validate_model(model_path, dataset_path, img_height, img_width, label_names,
         
     summary(model, input_size=(CHANNELS, img_height, img_width))
     
-    val_loss = 0.0
     correct = 0
     total = 0
-    highest_accuracy = 0.0
     all_predicted_labels = []
     all_actual_labels = []
     

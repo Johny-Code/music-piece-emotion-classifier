@@ -48,7 +48,8 @@ class SarkarVGGCustomizedArchitecture(nn.Module):
             nn.Linear(256, 256),
             nn.ReLU(),
             nn.Dropout(0.5),
-            nn.Linear(256, num_classes)
+            nn.Linear(256, num_classes),
+            nn.Softmax(dim=1)
         )
 
     def forward(self, x):
@@ -58,7 +59,7 @@ class SarkarVGGCustomizedArchitecture(nn.Module):
 
 
 def save_checkpoint(model, path, highest_accuracy, current_accuracy, epoch):
-    if current_accuracy > 55. and (current_accuracy > highest_accuracy): 
+    if current_accuracy > 50. and (current_accuracy > highest_accuracy): 
         torch.save(model.state_dict(), os.path.join(path, f"sarkar_{current_accuracy}_{epoch}.pth"))
 
 
@@ -68,11 +69,11 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     model = SarkarVGGCustomizedArchitecture(NUM_CLASSES, CHANNELS).to(device)
-    optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=l2_lambda)
+    optimizer = optim.AdamW(model.parameters(), lr=learning_rate)#, weight_decay=l2_lambda)
     criterion = nn.CrossEntropyLoss()
     val_accuracy_history = []
     val_loss_history = []
-    
+        
     transform = ToTensor()
     train_dataset = CustomSpectrogramDataset(os.path.join(path, "train"), transform=transform)
     val_dataset = CustomSpectrogramDataset(os.path.join(path, "val"), transform=transform)
@@ -122,13 +123,14 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         print(f"Epoch [{epoch+1}/{epochs}] - Train Loss: {train_loss / len(train_loader.dataset):.4f} - "
               f"Val Loss: {val_loss / len(val_loader.dataset):.4f} - Val Acc: {val_accuracy:.2f}%")
 
-        checkpoint_path = "./trained_models/torch/checkpoints3/"
+        checkpoint_path = "./trained_models/torch/checkpoints4/"
+        os.makedirs(checkpoint_path, exist_ok=True)
         save_checkpoint(model, checkpoint_path, highest_accuracy+0.01, val_accuracy, epoch+1)
         highest_accuracy = val_accuracy if val_accuracy > highest_accuracy else highest_accuracy
         
-    model_path = f"./trained_models/torch/sarkar_final_{path[-42:]}_{epochs}_{val_accuracy:.2f}.pth"
+    model_path = f"./trained_models/torch/sarkar_AdamW_{path[-42:]}_{epochs}_{val_accuracy:.2f}.pth"
     torch.save(model.state_dict(), model_path)
-    plot_acc_loss_torch(val_accuracy_history, val_loss_history, "./histories/torch/history_500_l2_0_001_batch16")
+    plot_acc_loss_torch(val_accuracy_history, val_loss_history, "./histories/torch/history_500_AdamW_batch16")
     
     
 if __name__ == "__main__":
@@ -142,3 +144,4 @@ if __name__ == "__main__":
     
     train_network(path=path, batch_size=BATCH_SIZE, learning_rate=LEARNING_RATE, l2_lambda=L2_LAMBDA, 
                   epochs=NUM_EPOCHS, img_width=IM_WIDTH, img_height=IM_HEIGHT)
+    #try weight_decay=1e-3 and amsgrad=True

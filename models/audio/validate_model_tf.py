@@ -18,13 +18,13 @@ from PIL import Image
 
 
 if __name__ == "__main__":
-    model_name = "./trained_models/different-part/sarkar__1024_hop_128_mel_jpg_proper_gray_first30s_0.5585.tf"
-    metrics_file = "different-part/sarkar_30first.txt"
-    confusion_matrix_prefix = "sarkar_30first"
+    model_name = "./trained_models/different-part/sarkar_last_t_1024_hop_128_mel_jpg_proper_gray_last30s_0.5619.tf"
+    metrics_file = "different-part/sarkar_30last.txt"
+    confusion_matrix_prefix = "sarkar_30last"
     SIZE = (1292, 128)
     color = "grayscale" #"rgb" #"grayscale"
 
-    path = "../../database/melgrams/gray/different-part/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray_first30s/test" 
+    path = "../../database/melgrams/gray/different-part/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray_last30s/test" 
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
     label_mapping = {"angry":0, "happy": 1, "relaxed": 2, "sad": 3}
