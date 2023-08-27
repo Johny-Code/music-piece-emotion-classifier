@@ -4,10 +4,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import argparse
 
-def draw_confusion_matrix(cm, target_names, output_path = None, filename_prefix="", cmap = None):
 
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)
+def draw_confusion_matrix(cm, target_names, output_path = None, filename_prefix="", cmap = None):
+    os.makedirs(output_path, exist_ok=True)
 
     plt.figure(figsize=(8, 6))
     sns.heatmap(cm, 
@@ -21,20 +20,39 @@ def draw_confusion_matrix(cm, target_names, output_path = None, filename_prefix=
     plt.xlabel('Predicted label')
 
     if output_path:
-        actual_date = datetime.datetime.now()
-        output_path_name = os.path.join(output_path,
-                                        f'{actual_date.year}-{actual_date.month}-{actual_date.day}_{actual_date.hour}-{actual_date.minute}-{actual_date.second}')
+        output_path_name = os.path.join(output_path, f'{get_current_date_string()}')
         plt.savefig(f"{output_path_name}_{filename_prefix}_cm.png")
     else:
         plt.show()
+        
+
+def plot_acc_loss_torch(accuracy, loss, path):
+    plt.plot(accuracy)
+    plt.xlabel('epochs')
+    plt.ylabel('accuracy')
+    plt.title('Loss Graph')
+    plt.savefig(path+"accuracy.png")
+    
+    plt.clf()
+    plt.plot(loss)
+    plt.xlabel('epochs')
+    plt.ylabel('loss')
+    plt.title('Accuracy Graph')
+    plt.savefig(path+"loss.png")
 
 
 def plot_acc_loss(history, output_path=None):
+    os.makedirs(output_path, exist_ok=True)
+    plot_tf_accuracy(history, output_path)
+    plot_tf_loss(history, output_path)
 
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)
 
-    #  "Accuracy"
+def get_current_date_string():
+    actual_date = datetime.datetime.now()
+    return f"{actual_date.year}-{actual_date.month}-{actual_date.day}_{actual_date.hour}-{actual_date.minute}-{actual_date.second}"
+
+
+def plot_tf_accuracy(history, output_path):
     try:
         acc = history.history['accuracy']
         val_acc = history.history['val_accuracy']
@@ -50,14 +68,15 @@ def plot_acc_loss(history, output_path=None):
     plt.legend(['train', 'val'], loc='upper left')
 
     if output_path:
-        actual_date = datetime.datetime.now()
-        output_path_name = os.path.join(output_path,
-                                        f'{actual_date.year}-{actual_date.month}-{actual_date.day}_{actual_date.hour}-{actual_date.minute}-{actual_date.second}_acc.png')
+        output_path_name = os.path.join(output_path, f'{get_current_date_string()}_acc.png')
         plt.savefig(output_path_name)
     else:
         plt.show()
+    
+    plt.clf()
 
-    # "Loss"
+
+def plot_tf_loss(history, output_path):
     plt.plot(history.history['loss'])
     plt.plot(history.history['val_loss'])
     plt.title('model loss')
@@ -66,13 +85,12 @@ def plot_acc_loss(history, output_path=None):
     plt.legend(['train', 'val'], loc='upper left')
 
     if output_path:
-        actual_date = datetime.datetime.now()
-        output_path_name = os.path.join(output_path,
-                                        f'{actual_date.year}-{actual_date.month}-{actual_date.day}_{actual_date.hour}-{actual_date.minute}-{actual_date.second}_loss.png')
+        output_path_name = os.path.join(output_path,f'{get_current_date_string()}_loss.png')
         plt.savefig(output_path_name)
     else:
         plt.show()
-
+        
+    plt.clf()
 
 
 if __name__ == '__main__':

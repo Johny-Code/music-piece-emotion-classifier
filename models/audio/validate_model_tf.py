@@ -18,13 +18,13 @@ from PIL import Image
 
 
 if __name__ == "__main__":
-    model_name = "./trained_models/others/newest_resnet_inception_16_10_0.001_0.5638.tf"
-    metrics_file = "others/new_resnet-inception_trained_on_test_copy2.txt"
-    confusion_matrix_prefix = "resnet-inception_trained_on_test_copy2"
+    model_name = "./trained_models/different-part/sarkar_last_t_1024_hop_128_mel_jpg_proper_gray_last30s_0.5619.tf"
+    metrics_file = "different-part/sarkar_30last.txt"
+    confusion_matrix_prefix = "sarkar_30last"
     SIZE = (1292, 128)
     color = "grayscale" #"rgb" #"grayscale"
 
-    path = "../../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray/val" 
+    path = "../../database/melgrams/gray/different-part/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray_last30s/test" 
     loss = 'sparse_categorical_crossentropy'
     metrics = ['sparse_categorical_accuracy']
     label_mapping = {"angry":0, "happy": 1, "relaxed": 2, "sad": 3}
@@ -58,7 +58,7 @@ if __name__ == "__main__":
     
     true_labels_int = [label_mapping[label] for label in true_labels]
     cfm = confusion_matrix(true_labels_int, predicted_labels)
-    draw_confusion_matrix(cfm, label_mapping.keys(), "confusion_matrices", filename_prefix=confusion_matrix_prefix)
+    draw_confusion_matrix(cfm, label_mapping.keys(), "confusion_matrices/different-part", filename_prefix=confusion_matrix_prefix)
 
     os.makedirs("./metrics", exist_ok=True)
     with open(os.path.join("metrics", metrics_file),'w') as file:
