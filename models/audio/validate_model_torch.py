@@ -71,8 +71,8 @@ def validate_model(model_path, dataset_path, img_height, img_width, label_names,
     
 if __name__ == "__main__":
     dataset_path = "../../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray"
-    model_path = "./trained_models/torch/checkpoints2/sarkar_56.86_581.pth"
-    name = "torch_checkpoint2_copy11"
+    model_path = "./trained_models/torch/checkpoints1/sarkar_56.86_492.pth"
+    name = "torch_checkpoint1_copy9"
     label_names = ["happy", "angry", "sad", "relaxed"]
     IM_WIDTH = 1292
     IM_HEIGHT = 128
