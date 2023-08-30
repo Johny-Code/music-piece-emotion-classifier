@@ -105,7 +105,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     model = SarkarVGGCustomizedArchitecture(NUM_CLASSES, CHANNELS).to(device)
-    optimizer = optim.AdamW(model.parameters() ,lr=learning_rate, amsgrad=False)#, weight_decay=l2_lambda)
+    optimizer = optim.AdamW(model.parameters())#lr=learning_rate, amsgrad=False)#, weight_decay=l2_lambda)
     criterion = nn.CrossEntropyLoss()
     val_accuracy_history = []
     val_loss_history = []
@@ -158,13 +158,13 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         print(f"Epoch [{epoch+1}/{epochs}] - Train Loss: {train_loss / len(train_loader.dataset):.4f} - "
               f"Val Loss: {val_loss / len(val_loader.dataset):.4f} - Val Acc: {val_accuracy:.2f}%")
 
-        checkpoint_path = "./trained_models/torch/checkpoints7/"
+        checkpoint_path = "./trained_models/torch/checkpoints8/"
         os.makedirs(checkpoint_path, exist_ok=True)
         save_checkpoint(model, checkpoint_path, val_accuracy, epoch+1)
         
-    model_path = f"./trained_models/torch/sarkar_approach7_{path[-42:]}_{epochs}_{val_accuracy:.2f}.pth"
+    model_path = f"./trained_models/torch/sarkar_approach8_{path[-42:]}_{epochs}_{val_accuracy:.2f}.pth"
     torch.save(model.state_dict(), model_path)
-    plot_acc_loss_torch(val_accuracy_history, val_loss_history, "./histories/torch/history_500_AdamW_approach7")
+    plot_acc_loss_torch(val_accuracy_history, val_loss_history, "./histories/torch/history_500_AdamW_approach8")
     
     
 if __name__ == "__main__":

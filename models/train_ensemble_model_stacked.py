@@ -27,11 +27,11 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     
     #define models
     model_audio = SarkarVGGCustomizedArchitecture(NUM_CLASSES, CHANNELS).to(device)
-    # model_audio.load_state_dict(torch.load("./audio/trained_models/torch/checkpoints4/sarkar_59.53_339.pth"))
+    model_audio.load_state_dict(torch.load("./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"))
 
     #to be corrected
     model_lyrics = SarkarVGGCustomizedArchitecture(NUM_CLASSES, CHANNELS).to(device)
-    # model_lyrics.load_state_dict(torch.load("./audio/trained_models/torch/checkpoints4/sarkar_59.20_268.pth"))
+    model_lyrics.load_state_dict(torch.load("./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"))
     
     #load ensemble model
     ensembleModel = EnsembleModel(model_audio, model_lyrics, NUM_CLASSES).to(device)
@@ -55,7 +55,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     train_lyrics_loader = DataLoader(train_audio_dataset, batch_size=batch_size, shuffle=True)
     val_lyrics_loader = DataLoader(val_audio_dataset, batch_size=batch_size, shuffle=False)
     
-    summary(ensembleModel) #, input_size=(CHANNELS, img_height, img_width))
+    # summary(ensembleModel) #, input_size=(CHANNELS, img_height, img_width))
     
     for epoch in range(epochs):
         ensembleModel.train()
@@ -64,8 +64,8 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         for (inputs_audio, labels_audio), (inputs_lyrics, labels_lyrics) in zip(train_audio_loader, train_lyrics_loader):
             inputs_audio = inputs_audio.to(device)
             inputs_lyrics = inputs_lyrics.to(device)
-            labels_audio = torch.argmax(labels_audio, dim=1).to(device)  # Convert one-hot to class indices
-            labels_lyrics = torch.argmax(labels_lyrics, dim=1).to(device)
+            labels_audio = torch.argmax(labels_audio, dim=1).to(device)
+            labels_lyrics = torch.argmax(labels_lyrics, dim=1).to(device)  # Convert to class indices from one hot encoding if needed
 
             optimizer.zero_grad()
             outputs = ensembleModel(inputs_audio, inputs_lyrics)
