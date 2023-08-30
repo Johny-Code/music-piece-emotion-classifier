@@ -114,9 +114,9 @@ def test_fasttext(test_dataset, model):
 
 def create_dataset(replace_newline):
     dataset_path = os.path.join('..', 'database', 'lyrics')
-    duplicate_path = os.path.join('database', 'removed_rows.json')
+    database_path = os.path.join('database', 'MoodyLyrics4Q_cleaned_split.csv')
 
-    en_dataset = load_en_dataset(dataset_path, duplicate_path)
+    en_dataset = load_en_dataset(dataset_path, database_path)
 
     train, test = train_test_split(en_dataset, test_size=0.3, random_state=SEED)
 

@@ -44,8 +44,8 @@ def preprocess(dataset, remove_newline):
 
     return labels, lyrics
 
-def load_dataset(dataset_path, duplicated_path):
-    en_dataset = load_en_dataset(dataset_path, duplicated_path)
+def load_dataset(dataset_path, database_path):
+    en_dataset = load_en_dataset(dataset_path, database_path)
 
     remove_newline = True
     labels, lyrics = preprocess(en_dataset, remove_newline) 
@@ -328,9 +328,9 @@ def test_model(model,test_dataloader):
 def simple_run(hyperparemeters):
 
     dataset_path = os.path.join('..', 'database', 'lyrics')
-    duplicated_path = os.path.join('database', 'removed_rows.json') 
+    database_path = os.path.join('database', 'MoodyLyrics4Q_cleaned_split.csv')
 
-    labels, lyrics = load_dataset(dataset_path, duplicated_path)
+    labels, lyrics = load_dataset(dataset_path, database_path)
 
     tokienizer = XLNetTokenizer.from_pretrained('xlnet-base-cased', do_lower_case = hyperparameters['tokenizer']['do_lower_case'])
 
