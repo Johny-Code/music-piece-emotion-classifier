@@ -24,7 +24,7 @@ def detect_language(text):
     return language
 
 
-def load_lyric_dataset(input_path, rows_to_remove):
+def load_lyric_dataset(input_path, MoodyLyric4Q_cleaned_splited):
 
     rows = list()
     ids = list()
@@ -37,12 +37,15 @@ def load_lyric_dataset(input_path, rows_to_remove):
 
         try:
             id = song_info['id']
-            if id in rows_to_remove:
+            if not (id in MoodyLyric4Q_cleaned_splited.index):
                 print(f"Song {id} is duplicated. ")
                 continue
             else:
-                id = id.replace("ML", "")
-                id = int(id)
+                #get split form MoodyLyric4Q_cleaned_splited
+                split = MoodyLyric4Q_cleaned_splited.loc[id]['split']
+                # id = id.replace("ML", "")
+                # id = int(id)
+
         except BaseException:
             id = None
             print(f"For {file_path} there is no id")
@@ -63,6 +66,7 @@ def load_lyric_dataset(input_path, rows_to_remove):
             lyric = song_info['song']['lyrics']
             if lyric == '':
                 print(f"For {file_path} lyric is empty")
+                lyric = ' '
         except BaseException:
             lyric = None
             print(f"For {file_path} there is no lyrics")
@@ -85,12 +89,12 @@ def load_lyric_dataset(input_path, rows_to_remove):
         except BaseException:
             instrumental = False
 
-        row = (mood, title, lyric, language, instrumental)
+        row = (mood, title, lyric, language, instrumental, split)
 
         rows.append(row)
         ids.append(id)
 
-    df = pd.DataFrame(rows, columns=['mood', 'title', 'lyric', 'language', 'instrumental'], index=ids)
+    df = pd.DataFrame(rows, columns=['mood', 'title', 'lyric', 'language', 'instrumental', 'split'], index=ids)
 
     return df
 
@@ -107,17 +111,24 @@ def get_duplicated_rows(file_path):
     return rows_to_remove
 
 
-def load_en_dataset(dataset_path, duplicated_path):
+def load_en_dataset(dataset_path, database_path):
 
-    rows_to_remove = get_duplicated_rows(duplicated_path)
+    MoodyLyric4Q_cleaned_splited = pd.read_csv(database_path, sep=',', index_col=0)
 
-    dataset = load_lyric_dataset(dataset_path, rows_to_remove)
+    dataset = load_lyric_dataset(dataset_path, MoodyLyric4Q_cleaned_splited)
 
     dataset = dataset.loc[dataset['language'] == "en"]
     en_dataset = dataset.loc[dataset['instrumental'] == False]
 
     return en_dataset
 
+def load_full_lyric_dataset(dataset_path, database_path):
+
+    MoodyLyric4Q_cleaned_splited = pd.read_csv(database_path, sep=',', index_col=0)
+
+    dataset = load_lyric_dataset(dataset_path, MoodyLyric4Q_cleaned_splited)
+
+    return dataset
 
 def clean_lyric(lyric, title):
 
@@ -324,9 +335,9 @@ def extract_all_features(df):
 
 if __name__ == '__main__':
     dataset_path = os.path.join('..', 'database', 'lyrics')
-    duplicate_path = os.path.join('database', 'removed_rows.json')
+    database_path = os.path.join('database', 'MoodyLyrics4Q_cleaned_split.csv')
 
-    en_dataset = load_en_dataset(dataset_path, duplicate_path)
+    en_dataset = load_en_dataset(dataset_path, database_path)
 
     start = time.time()
     features_df = extract_all_features(en_dataset)
