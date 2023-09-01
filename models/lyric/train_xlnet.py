@@ -37,20 +37,22 @@ def preprocess(dataset, remove_newline):
         dataset.at[index, 'lyric'] = lyric
         dataset.at[index, 'mood'] = target_dict[dataset.at[index, 'mood']]
 
-    dataset = dataset[['mood', 'lyric']]
+    dataset = dataset[['mood', 'lyric', 'split']]
 
-    labels = dataset['mood'].tolist()
-    lyrics = dataset['lyric'].tolist()
+    train_dataset = dataset[dataset['split'] == 'train']
+    test_dataset = dataset[dataset['split'] == 'test']
+    val_dataset = dataset[dataset['split'] == 'val']
 
-    return labels, lyrics
+    return train_dataset, test_dataset, val_dataset
 
 def load_dataset(dataset_path, database_path):
+
     en_dataset = load_en_dataset(dataset_path, database_path)
 
     remove_newline = True
-    labels, lyrics = preprocess(en_dataset, remove_newline) 
+    train_dataset, test_dataset, val_dataset = preprocess(en_dataset, remove_newline)
 
-    return np.array(labels), np.array(lyrics)
+    return train_dataset, test_dataset, val_dataset
 
 def tokenize_inputs(hyperparameters, lyrics, tokenizer):
 
@@ -86,11 +88,11 @@ def to_tensor(input_ids, attention_masks, labels):
     labels = torch.tensor(labels)
     return input_ids, attention_masks, labels
 
-def to_DataLoader(input_ids, attention_masks, labels, hyperparemeters):
+def to_DataLoader(input_ids, attention_masks, labels, hyperparameters):
     dataset = TensorDataset(input_ids, attention_masks, labels)
 
     dataloader = DataLoader(dataset, sampler=RandomSampler(dataset), 
-                            batch_size=hyperparemeters['model']['batch_size'])
+                            batch_size=hyperparameters['model']['batch_size'])
     
     return dataloader
 
@@ -141,35 +143,21 @@ def format_time(elapsed):
     elapsed_rounded = int(round((elapsed)))
     return str(datetime.timedelta(seconds=elapsed_rounded))
 
-def save_model(model, output_dir, epochs, lowest_eval_loss, train_loss_set, valid_loss_set):
+def save_model(model, output_dir):
     
     now = datetime.datetime.now()
-    file_name = now.strftime("%Y-%m-%d_%H-%M-%S") + f'_after_{epochs}_epoch' + '.pt'
+    file_name = "xlnet_" + now.strftime("%Y-%m-%d_%H-%M-%S") + ".pt"
     output_path = os.path.join(output_dir, file_name)
 
-    torch.save({
-        'model_state_dict': model.state_dict(),
-        'epochs': epochs,
-        'lowest_eval_loss': lowest_eval_loss,
-        'train_loss_set': train_loss_set,
-        'valid_loss_set': valid_loss_set
-    }, output_path)
-
+    torch.save(model.state_dict(), output_path)
     print(f'Model saved to {output_path}')
 
-
 def load_model(path_to_model):
-    checkpoint = torch.load(path_to_model)
-    model_state_dict = checkpoint['model_state_dict']
-    model = XLNetForMultiLabelSequenceClassification(num_labels=model_state_dict["classifier.weight"].size()[0])
-    model.load_state_dict(model_state_dict)
 
-    epochs = checkpoint['epochs']
-    lowest_eval_loss = checkpoint['lowest_eval_loss']
-    train_loss_set = checkpoint['train_loss_set']
-    valid_loss_set = checkpoint['valid_loss_set']
+    model = XLNetForMultiLabelSequenceClassification()
+    model.load_state_dict(torch.load(path_to_model))
 
-    return model, epochs, lowest_eval_loss, train_loss_set, valid_loss_set
+    return model
 
 def train(model, optimizer, train_dataloader, validation_dataloader, hyperparameters, train_loss_set = [], valid_loss_set = [],
           start_epoch = 0, lowest_eval_loss = None):
@@ -277,18 +265,16 @@ def train(model, optimizer, train_dataloader, validation_dataloader, hyperparame
         if lowest_eval_loss == None:
             lowest_eval_loss = epoch_eval_loss
             print(f'Best performance achived at epoch {actual_epoch} with validation loss of {lowest_eval_loss}')
-            # save_model(model, hyperparameters['model_save_path'],
-                    #    actual_epoch, lowest_eval_loss, train_loss_set, valid_loss_set)
         else:
             if epoch_eval_loss < lowest_eval_loss:
                 lowest_eval_loss = epoch_eval_loss
                 print(f'At epoch {actual_epoch} better performance was achived with validation loss of {lowest_eval_loss}')
-                # save_model(model, hyperparameters['model_save_path'],
-                        #    actual_epoch, lowest_eval_loss, train_loss_set, valid_loss_set)
     
     print("")
     print("Training complete!")
     print(f"Total training took {format_time(time.time()-total_t0)}")
+
+    save_model(model, hyperparameters['model_save_path'])
 
     return model, train_loss_set, valid_loss_set, training_stats
 
@@ -296,7 +282,7 @@ def test_model(model,test_dataloader):
     
     torch.cuda.empty_cache()
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
+    model.to(device)
     model.eval()
 
     y_pred = []
@@ -325,46 +311,44 @@ def test_model(model,test_dataloader):
     print("Classification Report:")
     print(classification_report(y_true, y_pred, target_names=TARGET_NAMES, digits=3))
 
-def simple_run(hyperparemeters):
+def simple_run(hyperparameters):
 
     dataset_path = os.path.join('..', 'database', 'lyrics')
     database_path = os.path.join('database', 'MoodyLyrics4Q_cleaned_split.csv')
 
-    labels, lyrics = load_dataset(dataset_path, database_path)
+    train_dataset, test_dataset, val_dataset = load_dataset(dataset_path, database_path)
 
     tokienizer = XLNetTokenizer.from_pretrained('xlnet-base-cased', do_lower_case = hyperparameters['tokenizer']['do_lower_case'])
 
-    input_ids = tokenize_inputs(hyperparemeters, lyrics, tokienizer)
-    attention_masks = create_attention_masks(input_ids)
-    
-    train_input_ids, test_input_ids, train_attention_masks, test_attention_masks, train_labels, test_labels = train_test_split(input_ids, 
-                                                                                                                               attention_masks,
-                                                                                                                               labels, 
-                                                                                                                               random_state=SEED, test_size=0.3)
+    train_labels = np.array(train_dataset['mood'].tolist())
+    train_input_ids = tokenize_inputs(hyperparameters, train_dataset['lyric'].tolist(), tokienizer)
+    train_attention_masks  = create_attention_masks(train_input_ids)
 
+    test_labels = np.array(test_dataset['mood'].tolist())
+    test_input_ids = tokenize_inputs(hyperparameters, test_dataset['lyric'].tolist(), tokienizer)
+    test_attention_masks  = create_attention_masks(test_input_ids)
 
-    test_input_ids, val_input_ids, test_attention_masks, val_attention_masks, test_labels, val_labels = train_test_split(test_input_ids, 
-                                                                                                                         test_attention_masks,
-                                                                                                                         test_labels, 
-                                                                                                                         random_state=SEED, test_size=0.5)
+    val_labels = np.array(val_dataset['mood'].tolist())
+    val_input_ids = tokenize_inputs(hyperparameters, val_dataset['lyric'].tolist(), tokienizer)
+    val_attention_masks  = create_attention_masks(val_input_ids)
 
     train_input_ids, train_attention_masks, train_labels = to_tensor(train_input_ids, train_attention_masks, train_labels)
     val_input_ids, val_attention_masks, val_labels = to_tensor(val_input_ids, val_attention_masks, val_labels)
     test_input_ids, test_attention_masks, test_labels = to_tensor(test_input_ids, test_attention_masks, test_labels)
+   
+    train_dataloader = to_DataLoader(train_input_ids, train_attention_masks, train_labels, hyperparameters)
+    val_dataloader = to_DataLoader(val_input_ids, val_attention_masks, val_labels, hyperparameters)
+    test_dataloader = to_DataLoader(test_input_ids, test_attention_masks, test_labels, hyperparameters)
 
-    train_dataloader = to_DataLoader(train_input_ids, train_attention_masks, train_labels, hyperparemeters)
-    val_dataloader = to_DataLoader(val_input_ids, val_attention_masks, val_labels, hyperparemeters)
-    test_dataloader = to_DataLoader(test_input_ids, test_attention_masks, test_labels, hyperparemeters)
-
-    model = XLNetForMultiLabelSequenceClassification(num_labels=hyperparemeters['model']['num_labels'])
+    model = XLNetForMultiLabelSequenceClassification(num_labels=hyperparameters['model']['num_labels'])
 
     optimizer = AdamW(model.parameters(), 
-                      lr=hyperparemeters['model']['lr'], 
+                      lr=hyperparameters['model']['lr'], 
                       weight_decay=hyperparameters['model']['weight_decay'],
                       correct_bias=hyperparameters['model']['correct_bias'], 
                       )
     
-    model, train_loss_set, valid_loss_set, training_stats = train(model, optimizer, train_dataloader, val_dataloader, hyperparemeters)
+    model, train_loss_set, valid_loss_set, training_stats = train(model, optimizer, train_dataloader, val_dataloader, hyperparameters)
 
     df_stats = pd.DataFrame(data=training_stats)
     df_stats = df_stats.set_index('epoch')
@@ -389,16 +373,16 @@ if __name__ == '__main__':
 
         hyperparameters = {
                             'tokenizer':{
-                                'do_lower_case': True,
-                                'num_embeddings': 256,
+                                'do_lower_case': False,
+                                'num_embeddings': 128,
                             },
                             'model':{
                                 'num_labels': 4,
-                                'batch_size': 1024,
-                                'lr': 5e-6,
+                                'batch_size': 16, #sould be 32
+                                'lr': 2e-5,
                                 'weight_decay': 0.01,
                                 'correct_bias': False,
-                                'epochs': 1,
+                                'epochs': 4,
                             },
                             'model_save_path': model_save_folder
                         }
@@ -418,38 +402,26 @@ if __name__ == '__main__':
                             }
                             }
         
-        path_to_model = os.path.join('models', 'lyric', 'xlnet', '2023-06-07_20-05-40.pt')
+        path_to_model = os.path.join('models', 'lyric', 'xlnet', 'xlnet_2023-09-01_17-00-16.pt')
 
-        model, _, _, _, _ = load_model(path_to_model)
+        model = load_model(path_to_model)
         
-
         dataset_path = os.path.join('..', 'database', 'lyrics')
-        duplicated_path = os.path.join('database', 'removed_rows.json') 
+        database_path = os.path.join('database', 'MoodyLyrics4Q_cleaned_split.csv')
 
-        labels, lyrics = load_dataset(dataset_path, duplicated_path)
+        _, test_dataset, _ = load_dataset(dataset_path, database_path)
 
         tokienizer = XLNetTokenizer.from_pretrained('xlnet-base-cased', do_lower_case = hyperparameters['tokenizer']['do_lower_case'])
 
-        input_ids = tokenize_inputs(hyperparameters, lyrics, tokienizer)
-        attention_masks = create_attention_masks(input_ids)
+        test_labels = np.array(test_dataset['mood'].tolist())
+        test_input_ids = tokenize_inputs(hyperparameters, test_dataset['lyric'].tolist(), tokienizer)
+        test_attention_masks  = create_attention_masks(test_input_ids)
 
-
-        _, test_input_ids, _, test_attention_masks, _, test_labels = train_test_split(input_ids, 
-                                                                                        attention_masks,
-                                                                                        labels, 
-                                                                                        random_state=SEED, test_size=0.3)
-    
-
-        test_input_ids, _, test_attention_masks, _, test_labels, _ = train_test_split(test_input_ids, 
-                                                                                        test_attention_masks,
-                                                                                        test_labels, 
-                                                                                        random_state=SEED, test_size=0.5)
-        
         test_input_ids, test_attention_masks, test_labels = to_tensor(test_input_ids, test_attention_masks, test_labels)
-
+    
         test_dataloader = to_DataLoader(test_input_ids, test_attention_masks, test_labels, hyperparameters)
 
-        test_model(model, test_dataloader, hyperparameters)    
+        test_model(model,test_dataloader)
     
     elif args.grid_search:
 
@@ -486,5 +458,6 @@ if __name__ == '__main__':
 
                     print('***************************************************\n\n')
                     
-           
-    
+    else:
+        print('No arguments passed. Use --fine_tune to train model, --test_model to test model or --grid_search to perform grid search')  
+        exit(1)
