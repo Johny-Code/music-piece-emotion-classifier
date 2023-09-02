@@ -27,10 +27,7 @@ class CustomSpectrogramSortedDataset(Dataset):
                 label = self.target_dict[class_name]
                 sorted_samples.append((class_name, file_path, label))
         
-        # Sort the list of tuples by class names
-        sorted_samples.sort(key=lambda x: x[0])
-        
-        # Extract the sorted samples into self.samples
+        sorted_samples.sort(key=lambda x: x[1].split('/')[-1][:-4])
         self.samples = [(file_path, label) for _, file_path, label in sorted_samples]
 
     def __len__(self):
@@ -50,11 +47,9 @@ class CustomSpectrogramSortedDataset(Dataset):
     
 
 if __name__ == "__main__":
-    root_dir = "../../../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_96_mel_jpg_proper_gray/train"
+    root_dir = "../../../../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_96_mel_jpg_proper_gray/train"
     transform = ToTensor()
     
-    dataset = CustomSpectrogramDataset(root_dir, transform=transform)
-    # print("Dataset length:", len(dataset))
-    # sample, label = dataset[1]
-    # print("Sample shape:", sample.shape)
-    print("Paths:", dataset.get_sample_and_path(1))
+    dataset = CustomSpectrogramSortedDataset(root_dir, transform=transform)
+    
+    print("Paths:", dataset.get_sample_and_path(2))

@@ -140,16 +140,13 @@ if __name__ == "__main__":
     lyrics_dataset_path = "../database/lyrics"
     lyrics_model_path = "./lyric/xlnet/xlnet_2023-09-02_15-42-29.pt"
     
-    name = "to_be_defined"
+    name = "join_classification_soft_voting_2"
     label_names = ["happy", "angry", "sad", "relaxed"]
     IM_WIDTH = 1292
     IM_HEIGHT = 128
     
     #this dict contains name of tested musical piece e.g. ML391 with list of lists predicted values and true values 
-    #e.g. [[0.23232, 0.32131, 0.32131, 0.2121], [0., 0., 0., 1.]]
     #example record: 'ML792': [[0.15000547468662262, 1.1985995769500732, 0.8381218314170837, -3.4543306827545166], [0.0, 0.0, 0.0, 1.0]]}
-    #with the soft voting method it will be sufficient to add values predicted by me and you and take the highest one
-    #as the final model's prediction
     audio_piece_dict = validate_audio_model(model_path=audio_model_path, dataset_path=audio_dataset_path, img_width=IM_WIDTH, 
                    img_height=IM_HEIGHT, label_names=label_names, metrics_file=f"{name}.txt", 
                    confusion_matrix_prefix=name)
@@ -185,4 +182,13 @@ if __name__ == "__main__":
     assert(len(list_of_true_indexes) == len(list_of_predicted_indexes)), "Error Message: Dicts length are different"
     
     cfm = confusion_matrix(list_of_true_indexes, list_of_predicted_indexes)
-    print(cfm)
+    
+    os.makedirs("./confusion_matrices", exist_ok=True)
+    draw_confusion_matrix(cfm, label_names, "confusion_matrices/", filename_prefix=name)
+
+    os.makedirs("./metrics", exist_ok=True)
+    with open(os.path.join("metrics/", name),'w') as file:
+        with redirect_stdout(file):
+            print(classification_report(list_of_true_indexes, list_of_predicted_indexes, target_names=label_names, digits=4))
+    
+    print(classification_report(list_of_true_indexes, list_of_predicted_indexes, target_names=label_names, digits=4))

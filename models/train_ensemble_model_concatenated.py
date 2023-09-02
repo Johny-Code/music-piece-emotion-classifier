@@ -13,6 +13,7 @@ from torchvision.transforms import ToTensor
 from draw_plot import plot_acc_loss_torch
 from CustomSpectrogramSortedDataset import CustomSpectrogramSortedDataset
 from CustomLyricSortedTensorDataset import CustomLyricSortedTensorDataset
+from CustomXLNetForMultiLabelSequenceClassification import CustomXLNetForMultiLabelSequenceClassification
 from train_sarkar_torch import SarkarVGGCustomizedArchitecture
 from EnsembleModel import EnsembleModel
 from torchsummary import summary
@@ -31,12 +32,22 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     #define models
     model_audio = SarkarVGGCustomizedArchitecture(nb_classes, channels).to(device)
     model_audio.load_state_dict(torch.load("./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"))
-
-    #to be corrected
     model_lyrics = load_model("./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt")
     
+    custom_xlnet_model = CustomXLNetForMultiLabelSequenceClassification()
+    pretrained_model_state_dict = torch.load("./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt")
+
+    # Copy the weights from the pre-trained model's state_dict() to the custom model
+    custom_model_state_dict = custom_xlnet_model.state_dict()
+    for name, param in pretrained_model_state_dict.items():
+        if name in custom_model_state_dict and param.shape == custom_model_state_dict[name].shape:
+            custom_model_state_dict[name].copy_(param)
+
+    # Set the state_dict() of the custom model to the modified one
+    custom_xlnet_model.load_state_dict(custom_model_state_dict)
+        
     #load ensemble model
-    ensembleModel = EnsembleModel(model_audio, model_lyrics, nb_classes).to(device)
+    ensembleModel = EnsembleModel(model_audio, custom_xlnet_model, nb_classes).to(device)
     optimizer = optim.AdamW(ensembleModel.parameters(), lr=learning_rate, amsgrad=False)#, weight_decay=l2_lambda)
     criterion = nn.CrossEntropyLoss()
     
@@ -48,7 +59,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     #load audio models
     audio_train_dataset = CustomSpectrogramSortedDataset(os.path.join(path, "train"), transform=transform)
     audio_val_dataset = CustomSpectrogramSortedDataset(os.path.join(path, "val"), transform=transform)
-    audio_train_loader = DataLoader(audio_train_dataset, batch_size=batch_size, shuffle=True)
+    audio_train_loader = DataLoader(audio_train_dataset, batch_size=batch_size, shuffle=False)
     audio_val_loader = DataLoader(audio_val_dataset, batch_size=batch_size, shuffle=False)
     
     #load lyrics models
@@ -78,23 +89,23 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     lyric_val_loader = DataLoader(lyric_val_dataset, sampler=SequentialSampler(lyric_val_dataset), 
                             batch_size=hyperparameters['model']['batch_size'])
     
-    # summary(ensembleModel) #, input_size=(CHANNELS, img_height, img_width))
+    summary(ensembleModel) #, input_size=(CHANNELS, img_height, img_width))
     
     for epoch in range(epochs):
         ensembleModel.train()
         train_loss = 0.0
         
-        for (inputs_audio, labels_audio), (inputs_lyrics, labels_lyrics) in zip(audio_train_loader, lyric_train_loader):
+        for (inputs_audio, labels_audio), (batch_audio, labels_lyrics) in zip(audio_train_loader, lyric_train_loader):
             inputs_audio = inputs_audio.to(device)
-            # inputs_lyrics = inputs_lyrics.to(device)
             labels_audio = torch.argmax(labels_audio, dim=1).to(device)
             # labels_lyrics = torch.argmax(labels_lyrics, dim=1).to(device)  # Convert to class indices from one hot encoding if needed
             
-            print("LABELS AUDIO: ", labels_audio)
-            print("LABELS LYRICS: ", labels_lyrics)
+            batch = tuple(t.to(device) for t in batch_audio)
+            b_input_ids, b_input_mask, b_labels = batch
 
             optimizer.zero_grad()
-            outputs = ensembleModel(inputs_audio, inputs_lyrics)
+            outputs = ensembleModel(inputs_audio, input_ids=b_input_ids, attention_mask=b_input_mask, labels=b_labels)
+                        
             loss = criterion(outputs, labels_audio) #for example audio, it really shouldnt matter
             loss.backward()
             optimizer.step()
