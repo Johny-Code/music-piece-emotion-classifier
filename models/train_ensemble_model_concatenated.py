@@ -1,18 +1,23 @@
 import os
 import torch
 import torch.nn as nn
+import numpy as np
 import torch.optim as optim
 import sys
-sys.path += ["../utils/", "./audio/implementation", "./audio"]
+sys.path += ["../utils/", "./audio/implementation", "./audio/implementation/dataset", "./audio", "./lyric",
+             "./lyric/implementation", "./lyric/implementation/dataset", "./../tools/"]
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, SequentialSampler
 from torchvision.transforms import ToTensor
 from draw_plot import plot_acc_loss_torch
 from CustomSpectrogramSortedDataset import CustomSpectrogramSortedDataset
+from CustomLyricSortedTensorDataset import CustomLyricSortedTensorDataset
 from train_sarkar_torch import SarkarVGGCustomizedArchitecture
 from EnsembleModel import EnsembleModel
 from torchsummary import summary
+from train_xlnet import load_model, load_dataset, tokenize_inputs, create_attention_masks, to_tensor
+from transformers import XLNetTokenizer, XLNetModel, AdamW
 
 
 def save_checkpoint(model, path, current_accuracy, epoch):
@@ -20,7 +25,7 @@ def save_checkpoint(model, path, current_accuracy, epoch):
         torch.save(model.state_dict(), os.path.join(path, f"joint_{current_accuracy}_{epoch}.pth"))
 
 
-def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height, img_width):
+def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height, img_width, hyperparameters):
     NUM_CLASSES = 4
     CHANNELS = 1
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -30,8 +35,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     model_audio.load_state_dict(torch.load("./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"))
 
     #to be corrected
-    model_lyrics = SarkarVGGCustomizedArchitecture(NUM_CLASSES, CHANNELS).to(device)
-    model_lyrics.load_state_dict(torch.load("./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"))
+    model_lyrics = load_model("./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt")
     
     #load ensemble model
     ensembleModel = EnsembleModel(model_audio, model_lyrics, NUM_CLASSES).to(device)
@@ -44,16 +48,37 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         
     transform = ToTensor()
     #load audio models
-    train_audio_dataset = CustomSpectrogramSortedDataset(os.path.join(path, "train"), transform=transform)
-    val_audio_dataset = CustomSpectrogramSortedDataset(os.path.join(path, "val"), transform=transform)
-    train_audio_loader = DataLoader(train_audio_dataset, batch_size=batch_size, shuffle=True)
-    val_audio_loader = DataLoader(val_audio_dataset, batch_size=batch_size, shuffle=False)
+    audio_train_dataset = CustomSpectrogramSortedDataset(os.path.join(path, "train"), transform=transform)
+    audio_val_dataset = CustomSpectrogramSortedDataset(os.path.join(path, "val"), transform=transform)
+    audio_train_loader = DataLoader(audio_train_dataset, batch_size=batch_size, shuffle=True)
+    audio_val_loader = DataLoader(audio_val_dataset, batch_size=batch_size, shuffle=False)
     
     #load lyrics models
-    train_lyrics_dataset = CustomSpectrogramSortedDataset(os.path.join(path, "train"), transform=transform)
-    val_lryics_dataset = CustomSpectrogramSortedDataset(os.path.join(path, "val"), transform=transform)
-    train_lyrics_loader = DataLoader(train_audio_dataset, batch_size=batch_size, shuffle=True)
-    val_lyrics_loader = DataLoader(val_audio_dataset, batch_size=batch_size, shuffle=False)
+    database_path = "../database/MoodyLyrics4Q_cleaned_split.csv"
+    dataset_path = "../database/lyrics"
+    train_dataset, _, val_dataset = load_dataset(dataset_path, database_path)
+    tokienizer = XLNetTokenizer.from_pretrained('xlnet-base-cased', do_lower_case = hyperparameters['tokenizer']['do_lower_case'])
+    
+    train_labels = np.array(train_dataset['mood'].tolist())    
+    train_input_ids = tokenize_inputs(hyperparameters, train_dataset['lyric'].tolist(), tokienizer)
+    train_attention_masks  = create_attention_masks(train_input_ids)
+
+    val_labels = np.array(val_dataset['mood'].tolist())
+    val_input_ids = tokenize_inputs(hyperparameters, val_dataset['lyric'].tolist(), tokienizer)
+    val_attention_masks  = create_attention_masks(val_input_ids)
+
+    train_input_ids, train_attention_masks, train_labels = to_tensor(train_input_ids, train_attention_masks, train_labels)
+    val_input_ids, val_attention_masks, val_labels = to_tensor(val_input_ids, val_attention_masks, val_labels)
+    
+    lyric_train_dataset = CustomLyricSortedTensorDataset(train_input_ids, train_attention_masks, train_labels,
+                                                         labels_names=train_dataset['mood'].index.values.tolist())
+    lyric_val_dataset = CustomLyricSortedTensorDataset(val_input_ids, val_attention_masks, val_labels,
+                                                       labels_names=val_dataset['mood'].index.values.tolist())
+    
+    lyric_train_loader = DataLoader(lyric_train_dataset, sampler=SequentialSampler(lyric_train_dataset), 
+                            batch_size=hyperparameters['model']['batch_size'])
+    lyric_val_loader = DataLoader(lyric_val_dataset, sampler=SequentialSampler(lyric_val_dataset), 
+                            batch_size=hyperparameters['model']['batch_size'])
     
     # summary(ensembleModel) #, input_size=(CHANNELS, img_height, img_width))
     
@@ -61,11 +86,14 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         ensembleModel.train()
         train_loss = 0.0
         
-        for (inputs_audio, labels_audio), (inputs_lyrics, labels_lyrics) in zip(train_audio_loader, train_lyrics_loader):
+        for (inputs_audio, labels_audio), (inputs_lyrics, labels_lyrics) in zip(audio_train_loader, lyric_train_loader):
             inputs_audio = inputs_audio.to(device)
-            inputs_lyrics = inputs_lyrics.to(device)
+            # inputs_lyrics = inputs_lyrics.to(device)
             labels_audio = torch.argmax(labels_audio, dim=1).to(device)
-            labels_lyrics = torch.argmax(labels_lyrics, dim=1).to(device)  # Convert to class indices from one hot encoding if needed
+            # labels_lyrics = torch.argmax(labels_lyrics, dim=1).to(device)  # Convert to class indices from one hot encoding if needed
+            
+            print("LABELS AUDIO: ", labels_audio)
+            print("LABELS LYRICS: ", labels_lyrics)
 
             optimizer.zero_grad()
             outputs = ensembleModel(inputs_audio, inputs_lyrics)
@@ -116,7 +144,17 @@ if __name__ == "__main__":
     LEARNING_RATE = 1e-5
     IM_WIDTH = 1292
     IM_HEIGHT = 128
+    HYPERPARAMETERS = {
+                            'tokenizer':{
+                                'do_lower_case': True,
+                                'num_embeddings': 128,
+                            },
+                            'model':{
+                                'num_labels': 4,
+                                'batch_size': 1,
+                            }
+                        }
     
     train_network(path=path, batch_size=BATCH_SIZE, learning_rate=LEARNING_RATE, l2_lambda=L2_LAMBDA, 
-                  epochs=NUM_EPOCHS, img_width=IM_WIDTH, img_height=IM_HEIGHT)
+                  epochs=NUM_EPOCHS, img_width=IM_WIDTH, img_height=IM_HEIGHT, hyperparameters=HYPERPARAMETERS)
     
