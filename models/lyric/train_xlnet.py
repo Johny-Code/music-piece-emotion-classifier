@@ -304,11 +304,11 @@ if __name__ == '__main__':
         hyperparameters = {
                             'tokenizer':{
                                 'do_lower_case': False,
-                                'num_embeddings': 128,
+                                'num_embeddings': 256,
                             },
                             'model':{
                                 'num_labels': 4,
-                                'batch_size': 16, #sould be 32
+                                'batch_size': 64, #sould be 32
                                 'lr': 2e-5,
                                 'weight_decay': 0.01,
                                 'correct_bias': False,
@@ -321,7 +321,7 @@ if __name__ == '__main__':
     elif args.test_model:
         hyperparameters = {
                             'tokenizer':{
-                                'do_lower_case': True,
+                                'do_lower_case': False,
                                 'num_embeddings': 128,
                             },
                             'model':{
