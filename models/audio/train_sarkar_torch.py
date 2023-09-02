@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import sys
-sys.path += ["../../utils/", "./implementation"]
+sys.path += ["../../utils/", "./implementation", "./implementation/dataset"]
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 from torch.utils.data import DataLoader
@@ -95,7 +95,7 @@ class SarkarVGGCustomizedArchitecture(nn.Module):
     
 
 def save_checkpoint(model, path, current_accuracy, epoch):
-    if current_accuracy > 56.: 
+    if current_accuracy > 58.: 
         torch.save(model.state_dict(), os.path.join(path, f"sarkar_{current_accuracy}_{epoch}.pth"))
 
 
@@ -105,7 +105,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     model = SarkarVGGCustomizedArchitecture(NUM_CLASSES, CHANNELS).to(device)
-    optimizer = optim.AdamW(model.parameters())#lr=learning_rate, amsgrad=False)#, weight_decay=l2_lambda)
+    optimizer = optim.AdamW(model.parameters(), lr=learning_rate, amsgrad=True, weight_decay=l2_lambda)
     criterion = nn.CrossEntropyLoss()
     val_accuracy_history = []
     val_loss_history = []
@@ -158,18 +158,18 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         print(f"Epoch [{epoch+1}/{epochs}] - Train Loss: {train_loss / len(train_loader.dataset):.4f} - "
               f"Val Loss: {val_loss / len(val_loader.dataset):.4f} - Val Acc: {val_accuracy:.2f}%")
 
-        checkpoint_path = "./trained_models/torch/checkpoints8/"
+        checkpoint_path = "./trained_models/torch/checkpoints11/"
         os.makedirs(checkpoint_path, exist_ok=True)
         save_checkpoint(model, checkpoint_path, val_accuracy, epoch+1)
         
-    model_path = f"./trained_models/torch/sarkar_approach8_{path[-42:]}_{epochs}_{val_accuracy:.2f}.pth"
+    model_path = f"./trained_models/torch/sarkar_approach11_{path[-42:]}_{epochs}_{val_accuracy:.2f}.pth"
     torch.save(model.state_dict(), model_path)
-    plot_acc_loss_torch(val_accuracy_history, val_loss_history, "./histories/torch/history_500_AdamW_approach8")
+    plot_acc_loss_torch(val_accuracy_history, val_loss_history, "./histories/torch/history_500_AdamW_approach11")
     
     
 if __name__ == "__main__":
     path = "../../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray" 
-    NUM_EPOCHS = 500
+    NUM_EPOCHS = 750
     BATCH_SIZE = 16
     L2_LAMBDA = 1e-3
     LEARNING_RATE = 1e-5

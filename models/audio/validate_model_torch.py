@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import numpy as np
-sys.path += ["../../utils/", "./implementation"]
+sys.path += ["../../utils/", "./implementation", "implementation/dataset"]
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 from torchsummary import summary
@@ -71,8 +71,8 @@ def validate_model(model_path, dataset_path, img_height, img_width, label_names,
     
 if __name__ == "__main__":
     dataset_path = "../../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray"
-    model_path = "./trained_models/torch/checkpoints7/sarkar_56.86_473.pth"
-    name = "torch_checkpoint7_copy9"
+    model_path = "./trained_models/torch/checkpoints11/sarkar_58.19_248.pth"
+    name = "torch_checkpoint11_copy6"
     label_names = ["happy", "angry", "sad", "relaxed"]
     IM_WIDTH = 1292
     IM_HEIGHT = 128
