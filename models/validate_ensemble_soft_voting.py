@@ -138,7 +138,7 @@ if __name__ == "__main__":
     audio_dataset_path = "../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray"
     audio_model_path = "./audio/trained_models/torch/checkpoints10/sarkar_59.20_317.pth"
     lyrics_dataset_path = "../database/lyrics"
-    lyrics_model_path = "./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt"
+    lyrics_model_path = "./lyric/xlnet/xlnet_2023-09-02_15-42-29.pt"
     
     name = "to_be_defined"
     label_names = ["happy", "angry", "sad", "relaxed"]
