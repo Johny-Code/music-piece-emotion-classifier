@@ -89,7 +89,7 @@ def to_tensor(input_ids, attention_masks, labels):
     return input_ids, attention_masks, labels
 
 def to_DataLoader(input_ids, attention_masks, labels, hyperparameters):
-    dataset = TensorDataset(input_ids, attention_masks, labels)
+    dataset = TensorDataset(input_ids, attention_masks, labels, )
 
     dataloader = DataLoader(dataset, sampler=RandomSampler(dataset), 
                             batch_size=hyperparameters['model']['batch_size'])
@@ -374,11 +374,11 @@ if __name__ == '__main__':
         hyperparameters = {
                             'tokenizer':{
                                 'do_lower_case': False,
-                                'num_embeddings': 128,
+                                'num_embeddings': 256,
                             },
                             'model':{
                                 'num_labels': 4,
-                                'batch_size': 16, #sould be 32
+                                'batch_size': 32,
                                 'lr': 2e-5,
                                 'weight_decay': 0.01,
                                 'correct_bias': False,
