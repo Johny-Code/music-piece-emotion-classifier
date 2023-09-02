@@ -6,7 +6,7 @@ from torch.utils.data import Dataset
 from torchvision.transforms import ToTensor
 
 
-class CustomSpectrogramDataset(Dataset):
+class CustomSpectrogramSortedDataset(Dataset):
     def __init__(self, root_dir, transform=None):
         self.root_dir = root_dir
         self.classes = os.listdir(root_dir)
@@ -19,12 +19,19 @@ class CustomSpectrogramDataset(Dataset):
                             'sad': [0., 0., 1., 0.],
                             'relaxed': [0., 0., 0., 1.]}
 
+        sorted_samples = []
         for class_name in self.classes:
             class_dir = os.path.join(root_dir, class_name)
             for file_name in os.listdir(class_dir):
                 file_path = os.path.join(class_dir, file_name)
                 label = self.target_dict[class_name]
-                self.samples.append((file_path, label))
+                sorted_samples.append((class_name, file_path, label))
+        
+        # Sort the list of tuples by class names
+        sorted_samples.sort(key=lambda x: x[0])
+        
+        # Extract the sorted samples into self.samples
+        self.samples = [(file_path, label) for _, file_path, label in sorted_samples]
 
     def __len__(self):
         return len(self.samples)
@@ -43,11 +50,11 @@ class CustomSpectrogramDataset(Dataset):
     
 
 if __name__ == "__main__":
-    root_dir = "../../../database/melgrams/gray/different-params/melgrams_2048_nfft_2048_hop_128_mel_jpg_proper_gray/train"
+    root_dir = "../../../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_96_mel_jpg_proper_gray/train"
     transform = ToTensor()
     
     dataset = CustomSpectrogramDataset(root_dir, transform=transform)
-    print("Dataset length:", len(dataset))
-    sample, label = dataset[500]
-    print("Sample shape:", sample.shape)
-    print("Paths:", dataset.get_sample_and_path(500))
+    # print("Dataset length:", len(dataset))
+    # sample, label = dataset[1]
+    # print("Sample shape:", sample.shape)
+    print("Paths:", dataset.get_sample_and_path(1))

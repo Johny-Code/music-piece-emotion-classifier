@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import numpy as np
-sys.path += ["../../utils/", "./implementation"]
+sys.path += ["../../utils/", "./implementation", "implementation/dataset"]
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 from torchsummary import summary
@@ -59,10 +59,10 @@ def validate_model(model_path, dataset_path, img_height, img_width, label_names,
 
     cfm = confusion_matrix(flattened_true, flattened_predicted)
     draw_confusion_matrix(cfm, label_names, "confusion_matrices/torch/", 
-                          filename_prefix=f"{confusion_matrix_prefix}_{test_accuracy:.2f}")
+                          filename_prefix=f"{confusion_matrix_prefix}_{model_path[-13:-8]}_{test_accuracy:.2f}")
 
     os.makedirs("./metrics", exist_ok=True)
-    with open(os.path.join("metrics/torch", metrics_file + f"_{test_accuracy:.2f}"),'w') as file:
+    with open(os.path.join("metrics/torch", metrics_file + f"_{model_path[-13:-8]}_{test_accuracy:.2f}"),'w') as file:
         with redirect_stdout(file):
             print(classification_report(flattened_true, flattened_predicted, target_names=label_names, digits=4))
     
@@ -71,8 +71,8 @@ def validate_model(model_path, dataset_path, img_height, img_width, label_names,
     
 if __name__ == "__main__":
     dataset_path = "../../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray"
-    model_path = "./trained_models/torch/checkpoints2/sarkar_56.86_581.pth"
-    name = "torch_checkpoint2_copy11"
+    model_path = "./trained_models/torch/checkpoints11/sarkar_58.19_248.pth"
+    name = "torch_checkpoint11_copy6"
     label_names = ["happy", "angry", "sad", "relaxed"]
     IM_WIDTH = 1292
     IM_HEIGHT = 128
