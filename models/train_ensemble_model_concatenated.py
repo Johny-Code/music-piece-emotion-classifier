@@ -25,20 +25,18 @@ def save_checkpoint(model, path, current_accuracy, epoch):
         torch.save(model.state_dict(), os.path.join(path, f"joint_{current_accuracy}_{epoch}.pth"))
 
 
-def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height, img_width, hyperparameters):
-    NUM_CLASSES = 4
-    CHANNELS = 1
+def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height, img_width, hyperparameters, nb_classes, channels):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     #define models
-    model_audio = SarkarVGGCustomizedArchitecture(NUM_CLASSES, CHANNELS).to(device)
+    model_audio = SarkarVGGCustomizedArchitecture(nb_classes, channels).to(device)
     model_audio.load_state_dict(torch.load("./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"))
 
     #to be corrected
     model_lyrics = load_model("./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt")
     
     #load ensemble model
-    ensembleModel = EnsembleModel(model_audio, model_lyrics, NUM_CLASSES).to(device)
+    ensembleModel = EnsembleModel(model_audio, model_lyrics, nb_classes).to(device)
     optimizer = optim.AdamW(ensembleModel.parameters(), lr=learning_rate, amsgrad=False)#, weight_decay=l2_lambda)
     criterion = nn.CrossEntropyLoss()
     
@@ -142,19 +140,23 @@ if __name__ == "__main__":
     BATCH_SIZE = 16
     L2_LAMBDA = 1e-3
     LEARNING_RATE = 1e-5
+    NUM_EMBEDDINGS = 128
     IM_WIDTH = 1292
     IM_HEIGHT = 128
+    CHANNELS = 1
+    NB_CLASSES = 4
     HYPERPARAMETERS = {
                             'tokenizer':{
                                 'do_lower_case': True,
-                                'num_embeddings': 128,
+                                'num_embeddings': NUM_EMBEDDINGS,
                             },
                             'model':{
-                                'num_labels': 4,
-                                'batch_size': 1,
+                                'num_labels': NB_CLASSES,
+                                'batch_size': BATCH_SIZE,
                             }
                         }
     
     train_network(path=path, batch_size=BATCH_SIZE, learning_rate=LEARNING_RATE, l2_lambda=L2_LAMBDA, 
-                  epochs=NUM_EPOCHS, img_width=IM_WIDTH, img_height=IM_HEIGHT, hyperparameters=HYPERPARAMETERS)
+                  epochs=NUM_EPOCHS, img_width=IM_WIDTH, img_height=IM_HEIGHT, hyperparameters=HYPERPARAMETERS,
+                  nb_classes=NB_CLASSES, channels=CHANNELS)
     
