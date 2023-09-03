@@ -47,7 +47,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     custom_xlnet_model.load_state_dict(custom_model_state_dict)
         
     #load ensemble model
-    ensembleModel = EnsembleModel(model_audio, custom_xlnet_model, nb_classes).to(device)
+    ensembleModel = EnsembleModel(model_audio, custom_xlnet_model, nb_classes, BATCH_SIZE).to(device)
     optimizer = optim.AdamW(ensembleModel.parameters(), lr=learning_rate, amsgrad=False)#, weight_decay=l2_lambda)
     criterion = nn.CrossEntropyLoss()
     
@@ -109,6 +109,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
             loss = criterion(outputs, labels_audio) #for example audio, it really shouldnt matter
             loss.backward()
             optimizer.step()
+                        
             train_loss += loss.item() * inputs_audio.size(0)
         
         ensembleModel.eval()
@@ -117,24 +118,28 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         correct = 0
         total = 0
         
-    #     with torch.no_grad():
-    #         for inputs, labels in val_loader:
-    #             inputs = inputs.to(device)
-    #             labels = torch.argmax(labels, dim=1).to(device)
+        
+        with torch.no_grad():         
+            for (inputs_audio, labels_audio), (batch_audio, labels_lyrics) in zip(audio_val_loader, lyric_val_loader):
+                inputs_audio = inputs_audio.to(device)
+                labels_audio = torch.argmax(labels_audio, dim=1).to(device)
                 
-    #             outputs = model(inputs)
-    #             loss = criterion(outputs, labels)
-    #             val_loss += loss.item() * inputs.size(0)
-    #             _, predicted = outputs.max(1)
-    #             total += labels.size(0)
-    #             correct += predicted.eq(labels).sum().item()
+                batch = tuple(t.to(device) for t in batch_audio)
+                b_input_ids, b_input_mask, b_labels = batch
+
+                outputs = ensembleModel(inputs_audio, input_ids=b_input_ids, attention_mask=b_input_mask, labels=b_labels)
+                loss = criterion(outputs, labels_audio) #for example audio, it really shouldnt matter
+                val_loss += loss.item() * inputs_audio.size(0)
+                _, predicted = outputs.max(1)
+                total += labels_audio.size(0)
+                correct += predicted.eq(labels_audio).sum().item()            
         
-    #     val_accuracy = 100 * correct / total
-    #     val_loss_history.append(val_loss)
-    #     val_accuracy_history.append(val_accuracy)
+        val_accuracy = 100 * correct / total
+        val_loss_history.append(val_loss)
+        val_accuracy_history.append(val_accuracy)
         
-    #     print(f"Epoch [{epoch+1}/{epochs}] - Train Loss: {train_loss / len(train_loader.dataset):.4f} - "
-    #           f"Val Loss: {val_loss / len(val_loader.dataset):.4f} - Val Acc: {val_accuracy:.2f}%")
+        print(f"Epoch [{epoch+1}/{epochs}] - Train Loss: {train_loss / len(audio_train_loader.dataset):.4f} - "
+              f"Val Loss: {val_loss / len(audio_train_loader.dataset):.4f} - Val Acc: {val_accuracy:.2f}%")
 
     #     checkpoint_path = "./trained_models/torch/checkpoints3/"
     #     os.makedirs(checkpoint_path, exist_ok=True)
@@ -147,7 +152,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     
 if __name__ == "__main__":
     path = "../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray" 
-    NUM_EPOCHS = 500
+    NUM_EPOCHS = 50
     BATCH_SIZE = 16
     L2_LAMBDA = 1e-3
     LEARNING_RATE = 1e-5
@@ -170,4 +175,24 @@ if __name__ == "__main__":
     train_network(path=path, batch_size=BATCH_SIZE, learning_rate=LEARNING_RATE, l2_lambda=L2_LAMBDA, 
                   epochs=NUM_EPOCHS, img_width=IM_WIDTH, img_height=IM_HEIGHT, hyperparameters=HYPERPARAMETERS,
                   nb_classes=NB_CLASSES, channels=CHANNELS)
+    
+    #58.53 val batch size 16 with 256 neurons each layer (2) and no dropout
+    #57.64 val batch size 32 with 256 neurons each layer (2) and no dropout
+    #57.99 val batch size 16 with 512 neurons each layer (2) no dropout
+    #57.29 val batch size 32 with 512 neurons each layer (2) no dropout
+    #58.68 val batch size 16 with 512 neurons each layer (2) and 512+256 first lyric no dropout
+    #57.64 val batch size 16 with 512 and 256 neurons each layer (2) and 512+256 first lyric no dropout
+    #57.99 val batch size 16 with 256 and 256 neurons each layer (2) and 128+256 first lyric no dropout
+    #58.33 val batch size 16 with 512 and 512 neurons each layer (2) and 64+256 first lyric no dropout
+    #best #59.03 val batch size 16 with 256 and 256 neurons each layer (2) and 32+256 first lyric no dropout
+    #58.68 val batch size 16 with 128 and 128 neurons each layer (2) and 32+256 first lyric no dropout
+    #59.38 val batch size 16 with 256 and 256 neurons each layer (2) and 16+256 first lyric no dropout
+    #58.68 val batch size 16 with 128 and 128 neurons each layer (2) and 16+256 first lyric no dropout
+    #58.68 val batch size 16 with 512 and 512 neurons each layer (2) and 16+256 first lyric no dropout
+    #57.29 val batch size 16 with 256 and 256 neurons each layer (2) and 12+256 first lyric no dropout
+    #best #59.38 val batch size 16 with 256 and 256 neurons each layer (2) and 32+256 first lyric dropout 0.5
+
+
+
+
     

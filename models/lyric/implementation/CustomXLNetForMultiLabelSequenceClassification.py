@@ -12,7 +12,7 @@ class CustomXLNetForMultiLabelSequenceClassification(torch.nn.Module):
         self.xlnet = self.xlnet.base_model
     
         # Create a custom classifier layer
-        self.classifier = torch.nn.Linear(768, 256)  # Adjust the output dimension as needed
+        self.classifier = torch.nn.Linear(768, 16)  # Adjust the output dimension as needed
         torch.nn.init.xavier_normal_(self.classifier.weight)
     
     def forward(self, input_ids, attention_mask=None, labels=None, token_type_ids=None):
