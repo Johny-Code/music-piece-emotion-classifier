@@ -14,7 +14,9 @@ class EnsembleModel(nn.Module):
                  nb_classes, batch_size):
         super(EnsembleModel, self).__init__()
         self.audioModel = audioModel
-        self.expected_size = (batch_size, 16)
+        self.lyric_output_size = 16
+        self.audio_output_size = 256
+        self.expected_size = (batch_size, self.lyric_output_size)
         self.lyricsModel = lyricsModel
         self.truncated_lyrics_model = lyricsModel
         self.nb_classes = nb_classes
@@ -29,12 +31,11 @@ class EnsembleModel(nn.Module):
             if param_lyrics.requires_grad and not name_lyrics.endswith('classifier.weight') and not name_lyrics.endswith('classifier.bias'):
                 param_lyrics.requires_grad = False        
     
-        self.Flatten1 = nn.Flatten()        
-        self.Linear1 = nn.Linear(16+256, 256)
+        self.Flatten1 = nn.Flatten()  
+        self.Linear1 = nn.Linear(self.lyric_output_size+self.audio_output_size, 512)
         self.ReLU1 = nn.ReLU()
         self.dropout = nn.Dropout(0.5)
-        # self.Linear1_2 = nn.Linear(256, 128)
-        self.Linear2 = nn.Linear(256, self.nb_classes)
+        self.Linear2 = nn.Linear(512, self.nb_classes)
         self.output = nn.Softmax(dim=1)
         
     def forward(self, audio_x, input_ids, attention_mask, labels):
@@ -50,7 +51,7 @@ class EnsembleModel(nn.Module):
         x = torch.flatten(x, 1)
         x = self.Linear1(x)
         x = self.ReLU1(x)
-        x = self.dropout(x)
+        # x = self.dropout(x)
         x = self.Linear2(x)
         x = self.output(x)
         return x

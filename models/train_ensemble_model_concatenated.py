@@ -22,50 +22,44 @@ from transformers import XLNetTokenizer, XLNetModel, AdamW
 
 
 def save_checkpoint(model, path, current_accuracy, epoch):
-    if current_accuracy > 56.: 
+    if current_accuracy > 58.: 
         torch.save(model.state_dict(), os.path.join(path, f"joint_{current_accuracy}_{epoch}.pth"))
 
 
-def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height, img_width, hyperparameters, nb_classes, channels):
+def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height, img_width, hyperparameters, nb_classes, channels,
+                  audio_model_path, lyric_model_path, database_path, lyrics_dataset_path):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    val_accuracy_history = []
+    val_loss_history = []
     
     #define models
     model_audio = SarkarVGGCustomizedArchitecture(nb_classes, channels).to(device)
-    model_audio.load_state_dict(torch.load("./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"))
-    model_lyrics = load_model("./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt")
-    
+    model_audio.load_state_dict(torch.load(audio_model_path))    
     custom_xlnet_model = CustomXLNetForMultiLabelSequenceClassification()
-    pretrained_model_state_dict = torch.load("./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt")
+    pretrained_model_state_dict = torch.load(lyric_model_path)
 
     # Copy the weights from the pre-trained model's state_dict() to the custom model
     custom_model_state_dict = custom_xlnet_model.state_dict()
     for name, param in pretrained_model_state_dict.items():
         if name in custom_model_state_dict and param.shape == custom_model_state_dict[name].shape:
             custom_model_state_dict[name].copy_(param)
-
-    # Set the state_dict() of the custom model to the modified one
     custom_xlnet_model.load_state_dict(custom_model_state_dict)
         
     #load ensemble model
     ensembleModel = EnsembleModel(model_audio, custom_xlnet_model, nb_classes, BATCH_SIZE).to(device)
     optimizer = optim.AdamW(ensembleModel.parameters(), lr=learning_rate, amsgrad=False)#, weight_decay=l2_lambda)
-    criterion = nn.CrossEntropyLoss()
     
-    #train
-    val_accuracy_history = []
-    val_loss_history = []
-        
+    criterion = nn.CrossEntropyLoss()
     transform = ToTensor()
+    
     #load audio models
     audio_train_dataset = CustomSpectrogramSortedDataset(os.path.join(path, "train"), transform=transform)
     audio_val_dataset = CustomSpectrogramSortedDataset(os.path.join(path, "val"), transform=transform)
     audio_train_loader = DataLoader(audio_train_dataset, batch_size=batch_size, shuffle=False)
     audio_val_loader = DataLoader(audio_val_dataset, batch_size=batch_size, shuffle=False)
     
-    #load lyrics models
-    database_path = "../database/MoodyLyrics4Q_cleaned_split.csv"
-    dataset_path = "../database/lyrics"
-    train_dataset, _, val_dataset = load_dataset(dataset_path, database_path)
+    #load lyrics models 
+    train_dataset, _, val_dataset = load_dataset(lyrics_dataset_path, database_path)
     tokienizer = XLNetTokenizer.from_pretrained('xlnet-base-cased', do_lower_case = hyperparameters['tokenizer']['do_lower_case'])
     
     train_labels = np.array(train_dataset['mood'].tolist())    
@@ -89,7 +83,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     lyric_val_loader = DataLoader(lyric_val_dataset, sampler=SequentialSampler(lyric_val_dataset), 
                             batch_size=hyperparameters['model']['batch_size'])
     
-    summary(ensembleModel) #, input_size=(CHANNELS, img_height, img_width))
+    summary(ensembleModel)
     
     for epoch in range(epochs):
         ensembleModel.train()
@@ -98,7 +92,6 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         for (inputs_audio, labels_audio), (batch_audio, labels_lyrics) in zip(audio_train_loader, lyric_train_loader):
             inputs_audio = inputs_audio.to(device)
             labels_audio = torch.argmax(labels_audio, dim=1).to(device)
-            # labels_lyrics = torch.argmax(labels_lyrics, dim=1).to(device)  # Convert to class indices from one hot encoding if needed
             
             batch = tuple(t.to(device) for t in batch_audio)
             b_input_ids, b_input_mask, b_labels = batch
@@ -116,8 +109,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         
         val_loss = 0.0
         correct = 0
-        total = 0
-        
+        total = 0  
         
         with torch.no_grad():         
             for (inputs_audio, labels_audio), (batch_audio, labels_lyrics) in zip(audio_val_loader, lyric_val_loader):
@@ -128,7 +120,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
                 b_input_ids, b_input_mask, b_labels = batch
 
                 outputs = ensembleModel(inputs_audio, input_ids=b_input_ids, attention_mask=b_input_mask, labels=b_labels)
-                loss = criterion(outputs, labels_audio) #for example audio, it really shouldnt matter
+                loss = criterion(outputs, labels_audio)
                 val_loss += loss.item() * inputs_audio.size(0)
                 _, predicted = outputs.max(1)
                 total += labels_audio.size(0)
@@ -141,17 +133,17 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         print(f"Epoch [{epoch+1}/{epochs}] - Train Loss: {train_loss / len(audio_train_loader.dataset):.4f} - "
               f"Val Loss: {val_loss / len(audio_train_loader.dataset):.4f} - Val Acc: {val_accuracy:.2f}%")
 
-    #     checkpoint_path = "./trained_models/torch/checkpoints3/"
-    #     os.makedirs(checkpoint_path, exist_ok=True)
-    #     save_checkpoint(model, checkpoint_path, val_accuracy, epoch+1)
-        
-    # model_path = f"./trained_models/torch/sarkar_approach3_{path[-42:]}_{epochs}_{val_accuracy:.2f}.pth"
-    # torch.save(model.state_dict(), model_path)
-    # plot_acc_loss_torch(val_accuracy_history, val_loss_history, "./histories/torch/history_500_AdamW_approach3")
+        checkpoint_path = "./trained_models/"
+        os.makedirs(checkpoint_path, exist_ok=True)
+        save_checkpoint(ensembleModel, checkpoint_path, val_accuracy, epoch+1)
     
     
 if __name__ == "__main__":
-    path = "../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray" 
+    database_path = "../database/MoodyLyrics4Q_cleaned_split.csv"
+    lyrics_dataset_path = "../database/lyrics"
+    audio_dataset_path = "../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray" 
+    audio_model_path = "./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"
+    lyric_model_path = "./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt"
     NUM_EPOCHS = 50
     BATCH_SIZE = 16
     L2_LAMBDA = 1e-3
@@ -172,27 +164,8 @@ if __name__ == "__main__":
                             }
                         }
     
-    train_network(path=path, batch_size=BATCH_SIZE, learning_rate=LEARNING_RATE, l2_lambda=L2_LAMBDA, 
+    train_network(path=audio_dataset_path, batch_size=BATCH_SIZE, learning_rate=LEARNING_RATE, l2_lambda=L2_LAMBDA, 
                   epochs=NUM_EPOCHS, img_width=IM_WIDTH, img_height=IM_HEIGHT, hyperparameters=HYPERPARAMETERS,
-                  nb_classes=NB_CLASSES, channels=CHANNELS)
-    
-    #58.53 val batch size 16 with 256 neurons each layer (2) and no dropout
-    #57.64 val batch size 32 with 256 neurons each layer (2) and no dropout
-    #57.99 val batch size 16 with 512 neurons each layer (2) no dropout
-    #57.29 val batch size 32 with 512 neurons each layer (2) no dropout
-    #58.68 val batch size 16 with 512 neurons each layer (2) and 512+256 first lyric no dropout
-    #57.64 val batch size 16 with 512 and 256 neurons each layer (2) and 512+256 first lyric no dropout
-    #57.99 val batch size 16 with 256 and 256 neurons each layer (2) and 128+256 first lyric no dropout
-    #58.33 val batch size 16 with 512 and 512 neurons each layer (2) and 64+256 first lyric no dropout
-    #best #59.03 val batch size 16 with 256 and 256 neurons each layer (2) and 32+256 first lyric no dropout
-    #58.68 val batch size 16 with 128 and 128 neurons each layer (2) and 32+256 first lyric no dropout
-    #59.38 val batch size 16 with 256 and 256 neurons each layer (2) and 16+256 first lyric no dropout
-    #58.68 val batch size 16 with 128 and 128 neurons each layer (2) and 16+256 first lyric no dropout
-    #58.68 val batch size 16 with 512 and 512 neurons each layer (2) and 16+256 first lyric no dropout
-    #57.29 val batch size 16 with 256 and 256 neurons each layer (2) and 12+256 first lyric no dropout
-    #best #59.38 val batch size 16 with 256 and 256 neurons each layer (2) and 32+256 first lyric dropout 0.5
-
-
-
-
+                  nb_classes=NB_CLASSES, channels=CHANNELS, audio_model_path=audio_model_path, lyric_model_path=lyric_model_path,
+                  database_path=database_path, lyrics_dataset_path=lyrics_dataset_path)
     
