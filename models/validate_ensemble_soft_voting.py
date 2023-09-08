@@ -68,8 +68,8 @@ def validate_audio_model(model_path, dataset_path, img_height, img_width, label_
 def validate_lyrics_model(model_path, dataset_path, database_path):
     hyperparameters = {
                             'tokenizer':{
-                                'do_lower_case': True,
-                                'num_embeddings': 128,
+                                'do_lower_case': False,
+                                'num_embeddings': 256,
                             },
                             'model':{
                                 'num_labels': 4,
@@ -138,8 +138,9 @@ if __name__ == "__main__":
     audio_dataset_path = "../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray"
     audio_model_path = "./audio/trained_models/torch/checkpoints10/sarkar_59.20_317.pth"
     lyrics_dataset_path = "../database/lyrics"
-    lyrics_model_path = "./lyric/xlnet/xlnet_2023-09-02_15-42-29.pt"
-    
+
+    lyrics_model_path = "./lyric/models/lyric/xlnet/xlnet_2023-09-07_09-41-57.pt"
+
     name = "join_classification_soft_voting_2"
     label_names = ["happy", "angry", "sad", "relaxed"]
     IM_WIDTH = 1292
@@ -182,6 +183,7 @@ if __name__ == "__main__":
     assert(len(list_of_true_indexes) == len(list_of_predicted_indexes)), "Error Message: Dicts length are different"
     
     cfm = confusion_matrix(list_of_true_indexes, list_of_predicted_indexes)
+    print(cfm)
     
     os.makedirs("./confusion_matrices", exist_ok=True)
     draw_confusion_matrix(cfm, label_names, "confusion_matrices/", filename_prefix=name)

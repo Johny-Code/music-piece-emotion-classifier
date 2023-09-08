@@ -42,16 +42,17 @@ class EnsembleModel(nn.Module):
         x1 = self.truncated_audio_model(audio_x)
         x2 = self.truncated_lyrics_model(input_ids=input_ids, attention_mask=attention_mask, labels=labels, token_type_ids=None)
         
-        if x2.size(0) < self.expected_size[0]:
-            padding_size = self.expected_size[0] - x2.size(0)
-            padding = torch.zeros((padding_size, self.expected_size[1]), device=x2.device)
-            x2 = torch.cat((x2, padding), dim=0)
-        
+        # if x2.size(0) < self.expected_size[0]:
+        #     padding_size = self.expected_size[0] - x2.size(0)
+        #     padding = torch.zeros((padding_size, self.expected_size[1]), device=x2.device)
+        #     x2 = torch.cat((x2, padding), dim=0)
+        #     print(f"x2.size after padding {x2.size()}")   
+
         x = torch.cat((x1,x2), dim=1)
         x = torch.flatten(x, 1)
         x = self.Linear1(x)
         x = self.ReLU1(x)
-        # x = self.dropout(x)
+        x = self.dropout(x)
         x = self.Linear2(x)
         x = self.output(x)
         return x

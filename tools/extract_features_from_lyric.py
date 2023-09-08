@@ -17,9 +17,9 @@ def detect_language(text):
     try:
         language = detect(text)
     except Exception as e:
-        print(e)
+        # print(e)
         language = None
-    print(f"Detected lang = {language}")
+    # print(f"Detected lang = {language}")
 
     return language
 
@@ -38,7 +38,7 @@ def load_lyric_dataset(input_path, MoodyLyric4Q_cleaned_splited):
         try:
             id = song_info['id']
             if not (id in MoodyLyric4Q_cleaned_splited.index):
-                print(f"Song {id} is duplicated. ")
+                # print(f"Song {id} is duplicated. ")
                 continue
             else:
                 #get split form MoodyLyric4Q_cleaned_splited
@@ -48,42 +48,42 @@ def load_lyric_dataset(input_path, MoodyLyric4Q_cleaned_splited):
 
         except BaseException:
             id = None
-            print(f"For {file_path} there is no id")
+            # print(f"For {file_path} there is no id")
 
         try:
             mood = song_info['mood']
         except BaseException:
             mood = None
-            print(f"For {file_path} there is no mood")
+            # print(f"For {file_path} there is no mood")
 
         try:
             title = song_info['title']
         except BaseException:
             title = None
-            print(f"For {file_path} there is no title")
+            # print(f"For {file_path} there is no title")
 
         try:
             lyric = song_info['song']['lyrics']
             if lyric == '':
-                print(f"For {file_path} lyric is empty")
+                # print(f"For {file_path} lyric is empty")
                 lyric = ' '
         except BaseException:
             lyric = None
-            print(f"For {file_path} there is no lyrics")
+            # print(f"For {file_path} there is no lyrics")
 
         try:
             language = song_info['song']['language']
             if language is None:
                 language = detect_language(lyric)
         except BaseException:
-            print(f"For {file_path} there is no language info in dataset")
+            # print(f"For {file_path} there is no language info in dataset")
             language = detect_language(lyric)
 
         try:
             comment = song_info['song']['//coment']
             if comment == INSTRUMENTAL_COMMENT:
                 instrumental = True
-                print(f"For {file_path} is instrumental\n")
+                # print(f"For {file_path} is instrumental\n")
             else:
                 instrumental = False
         except BaseException:

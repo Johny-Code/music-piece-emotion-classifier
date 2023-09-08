@@ -15,11 +15,21 @@ database/fasttext/*
 # Models and history
 models/audio/history/*
 models/audio/best_models/*
+models/audio/histories/*
+models/audio/confusion_matrices/*
+models/audio/metrics/*
+models/audio/tmp/*
+models/audio/trained_models/*
 models/lyric/fasttext_models/*
 models/lyric/history/*
 models/lyric/feature_based/*
 models/lyric/fasttext/*
 models/lyric/xlnet/*
+models/lyric/models/lyric/xlnet/*
+models/confusion_matrices/*
+models/metrics/*
+models/trained_models/*
+
 logs/*
 
 # Distribution / packaging
@@ -57,3 +67,4 @@ pip-delete-this-directory.txt
 
 # Notebooks
 .ipynb_checkpoints
+

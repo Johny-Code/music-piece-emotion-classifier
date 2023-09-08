@@ -9,13 +9,13 @@ import numpy as np
 import pandas as pd
 from transformers import XLNetTokenizer, XLNetModel, AdamW
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, confusion_matrix
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 
 sys.path += ['tools/', '../../tools/', 'implementation/dataset', 'implementation']
 from CustomLyricTensorDataset import CustomLyricTensorDataset
 from XLNetForMultiLabelSequenceClassification import XLNetForMultiLabelSequenceClassification
-from extract_features_from_lyric import load_en_dataset, clean_lyric
+from extract_features_from_lyric import load_en_dataset, clean_lyric, load_full_lyric_dataset
 
 
 SEED = 100
@@ -43,9 +43,10 @@ def preprocess(dataset, remove_newline):
 
 
 def load_dataset(dataset_path, database_path):
-    en_dataset = load_en_dataset(dataset_path, database_path)
+    # en_dataset = load_en_dataset(dataset_path, database_path)
+    dataset = load_full_lyric_dataset(dataset_path, database_path)
     remove_newline = True
-    train_dataset, test_dataset, val_dataset = preprocess(en_dataset, remove_newline)
+    train_dataset, test_dataset, val_dataset = preprocess(dataset, remove_newline)
     return train_dataset, test_dataset, val_dataset
 
 
@@ -243,6 +244,10 @@ def test_model(model,test_dataloader):
     print("Classification Report:")
     print(classification_report(y_true, y_pred, target_names=TARGET_NAMES, digits=3))
 
+    cm = confusion_matrix(y_true, y_pred)
+    print("Confusion Matrix:")
+    print(cm)
+
 
 def simple_run(hyperparameters):
     dataset_path = os.path.join('../../', 'database', 'lyrics')
@@ -322,15 +327,16 @@ if __name__ == '__main__':
         hyperparameters = {
                             'tokenizer':{
                                 'do_lower_case': False,
-                                'num_embeddings': 128,
+                                'num_embeddings': 256,
                             },
                             'model':{
                                 'num_labels': 4,
-                                'batch_size': 32,
+                                'batch_size': 64,
                             }
                             }
+        # "./lyric/models/lyric/xlnet/xlnet_2023-09-07_09-41-57.pt"
+        path_to_model = os.path.join('models', 'lyric', 'xlnet', 'xlnet_2023-09-07_09-41-57.pt')
         
-        path_to_model = os.path.join('models', 'lyric', 'xlnet', 'xlnet_2023-09-02_10-41-03.pt')
         model = load_model(path_to_model)
         
         dataset_path = os.path.join('../../', 'database', 'lyrics')

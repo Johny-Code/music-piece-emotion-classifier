@@ -51,6 +51,7 @@ def validate_model(model_path, audio_model_path, lyric_model_path, lyric_dataset
         
     #load lyrics models 
     _, test_dataset, _ = load_dataset(lyric_dataset_path, database_path)
+
     tokienizer = XLNetTokenizer.from_pretrained('xlnet-base-cased', do_lower_case = hyperparameters['tokenizer']['do_lower_case'])
     
     test_labels = np.array(test_dataset['mood'].tolist())    
@@ -65,19 +66,19 @@ def validate_model(model_path, audio_model_path, lyric_model_path, lyric_dataset
     lyric_test_loader = DataLoader(lyric_test_dataset, sampler=SequentialSampler(lyric_test_dataset), 
                             batch_size=hyperparameters['model']['batch_size'])
         
-    summary(model)
-    
+    # summary(model)
+
     correct = 0
     total = 0
     all_predicted_labels = []
     all_actual_labels = []
     
     with torch.no_grad():         
-        for (inputs_audio, labels_audio), (batch_audio, labels_lyrics) in zip(audio_test_loader, lyric_test_loader):
+        for (inputs_audio, labels_audio), (batch_lyric, labels_lyrics) in zip(audio_test_loader, lyric_test_loader):
             inputs_audio = inputs_audio.to(device)
             labels_audio = torch.argmax(labels_audio, dim=1).to(device)
-            
-            batch = tuple(t.to(device) for t in batch_audio)
+
+            batch = tuple(t.to(device) for t in batch_lyric)
             b_input_ids, b_input_mask, b_labels = batch
 
             outputs = ensembleModel(inputs_audio, input_ids=b_input_ids, attention_mask=b_input_mask, labels=b_labels)
@@ -107,18 +108,18 @@ def validate_model(model_path, audio_model_path, lyric_model_path, lyric_dataset
     
     
 if __name__ == "__main__":
-    model_path = "./trained_models/joint_58.33_lyrics16_256x2_audio_256_last_5_no_dropout_7.pth"
-    name = "joint_concatenated_copy1"
+    model_path = "./trained_models/copy8_joint_59.72_28.pth"
+    name = "joint_concatenated_copy8"
     database_path = "../database/MoodyLyrics4Q_cleaned_split.csv"
     lyrics_dataset_path = "../database/lyrics"
     audio_dataset_path = "../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray" 
     audio_model_path = "./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"
-    lyric_model_path = "./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt"    
+    lyric_model_path = "./lyric/models/lyric/xlnet/xlnet_2023-09-07_09-41-57.pt"
     label_names = ["happy", "angry", "sad", "relaxed"]
     hyperparameters = {
                             'tokenizer':{
-                                'do_lower_case': True,
-                                'num_embeddings': 128,
+                                'do_lower_case': False,
+                                'num_embeddings': 256,
                             },
                             'model':{
                                 'num_labels': 4,

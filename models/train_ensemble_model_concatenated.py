@@ -145,7 +145,7 @@ if __name__ == "__main__":
     audio_model_path = "./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"
     lyric_model_path = "./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt"
     NUM_EPOCHS = 50
-    BATCH_SIZE = 16
+    BATCH_SIZE = 48
     L2_LAMBDA = 1e-3
     LEARNING_RATE = 1e-5
     NUM_EMBEDDINGS = 128
