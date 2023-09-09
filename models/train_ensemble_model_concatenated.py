@@ -22,7 +22,7 @@ from transformers import XLNetTokenizer, XLNetModel, AdamW
 
 
 def save_checkpoint(model, path, current_accuracy, epoch, dropout, dense_1, dense_2):
-    if current_accuracy > 58.7: 
+    if current_accuracy > 60: 
         torch.save(model.state_dict(), os.path.join(path, f"joint_{round(current_accuracy, 3)}_{epoch}_DR_{dropout}_D1_{dense_1}_D2_{dense_2}.pth"))
 
 
@@ -55,6 +55,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     
     #load audio models
     audio_train_dataset = CustomSpectrogramSortedDataset(os.path.join(path, "train"), transform=transform)
+
     audio_val_dataset = CustomSpectrogramSortedDataset(os.path.join(path, "val"), transform=transform)
     audio_train_loader = DataLoader(audio_train_dataset, batch_size=batch_size, shuffle=False)
     audio_val_loader = DataLoader(audio_val_dataset, batch_size=batch_size, shuffle=False)
@@ -91,17 +92,18 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         ensembleModel.train()
         train_loss = 0.0
         
-        for (inputs_audio, labels_audio), (batch_audio, labels_lyrics) in zip(audio_train_loader, lyric_train_loader):
+        for (inputs_audio, labels_audio), (batch_lyric, labels_lyrics) in zip(audio_train_loader, lyric_train_loader):
             inputs_audio = inputs_audio.to(device)
             labels_audio = torch.argmax(labels_audio, dim=1).to(device)
             
-            batch = tuple(t.to(device) for t in batch_audio)
+            batch = tuple(t.to(device) for t in batch_lyric)
             b_input_ids, b_input_mask, b_labels = batch
 
             optimizer.zero_grad()
             outputs = ensembleModel(inputs_audio, input_ids=b_input_ids, attention_mask=b_input_mask, labels=b_labels)
                         
-            loss = criterion(outputs, labels_audio) #for example audio, it really shouldnt matter
+            # loss = criterion(outputs, labels_audio) #for example audio, it really shouldnt matter
+            loss = criterion(outputs, b_labels)
             loss.backward()
             optimizer.step()
                         
@@ -114,19 +116,23 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         total = 0  
         
         with torch.no_grad():         
-            for (inputs_audio, labels_audio), (batch_audio, labels_lyrics) in zip(audio_val_loader, lyric_val_loader):
+            for (inputs_audio, labels_audio), (batch_lyric, labels_lyrics) in zip(audio_val_loader, lyric_val_loader):
                 inputs_audio = inputs_audio.to(device)
                 labels_audio = torch.argmax(labels_audio, dim=1).to(device)
                 
-                batch = tuple(t.to(device) for t in batch_audio)
+                batch = tuple(t.to(device) for t in batch_lyric)
                 b_input_ids, b_input_mask, b_labels = batch
 
                 outputs = ensembleModel(inputs_audio, input_ids=b_input_ids, attention_mask=b_input_mask, labels=b_labels)
-                loss = criterion(outputs, labels_audio)
+                # loss = criterion(outputs, labels_audio)
+                loss = criterion(outputs, b_labels)
                 val_loss += loss.item() * inputs_audio.size(0)
                 _, predicted = outputs.max(1)
                 total += labels_audio.size(0)
-                correct += predicted.eq(labels_audio).sum().item()            
+                # correct += predicted.eq(labels_audio).sum().item()   
+                b_labels_argmax = torch.argmax(b_labels, dim=1).to(device)  
+                correct += predicted.eq(b_labels_argmax).sum().item()            
+
         
         val_accuracy = 100 * correct / total
         val_loss_history.append(val_loss)
@@ -149,7 +155,7 @@ if __name__ == "__main__":
     audio_model_path = "./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"
     lyric_model_path = "./lyric/models/lyric/xlnet/xlnet_2023-09-07_09-41-57.pt"
     
-    if False:
+    if True:
         NUM_EPOCHS = 50
         BATCH_SIZE = 48
         L2_LAMBDA = 1e-3
@@ -170,12 +176,18 @@ if __name__ == "__main__":
                                 }
                             }
         
+        DROPOUT = 0.3
+        DENSE_1 = 1024
+        DENSE_2 = 128
+
+
         train_network(path=audio_dataset_path, batch_size=BATCH_SIZE, learning_rate=LEARNING_RATE, l2_lambda=L2_LAMBDA, 
                     epochs=NUM_EPOCHS, img_width=IM_WIDTH, img_height=IM_HEIGHT, hyperparameters=HYPERPARAMETERS,
                     nb_classes=NB_CLASSES, channels=CHANNELS, audio_model_path=audio_model_path, lyric_model_path=lyric_model_path,
-                    database_path=database_path, lyrics_dataset_path=lyrics_dataset_path)
+                    database_path=database_path, lyrics_dataset_path=lyrics_dataset_path,
+                    dropout=DROPOUT, dense_1=DENSE_1, dense_2=DENSE_2)
     else:
-        num_epochs = 15
+        num_epochs = 25
         batch_size = 48
         l2_lambda = 1e-3
         learning_rate = 1e-5

@@ -85,11 +85,15 @@ def validate_model(model_path, audio_model_path, lyric_model_path, lyric_dataset
             outputs = ensembleModel(inputs_audio, input_ids=b_input_ids, attention_mask=b_input_mask, labels=b_labels)
             _, predicted = outputs.max(1)
             
+            b_labels_argmax = torch.argmax(b_labels, dim=1).to(device)  
             all_actual_labels.append(predicted.cpu().numpy())
-            all_predicted_labels.append(labels_audio.cpu().numpy())
+            # all_predicted_labels.append(labels_audio.cpu().numpy())
+            all_predicted_labels.append(b_labels_argmax.cpu().numpy())
             
             total += labels_audio.size(0)
-            correct += predicted.eq(labels_audio).sum().item()
+            # correct += predicted.eq(labels_audio).sum().item()
+            correct += predicted.eq(b_labels_argmax).sum().item()
+
 
     test_accuracy = 100 * correct / total
     
@@ -110,7 +114,8 @@ def validate_model(model_path, audio_model_path, lyric_model_path, lyric_dataset
     
 if __name__ == "__main__":
     # model_path = "./trained_models/copy8_joint_59.72_28.pth"
-    model_path = "./trained_models/joint_58.863_19_DR_0.3_D1_1024_D2_128.pth"
+    # model_path = "./trained_models/joint_58.863_19_DR_0.3_D1_1024_D2_128.pth"
+    model_path = "./trained_models/joint_60.201_13_DR_0.3_D1_1024_D2_128.pth"
     name = "joint_concatenated_copy8"
     database_path = "../database/MoodyLyrics4Q_cleaned_split.csv"
     lyrics_dataset_path = "../database/lyrics"
