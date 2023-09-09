@@ -24,7 +24,8 @@ from contextlib import redirect_stdout
 
 
 def validate_model(model_path, audio_model_path, lyric_model_path, lyric_dataset_path, database_path,
-                   confusion_matrix_prefix, label_names, metrics_file, audio_dataset_path, hyperparameters):
+                   confusion_matrix_prefix, label_names, metrics_file, audio_dataset_path, hyperparameters,
+                   dropout, dense_1, dense_2):
     NUM_CLASSES = 4
     CHANNELS = 1
     BATCH_SIZE = 1
@@ -37,7 +38,7 @@ def validate_model(model_path, audio_model_path, lyric_model_path, lyric_dataset
     pretrained_model_state_dict = torch.load(lyric_model_path)
     
     #load ensemble model
-    ensembleModel = EnsembleModel(model_audio, custom_xlnet_model, NUM_CLASSES, BATCH_SIZE).to(device)
+    ensembleModel = EnsembleModel(model_audio, custom_xlnet_model, NUM_CLASSES, BATCH_SIZE, dropout, dense_1, dense_2).to(device)
     model = ensembleModel
     model.load_state_dict(torch.load(model_path))
     model.eval()
@@ -108,7 +109,8 @@ def validate_model(model_path, audio_model_path, lyric_model_path, lyric_dataset
     
     
 if __name__ == "__main__":
-    model_path = "./trained_models/copy8_joint_59.72_28.pth"
+    # model_path = "./trained_models/copy8_joint_59.72_28.pth"
+    model_path = "./trained_models/joint_58.863_19_DR_0.3_D1_1024_D2_128.pth"
     name = "joint_concatenated_copy8"
     database_path = "../database/MoodyLyrics4Q_cleaned_split.csv"
     lyrics_dataset_path = "../database/lyrics"
@@ -127,7 +129,12 @@ if __name__ == "__main__":
                             }
                         }
     
+    DROPOUT = 0.5
+    DENSE_1 = 1024
+    DENSE_2 = 128
+
+    
     validate_model(model_path=model_path, audio_model_path=audio_model_path, lyric_model_path=lyric_model_path,
                    lyric_dataset_path=lyrics_dataset_path, database_path=database_path, confusion_matrix_prefix=name, 
                    label_names=label_names, metrics_file=name, audio_dataset_path=audio_dataset_path, 
-                   hyperparameters=hyperparameters)
+                   hyperparameters=hyperparameters, dropout=DROPOUT, dense_1=DENSE_1, dense_2=DENSE_2)
