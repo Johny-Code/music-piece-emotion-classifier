@@ -21,13 +21,14 @@ from train_xlnet import load_model, load_dataset, tokenize_inputs, create_attent
 from transformers import XLNetTokenizer, XLNetModel, AdamW
 
 
-def save_checkpoint(model, path, current_accuracy, epoch):
-    if current_accuracy > 58.: 
-        torch.save(model.state_dict(), os.path.join(path, f"joint_{current_accuracy}_{epoch}.pth"))
+def save_checkpoint(model, path, current_accuracy, epoch, dropout, dense_1, dense_2):
+    if current_accuracy > 58.7: 
+        torch.save(model.state_dict(), os.path.join(path, f"joint_{round(current_accuracy, 3)}_{epoch}_DR_{dropout}_D1_{dense_1}_D2_{dense_2}.pth"))
 
 
 def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height, img_width, hyperparameters, nb_classes, channels,
-                  audio_model_path, lyric_model_path, database_path, lyrics_dataset_path):
+                  audio_model_path, lyric_model_path, database_path, lyrics_dataset_path,
+                  dropout=0.5, dense_1=512, dense_2=512):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     val_accuracy_history = []
     val_loss_history = []
@@ -46,7 +47,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     custom_xlnet_model.load_state_dict(custom_model_state_dict)
         
     #load ensemble model
-    ensembleModel = EnsembleModel(model_audio, custom_xlnet_model, nb_classes, BATCH_SIZE).to(device)
+    ensembleModel = EnsembleModel(model_audio, custom_xlnet_model, nb_classes, batch_size, dropout, dense_1, dense_2).to(device)
     optimizer = optim.AdamW(ensembleModel.parameters(), lr=learning_rate, amsgrad=False)#, weight_decay=l2_lambda)
     
     criterion = nn.CrossEntropyLoss()
@@ -83,7 +84,8 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     lyric_val_loader = DataLoader(lyric_val_dataset, sampler=SequentialSampler(lyric_val_dataset), 
                             batch_size=hyperparameters['model']['batch_size'])
     
-    summary(ensembleModel)
+    # summary(ensembleModel)
+    print("Training started")
     
     for epoch in range(epochs):
         ensembleModel.train()
@@ -135,37 +137,80 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
 
         checkpoint_path = "./trained_models/"
         os.makedirs(checkpoint_path, exist_ok=True)
-        save_checkpoint(ensembleModel, checkpoint_path, val_accuracy, epoch+1)
+        save_checkpoint(ensembleModel, checkpoint_path, val_accuracy, epoch+1, dropout, dense_1, dense_2)
     
     
 if __name__ == "__main__":
+
+
     database_path = "../database/MoodyLyrics4Q_cleaned_split.csv"
     lyrics_dataset_path = "../database/lyrics"
     audio_dataset_path = "../database/melgrams/gray/different-params/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray" 
     audio_model_path = "./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"
-    lyric_model_path = "./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt"
-    NUM_EPOCHS = 50
-    BATCH_SIZE = 48
-    L2_LAMBDA = 1e-3
-    LEARNING_RATE = 1e-5
-    NUM_EMBEDDINGS = 128
-    IM_WIDTH = 1292
-    IM_HEIGHT = 128
-    CHANNELS = 1
-    NB_CLASSES = 4
-    HYPERPARAMETERS = {
-                            'tokenizer':{
-                                'do_lower_case': True,
-                                'num_embeddings': NUM_EMBEDDINGS,
-                            },
-                            'model':{
-                                'num_labels': NB_CLASSES,
-                                'batch_size': BATCH_SIZE,
+    lyric_model_path = "./lyric/models/lyric/xlnet/xlnet_2023-09-07_09-41-57.pt"
+    
+    if False:
+        NUM_EPOCHS = 50
+        BATCH_SIZE = 48
+        L2_LAMBDA = 1e-3
+        LEARNING_RATE = 1e-5
+        NUM_EMBEDDINGS = 256
+        IM_WIDTH = 1292
+        IM_HEIGHT = 128
+        CHANNELS = 1
+        NB_CLASSES = 4
+        HYPERPARAMETERS = {
+                                'tokenizer':{
+                                    'do_lower_case': False,
+                                    'num_embeddings': NUM_EMBEDDINGS,
+                                },
+                                'model':{
+                                    'num_labels': NB_CLASSES,
+                                    'batch_size': BATCH_SIZE,
+                                }
                             }
-                        }
-    
-    train_network(path=audio_dataset_path, batch_size=BATCH_SIZE, learning_rate=LEARNING_RATE, l2_lambda=L2_LAMBDA, 
-                  epochs=NUM_EPOCHS, img_width=IM_WIDTH, img_height=IM_HEIGHT, hyperparameters=HYPERPARAMETERS,
-                  nb_classes=NB_CLASSES, channels=CHANNELS, audio_model_path=audio_model_path, lyric_model_path=lyric_model_path,
-                  database_path=database_path, lyrics_dataset_path=lyrics_dataset_path)
-    
+        
+        train_network(path=audio_dataset_path, batch_size=BATCH_SIZE, learning_rate=LEARNING_RATE, l2_lambda=L2_LAMBDA, 
+                    epochs=NUM_EPOCHS, img_width=IM_WIDTH, img_height=IM_HEIGHT, hyperparameters=HYPERPARAMETERS,
+                    nb_classes=NB_CLASSES, channels=CHANNELS, audio_model_path=audio_model_path, lyric_model_path=lyric_model_path,
+                    database_path=database_path, lyrics_dataset_path=lyrics_dataset_path)
+    else:
+        num_epochs = 15
+        batch_size = 48
+        l2_lambda = 1e-3
+        learning_rate = 1e-5
+        num_embeddings = 256
+        img_width = 1292
+        img_height = 128
+        channels = 1
+        nb_classes = 4
+        hyperparameters = {
+                                'tokenizer':{
+                                    'do_lower_case': False,
+                                    'num_embeddings': num_embeddings,
+                                },
+                                'model':{
+                                    'num_labels': nb_classes,
+                                    'batch_size': batch_size,
+                                }
+                            }
+        
+        dropout_values = [0.1, 0.3, 0.5]
+        dense_1_values = [256, 512, 1024]
+        dense_2_values = [128, 256, 512]
+
+        for dropout in dropout_values: 
+            for dense_1 in dense_1_values:
+                for dense_2 in dense_2_values:
+                    
+                    print(f"batch size: {batch_size}, learning rate: {learning_rate}")
+                    print(f"dropout: {dropout}, dense_1: {dense_1}, dense_2: {dense_2}")
+
+
+                    train_network(path=audio_dataset_path, batch_size=batch_size, learning_rate=learning_rate, l2_lambda=l2_lambda, 
+                                epochs=num_epochs, img_width=img_width, img_height=img_height, hyperparameters=hyperparameters,
+                                nb_classes=nb_classes, channels=channels, audio_model_path=audio_model_path, lyric_model_path=lyric_model_path,
+                                database_path=database_path, lyrics_dataset_path=lyrics_dataset_path,
+                                dropout=dropout, dense_1=dense_1, dense_2=dense_2)
+                    
+                    print("\n---------------------------------------------------------------\n\n\n")

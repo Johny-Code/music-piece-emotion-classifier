@@ -11,7 +11,7 @@ from CustomXLNetForMultiLabelSequenceClassification import CustomXLNetForMultiLa
 
 class EnsembleModel(nn.Module):
     def __init__(self, audioModel: SarkarVGGCustomizedArchitecture, lyricsModel: CustomXLNetForMultiLabelSequenceClassification,
-                 nb_classes, batch_size):
+                 nb_classes, batch_size, dropout, dense_1, dense_2):
         super(EnsembleModel, self).__init__()
         self.audioModel = audioModel
         self.lyric_output_size = 16
@@ -32,10 +32,11 @@ class EnsembleModel(nn.Module):
                 param_lyrics.requires_grad = False        
     
         self.Flatten1 = nn.Flatten()  
-        self.Linear1 = nn.Linear(self.lyric_output_size+self.audio_output_size, 512)
+        self.Linear1 = nn.Linear(self.lyric_output_size+self.audio_output_size, dense_1)
         self.ReLU1 = nn.ReLU()
         self.dropout = nn.Dropout(0.5)
-        self.Linear2 = nn.Linear(512, self.nb_classes)
+        self.Linear1_2 = nn.Linear(dense_1, dense_2)
+        self.Linear2 = nn.Linear(dense_2, self.nb_classes)
         self.output = nn.Softmax(dim=1)
         
     def forward(self, audio_x, input_ids, attention_mask, labels):
@@ -51,6 +52,9 @@ class EnsembleModel(nn.Module):
         x = torch.cat((x1,x2), dim=1)
         x = torch.flatten(x, 1)
         x = self.Linear1(x)
+        x = self.ReLU1(x)
+        x = self.dropout(x)
+        x = self.Linear1_2(x)
         x = self.ReLU1(x)
         x = self.dropout(x)
         x = self.Linear2(x)
