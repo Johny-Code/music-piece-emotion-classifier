@@ -85,11 +85,6 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     
     summary(ensembleModel)
     
-    print(len(lyric_train_dataset))
-    print(len(audio_train_dataset))
-    
-    missing_sample_index = -1  # Initialize with a value that cannot be an actual index
-
     for epoch in range(epochs):
         ensembleModel.train()
         train_loss = 0.0
@@ -153,8 +148,8 @@ if __name__ == "__main__":
     lyrics_dataset_path = "../database/lyrics"
     audio_dataset_path = "../database/melgrams/gray/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray_middle30s_corrected" 
     audio_model_path = "./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"
-    lyric_model_path = "./lyric/models/lyric/xlnet/xlnet_2023-09-07_09-41-57.pt"
-    NUM_EPOCHS = 50
+    lyric_model_path = "./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt"
+    NUM_EPOCHS = 30
     BATCH_SIZE = 16
     L2_LAMBDA = 1e-3
     LEARNING_RATE = 1e-5
