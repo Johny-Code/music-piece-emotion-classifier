@@ -14,13 +14,13 @@ class EnsembleModel(nn.Module):
                  nb_classes, batch_size):
         super(EnsembleModel, self).__init__()
         self.audioModel = audioModel
-        self.lyric_output_size = 16
+        self.lyric_output_size = 256
         self.audio_output_size = 256
         self.expected_size = (batch_size, self.lyric_output_size)
         self.lyricsModel = lyricsModel
         self.truncated_lyrics_model = lyricsModel
         self.nb_classes = nb_classes
-        self.truncated_audio_model = torch.nn.Sequential(*list(self.audioModel.children())[:-5])
+        self.truncated_audio_model = torch.nn.Sequential(*list(self.audioModel.children())[:-2])
 
         #freeze already trained layers
         for name_audio, param_audio in self.truncated_audio_model.named_parameters():
@@ -58,7 +58,7 @@ class EnsembleModel(nn.Module):
         x = torch.flatten(x, 1)
         x = self.Linear1(x)
         x = self.ReLU1(x)
-        x = self.dropout(x)
+        # x = self.dropout(x)
         x = self.Linear2(x)
         x = self.output(x)
         return x

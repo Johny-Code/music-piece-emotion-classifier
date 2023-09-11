@@ -89,13 +89,13 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         ensembleModel.train()
         train_loss = 0.0
         
-        for (inputs_audio, labels_audio_tensor, labels_audio), (batch_audio, labels_lyrics) in zip(audio_train_loader, lyric_train_loader):
+        for (inputs_audio, labels_audio_tensor, labels_audio), (batch_lyrics, labels_lyrics) in zip(audio_train_loader, lyric_train_loader):
             inputs_audio = inputs_audio.to(device)
             labels_audio_tensor = torch.argmax(labels_audio_tensor, dim=1).to(device)
             
             assert labels_audio[0] == labels_lyrics[0], "Different labels are compared"
             
-            batch = tuple(t.to(device) for t in batch_audio)
+            batch = tuple(t.to(device) for t in batch_lyrics)
             b_input_ids, b_input_mask, b_labels = batch
 
             optimizer.zero_grad()
@@ -115,13 +115,13 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         total = 0  
         
         with torch.no_grad():         
-            for (inputs_audio, labels_audio_tensor, labels_audio), (batch_audio, labels_lyrics) in zip(audio_val_loader, lyric_val_loader):
+            for (inputs_audio, labels_audio_tensor, labels_audio), (batch_lyrics, labels_lyrics) in zip(audio_val_loader, lyric_val_loader):
                 inputs_audio = inputs_audio.to(device)
                 labels_audio_tensor = torch.argmax(labels_audio_tensor, dim=1).to(device)
                 
                 assert labels_audio[0] == labels_lyrics[0], "Different labels are compared"
                 
-                batch = tuple(t.to(device) for t in batch_audio)
+                batch = tuple(t.to(device) for t in batch_lyrics)
                 b_input_ids, b_input_mask, b_labels = batch
 
                 outputs = ensembleModel(inputs_audio, input_ids=b_input_ids, attention_mask=b_input_mask, labels=b_labels)
@@ -149,7 +149,7 @@ if __name__ == "__main__":
     audio_dataset_path = "../database/melgrams/gray/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray_middle30s_corrected" 
     audio_model_path = "./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"
     lyric_model_path = "./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt"
-    NUM_EPOCHS = 30
+    NUM_EPOCHS = 50
     BATCH_SIZE = 16
     L2_LAMBDA = 1e-3
     LEARNING_RATE = 1e-5

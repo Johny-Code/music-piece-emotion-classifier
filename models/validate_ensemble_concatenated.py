@@ -75,13 +75,13 @@ def validate_model(model_path, audio_model_path, lyric_model_path, lyric_dataset
     assert len(lyric_test_dataset) == len(audio_test_dataset), "Lyric and audio datasets have different lenghts"
     
     with torch.no_grad():         
-        for (inputs_audio, labels_audio_tensor, labels_audio), (batch_audio, labels_lyrics) in zip(audio_test_loader, lyric_test_loader):
+        for (inputs_audio, labels_audio_tensor, labels_audio), (batch_lyrics, labels_lyrics) in zip(audio_test_loader, lyric_test_loader):
             inputs_audio = inputs_audio.to(device)
             labels_audio_tensor = torch.argmax(labels_audio_tensor, dim=1).to(device)
             
             assert labels_audio[0] == labels_lyrics[0], "Different labels are compared"
                         
-            batch = tuple(t.to(device) for t in batch_audio)
+            batch = tuple(t.to(device) for t in batch_lyrics)
             b_input_ids, b_input_mask, b_labels = batch
 
             outputs = ensembleModel(inputs_audio, input_ids=b_input_ids, attention_mask=b_input_mask, labels=b_labels)
