@@ -46,8 +46,8 @@ def validate_model(model_path, dataset_path, img_height, img_width, label_names,
             outputs = model(inputs)
             _, predicted = outputs.max(1)
             
-            all_actual_labels.append(predicted.cpu().numpy())
-            all_predicted_labels.append(labels.cpu().numpy())
+            all_predicted_labels.append(predicted.cpu().numpy())
+            all_actual_labels.append(labels.cpu().numpy())
             
             total += labels.size(0)
             correct += predicted.eq(labels).sum().item()

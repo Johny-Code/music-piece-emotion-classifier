@@ -40,7 +40,7 @@ class CustomSpectrogramSortedDataset(Dataset):
         if self.transform:
             image = self.transform(image)
 
-        return image, torch.FloatTensor(label)
+        return image, torch.FloatTensor(label), img_path.split('/')[-1][:-4]
     
     def get_sample_and_path(self, idx):
         return self.samples[idx]

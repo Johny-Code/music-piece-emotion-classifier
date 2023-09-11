@@ -42,9 +42,16 @@ class EnsembleModel(nn.Module):
         x1 = self.truncated_audio_model(audio_x)
         x2 = self.truncated_lyrics_model(input_ids=input_ids, attention_mask=attention_mask, labels=labels, token_type_ids=None)
         
-        if x2.size(0) < self.expected_size[0]:
-            padding_size = self.expected_size[0] - x2.size(0)
-            padding = torch.zeros((padding_size, self.expected_size[1]), device=x2.device)
+        max_batch_size = max(x1.size(0), x2.size(0))
+    
+        if x1.size(0) < max_batch_size:
+            padding_size = max_batch_size - x1.size(0)
+            padding = torch.zeros((padding_size, self.audio_output_size), device=x1.device)
+            x1 = torch.cat((x1, padding), dim=0)
+
+        if x2.size(0) < max_batch_size:
+            padding_size = max_batch_size - x2.size(0)
+            padding = torch.zeros((padding_size, self.lyric_output_size), device=x2.device)
             x2 = torch.cat((x2, padding), dim=0)
         
         x = torch.cat((x1,x2), dim=1)

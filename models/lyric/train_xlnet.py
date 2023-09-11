@@ -15,7 +15,7 @@ from torch.utils.data import TensorDataset, DataLoader, RandomSampler, Sequentia
 sys.path += ['tools/', '../../tools/', 'implementation/dataset', 'implementation']
 from CustomLyricTensorDataset import CustomLyricTensorDataset
 from XLNetForMultiLabelSequenceClassification import XLNetForMultiLabelSequenceClassification
-from extract_features_from_lyric import load_en_dataset, clean_lyric
+from extract_features_from_lyric import load_en_dataset, clean_lyric, load_full_lyric_dataset
 
 
 SEED = 100
@@ -42,10 +42,15 @@ def preprocess(dataset, remove_newline):
     return train_dataset, test_dataset, val_dataset
 
 
-def load_dataset(dataset_path, database_path):
-    en_dataset = load_en_dataset(dataset_path, database_path)
+def load_dataset(dataset_path, database_path, load_full_dataset=False):
+    if (load_full_dataset):
+        dataset = load_full_lyric_dataset(dataset_path, database_path)
+    else:
+        dataset = load_en_dataset(dataset_path, database_path)
+        
     remove_newline = True
-    train_dataset, test_dataset, val_dataset = preprocess(en_dataset, remove_newline)
+    train_dataset, test_dataset, val_dataset = preprocess(dataset, remove_newline)
+    
     return train_dataset, test_dataset, val_dataset
 
 
