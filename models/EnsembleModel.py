@@ -14,7 +14,7 @@ class EnsembleModel(nn.Module):
                  nb_classes, batch_size):
         super(EnsembleModel, self).__init__()
         self.audioModel = audioModel
-        self.lyric_output_size = 256
+        self.lyric_output_size = 64
         self.audio_output_size = 256
         self.expected_size = (batch_size, self.lyric_output_size)
         self.lyricsModel = lyricsModel
@@ -30,7 +30,8 @@ class EnsembleModel(nn.Module):
         for name_lyrics, param_lyrics in self.truncated_lyrics_model.named_parameters():
             if param_lyrics.requires_grad and not name_lyrics.endswith('classifier.weight') and not name_lyrics.endswith('classifier.bias'):
                 param_lyrics.requires_grad = False        
-    
+        
+        # self.LinearAudio = nn.Linear(256, 128)
         self.Flatten1 = nn.Flatten()  
         self.Linear1 = nn.Linear(self.lyric_output_size+self.audio_output_size, 256)
         self.ReLU1 = nn.ReLU()
@@ -40,6 +41,7 @@ class EnsembleModel(nn.Module):
         
     def forward(self, audio_x, input_ids, attention_mask, labels):
         x1 = self.truncated_audio_model(audio_x)
+        # x1 = self.LinearAudio(x1)
         x2 = self.truncated_lyrics_model(input_ids=input_ids, attention_mask=attention_mask, labels=labels, token_type_ids=None)
         
         max_batch_size = max(x1.size(0), x2.size(0))
