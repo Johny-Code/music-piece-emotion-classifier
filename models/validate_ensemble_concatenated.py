@@ -102,6 +102,8 @@ def validate_model(model_path, audio_model_path, lyric_model_path, lyric_dataset
     draw_confusion_matrix(cfm, label_names, "confusion_matrices/", 
                           filename_prefix=f"{confusion_matrix_prefix}_{test_accuracy:.2f}")
 
+    print(cfm)
+
     os.makedirs("./metrics", exist_ok=True)
     with open(os.path.join("metrics", metrics_file + f"_{test_accuracy:.2f}"),'w') as file:
         with redirect_stdout(file):
@@ -111,8 +113,9 @@ def validate_model(model_path, audio_model_path, lyric_model_path, lyric_dataset
     
     
 if __name__ == "__main__":
-    model_path = "./trained_models/copy2_joint_58.33_lyrics16_256x2_audio_256_last_5_no_dropout_7.pth"
-    name = "joint_concatenated_copy10"
+    # model_path = "./trained_models/copy2_joint_58.33_lyrics16_256x2_audio_256_last_5_no_dropout_7.pth"
+    model_path = "./trained_models/new/new_sept/joint_58.39_82_final.pth"
+    name = "joint_concatenated_copy_newest"
     database_path = "../database/MoodyLyrics4Q_cleaned_split.csv"
     lyrics_dataset_path = "../database/lyrics"
     audio_dataset_path = "../database/melgrams/gray/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray_middle30s_corrected" 
