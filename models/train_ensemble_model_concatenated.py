@@ -23,7 +23,7 @@ from transformers import XLNetTokenizer, XLNetModel, AdamW
 
 def save_checkpoint(model, path, current_accuracy, epoch):
     if current_accuracy > 58.: 
-        torch.save(model.state_dict(), os.path.join(path, f"joint_{current_accuracy}_{epoch}.pth"))
+        torch.save(model.state_dict(), os.path.join(path, f"joint_{current_accuracy}_{epoch}_final.pth"))
 
 
 def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height, img_width, hyperparameters, nb_classes, channels,
@@ -47,7 +47,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
         
     #load ensemble model
     ensembleModel = EnsembleModel(model_audio, custom_xlnet_model, nb_classes, BATCH_SIZE).to(device)
-    optimizer = optim.AdamW(ensembleModel.parameters(), lr=learning_rate, amsgrad=False)#, weight_decay=l2_lambda)
+    optimizer = optim.AdamW(ensembleModel.parameters(), lr=learning_rate, amsgrad=False)
     
     criterion = nn.CrossEntropyLoss()
     transform = ToTensor()
@@ -59,7 +59,7 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     audio_val_loader = DataLoader(audio_val_dataset, batch_size=batch_size, shuffle=False)
     
     #load lyrics models 
-    train_dataset, _, val_dataset = load_dataset(lyrics_dataset_path, database_path, load_full_dataset=True)
+    train_dataset, _, val_dataset = load_dataset(lyrics_dataset_path, database_path, load_full_dataset=True) #not proper val
     tokienizer = XLNetTokenizer.from_pretrained('xlnet-base-cased', do_lower_case = hyperparameters['tokenizer']['do_lower_case'])
     
     train_labels = np.array(train_dataset['mood'].tolist())    
@@ -88,7 +88,8 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
     for epoch in range(epochs):
         ensembleModel.train()
         train_loss = 0.0
-        
+        train_correct = 0
+        train_total = 0
         for (inputs_audio, labels_audio_tensor, labels_audio), (batch_lyrics, labels_lyrics) in zip(audio_train_loader, lyric_train_loader):
             inputs_audio = inputs_audio.to(device)
             labels_audio_tensor = torch.argmax(labels_audio_tensor, dim=1).to(device)
@@ -104,10 +105,14 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
             loss = criterion(outputs, labels_audio_tensor) #for example audio, it really shouldnt matter
             loss.backward()
             optimizer.step()
-                        
+
+            _, predicted = outputs.max(1)
+            train_correct += predicted.eq(labels_audio_tensor).sum().item()   
+            train_total += labels_audio_tensor.size(0)
+
             train_loss += loss.item() * inputs_audio.size(0)
-            
-                     
+
+                    
         ensembleModel.eval()
         
         val_loss = 0.0
@@ -127,20 +132,26 @@ def train_network(path, batch_size, l2_lambda, learning_rate, epochs, img_height
                 outputs = ensembleModel(inputs_audio, input_ids=b_input_ids, attention_mask=b_input_mask, labels=b_labels)
                 loss = criterion(outputs, labels_audio_tensor)
                 val_loss += loss.item() * inputs_audio.size(0)
+    
                 _, predicted = outputs.max(1)
                 total += labels_audio_tensor.size(0)
                 correct += predicted.eq(labels_audio_tensor).sum().item()            
         
         val_accuracy = 100 * correct / total
+        train_accuracy = 100 * train_correct / train_total
+
         val_loss_history.append(val_loss)
         val_accuracy_history.append(val_accuracy)
         
-        print(f"Epoch [{epoch+1}/{epochs}] - Train Loss: {train_loss / len(audio_train_loader.dataset):.4f} - "
-              f"Val Loss: {val_loss / len(audio_train_loader.dataset):.4f} - Val Acc: {val_accuracy:.2f}%")
+        print(f"Epoch [{epoch+1}/{epochs}] - Train Loss: {train_loss / train_total:.4f} "
+              f"Val Loss: {val_loss / total:.4f} - Train Acc: {train_accuracy:.2f}% - Val Acc: {val_accuracy:.2f}%")
 
-        checkpoint_path = "./trained_models/new/"
+        checkpoint_path = "./trained_models/new/new_sept"
         os.makedirs(checkpoint_path, exist_ok=True)
         save_checkpoint(ensembleModel, checkpoint_path, val_accuracy, epoch+1)
+        
+    plot_acc_loss_torch(val_accuracy_history, val_loss_history, "./histories/approach_sept_2")
+
     
     
 if __name__ == "__main__":
@@ -149,10 +160,10 @@ if __name__ == "__main__":
     audio_dataset_path = "../database/melgrams/gray/melgrams_2048_nfft_1024_hop_128_mel_jpg_proper_gray_middle30s_corrected" 
     audio_model_path = "./audio/trained_models/torch/checkpoints7/sarkar_57.53_445.pth"
     lyric_model_path = "./lyric/xlnet/xlnet_2023-09-01_23-29-57.pt"
-    NUM_EPOCHS = 50
-    BATCH_SIZE = 16
+    NUM_EPOCHS = 100
+    BATCH_SIZE =16
     L2_LAMBDA = 1e-3
-    LEARNING_RATE = 1e-5
+    LEARNING_RATE = 5e-6
     NUM_EMBEDDINGS = 256
     IM_WIDTH = 1292
     IM_HEIGHT = 128
