@@ -39,6 +39,7 @@ def load_lyric_dataset(input_path, MoodyLyric4Q_cleaned_splited):
             id = song_info['id']
             if not (id in MoodyLyric4Q_cleaned_splited.index):
                 print(f"Song {id} is duplicated. ")
+                split = None
                 continue
             else:
                 #get split form MoodyLyric4Q_cleaned_splited

@@ -15,11 +15,13 @@ database/fasttext/*
 # Models and history
 models/audio/history/*
 models/audio/best_models/*
+models/audio/sarkar/*
 models/lyric/fasttext_models/*
 models/lyric/history/*
 models/lyric/feature_based/*
 models/lyric/fasttext/*
 models/lyric/xlnet/*
+models/ensemble/*
 logs/*
 
 # Distribution / packaging

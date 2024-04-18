@@ -74,9 +74,9 @@ def train_fasttext(hyperparams):
 
     _, precision, recall = model.test(hyperparams['valid'])
 
-    print(f'Test set precision: {precision}')
-    print(f'Test set recall: {recall}')
-    print(f'Test set F1-score: {2 * (precision * recall) / (precision + recall)}')
+    print(f'Valid set precision: {precision}')
+    print(f'Valid set recall: {recall}')
+    print(f'Valid set F1-score: {2 * (precision * recall) / (precision + recall)}')
 
     return model
 
@@ -138,17 +138,21 @@ def create_dataset(replace_newline):
     print(f'Valid dataset size: {len(valid_dataset)}')
     print(f'Test dataset size: {len(test_dataset)}')
 
-    return output_path_train, output_path_valid, output_path_test, test_dataset
+    return output_path_train, output_path_valid, output_path_test, test_dataset, valid_dataset
 
 def simple_run(hyperparams):
 
     start = time.time()
-    hyperparams['train'], hyperparams['valid'], hyperparams['test'], test_dataset = create_dataset(hyperparams['replace_newline'])
+    hyperparams['train'], hyperparams['valid'], hyperparams['test'], test_dataset, valid_dataset = create_dataset(hyperparams['replace_newline'])
     end = time.time()
     print(f'Creating dataset took {round((end - start), 2)} seconds')
 
     model = train_fasttext(hyperparams)
 
+    print('Testing on val dataset')
+    test_fasttext(valid_dataset, model)
+
+    print('Testing on test dataset')
     test_fasttext(test_dataset, model)
 
 if __name__ == '__main__':
