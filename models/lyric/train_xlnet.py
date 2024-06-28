@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 
-sys.path += ['tools/', '../../tools/', 'implementation/dataset', 'implementation']
+sys.path += ['tools/', '../../tools/', 'models/lyric/implementation', "models/lyric/implementation/dataset"] # 'implementation/dataset', 'implementation',
 from CustomLyricTensorDataset import CustomLyricTensorDataset
 from XLNetForMultiLabelSequenceClassification import XLNetForMultiLabelSequenceClassification
 from extract_features_from_lyric import load_en_dataset, clean_lyric, load_full_lyric_dataset
@@ -253,8 +253,10 @@ def test_model(model,test_dataloader):
 
 
 def simple_run(hyperparameters):
-    dataset_path = os.path.join('../../', 'database', 'lyrics')
-    database_path = os.path.join('../../database', 'MoodyLyrics4Q_cleaned_split.csv')
+    # dataset_path = os.path.join('../../', 'database', 'lyrics')
+    dataset_path = os.path.join('../', 'database', 'lyrics')
+    # database_path = os.path.join('../../database', 'MoodyLyrics4Q_cleaned_split.csv')
+    database_path = os.path.join('database', 'MoodyLyrics4Q_cleaned_split.csv')
 
     train_dataset, test_dataset, val_dataset = load_dataset(dataset_path, database_path)
     
@@ -295,7 +297,10 @@ def simple_run(hyperparameters):
 
     print(df_stats)
 
+    #testing model on test dataset
     test_model(model, test_dataloader)
+
+
 
 
 if __name__ == '__main__':
@@ -317,7 +322,7 @@ if __name__ == '__main__':
                             'model':{
                                 'num_labels': 4,
                                 'batch_size': 64, #sould be 32
-                                'lr': 2e-5,
+                                'lr': 1e-5,
                                 'weight_decay': 0.01,
                                 'correct_bias': False,
                                 'epochs': 4,
@@ -338,11 +343,16 @@ if __name__ == '__main__':
                             }
                             }
         
-        path_to_model = os.path.join('models', 'lyric', 'xlnet', 'xlnet_2023-09-02_10-41-03.pt')
+        # path_to_model = os.path.join('models', 'lyric', 'xlnet', 'xlnet_2023-09-02_10-41-03.pt')
+        path_to_model = os.path.join('models', 'lyric', 'xlnet', 'xlnet_2023-09-01_18-29-23.pt')
+        
         model = load_model(path_to_model)
         
-        dataset_path = os.path.join('../../', 'database', 'lyrics')
-        database_path = os.path.join('../../database', 'MoodyLyrics4Q_cleaned_split.csv')
+        # dataset_path = os.path.join('../../', 'database', 'lyrics')
+        dataset_path = os.path.join('../', 'database', 'lyrics')
+        # database_path = os.path.join('../../database', 'MoodyLyrics4Q_cleaned_split.csv')
+        database_path = os.path.join('database', 'MoodyLyrics4Q_cleaned_split.csv')
+
 
         _, test_dataset, _ = load_dataset(dataset_path, database_path)
 
@@ -360,7 +370,28 @@ if __name__ == '__main__':
                                                                                  hyperparameters,
                                                                                  test_dataset['mood'].index.values.tolist())
 
+        print("Testing model on english dataset")
         test_model(model,test_dataloader)
+
+        print('---------------------')
+        print('Testing model on full dataset')
+
+        _, full_dataset, _ = load_dataset(dataset_path, database_path, load_full_dataset=True)
+        full_dataset_test_labels = np.array(full_dataset['mood'].tolist())
+        full_dataset_test_input_ids = tokenize_inputs(hyperparameters, full_dataset['lyric'].tolist(), tokienizer)
+        full_dataset_test_attention_masks = create_attention_masks(full_dataset_test_input_ids)
+
+        full_dataset_test_input_ids, full_dataset_test_attention_masks, full_dataset_test_labels = to_tensor(full_dataset_test_input_ids,
+                                                                                                             full_dataset_test_attention_masks,
+                                                                                                             full_dataset_test_labels)
+
+        full_dataset_test_dataset, full_dataset_test_dataloader = to_custom_tensorDataset_dataLoader_tuple(full_dataset_test_input_ids,
+                                                                                                           full_dataset_test_attention_masks,
+                                                                                                           full_dataset_test_labels,
+                                                                                                           hyperparameters,
+                                                                                                           full_dataset['mood'].index.values.tolist())
+        
+        test_model(model, full_dataset_test_dataloader)
     
     elif args.grid_search:
         do_lower_case = [True, False]
